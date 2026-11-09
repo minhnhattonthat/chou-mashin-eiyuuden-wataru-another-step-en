@@ -1,0 +1,8 @@
+# Cold boot: skip intro FMV, through title. PS1 route: "FRAMES BUTTONS".
+1500 -
+6 start
+300 -
+6 start
+300 -
+6 circle
+600 -

@@ -1,2 +1,2 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+# SHA-1 of the supported dump (Redump: Chou Mashin Eiyuuden Wataru - Another Step (Japan)), sha1sum format.
+c2c044d17f5235ff8a419d554b2dd3ab82db2161  rom/Chou Mashin Eiyuuden Wataru - Another Step (Japan).bin
