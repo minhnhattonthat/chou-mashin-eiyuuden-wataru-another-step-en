@@ -12,4 +12,8 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| text.md | 16-bit encoding, fonts, room message banks + bank pointer tables, other text files | encoding + R00 banks verified; other pointer formats open |
+| files.md | disc layout, identity rebuild, formats, RAM map / free-space candidates | identity verified; free space guessed |
+| graphics.md | graphics-text survey | partial (tour to first dialogue; static CHG sweep to do) |
+
+Recon helpers in `tools/`: `sjisscan.py`, `msgscan.py`, `peek.py`, `fontview.py`, `mktbl.py`, `lua/ptrlog.lua`.
