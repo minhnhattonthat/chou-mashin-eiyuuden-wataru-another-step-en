@@ -2,9 +2,18 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G11, G16; drawn, not yet seen in game:
-  G12, G17, G18). Phase 7 done (2026-11-14): full English build, overflow empty, all 46 warp scenes reach.
+- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G11, G16, G19; drawn, not yet seen in
+  game: G12, G17, G18; G23 RE done, redraw next). Phase 7 done (2026-11-14): full English build, overflow empty, all
+  46 warp scenes reach.
 - **Done:**
+  - Phase 8, session 3 (2026-11-14): **G19** done, verified in scene mashin_attack (VS card + menu): labels Fight /
+    Heal / Spirit / Special (one png in all 18 STS files: 攻撃/回復 cells stay 32 px, u56+ is the gauge-pip strip
+    MACHINE 0x173E2 and MP, so "Attack" can't fit; Fight matches the ball-battle command), VS-card names per file
+    (`gfx_gen.STS_NAMES`, `fit_stone` condenses to the rect; STS_03 player = Super Funny Cool Squad in its 192x24
+    record set). tpage 0x0E (names) is overwritten by MBEXT_05-07 at (832,0) and by the menu strips: names only on
+    the VS card. **G23 RE**: FD_STS atlas is a glyph sheet and every field-menu/status label is static per-glyph
+    sprite records in FDS.BIN 0x12530.. (graphics.md G23 has the layout and the redraw plan). New `tools/prims.py`
+    (GPU sprite packets in a RAM dump, by CLUT row); `gfx.py show` takes `rHEX`. Build sha1 f2db47da..., 105 tests.
   - Phase 8, session 2 (2026-11-14): G11 shop (FD_SHP.PX: ｶﾞﾝﾎﾞ/個/合計 -> Ganbo / pcs / Total, FDS.BIN records
     0x171C6/0x171D4 re-cut; verified in scene shop), G12 IQ (HIT_MAIN labels Hit / Blow / Tries [digit]; HIT + KIO
     LOSE! / WIN + !, `put_stone`), G17 OTHER11 bubbles Sorry♥ / Bam!, G18 ENE09 No / Signal (`recolor` wipes the
@@ -147,11 +156,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
-     can't run Python, Orca refuses nested workers): G19 mashin status (18 STS files, (896,0) 4bpp 512 px wide =
-     tpages 0x0E/0x0F, palettes raw in the 0x400 header; command labels 攻撃/回復/気合い/必殺技 drawn in the mashin
-     menu (scene mashin_attack), MACHINE.BIN tpage-0x0F records 0x1671C-0x1679A clut (208,496) look like them
-     (攻撃 u24 v128 32x16, 回復 u24 v144, 気合い+必殺技 u24 v160 48x32): confirm with a VRAM dump, check the 18 copies
-     are identical, find free atlas space for wider English; mashin names per file), G20 banners (notes in
+     can't run Python, Orca refuses nested workers): **G23 field menu/status first** (plan in graphics.md G23: map
+     FDS.BIN 0x12530.. records to words per screen with scenes menu, menu_status, menu_equip, menu_monpet,
+     menu_item; party names from the glossary; also 第01話 chapter label, ｹﾞﾝﾎﾞ money unit, window titles),
+     G19 leftovers: VS cards of episodes 2-14 assumed to use the ep1 record layout (spot-check one later matchup with
+     a poke of the battle id if one is found), G20 banners (notes in
      graphics.md: look at the special-move animation first), G23 field menu/status (FD_STS; its tail is not an
      upload chain: VRAM-dump the menu scene), G9 memory card (MEM_01, largest), G5 area/chapter cards (SBTCHAR,
      8bpp, scenes ep00-ep14), G6 episode title captions (SUBTTL glyph atlas + SBTTL.BIN sprite lists: re-cut per
