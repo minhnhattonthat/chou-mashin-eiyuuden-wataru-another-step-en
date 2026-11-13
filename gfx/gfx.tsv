@@ -89,3 +89,6 @@ OUT/SBT_atlas.png	OUT/SBTCHAR.CHG	208	4	OUT/SBTCHAR.CHG	0	4	0,0,256,256
 OUT/SUB_0C.png	OUT/SUBTTL.CHG	208	4	OUT/SUBTTL.CHG	r8	0	0,0,256,256
 OUT/SUB_0D.png	OUT/SUBTTL.CHG	8210	4	OUT/SUBTTL.CHG	r8	0	0,0,256,256
 OUT/SUB_1C.png	OUT/SUBTTL.CHG	10218	4	OUT/SUBTTL.CHG	r8	0	0,0,256,256
+# G9 memory card: MEM_01.CHG image 0x2510 = tpages 0x0A-0x0E (png x = 256 (tp - 0x0A) + u), CLUT raw at 0x2310 palette 13
+# (text 0x7C0D); messages re-cut by gfx.mem_recs (PRG/MEMORY.BIN lists), strips by gfx.mem_layout
+PRG/MEM_atlas.png	PRG/MEM_01.CHG	2510	4	PRG/MEM_01.CHG	r2310	13	0,0,1280,256

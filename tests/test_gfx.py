@@ -97,6 +97,22 @@ def test_staff_roll():
     assert not any(staff.px(b, a, k) for a in range(16) for k in range(16)), "cell 0 not blank"
 
 
+def test_memcard():
+    """G9: every JP line of every listed message gets one English line, strips don't overlap and stay in the freed
+    rows, no other text record cuts a freed row, and the in-place cells are outside them."""
+    d = gfx.load(gfx.MEM)
+    recs = gfx.mem_recs(d)  # asserts line counts per list
+    assert len({off for _, off, *_ in recs}) == len(recs), "a record patched twice"
+    gfx.mem_check(d)
+    cells = sorted((tp, v + 16 * i, u, w) for t, (tp, u, v, w) in gfx.mem_layout(d).items() for i in range(len(t)))
+    for a, b in zip(cells, cells[1:]):
+        assert a[:2] != b[:2] or a[2] + a[3] <= b[2], ("strips overlap", a, b)
+    for tp, v, u, w in cells:
+        assert any(f[0] == tp and f[2] == v and f[1] <= u and u + w <= f[1] + f[3] for f in gfx.MEM_FREE), (tp, u, v)
+    for tp, u, v, w, *_ in gfx.MEM_INPLACE:
+        assert not any(f[0] == tp and f[2] == v and u < f[1] + f[3] and f[1] < u + w for f in gfx.MEM_FREE)
+
+
 def test_recs_original():
     for path, off, fmt, old, new, why in gfx.RECS:
         assert struct.unpack_from(fmt, gfx.load(path), off) == old, why

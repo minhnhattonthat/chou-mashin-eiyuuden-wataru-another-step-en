@@ -395,6 +395,182 @@ def cap_recs(d):
     return out
 
 
+# G9 memory-card screen (PRG/MEM_01.CHG image block 0x2510 = tpages 0x0A-0x0E, CLUT raw at 0x2310 palette 13):
+# PRG/MEMORY.BIN MEM_LISTS holds one sprite list per message (REC records, text CLUT 0x7C0D, box 0x7C0C; lists are
+# runs of contiguous records). A message line is one atlas strip or pieces of several (メモリーカード + が + ...).
+# English: one Spleen 6x12 strip per line (white 1, drop shadow 14 like the JP) packed into MEM_FREE; the line's
+# leftmost record cuts it (centred lines stay centred), the others get w = h = 0. A record taller than 16 cuts a
+# block of lines: its English lines are stacked at one u. はい / いいえ and the 第 話 frame are redrawn in place.
+MEM = "PRG/MEMORY.BIN"
+MEM_LISTS = (0x3BF4, 0x5470)
+MEM_TEXT = 0x7C0D
+MEM_FREE = ([(0x0A, 0, v, 256) for v in range(0, 256, 16)] + [(0x0B, 0, v, 152) for v in range(0, 48, 16)] +
+            [(0x0B, 0, v, 256) for v in range(48, 256, 16)] + [(0x0C, 0, v, 176) for v in range(0, 64, 16)] +
+            [(0x0C, 0, v, 256) for v in range(64, 256, 16)] + [(0x0E, 0, v, 256) for v in range(0, 176, 16) if v != 48] +
+            [(0x0E, 72, 48, 184)] + [(0x0E, 128, v, 128) for v in range(176, 256, 16)])  # tp, u, v, w; 16 tall
+MEM_RIGHT = 136  # right end of the widest JP line (0x5148: x -120, 256 wide)
+MEM_INPLACE = [(0x0D, 216, 160, 32, "Yes", "c"), (0x0D, 176, 224, 48, "No", "c"),
+               (0x0B, 152, 16, 48, "Ep.", 16)]  # tp, u, v, w, text, "c" = centred / n = right end at u + n
+_MC = "the Memory Card"
+MEM_EN = {  # list offset: (JP lines, English lines top to bottom; "" = line not drawn)
+    0x3BF4: ("セーブ", ["Save"]), 0x3C20: ("ロード", ["Load"]), 0x3C4C: ("プロローグ", ["Prologue"]),
+    0x3F88: ("もんじゃ村", ["Monja Village"]), 0x3FB4: ("コンビニ村", ["Konbini Village"]),
+    0x3FE0: ("ガンボづくし村", ["Ganbozukushi Village"]), 0x400C: ("カネワローン", ["Kanewa Loans"]),
+    0x4038: ("エキストラタウン", ["Extra Town"]), 0x4064: ("キャラクターシティ", ["Character City"]),
+    0x4090: ("ケイコータウン", ["Keiko Town"]), 0x40BC: ("ビリビリタウン", ["Biribiri Town"]),
+    0x40E8: ("アイドリアンシティ", ["Idorian City"]), 0x4114: ("下水道", ["Sewers"]),
+    0x4140: ("サウンドエコー村", ["Sound Echo Village"]), 0x416C: ("ワルトリン城", ["Warutorin Castle"]),
+    0x4198: ("アスリート村", ["Athlete Village"]), 0x41C4: ("アスレチック村", ["Athletic Village"]),
+    0x41F0: ("ハナヨメ村", ["Bride Village"]), 0x421C: ("ハナヨメキャッスル", ["Bride Castle"]),
+    0x4248: ("サビレータウン", ["Sabire Town"]), 0x4274: ("ワルジョの城", ["Warujo's Castle"]),
+    0x42A0: ("魔神湯治場", ["Mashin Spa"]), 0x42CC: ("ムキリョク村", ["Mukiryoku Village"]),
+    0x42F8: ("ワルモンダー城Ａ", ["Warumonder Castle A"]), 0x4324: ("ワルモンダー城 + Ｄ", ["Warumonder Castle D"]),
+    0x4378: ("ファイル1", ["File 1"]), 0x4394: ("ファイル2", ["File 2"]), 0x43B0: ("ファイル3", ["File 3"]),
+    0x43CC: ("ファイル4", ["File 4"]),
+    0x4430: ("セーブするファイルを / 選んで下さい。", ["Select the file", "to save to."]),
+    0x4478: ("セーブ中です。 / メモリーカードを / ぬかないで下さい。", ["Saving...", "Please do not remove", _MC + "."]),
+    0x44CC: ("セーブを終了しました。", ["Save complete."]),
+    0x4504: ("メモリーカードがいっぱいです。", ["The Memory Card is full."]),
+    0x453C: ("不要なファイルを消してから / セーブして下さい。", ["Delete files you don't need,", "then save."]),
+    0x4584: ("メモリーカードが / さしこまれていません。", ["No Memory Card", "is inserted."]),
+    0x45CC: ("メモリーカードをさしてから / セーブして下さい。", ["Insert a Memory Card,", "then save."]),
+    0x4614: ("ロードするファイルを / 選んで下さい。", ["Select the file", "to load."]),
+    0x465C: ("ロード中です。 / メモリーカードを / ぬかないで下さい。", ["Loading...", "Please do not remove", _MC + "."]),
+    0x46B0: ("ロードしました。", ["Load complete."]),
+    0x46E8: ("メモリーカードが / さしこまれていません。", ["No Memory Card", "is inserted."]),
+    0x4730: ("メモリーカードをさしてから / ロードして下さい。", ["Insert a Memory Card,", "then load."]),
+    0x4778: ("メモリーカードがいっぱいです。 / このままつづけると / ゲーム中にセーブできません。",
+             ["The Memory Card is full.", "If you go on, you won't be", "able to save in the game."]),
+    0x47CC: ("メモリーカードに / 空きをつくってから / ゲームを立ちあげて下さい。",
+             ["Make some room on", _MC + ", then", "restart the game."]),
+    0x4874: ("炎部ワタル / 剣部アラゴト / 忍部サクヤ", ["Wataru", "Aragoto", "Sakuya"]),
+    0x492A: ("炎部ワタル / ワルリーヌ / 忍部サクヤ", ["Wataru", "Warurine", "Sakuya"]),
+    0x49E2: ("炎部ワタル / 剣部アラゴト / ワルリーヌ", ["Wataru", "Aragoto", "Warurine"]),
+    0x4E70: ("メモリーカードが壊れています。 / 別のメモリーカードをセットして / ください。",
+             ["The Memory Card is damaged.", "Please insert a different", "Memory Card."]),
+    0x4EA8: ("メモリーカード + を / フォーマット + 中です。", ["Formatting", _MC + "..."]),
+    0x4F0C: ("メモリーカード + を / チェック + 中です。", ["Checking", _MC + "..."]),
+    0x4FA0: ("どのファイルにセーブしますか？", ["Which file do you want to save to?"]),
+    0x4FD8: ("どのファイルをロードしますか？", ["Which file do you want to load?"]),
+    0x5030: ("すでにメモリーカード上に / ファイルが存在します。", ["A file already exists", "on " + _MC + "."]),
+    0x50A0: ("上書きしてよろしいですか？", ["Overwrite it?"]),
+    0x50D8: ("メモリーカードがフォーマット / されていません。", ["The Memory Card", "is not formatted."]),
+    0x5148: ("フォーマットしてよろしいですか？", ["Format it?"]),
+    0x51B8: ("データの書き込みに失敗しました。 / もう１度セーブ + しますか？", ["Failed to save the data.", "Try saving again?"]),
+    0x5244: ("データの + 読み + 込みに失敗しました。 / もう１度 + ロード + しますか？",
+             ["Failed to load the data.", "Try loading again?"]),
+    0x537C: ("メモリーカード + の + データ + が + 壊れています。 / データ + を + ロード + できません。",
+             ["The data on " + _MC + " is damaged.", "It can't be loaded."]),
+    0x5424: ("メモリーカード + の + データ + が + 壊れています。", ["The data on " + _MC + " is damaged."]),
+}
+
+
+def mem_lists(d):
+    """{list offset: [(record offset, REC tuple)..]}: runs of contiguous memory-card sprite records."""
+    out, o, start = {}, MEM_LISTS[0], None
+    while o < MEM_LISTS[1]:
+        r = struct.unpack_from(REC, d, o)
+        if 0x0A <= r[0] <= 0x0E and r[1] in (0x7C0C, MEM_TEXT):
+            if start is None:
+                start = o
+                out[o] = []
+            out[start].append((o, r))
+            o += 14
+        else:
+            start, o = None, o + 2
+    return out
+
+
+def mem_w(text):
+    """Width put_bdf draws `text` at in Spleen 6x12 with the 1-px drop shadow."""
+    return bdf_w(text) - 1
+
+
+def bdf_w(text):
+    import gfx_gen
+    return gfx_gen.bdf_width(text)
+
+
+def _mem_lines(recs):
+    """Text records grouped by line (y), top first: [(y, [(offset, rec)..])]; a 32/48-tall record opens a block."""
+    lines = {}
+    for o, r in recs:
+        if r[1] == MEM_TEXT:
+            lines.setdefault(r[7], []).append((o, r))
+    return sorted(lines.items())
+
+
+def _mem_blocks(d):
+    """[(list offset, [(lead record, English lines, centred)..])]: per line, or per block for a tall record."""
+    lists = mem_lists(d)
+    out = []
+    for lo, (jp, en) in MEM_EN.items():
+        lines = _mem_lines(lists[lo])
+        n = sum(max(r[5] for _, r in ln) // 16 for _, ln in lines)
+        assert n == len(en), (hex(lo), jp, n)
+        k, items = 0, []
+        for y, ln in lines:
+            o, r = min(ln, key=lambda q: q[1][6])
+            m = r[5] // 16
+            assert m == 1 or len(ln) == 1, (hex(lo), "block shares its line")
+            centred = len(lines) == 1 and len(ln) == 1 and abs(r[6] + r[4] // 2) <= 4
+            items.append(((o, r), en[k:k + m], centred, ln))
+            k += m
+        out.append((lo, items))
+    return out
+
+
+def mem_layout(d):
+    """{tuple of English lines: (tp, u, v, w)}: blocks (stacked lines) first, then single lines, widest first."""
+    free = [list(f) for f in MEM_FREE]
+    out = {}
+    want = {tuple(t) for _, items in _mem_blocks(d) for _, t, _, _ in items if any(t)}
+    for t in sorted(want, key=lambda t: (-len(t), -max(mem_w(s) for s in t if s), t)):
+        w = max(mem_w(s) for s in t if s)
+        for f in free:
+            col = [next((g for g in free if g[0] == f[0] and g[1] == f[1] and g[2] == f[2] + 16 * i and g[3] >= w), None)
+                   for i in range(len(t))]
+            if all(col):
+                break
+        else:
+            raise StopIteration("memory-card atlas full: " + str(t))
+        out[t] = (f[0], f[1], f[2], w)
+        for g in col:
+            g[1] += w
+            g[3] -= w
+    return out
+
+
+def mem_recs(d):
+    """gfx.RECS-style entries for the G9 messages, checked against the original MEMORY.BIN bytes `d`."""
+    lay = mem_layout(d)
+    out = []
+    for lo, items in _mem_blocks(d):
+        for (lead, r), t, centred, ln in items:
+            for o, q in ln:
+                if o == lead and any(t):
+                    tp, u, v, w = lay[tuple(t)]
+                    x = -(w // 2) if centred else r[6] + 4 * (r[6] == -120)  # box lines: off the border
+                    assert x + w <= MEM_RIGHT, (t, x, w)
+                    new = (tp, q[1], u, v, w, 16 * len(t), x, q[7])
+                else:
+                    new = q[:4] + (0, 0) + q[6:]
+                out.append((MEM, o, REC, q, new, "memcard " + (t[0] or "-")))
+    return out
+
+
+def mem_check(d):
+    """No record left alone (or any other text record in MEMORY.BIN) cuts a freed atlas row."""
+    done = {o for _, o, *_ in mem_recs(d)}
+    for o in range(0, len(d) - 13, 2):
+        r = struct.unpack_from(REC, d, o)
+        if o in done or not (0x0A <= r[0] <= 0x0E and r[1] == MEM_TEXT and r[4] and r[5]):
+            continue
+        for tp, u, v, w in MEM_FREE:
+            assert not (r[0] == tp and r[2] < u + w and u < r[2] + r[4] and r[3] < v + 16 and v < r[3] + r[5]), \
+                (hex(o), r)
+
+
 def rows():
     out = []
     for line in (GFX / "gfx.tsv").read_text(encoding="utf-8").splitlines():
@@ -518,7 +694,8 @@ def apply(put, bufs, orig, load_path):
             put(bufs, orig, p, k, bytes(buf[k:e]), "gfx " + r["png"])
             k = e
     sb = orig[load_path(SBT)]
-    for path, off, fmt, old, new, why in RECS + fm_recs(orig[load_path(FDS)]) + sbt_recs(sb) + cap_recs(sb):
+    for path, off, fmt, old, new, why in (RECS + fm_recs(orig[load_path(FDS)]) + sbt_recs(sb) + cap_recs(sb) +
+                                          mem_recs(orig[load_path(MEM)])):
         p = load_path(path)
         assert struct.unpack_from(fmt, orig[p], off) == old, (path, hex(off), why)
         put(bufs, orig, p, off, struct.pack(fmt, *new), "gfx rec " + why)
@@ -542,7 +719,7 @@ def spans(path):
             a = r["off"] + 8 + y * bpr + (x0 if r["bpp"] == 8 else x0 // 2)
             out.append((a, a + (w if r["bpp"] == 8 else (w + 2) // 2)))
     out += [(off, off + struct.calcsize(fmt)) for p, off, fmt, *_ in RECS + fm_recs(load(FDS)) + sbt_recs(load(SBT))
-            + cap_recs(load(SBT)) if p == path]
+            + cap_recs(load(SBT)) + mem_recs(load(MEM)) if p == path]
     import staff
     return out + (staff.spans() if path == staff.PATH else [])
 

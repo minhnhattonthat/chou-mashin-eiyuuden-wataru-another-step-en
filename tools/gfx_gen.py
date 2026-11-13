@@ -396,8 +396,29 @@ def captions():
         img.save(gfx.GFX / "en" / png)
 
 
+def memcard():
+    """G9 memory card: freed rows cleared, one stack of English lines per strip (gfx.mem_layout), white (1) Spleen
+    6x12 with the dark drop shadow (14) like the JP glyphs; はい / いいえ / 第 話 redrawn in place."""
+    png = "PRG/MEM_atlas.png"
+    img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+    lut = lut_of(png)
+    clear(img, *[(256 * (tp - 0x0A) + u, v, w, 16) for tp, u, v, w in gfx.MEM_FREE])
+    for t, (tp, u, v, w) in gfx.mem_layout(gfx.load(gfx.MEM)).items():
+        for i, s in enumerate(t):
+            if s:
+                r = (256 * (tp - 0x0A) + u, v + 16 * i, w, 16)
+                put_bdf(img, lut, r, s, "spleen-6x12.bdf", 1, None, align="left", trim=False, shadow=14)
+    for tp, u, v, w, s, al in gfx.MEM_INPLACE:
+        x = 256 * (tp - 0x0A) + u
+        clear(img, (x, v, w, 16))
+        sw = gfx.mem_w(s)
+        r = (x, v, w, 16) if al == "c" else (x + al - sw, v, sw, 16)
+        put_bdf(img, lut, r, s, "spleen-6x12.bdf", 1, None, align="center", trim=False, shadow=14)
+    img.save(gfx.GFX / "en" / png)
+
+
 GROUPS = {"title": title, "battle": battle, "shop": shop, "iq": iq, "bubbles": bubbles, "mashin": mashin,
-          "fmenu": fmenu, "cards": cards, "captions": captions}
+          "fmenu": fmenu, "cards": cards, "captions": captions, "memcard": memcard}
 
 if __name__ == "__main__":
     for g in sys.argv[1:] or GROUPS:

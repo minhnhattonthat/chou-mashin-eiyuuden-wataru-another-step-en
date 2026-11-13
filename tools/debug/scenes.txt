@@ -43,6 +43,8 @@ menu_status ep=1 idle=1 press=12:triangle,150:-,12:down,40:-,12:down,40:-,12:dow
 menu_config ep=1 idle=1 press=12:triangle,150:-,12:down,40:-,12:down,40:-,12:down,40:-,12:down,40:-,12:circle,90:- atstate=9 hold=120
 shop ep=1 idle=1 poke=8009C788:A:2,8009C85A:0:2 atstate=0xA hold=300      # field state 0xA: shop (FD_SHP font)
 save ep=1 idle=1 mode=0x10 atmode=0x10 hold=900                             # memory card save screen (MEMORY.BIN)
+save_slot ep=1 idle=1 mode=0x10 atmode=0x10 press=300:-,12:circle,240:-,12:circle,600:-,12:circle,300:- hold=900 every=30  # save into file 1 of the blank card: confirm, saving, done, then the filled slot (G9)
+save_ep3 ep=3 idle=1 mode=0x10 atmode=0x10 press=300:-,12:circle,240:-,12:circle,600:-,12:circle,300:- hold=300  # as save_slot in episode 3: slot shows the Ep. NN frame (G9)
 battle_ball ep=1 idle=1 mode=6 atmode=6 hold=900                            # BALLBAT battle
 battle_menu ep=1 idle=1 mode=6 press=1500:-,12:down,30:-,12:down,30:-,12:circle,300:- atmode=6 hold=300 every=100 frames=16000  # battle command menu, cursor on アイテム (G16 commands); with no battle items circle opens nothing (inventory RAM not found yet)
 battle_item ep=1 idle=1 poke=800A3510:2010101:4,800A3514:4010301:4,800A3530:2010101:4,800A3548:2010101:4,800A354C:4010301:4 mode=6 press=1500:-,12:down,30:-,12:down,30:-,12:circle,300:- atmode=6 hold=300 every=100 frames=16000  # battle アイテム list: field inventories 0x800A3510/3530/3548 (u16 idx<<8|count, BALLBAT 0x800D5A10 builds 0x80101478 from them) poked
