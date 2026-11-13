@@ -2,17 +2,24 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: in progress. Phase 6 done (2026-11-14): 5,820 entries translated, check clean,
-  every batch's latest review has no Critical/Important except the cut names deferred to phase 7 (b002 ENE, b007
-  MACHINE:103B8: docs/polish.md "cut" lines; work/tl/review_verdicts.tsv). Phase-6 review (.harness) fixed: translator
-  NEW TERMs in the glossary (+45 rows), drift fixed (hand11-13), kana/kanji item aliases (names.py ALIASES), Harley,
-  Waruwaru Fire, names.py anchors, D12-D16, translator-brief notes + CUT line; tl_codex review now re-feeds earlier
-  rounds' Critical/Important.
-  First job: the build still withholds English (insert.py: "792 common pairs, MSG_CG has 189 free codes: English
-  withheld, marker build"; room fonts likely over too) -> font/pair-code capacity, then work/overflow.tsv (English
-  longer than its JP slot) and the phase-7 items listed under Next. Last build: build/wataru_en.bin sha1 6bebf36b...
-  (2026-11-14, marker build), smoke ok.
+- **Phase:** 8. QA in the emulator: not started. Phase 7 done (2026-11-14): full English build, work/overflow.tsv
+  empty, check clean (97 tests: batch lint incl. control codes + ST slot length, romdiff of every write), all 46 warp
+  scenes reach on the English build. Phase-7 re-review of the refitted ST batches (codex): no Critical, Important
+  fixed or waived (work/tl/review_verdicts.tsv).
 - **Done:**
+  - Phase 7 (2026-11-14): runtime pair composer (LoadImage hook, tools/compose.py) instead of pre-rendered pairs;
+    room text re-laid per bank/NPC unit (tools/roompack.py); EXE/PRG strings relocated (tools/strpack.py: EXE zero
+    run ends 0x80098C2C, the last 20 bytes are live: strings there froze the title; TTL re-laid as a pool). **ST is
+    not relocatable**: its strings are C local arrays copied into JP-sized stack buffers (moved ones showed garbage
+    in the IQ battle), so ST English fits its JP word count (batches.py lint; 127 lines refit by codex fix).
+    Mashin menu strips in English (insert.STRIP_ROWS: Slash/Stab, specials, Retry/Quit; scenes mashin_special,
+    mashin_lose retimed). もんペット moves use the 8x16 font at code + 14 (insert.FDS_BF, "Bubble Jet" verified).
+    Battle-font space is a blank cell (0 ended header names at the first space); ENE06 Combat Doll header starts in
+    the ename slack before it. LVUP digits print at the JP blank cells: line 4 laid out "Wataru: Level  NN!"
+    (verified Wataru, Sakuya; Aragoto's cell 8-9 assumed from the JP layout). Code-built room blocks (R08 0x163C0,
+    R13 0x16780, R14 0x1BCA0) fixed in place: 13 pages tightened (hand14). BALLBAT 21F04 keeps blank cells 5-6.
+    TTL labels fit 13 letters (no column move needed). Last build: build/wataru_en.bin sha1 c77e88ea... (2026-11-14),
+    smoke ok, warp_all 46/46, states in work/states/.
   - Phase 6, session 2 (2026-11-14): revise round 1 on the last 10 batches; review rounds 2-6 (codex) on every
     revised batch, Critical/Important fixed by codex revise or by hand (work/tl/handN.tsv/.out.tsv = hand-fix
     batches merged with `batches.py merge handN --overwrite`). Kanji misreads fixed in tbl/kanji_rows.txt (re-extract
@@ -109,22 +116,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase-2 RE: SysMode table (0x8009C7FC), episode index 0x8009C90C (0-14; 12 and 13 share R13.BIN; 15 = ending),
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
-- **Next (phase 7: insert, fit, check, `references/pipeline.md` §Checks):**
-  1. Get English into the build: pair-code capacity per font context (792 common pairs vs 189 free MSG_CG codes;
-     room fonts too): more glyph slots, fallback single-letter cells, or fewer shared pairs. Then the overflow list
-     (work/overflow.tsv) and the items below. Done when the build is green: width/overflow lint clean, control codes
-     matched, romdiff shows no writes outside allowed ranges.
-  2. Text edits after phase 6: change English through a batch (`batches.py merge NAME --overwrite`, a handN batch for
-     hand fixes) so the check runs; after a table name change `tools/names.py --apply` then `batches.py terms`.
-  Known draft gaps: BALLBAT messages with inner blank cells (ステータス　　を受けない: an icon or name is drawn
-  there?) were translated without the blanks: check in game (phase 7/8). LVUP line 4: the level number prints into
-  the JP blank cells (cols 7-8): English "Wataru reached level    !" puts the gap elsewhere: phase 7 must find
-  where the digits go. TTL config labels may be 14 letters: phase 7 moves the value column x 112 -> 128.
-  Phase-7 items already known (do not block phase 6): text longer than its JP slot (grow banks: bank pointers, NPC
-  u32 arrays, text.md; menu pointers; fixed tables); fallback single-letter cells when a font context overflows;
-  mashin strip relayout (windows.md); banner/bfont names past their JP cells (relocate via their u32 / record
-  tables); monpet attack names as one 2x-wide letter per cell; MACHINE glyph lists 0x1761C/0x17630/0x17648 and FDS
-  name-entry grid 0x18468 (data, not in script/ yet); free RAM that survives battles (0x80128800-0x80148000 is free
-  outside battles only, files.md). Phase 8: graphics rows (G1-G24, incl. STAFF.BIN credits, FMV, FK stills).
+- **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
+  1. Graphics rows G1-G24 (docs/re/graphics.md; title menu G4, memory card G9, battle commands G16, mashin status
+     G19, field menu/status G23, chapter cards G5/G6, STAFF.BIN credits, FMV check): one pilot group, then parallel
+     graphics agents. Then routes + contact sheets with visual-QA verdicts (`qa_gate.py check`), `inkbox.py`,
+     `textcover.py`.
+  2. Carried from phase 7 (QA must confirm or fix): FDS monpet name-entry grid 0x18468 is still kana (no scene
+     reaches it yet; find how 0x77C78 なまえを入れてください is reached, then put Latin letters in the grid as
+     single-letter pair codes, and check where entered names are drawn: 16x16 font = pair codes, 8x16 = code+14);
+     BALLBAT 21F04 "Immune to [blank cells] !" (what the game draws in cells 5-6); Aragoto's LVUP digit cells;
+     TTL label "Mashin Battle" (13 letters) against the value column (extra config page, not in a scene yet).
+  3. Text edits: always through a batch (`batches.py merge NAME --overwrite`, handN for hand fixes; next: hand18).
+     ST lines can't grow past their JP word count; polish.md minors on ST must keep that limit.
+  4. docs/polish.md: 6 "cut" name lines (header 11 letters / strip 16 are display limits: put the full name where
+     the field allows it or waive) + the minors, before phase 9.
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.
