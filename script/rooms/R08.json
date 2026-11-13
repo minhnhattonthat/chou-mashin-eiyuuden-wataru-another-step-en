@@ -278,7 +278,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあーっ、\nカラオケ屋さんだよーっ！",
-   "en": "Wataru:\nHey, look!\nA karaoke shop-san!",
+   "en": "Wataru:\nHey, look!\nA karaoke place!",
    "status": "done"
   },
   {
@@ -4445,7 +4445,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "そこで、たまに通りかかる\n店の人に、気付いてもらおうと\nこぶしをふって歌っているのじゃ。",
-   "en": "So I sing and wave my fists,\nhoping a worker will notice me\nas they pass by now and then.",
+   "en": "So I sing with flourishes...\nOf my fists! Hoping shop staff\npassing now and then notice me.",
    "status": "done"
   },
   {
@@ -4454,7 +4454,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nこのビルのおくにはのぉ、\n曲を弾くトラップがあるのじゃ。",
-   "en": "Old Man:\nDeep in this building,\nthere's a tune-playing trap.",
+   "en": "Old Man:\nDeep in this building, ye see,\nthere's a tune-playing trap.",
    "status": "done"
   },
   {
@@ -4463,7 +4463,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "どこぞの救世主とやらを\n困らせるには持ってこいじゃのう。\nさすが【ワルトリン】さまじゃ！",
-   "en": "Just the thing to stump\nsome so-called Savior!\nBrilliant, Warutorin-sama!",
+   "en": "Just the thing to stump some\nso-called Savior, eh? Brilliant,\nWarutorin-sama!",
    "status": "done"
   },
   {
@@ -4472,7 +4472,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\n【ワルトリン】さまは、ダンス\nミュージックがお好きなのじゃ。",
-   "en": "Old Man:\nWarutorin-sama is quite\nfond of dance music.",
+   "en": "Old Man:\nWarutorin-sama is fond of\ndance music, ye know.",
    "status": "done"
   },
   {
@@ -4481,7 +4481,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "じゃから、わしも\nダンスミュージックをひたすら\nれんしゅうするんじゃ！",
-   "en": "So I practice my dance music\nwithout a moment's rest!",
+   "en": "So I too practice my dance music\nwithout rest, aye!",
    "status": "done"
   },
   {

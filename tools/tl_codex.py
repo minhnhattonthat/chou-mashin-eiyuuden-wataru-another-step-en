@@ -125,7 +125,7 @@ def revise(batch, tries):
     rev = TL / f"{batch}.pairs.review.md"
     major, minor = findings(rev.read_text(encoding="utf-8"))
     if minor:
-        with (ROOT / "docs/polish.md").open("a", encoding="utf-8") as f:
+        with (ROOT / "docs/polish.md").open("a", encoding="utf-8", newline="\n") as f:
             f.write("".join(f"- [ ] {batch} {m.lstrip('-* ')}\n" for m in minor))
     refresh(batch)
     if major:

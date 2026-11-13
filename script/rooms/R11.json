@@ -1835,7 +1835,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "若おくさん：\nそうそう、お城に住む\n【ヨメイリ・コウゾウ】だけど、",
-   "en": "Young Wife:\nOh, yes. About Yomeiri,\nwho lives in the castle...",
+   "en": "Young Wife:\nOh, yes. About Yomeiri Kozo,\nwho lives in the castle...",
    "status": "done"
   },
   {
@@ -1988,7 +1988,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ヨメイリ・コウゾウ】って\nヤツは、花嫁集めをやっている\nそうじゃぞ。",
-   "en": "They say that fellow Yomeiri\nhas taken to collecting brides.",
+   "en": "That Yomeiri Kozo fellow's\ncollecting brides, so they say.",
    "status": "done"
   },
   {
@@ -2033,7 +2033,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\nやんだ～。ウソだべ～！？",
-   "en": "Old Woman:\nAw, nooo! That can't be true?!",
+   "en": "Old Woman:\nAw, nooo! That ain't true?!",
    "status": "done"
   },
   {
@@ -2051,7 +2051,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nオラこんな年になって、\n愛にめざめてしまっただ～。",
-   "en": "Old Woman:\nAt my age, love's gone and\nwoken up in my heart!",
+   "en": "Old Woman:\nAt my age, I've gone an' fallen\nin love!",
    "status": "done"
   },
   {
@@ -2186,7 +2186,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "そこの【ヨメイリ・コウゾウ】は、\n若いおなごをさらい、\n自分の花嫁にしているそうじゃ。",
-   "en": "They say Yomeiri, who lives\nthere, kidnaps young girls\nand makes them his brides.",
+   "en": "They say Yomeiri Kozo there\nsnatches young lasses and makes\n'em his brides, eh?",
    "status": "done"
   },
   {

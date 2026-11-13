@@ -215,7 +215,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "コッチの世界へ来ちまった\nからには、向こうの世界へ\n行く方法もあるってもんだ。",
-   "en": "If you found a way to get here,\nthere must be a way to get back\nto your own world!",
+   "en": "Since you came to this world,\na way back to yours must\nsurely exist!",
    "status": "done"
   },
   {
@@ -989,7 +989,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "きっと、何かの縁があるとしたら、\nこれを元通りにする方法をこの世\n界で探せ、ということでござろう。",
-   "en": "If fate has a hand in this,\nwe must search this world's\nLayers for a way to mend it.",
+   "en": "Surely, if fate is at work here,\nwe must seek a way to restore it\nin this Layer of the world.",
    "status": "done"
   },
   {

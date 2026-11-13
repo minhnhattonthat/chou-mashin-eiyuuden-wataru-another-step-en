@@ -3311,7 +3311,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\nいらっしゃい。おやおや・・・、\nこれは、かわいいお客さんだぁ。",
-   "en": "Woman:\nWelcome! Well, well...\nWhat cute customers-san!",
+   "en": "Woman:\nWelcome! Well, well...\nWhat adorable customers!",
    "status": "done"
   },
   {
@@ -3401,7 +3401,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nかわいいお客さん。今回は、\nサービスじゃ。お金はいいからね。",
-   "en": "Old Woman:\nFor you cute customers-san,\nthis one's free! No need to pay.",
+   "en": "Old Woman:\nFor such lovely customers,\nthis one's on the house, eh?",
    "status": "done"
   },
   {
@@ -3419,7 +3419,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばさん：\nいらっしゃい。かわいいお客さん。\nゆっくりしておいき。",
-   "en": "Woman:\nWelcome, cute customers-san!\nMake yourselves right at home.",
+   "en": "Woman:\nWelcome, my lovely customers!\nMake yourselves right at home.",
    "status": "done"
   },
   {
@@ -3608,7 +3608,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nボーリングバトルで、つらいと\n感じたらレベルがたりないんじゃ。",
-   "en": "Old Woman:\nIf Bowling Battle feels hard,\nyour level is too low.",
+   "en": "Old Woman:\nIf Bowling Battle feels hard,\nyour level's too low, ye see.",
    "status": "done"
   },
   {
@@ -3635,7 +3635,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "　おばあさん：\nレベルはつねに上げておく\nことじゃ。",
-   "en": "  Old Woman:\nAlways keep\nyour level up.",
+   "en": "  Old Woman:\nAlways keep your level up,\nmind ye.",
    "status": "done"
   },
   {
@@ -3725,7 +3725,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nボーリングバトルで、つらいと\n感じたらレベルがたりないんじゃ。",
-   "en": "Old Woman:\nIf Bowling Battle feels hard,\nyour level is too low.",
+   "en": "Old Woman:\nIf Bowling Battle feels hard,\nyour level's too low, ye see.",
    "status": "done"
   },
   {
@@ -3734,7 +3734,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "レベルはつねに上げておく\nことじゃ。",
-   "en": "Always keep your level up.",
+   "en": "Keep your level up, mind ye.",
    "status": "done"
   },
   {
@@ -4265,7 +4265,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "向こうにいるにいさんも\nワシと同じで、たかいところが\nダメみたいじゃな・・・。",
-   "en": "That young fellow over there\nseems to be scared of heights,\njust like me...",
+   "en": "That young fellow over there\nseems scared of heights too,\njust like me, eh...?",
    "status": "done"
   },
   {
@@ -4382,7 +4382,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nこの階にはへやが３つあるのじゃ。",
-   "en": "Old Man:\nThere are three rooms\non this floor.",
+   "en": "Old Man:\nThere are three rooms on this\nfloor, aye.",
    "status": "done"
   },
   {
@@ -4391,7 +4391,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "いかにも何かありそうなのじゃが、\nとんでもないことがおきそうで、\n入れないんじゃ・・・。",
-   "en": "They seem to hold some secrets,\nbut I'm afraid something awful\nwill happen if I go inside...",
+   "en": "Looks like there's something in\nthere, but I daren't go in.\nSomething awful might happen...",
    "status": "done"
   },
   {

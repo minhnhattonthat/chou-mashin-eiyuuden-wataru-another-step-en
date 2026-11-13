@@ -575,7 +575,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "だが、最早魔王となってしまった\n【ワルモンダーの一族】を\n滅することが",
-   "en": "But destroying the family\nof Warumonder, now demon kings,\nis what will...",
+   "en": "But destroying the family\nof Warumonder, now a demon king,\nis what will...",
    "status": "done"
   },
   {
@@ -2276,7 +2276,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルモンダー】さまの\nすることに、まちがいは\nないじゃろうから・・・。",
-   "en": "I'm sure Warumonder-sama\ncan't do anything wrong...",
+   "en": "Warumonder-sama would never\ndo wrong, I reckon...",
    "status": "done"
   },
   {
@@ -2357,7 +2357,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nこのご時世に、コンビニも\nものずきじゃのう・・・。",
-   "en": "Old Woman:\nRunning a convenience store now?\nWhat a strange thing to do...",
+   "en": "Old Woman:\nA convenience store these days?\nAn odd fancy, eh...",
    "status": "done"
   },
   {
@@ -2438,7 +2438,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nこの村に、救世主っちゅうやつが\nもぐりこんでおるらしいな～。",
-   "en": "Old Woman:\nSeems someone called the Savior\nhas sneaked into our village...",
+   "en": "Old Woman:\nSome Savior fellow's sneaked\ninto our village, I hear...",
    "status": "done"
   },
   {
@@ -2933,7 +2933,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nここは最強のお方、\n【ワルモンダー】さまのお城じゃ。",
-   "en": "Man:\nThis castle belongs to\nthe strongest, Warumonder-sama.",
+   "en": "Man:\nIt's Warumonder-sama's castle.\nNone stronger than him, eh?",
    "status": "done"
   },
   {
@@ -2942,7 +2942,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "最強じゃから、その手下も\n強者ぞろいじゃ。\nそれにくわえてトラップもある。",
-   "en": "He's the strongest, so all\nhis minions are tough, too.\nPlus, there are traps.",
+   "en": "He's the strongest, so his\nminions are tough ones too, eh?\nAnd there are traps besides.",
    "status": "done"
   },
   {
@@ -2951,7 +2951,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "いよいよ救世主もおわりじゃな。\nま、ここまで来たのは、\nたいしたもんだとほめておこう。",
-   "en": "It's the end for the Savior.\nStill, I'll give you credit.\nGetting this far is impressive.",
+   "en": "The Savior's done for now, eh?\nStill, ye've done well to get\nthis far. I'll grant ye that.",
    "status": "done"
   },
   {
