@@ -16,5 +16,11 @@
 - EXE 0x80018000-0x8009C800 (+BSS). Room overlay at 0x800CE000 (verified); largest R14 ends at 0x800F6B3C.
 - Zero runs during R00 dialogue (`work/qa/d1/ram.bin`): 0x800E23AB-0x800F0000, 0x800F1A00-0x800F7000, 0x80128072-
   0x80148000 (128 KB), 0x801ECD10-0x801FFAFC. Zero is a candidate, not free: trap-fill and tour before use.
+- **FDS.BIN loads at 0x800F7000** (findbase + jal range, 2026-11-13) and runs to 0x8010F5B0: the gap after the largest
+  room (0x800F6B3C-0x800F7000, 1.2 KB) is all there is between rooms and FDS. So R00's zero run 0x800F1A00-0x800F7000
+  is room space for bigger rooms, not free. PRG overlays (ST, BALLBAT, MACHINE, TTL, LVUP, SBTTL, MEMORY) load at
+  0x800D0000, i.e. over the room overlay area: different game modes swap them.
+- Best free-RAM candidate: 0x80128072-0x80148000 (128 KB, zero during R00 dialogue). Not yet trap-filled: fill with a
+  trap pattern from a Lua hook and tour field, shop, battle, IQ battle, save before relying on it (phase 5).
 - Free space inside each overlay: the old bank area once banks move; plan in phase 3/5 (append banks past the overlay end
   if the RAM after the largest room is free, else reuse the old area plus a second region).

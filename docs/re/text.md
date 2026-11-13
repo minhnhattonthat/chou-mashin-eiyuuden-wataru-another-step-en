@@ -42,17 +42,23 @@ Disc: SLPS-01368 (Banpresto / Aspect, 1998-04-23). EXE `SLPS_013.68`: PS-X EXE, 
   (other branch at 0x800326DC uses tables at 0x800ECD9C/0x800ECDB0).
 - Other branch tables (0x800DED28 etc.) in the switch read data that is text in R00: those cases are for other rooms.
 
-## Other text (verified to decode; pointer formats still to map)
+## Other text (verified to decode; pointer formats partly mapped)
 
-| File | What | Notes |
-|---|---|---|
-| `SLPS_013.68` 0x6AA10-0x7CA9A | save-lady tutorial, system messages, menus | same record format; 32-bit pointer tables nearby (0x8008xxxx, 0x8003xxxx) |
-| `PRG/ST.BIN` | battle menu: バトルをつづける/リトライ/ギブアップ, はい/いいえ | 32-bit pointers to 0x800Dxxxx: loaded at 0x800D???? |
-| `PRG/BALLBAT.BIN` | party names, battle text | |
-| `PRG/MACHINE.BIN` | mashin attack names (マイクロ・ウェーブ, ...) | |
-| `PRG/TTL.BIN` | config/title menu: ボイス, Ｒ１ボタン, ＩＱバトル | |
-| `PRG/LVUP.BIN` | level up: ワタルはレベル … になった！ | number inserted between strings |
-| `FPRG/FDS.BIN` | shop / place names: コンビニ, ガンボづくし | |
-| `FM16/R15_MES.BIN` | kana grid (name entry?) | |
+Load bases (`tools/findbase.py`: string pointers that land on string starts; cross-checked with j/jal targets, which
+all fall inside the file only for bases at or below the one given): the PRG overlays share **0x800D0000**; FDS sits
+right after the largest room overlay.
 
-Noise only (no real text): MOVIE, SBTTL, MEMORY, FD_STS, STAFF (credits are probably graphics), FP00/FP01, FR*.
+| File | What | Base | Pointers |
+|---|---|---|---|
+| `SLPS_013.68` 0x6AA10-0x7CA9A | save-lady tutorial, system messages, menus | EXE 0x80018000 (file+0x7F800) | 32-bit tables nearby (0x8008xxxx); map in phase 4 |
+| `PRG/ST.BIN` (252 KB) | battle menu: バトルをつづける/リトライ/ギブアップ, はい/いいえ, battle messages | 0x800D0000 (guess: jal range; header table at 0x10 holds code pointers 0x800D40DC...) | **no u32 pointer lands on a string start at any base**: strings reached by lui/addiu or record walk. Log reads with `tools/lua/ptrlog.lua` in phase 4 |
+| `PRG/BALLBAT.BIN` | party names, battle text | 0x800D0000 (98 string pointers) | u32 tables at file 0x2E8-0x7B4 (276 ptrs incl. near-dupes) |
+| `PRG/MACHINE.BIN` | mashin attack names (マイクロ・ウェーブ, ...) | 0x800D0000 (53) | u32 table 0x103E4-0x10450 (26) + singles |
+| `PRG/TTL.BIN` | config/title menu: ボイス, Ｒ１ボタン, ＩＱバトル | 0x800D0000 (34) | one u32 table 0x5744-0x57D4 (34 = every string) |
+| `PRG/LVUP.BIN` | level up: ワタルはレベル … になった！ | 0x800D0000 (jal) | no u32 hits: lui/addiu (guess) |
+| `FPRG/FDS.BIN` | shop / place names: コンビニ, ガンボづくし | 0x800F7000 (jal + 17) | u32 table 0x124B4-0x124E8 (13) + singles |
+
+Not 16-bit text (all runs decode to noise, `msgscan.py --menu` + decode, 2026-11-13): MOVIE, SBTTL, MEMORY, FD_STS,
+FVHH/STAFF.BIN (credits: graphics or another format), FP*, FR*, FK*, IQ/*.CHG, YM/* (incl. MR_09/MBPRG code overlays),
+license_data.dat. `FM16/R15_MES.BIN` is an image (prologue scroll, graphics.md G10), not text. Episode title cards are
+glyph-composed from OUT/SUBTTL.CHG (graphics.md G6): their strings are atlas indices, not this encoding.
