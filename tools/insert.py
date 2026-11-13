@@ -31,7 +31,8 @@ from jtext import Codec, battle_table, table  # noqa: E402
 TREE = ROOT / "work" / "disc" / "tree"
 SCRIPT = ROOT / "script"
 EXE = "SLPS_013.68"
-BF_FIRST = 0x0F  # battle font: '!' .. '~' -> 0x0F.. (over its kana; digits 1-10 stay), space = 0
+ENE_BASE = 0x80104800  # YM/BR_02/ENExx.BIN load address (extract.ENE_BASE)
+BF_FIRST = 0x0F  # battle font: '!' .. '~' -> 0x0F.. (over its kana; digits 1-10 stay), space = 0x6D (blank)
 INLINE = {0xB000: 1}
 GLYPH_MAX = 0x262
 FILL = {False: [chr(97 + i) + chr(98 + i) for i in range(0, 26, 2)]}
@@ -143,7 +144,7 @@ def movable(e, path):
 
 
 def bf_code(ch):
-    return 0 if ch == " " else BF_FIRST + ord(ch) - 0x21
+    return BF_FIRST + 0x5E if ch == " " else BF_FIRST + ord(ch) - 0x21  # space past '~': 0 ends a header name
 
 
 def allocate(uses):
@@ -173,17 +174,26 @@ def edits(qa=None, english=True):
     qa = qa or {}
     ents = entries()
     texts, uses, rows = [], Counter(), []
+    slack, back = {}, {}  # path -> (ename slot end, bytes it leaves unused); bname id -> bytes it starts early
     for num, (e, path, off, words, avail, nl, ctx) in enumerate(ents, 1):
         text = qa.get(e["id"]) or qa.get("+" + e["id"]) or (e.get("en") if english else None) or None
+        room = 0
+        if e.get("kind") == "bname" and path in slack and 0 <= off - slack[path][0] < 4:
+            room = slack[path][1] + off - slack[path][0]  # the ename right before it ends short (count-drawn)
         if text and e["id"] not in qa and "+" + e["id"] not in qa and not relocatable(path, off) and \
                 not movable(e, path) and \
-                (len(text) if ctx == "BF" else len(cells(text, nl))) > avail:
+                (len(text) if ctx == "BF" else len(cells(text, nl))) > avail + room:
             # shortcut: English past its JP slot shows the marker until phase 7 grows slots (work/overflow.tsv)
             OVERFLOW.append(e["id"])
             text = None
         if text is None:
             text = marker(words, num, nl, not ctx.startswith("M16")) if ctx != "BF" else \
                 ("%04d" % num + "".join(FILL[True])[4:])[:avail]
+        if e.get("kind") == "ename":
+            slack[path] = (off + 2 * avail, 2 * (avail - len(cells(text, nl))), e["id"])
+        elif e.get("kind") == "bname" and avail < len(text) <= avail + room:
+            back[e["id"]] = len(text) - avail
+            back[slack[path][2]] = max(0, slack[path][0] - (off - back[e["id"]]))  # ename bytes it takes
         texts.append(text)
         rows.append(f"{num}\t{e['id']}\t{e['jp']!r}")
         if ctx != "BF":
@@ -206,7 +216,7 @@ def edits(qa=None, english=True):
             room_items.setdefault(load(path), {})[off] = (avail, new, e["id"])
             continue
         spill = len(new) > avail and "+" + e["id"] in qa  # stress only: runs over the next strings, ends 0xFFFF
-        if len(new) > avail and not spill and not movable(e, path):
+        if len(new) > avail and not spill and not movable(e, path) and e["id"] not in back:
             errors.append(f"{e['id']}: {len(new)} words, room for {avail}")
             continue
         if "len_at" in e:  # the drawn cell count: ENE record byte 1, BALLBAT [u32 cells, u32 ptr]
@@ -220,10 +230,17 @@ def edits(qa=None, english=True):
             str_items.setdefault(load(path), []).append((off, avail, new, e))
             continue
         if e.get("kind") == "bname":  # ENE battle-header name: bytes, NUL-terminated in its slot
-            put(bufs, orig, load(path), off, bytes(new + [0] * (avail + 1 - len(new))), e["id"])
+            at = off - back.get(e["id"], 0)  # longer: starts in the unused end of the ename before it
+            put(bufs, orig, load(path), at, bytes(new + [0] * (off + avail + 1 - at - len(new))), e["id"])
+            if at != off:  # re-aim the record's ptr8
+                d, old = orig[path], ENE_BASE + off
+                refs = [k for k in range(0, len(d) - 3, 4) if struct.unpack_from("<I", d, k)[0] == old]
+                assert refs, e["id"]
+                for k in refs:
+                    put(bufs, orig, path, k, struct.pack("<I", ENE_BASE + at), f"ptr {k:X} -> {e['id']}")
             continue
         new += [0] * (avail - len(new))
-        put(bufs, orig, load(path), off, struct.pack("<%dH" % avail, *new), e["id"])
+        put(bufs, orig, load(path), off, struct.pack("<%dH" % avail, *new)[:2 * avail - back.get(e["id"], 0)], e["id"])
     if errors:
         raise SystemExit("insert: text too long\n  " + "\n  ".join(errors))
     for path, items in room_items.items():
@@ -252,7 +269,7 @@ def edits(qa=None, english=True):
     assert struct.unpack_from("<2I", orig[exe], at) == compose.LOADIMAGE_HEAD, "LoadImage entry"
     put(bufs, orig, exe, at, struct.pack("<2I", *compose.patch_words()), "code LoadImage -> compose hook")
     if any(ctx == "BF" for *_, ctx in ents):
-        for k in range(0x21, 0x7F):
+        for k in range(0x20, 0x7F):
             put(bufs, orig, cg, bf_code(chr(k)) * 64, bf_cell(chr(k)), f"bf {chr(k)!r}")
     out = ROOT / "work" / "markers.tsv"
     out.parent.mkdir(exist_ok=True)

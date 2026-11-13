@@ -33,6 +33,13 @@ def test_every_entry_written(built):
     assert not insert.not_text() & written
 
 
+def test_bname_starts_early(built):
+    """ENE06 Combat Doll (8-byte header slot) starts in Steel Jane's unused ename cells; ptr8 follows it."""
+    d = built["YM/BR_02/ENE06.BIN"]
+    at = struct.unpack_from("<I", d, 0x2624)[0] - insert.ENE_BASE
+    assert at < 0x25D4 and d[at:d.index(b"\0", at)] == bytes(insert.bf_code(c) for c in "Combat Doll")
+
+
 def test_marker_keeps_layout():
     words = [0x10, 0x11, 0x1000, 0, 0x12, 0xB000, 3, 0x13, 0x2000]
     m = insert.marker(words, 1234, 0x1000, False)
