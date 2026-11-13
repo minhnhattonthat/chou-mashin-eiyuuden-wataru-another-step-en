@@ -266,7 +266,48 @@ def bubbles():
     img.save(gfx.GFX / "en" / png)
 
 
-GROUPS = {"title": title, "battle": battle, "shop": shop, "iq": iq, "bubbles": bubbles}
+STS_NAMES = {  # STS_nn.CHG: (player, enemy), glossary / script names
+    1: ("Ryujinmaru", "Microwave Ding"), 2: ("Ryujinmaru", "Welcome mashin"), 3: ("Super Funny Cool Squad", "SFX Saurus"),
+    4: ("Ryujinmaru", "SFX Saurus"), 5: ("Ryujinmaru", "Animadesk Queen"), 6: ("Ryujinmaru", "Light Search"),
+    7: ("Ryujinmaru", "Thunder Tiger"), 8: ("Ryujinmaru", "Electron"), 9: ("Ryujinmaru", "Mr. Illusion"),
+    10: ("Ryujinmaru", "Amuler X55"), 11: ("Ryujinmaru", "Gold Medalar"), 12: ("Ryujinmaru", "Shape U2"),
+    13: ("Ryujinmaru", "June Brideger"), 14: ("Ryujinmaru", "LL Lovers"), 15: ("Tensho Ryujinmaru", "LL Lovers"),
+    16: ("Tensho Ryujinmaru", "QT Koalotter"), 17: ("Tensho Ryujinmaru", "St. Lovely Four"),
+    18: ("Tensho Ryujinmaru", "Waruwaru Colossus"),
+}
+
+
+def fit_stone(img, lut, rect, text, size, face, edge, shade):
+    """put_stone condensed (never widened) to fit rect's width."""
+    w = mask(text, SANS_B, size).size[0]
+    put_stone(img, lut, rect, text, size, face, edge, shade, xs=min(1.0, (rect[2] - 7) / w))
+
+
+def mashin():
+    """G19 mashin battle: menu labels (one png, all 18 STS files) and the VS-card names per file."""
+    png = "YM/STS_labels.png"
+    img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+    lut = lut_of(png)
+    clear(img, (0, 0, 32, 32), (0, 32, 48, 32))  # u56+ on rows 0/16 = gauge pips and MP/: kept
+    for k, t in enumerate(("Fight", "Heal", "Spirit", "Special")):
+        put_bdf(img, lut, (1, 16 * k, 31 if k < 2 else 47, 16), t, "spleen-6x12.bdf", 1, None, align="left",
+                trim=False, shadow=14)
+    img.save(gfx.GFX / "en" / png)
+    face = [15, 14, 13, 12, 11, 10, 9]  # yellow top -> red bottom, outline 3, shadow 1 (the JP names' indices)
+    for n, (pl, en) in STS_NAMES.items():
+        png = f"YM/STS_{n:02d}_names.png"
+        img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+        lut = lut_of(png)
+        clear(img, (0, 0, 200, 40), (0, 40, 168, 24), (200, 0, 48, 48))  # player, enemy strip, enemy lead cells
+        if n == 3:  # this file's player records: 192x24 at the top (+ small pieces, cleared)
+            fit_stone(img, lut, (0, 0, 192, 24), pl, 18, face, 3, 1)
+        else:
+            fit_stone(img, lut, (0, 0, 200, 40), pl, 30, face, 3, 1)
+        fit_stone(img, lut, (0, 40, 168, 24), en, 18, face, 3, 1)
+        img.save(gfx.GFX / "en" / png)
+
+
+GROUPS = {"title": title, "battle": battle, "shop": shop, "iq": iq, "bubbles": bubbles, "mashin": mashin}
 
 if __name__ == "__main__":
     for g in sys.argv[1:] or GROUPS:

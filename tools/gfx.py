@@ -195,6 +195,7 @@ if __name__ == "__main__":
         export(set(a[1:]))
     elif a and a[0] == "show":
         f, off, bpp, cf, coff, pal, out = a[1:8]
-        image(load(f), int(off, 16), int(bpp), palette(load(cf), int(coff, 16), int(pal), int(bpp))).save(out)
+        coff = -int(coff[1:], 16) - 1 if coff.startswith("r") else int(coff, 16)
+        image(load(f), int(off, 16), int(bpp), palette(load(cf), coff, int(pal), int(bpp))).save(out)
     else:
         print(__doc__)
