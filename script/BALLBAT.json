@@ -21,55 +21,36 @@
   {
    "id": "BALLBAT:2151C",
    "kind": "menu",
-   "jp": "アラゴトワルリーヌ",
+   "jp": "アラゴト",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:21524",
+   "kind": "menu",
+   "jp": "ワルリーヌ",
    "en": "",
    "tail": 1,
    "end": "0003"
   },
   {
-   "id": "BALLBAT:21530",
-   "kind": "menu",
-   "jp": "う",
-   "en": "",
-   "tail": 1,
-   "end": "150C"
-  },
-  {
-   "id": "BALLBAT:21538",
-   "kind": "menu",
-   "jp": "え",
-   "en": "",
-   "tail": 1,
-   "end": "151C"
-  },
-  {
-   "id": "BALLBAT:21540",
-   "kind": "menu",
-   "jp": "う",
-   "en": "",
-   "tail": 1,
-   "end": "1514"
-  },
-  {
-   "id": "BALLBAT:21548",
-   "kind": "menu",
-   "jp": "お",
-   "en": "",
-   "tail": 1,
-   "end": "1524"
-  },
-  {
    "id": "BALLBAT:21550",
    "kind": "menu",
-   "jp": "プロタジルプロタジルお",
+   "jp": "プロタジルプロタジル",
    "en": "",
-   "tail": 1,
-   "end": "1550"
+   "end": "0005"
   },
   {
    "id": "BALLBAT:2156C",
    "kind": "menu",
-   "jp": "スポーツキャップ龍神のかんむり",
+   "jp": "スポーツキャップ",
+   "en": "",
+   "end": "0142"
+  },
+  {
+   "id": "BALLBAT:2157C",
+   "kind": "menu",
+   "jp": "龍神のかんむり",
    "en": "",
    "tail": 1,
    "end": "0065"
@@ -77,7 +58,21 @@
   {
    "id": "BALLBAT:2158C",
    "kind": "menu",
-   "jp": "タオルのバンダナいかしたバンダナ勇気のバンダナ",
+   "jp": "タオルのバンダナ",
+   "en": "",
+   "end": "0002"
+  },
+  {
+   "id": "BALLBAT:2159C",
+   "kind": "menu",
+   "jp": "いかしたバンダナ",
+   "en": "",
+   "end": "013B"
+  },
+  {
+   "id": "BALLBAT:215AC",
+   "kind": "menu",
+   "jp": "勇気のバンダナ",
    "en": "",
    "tail": 1,
    "end": "0129"
@@ -93,7 +88,14 @@
   {
    "id": "BALLBAT:215CC",
    "kind": "menu",
-   "jp": "ジェニーのリボン忍部リボン",
+   "jp": "ジェニーのリボン",
+   "en": "",
+   "end": "0176"
+  },
+  {
+   "id": "BALLBAT:215DC",
+   "kind": "menu",
+   "jp": "忍部リボン",
    "en": "",
    "tail": 1,
    "end": "014E"
@@ -101,7 +103,14 @@
   {
    "id": "BALLBAT:215E8",
    "kind": "menu",
-   "jp": "特売シューズフレッシューズ",
+   "jp": "特売シューズ",
+   "en": "",
+   "end": "0071"
+  },
+  {
+   "id": "BALLBAT:215F4",
+   "kind": "menu",
+   "jp": "フレッシューズ",
    "en": "",
    "tail": 1,
    "end": "013B"
@@ -149,7 +158,42 @@
   {
    "id": "BALLBAT:2164C",
    "kind": "menu",
-   "jp": "忍のたびシンデレラヒールデリシャシューズエルメッシューズプリンセシューズウレピアス",
+   "jp": "忍のたび",
+   "en": "",
+   "end": "0061"
+  },
+  {
+   "id": "BALLBAT:21654",
+   "kind": "menu",
+   "jp": "シンデレラヒール",
+   "en": "",
+   "end": "009E"
+  },
+  {
+   "id": "BALLBAT:21664",
+   "kind": "menu",
+   "jp": "デリシャシューズ",
+   "en": "",
+   "end": "0059"
+  },
+  {
+   "id": "BALLBAT:21674",
+   "kind": "menu",
+   "jp": "エルメッシューズ",
+   "en": "",
+   "end": "00A7"
+  },
+  {
+   "id": "BALLBAT:21684",
+   "kind": "menu",
+   "jp": "プリンセシューズ",
+   "en": "",
+   "end": "0058"
+  },
+  {
+   "id": "BALLBAT:21694",
+   "kind": "menu",
+   "jp": "ウレピアス",
    "en": "",
    "tail": 1,
    "end": "0069"
@@ -165,7 +209,14 @@
   {
    "id": "BALLBAT:216B0",
    "kind": "menu",
-   "jp": "勇気のマントユメミヌリング",
+   "jp": "勇気のマント",
+   "en": "",
+   "end": "007A"
+  },
+  {
+   "id": "BALLBAT:216BC",
+   "kind": "menu",
+   "jp": "ユメミヌリング",
    "en": "",
    "tail": 1,
    "end": "0066"
@@ -213,7 +264,28 @@
   {
    "id": "BALLBAT:21710",
    "kind": "menu",
-   "jp": "ノラもんボトルＡノラもんボトルＦノラもんボトルＧあがってマスク",
+   "jp": "ノラもんボトルＡ",
+   "en": "",
+   "end": "006E"
+  },
+  {
+   "id": "BALLBAT:21720",
+   "kind": "menu",
+   "jp": "ノラもんボトルＦ",
+   "en": "",
+   "end": "006E"
+  },
+  {
+   "id": "BALLBAT:21730",
+   "kind": "menu",
+   "jp": "ノラもんボトルＧ",
+   "en": "",
+   "end": "0001"
+  },
+  {
+   "id": "BALLBAT:21740",
+   "kind": "menu",
+   "jp": "あがってマスク",
    "en": "",
    "tail": 1,
    "end": "0091"
@@ -237,7 +309,14 @@
   {
    "id": "BALLBAT:21770",
    "kind": "menu",
-   "jp": "ゆるしてチョークナカヨシンジュ",
+   "jp": "ゆるしてチョーク",
+   "en": "",
+   "end": "006A"
+  },
+  {
+   "id": "BALLBAT:21780",
+   "kind": "menu",
+   "jp": "ナカヨシンジュ",
    "en": "",
    "tail": 1,
    "end": "0060"
@@ -253,7 +332,35 @@
   {
    "id": "BALLBAT:217A0",
    "kind": "menu",
-   "jp": "ヒミコミックドーピングミガードロップテツジンタンハヤテイン",
+   "jp": "ヒミコミック",
+   "en": "",
+   "end": "009F"
+  },
+  {
+   "id": "BALLBAT:217AC",
+   "kind": "menu",
+   "jp": "ドーピングミ",
+   "en": "",
+   "end": "0091"
+  },
+  {
+   "id": "BALLBAT:217B8",
+   "kind": "menu",
+   "jp": "ガードロップ",
+   "en": "",
+   "end": "0068"
+  },
+  {
+   "id": "BALLBAT:217C4",
+   "kind": "menu",
+   "jp": "テツジンタン",
+   "en": "",
+   "end": "006F"
+  },
+  {
+   "id": "BALLBAT:217D0",
+   "kind": "menu",
+   "jp": "ハヤテイン",
    "en": "",
    "tail": 1,
    "end": "013B"
@@ -261,114 +368,37 @@
   {
    "id": "BALLBAT:217DC",
    "kind": "menu",
-   "jp": "勇気のミライフルーツマジカリンゴか",
+   "jp": "勇気のミ",
    "en": "",
-   "tail": 1,
-   "end": "4D20"
+   "end": "007C"
   },
   {
-   "id": "BALLBAT:21804",
+   "id": "BALLBAT:217E4",
    "kind": "menu",
-   "jp": "く",
+   "jp": "ライフルーツ",
    "en": "",
-   "tail": 1,
-   "end": "4D30"
+   "end": "0074"
   },
   {
-   "id": "BALLBAT:2180C",
+   "id": "BALLBAT:217F0",
    "kind": "menu",
-   "jp": "き",
+   "jp": "マジカリンゴ",
    "en": "",
-   "tail": 1,
-   "end": "4D40"
-  },
-  {
-   "id": "BALLBAT:2183C",
-   "kind": "menu",
-   "jp": "き",
-   "en": "",
-   "tail": 1,
-   "end": "4DB0"
-  },
-  {
-   "id": "BALLBAT:21844",
-   "kind": "menu",
-   "jp": "か",
-   "en": "",
-   "tail": 1,
-   "end": "4DC0"
-  },
-  {
-   "id": "BALLBAT:2184C",
-   "kind": "menu",
-   "jp": "く",
-   "en": "",
-   "tail": 1,
-   "end": "4DD0"
-  },
-  {
-   "id": "BALLBAT:218BC",
-   "kind": "menu",
-   "jp": "か",
-   "en": "",
-   "tail": 1,
-   "end": "4C10"
-  },
-  {
-   "id": "BALLBAT:218C4",
-   "kind": "menu",
-   "jp": "く",
-   "en": "",
-   "tail": 1,
-   "end": "4C20"
-  },
-  {
-   "id": "BALLBAT:218CC",
-   "kind": "menu",
-   "jp": "く",
-   "en": "",
-   "tail": 1,
-   "end": "4C30"
-  },
-  {
-   "id": "BALLBAT:2193C",
-   "kind": "menu",
-   "jp": "か",
-   "en": "",
-   "tail": 1,
-   "end": "4D20"
-  },
-  {
-   "id": "BALLBAT:21944",
-   "kind": "menu",
-   "jp": "く",
-   "en": "",
-   "tail": 1,
-   "end": "4D30"
-  },
-  {
-   "id": "BALLBAT:2194C",
-   "kind": "menu",
-   "jp": "き",
-   "en": "",
-   "tail": 1,
-   "end": "4D40"
+   "end": "0006"
   },
   {
    "id": "BALLBAT:21BEC",
    "kind": "menu",
-   "jp": "ブリキントンダルマン　　　　か",
+   "jp": "ブリキントン",
    "en": "",
-   "tail": 1,
-   "end": "1BEC"
+   "end": "009B"
   },
   {
-   "id": "BALLBAT:21C10",
+   "id": "BALLBAT:21BF8",
    "kind": "menu",
-   "jp": "え",
+   "jp": "ダルマン",
    "en": "",
-   "tail": 1,
-   "end": "1BF8"
+   "end": "0000"
   },
   {
    "id": "BALLBAT:21C18",
@@ -377,30 +407,6 @@
    "en": "",
    "tail": 1,
    "end": "0003"
-  },
-  {
-   "id": "BALLBAT:21C24",
-   "kind": "menu",
-   "jp": "う",
-   "en": "",
-   "tail": 1,
-   "end": "704A"
-  },
-  {
-   "id": "BALLBAT:21C2C",
-   "kind": "menu",
-   "jp": "お",
-   "en": "",
-   "tail": 1,
-   "end": "7058"
-  },
-  {
-   "id": "BALLBAT:21C34",
-   "kind": "menu",
-   "jp": "う",
-   "en": "",
-   "tail": 1,
-   "end": "7066"
   },
   {
    "id": "BALLBAT:21CFC",
@@ -413,7 +419,21 @@
   {
    "id": "BALLBAT:21D10",
    "kind": "menu",
-   "jp": "ブリザードタックル！ウォーターウォール！アイスダスト！",
+   "jp": "ブリザードタックル！",
+   "en": "",
+   "end": "0058"
+  },
+  {
+   "id": "BALLBAT:21D24",
+   "kind": "menu",
+   "jp": "ウォーターウォール！",
+   "en": "",
+   "end": "0056"
+  },
+  {
+   "id": "BALLBAT:21D38",
+   "kind": "menu",
+   "jp": "アイスダスト！",
    "en": "",
    "tail": 1,
    "end": "0056"
@@ -445,7 +465,14 @@
   {
    "id": "BALLBAT:21D80",
    "kind": "menu",
-   "jp": "ピカネット！エレクトショック！",
+   "jp": "ピカネット！",
+   "en": "",
+   "end": "0059"
+  },
+  {
+   "id": "BALLBAT:21D8C",
+   "kind": "menu",
+   "jp": "エレクトショック！",
    "en": "",
    "tail": 1,
    "end": "00A0"
@@ -485,26 +512,16 @@
   {
    "id": "BALLBAT:21DF4",
    "kind": "menu",
-   "jp": "ファイヤーボンバー！ニコニコファイヤー！お",
+   "jp": "ファイヤーボンバー！",
    "en": "",
-   "tail": 1,
-   "end": "1CFC"
+   "end": "006B"
   },
   {
-   "id": "BALLBAT:21E24",
+   "id": "BALLBAT:21E08",
    "kind": "menu",
-   "jp": "か",
+   "jp": "ニコニコファイヤー！",
    "en": "",
-   "tail": 1,
-   "end": "1D10"
-  },
-  {
-   "id": "BALLBAT:21E2C",
-   "kind": "menu",
-   "jp": "え",
-   "en": "",
-   "tail": 1,
-   "end": "1D24"
+   "end": "0005"
   },
   {
    "id": "BALLBAT:21E94",
@@ -547,33 +564,16 @@
    "end": "0005"
   },
   {
-   "id": "BALLBAT:21ED0",
-   "kind": "menu",
-   "jp": "お",
-   "en": "",
-   "tail": 1,
-   "end": "1E94"
-  },
-  {
-   "id": "BALLBAT:21ED8",
-   "kind": "menu",
-   "jp": "お",
-   "en": "",
-   "tail": 1,
-   "end": "1EA0"
-  },
-  {
-   "id": "BALLBAT:21EE0",
-   "kind": "menu",
-   "jp": "お",
-   "en": "",
-   "tail": 1,
-   "end": "1EAC"
-  },
-  {
    "id": "BALLBAT:21EF8",
    "kind": "menu",
-   "jp": "ヒミコ登場！ステータス　　を受けない！",
+   "jp": "ヒミコ登場！",
+   "en": "",
+   "end": "0062"
+  },
+  {
+   "id": "BALLBAT:21F04",
+   "kind": "menu",
+   "jp": "ステータス　　を受けない！",
    "en": "",
    "tail": 1,
    "end": "00EB"
@@ -581,7 +581,21 @@
   {
    "id": "BALLBAT:21F20",
    "kind": "menu",
-   "jp": "受けたダメージの１０％ＭＰ回復！　　ＭＰが２分の１になった！ステータスが上がった！",
+   "jp": "受けたダメージの１０％ＭＰ回復！",
+   "en": "",
+   "end": "0000"
+  },
+  {
+   "id": "BALLBAT:21F40",
+   "kind": "menu",
+   "jp": "　　ＭＰが２分の１になった！",
+   "en": "",
+   "end": "0062"
+  },
+  {
+   "id": "BALLBAT:21F5C",
+   "kind": "menu",
+   "jp": "ステータスが上がった！",
    "en": "",
    "tail": 1,
    "end": "0081"
@@ -645,7 +659,14 @@
   {
    "id": "BALLBAT:22014",
    "kind": "menu",
-   "jp": "技の効果ターンがふえた！気合いが１００％になった！",
+   "jp": "技の効果ターンがふえた！",
+   "en": "",
+   "end": "01A2"
+  },
+  {
+   "id": "BALLBAT:2202C",
+   "kind": "menu",
+   "jp": "気合いが１００％になった！",
    "en": "",
    "tail": 1,
    "end": "00ED"
@@ -669,7 +690,28 @@
   {
    "id": "BALLBAT:22078",
    "kind": "menu",
-   "jp": "ワタル達のＨＰ回復！ワタル達のＨＰ完全回復！ワタル達のＭＰ回復！ワタル達のＨＰ・ＭＰ完全回復！",
+   "jp": "ワタル達のＨＰ回復！",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:2208C",
+   "kind": "menu",
+   "jp": "ワタル達のＨＰ完全回復！",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:220A4",
+   "kind": "menu",
+   "jp": "ワタル達のＭＰ回復！",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:220B8",
+   "kind": "menu",
+   "jp": "ワタル達のＨＰ・ＭＰ完全回復！",
    "en": "",
    "tail": 1,
    "end": "00DA"
@@ -677,7 +719,14 @@
   {
    "id": "BALLBAT:220D8",
    "kind": "menu",
-   "jp": "[00DA]のステータス異常回復！眠りのステータス異常回復！",
+   "jp": "[00DA]のステータス異常回復！",
+   "en": "",
+   "end": "0151"
+  },
+  {
+   "id": "BALLBAT:220F0",
+   "kind": "menu",
+   "jp": "眠りのステータス異常回復！",
    "en": "",
    "tail": 1,
    "end": "015A"
@@ -709,7 +758,84 @@
   {
    "id": "BALLBAT:22160",
    "kind": "menu",
-   "jp": "すべてのステータス異常回復！ワタル達は勝った！！ワタル達は負けてしまった・・・。ワタル達は逃げ出した・・・。ワタル達は逃げられなかった。ワタル達は逃げのびた・・・。すべての攻撃やアイテム効果が　効になった！！ワタル達のＨＰ回復！ワタル達の身のこなしが上がった！ワタル達のＨＰ回復！さらに、防御力が上がった！",
+   "jp": "すべてのステータス異常回復！",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:2217C",
+   "kind": "menu",
+   "jp": "ワタル達は勝った！！",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:22190",
+   "kind": "menu",
+   "jp": "ワタル達は負けてしまった・・・。",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:221B0",
+   "kind": "menu",
+   "jp": "ワタル達は逃げ出した・・・。",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:221CC",
+   "kind": "menu",
+   "jp": "ワタル達は逃げられなかった。",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:221E8",
+   "kind": "menu",
+   "jp": "ワタル達は逃げのびた・・・。",
+   "en": "",
+   "end": "000D"
+  },
+  {
+   "id": "BALLBAT:22204",
+   "kind": "menu",
+   "jp": "すべての攻撃やアイテム効果が",
+   "en": "",
+   "end": "0000"
+  },
+  {
+   "id": "BALLBAT:22220",
+   "kind": "menu",
+   "jp": "　効になった！！",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:22230",
+   "kind": "menu",
+   "jp": "ワタル達のＨＰ回復！",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:22244",
+   "kind": "menu",
+   "jp": "ワタル達の身のこなしが上がった！",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:22264",
+   "kind": "menu",
+   "jp": "ワタル達のＨＰ回復！",
+   "en": "",
+   "end": "000B"
+  },
+  {
+   "id": "BALLBAT:22278",
+   "kind": "menu",
+   "jp": "さらに、防御力が上がった！",
    "en": "",
    "tail": 1,
    "end": "00D8"
@@ -717,7 +843,14 @@
   {
    "id": "BALLBAT:22294",
    "kind": "menu",
-   "jp": "ＨＰをうばいとった！ダメージをあたえ、",
+   "jp": "ＨＰをうばいとった！",
+   "en": "",
+   "end": "009B"
+  },
+  {
+   "id": "BALLBAT:222A8",
+   "kind": "menu",
+   "jp": "ダメージをあたえ、",
    "en": "",
    "tail": 1,
    "end": "000B"
@@ -725,7 +858,35 @@
   {
    "id": "BALLBAT:222BC",
    "kind": "menu",
-   "jp": "さらに気合いが上がった！ヒミコ登場！ワタル達のＨＰ完全回復！ワタルとサクヤの気合いが１００％になった！",
+   "jp": "さらに気合いが上がった！",
+   "en": "",
+   "end": "0070"
+  },
+  {
+   "id": "BALLBAT:222D4",
+   "kind": "menu",
+   "jp": "ヒミコ登場！",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:222E0",
+   "kind": "menu",
+   "jp": "ワタル達のＨＰ完全回復！",
+   "en": "",
+   "end": "0081"
+  },
+  {
+   "id": "BALLBAT:222F8",
+   "kind": "menu",
+   "jp": "ワタルとサクヤの",
+   "en": "",
+   "end": "01A2"
+  },
+  {
+   "id": "BALLBAT:22308",
+   "kind": "menu",
+   "jp": "気合いが１００％になった！",
    "en": "",
    "tail": 1,
    "end": "0081"
@@ -733,7 +894,14 @@
   {
    "id": "BALLBAT:22324",
    "kind": "menu",
-   "jp": "ワタルとワルリーヌの気合いが１００％になった！",
+   "jp": "ワタルとワルリーヌの",
+   "en": "",
+   "end": "01A2"
+  },
+  {
+   "id": "BALLBAT:22338",
+   "kind": "menu",
+   "jp": "気合いが１００％になった！",
    "en": "",
    "tail": 1,
    "end": "0100"
@@ -741,7 +909,14 @@
   {
    "id": "BALLBAT:22354",
    "kind": "menu",
-   "jp": "作戦コマンドの効果がきれた。！",
+   "jp": "作戦コマンドの効果がきれた。",
+   "en": "",
+   "end": "00AB"
+  },
+  {
+   "id": "BALLBAT:22370",
+   "kind": "menu",
+   "jp": "！",
    "en": "",
    "tail": 1,
    "end": "00AB"
@@ -749,26 +924,16 @@
   {
    "id": "BALLBAT:22374",
    "kind": "menu",
-   "jp": "！！動けない！！か",
+   "jp": "！！",
    "en": "",
-   "tail": 1,
-   "end": "1EF8"
+   "end": "014C"
   },
   {
-   "id": "BALLBAT:2238C",
+   "id": "BALLBAT:22378",
    "kind": "menu",
-   "jp": "す",
+   "jp": "動けない！！",
    "en": "",
-   "tail": 1,
-   "end": "1F04"
-  },
-  {
-   "id": "BALLBAT:22394",
-   "kind": "menu",
-   "jp": "た",
-   "en": "",
-   "tail": 1,
-   "end": "1F20"
+   "end": "0006"
   },
   {
    "id": "BALLBAT:22514",
@@ -789,7 +954,21 @@
   {
    "id": "BALLBAT:2252C",
    "kind": "menu",
-   "jp": "ガンボを手に入れた！を",
+   "jp": "ガンボを",
+   "en": "",
+   "end": "0112"
+  },
+  {
+   "id": "BALLBAT:22534",
+   "kind": "menu",
+   "jp": "手に入れた！",
+   "en": "",
+   "end": "002D"
+  },
+  {
+   "id": "BALLBAT:22540",
+   "kind": "menu",
+   "jp": "を",
    "en": "",
    "tail": 1,
    "end": "0112"
@@ -797,7 +976,14 @@
   {
    "id": "BALLBAT:22544",
    "kind": "menu",
-   "jp": "手に入れた！を使った！",
+   "jp": "手に入れた！",
+   "en": "",
+   "end": "002D"
+  },
+  {
+   "id": "BALLBAT:22550",
+   "kind": "menu",
+   "jp": "を使った！",
    "en": "",
    "tail": 1,
    "end": "002D"
@@ -805,7 +991,42 @@
   {
    "id": "BALLBAT:2255C",
    "kind": "menu",
-   "jp": "を撃破した！のＨＰ回復！のＨＰ完全回復！のＭＰ回復！のＭＰ完全回復！のＨＰ・ＭＰ完全回復！",
+   "jp": "を撃破した！",
+   "en": "",
+   "end": "0019"
+  },
+  {
+   "id": "BALLBAT:22568",
+   "kind": "menu",
+   "jp": "のＨＰ回復！",
+   "en": "",
+   "end": "0019"
+  },
+  {
+   "id": "BALLBAT:22574",
+   "kind": "menu",
+   "jp": "のＨＰ完全回復！",
+   "en": "",
+   "end": "0019"
+  },
+  {
+   "id": "BALLBAT:22584",
+   "kind": "menu",
+   "jp": "のＭＰ回復！",
+   "en": "",
+   "end": "0019"
+  },
+  {
+   "id": "BALLBAT:22590",
+   "kind": "menu",
+   "jp": "のＭＰ完全回復！",
+   "en": "",
+   "end": "0019"
+  },
+  {
+   "id": "BALLBAT:225A0",
+   "kind": "menu",
+   "jp": "のＨＰ・ＭＰ完全回復！",
    "en": "",
    "tail": 1,
    "end": "0198"
@@ -821,7 +1042,21 @@
   {
    "id": "BALLBAT:225C0",
    "kind": "menu",
-   "jp": "がいる！の攻撃！は",
+   "jp": "がいる！",
+   "en": "",
+   "end": "0019"
+  },
+  {
+   "id": "BALLBAT:225C8",
+   "kind": "menu",
+   "jp": "の攻撃！",
+   "en": "",
+   "end": "001A"
+  },
+  {
+   "id": "BALLBAT:225D0",
+   "kind": "menu",
+   "jp": "は",
    "en": "",
    "tail": 1,
    "end": "0148"
@@ -845,7 +1080,14 @@
   {
    "id": "BALLBAT:225EC",
    "kind": "menu",
-   "jp": "攻撃をかわした！は[00DA]を受けた！",
+   "jp": "攻撃をかわした！",
+   "en": "",
+   "end": "001A"
+  },
+  {
+   "id": "BALLBAT:225FC",
+   "kind": "menu",
+   "jp": "は[00DA]を受けた！",
    "en": "",
    "tail": 1,
    "end": "001A"
@@ -853,7 +1095,14 @@
   {
    "id": "BALLBAT:2260C",
    "kind": "menu",
-   "jp": "は混乱した！は眠ってしまった！",
+   "jp": "は混乱した！",
+   "en": "",
+   "end": "001A"
+  },
+  {
+   "id": "BALLBAT:22618",
+   "kind": "menu",
+   "jp": "は眠ってしまった！",
    "en": "",
    "tail": 1,
    "end": "001A"
@@ -861,7 +1110,28 @@
   {
    "id": "BALLBAT:2262C",
    "kind": "menu",
-   "jp": "は石[00DB]した！はマヒした！は気を失った・・・。は攻撃をかわした！",
+   "jp": "は石[00DB]した！",
+   "en": "",
+   "end": "001A"
+  },
+  {
+   "id": "BALLBAT:22638",
+   "kind": "menu",
+   "jp": "はマヒした！",
+   "en": "",
+   "end": "001A"
+  },
+  {
+   "id": "BALLBAT:22644",
+   "kind": "menu",
+   "jp": "は気を失った・・・。",
+   "en": "",
+   "end": "001A"
+  },
+  {
+   "id": "BALLBAT:22658",
+   "kind": "menu",
+   "jp": "は攻撃をかわした！",
    "en": "",
    "tail": 1,
    "end": "0019"
@@ -885,7 +1155,28 @@
   {
    "id": "BALLBAT:22698",
    "kind": "menu",
-   "jp": "の攻撃力が上がった！！！せんてをとった！ふいうち！",
+   "jp": "の攻撃力が上がった！",
+   "en": "",
+   "end": "00AB"
+  },
+  {
+   "id": "BALLBAT:226AC",
+   "kind": "menu",
+   "jp": "！！",
+   "en": "",
+   "end": "000E"
+  },
+  {
+   "id": "BALLBAT:226B0",
+   "kind": "menu",
+   "jp": "せんてをとった！",
+   "en": "",
+   "end": "001C"
+  },
+  {
+   "id": "BALLBAT:226C0",
+   "kind": "menu",
+   "jp": "ふいうち！",
    "en": "",
    "tail": 1,
    "end": "0019"
@@ -901,177 +1192,23 @@
   {
    "id": "BALLBAT:226D0",
    "kind": "menu",
-   "jp": "ランクがあがった！！は混乱している！には効果がなかった！う",
+   "jp": "ランクがあがった！！",
    "en": "",
-   "tail": 1,
-   "end": "2514"
+   "end": "001A"
   },
   {
-   "id": "BALLBAT:22710",
+   "id": "BALLBAT:226E4",
    "kind": "menu",
-   "jp": "き",
+   "jp": "は混乱している！",
    "en": "",
-   "tail": 1,
-   "end": "251C"
+   "end": "0016"
   },
   {
-   "id": "BALLBAT:22718",
+   "id": "BALLBAT:226F4",
    "kind": "menu",
-   "jp": "え",
+   "jp": "には効果がなかった！",
    "en": "",
-   "tail": 1,
-   "end": "252C"
-  },
-  {
-   "id": "BALLBAT:22720",
-   "kind": "menu",
-   "jp": "か",
-   "en": "",
-   "tail": 1,
-   "end": "2534"
-  },
-  {
-   "id": "BALLBAT:22728",
-   "kind": "menu",
-   "jp": "あ",
-   "en": "",
-   "tail": 1,
-   "end": "2540"
-  },
-  {
-   "id": "BALLBAT:22730",
-   "kind": "menu",
-   "jp": "か",
-   "en": "",
-   "tail": 1,
-   "end": "2544"
-  },
-  {
-   "id": "BALLBAT:22830",
-   "kind": "menu",
-   "jp": "ワャェタレッルゲチドメォガビタト！マズ６ガ",
-   "en": "",
-   "tail": 1,
-   "end": "0014"
-  },
-  {
-   "id": "BALLBAT:2285C",
-   "kind": "menu",
-   "jp": "とんどんらのエなャパガめち",
-   "en": "",
-   "tail": 1,
-   "end": "002D"
-  },
-  {
-   "id": "BALLBAT:22878",
-   "kind": "menu",
-   "jp": "をっるレゴタッ",
-   "en": "",
-   "tail": 1,
-   "end": "007A"
-  },
-  {
-   "id": "BALLBAT:22888",
-   "kind": "menu",
-   "jp": "ユヌドヌ[008E]ゾ・",
-   "en": "",
-   "tail": 1,
-   "end": "007F"
-  },
-  {
-   "id": "BALLBAT:22898",
-   "kind": "menu",
-   "jp": "レェタガビ[008E]ゾ・ナトガーヒホタ",
-   "en": "",
-   "tail": 1,
-   "end": "0033"
-  },
-  {
-   "id": "BALLBAT:228B8",
-   "kind": "menu",
-   "jp": "ぃちならそとは",
-   "en": "",
-   "tail": 1,
-   "end": "0082"
-  },
-  {
-   "id": "BALLBAT:228C8",
-   "kind": "menu",
-   "jp": "ヲパゾニォヒホッぉぐちぱがひた",
-   "en": "",
-   "tail": 1,
-   "end": "0068"
-  },
-  {
-   "id": "BALLBAT:228E8",
-   "kind": "menu",
-   "jp": "テホヒヌ火６ソホォヲフガノ６ヲゾヒッヒメ６ガヒ６{dash}６ヒメ６ガド６・ヒメ６ガ",
-   "en": "",
-   "tail": 1,
-   "end": "00AE"
-  },
-  {
-   "id": "BALLBAT:22934",
-   "kind": "menu",
-   "jp": "[00AE]ォソヒメ６ガ",
-   "en": "",
-   "tail": 1,
-   "end": "006F"
-  },
-  {
-   "id": "BALLBAT:22944",
-   "kind": "menu",
-   "jp": "ハ６レヒメ６ガ",
-   "en": "",
-   "tail": 1,
-   "end": "0082"
-  },
-  {
-   "id": "BALLBAT:22954",
-   "kind": "menu",
-   "jp": "ヲパゾニ６３ガ",
-   "en": "",
-   "tail": 1,
-   "end": "008B"
-  },
-  {
-   "id": "BALLBAT:22964",
-   "kind": "menu",
-   "jp": "ォガォガヲゾニヒーッーッ６ヴゾメト[008F]フガヒ",
-   "en": "",
-   "tail": 1,
-   "end": "0070"
-  },
-  {
-   "id": "BALLBAT:22990",
-   "kind": "menu",
-   "jp": "ヒメゾ１ェガ３[008E][008E]マゲネ雷パホォナグチォーォハギヒモゾニヲパトッ３ムメ",
-   "en": "",
-   "tail": 1,
-   "end": "0082"
-  },
-  {
-   "id": "BALLBAT:229D8",
-   "kind": "menu",
-   "jp": "ヲパトッ[00AE]６ド６ツォゾニヘチロッ１ンリタロッ１ンヲパトッハズタニてめをぉフゾメ",
-   "en": "",
-   "tail": 1,
-   "end": "00A5"
-  },
-  {
-   "id": "BALLBAT:22A28",
-   "kind": "menu",
-   "jp": "パゲナガ[00AE]ネョ６ヤガビ[008E]６水０ネ{dash}ォリガヲ６ヲルモパグツッ",
-   "en": "",
-   "tail": 1,
-   "end": "00A3"
-  },
-  {
-   "id": "BALLBAT:22A64",
-   "kind": "menu",
-   "jp": "ベ[008E]ヤギガリ",
-   "en": "",
-   "end": "EOF"
+   "end": "0003"
   },
   {
    "id": "BALLBAT:252E0",
@@ -1112,6 +1249,261 @@
    "en": "",
    "tail": 1,
    "end": "0254"
+  },
+  {
+   "id": "BALLBAT:22830",
+   "kind": "bfont",
+   "jp": "ホムライフル",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:2283C",
+   "kind": "bfont",
+   "jp": "ヒョウガトリング",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:2284C",
+   "kind": "bfont",
+   "jp": "イカヅチェーン",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:2285C",
+   "kind": "bfont",
+   "jp": "かみがみのさばき",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:2286C",
+   "kind": "bfont",
+   "jp": "ムジンとう",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:22878",
+   "kind": "bfont",
+   "jp": "まるひファイル",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:22888",
+   "kind": "bfont",
+   "jp": "ヌケガケロッド",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:22898",
+   "kind": "bfont",
+   "jp": "フライングロッド",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:228A8",
+   "kind": "bfont",
+   "jp": "キカンデスタイ",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:228B8",
+   "kind": "bfont",
+   "jp": "ゆうきのあかし",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:228C8",
+   "kind": "bfont",
+   "jp": "マジックリスタル",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:228D8",
+   "kind": "bfont",
+   "jp": "りゅうじんすい",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:228E8",
+   "kind": "bfont",
+   "jp": "オタスケボー",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:228F4",
+   "kind": "bfont",
+   "jp": "アタリマセンサー",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22904",
+   "kind": "bfont",
+   "jp": "マッスルストーン",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22914",
+   "kind": "bfont",
+   "jp": "スーパーストーン",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22924",
+   "kind": "bfont",
+   "jp": "ガードストーン",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:22934",
+   "kind": "bfont",
+   "jp": "バリアストーン",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:22944",
+   "kind": "bfont",
+   "jp": "シーフストーン",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:22954",
+   "kind": "bfont",
+   "jp": "マジックーポン",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:22964",
+   "kind": "bfont",
+   "jp": "リンリンマックス",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22974",
+   "kind": "bfont",
+   "jp": "デルデルーレット",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22984",
+   "kind": "bfont",
+   "jp": "カワセンス",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:22990",
+   "kind": "bfont",
+   "jp": "ストップラン",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:2299C",
+   "kind": "bfont",
+   "jp": "ポロロチョコ",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:229A8",
+   "kind": "bfont",
+   "jp": "ベジタリキュウリ",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:229B8",
+   "kind": "bfont",
+   "jp": "デリシャスナック",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:229C8",
+   "kind": "bfont",
+   "jp": "マジカルポテト",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:229D8",
+   "kind": "bfont",
+   "jp": "マジカルバーガー",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:229E8",
+   "kind": "bfont",
+   "jp": "エリックソウ",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:229F4",
+   "kind": "bfont",
+   "jp": "ヘルプミ",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:229FC",
+   "kind": "bfont",
+   "jp": "ハイヘルプミ",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22A08",
+   "kind": "bfont",
+   "jp": "マジカルシェイク",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22A18",
+   "kind": "bfont",
+   "jp": "おとまりセット",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:22A28",
+   "kind": "bfont",
+   "jp": "ジョキンバコ",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22A34",
+   "kind": "bfont",
+   "jp": "モーニングローブ",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22A44",
+   "kind": "bfont",
+   "jp": "ピコパリハンマー",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22A54",
+   "kind": "bfont",
+   "jp": "マヒナジュエル",
+   "en": "",
+   "tail": 1
+  },
+  {
+   "id": "BALLBAT:22A64",
+   "kind": "bfont",
+   "jp": "ゴロニャンハンド",
+   "en": ""
+  },
+  {
+   "id": "BALLBAT:22A74",
+   "kind": "bfont",
+   "jp": "フレッシュポーチ",
+   "en": ""
   }
  ]
 }

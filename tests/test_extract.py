@@ -46,11 +46,15 @@ def test_script_roundtrip(path):
     from jtext import Codec
     doc = json.loads(path.read_text(encoding="utf-8"))
     data = (extract.TREE / doc["file"]).read_bytes()
+    from jtext import battle_table
     menu, page, codecs = Codec(table(), newline=0x9999), Codec(table()), {}
+    bfont = Codec(battle_table())
     for e in doc["entries"]:
         o = int(e["id"].split(":")[1], 16)
         if "font" in e:
             c = codecs.setdefault(e["font"], Codec(table("M16_" + e["font"])))
+        elif e.get("kind") == "bfont":
+            c = bfont
         else:
             c = menu if e.get("kind", "menu") == "menu" else page
         b = c.encode(e["jp"])
@@ -58,6 +62,26 @@ def test_script_roundtrip(path):
             b += bytes(2 * e["max"] - len(b))
         b += bytes(2 * e.get("tail", 0))
         assert data[o:o + len(b)] == b, e["id"]
+
+
+@pytest.mark.parametrize("name", ["EXE", "ST", "BALLBAT", "MACHINE", "TTL", "LVUP", "FDS"])
+def test_menu_coverage(name):
+    """Every text-like run in a menu source is inside an extracted entry or a tbl/menu_data.txt range."""
+    import extract
+    assert set(extract.STREAMS) == {"EXE", "ST", "BALLBAT", "MACHINE", "TTL", "LVUP", "FDS"}
+    assert [hex(o) for o, _ in extract.uncovered(name)] == []
+
+
+def test_menu_split():
+    """Spot checks of the splits: glued fixed fields, records, battle-font names, kept cursor indent."""
+    import json
+    doc = {e["id"]: e for e in json.loads((ROOT / "script/BALLBAT.json").read_text(encoding="utf-8"))["entries"]}
+    assert doc["BALLBAT:2156C"]["jp"] == "スポーツキャップ" and doc["BALLBAT:2157C"]["jp"] == "龍神のかんむり"
+    assert "BALLBAT:21530" not in doc  # [u32 3, u32 ptr] record
+    assert doc["BALLBAT:22830"] == {"id": "BALLBAT:22830", "kind": "bfont", "jp": "ホムライフル", "en": ""}
+    assert doc["BALLBAT:252E0"]["jp"] == "リンリーン"  # a code ref mid-string must not cut
+    st = {e["id"]: e for e in json.loads((ROOT / "script/ST.json").read_text(encoding="utf-8"))["entries"]}
+    assert st["ST:00104"]["jp"].startswith("　バトルをつづける")
 
 
 def test_kanji_rows_match_fonts():

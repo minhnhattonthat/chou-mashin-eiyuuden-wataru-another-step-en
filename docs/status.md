@@ -2,9 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4. Extract in progress (script/ dumped and roundtrip-tested; menu-source structure + coverage next).
+- **Phase:** 5. Engine spike and marker build next (phase 4 done 2026-11-14: roundtrip + coverage tests green).
   Last build: build/wataru_en.bin, sha1 c2c044d1... (= original, no edits), smoke ok 2026-11-13.
 - **Done:**
+  - Phase 4 done (session 3, 2026-11-14): menu sources structured (docs/re/text.md "Menu-source structure"). A string
+    starts at every pointer target (blank cells after one are kept: cursor indents); `[u32 id, u32 ptr]` records
+    dropped; BALLBAT battle-font item names (`kind: bfont`, `jtext.battle_table`, 8x16 font at RAM 0x80110000);
+    new fixed tables exe_key_item_desc / exe_shop_lines / exe_monpet_lines / fds_places / fds_voices
+    (`FIXED` = (source, lo, hi, stride)). Table ranges that decode as text: `tbl/menu_data.txt` (replaces the `data`
+    flag). `test_menu_coverage`: no msgscan run in any menu source outside an entry or a data range (inside text
+    ranges any run, outside them 6+ words). `tools/refs.py SRC LO HI` lists pointer targets with their refs.
   - Phase 4, session 2 (2026-11-14): all 73 `?` readings settled (`jtext.py ctx [R04:1E1 ..]` prints uses in context).
     Pixel-font lookalikes fixed everywhere: 女 (read 廿/甘), 嬢 (爆), 簡 (闇), CG 0x131 聞 (was 闇), plus 遠 逞 輩 救 漢
     姿 接 誉. R13 0x16780-0x172EA (ワルジョ panel trap) is ep 12 -> M16_R12 (`rooms.font`). 0x0000 decodes as `　`.
@@ -31,25 +38,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase-2 RE: SysMode table (0x8009C7FC), episode index 0x8009C90C (0-14; 12 and 13 share R13.BIN; 15 = ending),
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
-- **Next (phase 4: extract, `references/pipeline.md` §Extract):**
-  1. Menu sources (tools/extract.py STREAMS; ranges narrowed 2026-11-14 from msgscan clusters) need structure:
-     - BALLBAT 0x21500-0x22A70: strings end 0x0000 (names `ワタル` etc.), not 0xFFFF; some entries are glued
-       (`ブリザードタックル！ウォーターウォール！..`, `がいる！の攻撃！は`) and some are noise (`き`, `お`,
-       `とんどんらのエなャパガめち` 0x2285C): split by the u32 tables at 0x2E8-0x7B4, mark noise `data`
-       (tbl/menu_data.txt, read by extract.load_data_marks).
-     - FDS 0x120D8: place names are fixed 10-cell fields (`もんじゃ村　　　　　龍神池`): split by stride; 0x125FA+
-       entries are noise. 0x1840C-0x18596 is a kana grid (name entry?), EXE 0x7099C-0x70B34 and 0x77CC8 too:
-       decide text vs data. MACHINE 0x1056C/0x10920 noise; 0x17616 is a kanji list (天翔登龍剣幻影招龍破.., a glyph
-       set for drawn attack names? check before phase 5). ST 0x3ACC noise. TTL: check the CNF_MSG font cells.
-     - EXE menu strings 0x77B8A+ end 0x0000 (`よろしいですか` / `はい` / `いいえ`); `segments()` cuts at pointer
-       targets only, so check each against the lui/addiu refs. EXE 0x0224 in key item `[0224]メダル` = 金 in the
-       R08/R09 font (menus borrow the loaded room font): note it for translators.
-     Then a coverage test per source: every msgscan --menu run in the file is inside an entry or a listed data range.
-  2. Translator view: speakers (`ワタル：` first line), message grouping of pages (0x2000 next page, 0x3000 end).
-  3. When phase 5 starts editing: give `build.build()` a no-edits switch so test_identity stays green.
-  4. Free-RAM: 0x80128800-0x80148000 is free outside battles only (files.md); phase 5 must pick a region that
-     survives battles (or reload after them).
-  5. Tour checks owed by the graphics survey (FK stills, FMV burnt-in text, credits pages, battle signs) have warps.
+- **Next (phase 5: engine spike + marker build, `references/pipeline.md` §Marker, `platform-ps1.md`):**
+  1. Give `build.build()` a no-edits switch first so test_identity stays green, then an insert path from script/.
+  2. Engine spike: font decision for the 16x16 MSG_CG/M16 text (half-width / VWF / 2-letters-per-cell) and the other
+     fonts: CNF_MSG (TTL config), BALLBAT 8x16 item font at RAM 0x80110000 (find its file), MACHINE glyph lists
+     0x1761C/0x17630/0x17648 (tbl/menu_data.txt: find how the mashin battle draws them), the FDS name-entry grid
+     0x18468 (Latin letters). Boot every attempt.
+  3. Fixed fields (EXE names 8-10 cells, 16-cell lines, FDS places 10, voices 7, BALLBAT 8-16): English won't fit
+     at full-width cells; relocate (pointer arrays mean free lengths, fixed tables need their base refs rewritten:
+     text.md "EXE text") or shrink the glyphs.
+  4. Free-RAM: 0x80128800-0x80148000 is free outside battles only (files.md); pick a region that survives battles.
+  5. Marker build (`[id]` per entry), tour with the warps, width gate: measure every box variant in-game.
+  6. Phase 6 prep (translator batches): speakers are the first line (`ワタル：`); pages end 2000 (next page) /
+     3000 (message end); key-item descriptions use borrowed room-font codes ([01AF] etc., reading depends on episode).
+  7. Tour checks owed by the graphics survey (FK stills, FMV burnt-in text, credits pages, battle signs) have warps.
      Grow scenes.txt when a report names a place it can't reach (open list in docs/re/debug.md).
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.

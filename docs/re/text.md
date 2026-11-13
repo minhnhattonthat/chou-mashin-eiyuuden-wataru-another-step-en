@@ -97,6 +97,32 @@ right after the largest room overlay.
   has no terminator (プロテクトバンド fills 16 bytes). English must fit these widths, or the tables move and the base
   references (lui/addiu, maybe also `$gp` = 0x8009C618) get rewritten: an engine decision for phase 5.
 - Noise, not text: 0x67D94-0x69DD8 and 0x6A7B8-0x6A938 (0x80-stride numeric tables), 0x7F048-0x7F408 (0x40 records).
+  Full list of table ranges that decode as text, per source: `tbl/menu_data.txt` (extract drops them, the coverage
+  test waives them).
+- More fixed fields (verified 2026-11-14 by layout): **key-item descriptions** 0x7CF74-0x7D3B4, 2 lines x 16 cells per
+  item (u32 table 0x7D3B4 -> each pair, stride 0x40); **shop lines** 0x77BA0-0x77C20 (16 cells: `よろしいですか` +
+  `はい　いいえ` share one line, おかねがたりません！！, ...); **monpet prompts** 0x77C58-0x77CC8 (16 cells, the last 8).
+  Descriptions use codes >= 0x1A4 (`[01AF]`, `[0221]`, `[0226]`): menus borrow the loaded room font, so the reading
+  depends on the episode (like `[0224]メダル`, 金 in R08/R09).
+
+### Menu-source structure (phase 4, 2026-11-14; tools/extract.py, tests/test_extract.py test_menu_*)
+
+- Strings can sit back to back with no terminator, so a string starts at every pointer target, and blank cells right
+  after a target are kept as text (ST 0x104 `　バトルをつづける`: the cursor indent). BALLBAT cuts at u32 targets only
+  (a code ref aims mid-string at 0x252E8).
+- BALLBAT 0x2150C-0x226F4: names and battle messages are fixed fields (equipment 8 cells, messages 10-16) reached by
+  `[u32 ptr]` lists at 0x21A80+/0x22388+/0x2270C+; `[u32 id, u32 ptr]` records (0x21530, 0x217FC, 0x21C04, ...) decode
+  as one kana and are dropped. Message fragments (`は`, `の`, `を手に入れた！`) are glued to names at run time.
+- **BALLBAT battle-font item names** 0x22830-0x22A84: list `[u32 cells, u32 ptr]` at 0x22AB4 (40 items, ptr 0 ends),
+  drawn by 0x800E1C30 with an 8x16 4bpp font at RAM 0x80110000 (glyph = code * 64 bytes, padded to 11 cells): code =
+  common code + 0x0E for kana, 1-10 digits (`jtext.battle_table`, read from a battle RAM dump). Copies of the EXE item
+  names: keep them in step. The font's file is not traced yet (phase 5, to add Latin glyphs).
+- FDS: place names 0x120D8-0x124AC are 10-cell fields (`fds_places.json`; u32 table 0x124AC = first slot per
+  episode), voice names 0x18550 7-cell fields (`fds_voices.json`, also in TTL), monpet name-entry kana grid 0x18468
+  (data: phase 5 swaps in Latin letters).
+- MACHINE 0x1761C/0x17630/0x17648 (`天翔登龍剣幻影招龍破`, `昇龍烈火爆裂聖剣斬る突く`, `リトライゲームをやめる`): no
+  terminators, one code ref each: probably glyph sets the mashin battle uploads; waived as data until phase 5 finds how
+  they are drawn.
 - Codes >= 0x1A4 in EXE runs come almost only from those noise tables; menu text uses MSG_CG codes (guess: check the
   status screen in phase 2).
 

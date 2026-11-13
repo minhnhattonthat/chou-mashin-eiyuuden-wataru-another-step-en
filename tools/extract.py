@@ -7,9 +7,11 @@ Sources:
   - <SRC>.json for the menu/battle streams (EXE, ST, BALLBAT, MACHINE, TTL, LVUP, FDS): STREAMS below gives each
     file's text ranges. A range splits into strings at every word that is not text (0xFFFF end, pointers, ...);
     0x9999 is the newline and 0x0000 a blank cell inside a string. Leading/trailing 0x0000 are padding, outside `jp`
-    (`tail` = trailing pad words). A string is kept when a pointer (u32 or lui/addiu) aims at it or a msgscan run
-    lies in it; `data` lists the ones that are tables, not text (checked by eye).
-  - exe_<table>.json: the EXE's fixed-width name fields (FIXED below); `max` = cells, jp without the zero padding.
+    (`tail` = trailing pad words), except blanks right after a pointer target. A string is kept when a pointer
+    (u32 or lui/addiu) aims at it or a msgscan run lies in it, and dropped inside tbl/menu_data.txt (tables that
+    decode as text, checked by eye). BALLBAT.json also holds `kind: bfont` item names (jtext.battle_table).
+  - <src>_<table>.json: fixed-width fields (FIXED below); `max` = cells, jp without the zero padding.
+`uncovered(src)` lists text-like runs no entry covers (tests/test_extract.py wants none).
 Existing files keep each id's `en`, `status` and `notes`; an id with English that would vanish stops the dump
 unless --force. tests/test_extract.py checks roundtrip and coverage against the original files.
 """
@@ -22,7 +24,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import msgscan  # noqa: E402
 import rooms  # noqa: E402
-from jtext import Codec, table  # noqa: E402
+from jtext import Codec, battle_table, table  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 TREE = ROOT / "work" / "disc" / "tree"
@@ -34,23 +36,37 @@ TEXTW = set(range(0, 0x1A4)) | {NL}
 # at 0x6F364-0x7090C and 0x7532C-0x76764 aim at event records, not text. EXE dialogue (save lady 0x6AA10, shops
 # 0x77A80, inn 0x79EC0, system/item messages 0x7A4DC) uses the room page grammar: see exe_pages().
 STREAMS = {
-    "EXE": ("SLPS_013.68", 0x80017800, [(0x6AA10, 0x6ACA8), (0x77A80, 0x77CC8), (0x79EC0, 0x79F10), (0x7A4DC, 0x7CAB8)]),
+    "EXE": ("SLPS_013.68", 0x80017800, [(0x6AA10, 0x6ACA8), (0x77A80, 0x77BA0), (0x77C20, 0x77C58), (0x79EC0, 0x79F10),
+                                         (0x7A4DC, 0x7CAB8)]),
     "ST": ("PRG/ST.BIN", 0x800D0000, [(0x100, 0x3D40)]),
-    "BALLBAT": ("PRG/BALLBAT.BIN", 0x800D0000, [(0x21500, 0x22A70), (0x252E0, 0x25320)]),
+    "BALLBAT": ("PRG/BALLBAT.BIN", 0x800D0000, [(0x21500, 0x22830), (0x252E0, 0x25320)]),
     "MACHINE": ("PRG/MACHINE.BIN", 0x800D0000, [(0x10190, 0x10930)]),
     "TTL": ("PRG/TTL.BIN", 0x800D0000, [(0x54E0, 0x5744)]),
     "LVUP": ("PRG/LVUP.BIN", 0x800D0000, [(0x1B68, 0x1C90)]),
-    "FDS": ("FPRG/FDS.BIN", 0x800F7000, [(0x120D8, 0x12A78)]),
+    "FDS": ("FPRG/FDS.BIN", 0x800F7000, [(0x124F0, 0x12A78)]),
 }
-# EXE fixed-width name fields: name -> (lo, hi, stride); slot i at lo + i*stride (docs/re/text.md "EXE text")
+# Strings can sit back to back with no terminator (BALLBAT fixed fields, ST `０１２３４５６７８９` + `[9999]きおく..`):
+# a string starts at every pointer target, and blank cells after the target are text (a cursor indent), not
+# padding. BALLBAT cuts at u32 targets only: a code ref aims mid-string at 0x252E8 (リンリー|ン).
+U32_CUTS_ONLY = {"BALLBAT"}
+# BALLBAT item names in its own 8x16 font (jtext.battle_table): [u32 cells, u32 ptr] list at this offset, ptr 0 ends
+BFONT = ("BALLBAT", 0x22AB4)
+# Fixed-width fields: name -> (source, lo, hi, stride); slot i at lo + i*stride, the last slot cut at hi
+# (docs/re/text.md "EXE text"). Written to <source>_<name>.json.
 FIXED = {
-    "key_items": (0x7CE18, 0x7CF28, 0x10),
-    "consumables": (0x7D400, 0x7D7B0, 0x10),
-    "item_effects": (0x7D7C0, 0x7DC5C, 0x14),
-    "equipment": (0x7DC7C, 0x7E1FC, 0x10),
-    "abilities": (0x7F84A, 0x7F9B6, 0x0E),
-    "mashin_attacks": (0x80094, 0x801C0, 0x14),
-    "enemies": (0x80300, 0x80558, 0x14),
+    "key_items": ("EXE", 0x7CE18, 0x7CF28, 0x10),
+    # 2 lines of 16 cells per key item (slot 2k, 2k+1 = item k); u32 table 0x7D3B4 points at each pair
+    "key_item_desc": ("EXE", 0x7CF74, 0x7D3B4, 0x20),
+    "consumables": ("EXE", 0x7D400, 0x7D7B0, 0x10),
+    "item_effects": ("EXE", 0x7D7C0, 0x7DC5C, 0x14),
+    "equipment": ("EXE", 0x7DC7C, 0x7E1FC, 0x10),
+    "abilities": ("EXE", 0x7F84A, 0x7F9B6, 0x0E),
+    "mashin_attacks": ("EXE", 0x80094, 0x801C0, 0x14),
+    "enemies": ("EXE", 0x80300, 0x80558, 0x14),
+    "shop_lines": ("EXE", 0x77BA0, 0x77C20, 0x20),  # 16-cell lines: confirm (10 + はい　いいえ), no money, ...
+    "monpet_lines": ("EXE", 0x77C58, 0x77CC8, 0x20),  # monpet naming prompts; 0x77CC8+ is a number table
+    "places": ("FDS", 0x120D8, 0x124AC, 0x14),  # 10-cell place names; u32 table 0x124AC = first slot per episode
+    "voices": ("FDS", 0x18550, 0x18596, 0x0E),  # 7-cell voice names (なんでやねん ..; TTL.json has its own copy)
 }
 
 
@@ -59,17 +75,37 @@ def words(data, lo=0, hi=None):
     return struct.unpack_from("<%dH" % ((hi - lo) // 2), data, lo)
 
 
-def targets(data, base):
-    """File offsets that code or u32 pointers aim at."""
-    out = {a - base for _, a in rooms.re_consts(data, base)}
+def targets(data, base, code=True):
+    """File offsets that code (lui/addiu) or u32 pointers aim at."""
+    out = {a - base for _, a in rooms.re_consts(data, base)} if code else set()
     for k in range(0, len(data) - 3, 4):
         out.add(struct.unpack_from("<I", data, k)[0] - base)
     return {t for t in out if 0 <= t < len(data)}
 
 
-def segments(data, lo, hi, cuts=()):
+def is_ptr(data, k):
+    """u32 at k is a main-RAM address (records also point into the EXE, BALLBAT 0x217FC -> 0x80094D20)."""
+    return k + 4 <= len(data) and 0x80010000 <= struct.unpack_from("<I", data, k)[0] < 0x80200000
+
+
+def bfont_names():
+    """[(offset, ncells)] of the BALLBAT battle-font item names (BFONT list)."""
+    name, k = BFONT
+    path, base, _ = STREAMS[name]
+    data = (TREE / path).read_bytes()
+    out = []
+    while True:
+        n, p = struct.unpack_from("<II", data, k)
+        if not p:
+            return out
+        out.append((p - base, n))
+        k += 8
+
+
+def segments(data, lo, hi, cuts=(), hard=()):
     """[(start, nwords, tail, end_word)] for each run of text words in [lo, hi), zero padding trimmed. A run also
-    ends before a pointer target (`cuts`) that follows a 0x0000: some menus end strings with 0x0000 (EXE 0x77B9E)."""
+    ends before a pointer target (`cuts`) that follows a 0x0000: some menus end strings with 0x0000 (EXE 0x77B9E).
+    hard: targets a run always ends before; one starting at a hard target keeps its leading blanks."""
     hi = len(data) & ~1 if hi is None else hi
     w = words(data, lo, hi)
     out, i = [], 0
@@ -78,10 +114,10 @@ def segments(data, lo, hi, cuts=()):
             i += 1
             continue
         j = i + 1
-        while j < len(w) and w[j] in TEXTW and not (w[j - 1] == 0 and w[j] and lo + 2 * j in cuts):
+        while j < len(w) and w[j] in TEXTW and not (lo + 2 * j in hard or lo + 2 * j in cuts and w[j - 1] == 0 and w[j]):
             j += 1
         a, b = i, j
-        while a < b and w[a] == 0:
+        while a < b and w[a] == 0 and not (lo + 2 * a in hard and any(w[a:b])):
             a += 1
         while b > a and w[b - 1] == 0:
             b -= 1
@@ -105,16 +141,21 @@ def stream_strings(name):
     data = (TREE / path).read_bytes()
     msgscan.ENDS = (0x1000, 0x2000, 0xFFFF, NL, 0x0000)
     tg = targets(data, base)
+    hard = targets(data, base, code=False) if name in U32_CUTS_ONLY else tg
     marks = sorted(tg | {o for o, _ in msgscan.scan(data)})
     inpage = set()
     if name == "EXE":
         for o, n, _, _ in exe_pages(data):
             inpage.update(range(o, o + 2 * n + 2, 2))
+    skip = data_ranges().get(name, [])
     out = []
     for lo, hi in ranges:
-        for o, n, tail, end in segments(data, lo, hi, tg):
-            if o in inpage:
+        for o, n, tail, end in segments(data, lo, hi, tg, hard):
+            cells = [(o + 2 * k) for k, x in enumerate(words(data, o, o + 2 * n)) if x]
+            if o in inpage or any(a <= o < b for a, b in skip):
                 continue
+            if len(cells) == 1 and cells[0] % 4 == 0 and is_ptr(data, cells[0] + 4):
+                continue  # one "cell" then a pointer: a [u32 id, u32 ptr] record, not text
             # a pointer may aim at the zero padding before the string (up to 8 words)
             k = bisect.bisect_left(marks, o - 16)
             if k < len(marks) and marks[k] < o + 2 * n:
@@ -122,15 +163,49 @@ def stream_strings(name):
     return data, out
 
 
-def load_data_marks():
-    """{source: {offset}} of strings that are tables, not text (tbl/menu_data.txt)."""
+def data_ranges():
+    """{source: [(lo, hi)]} of file ranges that decode as text but are tables (tbl/menu_data.txt, `SRC LO-HI`)."""
     out = {}
-    p = ROOT / "tbl" / "menu_data.txt"
-    if p.exists():
-        for line in p.read_text(encoding="utf-8").splitlines():
-            if line.strip() and not line.startswith("#"):
-                src, *offs = line.split()
-                out.setdefault(src, set()).update(int(o, 16) for o in offs)
+    for line in (ROOT / "tbl" / "menu_data.txt").read_text(encoding="utf-8").splitlines():
+        line = line.split("#")[0].split()
+        if line:
+            lo, hi = line[1].split("-")
+            out.setdefault(line[0], []).append((int(lo, 16), int(hi, 16)))
+    return out
+
+
+def spans(name):
+    """(data, {byte offsets}) every extracted entry of source `name` covers (text, padding and end word)."""
+    path, base, ranges = STREAMS[name]
+    data, strs = stream_strings(name)
+    cov = set()
+    for o, n, tail, _ in strs:
+        cov.update(range(o, o + 2 * (n + tail) + 2))
+    if name == "EXE":
+        for o, n, _, _ in exe_pages(data):
+            cov.update(range(o, o + 2 * n + 2))
+    for src, lo, hi, _ in FIXED.values():
+        if src == name:
+            cov.update(range(lo, hi))
+    if name == BFONT[0]:
+        for o, n in bfont_names():
+            cov.update(range(o, o + 2 * n))
+    return data, cov
+
+
+def uncovered(name):
+    """Text-like runs (msgscan --menu, 2+ words outside every entry) left in source `name`: inside its text ranges
+    any run, outside them runs of 6+ words (shorter ones there are code and table noise). Data ranges waive."""
+    data, cov = spans(name)
+    _, _, ranges = STREAMS[name]
+    skip = data_ranges().get(name, [])
+    msgscan.ENDS = (0x1000, 0x2000, 0xFFFF, NL, 0x0000)
+    out = []
+    for o, s in msgscan.scan(data):
+        if sum(o + 2 * k not in cov for k in range(len(s))) < 2 or any(a <= o < b for a, b in skip):
+            continue
+        if len(s) >= 6 or any(lo <= o < hi for lo, hi in ranges):
+            out.append((o, s))
     return out
 
 
@@ -148,7 +223,6 @@ def room_doc(name):
 def stream_doc(name):
     data, strs = stream_strings(name)
     c = Codec(table(), newline=NL)
-    marks = load_data_marks().get(name, set())
     entries = []
     if name == "EXE":
         pc = Codec(table())
@@ -163,26 +237,31 @@ def stream_doc(name):
         if tail:
             e["tail"] = tail
         e["end"] = "%04X" % end if end is not None else "EOF"
-        if o in marks:
-            e["data"] = True
         entries.append(e)
+    if name == BFONT[0]:
+        bc = Codec(battle_table())
+        for o, n in bfont_names():
+            e = {"id": f"{name}:{o:05X}", "kind": "bfont", "jp": bc.decode(data[o:o + 2 * n]), "en": ""}
+            if n % 2:
+                e["tail"] = 1
+            entries.append(e)
     path, base, _ = STREAMS[name]
     return {"file": path, "base": "%08X" % base, "entries": entries}
 
 
 def fixed_doc(tab):
-    lo, hi, stride = FIXED[tab]
-    data = (TREE / STREAMS["EXE"][0]).read_bytes()
+    src, lo, hi, stride = FIXED[tab]
+    path, base, _ = STREAMS[src]
+    data = (TREE / path).read_bytes()
     c = Codec(table(), newline=NL)
     entries = []
     for i, o in enumerate(range(lo, hi, stride)):
-        w = words(data, o, o + stride)
+        w = words(data, o, min(o + stride, hi))
         n = len(w)
         while n and w[n - 1] == 0:
             n -= 1
-        entries.append({"id": f"EXE:{o:05X}", "slot": i, "max": len(w), "jp": c.decode(data[o:o + 2 * n]), "en": ""})
-    return {"file": STREAMS["EXE"][0], "base": "%08X" % STREAMS["EXE"][1], "table": tab, "stride": stride,
-            "entries": entries}
+        entries.append({"id": f"{src}:{o:05X}", "slot": i, "max": len(w), "jp": c.decode(data[o:o + 2 * n]), "en": ""})
+    return {"file": path, "base": "%08X" % base, "table": tab, "stride": stride, "entries": entries}
 
 
 KEEP = ("en", "status", "notes")
@@ -215,7 +294,7 @@ def all_docs():
     for name in STREAMS:
         yield f"{name}.json", stream_doc(name)
     for tab in FIXED:
-        yield f"exe_{tab}.json", fixed_doc(tab)
+        yield f"{FIXED[tab][0].lower()}_{tab}.json", fixed_doc(tab)
 
 
 def main():
@@ -223,8 +302,7 @@ def main():
     bad = 0
     for rel, doc in all_docs():
         lost = write(rel, doc, force)
-        n = sum(not e.get("data") for e in doc["entries"])
-        print(f"{rel}: {n} strings" + (f"  REFUSED, would drop English of {lost[:5]}" if lost and not force else ""))
+        print(f"{rel}: {len(doc['entries'])} strings" + (f"  REFUSED, would drop English of {lost[:5]}" if lost and not force else ""))
         bad += bool(lost and not force)
     return 1 if bad else 0
 

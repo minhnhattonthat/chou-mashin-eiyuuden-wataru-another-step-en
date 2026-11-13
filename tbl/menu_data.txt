@@ -1,0 +1,24 @@
+# Menu-source file ranges (SRC LO-HI, file offsets, hi exclusive) that decode as text but are tables, checked by eye
+# 2026-11-14. tools/extract.py drops strings starting inside them; tests/test_extract.py waives their runs.
+EXE 67BE0-6A970     # kana-pair table (ぱあぱいぱう.. every pair) and code/value tables up to the save-lady text
+EXE 70980-70B40     # kana code grid, 6-cell rows with 2 blank cells (a lookup by code, not drawn as is)
+EXE 767A0-76D00     # small-number tables between the event-record arrays
+EXE 77258-77780     # mirrored value ramps (ああいいうう.. = 1 1 2 2 3 3)
+EXE 77CC8-77E80     # number table after the monpet prompts, then 0x0258-laced records
+EXE 780CC-780F0     # value ramp
+EXE 7E7D8-7E830     # records (0x0001-laced)
+EXE 7F048-7F460     # records
+EXE 80660-80A00     # coordinate records ([0580][02A8]お　え..)
+EXE 83730-84340     # 1024-word value ramp
+EXE 849C0-84BE0     # tile/record map (作 = 0x0140 filler)
+ST 3790-37AC        # u32 values 4 10 16 24
+ST 3800-3C08        # permutation table, u32 pointer arrays, u32 value tables, before よし！
+BALLBAT 22DFE-22E28 # rising u16 table 0x15 0x16 0x2B ..
+MACHINE 103E4-10940 # u32 table 0x103E4 and records after the attack names
+MACHINE 129D0-12F00 # records
+# Kanji/kana lists at 0x1761C (天翔登龍剣幻影招龍破), 0x17630 (昇龍烈火爆裂聖剣斬る突く), 0x17648 (リトライゲームをやめる):
+# no terminators, each one code ref, so probably glyph sets the mashin battle uploads. Phase 5: find how they are drawn.
+MACHINE 17610-17660
+FDS 12530-12A78     # sprite/record data after the item-order prompt
+# Monpet name-entry grid (あいうえお..わん らりるれろ っゃゅょを ー！？): phase 5 replaces it with Latin letters.
+FDS 18468-1851C

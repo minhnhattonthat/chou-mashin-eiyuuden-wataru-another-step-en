@@ -82,6 +82,15 @@ def table(font=None):
     return t
 
 
+def battle_table():
+    """BALLBAT's 8x16 4bpp item-name font (RAM 0x80110000, drawn by 0x800E1C30): 0 blank, 1-10 digits, kana and
+    katakana = common code + 0x0E (read from a battle RAM dump, 2026-11-14)."""
+    c = common()
+    t = {0: "　", **{k: "０１２３４５６７８９"[k - 1] for k in range(1, 11)}}
+    t.update({k + 0x0E: c[k] for k in range(1, 0xAE) if k in c})
+    return t
+
+
 class Codec:
     """Word codec. newline: the code shown as a real newline (0x1000 in room scripts, 0x9999 in menus/battle)."""
 
