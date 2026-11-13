@@ -1,0 +1,301 @@
+{
+ "file": "PRG/MACHINE.BIN",
+ "base": "800D0000",
+ "entries": [
+  {
+   "id": "MACHINE:10194",
+   "kind": "menu",
+   "jp": "マイクロ・ウェーブ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:101A8",
+   "kind": "menu",
+   "jp": "バーコードビーム",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:101BC",
+   "kind": "menu",
+   "jp": "りょうがえつぶて",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:101D0",
+   "kind": "menu",
+   "jp": "スチールフラッシュ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:101E4",
+   "kind": "menu",
+   "jp": "タップソード",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:101F4",
+   "kind": "menu",
+   "jp": "たいようフラッシュ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10208",
+   "kind": "menu",
+   "jp": "ヒートスラッシュ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:1021C",
+   "kind": "menu",
+   "jp": "ピッカリサンダー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10230",
+   "kind": "menu",
+   "jp": "サンダーボール",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10240",
+   "kind": "menu",
+   "jp": "ビリビリワッパー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10254",
+   "kind": "menu",
+   "jp": "ビリビリタイフーン",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10268",
+   "kind": "menu",
+   "jp": "バーチャル影分身",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:1027C",
+   "kind": "menu",
+   "jp": "私の歌をお聴き",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:1028C",
+   "kind": "menu",
+   "jp": "私にひざまずきなさい",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:102A4",
+   "kind": "menu",
+   "jp": "ゴールデンシュート",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:102B8",
+   "kind": "menu",
+   "jp": "ゴールデンファイヤー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:102D0",
+   "kind": "menu",
+   "jp": "アームプレス",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:102E0",
+   "kind": "menu",
+   "jp": "モーレツアタック",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:102F4",
+   "kind": "menu",
+   "jp": "こうそくリング",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10304",
+   "kind": "menu",
+   "jp": "分離攻撃",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10310",
+   "kind": "menu",
+   "jp": "ビーム",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10318",
+   "kind": "menu",
+   "jp": "だだっこパンチ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10328",
+   "kind": "menu",
+   "jp": "ヒップアタック",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10338",
+   "kind": "menu",
+   "jp": "聖ラブリーキャノン",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:1034C",
+   "kind": "menu",
+   "jp": "ワルワルファイヤー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10360",
+   "kind": "menu",
+   "jp": "ワルワルスピリッツ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10374",
+   "kind": "menu",
+   "jp": "デッドリーアイ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10384",
+   "kind": "menu",
+   "jp": "超龍撃破爆空魔陣",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:10398",
+   "kind": "menu",
+   "jp": "登龍剣",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:103A0",
+   "kind": "menu",
+   "jp": "天翔登龍剣",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:103AC",
+   "kind": "menu",
+   "jp": "幻影招龍破",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:103B8",
+   "kind": "menu",
+   "jp": "昇龍烈火爆裂聖剣",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:103CC",
+   "kind": "menu",
+   "jp": "経験値",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:103D4",
+   "kind": "menu",
+   "jp": "を手に入れた！",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "MACHINE:103E4",
+   "kind": "menu",
+   "jp": "村",
+   "en": "",
+   "end": "800E"
+  },
+  {
+   "id": "MACHINE:1056C",
+   "kind": "menu",
+   "jp": "ヘヘつつぁぇつとェェににぉぎにとＤＤはは。べはと炎炎ほほぐアほと陣陣めめじケめと字字ややぜネやと内内りりづミりと集集んんゲラんと場場ぁぁズホぁと力力ぅぅゾメぅと買買ゔゔ８ヂゔと昇昇。。{icon_sword}バ。と経経がが{icon_armor}ボがと",
+   "en": "",
+   "end": "01C7"
+  },
+  {
+   "id": "MACHINE:10660",
+   "kind": "menu",
+   "jp": "づづＦ{gC9}づとあい　オおおコ　　ソ　　ぺこきぱそおぁぁ　いあ　ウきお[0055]こおソ　　ぱきすぱおそぁゃういあ　ぱここ[0055]おこオこ　だことだ　ほをぁおいあ　ぴしきオおおソ　　ばおとだ　ほっもこいい　ぷくこ[0055]おこコお　でこちざ　もををこいあ　[0055]きく[0055]　そオおおだことだ　ほぁぁ　いい　[0055]こお[0055]おこソ　　だことだ　ほぁぁ　ああ　オこ　[0055]こおソ　　ぱ　とだおのぁぁ　あい　[0055]くき[0055]おこコ　おだことだ　ほっを　いあ　[0055]おこコ　おソ　　だ　ほが　りざも　いい　べしこ[0055]おこソ　　だことだ　ほぁをおいあ　ぱここ[0055]おこオこ　だことだおのぁぁ　あい　ぱここ[0055]おこソ　　だことざこのっを　あい　ぱここウおきソ　　だことだ　ほぁぁ　ええあばそこ[0055]おこソ　　だことがおもぁぁ　かああ[0055]こお[0055]おこソ　　だことだ　ほぁぁ",
+   "en": "",
+   "tail": 1,
+   "end": "001C"
+  },
+  {
+   "id": "MACHINE:1090C",
+   "kind": "menu",
+   "jp": "ふ",
+   "en": "",
+   "end": "7D40"
+  },
+  {
+   "id": "MACHINE:10912",
+   "kind": "menu",
+   "jp": "ィぱ",
+   "en": "",
+   "end": "FFF0"
+  },
+  {
+   "id": "MACHINE:10918",
+   "kind": "menu",
+   "jp": "ねふ",
+   "en": "",
+   "end": "7D40"
+  },
+  {
+   "id": "MACHINE:10920",
+   "kind": "menu",
+   "jp": "づテメ　ふ",
+   "en": "",
+   "end": "7D40"
+  },
+  {
+   "id": "MACHINE:1092C",
+   "kind": "menu",
+   "jp": "ィヒ",
+   "en": "",
+   "end": "EOF"
+  }
+ ]
+}

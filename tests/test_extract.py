@@ -38,6 +38,28 @@ def test_room_pages(name):
     assert un == waivers().get(name, set()), f"{name}: uncovered {sorted(map(hex, un))}"
 
 
+@pytest.mark.parametrize("path", sorted((ROOT / "script").rglob("*.json")), ids=lambda p: p.stem)
+def test_script_roundtrip(path):
+    """Every jp in script/ re-encodes to the original bytes at its id's offset (zero padding for fixed fields)."""
+    import json
+    import extract
+    from jtext import Codec
+    doc = json.loads(path.read_text(encoding="utf-8"))
+    data = (extract.TREE / doc["file"]).read_bytes()
+    menu, page, codecs = Codec(table(), newline=0x9999), Codec(table()), {}
+    for e in doc["entries"]:
+        o = int(e["id"].split(":")[1], 16)
+        if "font" in e:
+            c = codecs.setdefault(e["font"], Codec(table("M16_" + e["font"])))
+        else:
+            c = menu if e.get("kind", "menu") == "menu" else page
+        b = c.encode(e["jp"])
+        if "max" in e:
+            b += bytes(2 * e["max"] - len(b))
+        b += bytes(2 * e.get("tail", 0))
+        assert data[o:o + len(b)] == b, e["id"]
+
+
 def test_kanji_rows_match_fonts():
     rows = load_rows()
     for font, r in rows.items():

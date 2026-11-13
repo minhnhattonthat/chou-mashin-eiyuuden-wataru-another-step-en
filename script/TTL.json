@@ -1,0 +1,272 @@
+{
+ "file": "PRG/TTL.BIN",
+ "base": "800D0000",
+ "entries": [
+  {
+   "id": "TTL:054E0",
+   "kind": "menu",
+   "jp": "Ｍ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:054E4",
+   "kind": "menu",
+   "jp": "ボイス",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:054EC",
+   "kind": "menu",
+   "jp": "Ｒ１ボタン",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:054F8",
+   "kind": "menu",
+   "jp": "ＩＱバトル",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05504",
+   "kind": "menu",
+   "jp": "魔神バトル",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05510",
+   "kind": "menu",
+   "jp": "タイトル",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:0551C",
+   "kind": "menu",
+   "jp": "コンフィグ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05528",
+   "kind": "menu",
+   "jp": "ステレオ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05534",
+   "kind": "menu",
+   "jp": "モノラル",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05540",
+   "kind": "menu",
+   "jp": "ＯＮ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05548",
+   "kind": "menu",
+   "jp": "ＯＦＦ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05550",
+   "kind": "menu",
+   "jp": "なんでやねん",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05560",
+   "kind": "menu",
+   "jp": "さ、さむー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:0556C",
+   "kind": "menu",
+   "jp": "やってられんわ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:0557C",
+   "kind": "menu",
+   "jp": "アホかいな",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05588",
+   "kind": "menu",
+   "jp": "なんじゃそらー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05598",
+   "kind": "menu",
+   "jp": "１５パズル",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:055A4",
+   "kind": "menu",
+   "jp": "ヒット・アンド・ブロー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:055BC",
+   "kind": "menu",
+   "jp": "ブリキントンたたき",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:055D0",
+   "kind": "menu",
+   "jp": "きおくりょくゲーム",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:055E4",
+   "kind": "menu",
+   "jp": "敵の魔神を選んで下さい",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:055FC",
+   "kind": "menu",
+   "jp": "レンジ・デ・チン",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05610",
+   "kind": "menu",
+   "jp": "いらっしゃい魔神",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05624",
+   "kind": "menu",
+   "jp": "ＳＦＸザウルス",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05634",
+   "kind": "menu",
+   "jp": "ドウガヅクエーン",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05648",
+   "kind": "menu",
+   "jp": "ライトサーチ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05658",
+   "kind": "menu",
+   "jp": "ラクライガー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05668",
+   "kind": "menu",
+   "jp": "エレクトロン",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05678",
+   "kind": "menu",
+   "jp": "ミスター・イリュージョン",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05694",
+   "kind": "menu",
+   "jp": "アムラーＸ５５",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:056A4",
+   "kind": "menu",
+   "jp": "ゴールドメダラー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:056B8",
+   "kind": "menu",
+   "jp": "シェイプＵ２",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:056C8",
+   "kind": "menu",
+   "jp": "ジューンブライガー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:056DC",
+   "kind": "menu",
+   "jp": "ＬＬラバーズ・１",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:056F0",
+   "kind": "menu",
+   "jp": "ＬＬラバーズ・２",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05704",
+   "kind": "menu",
+   "jp": "ＱＴコアラッコ",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05714",
+   "kind": "menu",
+   "jp": "聖ラブリーフォー",
+   "en": "",
+   "end": "FFFF"
+  },
+  {
+   "id": "TTL:05728",
+   "kind": "menu",
+   "jp": "ワルワル・キョジョーン",
+   "en": "",
+   "end": "FFFF"
+  }
+ ]
+}

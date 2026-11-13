@@ -50,10 +50,12 @@ def font(name, offset):
     """Room font for a page: by episode index (jtext.EPISODE_FONT); R13.BIN is shared by episodes 12 and 13.
     R13 split (2026-11-14): pages using codes > 0x204 (past M16_R12's 97 glyphs) all fall outside the ep-12 ranges,
     and 【】 decode as M16_R12 0x1F8/0x1F9 inside them: ep-12 banks 0x1DAB0+ up to the ep-13 NPC block at 0x212D8,
-    and the ep-12 NPC block from 0x22D78. The shared minigame block at 0x16780 has no room kanji."""
+    and the ep-12 NPC block from 0x22D78. The code-built block at 0x16780-0x16A30 (ワルジョ's panel trap) is ep 12 too:
+    in M16_R13 it reads ここまで案たこと, in M16_R12 ここまで来たこと (2026-11-14)."""
     from jtext import EPISODE_FONT
     if name == "R13":
-        return "M16_R12" if 0x1DAB0 <= offset < 0x212D8 or offset >= 0x22D78 else "M16_R13"
+        ep12 = 0x16780 <= offset < 0x172EA or 0x1DAB0 <= offset < 0x212D8 or offset >= 0x22D78
+        return "M16_R12" if ep12 else "M16_R13"
     return EPISODE_FONT[[c[0] for c in CASES].index(name)]
 
 
@@ -69,11 +71,11 @@ def banks(ep):
     return sorted({p - BASE for p in ptrs if p})
 
 
-def pointers(data):
+def pointers(data, base=BASE):
     """{target file offset: [slot offsets]} for every aligned u32 that points inside the overlay."""
     out = {}
     for k in range(0, len(data) - 3, 4):
-        p = struct.unpack_from("<I", data, k)[0] - BASE
+        p = struct.unpack_from("<I", data, k)[0] - base
         if 0 <= p < len(data):
             out.setdefault(p, []).append(k)
     return out
@@ -84,11 +86,12 @@ def after_command(w, i):
     return w[i - 1] == 0xFFFF and any(x in TERMS for x in w[max(0, i - 6):i - 1])
 
 
-def pages(data):
-    """[(offset, nwords, terminator, header)] of every text page; header = 'event', 'next' or 'ptr'."""
+def pages(data, base=BASE):
+    """[(offset, nwords, terminator, header)] of every text page; header = 'event', 'next', 'ptr' or 'code'.
+    base: RAM address of file offset 0 (the EXE's dialogue, e.g. the save lady, parses the same way at 0x80017800)."""
     w = words(data)
-    ptr = pointers(data)
-    code = {a - BASE for _, a in re_consts(data, BASE)}
+    ptr = pointers(data, base)
+    code = {a - base for _, a in re_consts(data, base)}
     bank_starts = {o for ep, c in enumerate(CASES) if (FPRG / f"{c[0]}.BIN").read_bytes() == data for o in banks(ep)}
     out = []
     ends = set()  # word index right after an accepted page's terminator and its args: where a 'next' page may start
@@ -131,7 +134,8 @@ def pages(data):
                     hdr = "code"
                 else:
                     hdr = None
-                if hdr and 2 * w[start:j].count(0) > j - start:
+                if hdr in ("ptr", "code") and 2 * w[start:j].count(0) > j - start:  # 'next' may be a choice list
+                    # indented by blank cells (EXE 0x6ABFC: セーブしていく？ / 8 blanks はい / 8 blanks いいえ)
                     hdr = None  # mostly blank cells: MIPS code (R01 0x8E6), not a page
                 if hdr and j > start:
                     out.append((2 * start, j - start, w[j], hdr))

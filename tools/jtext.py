@@ -47,6 +47,7 @@ def common():
             k, v = line.split("=", 1)
             b = bytes.fromhex(k)
             t[b[0] | b[1] << 8] = v
+    t[0] = "　"  # blank cell (R08 quiz indents, ST.BIN choice items); menu extractors strip 0x0000 padding first
     return t
 
 
@@ -166,8 +167,37 @@ def doubt_sheet(items, out, zoom=5, cols=12):
     print(out, len(items))
 
 
+def contexts(want=None, n=3, width=6):
+    """Up to n decoded uses (+-width chars) of every unsure room/common reading, or of `want` {(font, code)}
+    (font 'CG' = common), to settle a reading from the words around it."""
+    import rooms
+    rows = load_rows()
+    uses, codecs = {}, {}
+    for name in rooms.OVERLAYS:
+        data = (rooms.FPRG / f"{name}.BIN").read_bytes()
+        for o, nw, _, _ in rooms.pages(data):
+            f = rooms.font(name, o)
+            r = {**{c: v for c, v in rows["CG"].items()}, **rows.get(f, {})}
+            c = codecs.setdefault(f, Codec(table(f)))
+            toks = [c.decode(data[o + 2 * k:o + 2 * k + 2]).replace("\n", "/") for k in range(nw)]
+            for k, code in enumerate(rooms.words(data[o:o + 2 * nw])):
+                key = ("CG" if code < 0x1A4 else f, code)
+                hit = key in want if want else code in r and r[code][1]
+                if hit and len(uses.setdefault((f, code), [])) < n:
+                    toks[k] = "<" + toks[k] + ">"
+                    uses[(f, code)].append(f"{name}:{o:X} " + "".join(toks[max(0, k - width):k + width + 1]))
+                    toks[k] = toks[k][1:-1]
+    for (f, code), u in sorted(uses.items()):
+        if u:
+            print(f"{f[-3:]}:{code:X} {rows['CG' if code < 0x1A4 else f][code][0]}  |  " + "  |  ".join(u))
+
+
 if __name__ == "__main__":
-    if len(sys.argv) > 2 and sys.argv[1] == "sheet":  # jtext.py sheet OUT.png R00:1F8 CG:121 ...
+    if len(sys.argv) > 1 and sys.argv[1] == "ctx":  # jtext.py ctx [R04:1E1 CG:121 ...]
+        sys.path.insert(0, str(ROOT / "tools"))
+        contexts({("CG" if f == "CG" else "M16_" + f, int(c, 16)) for f, c in (a.split(":") for a in sys.argv[2:])},
+                 n=6, width=10) if sys.argv[2:] else contexts()
+    elif len(sys.argv) > 2 and sys.argv[1] == "sheet":  # jtext.py sheet OUT.png R00:1F8 CG:121 ...
         doubt_sheet([("CG" if f == "CG" else "M16_" + f, int(c, 16)) for f, c in
                      (a.split(":") for a in sys.argv[3:])], sys.argv[2])
     else:

@@ -60,6 +60,12 @@ Disc: SLPS-01368 (Banpresto / Aspect, 1998-04-23). EXE `SLPS_013.68`: PS-X EXE, 
   tools/jtext.py` lists them, `jtext.py sheet OUT.png R00:1F8 ..` renders any set big. Fonts hold real duplicate
   glyphs (R02 先 0x1AB/0x242, R07 社, R11 福, R12 行/誰/問); the codec writes the second as `[0242:先]`.
 - 0xE8 in MSG_CG looks like Ｘ; 0x181 is the ▼ prompt glyph.
+- Readings settled from context (2026-11-14, `jtext.py ctx`): the 16px font draws 女 like 廿/甘, 嬢 like 爆, 簡 and
+  聞 (CG 0x131) like 闇. R13 0x16780-0x172EA is episode-12 text (M16_R12).
+- **EXE text is narrower than the 0x6AA10-0x7CA9A span above** (verified static 2026-11-14): dialogue in room page
+  grammar at 0x6AA10-0x6ACA8 (save lady), 0x77A80-0x77B88 (shop, もんペット), 0x79EC0 (inn), 0x7A4DC-0x7CAB4 (210
+  item/system messages, table 0x7CAB8); menu strings ending 0x0000 at 0x77B8A-0x77CC8. The u32 arrays 0x70B6C,
+  0x76884, 0x76B38, 0x76DBC aim at event records (0x6F364-0x7090C, 0x7532C-0x76764), not text.
 
 ## Other text (verified to decode; pointer formats partly mapped)
 
