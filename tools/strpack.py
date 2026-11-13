@@ -5,8 +5,8 @@ English is longer than its slot is written to free space and every reference to 
 aligned u32 slots holding the entry's address ([u32 cells, u32 ptr] records, pointer tables) and lui + lo pairs
 that build it (both immediates patched; a lui shared with another address refuses). Terminators and bytes between
 chained pages travel with the unit; a count-drawn string (`len_at`) has none.
-Free space (FREE): past the overlay's end up to the first address the overlay itself uses (trap-tested in battle,
-docs/re/files.md), or for the EXE the zero run after the compose hook plus the old slots of the units that moved.
+Free space: past the overlay's end up to TAIL_END (trap-fill tested in the battles on the original disc,
+docs/re/files.md "PRG overlay tails"), or for the EXE the zero run after the compose hook plus the old slots of the units that moved.
 """
 import struct
 import sys
@@ -26,12 +26,16 @@ _spec.loader.exec_module(_mipsre)
 # exactly the JP size, so they stay in place at their JP length (IQ battle text was garbage when moved).
 BASE = {"SLPS_013.68": 0x80017800, "PRG/BALLBAT.BIN": 0x800D0000,
         "PRG/MACHINE.BIN": 0x800D0000, "PRG/TTL.BIN": 0x800D0000}
-# RAM end of the space past each overlay (first address the overlay's code builds past its end).
+# RAM end of the space past each overlay, trap-tested on the original (docs/re/files.md "PRG overlay tails"):
+# BALLBAT stops at the ENE overlays (insert.ENE_BASE), MACHINE at 0x800F0000 (the game writes 0x800F0000+).
 # Not TTL: uses its own pool only (POOL).
-TAIL_END = {"PRG/BALLBAT.BIN": 0x80109800, "PRG/MACHINE.BIN": 0x800F206C}
+TAIL_END = {"PRG/BALLBAT.BIN": 0x80104800, "PRG/MACHINE.BIN": 0x800F0000}
 POOL = {"PRG/TTL.BIN"}  # one run of u32-table strings: re-laid back to back
-# rest of the EXE zero run; 0x80098C2C-0x80098C40 is live (written at the title; strings there froze it, trap-tested)
-EXE_FREE = (compose.HOOK + 4 * len(compose.hook_words()), 0x80098C2C)
+# rest of the EXE zero run; 0x80098C2C-0x80098C40 is live (written at the title; strings there froze it, trap-tested).
+# The run is libspu's _spu_zerobuf (SpuClearReverbWorkArea DMAs it to SPU RAM): its last 64 bytes stay zero and
+# insert.CODE points the clear there in 64-byte chunks (docs/re/font.md).
+SPU_ZERO = (0x80098BEC, 0x80098C2C)
+EXE_FREE = (compose.HOOK + 4 * len(compose.hook_words()), SPU_ZERO[0])
 PAGE_TERMS = {0x2000, 0x3000, 0x4000, 0x5000, 0x6000, 0x7000, 0x8000, 0xA000, 0xC000, 0xD000, 0xE000, 0xF000}
 
 

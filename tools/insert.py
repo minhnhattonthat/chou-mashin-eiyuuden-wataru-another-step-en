@@ -62,6 +62,14 @@ CODE = [
     ("PRG/BALLBAT.BIN", 0xF340, 0x94631C00, 0x92230000, "header name: lbu v1,0(s1) (was lhu count)"),
     ("PRG/BALLBAT.BIN", 0xF390, 0x94631C00, 0x92230000, "header name: lbu v1,0(s1) (next byte)"),
     ("PRG/BALLBAT.BIN", 0xF398, 0x0203182A, 0x00000000, "header name: nop (was slt v1,s0,v1)"),
+    # SpuClearReverbWorkArea (0x80062E98) DMAs libspu's 1 KB zero buffer 0x8009882C, where the compose hook and moved
+    # EXE strings now live: clear from strpack.SPU_ZERO (64 zero bytes) in 64-byte chunks instead of 1 KB ones.
+    (EXE, 0x4B780, 0x2E220401, 0x2E220041, "spu clear: sltiu v0,s1,0x41"),
+    (EXE, 0x4B790, 0x24100400, 0x24100040, "spu clear: chunk 0x40"),
+    (EXE, 0x4B7B4, 0x24A5882C, 0x24A58BEC, "spu clear: zero buffer 0x80098BEC"),
+    (EXE, 0x4B7C8, 0x2631FC00, 0x2631FFC0, "spu clear: size -= 0x40"),
+    (EXE, 0x4B7D0, 0x26520400, 0x26520040, "spu clear: spu addr += 0x40"),
+    (EXE, 0x4B7D8, 0x2E220401, 0x2E220041, "spu clear: sltiu v0,s1,0x41 (loop)"),
 ]
 
 
@@ -81,7 +89,7 @@ def entries():
     for p in sorted(SCRIPT.glob("rooms/*.json")) + sorted(SCRIPT.glob("*.json")) + sorted(SCRIPT.glob("ene/*.json")):
         doc = json.loads(p.read_text(encoding="utf-8"))
         for e in doc["entries"]:
-            if not e["jp"].strip("　\n") or e["id"] in skip:
+            if not e["jp"].strip("　\n") or e["id"] in skip or e.get("kind") == "sjis":
                 continue
             kind = e.get("kind")
             if "font" in e:
@@ -103,6 +111,17 @@ def entries():
             avail = e["max"] if "max" in e else len(words) + (e.get("tail", 0) if kind == "menu" else 0)
             out.append((e, doc["file"], int(e["id"].split(":")[1], 16), words, avail, nl, ctx))
     return out
+
+
+def sjis_entries():
+    """[(entry, disc path, offset)] for Shift-JIS strings (kind 'sjis': the memory-card save title)."""
+    return [(e, doc["file"], int(e["id"].split(":")[1], 16)) for p in sorted(SCRIPT.glob("*.json"))
+            for doc in [json.loads(p.read_text(encoding="utf-8"))] for e in doc["entries"] if e.get("kind") == "sjis"]
+
+
+def sjis_bytes(text):
+    """ASCII -> full-width Shift-JIS (space = ideographic space)."""
+    return "".join("　" if c == " " else chr(ord(c) + 0xFEE0) for c in text).encode("shift_jis")
 
 
 def marker(words, num, nl, upper):
@@ -200,8 +219,7 @@ def edits(qa=None, english=True):
         if text and e["id"] not in qa and "+" + e["id"] not in qa and not relocatable(path, off) and \
                 not movable(e, path) and \
                 (len(text) if ctx == "BF" else len(cells(text, nl))) > avail + room:
-            # shortcut: English past its JP slot shows the marker until phase 7 grows slots (work/overflow.tsv)
-            OVERFLOW.append(e["id"])
+            OVERFLOW.append(e["id"])  # a fixed slot: fails the build below unless this is a qa build
             text = None
         if text is None:
             text = marker(words, num, nl, not ctx.startswith("M16")) if ctx != "BF" else \
@@ -261,6 +279,14 @@ def edits(qa=None, english=True):
             continue
         new += [0] * (avail - len(new))
         put(bufs, orig, load(path), off, struct.pack("<%dH" % avail, *new)[:2 * avail - back.get(e["id"], 0)], e["id"])
+    for e, path, off in sjis_entries() if english else []:
+        b = sjis_bytes(e["en"]) if e.get("en") else b""
+        if len(b) > e["max"] or not b:
+            errors.append(f"{e['id']}: {len(b)} SJIS bytes, room for {e['max']}")
+        else:
+            put(bufs, orig, load(path), off, b.ljust(e["max"], b"\0"), e["id"])
+    if OVERFLOW and not qa:  # qa (stress) builds may show markers; a real build never ships one
+        errors += [f"{i}: English longer than its fixed slot" for i in OVERFLOW]
     if errors:
         raise SystemExit("insert: text too long\n  " + "\n  ".join(errors))
     for path, items in room_items.items():

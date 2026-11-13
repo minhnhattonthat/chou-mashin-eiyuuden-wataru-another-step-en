@@ -1,0 +1,13 @@
+{
+  "file": "PRG/MEMORY.BIN",
+  "note": "Shift-JIS, not the game's 16-bit codes: the memory-card save title. MEMORY 0x800D1038 copies these 64 bytes into the save header's title field (shown by the BIOS card manager). en is written as full-width SJIS, NUL-padded to max bytes (insert.sjis_entries).",
+  "entries": [
+    {
+      "id": "MEMORY:00000",
+      "kind": "sjis",
+      "max": 64,
+      "jp": "超魔神英雄伝ワタルセーブデータ",
+      "en": "Wataru: Another Step Save"
+    }
+  ]
+}

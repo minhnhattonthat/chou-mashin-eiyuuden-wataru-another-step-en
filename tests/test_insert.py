@@ -14,16 +14,88 @@ import romdiff  # noqa: E402
 pytestmark = pytest.mark.skipif(not (insert.TREE / "SLPS_013.68").exists(), reason="disc not unpacked")
 
 
-@pytest.fixture(scope="module")
-def built():
-    return insert.edits()
+def allowed_spans(path, orig):
+    """[(lo, hi)] byte spans the build may write in `path`, from the script layout and the named code/data sites
+    (not from the writes): text slots + terminators, pointer and lui/lo sites of movable strings, free space, the
+    compose font/table/hook, strips, CODE words, battle-font cells."""
+    import compose
+    import roompack
+    import rooms
+    import strpack
+    s = []
+    ents = [t for t in insert.entries() if t[1] == path]
+    enames = sorted(off for e, _, off, *_ in ents if e.get("kind") == "ename")
+    if path in strpack.BASE:
+        u32, code, _ = strpack.refs(orig, strpack.BASE[path])
+    for e, _, off, words, avail, nl, ctx in ents:
+        if "len_at" in e:
+            s.append((int(e["len_at"], 16), int(e["len_at"], 16) + 1))
+        if e.get("kind") == "bname":  # may start in the ename slot before it; its ptr8 is re-aimed
+            s.append((max([o for o in enames if o < off], default=off), off + avail + 1))
+            for k in range(0, len(orig) - 3, 4):
+                if struct.unpack_from("<I", orig, k)[0] == insert.ENE_BASE + off:
+                    s.append((k, k + 4))
+            continue
+        end = off + 2 * avail
+        if insert.movable(e, path):
+            end += strpack.term_len(orig, e, off, avail) or 0
+            end += 2 if end % 4 else 0  # the zero word padding the next string to 4 bytes
+            s += [(k, k + 4) for k in u32.get(off, [])] + [(k, k + 4) for lu_lo in code.get(off, []) for k in lu_lo]
+        s.append((off, end))
+    if path in strpack.TAIL_END:
+        s.append(((len(orig) + 3) & ~3, strpack.TAIL_END[path] - strpack.BASE[path]))
+    if path in strpack.POOL:
+        s.append((min(a for a, _ in s), max(b for _, b in s)))
+    if path.startswith("FPRG/R"):
+        name = Path(path).stem
+        s += [(p[0]["start"], p[-1]["end"]) for p in roompack.pools(name)]
+        s += [(u["start"], u["end"]) for u in roompack.units(name)]
+        s.append(((len(orig) + 3) & ~3, roompack.LIMIT))
+        s += [(k, k + 4) for ks in rooms.pointers(orig).values() for k in ks]
+    if path == insert.EXE:
+        s.append((strpack.EXE_FREE[0] - strpack.BASE[path], strpack.EXE_FREE[1] - strpack.BASE[path]))
+        s.append((compose.HOOK - compose.EXE_BASE, strpack.EXE_FREE[1] - compose.EXE_BASE))
+        s.append((compose.LOADIMAGE - compose.EXE_BASE, compose.LOADIMAGE - compose.EXE_BASE + 8))
+    if path in ("FM16/MSG_CG.BIN", "OUT/CNF_MSG.BIN"):
+        s.append((compose.FONT - compose.FONT_RAM, compose.FONT - compose.FONT_RAM + 95 * 64))
+        s.append((compose.TABLE - compose.FONT_RAM, compose.TABLE - compose.FONT_RAM + 2 * compose.TABLE_MAX))
+    if path == "FM16/MSG_CG.BIN":
+        s.append((insert.BF_FIRST * 64, (insert.BF_FIRST + 0x5F) * 64))
+    if path == "PRG/MACHINE.BIN":
+        s.append((insert.STRIP_LIST, insert.STRIP_END))
+        for addiu, slti, names in insert.STRIP_ROWS:
+            s += [(addiu, addiu + 4), (slti, slti + 4)]
+            s += [r for _, recs in names for uo, wo in recs for r in ((uo, uo + 1), (wo, wo + 2))]
+        s += [(k, k + 4) for k in insert.STRIP_SHORT[1:]]
+    s += [(off, off + 4) for p, off, *_ in insert.CODE if p == path]
+    s += [(off, off + e["max"]) for e, p, off in insert.sjis_entries() if p == path]
+    return strpack.coalesce(s)
 
 
 def test_writes_clean_under_romdiff(built):
+    """romdiff on every edited file, then every logged write must sit inside the file's allowed spans."""
+    import bisect
     for path, new in built.items():
         orig = (insert.TREE / path).read_bytes()
         errs, _ = romdiff.check(orig, new, set(), insert.WRITES[path])
         assert not errs, (path, errs[:5])
+        spans = allowed_spans(path, orig)
+        los = [a for a, _ in spans]
+        out = [(hex(off), by) for off, _, data, by in insert.WRITES[path]
+               if (i := bisect.bisect_right(los, off) - 1) < 0 or off + len(data) > spans[i][1]]
+        assert not out, (path, len(out), out[:5])
+
+
+def test_spu_zero_buffer_stays_zero(built):
+    """SpuClearReverbWorkArea uploads strpack.SPU_ZERO to SPU RAM: nothing may be written there."""
+    import strpack
+    a, b = (x - strpack.BASE[insert.EXE] for x in strpack.SPU_ZERO)
+    assert built[insert.EXE][a:b] == bytes(b - a)
+
+
+def test_no_overflow(built):
+    """A real build never falls back to a marker (edits() raises; this guards the qa-only fallback)."""
+    assert not insert.OVERFLOW
 
 
 def test_every_entry_written(built):
@@ -65,10 +137,3 @@ def test_compose_tables_written(built):
         for off, _, new, by in insert.WRITES[path]:
             if by.startswith("compose"):
                 assert cg[off:off + len(new)] == cnf[off:off + len(new)] == new
-
-
-def test_page_word_counts_kept(built):
-    """Each written entry keeps its slot size: nothing past the JP words + padding."""
-    for e, path, off, words, avail, nl, ctx in insert.entries():
-        new = struct.unpack_from("<%dH" % avail, built[path], off)
-        assert sum(1 for w in new if w == nl) == sum(1 for w in words if w == nl) or e.get("en"), e["id"]

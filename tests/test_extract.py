@@ -57,6 +57,9 @@ def test_script_roundtrip(path):
             c = bfont
         else:
             c = menu if e.get("kind", "menu") == "menu" else page
+        if e.get("kind") == "sjis":  # Shift-JIS, NUL-padded slot (save title)
+            assert data[o:o + e["max"]] == e["jp"].encode("shift_jis").ljust(e["max"], b"\0"), e["id"]
+            continue
         if e.get("kind") == "bname":  # bytes, NUL-padded slot
             b = bytes(bfont.encode(e["jp"])[::2])
             assert data[o:o + e["max"] + 1] == b.ljust(e["max"] + 1, b"\0"), e["id"]

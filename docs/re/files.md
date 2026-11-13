@@ -34,5 +34,14 @@
     Config, all 15 episode openings, field, field menu + submenus, shop, save, ending, credits leave it untouched;
     **every battle (ball, mashin, IQ, won, lost, level-up) overwrites the whole 0x80128800-0x80148000**. So it is
     free only outside battles: field text/VWF code there must be reloaded after a battle, or live elsewhere.
+- **PRG overlay tails (strpack free space)**, trap-tested on the original disc:
+  - BALLBAT 0x80101794 (file end) - **0x80104800** (ENE01-18 load there while BALLBAT is resident: the cap).
+    2026-11-14, `warp_all.py --rom rom/... --only battle_ball,battle_menu,battle_item,battle_win,battle_lose,levelup
+    --script tools/lua/trapwatch.lua --var LO=0x80101794 --var HI=0x80104800 --var FILL=7300` (work/qa/p7/trapB2):
+    all 6 reached, nothing dirty. An earlier fill to 0x80109800 (trapB) ran over the ENE data and hung the battle.
+  - MACHINE 0x800EA164 - **0x800F0000**: work/qa/p7/trapM (fill to 0x800F206C, mashin_hit) found the game writing
+    0x800F0000-0x800F1E54, so the cap is 0x800F0000; trapM2 (fill 0x800EA164-0x800F0000 at f7300, battle_mashin,
+    mashin_attack, mashin_hit, mashin_special, mashin_lose, mashin_win; 2026-11-14): all 6 reached, nothing dirty.
+  - TTL has no tail (re-laid in its own string pool).
 - Free space inside each overlay: the old bank area once banks move; plan in phase 3/5 (append banks past the overlay end
   if the RAM after the largest room is free, else reuse the old area plus a second region).

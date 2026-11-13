@@ -130,13 +130,18 @@ def width_problems(entry, en):
                 ind = 2 * (len(j) - len(j.lstrip("　")))
                 if ind and (len(s) - len(s.lstrip(" ")) != ind):
                     out.append(f"line {k + 1} must start with {ind} spaces (cursor cells)")
-    if entry["id"] in st_slots():  # ST: copied into a stack buffer of the JP size, can't grow (strpack.py)
-        avail, nl = st_slots()[entry["id"]]
-        k = len(_insert().cells(en, nl))
+    if entry["id"] in fixed_slots():  # can't grow: ST stack buffers, code-built room blocks, fixed fields
+        avail, nl, ctx = fixed_slots()[entry["id"]]
+        k = len(en) if ctx == "BF" else len(_insert().cells(en, nl))
         if k > avail:
-            out.append(f"too long for its slot: {k} cells, room for {avail} (a cell = 2 letters of one line, "
-                       f"each line break is a cell): cut {k - avail}")
+            unit = "letters" if ctx == "BF" else ("cells (a cell = 2 letters of one line, each line break is a "
+                                                   "cell)")
+            out.append(f"too long for its slot: {k} {unit}, room for {avail}: cut {k - avail}")
     sp = speaker(entry["jp"])
+    body = lines[1:] if sp else lines
+    if box(entry)[2] == "dlg" and len(body) >= 2 and len(body[-1].strip()) < 6 and \
+            not re.match(r"\d\. ", body[-1].strip()) and not re.search(r"[.!?\"')~-]$", body[-2].rstrip()):  # a sentence's tail on its own line ("idol,\nMeg!")
+        out.append(f"stub last line {body[-1].strip()!r}: rewrap so it carries 6+ letters")
     if sp:
         want = SPEAKERS.get(sp)
         if want and lines[0].strip() != want + ":":
@@ -152,15 +157,17 @@ def _insert():
     return insert
 
 
-_ST = {}
+_FIXED = {}
 
 
-def st_slots():
-    """{ST id: (JP words, newline word)}."""
-    if not _ST:
-        _ST.update({e["id"]: (avail, nl) for e, path, off, w, avail, nl, ctx in _insert().entries()
-                    if path == "PRG/ST.BIN"})
-    return _ST
+def fixed_slots():
+    """{id: (JP slot words, newline word, context)} for every entry insert can't move or grow (its overflow rule);
+    bname is left to insert (it may start in the ename slack before it)."""
+    if not _FIXED:
+        ins = _insert()
+        _FIXED.update({e["id"]: (avail, nl, ctx) for e, path, off, w, avail, nl, ctx in ins.entries()
+                       if e.get("kind") != "bname" and not ins.relocatable(path, off) and not ins.movable(e, path)})
+    return _FIXED
 
 
 def encodable(char):

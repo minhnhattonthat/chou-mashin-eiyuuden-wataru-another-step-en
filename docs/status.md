@@ -7,6 +7,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
   scenes reach on the English build. Phase-7 re-review of the refitted ST batches (codex): no Critical, Important
   fixed or waived (work/tl/review_verdicts.tsv).
 - **Done:**
+  - Phase-7 review fixes (2026-11-14, H:\translation\.harness\reviews\...-phase7.md): insert fails the build on any
+    fixed-slot overflow (qa builds excepted) and `batches.py` lints every fixed slot (was ST only); romdiff writes
+    must sit in allowed spans built from the script layout + named sites (test_insert `allowed_spans`); new
+    tests/test_reloc.py (every original u32 / lui+lo reference follows its entry, none left inside a moved one,
+    non-entry targets keep their bytes, EXE strings checked from every other code file, roompack.selftest) with
+    explicit waivers (actor-record fields, two BALLBAT table bases never read in battle: rdA/rdB watch). It found
+    **the EXE zero run is libspu's _spu_zerobuf**: SpuClearReverbWorkArea (0x80062E98) now clears in 64-byte chunks
+    from strpack.SPU_ZERO (0x80098BEC, kept zero; never called in 9 sampled scenes, hits.lua). Overlay tails capped
+    and trap-tested on the original in every battle scene (BALLBAT -> 0x80104800 ENE base, MACHINE -> 0x800F0000;
+    files.md). Save title (MEMORY.BIN SJIS) in English: script/MEMORY.json `kind: sjis`. Stub-last-line lint
+    (6 hits rewrapped, hand18). D17 (ST/fixed-block fit), D18 (compose hook), D19 (cut names waived); polish.md
+    cut-name lines ticked. Stale states idle_ep01/ep15 deleted. Build sha1 84d3e92e..., 102 tests.
   - Phase 7 (2026-11-14): runtime pair composer (LoadImage hook, tools/compose.py) instead of pre-rendered pairs;
     room text re-laid per bank/NPC unit (tools/roompack.py); EXE/PRG strings relocated (tools/strpack.py: EXE zero
     run ends 0x80098C2C, the last 20 bytes are live: strings there froze the title; TTL re-laid as a pool). **ST is
@@ -125,7 +137,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
      reaches it yet; find how 0x77C78 なまえを入れてください is reached, then put Latin letters in the grid as
      single-letter pair codes, and check where entered names are drawn: 16x16 font = pair codes, 8x16 = code+14);
      BALLBAT 21F04 "Immune to [blank cells] !" (what the game draws in cells 5-6); Aragoto's LVUP digit cells;
-     TTL label "Mashin Battle" (13 letters) against the value column (extra config page, not in a scene yet).
+     TTL label "Mashin Battle" (13 letters) against the value column (extra config page, not in a scene yet);
+     the English save title (script/MEMORY.json) in a saved card (`tools/debug/blank.mcd` after scene save: header
+     title at block offset 0x04) and wherever the game lists saves; a battle that uses もんペット (BALLBAT table
+     bases 0x800F1C1C / 0x800F52E8 waived in test_reloc: watch them there too).
   3. Text edits: always through a batch (`batches.py merge NAME --overwrite`, handN for hand fixes; next: hand18).
      ST lines can't grow past their JP word count; polish.md minors on ST must keep that limit.
   4. docs/polish.md: 6 "cut" name lines (header 11 letters / strip 16 are display limits: put the full name where

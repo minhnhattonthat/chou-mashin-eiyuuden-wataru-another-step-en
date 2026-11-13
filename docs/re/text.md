@@ -4,7 +4,9 @@ Disc: SLPS-01368 (Banpresto / Aspect, 1998-04-23). EXE `SLPS_013.68`: PS-X EXE, 
 
 ## Encoding (verified)
 
-- Text is a stream of **16-bit little-endian codes**. No Shift-JIS anywhere (`tools/sjisscan.py`: only noise).
+- Text is a stream of **16-bit little-endian codes**. No Shift-JIS text except the memory-card save title (PRG/MEMORY.BIN 0x0, 64 bytes copied into the save
+  header by 0x800D1038; script/MEMORY.json `kind: sjis`, written full-width by insert.sjis_entries). `tools/sjisscan.py`
+  and `jp_left.py --sjis` find only noise elsewhere.
   - verified: `relsearch.py --width 2` on a RAM dump found わたくし / いらしたのね at 0x800DB5E8 (gojuon, あ=0x0001), and the
     same bytes sit in `FPRG/R00.BIN` at 0xD5E8. Decoded lines match the screen (work/qa/r3 f6000-f9000).
 - **0x0001-0x01A3: common font** `FM16/MSG_CG.BIN`, glyph index = code + 0xA6 (16x16, 4bpp, 128 bytes/glyph, low nibble
