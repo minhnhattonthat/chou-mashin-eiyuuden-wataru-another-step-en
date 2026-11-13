@@ -2,19 +2,24 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: all 5,820 entries translated, merged and check-clean; review round 1 done
-  for all 42 batches (work/tl/bNNN.pairs.review.md), revise round 1 applied+merged for 24 of them (b001 b002 b003
-  b006 b007 b008 b010 b011 b012 b013 b014 b016 b017 b020 b021 b022 b025 b027 b029 b030 b034 b038 b040 b042).
-  Approved in round 1 (0 Critical/Important): b005 b009 b026 b031 b032 b035 b041; b004 revised. Still to revise
-  from round 1: b015 b018 b019 b023 b024 b028 b033 b036 b037 b039 (reviews in work/tl/bNNN.pairs.review.md; their
-  Minors are already in docs/polish.md, so a rerun of revise appends them twice: dedupe polish.md after). Run
-  revise per batch and merge each batch on its own (one failing batch aborts a combined merge). Then round 2: refresh
-  pairs from script (`python -X utf8 -c "import sys; sys.path.insert(0,'tools'); import tl_codex as t; [t.refresh(b)
-  for b in [...]]"`, `batches.py pairs`), review the revised batches, revise what still has Critical/Important,
-  write work/tl/review_verdicts.tsv. English is withheld from the build (insert.py prints "English withheld, marker
-  build": 780 menu/EXE letter pairs vs 189 free MSG_CG codes; room fonts likely over too): phase 7 font work.
-  Last build: build/wataru_en.bin sha1 6bebf36b... (2026-11-14, marker build + header patch), smoke ok.
+- **Phase:** 7. Insert, fit, check: not started. Phase 6 done (2026-11-14): 5,820 entries translated, check clean,
+  every batch's latest review has no Critical/Important (work/tl/review_verdicts.tsv, all 42 ok), glossary current.
+  First job: the build still withholds English (insert.py: "792 common pairs, MSG_CG has 189 free codes: English
+  withheld, marker build"; room fonts likely over too) -> font/pair-code capacity, then work/overflow.tsv (English
+  longer than its JP slot) and the phase-7 items listed under Next. Last build: build/wataru_en.bin sha1 6bebf36b...
+  (2026-11-14, marker build), smoke ok.
 - **Done:**
+  - Phase 6, session 2 (2026-11-14): revise round 1 on the last 10 batches; review rounds 2-6 (codex) on every
+    revised batch, Critical/Important fixed by codex revise or by hand (work/tl/handN.tsv/.out.tsv = hand-fix
+    batches merged with `batches.py merge handN --overwrite`). Kanji misreads fixed in tbl/kanji_rows.txt (re-extract
+    keeps en): M16_R02 0x212 襲 (was 救: villagers "attacked", not "rescued"), M16_R02 0x1B9 儲, M16_R07 0x244 灸.
+    Room-font codes in EXE key items resolved (0x224 金 / 0x226 銀 / 0x228 介 in M16_R08/R09, 0x221 隊 in M16_R02).
+    `batches.py`: honorific-on-common-noun lint ("bride-san", "Father-sama"), set phrases exempt (ゴクローさん,
+    トリさん..), 殿 -> -dono, glossary terms matched across line wraps (この世/界 no longer demands "Layer"), BALLBAT
+    particle fragments は/を may be " ", pairs take JP from script/. Glossary: Super Funny Cool Squad, Ear-Mouth-King
+    Tree, Gold Medal, おじさま = "(my dear) sir" (never Uncle), kin/deity nouns take no honorific. Minors from every
+    latest review are in docs/polish.md (110 open; some already fixed by later rounds: tick as fixed in the polish pass).
+    Review archives: work/tl/bNNN.rN.review.md.
   - Phase 6, session 1 (2026-11-14): glossary rulings D9 (names: Hepburn, English-pun spellings), D10 (register,
     SFX), D11 (codex translates, prompt-only); `## Speakers` table (exact speaker labels); docs/style-reference.md
     (pilot R00:0CCF4-0D5A8 by the controller + voices), docs/synopsis.md (episodes 0-14), docs/translator-brief.md,
@@ -100,16 +105,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase-2 RE: SysMode table (0x8009C7FC), episode index 0x8009C90C (0-14; 12 and 13 share R13.BIN; 15 = ending),
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
-- **Next (phase 6: translate, `references/translation.md`):**
-  1. Every batch must check OK and be merged: `python -X utf8 tools/batches.py check bNNN` (no args = everything
-     merged, also run by check.py). Failing unmerged batch: `tools/tl_codex.py tl bNNN` (reuses its .out.tsv, sends
-     only failing rows), then `batches.py merge bNNN --overwrite`. Failing merged batch: `tl_codex.py fix bNNN`.
-  2. Review: `batches.py pairs bNNN` -> `tl_codex.py review work/tl/bNNN.pairs.txt` -> work/tl/bNNN.pairs.review.md;
-     `tl_codex.py revise bNNN` sends its Critical/Important back through codex and appends Minors to
-     docs/polish.md; merge --overwrite; re-review until the report has no Critical/Important. Verdicts:
-     work/tl/review_verdicts.tsv (batch, ok|issue, note). After any name change in a table: `tools/names.py --apply`
-     then `batches.py terms`.
-  3. Phase 6 done when check is clean, every batch's last review has no Critical/Important, glossary current.
+- **Next (phase 7: insert, fit, check, `references/pipeline.md` §Checks):**
+  1. Get English into the build: pair-code capacity per font context (792 common pairs vs 189 free MSG_CG codes;
+     room fonts too): more glyph slots, fallback single-letter cells, or fewer shared pairs. Then the overflow list
+     (work/overflow.tsv) and the items below. Done when the build is green: width/overflow lint clean, control codes
+     matched, romdiff shows no writes outside allowed ranges.
+  2. Text edits after phase 6: change English through a batch (`batches.py merge NAME --overwrite`, a handN batch for
+     hand fixes) so the check runs; after a table name change `tools/names.py --apply` then `batches.py terms`.
   Known draft gaps: BALLBAT messages with inner blank cells (ステータス　　を受けない: an icon or name is drawn
   there?) were translated without the blanks: check in game (phase 7/8). LVUP line 4: the level number prints into
   the JP blank cells (cols 7-8): English "Wataru reached level    !" puts the gap elsewhere: phase 7 must find

@@ -592,6 +592,7 @@ and Avoid spellings fail. The `## Names from the game tables
   Wataru's おじさん to Aragoto in the intro = "Old Man Aragoto" (the gag: Aragoto is stung at being called old).
 - Honorifics only after names and titles: お嫁さん bride, お嬢さん young lady, お姉ちゃん big sis, お父さま father,
   村長さん chief, お客さん customer, ゴクローさん thanks for your trouble (`batches.py` flags "word-san").
+  Deities too: 龍神様 = "the Dragon God", 神様 = "God" / "the gods" (no -sama). 殿 after a name = -dono (Sakuya-dono).
 - BALLBAT particle fragments は/を between a name and a verb = one space (" "): `[name] ran away...`.
 - Key items whose glyphs come from the room font (EXE 0x1A4+ codes): 0x224 金, 0x226/0x228 銀/介 in M16_R08/R09
   (Gold Medal, Ginnosuke); 0x221 隊 in M16_R02 (Super Funny Cool Squad).

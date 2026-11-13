@@ -674,7 +674,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "おばあさま、アラゴトおじさまを\nワタルさまにご紹介しなくても\nよろしいのですか？",
-   "en": "Grandmother, should we not\nintroduce dear Aragoto-sama\nto Wataru-sama?",
+   "en": "Grandmother, should we not\nintroduce dear Aragoto\nto Wataru-sama?",
    "status": "done"
   },
   {
@@ -773,7 +773,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nよろしくお願いいたしますわ。\nお・じ・さ・ま♥",
-   "en": "Sakuya:\nI am counting on you, too,\ndear Old Man Aragoto!",
+   "en": "Sakuya:\nI am counting on you, too,\nmy dear OLD sir!",
    "status": "done"
   },
   {

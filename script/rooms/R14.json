@@ -3572,7 +3572,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nこれ、これ。\nそこの救世主や。",
-   "en": "Old Man:\nHey, hey!\nYou there, Savior.",
+   "en": "Old Man:\nNow then, now then.\nYou there, Savior, lad.",
    "status": "done"
   },
   {
@@ -3581,7 +3581,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルトリン】と【ワルリリス】\nの２人を倒さねば、【ワルジョ】\nさまのところには行けぬぞ。",
-   "en": "Beat Warutorin and Warulilith,\nor you cannot reach\nWarujo-sama.",
+   "en": "Ye must defeat Warutorin and\nWarulilith before ye can reach\nWarujo-sama.",
    "status": "done"
   },
   {
