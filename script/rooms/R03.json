@@ -151,8 +151,8 @@
    "font": "R02",
    "kind": "event",
    "end": "2000",
-   "jp": "サクヤ：\nまるで\n本当に[0212:救]われているようですわ。",
-   "en": "Sakuya:\nIt is as though they are\ntruly being rescued.",
+   "jp": "サクヤ：\nまるで\n本当に襲われているようですわ。",
+   "en": "Sakuya:\nIt is as though they are\ntruly being attacked.",
    "status": "done"
   },
   {
@@ -178,8 +178,8 @@
    "font": "R02",
    "kind": "event",
    "end": "2000",
-   "jp": "村人を本当に[0212:救]っているんだ。",
-   "en": "we're actually rescuing\nthe villagers.",
+   "jp": "村人を本当に襲っているんだ。",
+   "en": "we're actually attacking\nthe villagers.",
    "status": "done"
   },
   {
@@ -593,7 +593,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "まず、コサクさんに\nカッコいい隊の衣装を\nお願いしてくるのじゃ。",
-   "en": "First, go ask Kosaku-san\nto make costumes for\nthe Cool Squad.",
+   "en": "First, go ask Kosaku-san\nto make costumes for\nthe Super Funny Cool Squad.",
    "status": "done"
   },
   {
@@ -1511,7 +1511,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちょうろう：\nほほっ？\n【超おもしろカッコいい隊】とな？",
-   "en": "Elder:\nHo ho! The Super Funny\nCool Squad, you say?",
+   "en": "Elder:\nHo ho? You mean the\nSuper Funny Cool Squad?",
    "status": "done"
   },
   {
@@ -1808,7 +1808,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "拙達、\n【超おもしろカッコいい隊】の\n救いを！！",
-   "en": "The aid of none other than us,\nthe Super Fun Cool Squad!!",
+   "en": "The aid of none other than us,\nthe Super Funny Cool Squad!!",
    "status": "done"
   },
   {
@@ -1961,7 +1961,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタルとアラゴト：\n行くぞ！\n【超おもしろカッコいい隊】！！",
-   "en": "Wataru & Aragoto:\nLet's go!\nSuper Fun Cool Squad!!",
+   "en": "Wataru & Aragoto:\nLet's go!\nSuper Funny Cool Squad!!",
    "status": "done"
   },
   {
@@ -2042,7 +2042,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nおにいさんとは違って、\nずいぶん、気さくな方ですわね。",
-   "en": "Sakuya:\nKisaku by name, kind by nature!\nQuite unlike your brother.",
+   "en": "Sakuya:\nKisaku means 'friendly,' I see!\nQuite unlike your brother.",
    "status": "done"
   },
   {
@@ -2114,7 +2114,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "いま、村人達には、拙達\n【超おもしろカッコいい隊】が\nひつようなのだ！",
-   "en": "The villagers need us now!\nUs, the Super Fun Cool Squad!",
+   "en": "The villagers need us now!\nUs, the Super Funny Cool Squad!",
    "status": "done"
   },
   {
@@ -2159,7 +2159,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n【超おもしろカッコいい隊】の\n衣装が欲しい？",
-   "en": "Old Woman:\nWant costumes for the\nSuper Fun Cool Squad?",
+   "en": "Old Woman:\nWant costumes for the\nSuper Funny Cool Squad?",
    "status": "done"
   },
   {

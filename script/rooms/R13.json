@@ -80,7 +80,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "このパネルをめくると、\n私達４人とお父さまの給が\nあらわれるわ。",
-   "en": "Flip them over, and you'll see\npictures of us four sisters\nand Father-sama.",
+   "en": "Flip them over to see pictures\nof the four of us\nand Father-sama.",
    "status": "done"
   },
   {
@@ -377,7 +377,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神鍛冶：\nお客さんとは、めずらしいのう。\n魔神を直しに来たのかね？",
-   "en": "Mashin Smith:\nA customer-san? How unusual!\nHere to have a mashin repaired?",
+   "en": "Mashin Smith:\nA customer? How unusual!\nHere to have a mashin repaired?",
    "status": "done"
   },
   {
@@ -953,7 +953,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "自分の好きなモノを「好きなだけ」\nと表現することは良くない\nと言っている。",
-   "en": "it is wrong to express your love\nfor something by doing it\n\"as much as you like\".",
+   "en": "liking something doesn't mean\nyou should indulge in it\n\"as much as you like\".",
    "status": "done"
   },
   {
@@ -2195,7 +2195,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ボク達がどんな思いで\n魔神鍛冶屋さんに行って来たか\nわかってんの？",
-   "en": "Do you know how worried we were\non our trip to the mashin\nsmith-san?",
+   "en": "Do you know how worried we were\non our trip to the\nmashin smith?",
    "status": "done"
   },
   {
@@ -2987,7 +2987,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n何を誤解なさっておいでですの？\nわたくしとおじさまは・・・。",
-   "en": "Sakuya:\nYou quite misunderstand!\nUncle and I are...",
+   "en": "Sakuya:\nYou quite misunderstand!\nMy dear sir and I are...",
    "status": "done"
   },
   {
@@ -2996,7 +2996,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\n【おじさま】ですって！？",
-   "en": "Warujo:\n\"Uncle,\" you say?!",
+   "en": "Warujo:\n\"My dear sir,\" you say?!",
    "status": "done"
   },
   {
@@ -3437,7 +3437,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "むちゃくちゃ、なが～いのじゃが\nこれから、ワシのいうことを\nメモって、コピるのじゃーっ！！",
-   "en": "It's looong, but write down\nall that I'm about to tell you,\nand make copies of it all!!",
+   "en": "It's looong, but write down\nall I'm about to tell ye,\nand make copies of it all!!",
    "status": "done"
   },
   {

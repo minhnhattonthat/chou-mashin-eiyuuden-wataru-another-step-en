@@ -29,7 +29,9 @@ Write line breaks as the two characters `\n`. Never a real tab inside the Englis
 - `[B000]` is a control code: copy it once per occurrence, in the same place (start or end of its line).
 - Glossary: a JP term in the line needs its English form; never use an Avoid spelling.
 - Honorifics after a name or title stay: くん -kun, さん -san, さま/様 -sama, ちゃん -chan (Wataru-kun, Savior-sama).
-  Generic おじさん/おねえさん are not honorifics ("mister", "miss", or just drop them).
+  Generic おじさん/おねえさん are not honorifics ("mister", "miss", or just drop them). Nor are お嫁さん, お嬢さん, お姉ちゃん,
+  お父さま, 村長さん, お客さん, ゴクローさん: "bride", "young lady", "big sis", "father", "chief", never "bride-san"
+  (the check flags a lowercase word + honorific). Sakuya's おじさま to Aragoto = "(my dear) sir", never "Uncle".
 
 ## Style
 - Faithful: keep the information and order of ideas; adapt idiom, not meaning. Don't add or skip.

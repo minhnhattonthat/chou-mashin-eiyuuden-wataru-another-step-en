@@ -1240,7 +1240,7 @@
    "font": "R02",
    "kind": "event",
    "end": "2000",
-   "jp": "アラゴト：\nいやぁ、買い物をすると\n金が[01B9:備]かるというのは、",
+   "jp": "アラゴト：\nいやぁ、買い物をすると\n金が儲かるというのは、",
    "en": "Aragoto:\nI say! Making money\nby going shopping...",
    "status": "done"
   },
@@ -1313,7 +1313,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおじさま、\n【キャッシュバック】というのは、",
-   "en": "Sakuya:\nSir, Cashback...",
+   "en": "Sakuya:\nMy dear sir, Cashback...",
    "status": "done"
   },
   {
@@ -1484,7 +1484,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nあっ、おじさま・・・！",
-   "en": "Sakuya:\nAh, Uncle...!",
+   "en": "Sakuya:\nAh, my dear sir...!",
    "status": "done"
   },
   {
@@ -1502,7 +1502,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわね・・・。\nこうなったらおじさま抜きで、",
-   "en": "Sakuya:\nLet me see...\nWe shall have to leave Uncle be,",
+   "en": "Sakuya:\nLet me see...\nWe shall have to leave him be,",
    "status": "done"
   },
   {
@@ -1538,7 +1538,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "従業員：\n何か文句があるならパパと来な、\nお嬢ちゃん。",
-   "en": "Staff:\nA complaint, little girl-chan?\nCome back with your daddy.",
+   "en": "Staff:\nGot a complaint, little miss?\nCome back with your daddy.",
    "status": "done"
   },
   {
@@ -1573,7 +1573,7 @@
    "font": "R02",
    "kind": "event",
    "end": "2000",
-   "jp": "「買い物をして[01B9:備]かるなら、\n働かなくてもいい」って言って、\n働かないらしいんだ。",
+   "jp": "「買い物をして儲かるなら、\n働かなくてもいい」って言って、\n働かないらしいんだ。",
    "en": "They say, \"Why work when we can\nmake money just by shopping?\"\nSo apparently, nobody works.",
    "status": "done"
   },
@@ -1726,7 +1726,7 @@
    "font": "R02",
    "kind": "event",
    "end": "2000",
-   "jp": "ワタル：\nうん、やっぱ変だもんね。\n働かないのにお金が[01B9:備]かるなんて。",
+   "jp": "ワタル：\nうん、やっぱ変だもんね。\n働かないのにお金が儲かるなんて。",
    "en": "Wataru:\nYeah, it's just plain weird,\nmaking money without working.",
    "status": "done"
   },
@@ -2114,7 +2114,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "お子さまと言えども、\nおっしゃることに\n重みがあります・・・。",
-   "en": "You may be a child-sama,\nbut your words carry\nconsiderable weight...",
+   "en": "Young though you may be,\nyour words carry\nconsiderable weight...",
    "status": "done"
   },
   {
@@ -2285,7 +2285,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "村人：\nなに？\nじゃあさっそく行ってみるべ。",
-   "en": "Villager:\nWhat?\nThen let's head right over!",
+   "en": "Villager:\nWhat?\nWell then, let's mosey on over!",
    "status": "done"
   },
   {
@@ -2312,7 +2312,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "村人：\nなんだって？\nじゃあそっちへ行ってみるべ。",
-   "en": "Villager:\nWhat's that?\nThen let's try that one!",
+   "en": "Villager:\nWhat's that?\nReckon we'll try that one, then!",
    "status": "done"
   },
   {

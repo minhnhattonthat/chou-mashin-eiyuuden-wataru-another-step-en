@@ -222,7 +222,7 @@
    "slot": 27,
    "max": 10,
    "jp": "単体特殊攻撃を防ぐ",
-   "en": "One: block specials",
+   "en": "One: no special hits",
    "status": "done"
   },
   {
@@ -278,7 +278,7 @@
    "slot": 34,
    "max": 10,
    "jp": "全体特殊攻撃力アップ",
-   "en": "All: special power+",
+   "en": "All:Special attack+",
    "status": "done"
   },
   {
@@ -294,7 +294,7 @@
    "slot": 36,
    "max": 10,
    "jp": "全体特殊防御力アップ",
-   "en": "All: special guard+",
+   "en": "All:Special defense+",
    "status": "done"
   },
   {

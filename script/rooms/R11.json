@@ -152,7 +152,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nボクね、お姉ちゃんのところに\n行くとこなんだ！",
-   "en": "Warurine:\nI'm on my way to see\nmy big sister-chan!",
+   "en": "Warurine:\nI'm on my way to see\nmy big sis!",
    "status": "done"
   },
   {
@@ -161,7 +161,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nふーん、お姉ちゃんは\nどこに住んでいるのかな？",
-   "en": "Aragoto:\nHmm. And where might\nyour big sister-chan live?",
+   "en": "Aragoto:\nHmm. And where might\nyour big sis live?",
    "status": "done"
   },
   {
@@ -566,7 +566,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "キミがボクの城の前をいかにも\n「あなたのお嫁さんにして」って\n感じでウロついてたんじゃないの。",
-   "en": "You loitered by my castle,\nlooking for all the world like\n\"Please make me your bride-san!\"",
+   "en": "You loitered by my castle,\nlooking for all the world like\n\"Please make me your bride!\"",
    "status": "done"
   },
   {
@@ -674,7 +674,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "さ、あと１回なったら、\nキミはボクの可愛いお嫁さんだ。",
-   "en": "Just one more ring,\nand you'll be my darling\nbride-san.",
+   "en": "Just one more ring,\nand you'll be my darling\nlittle bride.",
    "status": "done"
   },
   {
@@ -710,7 +710,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "そんなワガママなお嫁さんは\nバチが当たっちゃうよ。\nこんな風にね！",
-   "en": "A selfish bride-san like you\nwill get what's coming to her.\nLike this!",
+   "en": "A selfish bride like you\nwill get what's coming to her.\nLike this!",
    "status": "done"
   },
   {
@@ -1070,7 +1070,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ボクが可愛いお嫁さんを\nもらうからって、\nひがまなくてもいいじゃないの。",
-   "en": "Just because I'm getting\nan adorable bride-san doesn't\nmean you have to get jealous.",
+   "en": "Just because I'm getting\nan adorable bride doesn't\nmean you have to get jealous.",
    "status": "done"
   },
   {
@@ -1331,7 +1331,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nでもさぁ、花嫁さんばっかり\n集めるっていうのもスゴイよねぇ。",
-   "en": "Wataru:\nStill, gathering only brides-san\nis pretty amazing, huh?",
+   "en": "Wataru:\nStill, collecting nothing\nbut brides is pretty wild, huh?",
    "status": "done"
   },
   {
@@ -1358,7 +1358,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nで、自分も花嫁さんが\n欲しくなった、と？",
-   "en": "Aragoto:\nAnd so you came to desire\na bride-san of your own, eh?",
+   "en": "Aragoto:\nAnd so you came to desire\na bride of your own, eh?",
    "status": "done"
   },
   {
@@ -1610,7 +1610,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "年下の嫁さんなんだけど、\nいまごろはコンビニで、\nショッピングってとこかな。",
-   "en": "My wife-san's younger than me.\nShe's probably out shopping\nat the convenience store now.",
+   "en": "My wife's younger than me.\nShe's probably out shopping\nat the convenience store now.",
    "status": "done"
   },
   {
@@ -1934,7 +1934,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・おっと、嬢ちゃんは、\n今のまんまがいいな♥",
-   "en": "...Oh, but little lady-chan,\nyou look fine just as you are!",
+   "en": "...Oh, but little lady,\nyou look fine just as you are!",
    "status": "done"
   },
   {
@@ -2042,7 +2042,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nだけんども、お前さん\nオラのタイプだ～。",
-   "en": "Old Woman:\nBut you-san are just my type,\nyou are!",
+   "en": "Old Woman:\nBut ye're just my type,\nye are!",
    "status": "done"
   },
   {

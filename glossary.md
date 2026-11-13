@@ -7,7 +7,7 @@ and Avoid spellings fail. The `## Names from the game tables
 
 | JP | EN | max | source | Avoid |
 |---|---|---|---|---|
-| [0224]メダル | [0224] Medal | 16 | exe_key_items | |
+| [0224]メダル | Gold Medal | 16 | exe_key_items | |
 | ×之字剣 | X-Blade | 16 | exe_equipment | |
 | あがってマスク | Mask Me Up | 16 | BALLBAT,exe_consumables | |
 | あめりかちゃん | Yankee-chan | 11 | ENE06 | |
@@ -476,6 +476,7 @@ and Avoid spellings fail. The `## Names from the game tables
 | ＩＱバトル | IQ Battle | | | |
 | 魔神バトル | Mashin Battle | | | |
 | ワルワル | Waruwaru | | | |
+| 超おもしろカッコいい隊 | Super Funny Cool Squad | | ep 3 hero squad (Extra Town); full name even when JP shortens it | Super Fun Cool |
 
 ## Speakers
 | JP | EN |
@@ -586,3 +587,10 @@ and Avoid spellings fail. The `## Names from the game tables
 | えびフライ | Fried Shrimp |
 
 ## Decisions from earlier batches
+- Sakuya's おじさま (to Aragoto, or a man she respects) = "sir" / "my dear sir", never "Uncle" (no kinship).
+  Wataru's おじさん to Aragoto in the intro = "Old Man Aragoto" (the gag: Aragoto is stung at being called old).
+- Honorifics only after names and titles: お嫁さん bride, お嬢さん young lady, お姉ちゃん big sis, お父さま father,
+  村長さん chief, お客さん customer, ゴクローさん thanks for your trouble (`batches.py` flags "word-san").
+- BALLBAT particle fragments は/を between a name and a verb = one space (" "): `[name] ran away...`.
+- Key items whose glyphs come from the room font (EXE 0x1A4+ codes): 0x224 金, 0x226/0x228 銀/介 in M16_R08/R09
+  (Gold Medal, Ginnosuke); 0x221 隊 in M16_R02 (Super Funny Cool Squad).

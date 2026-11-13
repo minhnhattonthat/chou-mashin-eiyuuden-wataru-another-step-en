@@ -1106,7 +1106,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nふふっ、ゴクローさんっ。",
-   "en": "Warutorin:\nHee hee!\nThanks for your trouble-san!",
+   "en": "Warutorin:\nHee hee!\nThanks for your trouble!",
    "status": "done"
   },
   {
@@ -1115,7 +1115,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nご、ゴクローさんって・・・。\nで、どうなんだ！",
-   "en": "Wataru:\nTh-thanks for my trouble-san...?\nWell, what's your answer?!",
+   "en": "Wataru:\nTh-thanks for my trouble...?\nWell, what's your answer?!",
    "status": "done"
   },
   {
@@ -2366,7 +2366,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nお嬢さん、しょげることはない。\n拙がお相手しようぞ。",
-   "en": "Aragoto:\nDo not despair, young lady-san!\nI shall keep you company.",
+   "en": "Aragoto:\nDo not despair, young lady!\nI shall keep you company.",
    "status": "done"
   },
   {
@@ -3950,7 +3950,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nほお、それはいいなあ。\nお嬢さん。拙と参りませんか？",
-   "en": "Aragoto:\nAh, splendid! Young lady-san,\nwould you care to accompany me?",
+   "en": "Aragoto:\nAh, splendid! Young lady,\nwould you care to accompany me?",
    "status": "done"
   },
   {
@@ -4247,7 +4247,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nここは、【ワルトリン城】じゃ。",
-   "en": "Old Man:\nThis is Warutorin Castle.",
+   "en": "Old Man:\nThis here's Warutorin Castle,\nye see.",
    "status": "done"
   },
   {
@@ -4256,7 +4256,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルトリン】さまのおかげで、\n来る日も来る日も\nカラオケしほうだいじゃ。",
-   "en": "Thanks to Warutorin-sama,\nwe can sing all the karaoke\nwe want, day after day!",
+   "en": "Thanks to Warutorin-sama,\nwe can sing our fill of karaoke,\nday in, day out, aye!",
    "status": "done"
   },
   {
@@ -4526,7 +4526,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "無人部屋のディスプレイを\nしらべて、音当てクイズが\n始まったと思ったら・・・。",
-   "en": "He checked the display in\nan empty room, and I thought\na guess-the-note quiz began...",
+   "en": "He checked the display in\nan empty room, and just as the\nnote quiz started...",
    "status": "done"
   },
   {

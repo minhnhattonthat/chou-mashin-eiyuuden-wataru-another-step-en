@@ -674,7 +674,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "おばあさま、アラゴトおじさまを\nワタルさまにご紹介しなくても\nよろしいのですか？",
-   "en": "Grandmother-sama, should we not\nintroduce Uncle Aragoto-sama\nto Wataru-sama?",
+   "en": "Grandmother-sama, should we not\nintroduce dear Aragoto-sama\nto Wataru-sama?",
    "status": "done"
   },
   {
@@ -755,7 +755,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうん！　こっちこそよろしくね。\nえーっと、アラゴトのおじさんっ！",
-   "en": "Wataru:\nYeah! Glad to have you along,\num... Uncle Aragoto-san!",
+   "en": "Wataru:\nYeah! Glad to have you along,\num... Old Man Aragoto!",
    "status": "done"
   },
   {
@@ -764,7 +764,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nお、おじ・・・さっ、ん。",
-   "en": "Aragoto:\nU-Uncle-san...?",
+   "en": "Aragoto:\nO-Old... Man...?",
    "status": "done"
   },
   {
@@ -773,7 +773,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nよろしくお願いいたしますわ。\nお・じ・さ・ま♥",
-   "en": "Sakuya:\nI am counting on you, too.\nUn-cle-sama!",
+   "en": "Sakuya:\nI am counting on you, too,\nmy dear, dear sir!",
    "status": "done"
   },
   {
@@ -998,7 +998,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルモンダー】をやっつけて\nくれますように。」って、\nお星さまにお願いをしているの。",
-   "en": "defeat Warumonder.\"\nThat's what I'm asking\nthe stars-sama for.",
+   "en": "defeat Warumonder.\"\nThat's what I'm wishing\nupon the stars for.",
    "status": "done"
   },
   {
@@ -1241,7 +1241,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nうちのジイさん、いったいどこに\n行ったんじゃろなぁ。",
-   "en": "Old Woman:\nNow, where in the world\nhas my old man-san gone?",
+   "en": "Old Woman:\nNow, where in the world\nhas my old man gone?",
    "status": "done"
   },
   {

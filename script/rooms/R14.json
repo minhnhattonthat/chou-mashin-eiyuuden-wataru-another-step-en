@@ -737,7 +737,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "あなたのお父さまの\nご意見ではなくて、\nあなた自身の意見を聞きたいの。",
-   "en": "Not your father-sama's opinion,\nbut your own.\nThat is what we wish to hear.",
+   "en": "Not your father's opinion,\nbut your own.\nThat is what we wish to hear.",
    "status": "done"
   },
   {
@@ -764,7 +764,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "あなたのお父さまが、あなたに\n何とおっしゃっていたかは\n私たちにはわかりませんわ。",
-   "en": "We do not know what your\nfather-sama has told you.",
+   "en": "We do not know what your\nfather has told you.",
    "status": "done"
   },
   {
@@ -1340,7 +1340,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "村長さんだった昔のパパに\n戻って・・・。",
-   "en": "Go back to being the Papa\nwho was the village chief-san...",
+   "en": "Go back to being the Papa\nwho was our village chief...",
    "status": "done"
   },
   {
@@ -1727,7 +1727,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nダメ。お姉ちゃん達の魔神は\nボクの切り札・・・。",
-   "en": "Warurine:\nNo. My sisters-chan's mashin\nare my trump card...",
+   "en": "Warurine:\nNo. My big sisters' mashin\nare my trump card...",
    "status": "done"
   },
   {
@@ -1799,7 +1799,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nお姉ちゃんたちが倒せなかった\n救世主ワタル・・・。",
-   "en": "Warurine:\nSavior Wataru... My sisters-chan\ncouldn't defeat you.",
+   "en": "Warurine:\nSavior Wataru... My big sisters\ncouldn't defeat you.",
    "status": "done"
   },
   {
@@ -1862,7 +1862,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nあ、ワタルくん・・・。\nお姉ちゃん達・・・。",
-   "en": "Warurine:\nOh, Wataru-kun...\nMy sisters-chan...",
+   "en": "Warurine:\nOh, Wataru-kun...\nMy big sisters...",
    "status": "done"
   },
   {
@@ -2420,7 +2420,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "やさしい村長さんでね、\nみんなからしたわれていたん\nだけど・・・。",
-   "en": "He was such a kind chief-san,\nand everyone loved him,\nbut...",
+   "en": "He was such a kind chief,\nand everyone loved him,\nbut...",
    "status": "done"
   },
   {
@@ -2429,7 +2429,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "なぜ、あのやさしかった\n村長さんが、創界山のみんなを\n苦しませるのかしら・・・？",
-   "en": "Why would our once-kind\nchief-san make everyone in\nSokaizan suffer like this...?",
+   "en": "Why would our once-kind\nchief make everyone in\nSokaizan suffer like this...?",
    "status": "done"
   },
   {
@@ -2735,7 +2735,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nお城の【ワルモンダー】さまには、\n娘さんが４人もいるのよ。",
-   "en": "Girl:\nWarumonder-sama in the castle\nhas all of four daughters-san.",
+   "en": "Girl:\nWarumonder-sama in the castle\nhas four whole daughters!",
    "status": "done"
   },
   {
@@ -2978,7 +2978,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nワルリーヌちゃんのお父さん、\nいだいなる【ワルモンダー】！！",
-   "en": "Boy:\nWarurine-chan's father-san,\nthe great Warumonder!!",
+   "en": "Boy:\nWarurine-chan's father,\nthe great Warumonder!!",
    "status": "done"
   },
   {
@@ -3005,7 +3005,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワルリーヌ嬢ちゃまの\nおともだち？　嬢ちゃまなら、\nご主人さまのいる間に行ったわよ。",
-   "en": "Are you Miss Warurine's friends?\nShe's gone to the room where\nour master-sama is.",
+   "en": "Are you Miss Warurine's friends?\nShe's gone to the room where\nthe master is.",
    "status": "done"
   },
   {

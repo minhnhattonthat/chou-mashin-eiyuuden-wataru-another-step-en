@@ -30,6 +30,7 @@ FREE = set()
 VARIABLE = r"\[var[^\]]*\]"  # no drawn-number placeholders in this game's script
 HONORIFICS = {"くん": "-kun", "さん": "-san", "さま": "-sama", "様": "-sama", "ちゃん": "-chan"}  # D1, after a name
 NAME_CH = "ァ-ヶーＡ-Ｚ"  # a honorific counts only right after a katakana name (not おじさん, 貴様, 皆さん, 母さん)
+NOT_NAMES = r"(ゴクロー|ゴクロウ|オツカレ|ジイ|バア|コンビニ)(さん|さま|様)"  # set phrases / kin words, not a name
 LIMITS = "docs/re/windows.md"  # letters per line (two per 16x16 cell, D8) and lines per box
 
 
@@ -194,6 +195,8 @@ def glossary():
 def problems(entry, en, terms):
     """Every rule, on one line of English."""
     jp = entry["jp"]
+    if en == " " and jp in ("は", "を", "が", "に"):  # a particle fragment between a name and a verb: just the gap
+        return []
     if not en.strip():
         return ["empty English"]
     out = []
@@ -214,8 +217,12 @@ def problems(entry, en, terms):
         if any(has_term(jp_plain, j) for j in jps) and not any(e.lower() in en.lower() for e in ens):
             out.append(f"glossary: {jps[0]} -> {ens[0]}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]
+    for m in re.finditer(r"\b([a-z][a-z']{2,})-(san|sama|chan|kun)\b", en):  # "bride-san", "sisters-chan"
+        if m[1] != "chan":  # cha-cha chan-chan (music)
+            out.append(f"honorific on a common noun: {m[0]} (names only)")
+    jp_names = re.sub(NOT_NAMES, "", jp_plain)
     for jp_form, en_form in HONORIFICS.items():
-        if re.search(f"[{NAME_CH}]{jp_form}", jp_plain) and en_form.lower() not in en.lower():
+        if re.search(f"[{NAME_CH}]{jp_form}", jp_names) and en_form.lower() not in en.lower():
             out.append(f"honorific {jp_form} needs {en_form}")
     return out + width_problems(entry, en)
 
@@ -338,10 +345,12 @@ def main(argv):
     if cmd == "terms":
         return terms_all()
     if cmd == "pairs":  # reviewer input: work/tl/bNNN.pairs.txt from the batch and its .out.tsv
+        ix = index()  # JP from script/, not the batch TSV: a fixed kanji reading must reach the reviewer
         for name in args:
             out = {r[0]: "\t".join(r[1:]) for r in read_tsv(TL / f"{name}.out.tsv")}
             (TL / f"{name}.pairs.txt").write_text("".join(
-                f">> {r[0]} | {r[1]} | {r[4]}\n   {out.get(r[0], '(missing)')}\n" for r in read_tsv(TL / f"{name}.tsv")),
+                f">> {r[0]} | {r[1]} | {ix[r[0]]['jp'].replace(chr(10), chr(92) + 'n')}\n   {out.get(r[0], '(missing)')}\n"
+                for r in read_tsv(TL / f"{name}.tsv")),
                 encoding="utf-8")
         return 0
     overwrite = "--overwrite" in args
@@ -399,6 +408,8 @@ def _selftest():
         assert main(["check", "b001"]) == 1  # cursor indent: one blank cell = two spaces
         out.write_text(f"{a}\tMinn and Min came\n{b}\tTiming\n{d}\tMin-kun\\n  Yes\\n  No\n", encoding="utf-8")
         assert main(["check", "b001"]) == 1  # the Avoid spelling
+        out.write_text(f"{a}\tMin and his bride-san came\n{b}\tTiming\n{d}\tMin-kun\\n  Yes\\n  No\n", encoding="utf-8")
+        assert main(["check", "b001"]) == 1  # honorific on a common noun
         out.write_text(f"{a}\tMin came\n{b}\tThe timing is a very long line, way past the box\n{d}\tMin-kun\\n  Yes\\n  No\n",
                        encoding="utf-8")
         assert main(["check", "b001"]) == 1  # 32 letters per line

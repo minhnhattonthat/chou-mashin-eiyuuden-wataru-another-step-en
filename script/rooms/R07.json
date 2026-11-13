@@ -791,7 +791,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "コンピューターがあるんで、\nそこから【メグ】ちゃんの\nところへ行ってもらいたいんだ。",
-   "en": "enter cyberspace.\nI'd like you to use it\nto go see Meg-chan.",
+   "en": "I'd like you to use it\nto go see Meg-chan.",
    "status": "done"
   },
   {
@@ -2554,7 +2554,7 @@
    "font": "R07",
    "kind": "event",
    "end": "2000",
-   "jp": "アラゴト：\nそうそう、ワルモンダーには\nお[0244:炎]をすえてやらねばいかん。",
+   "jp": "アラゴト：\nそうそう、ワルモンダーには\nお灸をすえてやらねばいかん。",
    "en": "Aragoto:\nIndeed! We must give Warumonder\na good roasting.",
    "status": "done"
   },
@@ -2563,7 +2563,7 @@
    "font": "R07",
    "kind": "event",
    "end": "3000",
-   "jp": "救世主は【お[0244:炎]せい】しゅ・・・。\nなんつって。",
+   "jp": "救世主は【お灸せい】しゅ・・・。\nなんつって。",
    "en": "Savior? More like a Sear-vior!\nHa! Get it?",
    "status": "done"
   },
@@ -3158,7 +3158,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "【バーちゃんアイドル】だから、\n願もふけないし、\nＴＶをつければいつでも会える。",
-   "en": "She's a virtual Gran-chan idol,\nso her face never ages. I can\nsee her anytime I turn on TV.",
+   "en": "She's a 'Granny-chan idol'! Her\nface never ages, and I can see\nher whenever I turn on the TV.",
    "status": "done"
   },
   {
@@ -3320,7 +3320,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【メグ】さんのことかい？\nそうじゃのう・・・・・・。",
-   "en": "Man:\nAbout Meg-san, eh?\nLet's see......",
+   "en": "Man:\nMeg-san, ye say?\nWell now, let me think......",
    "status": "done"
   },
   {
@@ -3338,7 +3338,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "最近、人が変わったとの\nうわさじゃ。",
-   "en": "They say he's become a\ndifferent person lately.",
+   "en": "Word is, he's become quite a\ndifferent fellow of late, aye.",
    "status": "done"
   },
   {
