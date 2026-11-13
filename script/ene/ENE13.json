@@ -6,7 +6,7 @@
    "id": "ENE13:02CF4",
    "kind": "ename",
    "max": 7,
-   "len_at": "02D94",
+   "len_at": "02D95",
    "jp": "サイダーコップ",
    "en": ""
   },
@@ -14,7 +14,7 @@
    "id": "ENE13:02D04",
    "kind": "ename",
    "max": 5,
-   "len_at": "02DA8",
+   "len_at": "02DA9",
    "jp": "コケコップ",
    "en": ""
   },
@@ -22,7 +22,7 @@
    "id": "ENE13:02D10",
    "kind": "ename",
    "max": 6,
-   "len_at": "02DBC",
+   "len_at": "02DBD",
    "jp": "ラムネコップ",
    "en": ""
   },
@@ -30,7 +30,35 @@
    "id": "ENE13:02D1C",
    "kind": "ename",
    "max": 7,
-   "len_at": "02DD0",
+   "len_at": "02DD1",
+   "jp": "シェイクコップ",
+   "en": ""
+  },
+  {
+   "id": "ENE13:02D2C",
+   "kind": "bname",
+   "max": 11,
+   "jp": "サイダーコップ",
+   "en": ""
+  },
+  {
+   "id": "ENE13:02D38",
+   "kind": "bname",
+   "max": 11,
+   "jp": "コケコップ",
+   "en": ""
+  },
+  {
+   "id": "ENE13:02D44",
+   "kind": "bname",
+   "max": 11,
+   "jp": "ラムネコップ",
+   "en": ""
+  },
+  {
+   "id": "ENE13:02D50",
+   "kind": "bname",
+   "max": 11,
    "jp": "シェイクコップ",
    "en": ""
   }

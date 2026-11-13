@@ -6,7 +6,7 @@
    "id": "ENE17:02B40",
    "kind": "ename",
    "max": 7,
-   "len_at": "02BC0",
+   "len_at": "02BC1",
    "jp": "ムキリョクさん",
    "en": ""
   },
@@ -14,7 +14,7 @@
    "id": "ENE17:02B50",
    "kind": "ename",
    "max": 7,
-   "len_at": "02BD4",
+   "len_at": "02BD5",
    "jp": "ムキリョデンカ",
    "en": ""
   },
@@ -22,7 +22,28 @@
    "id": "ENE17:02B60",
    "kind": "ename",
    "max": 7,
-   "len_at": "02BE8",
+   "len_at": "02BE9",
+   "jp": "ムキリョキング",
+   "en": ""
+  },
+  {
+   "id": "ENE17:02B70",
+   "kind": "bname",
+   "max": 11,
+   "jp": "ムキリョクさん",
+   "en": ""
+  },
+  {
+   "id": "ENE17:02B7C",
+   "kind": "bname",
+   "max": 11,
+   "jp": "ムキリョデンカ",
+   "en": ""
+  },
+  {
+   "id": "ENE17:02B88",
+   "kind": "bname",
+   "max": 11,
    "jp": "ムキリョキング",
    "en": ""
   }

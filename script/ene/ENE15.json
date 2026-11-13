@@ -6,7 +6,7 @@
    "id": "ENE15:02B94",
    "kind": "ename",
    "max": 6,
-   "len_at": "02C10",
+   "len_at": "02C11",
    "jp": "バサマッチョ",
    "en": ""
   },
@@ -14,7 +14,7 @@
    "id": "ENE15:02BA0",
    "kind": "ename",
    "max": 7,
-   "len_at": "02C24",
+   "len_at": "02C25",
    "jp": "バサマッチャー",
    "en": ""
   },
@@ -22,7 +22,28 @@
    "id": "ENE15:02BB0",
    "kind": "ename",
    "max": 8,
-   "len_at": "02C38",
+   "len_at": "02C39",
+   "jp": "バサマッチェスト",
+   "en": ""
+  },
+  {
+   "id": "ENE15:02BC0",
+   "kind": "bname",
+   "max": 11,
+   "jp": "バサマッチョ",
+   "en": ""
+  },
+  {
+   "id": "ENE15:02BCC",
+   "kind": "bname",
+   "max": 11,
+   "jp": "バサマッチャー",
+   "en": ""
+  },
+  {
+   "id": "ENE15:02BD8",
+   "kind": "bname",
+   "max": 11,
    "jp": "バサマッチェスト",
    "en": ""
   }

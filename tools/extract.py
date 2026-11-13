@@ -51,6 +51,10 @@ STREAMS = {
 U32_CUTS_ONLY = {"BALLBAT"}
 # BALLBAT item names in its own 8x16 font (jtext.battle_table): [u32 cells, u32 ptr] list at this offset, ptr 0 ends
 BFONT = ("BALLBAT", 0x22AB4)
+# BALLBAT draws names and messages for the cell count in a [u32 cells, u32 ptr] record (blocks 0x21530.., 0x21A7C..,
+# 0x22384.., 0x22708.., BFONT), not to a terminator: the lose message stops at its record's 14 of 16 cells. `len_at`
+# = that u32. The block 0x21E1C-0x21E94 is [u32 id, u32 ptr] (attack names, ids 3-6), not cells.
+CELL_RECORDS = {"BALLBAT": (0x21E1C, 0x21E94)}
 # Fixed-width fields: name -> (source, lo, hi, stride); slot i at lo + i*stride, the last slot cut at hi
 # (docs/re/text.md "EXE text"). Written to <source>_<name>.json.
 FIXED = {
@@ -71,8 +75,10 @@ FIXED = {
 
 
 # Battle enemy names (found by the phase-5 marker tour): YM/BR_02/ENE01-18.BIN, battle overlays loaded at ENE_BASE.
-# Record [u32 cells<<8 | idx, u32 ptr, u32 ptr name, ..]: the cell count is explicit, names sit back to back
-# unterminated (ENE13 ラムネコップ|シェイクコップ). Written to ene/ENExx.json, `len_at` = the record's offset.
+# Record [u32 cells<<8 | idx, u32 ptr8, u32 ptr name, ..]: the cell count is explicit, names sit back to back
+# unterminated (ENE13 ラムネコップ|シェイクコップ). Written to ene/ENExx.json, `len_at` = the cell-count byte
+# (record + 1). ptr8 = the battle-header name (`kind: bname`): bytes in the 8x16 battle font, NUL-terminated, in
+# char[12] slots (ENE06 0x25D4: 8): `max` letters = slot - 1.
 ENE_BASE = 0x80104800
 ENE = [f"YM/BR_02/ENE{i:02d}.BIN" for i in range(1, 19)]
 
@@ -95,9 +101,18 @@ def ene_doc(path):
     data = (TREE / path).read_bytes()
     c = Codec(table())
     name = path.split("/")[-1][:-4]
-    entries = [{"id": f"{name}:{o:05X}", "kind": "ename", "max": n, "len_at": f"{k:05X}",
-                "jp": c.decode(data[o:o + 2 * n]), "en": ""} for o, (n, k) in sorted(ene_names(data).items())]
-    return {"file": path, "base": "%08X" % ENE_BASE, "entries": entries}
+    names = ene_names(data)
+    entries = [{"id": f"{name}:{o:05X}", "kind": "ename", "max": n, "len_at": f"{k + 1:05X}",
+                "jp": c.decode(data[o:o + 2 * n]), "en": ""} for o, (n, k) in sorted(names.items())]
+    bc = Codec(battle_table())
+    for a in sorted({struct.unpack_from("<I", data, k + 4)[0] - ENE_BASE for _, k in names.values()}):
+        end = data.index(b"\0", a)
+        z = end
+        while z < min(len(data), a + 12) and not data[z]:
+            z += 1
+        entries.append({"id": f"{name}:{a:05X}", "kind": "bname", "max": z - a - 1,
+                        "jp": "".join(bc.dec[x] for x in data[a:end]), "en": ""})
+    return {"file": path, "base": "%08X" % ENE_BASE, "entries": sorted(entries, key=lambda e: e["id"])}
 
 
 def words(data, lo=0, hi=None):
@@ -276,6 +291,15 @@ def stream_doc(name):
                 e["tail"] = 1
             entries.append(e)
     path, base, _ = STREAMS[name]
+    if name in CELL_RECORDS:
+        lo, hi = CELL_RECORDS[name]
+        at = {e["id"]: e for e in entries}
+        for k in range(0, len(data) - 7, 4):
+            n, p = struct.unpack_from("<II", data, k)
+            e = at.get(f"{name}:{p - base:05X}")
+            if e and 1 <= n <= 40 and not lo <= k < hi:
+                assert "len_at" not in e, e["id"]
+                e["len_at"] = f"{k:05X}"
     return {"file": path, "base": "%08X" % base, "entries": entries}
 
 

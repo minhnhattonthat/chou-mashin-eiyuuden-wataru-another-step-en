@@ -88,6 +88,7 @@ def battle_table():
     c = common()
     t = {0: "　", **{k: "０１２３４５６７８９"[k - 1] for k in range(1, 11)}}
     t.update({k + 0x0E: c[k] for k in range(1, 0xAE) if k in c})
+    t[0xEB] = "[00EB:・]"  # ENE header names (ジャー・サンプン, vs their 16-bit twins); 0xBB is ・ too
     return t
 
 

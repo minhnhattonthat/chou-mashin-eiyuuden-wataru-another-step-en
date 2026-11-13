@@ -110,9 +110,12 @@ right after the largest room overlay.
 - Strings can sit back to back with no terminator, so a string starts at every pointer target, and blank cells right
   after a target are kept as text (ST 0x104 `　バトルをつづける`: the cursor indent). BALLBAT cuts at u32 targets only
   (a code ref aims mid-string at 0x252E8).
-- BALLBAT 0x2150C-0x226F4: names and battle messages are fixed fields (equipment 8 cells, messages 10-16) reached by
-  `[u32 ptr]` lists at 0x21A80+/0x22388+/0x2270C+; `[u32 id, u32 ptr]` records (0x21530, 0x217FC, 0x21C04, ...) decode
-  as one kana and are dropped. Message fragments (`は`, `の`, `を手に入れた！`) are glued to names at run time.
+- BALLBAT 0x2150C-0x226F4: names and battle messages reached by `[u32 cells, u32 ptr]` records (blocks 0x21530..,
+  0x21A7C.., 0x22384.., 0x22708.., the bfont list 0x22AB4): **the game draws the record's cell count**, not up to a
+  terminator (phase 5, 2026-11-14: a spilled 22-cell ふいうち！ drew its 5 JP cells; the lose message stops at its
+  record's 14 of 16). `extract.CELL_RECORDS` puts the u32's offset in `len_at`, insert rewrites it. Block
+  0x21E1C-0x21E94 is `[u32 id, u32 ptr]` (attack names, ids 3-6). Records decode as one kana and are dropped. Message
+  fragments (`は`, `の`, `を手に入れた！`) are glued to names at run time. No other source has such records (swept).
 - **BALLBAT battle-font item names** 0x22830-0x22A84: list `[u32 cells, u32 ptr]` at 0x22AB4 (40 items, ptr 0 ends),
   drawn by 0x800E1C30 with an 8x16 4bpp font at RAM 0x80110000 (glyph = code * 64 bytes, padded to 11 cells): code =
   common code + 0x0E for kana, 1-10 digits (`jtext.battle_table`, read from a battle RAM dump). Copies of the EXE item
@@ -133,7 +136,10 @@ right after the largest room overlay.
   names sit back to back unterminated (ENE13 ラムネコップ|シェイクコップ). `extract.ene_names`. Phase-1 "YM: no text"
   missed them (short names, preceded by pointer words). A sweep of every other file for 4+ kana runs found only
   image data and sequential tables.
-- The battle header name box (thin font, top right) stays Japanese with these markered: another source, untraced.
+- Record word 2 (`ptr8`) = the **battle header name** (top right): bytes in the 8x16 battle font, NUL-terminated,
+  char[12] slots (ENE06 0x25D4: 8), `kind: bname`; 0xEB = ・ (`[00EB:・]`, 0xBB is ・ too). BALLBAT 0x800D0B50 copies
+  the record to 0x800F1C00 (cells), 0x800F1C04 (16-bit name), 0x800F529C (ptr8); 0x800DF310 draws ptr8 for
+  `cells` letters, then blanks to 11: patched to stop at the NUL (insert.CODE).
 
 ### Fonts other than MSG_CG / M16
 

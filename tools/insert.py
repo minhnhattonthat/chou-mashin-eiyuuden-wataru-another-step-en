@@ -5,7 +5,8 @@ its number (work/markers.tsv maps number -> id) in the first two glyph cells, th
 count x2, keeping newlines, blank cells and inline controls (lowercase in room text, uppercase elsewhere; the letter
 pair tells the column: ab = col 0, cd = col 1 .. yz = col 12, then ab again). Room and EXE pages take up to their JP
 word count, menu strings their words + tail padding, fixed fields `max` cells, BALLBAT battle-font names (`bfont`)
-one letter per 8x16 cell (Latin drawn over the kana of MSG_CG's 8x16 font, codes BF_FIRST+).
+one letter per 8x16 cell (Latin drawn over the kana of MSG_CG's 8x16 font, codes BF_FIRST+); ENE battle-header
+names (`bname`) the same font as NUL-terminated bytes. `len_at` = the byte holding the drawn cell count: rewritten.
 Pair codes per font context: pairs only room text uses go into that room's M16 font (codes 0x1A4+, ROOM_CAP), the
 rest into MSG_CG's kanji slots (mirrored into CNF_MSG, the config screen's copy); when a room font overflows, the
 pair most room fonts share moves to MSG_CG. In `en`, `[XXXX]` is a raw word (controls such as [B000][0003]).
@@ -36,6 +37,14 @@ FILL = {False: [chr(97 + i) + chr(98 + i) for i in range(0, 26, 2)]}
 FILL[True] = [p.upper() for p in FILL[False]]
 RAW = re.compile(r"\[([0-9A-F]{4})\]")
 WRITES = {}  # disc path -> [(offset, orig bytes, new bytes, writer)]
+# Code patches: (path, offset, original u32, new u32, why). The battle header (BALLBAT 0x800DF310-0x800DF3C8) draws
+# the 8-bit enemy name for the 16-bit name's cell count (0x800F1C00), which in English is half the letters: loop to
+# the NUL instead (lbu v1,0(s1) for both count reads; the slt goes, bnez v1 tests the next byte). docs/re/windows.md.
+CODE = [
+    ("PRG/BALLBAT.BIN", 0xF340, 0x94631C00, 0x92230000, "header name: lbu v1,0(s1) (was lhu count)"),
+    ("PRG/BALLBAT.BIN", 0xF390, 0x94631C00, 0x92230000, "header name: lbu v1,0(s1) (next byte)"),
+    ("PRG/BALLBAT.BIN", 0xF398, 0x0203182A, 0x00000000, "header name: nop (was slt v1,s0,v1)"),
+]
 
 
 def not_text():
@@ -59,7 +68,7 @@ def entries():
             kind = e.get("kind")
             if "font" in e:
                 ctx, tab, nl = "M16_" + e["font"], "M16_" + e["font"], 0x1000
-            elif kind == "bfont":
+            elif kind in ("bfont", "bname"):
                 ctx, tab, nl = "BF", "BF", None
             elif "table" in doc or kind == "menu":
                 ctx, tab, nl = "CG", None, 0x9999
@@ -154,13 +163,14 @@ def put(bufs, orig, path, off, data, by):
 
 
 def edits(qa=None):
-    """{disc path: new bytes}. qa: {id: text} overrides (stress lines for the width gate), still in place."""
+    """{disc path: new bytes}. qa: {id: text} overrides (stress lines for the width gate), still in place;
+    a key '+ID' may run past the slot over the strings after it (tools/stress.py)."""
     WRITES.clear()
     qa = qa or {}
     ents = entries()
     texts, uses, rows = [], {}, []
     for num, (e, path, off, words, avail, nl, ctx) in enumerate(ents, 1):
-        text = qa.get(e["id"]) or e.get("en") or None
+        text = qa.get(e["id"]) or qa.get("+" + e["id"]) or e.get("en") or None
         if text is None:
             text = marker(words, num, nl, not ctx.startswith("M16")) if ctx != "BF" else \
                 ("%04d" % num + "".join(FILL[True])[4:])[:avail]
@@ -176,22 +186,35 @@ def edits(qa=None):
             orig[path] = (TREE / path).read_bytes()
         return path
 
+    spills = []
     for (e, path, off, words, avail, nl, ctx), text in zip(ents, texts):
         if ctx == "BF":
             new = [bf_code(ch) for ch in text]
         else:
             new = [c if isinstance(c, int) else codes[ctx].get(c, 0) for c in cells(text, nl)]
-        if len(new) > avail:
+        spill = len(new) > avail and "+" + e["id"] in qa  # stress only: runs over the next strings, ends 0xFFFF
+        if len(new) > avail and not spill:
             errors.append(f"{e['id']}: {len(new)} words, room for {avail}")
             continue
-        if "len_at" in e:  # ENE enemy name: its record holds the cell count (byte 1 of the u32 cells<<8 | idx)
-            k = int(e["len_at"], 16) + 1
-            assert orig[load(path)][k] == e["max"], e["id"]
-            put(bufs, orig, path, k, bytes([len(new)]), e["id"] + " cells")
+        if "len_at" in e:  # the drawn cell count: ENE record byte 1, BALLBAT [u32 cells, u32 ptr]
+            k = int(e["len_at"], 16)
+            assert e.get("kind") != "ename" or orig[load(path)][k] == e["max"], e["id"]
+            put(bufs, orig, load(path), k, bytes([len(new)]), e["id"] + " cells")
+        if spill:
+            spills.append((load(path), off, struct.pack("<%dH" % (len(new) + 1), *new, 0xFFFF), e["id"]))
+            continue
+        if e.get("kind") == "bname":  # ENE battle-header name: bytes, NUL-terminated in its slot
+            put(bufs, orig, load(path), off, bytes(new + [0] * (avail + 1 - len(new))), e["id"])
+            continue
         new += [0] * (avail - len(new))
         put(bufs, orig, load(path), off, struct.pack("<%dH" % avail, *new), e["id"])
     if errors:
         raise SystemExit("insert: text too long\n  " + "\n  ".join(errors))
+    for path, off, data, by in spills:  # after every in-place write, so the spill wins
+        put(bufs, orig, path, off, data, by + " spill")
+    for path, off, old, new, why in CODE:
+        assert struct.unpack_from("<I", orig[load(path)], off)[0] == old, (path, hex(off))
+        put(bufs, orig, path, off, struct.pack("<I", new), "code " + why)
     cg, cnf = load("FM16/MSG_CG.BIN"), load("OUT/CNF_MSG.BIN")
     for p, c in codes["CG"].items():
         g = digraph.cell(p)

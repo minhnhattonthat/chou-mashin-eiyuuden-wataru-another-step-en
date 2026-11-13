@@ -57,6 +57,9 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
   the battle_ball state); GOD pins those too while mode is 6. Without it the forced ep-1 battle (ファックスメン + 12)
   is lost: lose message, black, then the title (mode 2): no separate game-over screen seen (scene battle_lose).
 - Field menu (Triangle) needs ~150 frames before it takes the next press; presses 40 frames apart then register.
+- Key-item list: 50 bytes at **0x800A91F8** (item ids, 0 = empty; FDS.BIN 0x800F8E20 compacts it, 0x800FC79C reads
+  the cursor's item for its description). Scene menu_key pokes ids 1-4. The battle item inventory is elsewhere and
+  still unknown (not read from 0x800A8E00-0x800AA000 in battle; scene battle_menu reaches the command cursor only).
 - Mode 0x16 forced from the field shows static staff-roll pages; the real staff roll plays inside the ending
   (scene `ending`: ep 15 + mode C loads R15.BIN, FMV, then the credits text).
 - Forcing mode B (level-up) from the field leaves a black screen forever (LVUP loads ~10 files, guess: it needs
