@@ -12,6 +12,10 @@ relocates those fields, then puts the full name in (`names.py` picks the first f
 - [ ] cut ENE08:01534/01588 マイコ・ジョウダン "Maiko Jodan" -> "Maiko Jordan" (Michael Jordan + 冗談; D9 English spelling)
 - [ ] cut MACHINE:103B8 昇龍烈火爆裂聖剣 "Holy Wyrminferno" -> the full attack name (rising dragon, blazing fire, burst, holy sword), e.g. "Rising Dragon Blaze Burst Holy Sword"
 
+Room pages in code-built blocks (R08 0x163C0, R13 0x16780, R14 0x1BCA0: fixed in place, no slack across a block's
+pages either) were tightened to their JP word count in phase 7 (work/tl/hand14): R08 music-puzzle rules, Warujo's
+panel-game intro. Nothing of substance dropped; "Back agaaain, are you?" -> "Back agaaain, huh?".
+
 Minors:
 
 - [ ] b001 BALLBAT:22064 - 「敵の動きを止めた！」 means “Stopped the enemy from moving!” “Stopped the enemy's movements!” reads unnaturally in battle feedback. Suggested EN: `Stopped the enemy from moving!`

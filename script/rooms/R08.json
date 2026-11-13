@@ -8,7 +8,7 @@
    "kind": "code",
    "end": "2000",
    "jp": "ワルトリン：\n音のセンスがなきゃ、\nちょー許せない！",
-   "en": "Warutorin:\nNo ear for music?\nThat's totally unforgivable!",
+   "en": "Warutorin:\nNo ear for music?\nUnforgivable!",
    "status": "done"
   },
   {
@@ -17,7 +17,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "カベにはってあるガクフを\nしらべな。\nカダイキョクがなるから。",
-   "en": "Check the sheet music\non the wall. It'll play\nthe tune you have to perform.",
+   "en": "Check the sheet music\non the wall. It plays\nthe set piece.",
    "status": "done"
   },
   {
@@ -26,7 +26,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "それをよ～くおぼえて、\nまったく同じように、\nえんそうしな。",
-   "en": "Listen very carefully,\nmemorize it, then play it\nexactly the same way.",
+   "en": "Listen closely,\nmemorize it, then\nplay it the same way.",
    "status": "done"
   },
   {
@@ -44,7 +44,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワルトリン：\nゆかにあるパネルをふんで、\n１つずつ、音を入力しな。",
-   "en": "Warutorin:\nStep on the floor panels to\nenter one note at a time.",
+   "en": "Warutorin:\nStep on floor panels to\nenter one note at a time.",
    "status": "done"
   },
   {
@@ -53,7 +53,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "ぜ～んぶ入力したら、\nえんそうボタンをふみなよ。\n入力した音がなるから。",
-   "en": "Once you've entered every note,\nstep on the play button.\nIt'll play the notes you put in.",
+   "en": "Once all notes are in,\nstep on the play button\nto hear your notes.",
    "status": "done"
   },
   {
@@ -62,7 +62,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "入力のとちゅうで間違えたら、\nやりなおすボタンをふみな。",
-   "en": "If you make a mistake while\nentering notes, step on\nthe reset button.",
+   "en": "Messed up a note?\nStep on the reset button.",
    "status": "done"
   },
   {
@@ -116,7 +116,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "はじめからやりなおしな！",
-   "en": "Start over from the beginning!",
+   "en": "Start over from the top!",
    "status": "done"
   },
   {

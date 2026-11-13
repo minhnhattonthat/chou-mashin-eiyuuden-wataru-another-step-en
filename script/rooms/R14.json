@@ -8,7 +8,7 @@
    "kind": "code",
    "end": "2000",
    "jp": "ワルジョ：\nまーたきたわね。",
-   "en": "Warujo:\nBack agaaain, are you?",
+   "en": "Warujo:\nBack agaaain, huh?",
    "status": "done"
   },
   {
@@ -17,7 +17,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "前にもやったから、\n説明はなしよ。",
-   "en": "You've done this before,\nso I'll skip the explanation.",
+   "en": "Did this before,\nso no rules now.",
    "status": "done"
   },
   {

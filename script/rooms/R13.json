@@ -8,7 +8,7 @@
    "kind": "code",
    "end": "2000",
    "jp": "ワルジョ：\nまーたきたわね。",
-   "en": "Warujo:\nBack agaaain, are you?",
+   "en": "Warujo:\nBack agaaain, huh?",
    "status": "done"
   },
   {
@@ -17,7 +17,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "前にもやったから、\n説明はなしよ。",
-   "en": "You've done this before,\nso I'll skip the explanation.",
+   "en": "Did this before,\nso no rules now.",
    "status": "done"
   },
   {
@@ -89,7 +89,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "パネルを２枚づつ開いて、\nおなじ給が出ればオーケーよ。\nちがう給だったら・・・うふふ。",
-   "en": "Flip two panels at a time.\nMatch the pictures, and you're\nfine. If they differ... Hee hee.",
+   "en": "Flip two panels at a time.\nMatch pictures and you're\nfine. If not... Hee hee.",
    "status": "done"
   },
   {
@@ -98,7 +98,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "パネルは、その上で○ボタンを\n押せば、開くわ。\nあなたたちに解けるかしら？",
-   "en": "Stand on a panel and press\nthe Circle button to flip it.\nCan you solve my little puzzle?",
+   "en": "Stand on a panel, press\nCircle to flip it. Can\nyou solve my puzzle?",
    "status": "done"
   },
   {
