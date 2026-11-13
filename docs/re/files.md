@@ -26,5 +26,10 @@
   (work/qa/trap1) dirtied nothing, and the game ran on with the trap bytes in place. Still untoured: menus, shop,
   battle (normal / mashin / IQ), save screen, FMV mid-game: re-run the probe over the phase-2 warp list before phase 5
   puts anything there.
+  - **Warp sweep, 2026-11-13** (`warp_all.py --script tools/lua/trapwatch.lua --var LO=0x80128800 --var HI=0x80148000
+    --var FILL=1300`, work/qa/trapwarp; FILL must be after boot: at f10 the EXE load wipes the fill): title, Continue,
+    Config, all 15 episode openings, field, field menu + submenus, shop, save, ending, credits leave it untouched;
+    **every battle (ball, mashin, IQ, won, lost, level-up) overwrites the whole 0x80128800-0x80148000**. So it is
+    free only outside battles: field text/VWF code there must be reloaded after a battle, or live elsewhere.
 - Free space inside each overlay: the old bank area once banks move; plan in phase 3/5 (append banks past the overlay end
   if the RAM after the largest room is free, else reuse the old area plus a second region).

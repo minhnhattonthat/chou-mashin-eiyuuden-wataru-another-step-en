@@ -17,7 +17,7 @@ Disc: SLPS-01368 (Banpresto / Aspect, 1998-04-23). EXE `SLPS_013.68`: PS-X EXE, 
 - **0x01A4+: per-room kanji**, allocated in order of first appearance in that room's script. Glyph = room font file index
   code - 0x1A4. verified: R00 族=0x1C3 = `M16_R00.BIN` glyph 0x1F, 申=0x1C4 = glyph 0x20.
   - Room fonts: `FM16/M16_Rxx.BIN` (xx hex: R0A = room 10, R0E = room 14), same 128-byte glyph format; up to 190 glyphs
-    (max code 0x261). Room-to-font map by glyph count: "Fonts other than MSG_CG / M16" below (R01/R03/R05 open).
+    (max code 0x261). Episode-to-font map (verified): "Fonts other than MSG_CG / M16" below.
   - The same code means different kanji in different rooms: the table is per room (common + room).
 - Text controls inside a message: 0x1000 newline, 0x2000 end of page/message. Menus and tables end strings with 0xFFFF
   or 0x9999 (ST.BIN choice lists: `[9999][0000][0000][0000]はい`).
@@ -83,12 +83,15 @@ right after the largest room overlay.
 
 - `OUT/CNF_MSG.BIN` (98,688 B = 771 glyphs, 16x16 4bpp, verified by render): config-screen font, kana at the same cells
   as MSG_CG (あ = glyph 0xA6 + 0x01), more kanji after. TTL.BIN (config) strings index it (guess: check in config tour).
-- Room fonts by glyph count (room's highest code - 0x1A3 = font glyph count, guess): R00 = M16_R00 (183), R06 = M16_R06
-  (188), R07 = M16_R07 (187), R09 = M16_R09 (190), R10 = M16_R0A (134), **R11 = M16_R11 (175)**, **R13 = M16_R13
-  (190)**, **R14 = M16_R0E (189)**; R02 167 <= M16_R02 169; R04 176 <= M16_R04 178. Open: R01 (178), R03 (169), R05
-  (178), R08 (198 > every font: noise in the scan) and who uses M16_R12 (97) / M16_R14 (225). The EXE names every font
-  file at 0x8001CB14-0x8001CC04 (one string each, no u32 pointers: probably resolved once into an LBA table). Settle
-  with a RAM read of the loaded font per room once the debug tool warps there (phase 2).
+- **Room font per episode index (verified 2026-11-13, docs/re/debug.md):** switch at 0x800272F8 on 0x8009C90C, and
+  RAM 0x80122500 == the font file in the warp states. Index 0-1 M16_R00, 2-3 M16_R02, 4-5 M16_R04, 6 R06, 7 R07, 8 R08,
+  9 R09, 10 R0A, 11 R11, 12 M16_R12, 13 M16_R13, 14 M16_R0E. Overlays: index 0-11 = R00-R11.BIN, 12 and 13 = R13.BIN,
+  14 = R14.BIN. So R01/R03/R05 use the R00/R02/R04 fonts, and R13.BIN text is drawn with M16_R12 in episode 12 and
+  M16_R13 in episode 13: the table is per episode index (split R13.BIN's banks by episode in phase 4). M16_R14 (225
+  glyphs) is not loaded by this switch (its first 8 KB equal M16_R0E: guess, the ending). The file table
+  0x80077240 (`tools/filetab.py`) holds every font name with its load address.
+- Earlier glyph-count guesses (R13 = M16_R13 for all of R13.BIN, R14 = M16_R0E) were partly right; the per-index map
+  above replaces them.
 
 Not 16-bit text (all runs decode to noise, `msgscan.py --menu` + decode, 2026-11-13): MOVIE, SBTTL, MEMORY, FD_STS,
 FVHH/STAFF.BIN (credits: graphics or another format), FP*, FR*, FK*, IQ/*.CHG, YM/* (incl. MR_09/MBPRG code overlays),

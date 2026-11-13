@@ -1,0 +1,82 @@
+# Game flow, RAM map and the debug warp (phase 2)
+
+Tools: `tools/debug/warp.lua` + `tools/debug/scenes.txt` (scene list), `tools/debug/warp_all.py` (every scene from a
+cold boot, states to `work/states/`, summary `work/qa/warp/summary.tsv`). Probes: `tools/lua/ramlog.lua` (log value
+changes), `tools/lua/poke.lua` (RAM writes from a state), `tools/lua/fileload.lua` (file-table reads, `--debugger`).
+Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-index calls in a code image).
+
+## Main loop (verified: disassembly + forced-mode runs from `work/states/idle_ep01.sstate`, 2026-11-13)
+
+- 0x8001F114: `jalr table[SysMode]`, table 0x80075D64 (23 entries), then debug printfs "Check SysMode"/"Stage No".
+- **SysMode** u8 0x8009C7FC. Writing it from Lua takes effect on the next main-loop pass; every value below was
+  reached that way from the field:
+
+| Mode | Handler | What | File loaded (table index) |
+|---|---|---|---|
+| 0x14 | 0x80058904 | boot: logo, attract FMV, title art (loops until Start) | BP_LOGO |
+| 2 | 0x8005AC64 | title menu ニューゲーム/コンティニュー/コンフィグ (TTL.BIN). New Game sets ep = 0xFFFF, plays WATA02 (movie, Start skips), then mode F | 1 TTL |
+| 9 | 0x8005AE34 | movie player (index 0x8009C978) | 5 MOVIE |
+| F | 0x8005AC28 | area map + episode title card (SBTTL.BIN): ep += 1, then mode C | 2 SBTTL |
+| C/D | 0x8005832C | room setup / episode flow (room overlay init 0x800CE198); at ep 15 the ending | room files |
+| 3/4 | 0x8002DABC / 0x80033ED8 | enter field after an event / a battle | |
+| 5 | 0x8002F8D4 | field main loop (sub-state 0x8009C788, below) | |
+| 6 | 0x8005A6C0 | battle (BALLBAT.BIN) | 8 BALLBAT |
+| 7 | 0x8005A98C | mashin battle (MACHINE.BIN); stage word 0x8009C618 = table 0x80081DCC[ep] | 7 MACHINE |
+| 8 | 0x8005AAC4 | IQ battle (ST.BIN, entry 0x80108328); result u16 0x8009C74C: 1 win -> mode 4, 3 retry, 0/2 -> mode 2 | 0 ST |
+| B | 0x8005ACE0 | level-up screen (LVUP.BIN), then mode 4 | 3 LVUP |
+| 10/11 | 0x8005AD28 | memory card save (10) / load (11) (MEMORY.BIN) | 6 MEMORY |
+| 16 | 0x80058B78 | staff roll | STAFF.BIN |
+| 12/13/15 | 0x800595CC / 0x800598D8 / 0x80058738 | not identified yet (15 = field re-entry after Continue, guess) | |
+
+- Script calls that start these: 0x800336D8 save (mode 10), 0x80033734 IQ battle (mode 8), 0x800337DC mashin battle
+  (mode 7), 0x80033A2C / 0x80033E5C battle (mode 6).
+
+## Episodes (verified by warp: card text, overlay compare, font compare)
+
+- **Episode index** u16 0x8009C90C: 0 = prologue (創界山のふもと), 1-14 = 第01話-第14話, 15 = ending (set by
+  0x800580B0 when ep 14 ends). 0xFFFF on New Game; SBTTL adds 1 before it draws the card, so the warp writes N-1.
+- Overlay per index (warp_all ROOMHEAD compare of 0x800CE000 with each file): 0-11 = `FPRG/R00-R11.BIN`, **12 and 13
+  both R13.BIN**, 14 = R14.BIN. R15.BIN is a 472-byte stub (ending?). There is no R12.BIN.
+- Room font per index: switch 0x800272F8 on 0x8009C90C (jump table 0x8001D848), verified by comparing RAM
+  0x80122500 with the font files in the ep01/03/05/12/13/14 states: 0-1 M16_R00, 2-3 M16_R02, 4-5 M16_R04,
+  6 M16_R06, 7 M16_R07, 8 M16_R08, 9 M16_R09, 10 M16_R0A, 11 M16_R11, 12 M16_R12, 13 M16_R13, 14 M16_R0E.
+  So R01/R03/R05 share their font with R00/R02/R04, and R13.BIN's text is drawn with M16_R12 in episode 12 and
+  M16_R13 in episode 13: **the kanji table is per episode index, not per R file** (phase 4).
+- Episode end: 0x8009C7B0 == 0xFFFF -> next card (mode F), or the ending when ep is 14. Otherwise 0x80032144(id)
+  starts event `id` of the room (sets field state 3).
+
+## Field (verified by ramlog + button tests from idle_ep01)
+
+- Field sub-state u16 **0x8009C788**, handler table 0x800819DC: 0 free walk, 3 event, 4/5 message window,
+  **9 field menu** (Triangle; アイテム/そうび/もんペット/ステータス/コンフィグ + party panel; loads FDS.BIN + FD_STS),
+  **0xA shop** (loads FD_SHP.PX; writing 0xA with step counter 0x8009C85A = 0 opens the item shop list), 0x10 after a
+  save. 0x80 bit set by 0x800581E8 (guess: pause).
+- Party stats 0x800A8D38, 8 bytes per member: hp, hp max, mp, mp max (u16). ワタル 114/114 18/18, アラゴト 144/144,
+  サクヤ 90/90 20/20 at the start of ep 1. `GOD=1` (or scene key god=1) pins hp/mp to max.
+- Battle (mode 6) keeps its own party units at **0x800BF924**, 0x6C each: hp, hp max (u16) (verified: RAM search in
+  the battle_ball state); GOD pins those too while mode is 6. Without it the forced ep-1 battle (ファックスメン + 12)
+  is lost: lose message, black, then the title (mode 2): no separate game-over screen seen (scene battle_lose).
+- Field menu (Triangle) needs ~150 frames before it takes the next press; presses 40 frames apart then register.
+- Mode 0x16 forced from the field shows static staff-roll pages; the real staff roll plays inside the ending
+  (scene `ending`: ep 15 + mode C loads R15.BIN, FMV, then the credits text).
+- Forcing mode B (level-up) from the field leaves a black screen forever (LVUP loads ~10 files, guess: it needs
+  the post-battle state). After a battle the mode-6 handler goes to mode 4, or to mode B when u8 **0x8009C758** is
+  set (0x8005A7E0); writing the flag every frame does not stick (cleared just before the test), so scene `levelup`
+  wins the ep-1 battle (GOD + Circle) with a debug-only RAM code patch: nop the `beqz` at 0x8005A7EC. The screen
+  shows ワタルはレベルアップ！ … レベル０２になった！ ~350 frames after mode B, then returns to the field.
+- Battle win: ~10,900 frames of 12-frame Circle presses for the forced ep-1 battle (scene `battle_win`).
+- File table 0x80077240: 1,037 records of 0x20 bytes {name ptr, load address, LBA (filled at boot), size, ...};
+  loader 0x8002505C(index). `tools/filetab.py` lists it.
+
+## Scene list (tools/debug/scenes.txt) and its proof
+
+Title (menu, Continue -> card screen, Config), ep00-ep14 (area map + title card + opening dialogue of every
+episode), field, field menu and its five submenus, shop, save, battle (ball / mashin / IQ), battle won, battle
+lost, level-up, ending (FMV + staff roll), credits (mode 0x16). `warp_all.py` writes `work/qa/warp/<scene>/`
+(final.png, sheet) and `work/states/<scene>.sstate`; summary.tsv has the arrival frame and the overlay check.
+
+## Open (grow the list when a bug report names a place it can't reach)
+
+- Mid-episode scenes (events by id: 0x80032144(id) / 0x8009C7B0), other shops (shop id 0x8009C900 / 0x8009C90A
+  read by the shop setup; guess), battle enemy and IQ-puzzle selection, mashin battles per stage (0x8009C618),
+  and modes 12/13/15.
