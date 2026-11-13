@@ -37,6 +37,7 @@ FILL = {False: [chr(97 + i) + chr(98 + i) for i in range(0, 26, 2)]}
 FILL[True] = [p.upper() for p in FILL[False]]
 RAW = re.compile(r"\[([0-9A-F]{4})\]")
 WRITES = {}  # disc path -> [(offset, orig bytes, new bytes, writer)]
+OVERFLOW = []  # ids whose `en` is longer than the JP slot (marker shown instead; phase 7)
 # Code patches: (path, offset, original u32, new u32, why). The battle header (BALLBAT 0x800DF310-0x800DF3C8) draws
 # the 8-bit enemy name for the 16-bit name's cell count (0x800F1C00), which in English is half the letters: loop to
 # the NUL instead (lbu v1,0(s1) for both count reads; the slt goes, bnez v1 tests the next byte). docs/re/windows.md.
@@ -166,11 +167,17 @@ def edits(qa=None):
     """{disc path: new bytes}. qa: {id: text} overrides (stress lines for the width gate), still in place;
     a key '+ID' may run past the slot over the strings after it (tools/stress.py)."""
     WRITES.clear()
+    OVERFLOW.clear()
     qa = qa or {}
     ents = entries()
     texts, uses, rows = [], {}, []
     for num, (e, path, off, words, avail, nl, ctx) in enumerate(ents, 1):
         text = qa.get(e["id"]) or qa.get("+" + e["id"]) or e.get("en") or None
+        if text and e["id"] not in qa and "+" + e["id"] not in qa and \
+                (len(text) if ctx == "BF" else len(cells(text, nl))) > avail:
+            # shortcut: English past its JP slot shows the marker until phase 7 grows slots (work/overflow.tsv)
+            OVERFLOW.append(e["id"])
+            text = None
         if text is None:
             text = marker(words, num, nl, not ctx.startswith("M16")) if ctx != "BF" else \
                 ("%04d" % num + "".join(FILL[True])[4:])[:avail]
@@ -232,6 +239,7 @@ def edits(qa=None):
     out = ROOT / "work" / "markers.tsv"
     out.parent.mkdir(exist_ok=True)
     out.write_text("\n".join(rows) + "\n", encoding="utf-8")
+    (out.parent / "overflow.tsv").write_text("".join(i + "\n" for i in OVERFLOW), encoding="utf-8")
     return {p: bytes(b) for p, b in bufs.items()}
 
 
