@@ -417,8 +417,29 @@ def memcard():
     img.save(gfx.GFX / "en" / png)
 
 
+BANNER = {  # G20 MBEXT_08 40x40 kanji cells (u, v): English beat (D22). The game flashes them one at a time
+    (0, 0): "TO", (40, 0): "RYU", (80, 0): "KEN", (0, 40): "SKY", (40, 40): "SOAR",  # 登龍剣, 天翔 (+登龍剣)
+    (128, 0): "PHAN", (168, 0): "TOM", (208, 0): "WYRM", (128, 40): "WAVE", (168, 40): "!!",  # 幻影招龍破
+    (0, 128): "RISE", (40, 128): "WYRM", (80, 128): "BLAZE", (0, 168): "FIRE",  # 昇龍烈火
+    (40, 168): "BURST", (80, 168): "REND", (0, 208): "HOLY", (40, 208): "SWORD",  # 爆裂聖剣
+}
+
+
+def banners():
+    """G20 mashin special-move banners: each kanji cell cleared and redrawn as one carved English word, white-cream
+    face over the cell's dark glow colours (palette 7)."""
+    png = "YM/MBEXT08_cells.png"
+    img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+    lut = lut_of(png)
+    for (u, v), t in BANNER.items():
+        clear(img, (u, v, 40, 40))
+        fit_stone(img, lut, (u, v + 2, 40, 36), t, 24, [14, 14, 14, 13, 13, 12], 4, 1)
+    img.save(gfx.GFX / "en" / png)
+
+
 GROUPS = {"title": title, "battle": battle, "shop": shop, "iq": iq, "bubbles": bubbles, "mashin": mashin,
-          "fmenu": fmenu, "cards": cards, "captions": captions, "memcard": memcard}
+          "fmenu": fmenu, "cards": cards, "captions": captions, "memcard": memcard,
+          "banners": banners}
 
 if __name__ == "__main__":
     for g in sys.argv[1:] or GROUPS:
