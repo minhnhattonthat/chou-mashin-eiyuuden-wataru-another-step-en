@@ -81,3 +81,6 @@ YM/STS_labels.png	YM/MR_02/STS_17.CHG	400	4	YM/MR_02/STS_17.CHG	r0	13	280,128,48
 YM/STS_17_names.png	YM/MR_02/STS_17.CHG	400	4	YM/MR_02/STS_17.CHG	r0	6	0,128,248,64
 YM/STS_labels.png	YM/MR_02/STS_18.CHG	400	4	YM/MR_02/STS_18.CHG	r0	13	280,128,48,64
 YM/STS_18_names.png	YM/MR_02/STS_18.CHG	400	4	YM/MR_02/STS_18.CHG	r0	6	0,128,248,64
+# G5 area cards: SBTCHAR.CHG (768,0) 4bpp glyph sheet, CLUT (0,503) at 0; palette 4 = text (bar records use 5: same
+# indices, the import is by index); labels re-cut by gfx.sbt_recs (PRG/SBTTL.BIN lists), strips by gfx.sbt_layout
+OUT/SBT_atlas.png	OUT/SBTCHAR.CHG	208	4	OUT/SBTCHAR.CHG	0	4	0,0,256,256

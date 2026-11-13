@@ -330,8 +330,40 @@ def fmenu():
     img.save(gfx.GFX / "en" / png)
 
 
+def put_mono(img, lut, u, v, text, ink, edge, font="spleen-8x16.bdf", rows=(2, 14)):
+    """Monospace pixel text at (u, v) with a 1-px 8-neighbour outline: letter i's cell starts at u + 1 + 8 i (no
+    column trim, so record x = cell x - 1), font rows rows[0]..rows[1] (one baseline for every strip)."""
+    g = bdf(font)
+    on = {(1 + 8 * i + c, 1 + j - rows[0]) for i, ch in enumerate(text) for j in range(rows[0], rows[1] + 1)
+          for c, b in enumerate(g[ch][j]) if b}
+    px = img.load()
+    for i in range(8 * len(text) + 2):
+        for j in range(rows[1] - rows[0] + 3):
+            if (i, j) in on:
+                px[u + i, v + j] = lut[ink]
+            elif any((i + a, j + b) in on for a in (-1, 0, 1) for b in (-1, 0, 1)):
+                px[u + i, v + j] = lut[edge]
+
+
+def cards():
+    """G5 area cards: freed glyph rows cleared, bar B drawn, one white (1) Spleen 8x16 strip per word with the
+    darkest outline (15), like the JP glyphs (gfx.sbt_layout / sbt_recs)."""
+    png = "OUT/SBT_atlas.png"
+    img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+    lut = lut_of(png)
+    bu, bv, bw, bh = gfx.SBT_BAR
+    clear(img, *[(u, v, w, 16) for u, v, w in gfx.SBT_FREE], gfx.SBT_BAR)
+    px = img.load()
+    for j in range(bv, bv + bh):  # bar B: the bar's middle column, then its right 4 columns
+        for i in range(bw):
+            px[bu + i, j] = px[80 - (bw - i) if i >= bw - 4 else 40, j]
+    for t, (u, v) in gfx.sbt_layout(gfx.load(gfx.SBT)).items():
+        put_mono(img, lut, u, v, t, 1, 15)
+    img.save(gfx.GFX / "en" / png)
+
+
 GROUPS = {"title": title, "battle": battle, "shop": shop, "iq": iq, "bubbles": bubbles, "mashin": mashin,
-          "fmenu": fmenu}
+          "fmenu": fmenu, "cards": cards}
 
 if __name__ == "__main__":
     for g in sys.argv[1:] or GROUPS:

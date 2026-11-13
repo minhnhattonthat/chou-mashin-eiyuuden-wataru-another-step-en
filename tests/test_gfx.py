@@ -39,6 +39,24 @@ def test_fmenu_labels():
     assert gfx.fm_check(d) == []
 
 
+def test_card_labels():
+    """G5: every card label spells a JP key with English, strips stay inside the freed rows without overlap, and no
+    record outside the card lists cuts a freed row or bar B."""
+    d = gfx.load(gfx.SBT)
+    recs = gfx.sbt_recs(d)  # asserts JP keys, box twins
+    assert len({off for _, off, *_ in recs}) == len(recs), "a record patched twice"
+    strips = sorted((v, u, 8 * len(t) + 2) for t, (u, v) in gfx.sbt_layout(d).items())
+    for (v, u, w), (v2, u2, _) in zip(strips, strips[1:]):
+        assert v != v2 or u + w <= u2, "strips overlap"
+    assert all(any(fv == v and fu <= u and u + w <= fu + fw for fu, fv, fw in gfx.SBT_FREE) for v, u, w in strips)
+    bu, bv, bw, bh = gfx.SBT_BAR
+    areas = [(u, v, w, 16) for u, v, w in gfx.SBT_FREE] + [gfx.SBT_BAR]
+    for o in range(0, len(d) - 14, 2):
+        tp, cl, u, v, w, h, x, y = struct.unpack_from(gfx.REC, d, o)
+        if tp == 0x0C and 0x7DC0 <= cl <= 0x7DCF and not gfx.SBT_LISTS[0] <= o < gfx.SBT_LISTS[1]:
+            assert not any(u < au + aw and au < u + w and v < av + ah and av < v + h for au, av, aw, ah in areas), hex(o)
+
+
 def test_recs_original():
     for path, off, fmt, old, new, why in gfx.RECS:
         assert struct.unpack_from(fmt, gfx.load(path), off) == old, why

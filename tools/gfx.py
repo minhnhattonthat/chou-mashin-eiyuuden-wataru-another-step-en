@@ -177,6 +177,131 @@ def fm_check(d):
     return stray
 
 
+# G5 area cards (OUT/SBTCHAR.CHG glyph sheet, tpage 0x0C, docs/re/graphics.md G5): PRG/SBTTL.BIN 0x3B70-0x4E00
+# holds one sprite list per card label (REC records, list ends 0xFFFF): text records (CLUT 0x7DC4, palette 4) cut
+# 16x16 glyph runs, box records (0x7DC5, palette 5) cut the 80x32 bar at (0,176); the list after each text list is
+# its box alone (same pieces). English = Spleen 8x16 strips (8 px per letter), one per word, in the freed rows; the
+# label's text records take the words in x order, the rest get w = h = 0. A box that must grow keeps its anchored
+# edge (left when it starts at x 0, else right): left piece from the bar (u0, <= 76), right piece from bar B, a
+# 176-px copy of the bar's middle + right edge at (80,176) (where the digits and 創界山のふもと were).
+SBT = "PRG/SBTTL.BIN"
+SBT_LISTS = (0x3B70, 0x4E00)
+SBT_ROWS = {48: "...............イ", 64: ".........もんじゃガンボ", 80: ".........コンビニづくし",
+            96: "エキストラタウンキャラクターシテ", 112: "ケイコービリアイドリアンサウンド",
+            128: "エアスリートアスレチック花嫁サビ", 144: "レーワルモンダー城村第話界層プロ",
+            160: "ローグエンディング一二三四五六七", 176: ".....0123456789.", 192: ".....創界山のふもと"}
+# (keys as the records spell them: シティ is drawn シテ + a full-size イ)
+SBT_FREE = [(0, 96, 256), (0, 112, 256), (0, 128, 256), (0, 144, 256), (0, 160, 256), (0, 208, 256), (0, 224, 256),
+            (0, 240, 256), (144, 64, 112), (144, 80, 112), (240, 48, 16)]  # u, v, w; 16 tall
+SBT_BAR = (80, 176, 176, 32)  # bar B
+_KAN = "一二三四五六七"
+SBT_EN = {"創界山のふもと": "Foot of Sokaizan", "プロローグ": "Prologue", "エンディング": "Ending",
+          "もんじゃ村": "Monja Village", "コンビニ村": "Konbini Village", "ガンボづくし村": "Ganbozukushi Village",
+          "エキストラタウン": "Extra Town", "キャラクターシテイ": "Character City", "ケイコータウン": "Keiko Town",
+          "ビリビリタウン": "Biribiri Town", "アイドリアンシテイ": "Idorian City", "サウンドエコー村": "Sound Echo Village",
+          "アスリート村": "Athlete Village", "アスレチック村": "Athletic Village", "花嫁村": "Bride Village",
+          "サビレータウン": "Sabire Town", "ワルモンダー城": "Warumonder Castle"}
+SBT_EN.update({f"第{k}界層": f"Layer {i + 1}" for i, k in enumerate(_KAN)})
+SBT_EN.update({f"第{n:02d}話": f"Episode {n}" for n in range(1, 15)})
+
+
+def sbt_char(u, v, w, h):
+    r = SBT_ROWS.get(v)
+    if r is None or h != 16:
+        return None
+    return "".join(r[c] if c < len(r) else "?" for c in range(u // 16, (u + w + 15) // 16))
+
+
+def sbt_lists(d):
+    """[(offset, [(record offset, REC tuple)..])] for every sprite list in SBT_LISTS."""
+    out, o, cur, start = [], SBT_LISTS[0], [], SBT_LISTS[0]
+    while o < SBT_LISTS[1]:
+        a = struct.unpack_from("<H", d, o)[0]
+        if a == 0xFFFF:
+            out.append((start, cur))
+            cur, o = [], o + 2
+            while o < SBT_LISTS[1] and struct.unpack_from("<H", d, o)[0] != 0x0C:  # gap: list headers / anim data
+                o += 2
+            start = o
+        elif a == 0x0C:
+            cur.append((o, struct.unpack_from(REC, d, o)))
+            o += 14
+        else:
+            o += 2
+    return out
+
+
+def _words(en, n):
+    """Strip texts for a label with n text records: one per word, the leading words merged when n is short."""
+    w = en.split(" ")
+    while len(w) > n:
+        w[:2] = [w[0] + " " + w[1]]
+    return w
+
+
+def _sbt_labels(d):
+    """[(list index, text records in x order, box records in x order, JP, English)] for every text list."""
+    out = []
+    for k, (start, recs) in enumerate(sbt_lists(d)):
+        text = sorted([(o, r) for o, r in recs if r[1] == 0x7DC4], key=lambda t: t[1][6])
+        box = sorted([(o, r) for o, r in recs if r[1] == 0x7DC5], key=lambda t: t[1][6])
+        if text:
+            jp = "".join(sbt_char(*r[2:6]) or "?" for _, r in text)
+            out.append((k, text, box, jp, SBT_EN[jp]))  # KeyError = a label with no English
+    return out
+
+
+def sbt_layout(d):
+    """{strip text: (u, v)}: first fit, longest first, into SBT_FREE (8 px per letter + the 1-px outline)."""
+    free = [list(f) for f in SBT_FREE]
+    out = {}
+    for t in sorted({w for _, text, _, _, en in _sbt_labels(d) for w in _words(en, len(text))},
+                    key=lambda t: (-len(t), t)):
+        w = 8 * len(t) + 2
+        f = next(f for f in free if f[2] >= w)  # StopIteration = atlas full
+        out[t] = (f[0], f[1])
+        f[0] += w
+        f[2] -= w
+    return out
+
+
+def sbt_recs(d):
+    """gfx.RECS-style entries for the G5 card labels and their box twins, checked against the original SBTTL.BIN."""
+    lay = sbt_layout(d)
+    lists = sbt_lists(d)
+    out, seen = [], set()
+    for k, text, box, jp, en in _sbt_labels(d):
+        seen.add(jp)
+        bl, br = min(r[6] for _, r in box), max(r[6] + r[4] for _, r in box)
+        T = 8 * len(en)
+        W = max(br - bl, -(-(T + 16) // 8) * 8)
+        left = bl if bl == 0 else br - W
+        x0 = left + (W - T) // 2
+        pos, words = 0, _words(en, len(text))
+        for i, (o, r) in enumerate(text):
+            if i < len(words):
+                pos = en.index(words[i], pos)
+                u, v = lay[words[i]]
+                new = r[:2] + (u, v, 8 * len(words[i]) + 2, 16, x0 + 8 * pos - 1, r[7])
+                pos += len(words[i])
+            else:
+                new = r[:4] + (0, 0) + r[6:]
+            out.append((SBT, o, REC, r, new, "card " + en))
+        if W == br - bl:
+            continue
+        twin = lists[k + 1][1]
+        assert sorted(r for _, r in twin) == sorted(r for _, r in box), (en, "box twin")
+        assert len(box) >= 2, (en, "one-piece box can't grow")
+        lw = min(76, W - 8)  # u76-79 is the bar's right edge
+        for bx in (box, sorted(twin, key=lambda t: t[1][6])):
+            for i, (o, r) in enumerate(bx):
+                new = r[:2] + ((256 - (W - lw), 176, W - lw, 32, left + lw) if i == len(bx) - 1 else
+                               (0, 176, lw, 32, left)) + r[7:]
+                out.append((SBT, o, REC, r, new, "card box " + en))
+    assert seen == set(SBT_EN), set(SBT_EN) - seen
+    return out
+
+
 def rows():
     out = []
     for line in (GFX / "gfx.tsv").read_text(encoding="utf-8").splitlines():
@@ -299,7 +424,7 @@ def apply(put, bufs, orig, load_path):
                 e += 1
             put(bufs, orig, p, k, bytes(buf[k:e]), "gfx " + r["png"])
             k = e
-    for path, off, fmt, old, new, why in RECS + fm_recs(orig[load_path(FDS)]):
+    for path, off, fmt, old, new, why in RECS + fm_recs(orig[load_path(FDS)]) + sbt_recs(orig[load_path(SBT)]):
         p = load_path(path)
         assert struct.unpack_from(fmt, orig[p], off) == old, (path, hex(off), why)
         put(bufs, orig, p, off, struct.pack(fmt, *new), "gfx rec " + why)
@@ -318,7 +443,8 @@ def spans(path):
         for y in range(y0, y0 + h):
             a = r["off"] + 8 + y * bpr + (x0 if r["bpp"] == 8 else x0 // 2)
             out.append((a, a + (w if r["bpp"] == 8 else (w + 2) // 2)))
-    out += [(off, off + struct.calcsize(fmt)) for p, off, fmt, *_ in RECS + fm_recs(load(FDS)) if p == path]
+    out += [(off, off + struct.calcsize(fmt)) for p, off, fmt, *_ in RECS + fm_recs(load(FDS)) + sbt_recs(load(SBT))
+            if p == path]
     return out
 
 
