@@ -25,6 +25,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import compose  # noqa: E402
 import digraph  # noqa: E402
 import roompack  # noqa: E402
+import strpack  # noqa: E402
 from jtext import Codec, battle_table, table  # noqa: E402
 
 TREE = ROOT / "work" / "disc" / "tree"
@@ -37,7 +38,8 @@ FILL = {False: [chr(97 + i) + chr(98 + i) for i in range(0, 26, 2)]}
 FILL[True] = [p.upper() for p in FILL[False]]
 RAW = re.compile(r"\[([0-9A-F]{4})\]")
 WRITES = {}  # disc path -> [(offset, orig bytes, new bytes, writer)]
-OVERFLOW = []  # ids whose `en` is longer than the JP slot (marker shown instead; phase 7)
+OVERFLOW = []  # ids whose `en` is longer than the JP slot and can't move (marker shown instead)
+MOVED = []  # ids strpack moved to free space
 # Code patches: (path, offset, original u32, new u32, why). The battle header (BALLBAT 0x800DF310-0x800DF3C8) draws
 # the 8-bit enemy name for the 16-bit name's cell count (0x800F1C00), which in English is half the letters: loop to
 # the NUL instead (lbu v1,0(s1) for both count reads; the slt goes, bnez v1 tests the next byte). docs/re/windows.md.
@@ -135,6 +137,11 @@ def relocatable(path, off):
     return bool(u) and u["kind"] in ("bank", "ptr")
 
 
+def movable(e, path):
+    """A pointer- or code-referenced string of the EXE / a PRG overlay (no fixed-width field): may move (strpack)."""
+    return path in strpack.BASE and "max" not in e and e.get("kind") in ("menu", "bfont", "ptr", "next", "code")
+
+
 def bf_code(ch):
     return 0 if ch == " " else BF_FIRST + ord(ch) - 0x21
 
@@ -162,12 +169,14 @@ def edits(qa=None, english=True):
     a key '+ID' may run past the slot over the strings after it (tools/stress.py)."""
     WRITES.clear()
     OVERFLOW.clear()
+    MOVED.clear()
     qa = qa or {}
     ents = entries()
     texts, uses, rows = [], Counter(), []
     for num, (e, path, off, words, avail, nl, ctx) in enumerate(ents, 1):
         text = qa.get(e["id"]) or qa.get("+" + e["id"]) or (e.get("en") if english else None) or None
         if text and e["id"] not in qa and "+" + e["id"] not in qa and not relocatable(path, off) and \
+                not movable(e, path) and \
                 (len(text) if ctx == "BF" else len(cells(text, nl))) > avail:
             # shortcut: English past its JP slot shows the marker until phase 7 grows slots (work/overflow.tsv)
             OVERFLOW.append(e["id"])
@@ -187,7 +196,7 @@ def edits(qa=None, english=True):
             orig[path] = (TREE / path).read_bytes()
         return path
 
-    spills, room_items = [], {}
+    spills, room_items, str_items = [], {}, {}
     for (e, path, off, words, avail, nl, ctx), text in zip(ents, texts):
         if ctx == "BF":
             new = [bf_code(ch) for ch in text]
@@ -197,7 +206,7 @@ def edits(qa=None, english=True):
             room_items.setdefault(load(path), {})[off] = (avail, new, e["id"])
             continue
         spill = len(new) > avail and "+" + e["id"] in qa  # stress only: runs over the next strings, ends 0xFFFF
-        if len(new) > avail and not spill:
+        if len(new) > avail and not spill and not movable(e, path):
             errors.append(f"{e['id']}: {len(new)} words, room for {avail}")
             continue
         if "len_at" in e:  # the drawn cell count: ENE record byte 1, BALLBAT [u32 cells, u32 ptr]
@@ -206,6 +215,9 @@ def edits(qa=None, english=True):
             put(bufs, orig, load(path), k, bytes([len(new)]), e["id"] + " cells")
         if spill:
             spills.append((load(path), off, struct.pack("<%dH" % (len(new) + 1), *new, 0xFFFF), e["id"]))
+            continue
+        if movable(e, path) and e["id"] not in qa:  # may move to free space (strpack)
+            str_items.setdefault(load(path), []).append((off, avail, new, e))
             continue
         if e.get("kind") == "bname":  # ENE battle-header name: bytes, NUL-terminated in its slot
             put(bufs, orig, load(path), off, bytes(new + [0] * (avail + 1 - len(new))), e["id"])
@@ -216,6 +228,11 @@ def edits(qa=None, english=True):
         raise SystemExit("insert: text too long\n  " + "\n  ".join(errors))
     for path, items in room_items.items():
         for off, data, by in roompack.pack(Path(path).stem, orig[path], items):
+            put(bufs, orig, path, off, data, by)
+    for path, items in str_items.items():
+        writes, moved = strpack.pack(path, orig[path], items)
+        MOVED.extend(moved)
+        for off, data, by in writes:
             put(bufs, orig, path, off, data, by)
     for path, off, data, by in spills:  # after every in-place write, so the spill wins
         put(bufs, orig, path, off, data, by + " spill")

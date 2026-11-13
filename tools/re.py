@@ -16,6 +16,12 @@ import msgscan  # noqa: E402
 
 def consts(data, base):
     """Yield (insn_addr, built_addr) for lui rX,hi followed within 16 insns by addiu/ori/lw/sw.. rY,lo(rX)."""
+    for _, lo, addr in pairs(data, base):
+        yield lo, addr
+
+
+def pairs(data, base):
+    """Yield (lui_addr, lo_insn_addr, built_addr): consts() with the lui's address."""
     n = len(data) // 4
     words = struct.unpack_from("<%dI" % n, data)
     for i, w in enumerate(words):
@@ -28,7 +34,7 @@ def consts(data, base):
             op, rs, rt2, imm = v >> 26, (v >> 21) & 31, (v >> 16) & 31, v & 0xFFFF
             if rs == rt and op in (0x09, 0x0D, 0x20, 0x21, 0x23, 0x24, 0x25, 0x28, 0x29, 0x2B):
                 lo = imm if op == 0x0D else (imm - 0x10000 if imm & 0x8000 else imm)
-                yield base + j * 4, (hi + lo) & 0xFFFFFFFF
+                yield base + i * 4, base + j * 4, (hi + lo) & 0xFFFFFFFF
             if op == 0 and v & 0x3F == 0x21 and (v >> 11) & 31 == rt and rt in (rs, rt2):
                 continue  # addu rX,rX,idx: indexed table, rX still holds the base
             if (op == 0 and (v >> 11) & 31 == rt and v & 0x3F not in (0x08, 0x09)) or (op not in (0, 2, 3, 4, 5, 0x2B, 0x28, 0x29) and rt2 == rt):
