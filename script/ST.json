@@ -1518,7 +1518,7 @@
    "id": "ST:03C34",
    "kind": "menu",
    "jp": "\nきおくする数字は",
-   "en": "\nMemorize digits:",
+   "en": "\nDigit count:",
    "end": "8888",
    "status": "done"
   },

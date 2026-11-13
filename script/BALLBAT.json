@@ -709,7 +709,7 @@
    "id": "BALLBAT:21F04",
    "kind": "menu",
    "jp": "ステータス　　を受けない！",
-   "en": "Immune to status ailments!",
+   "en": "Immune to     !",
    "tail": 1,
    "end": "00EB",
    "len_at": "2238C",

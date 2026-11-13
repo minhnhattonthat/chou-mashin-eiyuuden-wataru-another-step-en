@@ -3356,7 +3356,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "この先に最後のトラップがある。\n【しんけいすいじゃく】じゃ。\nきおく力の勝負じゃぞ～・・・。",
-   "en": "The final trap lies ahead.\nIt's 'Concentration,' a contest\nto test your memory...",
+   "en": "The final trap lies ahead, lad.\nIt's called 'Concentration.'\nA test of memory, ye see...",
    "status": "done"
   },
   {
@@ -3392,7 +3392,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "待っておったぞ。\nこの先の扉を開くと、\n【ワルモンダー】との決戦じゃ！",
-   "en": "I've been waiting for you.\nBeyond that door is your final\nshowdown with Warumonder!",
+   "en": "I've been waitin' for ye.\nOpen that door, and ye face\nWarumonder in the final battle!",
    "status": "done"
   },
   {
@@ -3401,7 +3401,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "いよいよ最後の時が来た！\n【ワルモンダー】に創界山を\n支配させてはならぬぞ・・・。",
-   "en": "The final hour is here!\nDon't let Warumonder\nrule Sokaizan...",
+   "en": "At last, the final hour is here!\nYe mustn't let Warumonder\nrule Sokaizan...",
    "status": "done"
   },
   {
@@ -3644,7 +3644,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nここのところ、ものすごく\n体力が下がってのうぅぅ・・・。",
-   "en": "Man:\nI've been losing an awful lot\nof strength lateeely...",
+   "en": "Man:\nThese old bones have been\ngetting so weak of laaate...",
    "status": "done"
   },
   {
