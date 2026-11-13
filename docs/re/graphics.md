@@ -24,8 +24,8 @@
 |---|---|---|---|---|
 | G1 | Title | logo 超魔神英雄伝ワタル ANOTHER STEP | OUT/TTL.CHG blk 12 (640,256) + logo parts | keep (D5) unless an official English logo exists |
 | G2 | Title | PUSH START (English) | OUT/TTL.CHG blk 12 | none |
-| G3 | Title | copyright サンライズ・R・テレビ東京・ASATSU / BANPRESTO 1998 | OUT/TTL.CHG blk 12 | redraw in Latin (names) |
-| G4 | Title menu | ニューゲーム / コンティニュー / コンフィグ | OUT/TTL.CHG blk 12 (4bpp) | redraw |
+| G3 | Title | copyright サンライズ・R・テレビ東京・ASATSU / BANPRESTO 1998 | OUT/TTL.CHG blk 12 | **done** (p8): line 1 re-set "SUNRISE·RED·TV TOKYO·ASATSU" (palette 1); BANPRESTO 1998 kept |
+| G4 | Title menu | ニューゲーム / コンティニュー / コンフィグ | OUT/TTL.CHG blk 12 (4bpp, palette 4) | **done** (p8): New Game / Continue / Config; the kana shared ニュー, so TTL.BIN records 0x4FA2/0x4FB0 get own 80-px rects |
 | G5 | Prologue / area cards | 創界山のふもと, chapter numerals 一二三四五六七, 0-9, area/menu words (コンビニ, エキストラ, タウン, キャラクター, データ, モンスター, エンディング, ...) | OUT/SBTCHAR.CHG (768,0) 64x256, 4bpp | redraw; find the layout table (SBTTL.BIN?) |
 | G6 | Episode title cards | えっ!? ボクは救世主？ etc.: big caption **glyph atlas** (あいうえおか..., 救世主, 弁当, 創界山, 最強, 演歌, 龍神丸, 天翔, 決戦...) | OUT/SUBTTL.CHG 3 blocks, 4bpp | glyph-composed from **sprite lists in PRG/SBTTL.BIN** (base 0x800D0000, 0x3B70-~0x4F60, verified static): 14-byte records `000C, tpage/clut 7DC4/7DC5, u8 u,v, u16 w,h, s16 x,y`, list ends 0xFFFF; animation scripts at 0x4F68+ (`5, ptr`) and pointer tables at 0x761C+ pick them. English: redraw caption strips into the atlas and rewrite the rects |
 | G7 | FMV | WATA01-04.STR, OUT/P_SR_00/P_ST_00.STR: any burnt-in text | ? | check each video in the tour |
@@ -37,7 +37,7 @@
 | G13 | IQ battle cards | BATTLE (English) | IQ/BUR_MAIN.CHG | none |
 | G14 | Eyecatch | logo on CATCH05 | OUT/CATCH05.CHG | keep (logo) |
 | G15 | Puzzle images | logo on PUZ_PG05 | IQ/PUZ_PG05.CHG | keep (logo) |
-| G16 | Battle command menu | たたかう / 必殺技 / アイテム / にげる / さくせん + party names (ワタル, アラゴト, サクヤ?, ...) | YM/BR_17/OTHER01-06.CHG (6 copies) | redraw all copies |
+| G16 | Battle command menu | たたかう / 必殺技 / アイテム / にげる / さくせん + party names (ワタル, アラゴト, サクヤ?, ...) | YM/BR_17/OTHER01-06.CHG (6 copies) | **done** (p8): Fight / Special / Item / Run / Tactics, Wataru / Aragoto / Sakuya / Warurine (Spleen 6x12 + outline; CLUT (208,497) = file header 0x9A0; BALLBAT records 0x23EE4, 0x23F00.., 0x250FC.. widened to 48) |
 | G17 | Battle speech bubbles | ゴメンネ, バ〜ン | YM/BR_17/OTHER11.CHG | redraw |
 | G18 | Enemy sprite bubble | 圏外 (with furigana) | YM/BR_01/ENE09.CHG | redraw |
 | G19 | Mashin battle status | mashin names per matchup (龍神丸 / 天翔龍神丸 vs レンジ・チ・チン, いらっしゃい魔神, SFXザウルス, ドウガツクエーン, ライトサーチ, ラクライガー, エレクトロン, イリュージョン, アムラーX・55, ゴールドメダラー, シェイプU2, ジューンブライガー, LLラバーズ, QTコアラッコ, 聖ラブリーフォー, ワルワル・キョジョーン...), labels 攻撃 / 回復 / 気合い / 必殺技 | YM/MR_02/STS_01-18.CHG | redraw 18 files |

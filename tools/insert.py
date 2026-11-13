@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import compose  # noqa: E402
 import digraph  # noqa: E402
+import gfx  # noqa: E402
 import roompack  # noqa: E402
 import strpack  # noqa: E402
 from jtext import Codec, battle_table, table  # noqa: E402
@@ -318,6 +319,8 @@ def edits(qa=None, english=True):
     if any(ctx == "BF" for *_, ctx in ents):
         for k in range(0x20, 0x7F):
             put(bufs, orig, cg, bf_code(chr(k)) * 64, bf_cell(chr(k)), f"bf {chr(k)!r}")
+    if english:
+        gfx.apply(put, bufs, orig, load)  # graphics text (gfx/gfx.tsv, tools/gfx.py)
     out = ROOT / "work" / "markers.tsv"
     out.parent.mkdir(exist_ok=True)
     out.write_text("\n".join(rows) + "\n", encoding="utf-8")

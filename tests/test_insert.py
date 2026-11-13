@@ -69,6 +69,7 @@ def allowed_spans(path, orig):
         s += [(k, k + 4) for k in insert.STRIP_SHORT[1:]]
     s += [(off, off + 4) for p, off, *_ in insert.CODE if p == path]
     s += [(off, off + e["max"]) for e, p, off in insert.sjis_entries() if p == path]
+    s += insert.gfx.spans(path)
     return strpack.coalesce(s)
 
 
