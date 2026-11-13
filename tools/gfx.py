@@ -522,6 +522,10 @@ def apply(put, bufs, orig, load_path):
         p = load_path(path)
         assert struct.unpack_from(fmt, orig[p], off) == old, (path, hex(off), why)
         put(bufs, orig, p, off, struct.pack(fmt, *new), "gfx rec " + why)
+    import staff  # G25 staff roll: cell list, tile map and glyph image rebuilt from gfx/staff_en.txt
+    p = load_path(staff.PATH)
+    for off, data in staff.writes(orig[p]):
+        put(bufs, orig, p, off, data, "gfx staff roll")
 
 
 def spans(path):
@@ -539,7 +543,8 @@ def spans(path):
             out.append((a, a + (w if r["bpp"] == 8 else (w + 2) // 2)))
     out += [(off, off + struct.calcsize(fmt)) for p, off, fmt, *_ in RECS + fm_recs(load(FDS)) + sbt_recs(load(SBT))
             + cap_recs(load(SBT)) if p == path]
-    return out
+    import staff
+    return out + (staff.spans() if path == staff.PATH else [])
 
 
 if __name__ == "__main__":

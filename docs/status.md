@@ -2,9 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G11, G16, G19, G23; drawn, not
-  yet seen in game: G12, G17, G18). Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
+- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G11, G16, G19, G23, G25 credits;
+  drawn, not yet seen in game: G12, G17, G18). Phase 7 done (2026-11-14): full English build, overflow empty, all warp
+  scenes reach.
 - **Done:**
+  - Phase 8, session 6 (2026-11-14): **G25 staff roll** (D3, D21) in English: FVHH/STAFF.BIN is a 120x98 tile map of
+    16x16 cells (6x7 pages of 320x224) over a glyph image; `tools/staff.py` lays out `gfx/staff_en.txt` (42 pages,
+    two-column credits, Spleen 8x16 two letters per cell, colours = the JP's white/orange/yellow palettes) into the same
+    cell list / map / image (gfx.apply, test_gfx test_staff_roll). Verified the whole roll in new scene **staff_roll**
+    (ending FMV -> pages row-major -> title; work/qa/p8/roll/sheet*.png). G9 memory-card RE notes in graphics.md (CLUT
+    r2310 pal 13, every strip = one MEMORY.BIN record, redraw plan). warp_all 49/49 before G25 (G25 doesn't move
+    LBAs). Build sha1 36aacd17..., 109 tests.
   - Phase 8, session 5 (2026-11-14): **G5** area cards (SBTCHAR glyph sheet; card label lists in SBTTL.BIN
     0x3B70-0x4E00, `gfx.SBT_EN`/`sbt_recs`, Spleen 8x16 word strips via `gfx_gen.put_mono`, boxes widened from bar B)
     and **G6** episode captions (16 captions x 2 CLUT lists in SBTTL.BIN 0x5528-0x7274, `gfx.CAP_EN`/`cap_recs`, one
@@ -172,12 +180,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
      see the drawn-not-seen G23 labels in graphics.md, e.g. a scene in ep 15 for 最終話, Warurine in the party),
      G19 leftovers: VS cards of episodes 2-14 assumed to use the ep1 record layout (spot-check one later matchup with
      a poke of the battle id if one is found), G20 banners (notes in
-     graphics.md: look at the special-move animation first), G9 memory card (MEM_01, largest), G10 "prologue scroll"
+     graphics.md: look at the special-move animation first), G9 memory card (MEM_01, largest: start here, RE + plan in graphics.md G9; scene save), G10 "prologue scroll"
      FM16/R15_MES.BIN: really the post-final-battle narration (…ワルモンダーの操る魔神の『ワルワル・キュウキョーン』に、
      天翔龍神丸の最強の一撃…), header 0xC0000322 sprite list (count 0x320, then 8-byte entries u,v / CLUT 0x79C0 /
      tpage) + 4bpp text image; not seen in scene `ending` (field -> FMV -> staff roll): find where R15 shows it,
-     G22 room signs (decide per sign, waive illegible), credits (staff roll after the ending FMV is Japanese text on
-     black: 超魔神英雄伝ワタル / ANOTHER STEP / スタッフ / 原作・監修 ...: STAFF.BIN, D3 = English), FMV + FK stills
+     G22 room signs (decide per sign, waive illegible), FMV + FK stills
      check (ep00 opening FMV: no burnt-in text seen). Battle names col B (u 160) is drawn somewhere not yet seen: check it. See G12 (IQ
      win/lose cards, hit-and-blow labels: the ep1 IQ battle is the KIO memory game), G17, G18 in game (add scenes or
      `late=` pokes to reach them).

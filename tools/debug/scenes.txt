@@ -58,4 +58,5 @@ battle_lose ep=1 idle=1 mode=6 poke=800A8D38:0:2,800A8D40:0:2,800A8D48:0:2 atmod
 levelup ep=1 idle=1 mode=6 god=1 mash=60 poke=8005A7EC:0:4 pokeloop=8009C758:1:1 atmode=0xB timeout=24000 hold=360 frames=40000 every=150  # win the ep-1 battle; RAM code patch nops the level-up-flag test at 0x8005A7EC -> LVUP.BIN (forcing mode B directly hangs black)
 battle_win ep=1 idle=1 mode=6 god=1 mash=60 atmode=4 timeout=24000 hold=300 frames=40000 every=600  # battle won, back to the field
 ending ep=14 idle=1 poke=8009C90C:F:2 mode=0xC hold=4000 every=300 frames=20000   # episode index 15: ending sequence
+staff_roll ep=14 idle=1 poke=8009C90C:F:2 mode=0xC hold=30000 every=300 frames=36000   # the whole ending: FMV, then the STAFF.BIN roll page by page (G25), row-major over its 6x7 page grid
 credits ep=1 idle=1 mode=0x16 atmode=0x16 hold=6000 every=300 frames=20000  # staff roll (mode 0x16)

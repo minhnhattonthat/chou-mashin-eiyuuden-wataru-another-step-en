@@ -75,6 +75,28 @@ def test_captions():
             assert o in inside, hex(o)
 
 
+def test_staff_roll():
+    """G25: every English page cell decodes back to its laid-out pair and colour from the rebuilt map; the CLUT and
+    headers stay; entry 0 is the blank cell."""
+    import staff
+    d = gfx.load(staff.PATH)
+    b = staff.build(d)
+    assert len(b) == len(d) and b[:staff.CELLS + 8] == d[:staff.CELLS + 8]
+    assert b[staff.MAP:staff.MAP + 8] == d[staff.MAP:staff.MAP + 8]
+    cells, W, H, m = staff.parse(b)
+    slot = {}
+    for (pc, pr), rows in staff.pages().items():
+        for j, row in enumerate(rows):
+            for i in range(staff.PAGE_W):
+                pair, pal = staff.cell_of(row[2 * i], row[2 * i + 1])
+                c = cells[m[(pr * staff.PAGE_H + j) * W + pc * staff.PAGE_W + i]]
+                xy = staff.cell_xy(c)
+                assert pair == "  " or (c[2] == 0x79C0 + pal and slot.setdefault(pair, xy) == xy), (pc, pr, j, i)
+                assert pair != "  " or xy == (0, 0)
+    assert len(set(slot.values())) == len(slot), "two pairs share a cell"
+    assert not any(staff.px(b, a, k) for a in range(16) for k in range(16)), "cell 0 not blank"
+
+
 def test_recs_original():
     for path, off, fmt, old, new, why in gfx.RECS:
         assert struct.unpack_from(fmt, gfx.load(path), off) == old, why

@@ -1,0 +1,436 @@
+# G25 staff roll (FVHH/STAFF.BIN, tools/staff.py): the English per screen of the 120x98-cell tile map
+# (6 columns x 7 rows of 320x224 pages). "= COL,ROW [split=X]" starts a page; each following line is one 16-px row,
+# the block centred vertically; "-" = an empty row. "LEFT | RIGHT" = two columns: LEFT ends at x = split (default 152),
+# RIGHT starts at split + 16. A line without "|" is centred. Colour prefix per part: Y: yellow, O: orange, W: white;
+# default yellow for LEFT, white otherwise. Letters are Spleen 8x16, two per 16x16 cell; 8-px side margins.
+# Name readings: common Hepburn readings of the JP credits (no macrons); cast names as in glossary.md.
+
+= 0,0
+Chou Mashin Eiyuuden Wataru
+ANOTHER STEP
+-
+Staff
+
+= 1,0
+Original Story & | Oji Hiroi
+Supervision | (Red Company)
+
+= 2,0
+Producers | Masaki Kobayashi
+| (Red Company)
+-
+| Shintaro Miura
+| (Banpresoft)
+
+= 3,0
+Directors | Takafumi Ieiri
+| (Red Company)
+-
+| Tatsuo Matsuda
+| (Aspect)
+
+= 4,0
+Character Design | Toyoo Ashida
+| (Studio Live)
+
+= 5,0
+Mechanical Design | Kazunori Nakazawa
+-
+Guest Mecha Design | Kennosuke Mizutani
+-
+Music | Hayato Matsuo
+
+= 0,1
+Game Development | O:Aspect Corp.
+-
+Y:Programming
+-
+W:Yoshiaki Makishima | Shinichi Kakuta
+-
+W:Tatsuo Matsuda | BONZ
+
+= 1,1
+Y:Graphics
+-
+W:Sukeyasu Arimoto | Hiroshi Kano
+-
+W:Yuichi Masuyama | Kanji Sasaki
+-
+W:Mie Terao | Hitomi Hattori
+-
+W:Hamaruo |
+
+= 2,1
+Y:Sound
+-
+MIXA
+-
+Y:Planners
+-
+W:Hira Shain | Hiroki Mori
+-
+W:Daigo Kato | Hisatomo Tanaka
+
+= 3,1
+Y:Graphic Support
+O:Guy Brain Ltd.
+-
+W:Yoko Kojima | Madoka Nakajima
+-
+W:Kaori Kumagai | Motoi Nakamura
+-
+W:Hirotoshi Uchinuma | Haruhisa Umeda
+
+= 4,1
+Y:Game Animation Production
+-
+Production | O:Sunrise
+-
+Producer | Eiji Sashida
+-
+Assistant Producer | Chieo Ohashi
+-
+Production | Yasuhiro Inoue
+Assistant |
+
+= 5,1
+Storyboards & | Nobuhiro Kondo
+Episode Direction |
+-
+Character Design & | Toyoo Ashida
+Animation Director | (Studio Live)
+-
+Mechanical Design | Kazunori Nakazawa
+-
+Setting Support | Takafumi Ieiri
+
+= 0,2
+Y:Theme Music Production
+Victor Entertainment, Inc.
+Hideaki Kaneko
+-
+Y:Opening Theme
+"BOYS BE AMBITIOUS"
+(from the TV series ending theme)
+-
+Lyrics | Chinfa Kan
+Music | Hitomi Tachibana
+Arrangement | Mitsuo Hagita
+Vocals | Hitomi Mieno
+(Victor Entertainment)
+
+= 1,2
+Ending Theme | "Another Step"
+-
+Lyrics | Oji Hiroi
+Music | Kohei Tanaka
+Arrangement | Masami Kishimura
+-
+Vocals | Mayumi Tanaka
+-
+Music Support | O:Imagine
+| O:TV Tokyo Music
+
+= 2,2
+Y:IQ Talk Scene Animation Director
+Toyoo Ashida
+-
+Y:IQ Talk Scene Key Animation
+O:Studio Live
+Toyoo Ashida
+Mari Tominaga
+W:Hiroshi Takeuchi | Yosuji Kudo
+W:Ai Kikuchi | Tomoko Tanifuji
+W:Yuko Inoue | Toshiyuki Fujisawa
+W:Hideki Inoue | Mayumi Fukushi
+
+= 3,2
+Y:Mashin Battle Key Animation
+O:Studio Dub
+W:Hitoshi Waragai | Shinichi Sakuma
+W:Tetsuya Ishikawa | Satoshi Tazawa
+W:Reiko Saito | Kenta Sakai
+W:Kazumi Ono | Akihiro Saito
+-
+O:Soul Dub
+
+= 4,2
+Y:CG Scene In-Between Animation
+O:Studio Dub
+W:Reiko Saito | Kenta Sakai
+W:Kazumi Ono | Akihiro Saito
+-
+O:MI
+W:Yoshiki Ito | Atsuko Iiyama
+W:Miyuki Mizumaki |
+-
+Y:CG Coloring
+O:MI
+W:Kuniko Heya | Reiko Kudo
+
+= 5,2
+Y:Animation Director
+Hiroshi Takeuchi
+-
+Y:Key Animation
+O:Studio Live
+W:Hiroshi Takeuchi | Toshiyuki Fujisawa
+W:Mayumi Fukushi | Yuko Inoue
+W:Tomoko Tanifuji | Yosuji Kudo
+W:Ai Kikuchi | Hideki Inoue
+
+= 0,3
+Y:In-Between Animation
+O:Nakamura Production
+W:Tomoyuki Tajima | Tsukasa Fukuda
+W:Yoshihiko Matsui | Mitsuru Nakata
+W:Keiko Ogasawara | Akie Miyamoto
+W:Rumiko Ishizawa | Takao Suzuki
+W:Takayo Horiki | Mariko Sasaki
+W:Keiichi Sugiyama |
+
+= 1,3 split=160
+O:Magic Bus
+W:Satomi Tanaka | Kumiko Sakai
+W:Mika Nakamori | Ippei Masui
+W:Noritoshi Yoshizawa | Hajime Maeda
+W:Yumiko Iwasaki | Isao Matsui
+
+= 2,3
+O:st. Line
+W:Takumi Oshima | Yukio Tsuchihashi
+W:Akihito Aoki | Atsushi Seguchi
+-
+O:st. Cockpit
+W:Kayo Oshima | Chinatsu Ueno
+W:Kyoko Sugiyama |
+
+= 3,3
+O:Anime Roman
+Hiromi Masuko
+-
+O:st. Wombat
+W:Toshikazu Kizumi | Takeshi Nakano
+W:Shingo Oyama | Daisuke Kikuchi
+
+= 4,3
+Y:Animation Finishing
+O:st. March
+W:Yuki Nariai | Chinatsu Ueno
+W:Naomi Kaneko |
+-
+O:Studio Manbou
+Ayako Saito
+-
+O:Studio Mugiboshi
+W:Junko Igarashi | Chie Uchikawa
+W:Toshiko Sakai |
+
+= 5,3
+O:Studio Bogey
+-
+O:Studio OM
+W:Naomi Noguchi | Tamiko Nakamura
+W:Fumiko Shimizu |
+-
+O:Tatsunoko Production
+W:Eiko Kitazume | Kiyoko Momose
+W:Chieko Odaka | Michiko Nakamura
+W:Yoko Ohara | Michiko Fujita
+W:Fumiko Shibata | Namie Kiryu
+W:Miho Ikuzawa |
+
+= 0,4 split=160
+Y:Background Art
+O:Studio WHO
+W:Goichi Katanosaka | Tomoko Shimomoto
+W:Natsuyo Kato | Norie Suzuki
+W:Tomoko Sato | Hideto Nakajima
+W:Yoshiko Niijimayama | Mio Miyamoto
+
+= 1,4
+Y:In-Between Check
+Taizo Iino
+-
+Y:Color Design
+Kazuko Hanafusa
+-
+Y:Title CG
+Bihou
+Ryoichi Tanaka
+-
+Y:Lith Work
+Maki Production
+
+= 2,4
+Y:Photography
+O:Asahi Production
+W:Hidekazu Shinya | Hidekatsu Oishi
+W:Shinya Sawada | Asami Kumazawa
+W:Tatsushi Tobinai | Setsuko Maruhashi
+-
+Y:Editing
+Tomoaki Tsurubuchi
+-
+Y:Film Processing & Video Editing
+Tokyo Laboratory
+
+= 3,4
+O:TV Animation Staff
+-
+Planning | Sunrise
+-
+Original Story | Hajime Yatate
+-
+| Oji Hiroi
+-
+| Shuji Iuchi
+
+= 4,4
+Chief Director | Shuji Iuchi
+-
+Character Design | Toyoo Ashida
+-
+Mechanical Design | Kazunori Nakazawa
+-
+Art Director | Masaru Sato
+
+= 5,4 split=144
+Screenplay | Yasuo Yamabe
+| (Episode 19)
+| Akira Oketani
+| (Episode 20)
+| Yoshimasa Takahashi
+| (Episode 22)
+-
+Concept Design | Yoshikazu Asahina
+Support |
+-
+Planning Support | Red Company
+
+= 0,5
+Producers | Noriko Kobayashi
+| (TV Tokyo)
+-
+| Tatsushi Yamazaki
+-
+| Eiji Sashida
+-
+Production | TV Tokyo
+-
+| ASATSU
+-
+| Sunrise
+
+= 1,5
+O:Voice Cast
+-
+Wataru Homurabe | Mayumi Tanaka
+(game Wataru) |
+Sakuya Shinobibe | Kumiko Nishihara
+-
+Aragoto Tsurugibe | Kaneto Shiozawa
+-
+Ryujinmaru & | Tessho Genda
+Tensho Ryujinmaru |
+-
+Ginnosuke | Shigeru Chiba
+
+= 2,5
+Warumonder | Takeshi Aono
+-
+Warujo | Hiromi Tsuru
+-
+Warulilith | Rica Matsumoto
+-
+Warutorin | Houko Kuwashima
+-
+Warurine | Chinami Nishimura
+
+= 3,5
+Bento Girl | Satomi Korogi
+-
+Kanewa Aruzo | Ginzo Matsuo
+-
+Moro Moro Q | Wataru Takagi
+-
+Oshishi Mamomo | Tomokazu Seki
+-
+Meg | Megumi Toyoguchi
+-
+Bill Jobs | Shigeru Chiba
+
+= 4,5
+Carl Johnson | Daisuke Gori
+-
+Yomeiri Kozo | Kappei Yamaguchi
+-
+Biribiri Man | Kiyoyuki Yanada
+-
+Watt | Yukimasa Kishino
+-
+Thundar | Naoki Tatsuta
+
+= 5,5
+Shotaro | Ikue Otani
+-
+Takuro | Kappei Yamaguchi
+-
+Chiyoko Utabe | Yuko Kobayashi
+-
+System Voices | Yuko Miyamura
+-
+Sakuya's Monpet | Satomi Korogi
+-
+Obaba Ayashibe | Yuko Maruyama
+
+= 0,6
+Y:Wataru Ikusabe (anime Wataru)
+Mayumi Tanaka
+-
+Y:Himiko Shinobibe
+Megumi Hayashibara
+-
+Y:Shibaraku Tsurugibe
+Tomomichi Nishimura
+
+= 1,6
+O:Sound Production
+-
+Sound Producer | Keiko Senda
+| (Cruise)
+-
+Sound Director | Sadayoshi Fujino
+| (Cruise)
+-
+Sound Effects | Mitsuru Kageyama
+| (Fizz Sound)
+
+= 2,6
+Mixer | Norio Nishizawa
+| (Seion Studio)
+-
+Assistant Mixer | Kazuaki Narita
+| (Seion Studio)
+-
+Assistant Mixer | Masato Muto
+| (Seion Studio)
+
+= 3,6
+Y:Special Thanks
+-
+W:Momoko Sasaki | Akira Onaka
+W:(Red Company) | (Red Company)
+W:Shuntaro Ibu | Koji Tsuboi
+W:(Red Company) | (Banpresoft)
+W:Kazuyuki Oikawa | Yukio Sato
+W:(Aspect) | (Aspect)
+W:Shoko Takahashi |
+-
+Studio Stat Ltd.
+Pole To Win Co., Ltd.
+
+= 4,6
+Y:Produced by
+-
+BANPRESTO Co., Ltd.
