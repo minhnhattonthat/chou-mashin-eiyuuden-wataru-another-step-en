@@ -6,16 +6,18 @@
    "id": "FDS:124F0",
    "kind": "menu",
    "jp": "アイテムのならび順を決めて下さい",
-   "en": "",
-   "end": "0000"
+   "en": "Please choose the item order.",
+   "end": "0000",
+   "status": "done"
   },
   {
    "id": "FDS:12510",
    "kind": "menu",
    "jp": "　　　　　　決　　定",
-   "en": "",
+   "en": "            Confirm",
    "tail": 6,
-   "end": "000C"
+   "end": "000C",
+   "status": "done"
   }
  ]
 }

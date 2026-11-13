@@ -352,7 +352,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルトリン：\n演歌なんか歌うのは\nやめなってんだよ！",
-   "en": ""
+   "en": "Warutorin:\nI told you to quit singing\nthat enka stuff!",
+   "status": "done"
   },
   {
    "id": "R08:1721E",
@@ -360,7 +361,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nなぜそんなに演歌を\nお嫌いになられるのですか？",
-   "en": ""
+   "en": "Chiyoko Utabe:\nWhy do you dislike enka\nso very much?",
+   "status": "done"
   },
   {
    "id": "R08:1726A",
@@ -368,7 +370,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\n演歌なんか今更はやらないんだよ！\n大体ダッセーじゃんか！",
-   "en": ""
+   "en": "Warutorin:\nEnka's way out of style!\nBesides, it's so tacky!",
+   "status": "done"
   },
   {
    "id": "R08:172C0",
@@ -376,7 +379,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nそんな・・・！",
-   "en": ""
+   "en": "Chiyoko Utabe:\nBut...!",
+   "status": "done"
   },
   {
    "id": "R08:172EC",
@@ -384,7 +388,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ダサイ歌をうたったって\nよろしいじゃないですか？",
-   "en": ""
+   "en": "Surely there is nothing wrong\nwith singing a tacky song?",
+   "status": "done"
   },
   {
    "id": "R08:1732E",
@@ -392,7 +397,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\n何ブッコイてんの？\nぜーんぜんよろしくないんだよ。",
-   "en": ""
+   "en": "Warutorin:\nWhat are you babbling about?\nIt's totally wrong!",
+   "status": "done"
   },
   {
    "id": "R08:1737E",
@@ -400,7 +406,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ここはねぇ、\nアタシの好きにしていい村なんだ。",
-   "en": ""
+   "en": "See, this village is mine\nto do whatever I like with.",
+   "status": "done"
   },
   {
    "id": "R08:173BC",
@@ -408,7 +415,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ここのルールを決めるのは\nアタシなのさ。",
-   "en": ""
+   "en": "I'm the one who makes\nthe rules here.",
+   "status": "done"
   },
   {
    "id": "R08:173F4",
@@ -416,7 +424,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "唄部千代子：\nそ、そんな・・・！？",
-   "en": ""
+   "en": "Chiyoko Utabe:\nB-but...?!",
+   "status": "done"
   },
   {
    "id": "R08:17428",
@@ -424,7 +433,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\n文句があるなら\nパパに言うことだね。",
-   "en": ""
+   "en": "Warutorin:\nIf you've got a complaint,\ntake it up with Daddy.",
+   "status": "done"
   },
   {
    "id": "R08:1746A",
@@ -432,7 +442,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アタシはこの村で\nおもしろおかしく過ごすんだ。",
-   "en": ""
+   "en": "I'm going to have a good time\nin this village.",
+   "status": "done"
   },
   {
    "id": "R08:174A8",
@@ -440,7 +451,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アンタみたいに\n辛気くさい歌をうたわれるのは\n嫌なんだよ。",
-   "en": ""
+   "en": "I don't want you singing\nthose dreary songs\nand spoiling my fun.",
+   "status": "done"
   },
   {
    "id": "R08:174F4",
@@ -448,7 +460,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "唄部千代子：\nうっうっ・・・うう。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nSniff... sniff... sob...",
+   "status": "done"
   },
   {
    "id": "R08:1753C",
@@ -456,7 +469,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nどうなされました？",
-   "en": ""
+   "en": "Aragoto:\nWhatever is the matter?",
+   "status": "done"
   },
   {
    "id": "R08:1756C",
@@ -464,7 +478,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあら、",
-   "en": ""
+   "en": "Sakuya:\nOh, my.",
+   "status": "done"
   },
   {
    "id": "R08:1758C",
@@ -472,7 +487,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "またおじさまの\n悪いクセが始まりましたわ。",
-   "en": ""
+   "en": "There he goes again,\nindulging that bad habit of his.",
+   "status": "done"
   },
   {
    "id": "R08:175C8",
@@ -480,7 +496,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n何？　悪いクセって",
-   "en": ""
+   "en": "Wataru:\nHuh? What bad habit?",
+   "status": "done"
   },
   {
    "id": "R08:175F4",
@@ -488,7 +505,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n美しい女性を見ると、甘い声で\n誘惑せずにはおれないのですわ。",
-   "en": ""
+   "en": "Sakuya:\nHe must woo every pretty woman\nin that honeyed voice of his.",
+   "status": "done"
   },
   {
    "id": "R08:1764A",
@@ -496,7 +514,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうん、そういえば、いつもより\nカッコイイ声でしゃべってるね。",
-   "en": ""
+   "en": "Wataru:\nYeah, now you mention it,\nhis voice does sound cooler.",
+   "status": "done"
   },
   {
    "id": "R08:176A0",
@@ -504,7 +523,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nさ、泣くのはやめて、私に\n悩みを打ち明けてみてください。",
-   "en": ""
+   "en": "Aragoto:\nCome, dry your tears.\nTell me what troubles you.",
+   "status": "done"
   },
   {
    "id": "R08:176F4",
@@ -512,7 +532,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "きっと力になりますよ。",
-   "en": ""
+   "en": "I am certain I can help.",
+   "status": "done"
   },
   {
    "id": "R08:1771C",
@@ -520,7 +541,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nあ、あなたは・・・？",
-   "en": ""
+   "en": "Chiyoko Utabe:\nA-and you are...?",
+   "status": "done"
   },
   {
    "id": "R08:1774E",
@@ -528,7 +550,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nああ、申し遅れました。",
-   "en": ""
+   "en": "Aragoto:\nAh, forgive my belated\nintroduction.",
+   "status": "done"
   },
   {
    "id": "R08:17780",
@@ -536,7 +559,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "わたくし、\n剣部アラゴトと申します。\n以後、お見知り置きを。",
-   "en": ""
+   "en": "My name is Aragoto Tsurugibe.\nA pleasure to make your\nacquaintance.",
+   "status": "done"
   },
   {
    "id": "R08:177CC",
@@ -544,7 +568,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nは・・・い・・・。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nY... yes...",
+   "status": "done"
   },
   {
    "id": "R08:177FC",
@@ -552,7 +577,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "わたくし\n唄部千代子（うたいべちよこ）と\n申します。",
-   "en": ""
+   "en": "My name is\nChiyoko Utabe.",
+   "status": "done"
   },
   {
    "id": "R08:17842",
@@ -560,7 +586,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nスッゴイねぇ。",
-   "en": ""
+   "en": "Wataru:\nWow, that's amazing.",
+   "status": "done"
   },
   {
    "id": "R08:1786A",
@@ -568,7 +595,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "いつもとしゃべり方まで\n変わっちゃってるよ。",
-   "en": ""
+   "en": "Even the way he talks\nis totally different!",
+   "status": "done"
   },
   {
    "id": "R08:178A6",
@@ -576,7 +604,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nいつもああですと、おじさまも\nおモテになりますのに・・・。",
-   "en": ""
+   "en": "Sakuya:\nIf he always behaved like this,\nthe ladies would adore him...",
+   "status": "done"
   },
   {
    "id": "R08:178FA",
@@ -584,7 +613,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nご心配ありません。",
-   "en": ""
+   "en": "Aragoto:\nYou need not worry.",
+   "status": "done"
   },
   {
    "id": "R08:17928",
@@ -592,7 +622,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "わたくしどもは、創界山に巣くう\n悪を排除（はいじょ）しに来た\nものでございます。",
-   "en": ""
+   "en": "We have come to rid Sokaizan\nof the evil that has taken\nroot here.",
+   "status": "done"
   },
   {
    "id": "R08:17988",
@@ -600,7 +631,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "決して\n怪しいモノではありませんよ。",
-   "en": ""
+   "en": "There is nothing at all\nsuspicious about us.",
+   "status": "done"
   },
   {
    "id": "R08:179BC",
@@ -608,7 +640,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nは、はい。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nY-yes.",
+   "status": "done"
   },
   {
    "id": "R08:179E4",
@@ -616,7 +649,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "では、\nこんなところではなんですから、\nわたくしの家にでもどうぞ。",
-   "en": ""
+   "en": "Well, this is hardly the place\nto talk. Please, do come\nto my home.",
+   "status": "done"
   },
   {
    "id": "R08:17A3E",
@@ -624,7 +658,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nおじさんスゴイねぇ。",
-   "en": ""
+   "en": "Wataru:\nWow, mister, you're good!",
+   "status": "done"
   },
   {
    "id": "R08:17A6C",
@@ -632,7 +667,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおじさまは、だまされやすそうな\n女性には、人気がおありですのよ。",
-   "en": ""
+   "en": "Sakuya:\nHe is quite popular with women\nwho seem easily deceived.",
+   "status": "done"
   },
   {
    "id": "R08:17AC6",
@@ -640,7 +676,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nふっふっふ。\n何とでもいってくれ。",
-   "en": ""
+   "en": "Aragoto:\nHeh heh heh.\nSay what you will.",
+   "status": "done"
   },
   {
    "id": "R08:17B04",
@@ -648,7 +685,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "今はこのアラゴト、\n新しいファンの獲得に\n燃えているのだ。",
-   "en": ""
+   "en": "Right now, I, Aragoto,\nam aflame with the desire\nto win a new admirer!",
+   "status": "done"
   },
   {
    "id": "R08:17B4E",
@@ -656,7 +694,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nふーん、そう・・・。",
-   "en": ""
+   "en": "Wataru:\nHuh. Right...",
+   "status": "done"
   },
   {
    "id": "R08:17B94",
@@ -664,7 +703,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\n・・・と、言うことなのです。",
-   "en": ""
+   "en": "Chiyoko Utabe:\n...And that is what happened.",
+   "status": "done"
   },
   {
    "id": "R08:17BCE",
@@ -672,7 +712,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nでは、あの【ワルトリン】が\n演歌が嫌いだから、",
-   "en": ""
+   "en": "Sakuya:\nSo, simply because\nthis Warutorin dislikes enka,",
+   "status": "done"
   },
   {
    "id": "R08:17C16",
@@ -680,7 +721,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "という理由だけであなたは\n毎日あのような嫌がらせを\n受けているのですか？",
-   "en": ""
+   "en": "you are subjected to\nthat sort of harassment\nevery single day?",
+   "status": "done"
   },
   {
    "id": "R08:17C6E",
@@ -688,7 +730,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "唄部千代子：\nええ。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nYes.",
+   "status": "done"
   },
   {
    "id": "R08:17C94",
@@ -696,7 +739,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそれって、\nスッゴイワガママじゃん。",
-   "en": ""
+   "en": "Wataru:\nThat's just\nincredibly selfish!",
+   "status": "done"
   },
   {
    "id": "R08:17CD2",
@@ -704,7 +748,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "よし！\nボクらが文句を言ってこよう！",
-   "en": ""
+   "en": "Right!\nWe'll go give her an earful!",
+   "status": "done"
   },
   {
    "id": "R08:17D06",
@@ -712,7 +757,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\n実は、もう村の演歌好きの人達で\n何度か抗議しにいったのです。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nThe village's enka lovers have\nalready protested several times.",
+   "status": "done"
   },
   {
    "id": "R08:17D60",
@@ -720,7 +766,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれで、どうなされたのですか？",
-   "en": ""
+   "en": "Sakuya:\nAnd what happened then?",
+   "status": "done"
   },
   {
    "id": "R08:17D98",
@@ -728,7 +775,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\n「好きだから歌いたいって\nだけじゃ、ダメじゃん」と言って",
-   "en": ""
+   "en": "Chiyoko Utabe:\nShe said, \"Just liking it is no\nreason to let you sing it!\"",
+   "status": "done"
   },
   {
    "id": "R08:17DEE",
@@ -736,7 +784,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "追い返されてしまいまして、\n何度も行っているうちに、",
-   "en": ""
+   "en": "She sent us away. As we kept\ngoing back to protest...",
+   "status": "done"
   },
   {
    "id": "R08:17E32",
@@ -744,7 +793,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "今度は抗議しに行った人たちに\n乱暴をするようになったのです。",
-   "en": ""
+   "en": "she began getting violent\nwith the people who came\nto protest.",
+   "status": "done"
   },
   {
    "id": "R08:17E80",
@@ -752,7 +802,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそれで、\nその人たちは大丈夫だったの？",
-   "en": ""
+   "en": "Wataru:\nSo, were those people\nall right?",
+   "status": "done"
   },
   {
    "id": "R08:17EC0",
@@ -760,7 +811,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nそれが、\n何度も乱暴をされているうちに、",
-   "en": ""
+   "en": "Chiyoko Utabe:\nWell, as the violence\ncontinued...",
+   "status": "done"
   },
   {
    "id": "R08:17F06",
@@ -768,7 +820,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "抗議をする人が、\n一人減り、二人減り・・・。",
-   "en": ""
+   "en": "one protester gave up,\nthen another...",
+   "status": "done"
   },
   {
    "id": "R08:17F42",
@@ -776,7 +829,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nとうとう\nあなた一人になってしまった。",
-   "en": ""
+   "en": "Sakuya:\nUntil finally,\nyou were the only one left.",
+   "status": "done"
   },
   {
    "id": "R08:17F82",
@@ -784,7 +838,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ということですわね。",
-   "en": ""
+   "en": "Is that what happened?",
+   "status": "done"
   },
   {
    "id": "R08:17FA6",
@@ -792,7 +847,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\n・・・その通りでございます。\nうっうっうぅぅぅ。",
-   "en": ""
+   "en": "Chiyoko Utabe:\n...That is exactly right.\nSniff... sniff... sob...",
+   "status": "done"
   },
   {
    "id": "R08:17FF4",
@@ -800,7 +856,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nあなたのような美しい女性に\n涙は似合いませんよ。",
-   "en": ""
+   "en": "Aragoto:\nTears do not suit a woman\nas beautiful as you.",
+   "status": "done"
   },
   {
    "id": "R08:18040",
@@ -808,7 +865,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "さ、顔を上げてください。",
-   "en": ""
+   "en": "Come, lift your head.",
+   "status": "done"
   },
   {
    "id": "R08:18068",
@@ -816,7 +874,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "このアラゴトが、\nその【ワルトリン】を\n退治して差し上げます。",
-   "en": ""
+   "en": "I, Aragoto, shall vanquish\nthis Warutorin for you.",
+   "status": "done"
   },
   {
    "id": "R08:180B8",
@@ -824,7 +883,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nえ・・・？",
-   "en": ""
+   "en": "Chiyoko Utabe:\nOh...?",
+   "status": "done"
   },
   {
    "id": "R08:180E0",
@@ -832,7 +892,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nふっ、\n次にわたし達があなたの元へ",
-   "en": ""
+   "en": "Aragoto:\nHeh. The next time\nwe return to you...",
+   "status": "done"
   },
   {
    "id": "R08:1811E",
@@ -840,7 +901,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "戻ってくるときには、\nきっと、\n演歌解禁の村になっていますよ。",
-   "en": ""
+   "en": "you have my word that\nenka will once again be\nallowed in this village.",
+   "status": "done"
   },
   {
    "id": "R08:1816C",
@@ -848,7 +910,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "唄部千代子：\nあ、アラゴトさま・・・。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nA-Aragoto-sama...",
+   "status": "done"
   },
   {
    "id": "R08:181A4",
@@ -856,7 +919,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nさっ、ぼうや、お嬢、",
-   "en": ""
+   "en": "Aragoto:\nCome, boy! Young lady!",
+   "status": "done"
   },
   {
    "id": "R08:181D4",
@@ -864,7 +928,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "すぐに【ワルトリン】のところへ\n参りましょう。",
-   "en": ""
+   "en": "Let us go to Warutorin\nat once.",
+   "status": "done"
   },
   {
    "id": "R08:18214",
@@ -872,7 +937,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "唄部千代子：\nお気をつけて・・・。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nPlease be careful...",
+   "status": "done"
   },
   {
    "id": "R08:18260",
@@ -880,7 +946,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n【ワルトリン】だな！",
-   "en": ""
+   "en": "Wataru:\nYou're Warutorin!",
+   "status": "done"
   },
   {
    "id": "R08:1828E",
@@ -888,7 +955,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nあーっら！",
-   "en": ""
+   "en": "Warutorin:\nWell, hellooo!",
+   "status": "done"
   },
   {
    "id": "R08:182B6",
@@ -896,7 +964,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "救世主のぼうやじゃなーい。\n何の用？",
-   "en": ""
+   "en": "If it isn't the little Savior!\nWhat do you want?",
+   "status": "done"
   },
   {
    "id": "R08:182EA",
@@ -904,7 +973,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "何の用だっけ？\n１．歌を自由にうたわせろ！\n２．アラゴトが付き合ってってさ",
-   "en": ""
+   "en": "What did we want again?\n1. Let everyone sing freely!\n2. Aragoto wants to date you.",
+   "status": "done"
   },
   {
    "id": "R08:18346",
@@ -912,7 +982,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n何の用って・・・！",
-   "en": ""
+   "en": "Wataru:\nWhat do we want...?!",
+   "status": "done"
   },
   {
    "id": "R08:18372",
@@ -920,7 +991,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "みんなが自由な歌を\nうたえるようにするんだ！",
-   "en": ""
+   "en": "You're gonna let everyone\nsing whatever they want!",
+   "status": "done"
   },
   {
    "id": "R08:183AE",
@@ -928,7 +1000,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nへぇーっ！\nなんでアンタがそんな事いうの？",
-   "en": ""
+   "en": "Warutorin:\nOh, really!\nWhy are YOU telling me that?",
+   "status": "done"
   },
   {
    "id": "R08:183F6",
@@ -936,7 +1009,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "なんでって・・・\n１．村のみんなが困ってる\n２．ボクの好きな曲が入ってない",
-   "en": ""
+   "en": "Why...?\n1. The villagers are suffering.\n2. My favorite song isn't here.",
+   "status": "done"
   },
   {
    "id": "R08:18452",
@@ -944,7 +1018,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nな、なんでって・・・。\n村のみんなが困ってるじゃないか！",
-   "en": ""
+   "en": "Wataru:\nW-why...?\nThe villagers are suffering!",
+   "status": "done"
   },
   {
    "id": "R08:184A4",
@@ -952,7 +1027,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "ワルトリン：\nじゃっ、",
-   "en": ""
+   "en": "Warutorin:\nSooo...",
+   "status": "done"
   },
   {
    "id": "R08:184CC",
@@ -960,7 +1036,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アンタは村の困ってる人のために\n来たんだぁ。",
-   "en": ""
+   "en": "you came here for the sake\nof the poor, suffering\nvillagers.",
+   "status": "done"
   },
   {
    "id": "R08:18508",
@@ -968,7 +1045,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "そうかな？\n１．そうだよ\n２．違うよ",
-   "en": ""
+   "en": "Is that right?\n1. That's right.\n2. Nope.",
+   "status": "done"
   },
   {
    "id": "R08:1853E",
@@ -976,7 +1054,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだよ。",
-   "en": ""
+   "en": "Wataru:\nThat's right.",
+   "status": "done"
   },
   {
    "id": "R08:18562",
@@ -984,7 +1063,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nふふっ、ゴクローさんっ。",
-   "en": ""
+   "en": "Warutorin:\nHee hee! Nice work, helper-san!",
+   "status": "done"
   },
   {
    "id": "R08:18598",
@@ -992,7 +1072,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nご、ゴクローさんって・・・。\nで、どうなんだ！",
-   "en": ""
+   "en": "Wataru:\n\"N-nice work, helper-san\"...?\nWell, what's your answer?!",
+   "status": "done"
   },
   {
    "id": "R08:185E0",
@@ -1000,7 +1081,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルトリン：\nどうなんだって、なぁにが？",
-   "en": ""
+   "en": "Warutorin:\nMy answer to what?",
+   "status": "done"
   },
   {
    "id": "R08:1861A",
@@ -1008,7 +1090,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nくぅーっ！\n人の話聞いてないの！？",
-   "en": ""
+   "en": "Wataru:\nGrrr!\nAre you even listening?!",
+   "status": "done"
   },
   {
    "id": "R08:18656",
@@ -1016,7 +1099,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\n聞いてるけどぉ、",
-   "en": ""
+   "en": "Warutorin:\nI'm listening, buuut...",
+   "status": "done"
   },
   {
    "id": "R08:18684",
@@ -1024,7 +1108,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "どうせ出て行っちゃうヤツが\n言うのってぜぇんぜんダメじゃん。",
-   "en": ""
+   "en": "it means nothing coming from\nsomeone who's just going\nto leave anyway.",
+   "status": "done"
   },
   {
    "id": "R08:186D2",
@@ -1032,7 +1117,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nダメって・・・。",
-   "en": ""
+   "en": "Wataru:\nMeans nothing...?",
+   "status": "done"
   },
   {
    "id": "R08:186FC",
@@ -1040,7 +1126,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nだってアンタ、ここに\nずっといるワケじゃないじゃん。",
-   "en": ""
+   "en": "Warutorin:\nWell, you're not going to\nstay here forever, are you?",
+   "status": "done"
   },
   {
    "id": "R08:1874E",
@@ -1048,7 +1135,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そんなヤツが何言ったって、\n説得力ないしー。",
-   "en": ""
+   "en": "Whatever someone like you says,\nit's hardly convincing.",
+   "status": "done"
   },
   {
    "id": "R08:1878A",
@@ -1056,7 +1144,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえ・・・！？\nそ、それは・・・。",
-   "en": ""
+   "en": "Wataru:\nHuh...?!\nW-well, that's...",
+   "status": "done"
   },
   {
    "id": "R08:187C4",
@@ -1064,7 +1153,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nここまで来れたのは、\nやるじゃんとか思うケドぉ。",
-   "en": ""
+   "en": "Warutorin:\nI'm impressed you made it\nall the way here, buuut...",
+   "status": "done"
   },
   {
    "id": "R08:18812",
@@ -1072,7 +1162,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そんな用事だったら、\nさっさと帰れって感じぃ。",
-   "en": ""
+   "en": "if that's all you want,\nyou can just go home.",
+   "status": "done"
   },
   {
    "id": "R08:18850",
@@ -1080,7 +1171,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "早く帰って！",
-   "en": ""
+   "en": "Go on, get out!",
+   "status": "done"
   },
   {
    "id": "R08:1886E",
@@ -1088,7 +1180,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nど、どうしよう・・・。",
-   "en": ""
+   "en": "Wataru:\nWh-what do we do...?",
+   "status": "done"
   },
   {
    "id": "R08:1889E",
@@ -1096,7 +1189,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nいや、\nさっさとケリを付けるでござる。",
-   "en": ""
+   "en": "Aragoto:\nNonsense!\nLet us settle this at once.",
+   "status": "done"
   },
   {
    "id": "R08:188E0",
@@ -1104,7 +1198,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそんなこと言っても・・・。",
-   "en": ""
+   "en": "Wataru:\nThat's easy for you to say...",
+   "status": "done"
   },
   {
    "id": "R08:18914",
@@ -1112,7 +1207,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n何だか【ワルトリン】の言うことも\nもっともな気がしますわ。",
-   "en": ""
+   "en": "Sakuya:\nSomehow, I feel Warutorin\nhas a point.",
+   "status": "done"
   },
   {
    "id": "R08:1896A",
@@ -1120,7 +1216,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nそうですね。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nIndeed.",
+   "status": "done"
   },
   {
    "id": "R08:18994",
@@ -1128,7 +1225,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえっ？",
-   "en": ""
+   "en": "Wataru:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R08:189B4",
@@ -1136,7 +1234,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nあら。",
-   "en": ""
+   "en": "Sakuya:\nOh, my.",
+   "status": "done"
   },
   {
    "id": "R08:189D6",
@@ -1144,7 +1243,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nあーっ、\nジモティーのお出ましじゃん。",
-   "en": ""
+   "en": "Warutorin:\nOhhh, look!\nOne of the locals has arrived.",
+   "status": "done"
   },
   {
    "id": "R08:18A1A",
@@ -1152,7 +1252,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "でも、アンタと話はしないよ。",
-   "en": ""
+   "en": "But I'm not talking to you.",
+   "status": "done"
   },
   {
    "id": "R08:18A48",
@@ -1160,7 +1261,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nどうしてですか？",
-   "en": ""
+   "en": "Chiyoko Utabe:\nWhy not?",
+   "status": "done"
   },
   {
    "id": "R08:18A76",
@@ -1168,7 +1270,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nだって「好きなだけ」じゃ、\n話にならないしぃ。",
-   "en": ""
+   "en": "Warutorin:\nBecause \"I just like it\"\nisn't worth discussing.",
+   "status": "done"
   },
   {
    "id": "R08:18AC2",
@@ -1176,7 +1279,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "好きなだけって、\n嫌いになるかもしれないでしょぉ？",
-   "en": ""
+   "en": "If you \"just like it,\"\nyou might stop liking it,\nright?",
+   "status": "done"
   },
   {
    "id": "R08:18B04",
@@ -1184,7 +1288,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "それって、\nケッコーいーかげんじゃん？",
-   "en": ""
+   "en": "That's pretty wishy-washy,\nisn't it?",
+   "status": "done"
   },
   {
    "id": "R08:18B3A",
@@ -1192,7 +1297,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "そんなヤツの言葉なんて、\n信用できないんじゃないのぉ？",
-   "en": ""
+   "en": "How can anyone trust the word\nof someone like that?",
+   "status": "done"
   },
   {
    "id": "R08:18B82",
@@ -1200,7 +1306,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n何だか正しい事を言ってる\nような気がしてきたでござる。",
-   "en": ""
+   "en": "Aragoto:\nI am beginning to feel\nshe has a point.",
+   "status": "done"
   },
   {
    "id": "R08:18BD6",
@@ -1208,7 +1315,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nどういう事？",
-   "en": ""
+   "en": "Wataru:\nWhat do you mean?",
+   "status": "done"
   },
   {
    "id": "R08:18BFE",
@@ -1216,7 +1324,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n【ワルトリン】は、\n自分の好きなモノを「好きなだけ」",
-   "en": ""
+   "en": "Sakuya:\nWarutorin feels that saying\n\"I just like it\" about a passion",
+   "status": "done"
   },
   {
    "id": "R08:18C4C",
@@ -1224,7 +1333,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "と表現することは良くない、\nと遺回しに言っているのですわ。",
-   "en": ""
+   "en": "is wrong. She is putting it\nin a rather roundabout way.",
+   "status": "done"
   },
   {
    "id": "R08:18C96",
@@ -1232,7 +1342,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえぇっ？　どういう事？",
-   "en": ""
+   "en": "Wataru:\nHuh? What's that mean?",
+   "status": "done"
   },
   {
    "id": "R08:18CC6",
@@ -1240,7 +1351,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n好きなモノには、人は何かしら\n犠牲にしているものですわ。",
-   "en": ""
+   "en": "Sakuya:\nPeople always sacrifice\nsomething for what they love.",
+   "status": "done"
   },
   {
    "id": "R08:18D18",
@@ -1248,7 +1360,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "それが財産であったり、\n家族であったり、\n人生であったり・・・。",
-   "en": ""
+   "en": "It may be their fortune,\ntheir family,\nor their very life...",
+   "status": "done"
   },
   {
    "id": "R08:18D68",
@@ -1256,7 +1369,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "きっと【ワルトリン】は、村の\n人達はそういうものを賭けて\nいないと言っているのですわ。",
-   "en": ""
+   "en": "Warutorin surely means that\nthe villagers have put none\nof those things on the line.",
+   "status": "done"
   },
   {
    "id": "R08:18DCE",
@@ -1264,7 +1378,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうーん・・・。",
-   "en": ""
+   "en": "Wataru:\nHmm...",
+   "status": "done"
   },
   {
    "id": "R08:18DF6",
@@ -1272,7 +1387,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nそういうワケだから、帰って。",
-   "en": ""
+   "en": "Warutorin:\nSo there you have it. Go home.",
+   "status": "done"
   },
   {
    "id": "R08:18E30",
@@ -1280,7 +1396,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "唄部千代子：\n私は、「好きなだけ」じゃ\nありません。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nI do not \"just like it.\"",
+   "status": "done"
   },
   {
    "id": "R08:18E76",
@@ -1288,7 +1405,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nじゃあ、何だっていうのぉ？",
-   "en": ""
+   "en": "Warutorin:\nThen what would you call it?",
+   "status": "done"
   },
   {
    "id": "R08:18EAE",
@@ -1296,7 +1414,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\n演歌は私の心です。魂です！",
-   "en": ""
+   "en": "Chiyoko Utabe:\nEnka is my heart. My soul!",
+   "status": "done"
   },
   {
    "id": "R08:18EE6",
@@ -1304,7 +1423,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だから胸をはって\n「好き」と言えるのです！",
-   "en": ""
+   "en": "That is why I can proudly say,\n\"I love it!\"",
+   "status": "done"
   },
   {
    "id": "R08:18F20",
@@ -1312,7 +1432,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nへぇー。",
-   "en": ""
+   "en": "Warutorin:\nOh, really.",
+   "status": "done"
   },
   {
    "id": "R08:18F46",
@@ -1320,7 +1441,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\n私は演歌をうたうためなら、\n何だってできます！",
-   "en": ""
+   "en": "Chiyoko Utabe:\nI would do anything\nto be able to sing enka!",
+   "status": "done"
   },
   {
    "id": "R08:18F92",
@@ -1328,7 +1450,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だから【ワルトリン】さま！\nどうか自由に、\n自由に歌をうたわせてください！",
-   "en": ""
+   "en": "So, Warutorin-sama!\nPlease let us sing freely,\nfreely!",
+   "status": "done"
   },
   {
    "id": "R08:18FEC",
@@ -1336,7 +1459,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nふーん、じゃあアンタは、\n演歌をうたうためなら",
-   "en": ""
+   "en": "Warutorin:\nHmm. So, if it meant\nyou could sing enka...",
+   "status": "done"
   },
   {
    "id": "R08:19038",
@@ -1344,7 +1468,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "命を賭けられるの？",
-   "en": ""
+   "en": "would you risk your life?",
+   "status": "done"
   },
   {
    "id": "R08:1905A",
@@ -1352,7 +1477,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nはい。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nYes.",
+   "status": "done"
   },
   {
    "id": "R08:1907E",
@@ -1360,7 +1486,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nあっ、そ。\nじゃあ、いいわよ。",
-   "en": ""
+   "en": "Warutorin:\nOh, really?\nAll right, then.",
+   "status": "done"
   },
   {
    "id": "R08:190BA",
@@ -1368,7 +1495,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルたち：\nえっ？",
-   "en": ""
+   "en": "Wataru & co.:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R08:190DE",
@@ -1376,7 +1504,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nただし、そこのぼうやが、\nアタシと勝負して、勝ったらね。",
-   "en": ""
+   "en": "Warutorin:\nOnly if that boy over there\nfights me and wins, of course.",
+   "status": "done"
   },
   {
    "id": "R08:19134",
@@ -1384,7 +1513,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルたち：\nええっ！？",
-   "en": ""
+   "en": "Wataru & co.:\nWhat?!",
+   "status": "done"
   },
   {
    "id": "R08:19168",
@@ -1392,7 +1522,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nここまで来れたのは、\nやるじゃんとか思うケドぉ。",
-   "en": ""
+   "en": "Warutorin:\nI'm impressed you made it\nall the way here, buuut...",
+   "status": "done"
   },
   {
    "id": "R08:191B6",
@@ -1400,7 +1531,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そんな用事だったら、\nさっさと帰れって感じぃ。",
-   "en": ""
+   "en": "if that's all you want,\nyou can just go home.",
+   "status": "done"
   },
   {
    "id": "R08:191F4",
@@ -1408,7 +1540,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "早く帰って！",
-   "en": ""
+   "en": "Go on, get out!",
+   "status": "done"
   },
   {
    "id": "R08:19212",
@@ -1416,7 +1549,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nど、どうしよう・・・。",
-   "en": ""
+   "en": "Wataru:\nWh-what do we do...?",
+   "status": "done"
   },
   {
    "id": "R08:19242",
@@ -1424,7 +1558,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nいや、\nさっさとケリを付けるでござる。",
-   "en": ""
+   "en": "Aragoto:\nNonsense!\nLet us settle this at once.",
+   "status": "done"
   },
   {
    "id": "R08:19284",
@@ -1432,7 +1567,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nそんな事言っても・・・。",
-   "en": ""
+   "en": "Wataru:\nThat's easy for you to say...",
+   "status": "done"
   },
   {
    "id": "R08:192B8",
@@ -1440,7 +1576,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n何だか【ワルトリン】の言うことも\nもっともな気がしますわ。",
-   "en": ""
+   "en": "Sakuya:\nSomehow, I feel Warutorin\nhas a point.",
+   "status": "done"
   },
   {
    "id": "R08:1930E",
@@ -1448,7 +1585,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nうむぅ・・・。",
-   "en": ""
+   "en": "Aragoto:\nHmmm...",
+   "status": "done"
   },
   {
    "id": "R08:1933A",
@@ -1456,7 +1594,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nいったん引き返そうよ。",
-   "en": ""
+   "en": "Wataru:\nLet's head back for now.",
+   "status": "done"
   },
   {
    "id": "R08:1936A",
@@ -1464,7 +1603,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nそうしましょう。",
-   "en": ""
+   "en": "Sakuya:\nYes, let us.",
+   "status": "done"
   },
   {
    "id": "R08:1939A",
@@ -1472,7 +1612,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nボクの勝ちだ。\n約束通りに・・・",
-   "en": ""
+   "en": "Wataru:\nI won!\nNow, you promised...",
+   "status": "done"
   },
   {
    "id": "R08:193D4",
@@ -1480,7 +1621,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリン：\nふんっ！　だれもこれで\n勝負を決めるなんて言ってないよ！",
-   "en": ""
+   "en": "Warutorin:\nHmph! Nobody said this fight\nwould settle anything!",
+   "status": "done"
   },
   {
    "id": "R08:1942A",
@@ -1488,7 +1630,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "おいで！　【アムラーＸ５５】！",
-   "en": ""
+   "en": "Come forth, Amuler X55!",
+   "status": "done"
   },
   {
    "id": "R08:19466",
@@ -1496,7 +1639,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルトリン：\nキィーッ！　覚えてろよっ！",
-   "en": ""
+   "en": "Warutorin:\nEeeek! You'll pay for this!",
+   "status": "done"
   },
   {
    "id": "R08:194B8",
@@ -1504,7 +1648,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nワタルさま、サクヤさま、\nそして・・・アラゴトさま。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nWataru-sama, Sakuya-sama,\nand... Aragoto-sama.",
+   "status": "done"
   },
   {
    "id": "R08:1950A",
@@ -1512,7 +1657,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "本当にありがとうございました。",
-   "en": ""
+   "en": "Thank you so very much.",
+   "status": "done"
   },
   {
    "id": "R08:1953A",
@@ -1520,7 +1666,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nいえ、\n当然の事をしたまでです。",
-   "en": ""
+   "en": "Aragoto:\nPlease, I merely did\nwhat was right.",
+   "status": "done"
   },
   {
    "id": "R08:19578",
@@ -1528,7 +1675,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "唄部千代子：\nお礼と言っては何ですが・・・\nこれを差し上げます。",
-   "en": ""
+   "en": "Chiyoko Utabe:\nIt is a small token of thanks,\nbut please accept this.",
+   "status": "done"
   },
   {
    "id": "R08:195C8",
@@ -1536,7 +1684,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "ハイヘルプミを手に入れた！",
-   "en": ""
+   "en": "Got HiHelpme!",
+   "status": "done"
   },
   {
    "id": "R08:195FA",
@@ -1544,7 +1693,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nこれであの村も\n平和になるんだよねっ。",
-   "en": ""
+   "en": "Wataru:\nNow that village will be\npeaceful again, right?",
+   "status": "done"
   },
   {
    "id": "R08:1963A",
@@ -1552,7 +1702,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわね。",
-   "en": ""
+   "en": "Sakuya:\nIndeed.",
+   "status": "done"
   },
   {
    "id": "R08:19662",
@@ -1560,7 +1711,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nカラオケの村だけに、",
-   "en": ""
+   "en": "Aragoto:\nBeing a karaoke village...",
+   "status": "done"
   },
   {
    "id": "R08:19692",
@@ -1568,7 +1720,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "「これカラオーケー」\nなんちゃって・・・。",
-   "en": ""
+   "en": "\"It's all kara-OK from here!\"\nHo ho... Get it?",
+   "status": "done"
   },
   {
    "id": "R08:196E4",
@@ -1576,7 +1729,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nフフフン・・・",
-   "en": ""
+   "en": "Warurine:\nHmm-hmm-hmm...",
+   "status": "done"
   },
   {
    "id": "R08:19710",
@@ -1584,7 +1738,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあっ、ワルリーヌちゃん！",
-   "en": ""
+   "en": "Wataru:\nOh, Warurine-chan!",
+   "status": "done"
   },
   {
    "id": "R08:19742",
@@ -1592,7 +1747,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nあっ、ワタルくんだぁー。\n元気ぃー？",
-   "en": ""
+   "en": "Warurine:\nOh, it's Wataru-kun!\nHow are youuu?",
+   "status": "done"
   },
   {
    "id": "R08:19784",
@@ -1600,7 +1756,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nこんなところで何やってんの？",
-   "en": ""
+   "en": "Wataru:\nWhat're you doing here?",
+   "status": "done"
   },
   {
    "id": "R08:197BA",
@@ -1608,7 +1765,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\n歌うたってるんだよぉ。\n一人でさみしかったんだぁ。",
-   "en": ""
+   "en": "Warurine:\nI'm singing!\nI was lonely all by myself.",
+   "status": "done"
   },
   {
    "id": "R08:1980A",
@@ -1616,7 +1774,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ねぇ、ワタルくんもどぉ？",
-   "en": ""
+   "en": "Hey, Wataru-kun,\nwant to join me?",
+   "status": "done"
   },
   {
    "id": "R08:19832",
@@ -1624,7 +1783,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "どうしようかな　\n１．ちょっと歌っていこうかなぁ\n２．ゴメンね、今いそがしいんだ",
-   "en": ""
+   "en": "What should I do?\n1. I could sing a little.\n2. Sorry, I'm busy right now.",
+   "status": "done"
   },
   {
    "id": "R08:19894",
@@ -1632,7 +1792,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nちょっと歌っていこうかなぁ。",
-   "en": ""
+   "en": "Wataru:\nMaybe I'll sing a little.",
+   "status": "done"
   },
   {
    "id": "R08:198CC",
@@ -1640,7 +1801,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nむむ、それならば\nどちらが上手か勝負でござるよ。",
-   "en": ""
+   "en": "Aragoto:\nHmm! Then let us compete\nto see who sings best!",
+   "status": "done"
   },
   {
    "id": "R08:1991A",
@@ -1648,7 +1810,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n望むところだい！",
-   "en": ""
+   "en": "Wataru:\nYou're on!",
+   "status": "done"
   },
   {
    "id": "R08:19946",
@@ -1656,7 +1819,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n・・・！！！[B000]助",
-   "en": ""
+   "en": "Wataru:\n...!!![B000][0178]",
+   "status": "done"
   },
   {
    "id": "R08:19970",
@@ -1664,7 +1828,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n・・・！！！[B000]助",
-   "en": ""
+   "en": "Aragoto:\n...!!![B000][0178]",
+   "status": "done"
   },
   {
    "id": "R08:1999C",
@@ -1672,7 +1837,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n・・・。",
-   "en": ""
+   "en": "Sakuya:\n...",
+   "status": "done"
   },
   {
    "id": "R08:199C0",
@@ -1680,7 +1846,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nゼィゼィ。",
-   "en": ""
+   "en": "Wataru:\nHuff, puff.",
+   "status": "done"
   },
   {
    "id": "R08:199E4",
@@ -1688,7 +1855,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nゼェゼェ・・・\n引き分けだ、な。",
-   "en": ""
+   "en": "Aragoto:\nHuff, puff...\nA draw... then.",
+   "status": "done"
   },
   {
    "id": "R08:19A20",
@@ -1696,7 +1864,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n自信あったんだけどなぁ。",
-   "en": ""
+   "en": "Wataru:\nAw, I thought I'd win.",
+   "status": "done"
   },
   {
    "id": "R08:19A52",
@@ -1704,7 +1873,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nあっははぁっ！",
-   "en": ""
+   "en": "Warurine:\nAh ha haaa!",
+   "status": "done"
   },
   {
    "id": "R08:19A7E",
@@ -1712,7 +1882,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "おもしろーい！\n二人とも息きらしてるぅ。",
-   "en": ""
+   "en": "You're so funny!\nYou're both out of breath!",
+   "status": "done"
   },
   {
    "id": "R08:19AB8",
@@ -1720,7 +1891,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nお、ほほ・・・。",
-   "en": ""
+   "en": "Sakuya:\nOh ho ho...",
+   "status": "done"
   },
   {
    "id": "R08:19AE2",
@@ -1728,7 +1900,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌさん、わたくしども、\nちょっと急いでおりますので、\nここで失礼させていただきますわ。",
-   "en": ""
+   "en": "Warurine-san, we are\nin rather a hurry,\nso we must take our leave.",
+   "status": "done"
   },
   {
    "id": "R08:19B52",
@@ -1736,7 +1909,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルさま、おじさま。\n何を始めるのかと思ったら！",
-   "en": ""
+   "en": "Wataru-sama! You too, sir!\nSo THIS is what you were up to!",
+   "status": "done"
   },
   {
    "id": "R08:19B96",
@@ -1744,7 +1918,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nだって\nおじさんが勝負だって・・・。",
-   "en": ""
+   "en": "Wataru:\nBut he challenged me...",
+   "status": "done"
   },
   {
    "id": "R08:19BD4",
@@ -1752,7 +1927,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n村に来るときに\nぼうやが挑発するからだ！",
-   "en": ""
+   "en": "Aragoto:\nYou provoked me on our way\nto the village, boy!",
+   "status": "done"
   },
   {
    "id": "R08:19C1A",
@@ -1760,7 +1936,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nもう！",
-   "en": ""
+   "en": "Sakuya:\nHonestly!",
+   "status": "done"
   },
   {
    "id": "R08:19C3A",
@@ -1768,7 +1945,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "そんな事は\nどうでもいいですわ！\n行きますわよ！",
-   "en": ""
+   "en": "None of that matters!\nWe are leaving!",
+   "status": "done"
   },
   {
    "id": "R08:19C7C",
@@ -1776,7 +1954,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれではワルリーヌさん、\n失礼いたしますわ。",
-   "en": ""
+   "en": "Sakuya:\nWell then, Warurine-san,\nwe must be going.",
+   "status": "done"
   },
   {
    "id": "R08:19CC2",
@@ -1784,7 +1963,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nうふふっ。",
-   "en": ""
+   "en": "Warurine:\nHee hee!",
+   "status": "done"
   },
   {
    "id": "R08:19CEA",
@@ -1792,7 +1972,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルくん、ありがとう。\nおもしろかったよっ！\nお礼にこれあげる。",
-   "en": ""
+   "en": "Thank you, Wataru-kun.\nThat was fun!\nHere's something to thank you.",
+   "status": "done"
   },
   {
    "id": "R08:19D3C",
@@ -1800,7 +1981,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "マジカルシェイクを手に入れた！",
-   "en": ""
+   "en": "Got a Magishake!",
+   "status": "done"
   },
   {
    "id": "R08:19D74",
@@ -1808,7 +1990,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nゴメンね、今いそがしいんだ。",
-   "en": ""
+   "en": "Wataru:\nSorry, I'm busy right now.",
+   "status": "done"
   },
   {
    "id": "R08:19DAA",
@@ -1816,7 +1999,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nえーっ！　つまんなぁーい。",
-   "en": ""
+   "en": "Warurine:\nAwww! That's no fun.",
+   "status": "done"
   },
   {
    "id": "R08:19DE2",
@@ -1824,7 +2008,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "・・・ちぇっ、いいよーだ。\nまたひとりさみしく歌うもん。\nじゃね！",
-   "en": ""
+   "en": "...Hmph, fine then!\nI'll just sing all alone again.\nBye!",
+   "status": "done"
   },
   {
    "id": "R08:19E4C",
@@ -1832,7 +2017,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nフフフン・・・",
-   "en": ""
+   "en": "Warurine:\nHmm-hmm-hmm...",
+   "status": "done"
   },
   {
    "id": "R08:19E78",
@@ -1840,7 +2026,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあっ、ワルリーヌちゃん！",
-   "en": ""
+   "en": "Wataru:\nOh, Warurine-chan!",
+   "status": "done"
   },
   {
    "id": "R08:19EAA",
@@ -1848,7 +2035,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nあっ、ワタルくんだぁー。\n元気ぃー？",
-   "en": ""
+   "en": "Warurine:\nOh, it's Wataru-kun!\nHow are youuu?",
+   "status": "done"
   },
   {
    "id": "R08:19EEC",
@@ -1856,7 +2044,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nこんなところで何やってんの？",
-   "en": ""
+   "en": "Wataru:\nWhat're you doing here?",
+   "status": "done"
   },
   {
    "id": "R08:19F22",
@@ -1864,7 +2053,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\n歌うたってるんだよぉ。\n一人で寂しかったんだぁ。",
-   "en": ""
+   "en": "Warurine:\nI'm singing!\nI was lonely all by myself.",
+   "status": "done"
   },
   {
    "id": "R08:19F70",
@@ -1872,7 +2062,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ねっワタルくんもどぉ？",
-   "en": ""
+   "en": "Hey, Wataru-kun,\nwant to join me?",
+   "status": "done"
   },
   {
    "id": "R08:19F96",
@@ -1880,7 +2071,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "どうしようかな　\n！．ちょっと歌っていこうかなぁ\n２．ゴメンね、今いそがしいんだ",
-   "en": ""
+   "en": "What should I do?\n1. I could sing a little.\n2. Sorry, I'm busy right now.",
+   "status": "done"
   },
   {
    "id": "R08:19FF8",
@@ -1888,7 +2080,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nちょっと歌っていこうかなぁ",
-   "en": ""
+   "en": "Wataru:\nMaybe I'll sing a little.",
+   "status": "done"
   },
   {
    "id": "R08:1A02E",
@@ -1896,7 +2089,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nむむ、それならば\nどちらが上手か勝負でござるよ。",
-   "en": ""
+   "en": "Aragoto:\nHmm! Then let us compete\nto see who sings best!",
+   "status": "done"
   },
   {
    "id": "R08:1A07C",
@@ -1904,7 +2098,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n望むところだい！",
-   "en": ""
+   "en": "Wataru:\nYou're on!",
+   "status": "done"
   },
   {
    "id": "R08:1A0A8",
@@ -1912,7 +2107,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n・・・！！！",
-   "en": ""
+   "en": "Wataru:\n...!!!",
+   "status": "done"
   },
   {
    "id": "R08:1A0CE",
@@ -1920,7 +2116,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n・・・！！！",
-   "en": ""
+   "en": "Aragoto:\n...!!!",
+   "status": "done"
   },
   {
    "id": "R08:1A0F6",
@@ -1928,7 +2125,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n・・・。",
-   "en": ""
+   "en": "Sakuya:\n...",
+   "status": "done"
   },
   {
    "id": "R08:1A11A",
@@ -1936,7 +2134,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nゼィゼィ。",
-   "en": ""
+   "en": "Wataru:\nHuff, puff.",
+   "status": "done"
   },
   {
    "id": "R08:1A13E",
@@ -1944,7 +2143,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nゼェゼェ・・・\n引き分けだ、な。",
-   "en": ""
+   "en": "Aragoto:\nHuff, puff...\nA draw... then.",
+   "status": "done"
   },
   {
    "id": "R08:1A17A",
@@ -1952,7 +2152,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n自信あったんだけどなぁ。",
-   "en": ""
+   "en": "Wataru:\nAw, I thought I'd win.",
+   "status": "done"
   },
   {
    "id": "R08:1A1AC",
@@ -1960,7 +2161,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nあっははぁっ！",
-   "en": ""
+   "en": "Warurine:\nAh ha haaa!",
+   "status": "done"
   },
   {
    "id": "R08:1A1D8",
@@ -1968,7 +2170,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "面白ーい！\n二人とも息きらしてるぅ。",
-   "en": ""
+   "en": "You're so funny!\nYou're both out of breath!",
+   "status": "done"
   },
   {
    "id": "R08:1A20E",
@@ -1976,7 +2179,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nお、ほほ・・・。",
-   "en": ""
+   "en": "Sakuya:\nOh ho ho...",
+   "status": "done"
   },
   {
    "id": "R08:1A238",
@@ -1984,7 +2188,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌさん、わたくし共、\nちょっと急いでおりますので、\nここで失礼させていただきますわ。",
-   "en": ""
+   "en": "Warurine-san, we are\nin rather a hurry,\nso we must take our leave.",
+   "status": "done"
   },
   {
    "id": "R08:1A2A6",
@@ -1992,7 +2197,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルさま、おじさま。\n何を始めるのかと思ったら！",
-   "en": ""
+   "en": "Wataru-sama! You too, sir!\nSo THIS is what you were up to!",
+   "status": "done"
   },
   {
    "id": "R08:1A2EA",
@@ -2000,7 +2206,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nだって\nおじさんが勝負だって・・・。",
-   "en": ""
+   "en": "Wataru:\nBut he challenged me...",
+   "status": "done"
   },
   {
    "id": "R08:1A328",
@@ -2008,7 +2215,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n村に来るときに\nぼうやが挑発するからだ！",
-   "en": ""
+   "en": "Aragoto:\nYou provoked me on our way\nto the village, boy!",
+   "status": "done"
   },
   {
    "id": "R08:1A36E",
@@ -2016,7 +2224,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nもう！",
-   "en": ""
+   "en": "Sakuya:\nHonestly!",
+   "status": "done"
   },
   {
    "id": "R08:1A38E",
@@ -2024,7 +2233,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "そんな事は\nどうでもいいですわ！\n行きますわよ！",
-   "en": ""
+   "en": "None of that matters!\nWe are leaving!",
+   "status": "done"
   },
   {
    "id": "R08:1A3D0",
@@ -2032,7 +2242,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれではワルリーヌさん、\n失礼いたしますわ。",
-   "en": ""
+   "en": "Sakuya:\nWell then, Warurine-san,\nwe must be going.",
+   "status": "done"
   },
   {
    "id": "R08:1A416",
@@ -2040,7 +2251,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nうふふっ。",
-   "en": ""
+   "en": "Warurine:\nHee hee!",
+   "status": "done"
   },
   {
    "id": "R08:1A43E",
@@ -2048,7 +2260,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルくん、ありがとう。\n面白かったよっ！\nお礼にこれあげる。",
-   "en": ""
+   "en": "Thank you, Wataru-kun.\nThat was fun!\nHere's something to thank you.",
+   "status": "done"
   },
   {
    "id": "R08:1A48C",
@@ -2056,7 +2269,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル達は【マジカルシェイク】\nを手に入れた！",
-   "en": ""
+   "en": "Wataru and friends\ngot a Magishake!",
+   "status": "done"
   },
   {
    "id": "R08:1A4D0",
@@ -2064,7 +2278,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nゴメンね、今いそがしいんだ。",
-   "en": ""
+   "en": "Wataru:\nSorry, I'm busy right now.",
+   "status": "done"
   },
   {
    "id": "R08:1A506",
@@ -2072,7 +2287,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nえーっ！　つまんなぁーい。",
-   "en": ""
+   "en": "Warurine:\nAwww! That's no fun.",
+   "status": "done"
   },
   {
    "id": "R08:1A53E",
@@ -2080,7 +2296,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "・・・ちぇっ、いいよーだ。\nまたひとり寂しく歌うもん。\nじゃね！",
-   "en": ""
+   "en": "...Hmph, fine then!\nI'll just sing all alone again.\nBye!",
+   "status": "done"
   },
   {
    "id": "R08:1A5A8",
@@ -2088,7 +2305,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おねえさん：\nイエーイ！　みんな歌って～！！",
-   "en": ""
+   "en": "Young Woman:\nYeah! Everybody, sing along!!",
+   "status": "done"
   },
   {
    "id": "R08:1A5E4",
@@ -2096,7 +2314,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・って、私しかいないのよね。\nクスン・・・。",
-   "en": ""
+   "en": "...Oh, right. It's just me here.\nSniff...",
+   "status": "done"
   },
   {
    "id": "R08:1A624",
@@ -2104,7 +2323,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nお嬢さん、しょげることはない。\n拙がお相手しようぞ。",
-   "en": ""
+   "en": "Aragoto:\nDo not despair, young lady-san!\nI shall keep you company.",
+   "status": "done"
   },
   {
    "id": "R08:1A674",
@@ -2112,7 +2332,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おねえさん：\nあれ？　な、何？　もしかして、\nいっしょに歌ってくれるの？",
-   "en": ""
+   "en": "Young Woman:\nHuh? Wh-what? You mean\nyou'll sing with me?",
+   "status": "done"
   },
   {
    "id": "R08:1A6CC",
@@ -2120,7 +2341,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそうだ！　さあ拙といっしょに\nデュエットしようではないか！",
-   "en": ""
+   "en": "Aragoto:\nIndeed! Come, let us\nsing a duet together!",
+   "status": "done"
   },
   {
    "id": "R08:1A722",
@@ -2128,7 +2350,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおじさま！",
-   "en": ""
+   "en": "Sakuya:\nSir!",
+   "status": "done"
   },
   {
    "id": "R08:1A746",
@@ -2136,7 +2359,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あまりちょうしにのっちゃ\nだめですわよ！",
-   "en": ""
+   "en": "Do not get too carried away!",
+   "status": "done"
   },
   {
    "id": "R08:1A77E",
@@ -2144,7 +2368,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nお嬢、かたいことは\n言いっこなし、なし。",
-   "en": ""
+   "en": "Aragoto:\nNow, young lady,\nlet us have our fun.",
+   "status": "done"
   },
   {
    "id": "R08:1A7C2",
@@ -2152,7 +2377,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おねえさん：\nさあ、歌うわよ！\n【創界山ラブストーリー】！！",
-   "en": ""
+   "en": "Young Woman:\nLet's sing!\nSokaizan Love Story!!",
+   "status": "done"
   },
   {
    "id": "R08:1A80E",
@@ -2160,7 +2386,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おねえさん：\nあなたと・・・・・。",
-   "en": ""
+   "en": "Young Woman:\nYou and...",
+   "status": "done"
   },
   {
    "id": "R08:1A840",
@@ -2168,7 +2395,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nおれのこいの始まりは～、",
-   "en": ""
+   "en": "Aragoto:\nI fell in loooove...",
+   "status": "done"
   },
   {
    "id": "R08:1A876",
@@ -2176,7 +2404,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おねえさん：\nひいっ！！",
-   "en": ""
+   "en": "Young Woman:\nEek!!",
+   "status": "done"
   },
   {
    "id": "R08:1A89E",
@@ -2184,7 +2413,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nきゃー！\n何ですの、この声は！！",
-   "en": ""
+   "en": "Sakuya:\nAaaah!\nWhat IS that voice?!!",
+   "status": "done"
   },
   {
    "id": "R08:1A8D8",
@@ -2192,7 +2422,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nおじさん！！　や、やめてよっ！！",
-   "en": ""
+   "en": "Wataru:\nMister!! S-stop it!!",
+   "status": "done"
   },
   {
    "id": "R08:1A912",
@@ -2200,7 +2431,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n創界山のゆうひを見たときから～。",
-   "en": ""
+   "en": "Aragoto:\nWhen we saw Sokaizan's sunseeet!",
+   "status": "done"
   },
   {
    "id": "R08:1A950",
@@ -2208,7 +2440,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おねえさんとサクヤ：\nきゃー！",
-   "en": ""
+   "en": "Young Woman & Sakuya:\nAaaah!",
+   "status": "done"
   },
   {
    "id": "R08:1A97E",
@@ -2216,7 +2449,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうわっー！",
-   "en": ""
+   "en": "Wataru:\nWaaaah!",
+   "status": "done"
   },
   {
    "id": "R08:1A9A2",
@@ -2224,7 +2458,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nあ、あらっ？",
-   "en": ""
+   "en": "Aragoto:\nOh... Oh dear?",
+   "status": "done"
   },
   {
    "id": "R08:1A9CA",
@@ -2232,7 +2467,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nあらっ、じゃないですわよ！\nおじさま！",
-   "en": ""
+   "en": "Sakuya:\n\"Oh dear\" indeed, sir!",
+   "status": "done"
   },
   {
    "id": "R08:1AA0C",
@@ -2240,7 +2476,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "店の人：\nあ～っ。\nおきゃくさん！　やってくれたね！",
-   "en": ""
+   "en": "Shopkeeper:\nAaah!\nSir! Look what you've done!",
+   "status": "done"
   },
   {
    "id": "R08:1AA50",
@@ -2248,7 +2485,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "もぉ～。しょうがないなぁ。",
-   "en": ""
+   "en": "Oh, honestly! What a nuisance.",
+   "status": "done"
   },
   {
    "id": "R08:1AA7A",
@@ -2256,7 +2494,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "とりあえず、このさきの\n【コントロールセンター】から\n修理工を呼んで来てよ！",
-   "en": ""
+   "en": "First, go fetch a repairman\nfrom the Control Center\nup ahead!",
+   "status": "done"
   },
   {
    "id": "R08:1AADE",
@@ -2264,7 +2503,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ああ",
-   "en": ""
+   "en": "Aa aa",
+   "status": "done"
   },
   {
    "id": "R08:1AAF2",
@@ -2272,7 +2512,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "いい",
-   "en": ""
+   "en": "Ee ee",
+   "status": "done"
   },
   {
    "id": "R08:1AB06",
@@ -2280,7 +2521,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "うう",
-   "en": ""
+   "en": "Oo oo",
+   "status": "done"
   },
   {
    "id": "R08:1AB1A",
@@ -2288,7 +2530,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ええ",
-   "en": ""
+   "en": "Eh eh",
+   "status": "done"
   },
   {
    "id": "R08:1AB2E",
@@ -2296,7 +2539,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おお",
-   "en": ""
+   "en": "Oh oh",
+   "status": "done"
   },
   {
    "id": "R08:1AB42",
@@ -2304,7 +2548,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "かか",
-   "en": ""
+   "en": "Ka ka",
+   "status": "done"
   },
   {
    "id": "R08:1AB56",
@@ -2312,7 +2557,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "きき",
-   "en": ""
+   "en": "Ki ki",
+   "status": "done"
   },
   {
    "id": "R08:1AB6A",
@@ -2320,7 +2566,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "くく",
-   "en": ""
+   "en": "Ku ku",
+   "status": "done"
   },
   {
    "id": "R08:1AB7E",
@@ -2328,7 +2575,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "けけ",
-   "en": ""
+   "en": "Ke ke",
+   "status": "done"
   },
   {
    "id": "R08:1AB92",
@@ -2336,7 +2584,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ここ",
-   "en": ""
+   "en": "Ko ko",
+   "status": "done"
   },
   {
    "id": "R08:1ABA6",
@@ -2344,7 +2593,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ささ",
-   "en": ""
+   "en": "Sa sa",
+   "status": "done"
   },
   {
    "id": "R08:1ABBA",
@@ -2352,7 +2602,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "しし",
-   "en": ""
+   "en": "Shi shi",
+   "status": "done"
   },
   {
    "id": "R08:1ABCE",
@@ -2360,7 +2611,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "すす",
-   "en": ""
+   "en": "Su su",
+   "status": "done"
   },
   {
    "id": "R08:1ABE2",
@@ -2368,7 +2620,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "せせ",
-   "en": ""
+   "en": "Se se",
+   "status": "done"
   },
   {
    "id": "R08:1ABF6",
@@ -2376,7 +2629,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "そそ",
-   "en": ""
+   "en": "So so",
+   "status": "done"
   },
   {
    "id": "R08:1F7B8",
@@ -2384,7 +2638,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nカラオケはいいよ。",
-   "en": ""
+   "en": "Man:\nKaraoke is great.",
+   "status": "done"
   },
   {
    "id": "R08:1F7D8",
@@ -2392,7 +2647,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "なんて言ったって、歌っていると\nしあわせな気分になれるんだ。\nしかも、タダなんだ。",
-   "en": ""
+   "en": "After all, singing\nmakes you feel happy.\nAnd it's free, too!",
+   "status": "done"
   },
   {
    "id": "R08:1F82C",
@@ -2400,7 +2656,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nそうそう、この村ではみんな\nカラオケボックスに",
-   "en": ""
+   "en": "Man:\nOh, yes! Here in this village,\neveryone's home...",
+   "status": "done"
   },
   {
    "id": "R08:1F868",
@@ -2408,7 +2665,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "住んでいるんだ。\nそれだけ、\nみんな歌が好きなんだよ。",
-   "en": ""
+   "en": "is a karaoke room.\nThat's how much\neveryone loves to sing.",
+   "status": "done"
   },
   {
    "id": "R08:1F8A0",
@@ -2416,7 +2674,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【ワルトリン】さんは、\nラップのカラオケボックスに",
-   "en": ""
+   "en": "Man:\nI hear Warutorin-san\nvisits the rap karaoke room...",
+   "status": "done"
   },
   {
    "id": "R08:1F8E0",
@@ -2424,7 +2683,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "よくいらっしゃるそうだ。",
-   "en": ""
+   "en": "quite often.",
+   "status": "done"
   },
   {
    "id": "R08:1F8FC",
@@ -2432,7 +2692,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nしかも、\nあまりにも歌がうまいので",
-   "en": ""
+   "en": "Man:\nAnd what's more,\nshe sings so beautifully...",
+   "status": "done"
   },
   {
    "id": "R08:1F92C",
@@ -2440,7 +2701,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "聞き入ってしまうそうだ。",
-   "en": ""
+   "en": "they say you can't help\nbut listen, spellbound.",
+   "status": "done"
   },
   {
    "id": "R08:1F948",
@@ -2448,7 +2710,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n私も一度でいいから、\n【ワルトリン】さんの歌声を",
-   "en": ""
+   "en": "Man:\nJust once, I'd love to hear\nWarutorin-san...",
+   "status": "done"
   },
   {
    "id": "R08:1F986",
@@ -2456,7 +2719,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "聞いてみたいものだ。",
-   "en": ""
+   "en": "sing.",
+   "status": "done"
   },
   {
    "id": "R08:1F99C",
@@ -2464,7 +2728,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n修理工が、ケーブルの\n修理をしているそうじゃ。",
-   "en": ""
+   "en": "Old Man:\nI hear a repairman is\nfixing the cable.",
+   "status": "done"
   },
   {
    "id": "R08:1F9DA",
@@ -2472,7 +2737,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【ワルトリン】さんに\n用があるんじゃったら、\n修理がおわるまで、",
-   "en": ""
+   "en": "If you've come to see\nWarutorin-san, while you wait\nfor the repairs to finish,",
+   "status": "done"
   },
   {
    "id": "R08:1FA1C",
@@ -2480,7 +2746,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "カラオケにでも行って\n歌ってくるが良いじゃろう。",
-   "en": ""
+   "en": "why not go and sing\na bit of karaoke, eh?",
+   "status": "done"
   },
   {
    "id": "R08:1FA50",
@@ -2488,7 +2755,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nレディース　アーンド\nジェントルメン！",
-   "en": ""
+   "en": "Young Man:\nLadies aaand\ngentlemen!",
+   "status": "done"
   },
   {
    "id": "R08:1FA86",
@@ -2496,7 +2764,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルトリン】さまがおさめる、\n【サウンドエコー村】に\nようこそ！",
-   "en": ""
+   "en": "Welcome to Sound Echo Village,\nruled by Warutorin-sama!",
+   "status": "done"
   },
   {
    "id": "R08:1FACC",
@@ -2504,7 +2773,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\nここは、カラオケ大好き人間の村。\n思うぞんぶん、歌ってください！",
-   "en": ""
+   "en": "Young Man:\nA village of karaoke lovers!\nSing to your heart's content!",
+   "status": "done"
   },
   {
    "id": "R08:1FB1C",
@@ -2512,7 +2782,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nなんだか、ここんトコ演歌を\n聞かなくなったのぉ。",
-   "en": ""
+   "en": "Old Man:\nHaven't heard any enka\naround here lately, eh?",
+   "status": "done"
   },
   {
    "id": "R08:1FB5C",
@@ -2520,7 +2791,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ひさしぶりに\n【唄部千代子】さんの歌を、\nききたいのぉ。",
-   "en": ""
+   "en": "It's been so long.\nI'd love to hear a song by\nChiyoko Utabe-san again.",
+   "status": "done"
   },
   {
    "id": "R08:1FB98",
@@ -2528,7 +2800,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじいさん：\n【唄部千代子】さんの家は、\nすぐそこじゃ。",
-   "en": ""
+   "en": "Old Man:\nChiyoko Utabe-san's house\nis just over there.",
+   "status": "done"
   },
   {
    "id": "R08:1FBD4",
@@ -2536,7 +2809,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nほ！　ほ！　ほ！　ほ！　ほ！\n自分が歌っていなくても、",
-   "en": ""
+   "en": "Man:\nHo! Ho! Ho! Ho! Ho!\nEven when I'm not singing,",
+   "status": "done"
   },
   {
    "id": "R08:1FC18",
@@ -2544,7 +2818,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "体が勝手に動いてしまうんじゃ。\nほ！　ほ！　ほ！　ほ！　ほ！\n決めっ！！",
-   "en": ""
+   "en": "my body moves all on its own.\nHo! Ho! Ho! Ho! Ho!\nStrike a pose!!",
+   "status": "done"
   },
   {
    "id": "R08:1FC64",
@@ -2552,7 +2827,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nさっき、おかっぱアタマの\nカワイイおんなの子が、",
-   "en": ""
+   "en": "Young Woman:\nEarlier, a cute little girl\nwith a bob haircut...",
+   "status": "done"
   },
   {
    "id": "R08:1FCA4",
@@ -2560,7 +2836,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "１人でカラオケボックスに\n入っていったわ。",
-   "en": ""
+   "en": "went into a karaoke room\nall by herself.",
+   "status": "done"
   },
   {
    "id": "R08:1FCD0",
@@ -2568,7 +2845,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nわたしは、\nカラオケオーディションで",
-   "en": ""
+   "en": "Young Woman:\nMy dream is to pass\na karaoke audition...",
+   "status": "done"
   },
   {
    "id": "R08:1FD04",
@@ -2576,7 +2854,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "プロになるのがユメなの。",
-   "en": ""
+   "en": "My dream is to become\na professional singer.",
+   "status": "done"
   },
   {
    "id": "R08:1FD20",
@@ -2584,7 +2863,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nボクがこんなことを言うのも\n何だけど・・・、",
-   "en": ""
+   "en": "Man:\nI know it's a bit odd\nfor me to say this, but...",
+   "status": "done"
   },
   {
    "id": "R08:1FD5A",
@@ -2592,7 +2872,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ボクは歌がとっても、\nとっても、とぉーっても、\n・・・・・・、",
-   "en": ""
+   "en": "My singing is really,\nreally, reeeally...\n...",
+   "status": "done"
   },
   {
    "id": "R08:1FD9A",
@@ -2600,7 +2881,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ヘタなんだ・・・。\nグスン・・・。",
-   "en": ""
+   "en": "awful...\nSniff...",
+   "status": "done"
   },
   {
    "id": "R08:1FDC0",
@@ -2608,7 +2890,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nオ～イエ～！\nア～イエ～！！",
-   "en": ""
+   "en": "Young Man:\nOhhh yeahhh!\nAhhh yeahhh!!",
+   "status": "done"
   },
   {
    "id": "R08:1FDEC",
@@ -2616,7 +2899,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "サンバディ～！\nイエ～ス！！\nイッツ・オ～ライ！！",
-   "en": ""
+   "en": "Somebodyyy!\nYeees!!\nIt's all riiight!!",
+   "status": "done"
   },
   {
    "id": "R08:1FE20",
@@ -2624,7 +2908,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nレゲエって、\nとっても、とっても、いいのよ。",
-   "en": ""
+   "en": "Young Woman:\nReggae is really,\nreally wonderful.",
+   "status": "done"
   },
   {
    "id": "R08:1FE5C",
@@ -2632,7 +2917,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "なんだか魂に火が付いたように、\nあつくなるの。\nもう、たまんないわ。",
-   "en": ""
+   "en": "It's like my soul catches fire.\nI get all fired up!\nI just can't get enough.",
+   "status": "done"
   },
   {
    "id": "R08:1FEA4",
@@ -2640,7 +2926,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nここのカラオケ、\nクーラー効きすぎだよ。",
-   "en": ""
+   "en": "Young Man:\nThe air conditioning here\nis way too strong.",
+   "status": "done"
   },
   {
    "id": "R08:1FEDC",
@@ -2648,7 +2935,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "まったくクールな店だ。",
-   "en": ""
+   "en": "This place is seriously cool.",
+   "status": "done"
   },
   {
    "id": "R08:1FEF4",
@@ -2656,7 +2944,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nひゃぁーっ！？\nすっごくさむいよ・・・。",
-   "en": ""
+   "en": "Young Man:\nYeeek?!\nIt's freezing...",
+   "status": "done"
   },
   {
    "id": "R08:1FF2C",
@@ -2664,7 +2953,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nひゃっほーっ！\nガンガンいくぜ！！",
-   "en": ""
+   "en": "Young Man:\nYahooo!\nLet's crank it up!!",
+   "status": "done"
   },
   {
    "id": "R08:1FF5E",
@@ -2672,7 +2962,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "うおおおおおおおおおおおおおお\nおおおおおおおおおおおおおおお\nおおおおおおおおおおおおっ！！",
-   "en": ""
+   "en": "WOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\nOOOOOOOOOOOOOOOOOOOOOOOOOOO!!",
+   "status": "done"
   },
   {
    "id": "R08:1FFC0",
@@ -2680,7 +2971,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nふははははっ！！\nさむさがなんだ！！",
-   "en": ""
+   "en": "Young Man:\nBwah hah hah!!\nWho cares about the cold?!",
+   "status": "done"
   },
   {
    "id": "R08:1FFF4",
@@ -2688,7 +2980,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "カラオケが・・・、\nは・・・は・・・\nはぁっくしょんっ！！！",
-   "en": ""
+   "en": "Karaoke is...\nAh... ah...\nACHOOO!!!",
+   "status": "done"
   },
   {
    "id": "R08:20034",
@@ -2696,7 +2989,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nまあ、こんなコトめったに\nないでごじゃるからして、",
-   "en": ""
+   "en": "Man:\nWell, occasions like this\nare rare indeed, verily,",
+   "status": "done"
   },
   {
    "id": "R08:20074",
@@ -2704,7 +2998,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "拙のハーモニーに\nみみをかたむけるでごじゃる。\nいくでごじゃるよ。",
-   "en": ""
+   "en": "so lend thine ears\nto my fine harmonies.\nHere I go, verily!",
+   "status": "done"
   },
   {
    "id": "R08:200B8",
@@ -2712,7 +3007,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "み～なみ～なみ～なみ～な\nみ～なの～しゅ～。\nご～きげ～んよ～ん！",
-   "en": ""
+   "en": "All of you, all of you,\nall of you fine folk,\nhoooow do you doooo!",
+   "status": "done"
   },
   {
    "id": "R08:200FC",
@@ -2720,7 +3016,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nおじさん、この歌が大好きなんだ。\n【平和抗議】という歌なんだ。",
-   "en": ""
+   "en": "Man:\nI just love this song.\nIt's called 'Peace Protest'.",
+   "status": "done"
   },
   {
    "id": "R08:20148",
@@ -2728,7 +3025,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ミュージック・スタート！",
-   "en": ""
+   "en": "Music, start!",
+   "status": "done"
   },
   {
    "id": "R08:20162",
@@ -2736,7 +3034,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "一体、ぜんたい、なんなんだい？\n大体、聞いてないよ抗議なんて～。\nみんなの平和抗議は、果てしない！",
-   "en": ""
+   "en": "What in the world is going on?\nNobody said we'd be protesting!\nOur peace protests never end!",
+   "status": "done"
   },
   {
    "id": "R08:201C8",
@@ -2744,7 +3043,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nのののの脳に流れるるる～。\n温泉ををを～排除してして～。",
-   "en": ""
+   "en": "Young Woman:\nF-f-flowing through my braaain!\nHot springs, get out-out-ooout!",
+   "status": "done"
   },
   {
    "id": "R08:20210",
@@ -2752,7 +3052,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "財産ななななんて～\nいらないかラ～ンランラン！！",
-   "en": ""
+   "en": "F-f-fortunes? Who needs one?\nNot meee! La la laaa!!",
+   "status": "done"
   },
   {
    "id": "R08:20242",
@@ -2760,7 +3061,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・あら！？　ごめんなさい。\n歌に入りこんでいて、\nあなた達に気付かなかったわ。",
-   "en": ""
+   "en": "...Oh?! Sorry!\nI was so caught up in the song,\nI didn't notice you there.",
+   "status": "done"
   },
   {
    "id": "R08:20298",
@@ -2768,7 +3070,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nわしゃ～、ムスメにつれて\nこられるまで、ラップっつーのは、",
-   "en": ""
+   "en": "Old Man:\nTill my daughter brought me\nhere, I thought rap was...",
+   "status": "done"
   },
   {
    "id": "R08:202E2",
@@ -2776,7 +3079,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "「ちず」のことかとおもっとった。\n何かのかんちがいじゃったかのう。",
-   "en": ""
+   "en": "...a map! Did I get something\nmixed up, eh?",
+   "status": "done"
   },
   {
    "id": "R08:20326",
@@ -2784,7 +3088,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\n・・・それって、\n「マップ」じゃないの？",
-   "en": ""
+   "en": "Wataru:\n...Don't you mean\n\"map\"?",
+   "status": "done"
   },
   {
    "id": "R08:2035A",
@@ -2792,7 +3097,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nうーん・・・。\nそうじゃったかもしれんのう。",
-   "en": ""
+   "en": "Old Man:\nHmm...\nAye, that might be it.",
+   "status": "done"
   },
   {
    "id": "R08:20396",
@@ -2800,7 +3106,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワタルたち：\n・・・。",
-   "en": ""
+   "en": "Wataru & co.:\n...",
+   "status": "done"
   },
   {
    "id": "R08:203B0",
@@ -2808,7 +3115,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n最新のカラオケの曲がのってる、\nカラオケマニュアルを",
-   "en": ""
+   "en": "Man:\nI came to buy a karaoke guide\nwith all the latest songs...",
+   "status": "done"
   },
   {
    "id": "R08:203F2",
@@ -2816,7 +3124,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "買いに来たんだけど、\nまだ、発売されてないみたいだ。\nがっかり・・・。",
-   "en": ""
+   "en": "but it looks like it isn't\non sale yet.\nWhat a letdown...",
+   "status": "done"
   },
   {
    "id": "R08:2043C",
@@ -2824,7 +3133,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nここに泊まっていく\nおきゃくさんって、",
-   "en": ""
+   "en": "Young Woman:\nThe guests who stay here...",
+   "status": "done"
   },
   {
    "id": "R08:20472",
@@ -2832,7 +3142,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "みんなカラオケがしたくて\n来る人ばかり。",
-   "en": ""
+   "en": "Every last one of them comes\njust for the karaoke.",
+   "status": "done"
   },
   {
    "id": "R08:2049C",
@@ -2840,7 +3151,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nあ～あ。私もしごとさぼって\nカラオケに行きた～い。",
-   "en": ""
+   "en": "Young Woman:\nAaah. I wish I could skip work\nand go sing karaoke toooo.",
+   "status": "done"
   },
   {
    "id": "R08:204E0",
@@ -2848,7 +3160,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\nユメで、ピ！　パ！　ポ！\nピポプ！　ピポピポパペ～プ～！",
-   "en": ""
+   "en": "Young Man:\nIn dreams, beep! Bap! Boop!\nBeep-boop! Beep-beep-bap-a-booo!",
+   "status": "done"
   },
   {
    "id": "R08:20528",
@@ -2856,7 +3169,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nピューピュー！\nステキー！！",
-   "en": ""
+   "en": "Young Woman:\nFweet-fweet!\nYou're amazing!!",
+   "status": "done"
   },
   {
    "id": "R08:20554",
@@ -2864,7 +3178,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\n流行りのテクノを歌えるなんて、\nほれちゃいそう。・・・ポッ。",
-   "en": ""
+   "en": "Young Woman:\nYou can sing the latest techno!\nI could fall for you... Oh my.",
+   "status": "done"
   },
   {
    "id": "R08:205A0",
@@ -2872,7 +3187,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nこの村のヤツら、カラオケに\nはまりっぱなしで、",
-   "en": ""
+   "en": "Man:\nEveryone in this village is\nso hooked on karaoke...",
+   "status": "done"
   },
   {
    "id": "R08:205DC",
@@ -2880,7 +3196,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もんペットには見向きもしない。\nこんなに、カワイイのになあ。",
-   "en": ""
+   "en": "They won't even look at a\nMonpet. They're so cute, too!",
+   "status": "done"
   },
   {
    "id": "R08:2061C",
@@ -2888,7 +3205,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじいさん：\nこんなピチピチした女と、\nカラオケできるなんてラッキー！",
-   "en": ""
+   "en": "Old Man:\nLucky me! Karaoke with such\na lively young lady!",
+   "status": "done"
   },
   {
    "id": "R08:20664",
@@ -2896,7 +3214,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nふふん。おじいさん、さまさまね。\n今月もおこづかいバッチリよ。",
-   "en": ""
+   "en": "Young Woman:\nHeh! Bless that old man!\nThis month's pocket money: set!",
+   "status": "done"
   },
   {
    "id": "R08:206B4",
@@ -2904,7 +3223,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nいらっしゃいませ。\n救世主さまですね。",
-   "en": ""
+   "en": "Young Man:\nWelcome.\nYou must be Savior-sama.",
+   "status": "done"
   },
   {
    "id": "R08:206EA",
@@ -2912,7 +3232,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "このビルのおくで\n【ワルトリン】さまが\nお待ちしております。",
-   "en": ""
+   "en": "Warutorin-sama is waiting\nat the back of this building.",
+   "status": "done"
   },
   {
    "id": "R08:20728",
@@ -2920,7 +3241,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "「数々のトラップを用意して\n待っているわ。\n来られるもんなら来てみろよー！」",
-   "en": ""
+   "en": "\"I've got plenty of traps\nwaiting for you!\nCome and get me if you can!\"",
+   "status": "done"
   },
   {
    "id": "R08:20776",
@@ -2928,7 +3250,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・とのことです。\nそれでは、救世主さまの\nお手なみはいけんといきましょう。",
-   "en": ""
+   "en": "...Those were her words.\nNow then, Savior-sama,\nlet's see what you can do.",
+   "status": "done"
   },
   {
    "id": "R08:207C8",
@@ -2936,7 +3259,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nどう？\n【ワルトリン】さまのトラップは？",
-   "en": ""
+   "en": "Young Woman:\nWell? How do you like\nWarutorin-sama's traps?",
+   "status": "done"
   },
   {
    "id": "R08:20800",
@@ -2944,7 +3268,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "まよってる？\nじゃ、ちょっとだけ\nヒントをあげるわ。",
-   "en": ""
+   "en": "Are you lost?\nThen I'll give you\na little hint.",
+   "status": "done"
   },
   {
    "id": "R08:20836",
@@ -2952,7 +3277,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "Ｂ３のフロアをめざしなさい。\nそうすれば、さきに進めるわ。",
-   "en": ""
+   "en": "Head for floor B3.\nYou can go on from there.",
+   "status": "done"
   },
   {
    "id": "R08:20874",
@@ -2960,7 +3286,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nこのさきは、大変だよ。",
-   "en": ""
+   "en": "Young Man:\nIt gets tough up ahead.",
+   "status": "done"
   },
   {
    "id": "R08:2089A",
@@ -2968,7 +3295,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "このさきのことを聞きたい？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Want to hear what's ahead?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R08:208CE",
@@ -2976,7 +3304,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nよし、おしえてあげよう。",
-   "en": ""
+   "en": "Young Man:\nAll right, I'll tell you.",
+   "status": "done"
   },
   {
    "id": "R08:208F6",
@@ -2984,7 +3313,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "このさきは、ワープトラップに\nなっているんだ。",
-   "en": ""
+   "en": "There's a warp trap\nup ahead.",
+   "status": "done"
   },
   {
    "id": "R08:20926",
@@ -2992,7 +3322,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "字が出ているディスプレイの\nまえで○ボタンを押すと、\n音当てクイズが始まるよ。",
-   "en": ""
+   "en": "Press Circle in front of the\nscreen with writing on it to\nstart a guess-the-note quiz.",
+   "status": "done"
   },
   {
    "id": "R08:20976",
@@ -3000,7 +3331,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "なる音を、２択で当てるんだ。\nラとソなんか聞き分けにくいから\n結構、むずかしいよ。",
-   "en": ""
+   "en": "Pick the note from two choices.\nLa and so sound so much alike,\nit's pretty tough!",
+   "status": "done"
   },
   {
    "id": "R08:209CA",
@@ -3008,7 +3340,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "正解すると、別の部屋へワープだ！\n間違えたら、またチャレンジして。",
-   "en": ""
+   "en": "Get it right, and you'll warp\nto another room! Get it wrong,\nand you'll have to try again.",
+   "status": "done"
   },
   {
    "id": "R08:20A0E",
@@ -3016,7 +3349,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルトリン】さまは、\n音感のない人が嫌いなんだ。\nがんばってクリアしてちょうだい。",
-   "en": ""
+   "en": "Warutorin-sama can't stand\npeople with no ear for music.\nDo your best to pass!",
+   "status": "done"
   },
   {
    "id": "R08:20A64",
@@ -3024,7 +3358,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nえっ？　いいの？\nきっと、こうかいするぞー。",
-   "en": ""
+   "en": "Young Man:\nHuh? Are you sure?\nYou're going to regret it!",
+   "status": "done"
   },
   {
    "id": "R08:20AA0",
@@ -3032,7 +3367,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nこのさきで宝箱を見たぞ。",
-   "en": ""
+   "en": "Man:\nI saw a treasure chest up ahead.",
+   "status": "done"
   },
   {
    "id": "R08:20AC8",
@@ -3040,7 +3376,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nよく、ここまで来られたのう。\nさすがは救世主さまじゃ。",
-   "en": ""
+   "en": "Old Man:\nWell done, getting this far!\nJust as I'd expect, Savior-sama.",
+   "status": "done"
   },
   {
    "id": "R08:20B0E",
@@ -3048,7 +3385,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "でも次のトラップは手強いぞう。\nドレミ・・・のパネルをふんで、\nカダイキョクのえんそうじゃ。",
-   "en": ""
+   "en": "The next trap is tough, though!\nStep on do-re-mi panels to play\nthe assigned tune.",
+   "status": "done"
   },
   {
    "id": "R08:20B6C",
@@ -3056,7 +3394,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "カベにはってあるカダイキョクを\nしらべて、お手本のえんそうを\nよく覚えておくことじゃ。",
-   "en": ""
+   "en": "Check the assigned tune posted\non the wall, and memorize\nhow the example is played.",
+   "status": "done"
   },
   {
    "id": "R08:20BC4",
@@ -3064,7 +3403,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\nいらっしゃい！\nテクノのカラオケボックスだよ。",
-   "en": ""
+   "en": "Shopkeeper:\nWelcome to our techno\nkaraoke place!",
+   "status": "done"
   },
   {
    "id": "R08:20BFE",
@@ -3072,7 +3412,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちまたのクラブでは、\nテクノをやってるディージェイが、\n引っぱりだこなのさ。",
-   "en": ""
+   "en": "At clubs around town,\nDJs who play techno\nare in huge demand.",
+   "status": "done"
   },
   {
    "id": "R08:20C4C",
@@ -3080,7 +3421,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん達も、通だね。",
-   "en": ""
+   "en": "You boys know your music too!",
+   "status": "done"
   },
   {
    "id": "R08:20C68",
@@ -3088,7 +3430,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "店の人：\nキミ、キミ！\nテクノを歌いに来たんじゃないの？",
-   "en": ""
+   "en": "Shopkeeper:\nHey, you there!\nDidn't you come to sing techno?",
+   "status": "done"
   },
   {
    "id": "R08:20CA2",
@@ -3096,7 +3439,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "テクノなんだから、\n「歌っテクノのだっっ！」\n・・・ああ、帰らないで・・・。",
-   "en": ""
+   "en": "Since it's techno...\n\"Techno prisoners! Just sing!\"\n...Oh, please don't leave...",
+   "status": "done"
   },
   {
    "id": "R08:20CF0",
@@ -3104,7 +3448,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\nいらっしゃい。\nハウスのカラオケボックスです。",
-   "en": ""
+   "en": "Shopkeeper:\nWelcome.\nThis is the house karaoke place.",
+   "status": "done"
   },
   {
    "id": "R08:20D2A",
@@ -3112,7 +3457,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ハウスとテクノは、\nぜんぜん違うジャンルなんだ。",
-   "en": ""
+   "en": "House and techno are completely\ndifferent genres.",
+   "status": "done"
   },
   {
    "id": "R08:20D5C",
@@ -3120,7 +3466,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "テクノを歌いに来たのなら、\nテクノのボックスに行ってね！",
-   "en": ""
+   "en": "If you came to sing techno,\ngo to the techno karaoke place!",
+   "status": "done"
   },
   {
    "id": "R08:20D98",
@@ -3128,7 +3475,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "店の人：\nいえーい！\nえっ？　何をリキんでいると？",
-   "en": ""
+   "en": "Shopkeeper:\nYeaaah!\nHuh? Why am I shouting?",
+   "status": "done"
   },
   {
    "id": "R08:20DCC",
@@ -3136,7 +3484,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そりゃもう、\nハウスだけに、「家ーい！」って\nなもんさ！",
-   "en": ""
+   "en": "Well, it's house music,\nso I'm raising the roof!\nYeaaah!",
+   "status": "done"
   },
   {
    "id": "R08:20E08",
@@ -3144,7 +3493,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "店の人：\nいらっしゃい。\nレゲエのカラオケボックスです。",
-   "en": ""
+   "en": "Shopkeeper:\nWelcome to our reggae\nkaraoke place.",
+   "status": "done"
   },
   {
    "id": "R08:20E42",
@@ -3152,7 +3502,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ホットだけど、\nクールに決めるなら、\nやっぱ、レゲエだね。",
-   "en": ""
+   "en": "If you want to be hot\nand still play it cool,\nreggae's the way to go.",
+   "status": "done"
   },
   {
    "id": "R08:20E80",
@@ -3160,7 +3511,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "店の人：\nは～い。いらっしゃ～い。\nラップのカラオケボックスよ。",
-   "en": ""
+   "en": "Shopkeeper:\nHiii! Welcome!\nThis is the rap karaoke place.",
+   "status": "done"
   },
   {
    "id": "R08:20EC2",
@@ -3168,7 +3520,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルトリン】さまも\nラップがお好きなそうよ。\nぼうや達もラップ好きだよね。",
-   "en": ""
+   "en": "I hear Warutorin-sama\nlikes rap too.\nYou boys like rap, don't you?",
+   "status": "done"
   },
   {
    "id": "R08:20F10",
@@ -3176,7 +3529,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "店の人：\n時代はラップよ！\nラップを覚えればモテモテよ。",
-   "en": ""
+   "en": "Shopkeeper:\nRap is where it's at!\nLearn to rap and win hearts!",
+   "status": "done"
   },
   {
    "id": "R08:20F4C",
@@ -3184,7 +3538,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "店の人：\nユー　キャン　トライ！\n人生すべてがひっくりかえってる。",
-   "en": ""
+   "en": "Shopkeeper:\nYou can try!\nLife's all turned upside down!",
+   "status": "done"
   },
   {
    "id": "R08:20F90",
@@ -3192,7 +3547,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ユー　ウィル　ネバー　ダイ！\n生きてるうちに何かが変わってく。\nオゥオゥオゥー　オゥーオゥー。",
-   "en": ""
+   "en": "You will never die!\nWhile you live, things change.\nOh oh ohhh, ohhh ohhh!",
+   "status": "done"
   },
   {
    "id": "R08:20FF0",
@@ -3200,7 +3556,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "たどたどしくて、歌いにくい？\nこのうたいにくさが\nラップの良さなの！",
-   "en": ""
+   "en": "Too choppy and hard to sing?\nThat's what makes rap\nso great!",
+   "status": "done"
   },
   {
    "id": "R08:21036",
@@ -3208,7 +3565,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "マスターすれば、\nみんなしたをまくわよ！",
-   "en": ""
+   "en": "Master it, and you'll have\neveryone tongue-tied!",
+   "status": "done"
   },
   {
    "id": "R08:21060",
@@ -3216,7 +3574,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コントロールセンターの人：\nここは、カラオケシステム\nコントロールセンターです。",
-   "en": ""
+   "en": "Control Center Staff:\nThis is the karaoke system\ncontrol center.",
+   "status": "done"
   },
   {
    "id": "R08:210B2",
@@ -3224,7 +3583,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "村のカラオケは、\nここで制御されています。",
-   "en": ""
+   "en": "We control all the village's\nkaraoke systems from here.",
+   "status": "done"
   },
   {
    "id": "R08:210DE",
@@ -3232,7 +3592,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "何かありましたら、\n当センターへおこしください。",
-   "en": ""
+   "en": "If you have any problems,\nplease come to this center.",
+   "status": "done"
   },
   {
    "id": "R08:21110",
@@ -3240,7 +3601,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "せっかくここまで来たのですから、\nカラオケボックスへ行って、\n思うぞんぶん歌ってください。",
-   "en": ""
+   "en": "Since you've come all this way,\nvisit a karaoke place and\nsing to your heart's content.",
+   "status": "done"
   },
   {
    "id": "R08:2116C",
@@ -3248,7 +3610,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コントロールセンターの人：\nお、おきゃくさんですか・・・。\nカラオケセットを壊したのは。",
-   "en": ""
+   "en": "Control Center Staff:\nS-so you're the customers...\nwho broke the karaoke equipment.",
+   "status": "done"
   },
   {
    "id": "R08:211C6",
@@ -3256,7 +3619,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おかげで、こちらも\nこのありさまですよ。",
-   "en": ""
+   "en": "Thanks to that, look at\nthe state of things here too.",
+   "status": "done"
   },
   {
    "id": "R08:211F0",
@@ -3264,7 +3628,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nかたじけない・・・。",
-   "en": ""
+   "en": "Aragoto:\nMy humblest apologies...",
+   "status": "done"
   },
   {
    "id": "R08:21212",
@@ -3272,7 +3637,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コントロールセンターの人：\nしかたがないですね・・・。",
-   "en": ""
+   "en": "Control Center Staff:\nWell, what's done is done...",
+   "status": "done"
   },
   {
    "id": "R08:2124A",
@@ -3280,7 +3646,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ここからさきのサカの手前に\n修理工が２人おりますので、",
-   "en": ""
+   "en": "There are two mechanics ahead,\njust before the slope.",
+   "status": "done"
   },
   {
    "id": "R08:21282",
@@ -3288,7 +3655,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "カラオケセットの修理に\n向かわせてください。",
-   "en": ""
+   "en": "Please send them to repair\nthe karaoke equipment.",
+   "status": "done"
   },
   {
    "id": "R08:212B0",
@@ -3296,7 +3664,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nしょうちいたしましたわ。\n申しわけございませんでした。",
-   "en": ""
+   "en": "Sakuya:\nCertainly.\nPlease accept our apologies.",
+   "status": "done"
   },
   {
    "id": "R08:212F2",
@@ -3304,7 +3673,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "何分、おじは歌が下手で・・・。",
-   "en": ""
+   "en": "You see, my uncle is\nsuch a dreadful singer...",
+   "status": "done"
   },
   {
    "id": "R08:21312",
@@ -3312,7 +3682,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nお嬢！\nそれは言いすぎではないか？",
-   "en": ""
+   "en": "Aragoto:\nMy lady!\nIs that not a little harsh?",
+   "status": "done"
   },
   {
    "id": "R08:21342",
@@ -3320,7 +3691,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "サクヤ：\nおほほほ・・・・・。\n失礼いたしましたわ。",
-   "en": ""
+   "en": "Sakuya:\nOh ho ho...\nDo forgive me.",
+   "status": "done"
   },
   {
    "id": "R08:21378",
@@ -3328,7 +3700,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コントロールセンターの人：\n今、カラオケ店から、修理工が\n来たとレンラクがありました。",
-   "en": ""
+   "en": "Control Center Staff:\nThe karaoke shop just called.\nThe mechanics have arrived.",
+   "status": "done"
   },
   {
    "id": "R08:213D0",
@@ -3336,7 +3709,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ひとまず、これであんしんです。\nじき、直るでしょう。",
-   "en": ""
+   "en": "That's a relief for now.\nIt should be fixed soon.",
+   "status": "done"
   },
   {
    "id": "R08:21408",
@@ -3344,7 +3718,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "サクヤ：\nあら、ワタルさま。\n人がいて、さきに行けませんわ。",
-   "en": ""
+   "en": "Sakuya:\nOh, Wataru-sama. Someone is\nblocking our way forward.",
+   "status": "done"
   },
   {
    "id": "R08:21446",
@@ -3352,7 +3727,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "修理工Ａ：\nなんだい？\nここからさきには進めないよ。",
-   "en": ""
+   "en": "Mechanic A:\nWhat is it?\nYou can't go any farther.",
+   "status": "done"
   },
   {
    "id": "R08:2147C",
@@ -3360,7 +3736,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "今、このさきのケーブルを\n修理しているからね。\nさあ、帰った、帰った。",
-   "en": ""
+   "en": "We're repairing the cable\nup ahead right now.\nGo on, head back.",
+   "status": "done"
   },
   {
    "id": "R08:214C4",
@@ -3368,7 +3745,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "修理工Ｂ：\nすまんな。\n今修理中で通せないんだ。",
-   "en": ""
+   "en": "Mechanic B:\nSorry. Repairs are underway,\nso I can't let you through.",
+   "status": "done"
   },
   {
    "id": "R08:214F6",
@@ -3376,7 +3754,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "せっかくだから、\nカラオケボックスで\n歌ってこいよ。",
-   "en": ""
+   "en": "While you're here,\nwhy not go sing at\na karaoke place?",
+   "status": "done"
   },
   {
    "id": "R08:2152C",
@@ -3384,7 +3763,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そこのにいちゃんなんか\nいけるくちだろ？",
-   "en": ""
+   "en": "That fellow there looks like\nhe can belt out a tune, eh?",
+   "status": "done"
   },
   {
    "id": "R08:21556",
@@ -3392,7 +3772,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nそうだな・・・。\nカラオケか・・・・・・。",
-   "en": ""
+   "en": "Aragoto:\nIndeed...\nKaraoke, you say...",
+   "status": "done"
   },
   {
    "id": "R08:2158E",
@@ -3400,7 +3781,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そう言われると、\nひさしぶりに、\n歌いたくなってきたなぁ。",
-   "en": ""
+   "en": "Now that you mention it,\nit has been some time.\nI feel a song coming on!",
+   "status": "done"
   },
   {
    "id": "R08:215CA",
@@ -3408,7 +3790,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "みなも、\n拙の美声を聴きたいであろう？",
-   "en": ""
+   "en": "You all wish to hear\nmy glorious voice, do you not?",
+   "status": "done"
   },
   {
    "id": "R08:215F2",
@@ -3416,7 +3799,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nえ、えんりょいたしますわ。",
-   "en": ""
+   "en": "Sakuya:\nI-I shall have to decline.",
+   "status": "done"
   },
   {
    "id": "R08:21618",
@@ -3424,7 +3808,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\nぼ、ぼくも、ちょっと・・・。",
-   "en": ""
+   "en": "Wataru:\nI-I think I'll pass too...",
+   "status": "done"
   },
   {
    "id": "R08:21640",
@@ -3432,7 +3817,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\n何をえんりょしているのだ。\nさあ、歌いにいこうではないか。",
-   "en": ""
+   "en": "Aragoto:\nNo need to be so modest!\nCome, let us go and sing.",
+   "status": "done"
   },
   {
    "id": "R08:21688",
@@ -3440,7 +3826,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "拙は、この下の\nハウスタイプのカラオケ店で\n歌いたいなぁ。",
-   "en": ""
+   "en": "I wish to sing at the house\nkaraoke place down below.",
+   "status": "done"
   },
   {
    "id": "R08:216C4",
@@ -3448,7 +3835,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\nすみませ～ん。\nカラオケセット壊しちゃったんだ。",
-   "en": ""
+   "en": "Wataru:\nExcuse meee!\nWe broke the karaoke equipment.",
+   "status": "done"
   },
   {
    "id": "R08:21700",
@@ -3456,7 +3844,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "修理してちょうだ～い。",
-   "en": ""
+   "en": "Could you fix it, pleeease?",
+   "status": "done"
   },
   {
    "id": "R08:21718",
@@ -3464,7 +3853,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "修理工Ａ：\nええっ？\nカラオケが壊れた？",
-   "en": ""
+   "en": "Mechanic A:\nWhat?!\nThe karaoke equipment broke?",
+   "status": "done"
   },
   {
    "id": "R08:21742",
@@ -3472,7 +3862,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "修理工Ｂ：\nおっと出番かい？\nよし、わかった。すぐに向かおう。",
-   "en": ""
+   "en": "Mechanic B:\nOh, time for us to step in?\nAll right. We'll head over now.",
+   "status": "done"
   },
   {
    "id": "R08:21782",
@@ -3480,7 +3871,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おまえらは、コントロール\nセンターの人に、おれたちが\n修理に向かったと、つたえてくれ。",
-   "en": ""
+   "en": "Tell the control center staff\nwe've gone to repair\nthe equipment.",
+   "status": "done"
   },
   {
    "id": "R08:217DC",
@@ -3488,7 +3880,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nたまにはこうして、\nそとでハネをのばすのも",
-   "en": ""
+   "en": "Young Woman:\nGetting out and letting loose\nlike this once in a while...",
+   "status": "done"
   },
   {
    "id": "R08:21816",
@@ -3496,7 +3889,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "いいわね。\n１人じゃ寂しいけど・・・。",
-   "en": ""
+   "en": "It feels good.\nIt's lonely on my own, though...",
+   "status": "done"
   },
   {
    "id": "R08:21840",
@@ -3504,7 +3898,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nせっかくそとに来たんだから、\nカラオケにでも行こうかしら？",
-   "en": ""
+   "en": "Young Woman:\nSince I'm out here anyway,\nmaybe I'll go sing karaoke?",
+   "status": "done"
   },
   {
    "id": "R08:2188A",
@@ -3512,7 +3907,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nほお、それはいいなあ。\nお嬢さん。拙と参りませんか？",
-   "en": ""
+   "en": "Aragoto:\nAh, splendid! Young lady-san,\nwould you care to accompany me?",
+   "status": "done"
   },
   {
    "id": "R08:218CC",
@@ -3520,7 +3916,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nいえ、結構です！\n私は１人で歌いたいの！",
-   "en": ""
+   "en": "Young Woman:\nNo, thank you!\nI want to sing by myself!",
+   "status": "done"
   },
   {
    "id": "R08:21904",
@@ -3528,7 +3925,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nラララ～ラララララ・・・。",
-   "en": ""
+   "en": "Young Woman:\nLa la laaa, la la la la...",
+   "status": "done"
   },
   {
    "id": "R08:2192E",
@@ -3536,7 +3934,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "どうしたの？　って・・・。\nお金がないから、\nここで歌ってんの！",
-   "en": ""
+   "en": "What's the matter, you ask?\nI'm singing here because\nI don't have any money!",
+   "status": "done"
   },
   {
    "id": "R08:21970",
@@ -3544,7 +3943,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nつよくなるにはボーッとしていては\nダメですぞ。",
-   "en": ""
+   "en": "Man:\nYou'll never grow stronger\nby standing about in a daze!",
+   "status": "done"
   },
   {
    "id": "R08:219AC",
@@ -3552,7 +3952,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ボーリングバトルにはげむのじゃ。",
-   "en": ""
+   "en": "Work hard at Bowling Battle!",
+   "status": "done"
   },
   {
    "id": "R08:219D0",
@@ -3560,7 +3961,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nこの村には、４つのカラオケ\nボックスがあるんだよ。",
-   "en": ""
+   "en": "Man:\nThere are four karaoke places\nin this village.",
+   "status": "done"
   },
   {
    "id": "R08:21A10",
@@ -3568,7 +3970,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ＢＡＲのとなりがレゲエタイプ。\nコンビニのとなりがラップタイプ。\nこの下をおりると、ハウスタイプ。",
-   "en": ""
+   "en": "Reggae is beside the bar.\nRap is by the convenience store.\nHouse is down below.",
+   "status": "done"
   },
   {
    "id": "R08:21A74",
@@ -3576,7 +3979,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そして、もんペットショップの\nとなりがテクノタイプだ。\n４店をまわってみるといいかもね。",
-   "en": ""
+   "en": "Techno is next to the Monpet\nshop. You might want to try\nall four places.",
+   "status": "done"
   },
   {
    "id": "R08:21ACE",
@@ -3584,7 +3988,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nなるほど。\n拙は、早くハウスを歌いたいぞ。",
-   "en": ""
+   "en": "Aragoto:\nI see.\nI cannot wait to sing house!",
+   "status": "done"
   },
   {
    "id": "R08:21B06",
@@ -3592,7 +3997,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "さあ、いざ参ろうではないか！！",
-   "en": ""
+   "en": "Come, let us be off!!",
+   "status": "done"
   },
   {
    "id": "R08:21B28",
@@ -3600,7 +4006,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nカラオケボックスには行ったかい？",
-   "en": ""
+   "en": "Man:\nHave you been to a\nkaraoke place?",
+   "status": "done"
   },
   {
    "id": "R08:21B58",
@@ -4520,7 +4927,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nいよいよ、クライマックスよ。",
-   "en": ""
+   "en": "Young Woman:\nHere comes the grand finale!",
+   "status": "done"
   },
   {
    "id": "R08:236B0",
@@ -4528,7 +4936,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ここを聴き逃したら、\n今までの時間がムダになるわ。",
-   "en": ""
+   "en": "If I miss this part, all that\ntime listening will be wasted.",
+   "status": "done"
   },
   {
    "id": "R08:236E4",
@@ -4536,7 +4945,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ああっ！？　あなた達と話して\nいたら、聴き逃しちゃったわ！\nもう、だいなし・・・。",
-   "en": ""
+   "en": "Ahh?! Talking to you made me\nmiss it!\nNow it's all ruined...",
+   "status": "done"
   },
   {
    "id": "R08:23738",
@@ -4544,7 +4954,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nここ【ワルトリン城】のおくには、\n【ワルトリン】さまがおいでじゃ。",
-   "en": ""
+   "en": "Old Woman:\nDeep inside Warutorin Castle,\nWarutorin-sama awaits ye.",
+   "status": "done"
   },
   {
    "id": "R08:2378A",
@@ -4552,7 +4963,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "お目見えするのは、むずかしいぞ。",
-   "en": ""
+   "en": "Getting an audience isn't easy.",
+   "status": "done"
   },
   {
    "id": "R08:237AC",
@@ -4560,7 +4972,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nだれもいない部屋があるじゃろ。",
-   "en": ""
+   "en": "Old Woman:\nThere's an empty room,\nisn't there?",
+   "status": "done"
   },
   {
    "id": "R08:237DA",
@@ -4568,7 +4981,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そこのディスプレイの前に立って、\n○ボタンじゃ！\nさきに進むカギがあるぞい。",
-   "en": ""
+   "en": "Stand in front of its screen\nand press the circle button!\nThere's a key to moving on!",
+   "status": "done"
   },
   {
    "id": "R08:23828",
@@ -4576,7 +4990,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nイヤッー！\nじいさん、かっちょええ～！",
-   "en": ""
+   "en": "Old Woman:\nEeeek!\nYou're so dreamy, old man!",
+   "status": "done"
   },
   {
    "id": "R08:2385E",
@@ -4584,7 +4999,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "わしゃ、もうあの世へ、\n行きそうじゃて～！！",
-   "en": ""
+   "en": "I'm about ready to float\noff to the next world!!",
+   "status": "done"
   },
   {
    "id": "R08:2388C",
@@ -4592,7 +5008,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nとしがいもなく、\n【ガフィー】歌うぞ！",
-   "en": ""
+   "en": "Old Woman:\nToo old for this? Bah!\nI'm singing Gaffy!",
+   "status": "done"
   },
   {
    "id": "R08:238C2",
@@ -4600,7 +5017,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "カビとりに、いこぉー！\nすいこんでいこぉー！",
-   "en": ""
+   "en": "Let's gooo hunt down that mold!\nLet's breeeathe it all in!",
+   "status": "done"
   },
   {
    "id": "R08:238F0",
@@ -4608,7 +5026,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nたったひ～とつのハ～トで\nまもりた～いんだ、きみを！",
-   "en": ""
+   "en": "Old Woman:\nWith just this ooone heart,\nI waaant to keep you safe!",
+   "status": "done"
   },
   {
    "id": "R08:23934",
@@ -4616,7 +5035,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あっ、こんにちは～。\nワタルぼっちゃん。",
-   "en": ""
+   "en": "Oh, hellooo there,\nyoung master Wataru.",
+   "status": "done"
   },
   {
    "id": "R08:2395E",
@@ -4624,7 +5044,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "今、【ひとつのハートで】という\n曲をテクノバージョンで\n歌っていたんじゃよ。",
-   "en": ""
+   "en": "I was just singing a techno\nversion of a song called\n'With Just One Heart.'",
+   "status": "done"
   },
   {
    "id": "R08:239AC",
@@ -4632,7 +5053,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ぼっちゃん達も、覚えて\n歌ってね！",
-   "en": ""
+   "en": "You youngsters should learn it\nand sing along!",
+   "status": "done"
   },
   {
    "id": "R08:239D0",
@@ -4640,7 +5062,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nヒューヒュー！\nじいさん！　ええぞ～！",
-   "en": ""
+   "en": "Old Woman:\nWoo, woo!\nGo, old man! That's the stuff!",
+   "status": "done"
   },
   {
    "id": "R08:23A08",
@@ -4648,7 +5071,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n【ワルトリン】さまには、\n２人のおねえさまがいるそうじゃ。",
-   "en": ""
+   "en": "Old Woman:\nWarutorin-sama has two\nelder sisters, so I hear.",
+   "status": "done"
   },
   {
    "id": "R08:23A52",
@@ -4656,7 +5080,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "たしかワルジョ・ワルリリスと\nいったかのぉ・・・。",
-   "en": ""
+   "en": "Warujo and Warulilith,\nif memory serves...",
+   "status": "done"
   },
   {
    "id": "R08:23A88",
@@ -4664,7 +5089,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n音当てクイズ～！\nさあ、この音を当ててみい！",
-   "en": ""
+   "en": "Old Woman:\nName that sound!\nNow, tell me what ye hear!",
+   "status": "done"
   },
   {
    "id": "R08:23AC4",
@@ -4672,7 +5098,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "...............",
+   "status": "done"
   },
   {
    "id": "R08:23AE6",
@@ -4680,7 +5107,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "さあ、正解は！？\n無言じゃ！！\nにょほほーひっかかった、やーい！",
-   "en": ""
+   "en": "And the answer is...?!\nSilence!!\nNyo ho ho! Fooled ye! Nyah!",
+   "status": "done"
   },
   {
    "id": "R08:23B28",
@@ -4688,7 +5116,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nじいさん、今度は\nデュエットじゃ！",
-   "en": ""
+   "en": "Old Woman:\nOld man, let's sing\na duet next!",
+   "status": "done"
   },
   {
    "id": "R08:23B5C",
@@ -4696,7 +5125,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nパン・・・パン・・・。\nパン・・・パン・・・。",
-   "en": ""
+   "en": "Old Woman:\nClap... Clap...\nClap... Clap...",
+   "status": "done"
   },
   {
    "id": "R08:23B9A",
@@ -4704,7 +5134,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "じいさんや、いいかげんに\nしなされ。わしゃ、\n手びょうししづかれたわい。",
-   "en": ""
+   "en": "Enough already, old man!\nThese old hands are worn out\nfrom clapping along!",
+   "status": "done"
   },
   {
    "id": "R08:23BE4",
@@ -4712,7 +5143,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nわしを、ただのババアと思うな。\nこれでもカラオケ名人じゃ！",
-   "en": ""
+   "en": "Old Woman:\nI'm no ordinary old hag!\nI'm a karaoke master!",
+   "status": "done"
   },
   {
    "id": "R08:23C2E",
@@ -4720,7 +5152,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "今、わしは、じいさんの歌を\nさいてんしているところ。\nお主もさいてんしてほしいか？",
-   "en": ""
+   "en": "Right now, I'm scoring\nmy old man's singing.\nWant me to score yours, too?",
+   "status": "done"
   },
   {
    "id": "R08:23C84",
@@ -4728,7 +5161,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nうーむ。通路にあるドリクラを\nいじってみたいのお・・・。",
-   "en": ""
+   "en": "Old Woman:\nHmm. I'd like to try that\nDorikura out in the hall...",
+   "status": "done"
   },
   {
    "id": "R08:23CCC",
@@ -4736,7 +5170,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "早く曲がおわらんか！",
-   "en": ""
+   "en": "Will this song never end?!",
+   "status": "done"
   },
   {
    "id": "R08:23CE4",
@@ -4744,7 +5179,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nもじ・・・もじ・・・。\nも、もれそうじゃ・・・。",
-   "en": ""
+   "en": "Old Woman:\nSquirm... Squirm...\nI-I'm going to leak...",
+   "status": "done"
   },
   {
    "id": "R08:23D24",
@@ -4752,7 +5188,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "早く・・・じいさん・・・\n歌いおわってくれい・・・。\n・・・・・・あっ！？",
-   "en": ""
+   "en": "Hurry... Old man...\nFinish your song already...\n...Ah?!",
+   "status": "done"
   },
   {
    "id": "R08:23D70",
@@ -4760,7 +5197,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nドレミファソラシドー。\n音感をきたえるには、これじゃな。",
-   "en": ""
+   "en": "Old Woman:\nDo, re, mi, fa, sol, la, ti, do!\nThat'll train the old ears.",
+   "status": "done"
   },
   {
    "id": "R08:23DB8",
@@ -4768,7 +5206,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nまよったときは、通路の\nナンバーをよく見ることじゃ。",
-   "en": ""
+   "en": "Old Woman:\nIf ye get lost, take a good\nlook at the hallway numbers.",
+   "status": "done"
   },
   {
    "id": "R08:23DFC",
@@ -4776,7 +5215,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【ワルトリン】さまは\n大のカラオケ好きじゃ。",
-   "en": ""
+   "en": "Man:\nWarutorin-sama simply\nadores karaoke.",
+   "status": "done"
   },
   {
    "id": "R08:23E36",
@@ -4784,7 +5224,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "だからこそ、これだけの\nビルを作れるのじゃな。",
-   "en": ""
+   "en": "So that's how she could build\nsuch a huge building, eh?",
+   "status": "done"
   },
   {
    "id": "R08:23E68",
@@ -4792,7 +5233,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nゴーゴーゴーゴーゴー！\nワルワルワルワル、【ワルトリン】！",
-   "en": ""
+   "en": "Man:\nGo, go, go, go, go!\nWaru-waru-waru-waru, Warutorin!",
+   "status": "done"
   },
   {
    "id": "R08:23EB0",
@@ -4800,7 +5242,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nはれ～っ！？\nオーダーしたメニューと違う！",
-   "en": ""
+   "en": "Man:\nWhaaat?!\nThis isn't what I ordered!",
+   "status": "done"
   },
   {
    "id": "R08:23EE8",
@@ -4808,7 +5251,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "プン！　プン！！\n・・・モグモグ・・・。\n・・・くやしいが、うまい。",
-   "en": ""
+   "en": "Hmph! HMPH!!\n...Munch, munch...\n...Hate to admit it, but yum.",
+   "status": "done"
   },
   {
    "id": "R08:23F30",
@@ -4816,7 +5260,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nまよってないで、早くおいで！",
-   "en": ""
+   "en": "Man:\nQuit getting lost and hurry up!",
+   "status": "done"
   },
   {
    "id": "R08:23F5A",
@@ -4824,7 +5269,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・と、【ワルトリン】さま\nから電話があったぞ！",
-   "en": ""
+   "en": "...That's what Warutorin-sama\nsaid when she called!",
+   "status": "done"
   },
   {
    "id": "R08:23F90",
@@ -4832,7 +5278,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nトノプーといっしょ！\nいっしょに戦おう！",
-   "en": ""
+   "en": "Man:\nTogether with Tonopuff!\nLet's fight together!",
+   "status": "done"
   },
   {
    "id": "R08:23FC6",
@@ -4840,7 +5287,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ケロケケロデブー！",
-   "en": ""
+   "en": "Croakity-croak-a-chub!",
+   "status": "done"
   },
   {
    "id": "R08:23FDC",
@@ -4848,7 +5296,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nここはどこ！？　って思ったら、\nフロアのナンバーを見ろ！",
-   "en": ""
+   "en": "Man:\nWondering, \"Where am I?!\"\nCheck the floor number!",
+   "status": "done"
   },
   {
    "id": "R08:24022",
@@ -4856,7 +5305,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "私はだれ？　って思ったら、\nかべにあたまをぶつけてみろ！",
-   "en": ""
+   "en": "Wondering, \"Who am I?\"\nTry banging your head\nagainst the wall!",
+   "status": "done"
   },
   {
    "id": "R08:2405C",
@@ -4864,7 +5314,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nせぇくわい～じゅうでぇ\nた～ったしぃ～とりのぉ～・・・。",
-   "en": ""
+   "en": "Man:\nIn all this wiiide wooorld,\nthe ooone and ooonly...",
+   "status": "done"
   },
   {
    "id": "R08:240A2",
@@ -4872,7 +5323,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・。\nオレっちは、マリカちゃんが\nお気に入りじゃい。",
-   "en": ""
+   "en": "...\nMarika-chan's my favorite,\nI tell ya.",
+   "status": "done"
   },
   {
    "id": "R08:240DC",
@@ -4880,7 +5332,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【ワルトリン】さまの作った\nトラップはどうだ！",
-   "en": ""
+   "en": "Man:\nHow do you like\nWarutorin-sama's traps?!",
+   "status": "done"
   },
   {
    "id": "R08:24118",
@@ -4888,7 +5341,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おまえらには、とうてい\n解けねえだろ！　わっはは！",
-   "en": ""
+   "en": "You'll never figure them out!\nWah ha ha!",
+   "status": "done"
   },
   {
    "id": "R08:2414C",
@@ -4896,7 +5350,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nさいきん、曲のキーが高くなって\nついていけねえ・・・。",
-   "en": ""
+   "en": "Man:\nSongs keep getting higher.\nMy voice just can't keep up...",
+   "status": "done"
   },
   {
    "id": "R08:24190",
@@ -4904,7 +5359,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nえへへ～。",
-   "en": ""
+   "en": "Man:\nHeh heh heh!",
+   "status": "done"
   },
   {
    "id": "R08:241A8",
@@ -4912,7 +5368,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "オレは、ムピードを歌うのが\nお気に入りなんだぁ。\nごぅごぅへぇべぇん！！",
-   "en": ""
+   "en": "I love singing Mpeed's songs.\nGooo, gooo, heeeaven!!",
+   "status": "done"
   },
   {
    "id": "R08:241F4",
@@ -4920,7 +5377,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nむかしはオレも・・・ドリクラが\n流行っているようだのぅ。",
-   "en": ""
+   "en": "Man:\nBack in my day... Dorikura\nseems all the rage now, eh?",
+   "status": "done"
   },
   {
    "id": "R08:2423A",
@@ -4928,7 +5386,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "何を言ってるのか、なっつぃんぐ。\nちけらっ！\nナットー・キングコングいぇーい！",
-   "en": ""
+   "en": "What am I sayin'? Got nothin'!\nCheck it out!\nNatto King Kong, yeah!",
+   "status": "done"
   },
   {
    "id": "R08:2428C",
@@ -4936,7 +5395,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nカラオケボックスで\nとるドリンクは・・・。",
-   "en": ""
+   "en": "Man:\nThe drink to have\nat karaoke is...",
+   "status": "done"
   },
   {
    "id": "R08:242C4",
@@ -4944,7 +5404,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "やはり、アオジルじゃの！\nんー、おかわり！",
-   "en": ""
+   "en": "Why, green veggie juice!\nMmm, another glass!",
+   "status": "done"
   },
   {
    "id": "R08:242F0",
@@ -4952,7 +5413,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nヨーロレリレイレイ\nレレルゥ～！！",
-   "en": ""
+   "en": "Man:\nYodel-ay-hee-ay-ay,\nyodel-oooh!!",
+   "status": "done"
   },
   {
    "id": "R08:24320",
@@ -4960,7 +5422,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nさけべ！　心のそこから！\n開け！　魂の扉を！",
-   "en": ""
+   "en": "Man:\nShout from deep in your heart!\nThrow open your soul's door!",
+   "status": "done"
   },
   {
    "id": "R08:2435C",
@@ -4968,7 +5431,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n歌っていると、時々、\n人生って何？　って考える",
-   "en": ""
+   "en": "Man:\nSometimes, when I sing, I think,\n\"What's life all about?\"",
+   "status": "done"
   },
   {
    "id": "R08:24398",
@@ -4976,7 +5440,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ぼうやは、まだまだ考えなくて\nいいけど、歌にはさまざまな\n人生がしみこんでいるのさ・・・。",
-   "en": ""
+   "en": "You're too young to worry, boy,\nbut songs are steeped in\nall kinds of people's lives...",
+   "status": "done"
   },
   {
    "id": "R08:243F4",
@@ -4984,7 +5449,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n無人の部屋があったでしょう。\nディスプレイがくせものなのよ。",
-   "en": ""
+   "en": "Young Woman:\nYou saw that empty room, right?\nThe screen's the tricky part.",
+   "status": "done"
   },
   {
    "id": "R08:24440",
@@ -4992,7 +5458,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ディスプレイの前で○ボタンを\n押すと、音当てクイズが始まるの。\n当たると・・・うふふふ！",
-   "en": ""
+   "en": "Press circle at the screen\nto start a sound quiz.\nGet it right, and... Hee hee!",
+   "status": "done"
   },
   {
    "id": "R08:2449C",
@@ -5000,7 +5467,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\nひゃーっほー！\nいけいけー！",
-   "en": ""
+   "en": "Young Woman:\nYee-haaa!\nGo, go, go!",
+   "status": "done"
   },
   {
    "id": "R08:244C8",
@@ -5008,7 +5476,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n実は、私達フリンしているのよ。",
-   "en": ""
+   "en": "Young Woman:\nActually, we're having\nan affair.",
+   "status": "done"
   },
   {
    "id": "R08:244F6",
@@ -5016,7 +5485,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ウソよ。\nちょっと、ドキドキした？",
-   "en": ""
+   "en": "Just kidding.\nDid your heart skip a beat?",
+   "status": "done"
   },
   {
    "id": "R08:2451C",
@@ -5024,7 +5494,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\nただでカラオケがたのしめるとは\nさすがは【ワルトリン】さまね！",
-   "en": ""
+   "en": "Young Woman:\nFree karaoke for everyone!\nThat's our Warutorin-sama!",
+   "status": "done"
   },
   {
    "id": "R08:2456C",
@@ -5032,7 +5503,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\nこの歌ってなぜか眠くなる\nのよね・・・。ふわぁ～。",
-   "en": ""
+   "en": "Young Woman:\nThis song makes me sleepy.\nI wonder why... Yaaawn.",
+   "status": "done"
   },
   {
    "id": "R08:245B0",
@@ -5040,7 +5512,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\nふふん。ふふん。",
-   "en": ""
+   "en": "Young Woman:\nHmm-hmm. Hmm-hmm.",
+   "status": "done"
   },
   {
    "id": "R08:245D0",
@@ -5048,7 +5521,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nあなたは、なぜ・・・\n目がはなれているのぉぉぉ・・・。",
-   "en": ""
+   "en": "Young Woman:\nWhy, oh whyyy...\nAre your eyes so far apaaart...?",
+   "status": "done"
   },
   {
    "id": "R08:24616",
@@ -5056,7 +5530,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "でも、あたしはぁぁぁ・・・\nそんなあなたが好きなのよー。\nあなたは、あなたは、プロタン～。",
-   "en": ""
+   "en": "But III...\nLove you just the way you aaare!\nYou're, you're, Protan!",
+   "status": "done"
   },
   {
    "id": "R08:24674",
@@ -5064,7 +5539,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\nイエーイ！　ジョりーっ！！\n今日も決まってるぅー！！",
-   "en": ""
+   "en": "Young Woman:\nYeah! Jollyyy!!\nLooking sharp as ever!!",
+   "status": "done"
   },
   {
    "id": "R08:246B8",
@@ -5072,7 +5548,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nワァオッ！　もぉサイコー！！",
-   "en": ""
+   "en": "Young Woman:\nWow! This is the beeest!!",
+   "status": "done"
   },
   {
    "id": "R08:246E4",
@@ -5080,7 +5557,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nふんふんふん～。\nいい曲ねっ！",
-   "en": ""
+   "en": "Young Woman:\nHmm, hmm, hmmm!\nWhat a great song!",
+   "status": "done"
   },
   {
    "id": "R08:24714",
@@ -5088,7 +5566,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n何だかんだいっても、\nカラオケに１２時間もいれば、",
-   "en": ""
+   "en": "Young Woman:\nWhatever you say, after\n12 hours of karaoke,",
+   "status": "done"
   },
   {
    "id": "R08:24756",
@@ -5096,7 +5575,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そりゃあきるわよ・・・。",
-   "en": ""
+   "en": "of course you get bored...",
+   "status": "done"
   },
   {
    "id": "R08:24770",
@@ -5104,7 +5584,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\n何だか、しあわせな気分に\nなってきたわ。",
-   "en": ""
+   "en": "Young Woman:\nSomehow, I'm starting\nto feel really happy.",
+   "status": "done"
   },
   {
    "id": "R08:247A8",
@@ -5112,7 +5593,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\n演歌を歌っても、え～んかい！？\n・・・だめだろな・・・。",
-   "en": ""
+   "en": "Young Woman:\nEnka? En-can I sing it here?!\n...Probably not...",
+   "status": "done"
   },
   {
    "id": "R08:247F0",
@@ -5120,7 +5602,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nいぇーい、のりのりだぜぇー！\nのりがかわいて、バリバリだぜぇ！",
-   "en": ""
+   "en": "Young Woman:\nYeah! We're on a roll, baby!\nA dry, crunchy seaweed roll!",
+   "status": "done"
   },
   {
    "id": "R08:24840",
@@ -5128,7 +5611,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n白身とキミとの間には～\nナイフできれないカベがあ～る。",
-   "en": ""
+   "en": "Young Woman:\nBetween egg white and yolky you,\na wall no knife can cuuut...",
+   "status": "done"
   },
   {
    "id": "R08:24886",
@@ -5136,7 +5620,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "タマゴをわぁ～ってくれるなら、\nボクはスープのアクをとる！",
-   "en": ""
+   "en": "If you'll craaack that egg,\nI'll skim the scum off the soup!",
+   "status": "done"
   }
  ]
 }

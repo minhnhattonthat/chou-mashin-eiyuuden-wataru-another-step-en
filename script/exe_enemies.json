@@ -9,210 +9,240 @@
    "slot": 0,
    "max": 10,
    "jp": "プロタン",
-   "en": ""
+   "en": "Protan",
+   "status": "done"
   },
   {
    "id": "EXE:80314",
    "slot": 1,
    "max": 10,
    "jp": "ガメルタート",
-   "en": ""
+   "en": "Turtzilla",
+   "status": "done"
   },
   {
    "id": "EXE:80328",
    "slot": 2,
    "max": 10,
    "jp": "ヒドラン",
-   "en": ""
+   "en": "Hydran",
+   "status": "done"
   },
   {
    "id": "EXE:8033C",
    "slot": 3,
    "max": 10,
    "jp": "メゴトンボ",
-   "en": ""
+   "en": "Megadragonfly",
+   "status": "done"
   },
   {
    "id": "EXE:80350",
    "slot": 4,
    "max": 10,
    "jp": "ドラクン",
-   "en": ""
+   "en": "Draglet",
+   "status": "done"
   },
   {
    "id": "EXE:80364",
    "slot": 5,
    "max": 10,
    "jp": "モラン",
-   "en": ""
+   "en": "Molan",
+   "status": "done"
   },
   {
    "id": "EXE:80378",
    "slot": 6,
    "max": 10,
    "jp": "モーレム",
-   "en": ""
+   "en": "Molem",
+   "status": "done"
   },
   {
    "id": "EXE:8038C",
    "slot": 7,
    "max": 10,
    "jp": "チビゾウ",
-   "en": ""
+   "en": "Tinyphant",
+   "status": "done"
   },
   {
    "id": "EXE:803A0",
    "slot": 8,
    "max": 10,
    "jp": "バット",
-   "en": ""
+   "en": "Bat",
+   "status": "done"
   },
   {
    "id": "EXE:803B4",
    "slot": 9,
    "max": 10,
    "jp": "ココロンボ",
-   "en": ""
+   "en": "Heartumbo",
+   "status": "done"
   },
   {
    "id": "EXE:803C8",
    "slot": 10,
    "max": 10,
    "jp": "ターニャ",
-   "en": ""
+   "en": "Tanya",
+   "status": "done"
   },
   {
    "id": "EXE:803DC",
    "slot": 11,
    "max": 10,
    "jp": "レオアーニャ",
-   "en": ""
+   "en": "Leomeow",
+   "status": "done"
   },
   {
    "id": "EXE:803F0",
    "slot": 12,
    "max": 10,
    "jp": "チュン",
-   "en": ""
+   "en": "Chirp",
+   "status": "done"
   },
   {
    "id": "EXE:80404",
    "slot": 13,
    "max": 10,
    "jp": "ハムラーダ",
-   "en": ""
+   "en": "Hamsterado",
+   "status": "done"
   },
   {
    "id": "EXE:80418",
    "slot": 14,
    "max": 10,
    "jp": "バモスター",
-   "en": ""
+   "en": "Bamster",
+   "status": "done"
   },
   {
    "id": "EXE:8042C",
    "slot": 15,
    "max": 10,
    "jp": "ファイヤード",
-   "en": ""
+   "en": "Firebird",
+   "status": "done"
   },
   {
    "id": "EXE:80440",
    "slot": 16,
    "max": 10,
    "jp": "ティンク",
-   "en": ""
+   "en": "Tink",
+   "status": "done"
   },
   {
    "id": "EXE:80454",
    "slot": 17,
    "max": 10,
    "jp": "キメル",
-   "en": ""
+   "en": "Chimer",
+   "status": "done"
   },
   {
    "id": "EXE:80468",
    "slot": 18,
    "max": 10,
    "jp": "ギルバック",
-   "en": ""
+   "en": "Gillback",
+   "status": "done"
   },
   {
    "id": "EXE:8047C",
    "slot": 19,
    "max": 10,
    "jp": "ワオドーベル",
-   "en": ""
+   "en": "Wowberman",
+   "status": "done"
   },
   {
    "id": "EXE:80490",
    "slot": 20,
    "max": 10,
    "jp": "ワオバーナル",
-   "en": ""
+   "en": "Wowbernard",
+   "status": "done"
   },
   {
    "id": "EXE:804A4",
    "slot": 21,
    "max": 10,
    "jp": "モル",
-   "en": ""
+   "en": "Mol",
+   "status": "done"
   },
   {
    "id": "EXE:804B8",
    "slot": 22,
    "max": 10,
    "jp": "キララ",
-   "en": ""
+   "en": "Sparkle",
+   "status": "done"
   },
   {
    "id": "EXE:804CC",
    "slot": 23,
    "max": 10,
    "jp": "ヘイル",
-   "en": ""
+   "en": "Hail",
+   "status": "done"
   },
   {
    "id": "EXE:804E0",
    "slot": 24,
    "max": 10,
    "jp": "ベビル",
-   "en": ""
+   "en": "Babevil",
+   "status": "done"
   },
   {
    "id": "EXE:804F4",
    "slot": 25,
    "max": 10,
    "jp": "タマプー",
-   "en": ""
+   "en": "Tadpuff",
+   "status": "done"
   },
   {
    "id": "EXE:80508",
    "slot": 26,
    "max": 10,
    "jp": "ケロプー",
-   "en": ""
+   "en": "Croakpuff",
+   "status": "done"
   },
   {
    "id": "EXE:8051C",
    "slot": 27,
    "max": 10,
    "jp": "トノケロ",
-   "en": ""
+   "en": "Lord Croak",
+   "status": "done"
   },
   {
    "id": "EXE:80530",
    "slot": 28,
    "max": 10,
    "jp": "キンケロ",
-   "en": ""
+   "en": "Gold Croak",
+   "status": "done"
   },
   {
    "id": "EXE:80544",
    "slot": 29,
    "max": 10,
    "jp": "キングトノプ",
-   "en": ""
+   "en": "King Croakpuff",
+   "status": "done"
   }
  ]
 }

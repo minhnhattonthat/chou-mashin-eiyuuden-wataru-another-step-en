@@ -8,7 +8,8 @@
    "max": 7,
    "len_at": "02621",
    "jp": "コンバッドール",
-   "en": ""
+   "en": "Combat Doll",
+   "status": "done"
   },
   {
    "id": "ENE06:025B0",
@@ -16,7 +17,8 @@
    "max": 7,
    "len_at": "02635",
    "jp": "あめりかちゃん",
-   "en": ""
+   "en": "Yankee-chan",
+   "status": "done"
   },
   {
    "id": "ENE06:025C0",
@@ -24,28 +26,32 @@
    "max": 9,
    "len_at": "02649",
    "jp": "フルメタルジェーン",
-   "en": ""
+   "en": "Steel Jane",
+   "status": "done"
   },
   {
    "id": "ENE06:025D4",
    "kind": "bname",
    "max": 7,
    "jp": "コンバッドール",
-   "en": ""
+   "en": "Combat Doll",
+   "status": "done"
   },
   {
    "id": "ENE06:025DC",
    "kind": "bname",
    "max": 11,
    "jp": "あめりかちゃん",
-   "en": ""
+   "en": "Yankee-chan",
+   "status": "done"
   },
   {
    "id": "ENE06:025E8",
    "kind": "bname",
    "max": 11,
    "jp": "フルメタルジェーン",
-   "en": ""
+   "en": "Steel Jane",
+   "status": "done"
   }
  ]
 }

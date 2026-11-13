@@ -8,7 +8,8 @@
    "max": 11,
    "len_at": "02C51",
    "jp": "かくれんぼうショウグン",
-   "en": ""
+   "en": "Hide Shogun",
+   "status": "done"
   },
   {
    "id": "ENE11:02BA8",
@@ -16,7 +17,8 @@
    "max": 11,
    "len_at": "02C65",
    "jp": "さびしんぼうショウグン",
-   "en": ""
+   "en": "Lone Shogun",
+   "status": "done"
   },
   {
    "id": "ENE11:02BC0",
@@ -24,7 +26,8 @@
    "max": 9,
    "len_at": "02C79",
    "jp": "なかおちショウグン",
-   "en": ""
+   "en": "Tuna Shogun",
+   "status": "done"
   },
   {
    "id": "ENE11:02BD4",
@@ -32,35 +35,40 @@
    "max": 10,
    "len_at": "02C8D",
    "jp": "もとくらしショウグン",
-   "en": ""
+   "en": "Dim Shogun",
+   "status": "done"
   },
   {
    "id": "ENE11:02BE8",
    "kind": "bname",
    "max": 11,
    "jp": "かくれんぼうショウグン",
-   "en": ""
+   "en": "Hide Shogun",
+   "status": "done"
   },
   {
    "id": "ENE11:02BF4",
    "kind": "bname",
    "max": 11,
    "jp": "さびしんぼうショウグン",
-   "en": ""
+   "en": "Lone Shogun",
+   "status": "done"
   },
   {
    "id": "ENE11:02C00",
    "kind": "bname",
    "max": 11,
    "jp": "なかおちショウグン",
-   "en": ""
+   "en": "Tuna Shogun",
+   "status": "done"
   },
   {
    "id": "ENE11:02C0C",
    "kind": "bname",
    "max": 11,
    "jp": "もとくらしショウグン",
-   "en": ""
+   "en": "Dim Shogun",
+   "status": "done"
   }
  ]
 }

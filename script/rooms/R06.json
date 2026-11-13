@@ -1920,7 +1920,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nふんじゃぁねぇ！",
-   "en": ""
+   "en": "Himiko:\nSee ya laaater!",
+   "status": "done"
   },
   {
    "id": "R06:20068",
@@ -1928,7 +1929,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nあ～、もう！\nピリピリして、うざってぇ～！",
-   "en": ""
+   "en": "Boy:\nUgh, come ON!\nAll this zapping is so annoying!",
+   "status": "done"
   },
   {
    "id": "R06:200A2",
@@ -1936,7 +1938,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【サンダール】のやつ、\n静電気ばらまきすぎなんだよ！\nうぁ～、いらいらいらいら・・・。",
-   "en": ""
+   "en": "That Thundar's spreading way\n too much static around!\nUgh, it drives me nuts...",
+   "status": "done"
   },
   {
    "id": "R06:200FC",
@@ -1944,7 +1947,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nきゃっ！\nなんでこんなにピリピリするの？",
-   "en": ""
+   "en": "Girl:\nEek!\nWhy do I keep getting zapped?",
+   "status": "done"
   },
   {
    "id": "R06:20134",
@@ -1952,7 +1956,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいちゃんたち、わかる？\nえっ？　せーでんきぃ～？\nなぁに、それ？",
-   "en": ""
+   "en": "Do you guys know why?\nHuh? Sta-tic elec-tricity?\nWhat's that?",
+   "status": "done"
   },
   {
    "id": "R06:2017C",
@@ -1960,7 +1965,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\nいや～ん！　近寄んないでよ！\nバチバチしちゃうじゃない！",
-   "en": ""
+   "en": "Girl:\nEwww! Don't come near me!\nYou'll make sparks fly!",
+   "status": "done"
   },
   {
    "id": "R06:201C4",
@@ -1968,7 +1974,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nこの村には、【ワルモンダー】の\n手先が２人もいるんだ。",
-   "en": ""
+   "en": "Young Man:\nThis village has two of\nWarumonder's henchmen in it.",
+   "status": "done"
   },
   {
    "id": "R06:2020A",
@@ -1976,7 +1983,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "１人は【サンダール】といって、\nそこら中、静電気だらけにして\nよろこんでいるやつだ。",
-   "en": ""
+   "en": "One's called Thundar.\nHe gets his kicks spreading\nstatic electricity everywhere.",
+   "status": "done"
   },
   {
    "id": "R06:20260",
@@ -1984,7 +1992,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "もう１人は【ビリビリマン】。\n強烈な電撃をあやつれる。",
-   "en": ""
+   "en": "The other is Biribiri Man.\nHe can control powerful\nelectric shocks.",
+   "status": "done"
   },
   {
    "id": "R06:20298",
@@ -1992,7 +2001,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【サンダール】なら、\n【ビリビリ城】にいるぞ。\n左がわの村外れに行ってみな。",
-   "en": ""
+   "en": "Thundar's in Biribiri Castle.\nTry the outskirts on the left\nside of the village.",
+   "status": "done"
   },
   {
    "id": "R06:202E8",
@@ -2000,7 +2010,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n【サンダール】のやつなら、\nよくこの街にやって来るぜ。",
-   "en": ""
+   "en": "Man:\nThat Thundar fellow?\nHe comes to town all the time.",
+   "status": "done"
   },
   {
    "id": "R06:2032C",
@@ -2008,7 +2019,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "「はぁーあゴシゴシ」とか\n言いながら、そこら中に\n静電気をばらまいていきやがる。",
-   "en": ""
+   "en": "He goes, \"Ahhh, rub-a-dub-dub!\"\nand spreads static electricity\nall over the blasted place.",
+   "status": "done"
   },
   {
    "id": "R06:20380",
@@ -2016,7 +2028,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nきゃっ！\nもう、むやみに近寄らないでよ！",
-   "en": ""
+   "en": "Young Woman:\nEek!\nDon't just come up to me!",
+   "status": "done"
   },
   {
    "id": "R06:203B8",
@@ -2024,7 +2037,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "静電気がすごくて、\nみんなピリピリしているの！",
-   "en": ""
+   "en": "The static's so bad,\neveryone's feeling prickly!",
+   "status": "done"
   },
   {
    "id": "R06:203E8",
@@ -2032,7 +2046,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "それでみんな、\nこの街を【ビリビリタウン】って\n呼んでいるのよ。",
-   "en": ""
+   "en": "That's why everyone calls\nthis place Biribiri Town.",
+   "status": "done"
   },
   {
    "id": "R06:2042C",
@@ -2040,7 +2055,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\nちょっと！　あっち行ってよ！\nピリピリするでしょう！",
-   "en": ""
+   "en": "Young Woman:\nHey! Get away from me!\nYou're giving me shocks!",
+   "status": "done"
   },
   {
    "id": "R06:20470",
@@ -2048,7 +2064,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nピリッ！　あ～ん、これじゃ、\nかれとデートもできな～い！",
-   "en": ""
+   "en": "Young Woman:\nZap! Awww, now I can't even\ngo on a date with my boyfriend!",
+   "status": "done"
   },
   {
    "id": "R06:204B8",
@@ -2056,7 +2073,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nあら、あなたよわそうね・・・。\nこれで強くなってよ。",
-   "en": ""
+   "en": "Young Woman:\nOh, you look rather weak...\nUse this to get stronger.",
+   "status": "done"
   },
   {
    "id": "R06:204FC",
@@ -2064,7 +2082,8 @@
    "kind": "next",
    "end": "A000",
    "jp": "あがってマスクを手に入れた！",
-   "en": ""
+   "en": "Got Mask Me Up!",
+   "status": "done"
   },
   {
    "id": "R06:20520",
@@ -2072,7 +2091,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "おねえさん：\nあがってマスクは使ってくれた？",
-   "en": ""
+   "en": "Young Woman:\nHave you used Mask Me Up yet?",
+   "status": "done"
   },
   {
    "id": "R06:20550",
@@ -2080,7 +2100,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nあら、さっきあなたにソックリな\n子がいたわ・・・。",
-   "en": ""
+   "en": "Young Woman:\nOh, I just saw a boy who\nlooked exactly like you...",
+   "status": "done"
   },
   {
    "id": "R06:20592",
@@ -2088,7 +2109,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もしかして、ふたご？",
-   "en": ""
+   "en": "Are you twins, by any chance?",
+   "status": "done"
   },
   {
    "id": "R06:205A8",
@@ -2096,7 +2118,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nはあ～ゴシゴシ。\nいいぞう、これは。",
-   "en": ""
+   "en": "Man:\nAhhh, rub-a-dub-dub.\nNow this is good stuff.",
+   "status": "done"
   },
   {
    "id": "R06:205DA",
@@ -2104,7 +2127,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "下敷きであたまをゴシゴシしたら、\nかみが立つ、立つ！\nこの調子でかみをきたえるぞー！",
-   "en": ""
+   "en": "Rub my head with a pencil board,\nand my hair stands right up!\nI'll keep training it like this!",
+   "status": "done"
   },
   {
    "id": "R06:20630",
@@ -2112,7 +2136,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nゴシゴシ。ゴシゴシ。\nはあ～ぁ、きく～ぅ。",
-   "en": ""
+   "en": "Man:\nRub, rub. Rub, rub.\nAhhhh, that hits the spot!",
+   "status": "done"
   },
   {
    "id": "R06:20668",
@@ -2120,7 +2145,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【サンダール】って\nどんなやつか知っているかい？",
-   "en": ""
+   "en": "Man:\nDo you know what kind of\nfellow Thundar is?",
+   "status": "done"
   },
   {
    "id": "R06:206A6",
@@ -2128,7 +2154,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "知っている。\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Do you know him?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R06:206CC",
@@ -2136,7 +2163,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nそうか、ならいいんだ。",
-   "en": ""
+   "en": "Man:\nOh, all right, then.",
+   "status": "done"
   },
   {
    "id": "R06:206F0",
@@ -2144,7 +2172,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【サンダール】は、元は\nロックンローラーだったんだ。",
-   "en": ""
+   "en": "Man:\nThundar used to be\na rock 'n' roller.",
+   "status": "done"
   },
   {
    "id": "R06:20732",
@@ -2152,7 +2181,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "みんなをしびれさせたい一心で\nこんなことになるなんてなぁ。",
-   "en": ""
+   "en": "All he wanted was to give folks\nan electrifying show.\nWho knew it'd come to this?",
+   "status": "done"
   },
   {
    "id": "R06:20770",
@@ -2160,7 +2190,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nみんな静電気のせいで\nいらいらしてるからなぁ。",
-   "en": ""
+   "en": "Man:\nThe static's got everyone\nin a foul mood.",
+   "status": "done"
   },
   {
    "id": "R06:207AC",
@@ -2168,7 +2199,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おめえさんたち、見たところ\nよそもんのようだが、\nつめたくされても、めげるなよ！",
-   "en": ""
+   "en": "You folks look like outsiders.\nDon't lose heart if people\ngive you the cold shoulder!",
+   "status": "done"
   },
   {
    "id": "R06:207FE",
@@ -2176,7 +2208,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "静電気なんか、\n気にせんでええきに～！",
-   "en": ""
+   "en": "Don't get all charged up\nabout a little static!",
+   "status": "done"
   },
   {
    "id": "R06:20828",
@@ -2184,7 +2217,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "源ゴロー：\nへっへっへっ。\nこのサンダルがあれば・・・。",
-   "en": ""
+   "en": "Gengoro:\nHeh heh heh.\nWith these sandals...",
+   "status": "done"
   },
   {
    "id": "R06:20862",
@@ -2192,7 +2226,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ビリビリしなくてすむぜぇ。",
-   "en": ""
+   "en": "I won't get zapped anymore!",
+   "status": "done"
   },
   {
    "id": "R06:20880",
@@ -2200,7 +2235,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\nいたっ！　コップに口をつけた\nだけでピリピリするわぁ。",
-   "en": ""
+   "en": "Woman:\nOw! Just touching my lips to\na cup gives me a shock!",
+   "status": "done"
   },
   {
    "id": "R06:208C4",
@@ -2208,7 +2244,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もう！\nこれじゃ何ものめないわよ！！",
-   "en": ""
+   "en": "Oh, come on!\nI can't drink a thing like this!",
+   "status": "done"
   },
   {
    "id": "R06:208EC",
@@ -2216,7 +2253,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\n源ゴローのやつ、また、\nさかばに入りびたって・・・。",
-   "en": ""
+   "en": "Woman:\nThat Gengoro's spending all\nhis time at the tavern again...",
+   "status": "done"
   },
   {
    "id": "R06:2092E",
@@ -2224,7 +2262,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "さっきなんか、サンダルを\nひろってきて、みんなに\nじまんしてんだもんねぇ・・・。",
-   "en": ""
+   "en": "Just now, he brought in some\nsandals he'd found and started\nshowing them off to everyone...",
+   "status": "done"
   },
   {
    "id": "R06:20980",
@@ -2232,7 +2271,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "くずなおとこだよ、まったく。",
-   "en": ""
+   "en": "What a worthless man. Honestly!",
+   "status": "done"
   },
   {
    "id": "R06:209A0",
@@ -2240,7 +2280,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\n静電気はすばらしいのぉ。\nこのピリピリするのがたまらん。",
-   "en": ""
+   "en": "Old Woman:\nStatic electricity is wonderful.\nI can't get enough of that zap!",
+   "status": "done"
   },
   {
    "id": "R06:209E8",
@@ -2248,7 +2289,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ウンチクおばあさん：\n静電気はのぉ、\nマサツによって起きるのじゃ。",
-   "en": ""
+   "en": "Know-It-All Granny:\nStatic electricity, ye see,\nis caused by friction.",
+   "status": "done"
   },
   {
    "id": "R06:20A2C",
@@ -2256,7 +2298,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "マサシじゃないぞ。マサツじゃ。\n下敷きなどで、フクをゴシゴシ\nすると、ピリピリするじゃろう。",
-   "en": ""
+   "en": "Friction, not fiction! Rub yer\nclothes with a pencil board,\nand ye get a zap, don't ye?",
+   "status": "done"
   },
   {
    "id": "R06:20A8A",
@@ -2264,7 +2307,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これが静電気じゃ。\nためになったじゃろう？",
-   "en": ""
+   "en": "That's static electricity.\nLearned something useful, eh?",
+   "status": "done"
   },
   {
    "id": "R06:20AB8",
@@ -2272,7 +2316,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "ウンチクおばあさん：\nなぜ、静電気と呼ばれるか\n知っておるかい？",
-   "en": ""
+   "en": "Know-It-All Granny:\nDo ye know why it's called\nstatic electricity?",
+   "status": "done"
   },
   {
    "id": "R06:20AFA",
@@ -2280,7 +2325,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "静電気はのぉ、電流とならず、\nモノの表面や内部にとどまって\n静止している電気のことじゃ。",
-   "en": ""
+   "en": "It stays on or inside things,\nwithout flowing as a current.\nElectricity sitting still, see?",
+   "status": "done"
   },
   {
    "id": "R06:20B54",
@@ -2288,7 +2334,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "静止する電気じゃから、\n静電気というんじゃな。\nためになったじゃろう？",
-   "en": ""
+   "en": "It's called static electricity\nbecause it stays still.\nLearned something useful, eh?",
+   "status": "done"
   },
   {
    "id": "R06:20B9C",
@@ -2296,7 +2343,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nいや～いいわい、\nこのビリッとくる感じは！",
-   "en": ""
+   "en": "Old Man:\nAhhh, lovely!\nI love that little jolt!",
+   "status": "done"
   },
   {
    "id": "R06:20BD6",
@@ -2304,7 +2352,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "元気が出てくるわい！",
-   "en": ""
+   "en": "It perks me right up!",
+   "status": "done"
   },
   {
    "id": "R06:20BEC",
@@ -2312,7 +2361,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n【サンダール】はなぁ、昔は\nロックンローラーだったんじゃ。",
-   "en": ""
+   "en": "Old Man:\nThundar used to be\na rock 'n' roller, ye know.",
+   "status": "done"
   },
   {
    "id": "R06:20C36",
@@ -2320,7 +2370,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "「みんなをしびれさせてやるぜ！」\n・・・なんて、いきまいていたが、\nまさか静電気でくるとは・・・。",
-   "en": ""
+   "en": "\"I'll electrify the crowd!\"\nhe'd boast. Who'd have thought\nhe meant with static...?",
+   "status": "done"
   },
   {
    "id": "R06:20C9C",
@@ -2328,7 +2379,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\n【サンダール】には、\n心を入れかえてもらいたいのぉ。",
-   "en": ""
+   "en": "Old Man:\nI wish Thundar would\nhave a change of heart.",
+   "status": "done"
   },
   {
    "id": "R06:20CE0",
@@ -2336,7 +2388,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "いきなロックンローラーとして、\nみんなを楽しくしびれさせて\nほしいのだがな・・・。",
-   "en": ""
+   "en": "I wish he'd be a cool\nrock 'n' roller and electrify\nfolks with good music...",
+   "status": "done"
   },
   {
    "id": "R06:20D34",
@@ -2344,7 +2397,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はじめてのおとこの子：\nなあ、キスしようよ。",
-   "en": ""
+   "en": "First Boy:\nHey, let's kiss.",
+   "status": "done"
   },
   {
    "id": "R06:20D62",
@@ -2352,7 +2406,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はじめてのおんなの子：\nうん。",
-   "en": ""
+   "en": "First Girl:\nOkay.",
+   "status": "done"
   },
   {
    "id": "R06:20D82",
@@ -2360,7 +2415,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・。\nチュッ！　ピリッ！！",
-   "en": ""
+   "en": ".........\nSmooch! ZAP!!",
+   "status": "done"
   },
   {
    "id": "R06:20DAE",
@@ -2368,7 +2424,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "はじめてのおとこの子：\nうわぁ！　何だこれ？\nこれがキスのあじか・・・？",
-   "en": ""
+   "en": "First Boy:\nWhoa! What was that?\nIs that what a kiss feels like?",
+   "status": "done"
   },
   {
    "id": "R06:20DF8",
@@ -2376,7 +2433,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\nさっきサンダルはいている\nおじさんを見かけたよ。",
-   "en": ""
+   "en": "Girl:\nI just saw a man\nwearing sandals.",
+   "status": "done"
   },
   {
    "id": "R06:20E38",
@@ -2384,7 +2442,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\nきゃっ！　ビリビリしたっ！\nもー、近づかないでよ！",
-   "en": ""
+   "en": "Girl:\nEek! I got zapped!\nHey, don't come near me!",
+   "status": "done"
   },
   {
    "id": "R06:20E7C",
@@ -2392,7 +2451,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "はじめてのおとこの子：\nなあ、キスしようよ。",
-   "en": ""
+   "en": "First Boy:\nHey, let's kiss.",
+   "status": "done"
   },
   {
    "id": "R06:20EAA",
@@ -2400,7 +2460,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はじめてのおんなの子：\nうん。",
-   "en": ""
+   "en": "First Girl:\nOkay.",
+   "status": "done"
   },
   {
    "id": "R06:20ECA",
@@ -2408,7 +2469,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・。\nチュッ！　ピリッ！！",
-   "en": ""
+   "en": ".........\nSmooch! ZAP!!",
+   "status": "done"
   },
   {
    "id": "R06:20EF6",
@@ -2416,7 +2478,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "はじめてのおとこの子：\nうわぁ！　何だこれ？\nこれがキスのあじか・・・？",
-   "en": ""
+   "en": "First Boy:\nWhoa! What was that?\nIs that what a kiss feels like?",
+   "status": "done"
   },
   {
    "id": "R06:20F40",
@@ -2424,7 +2487,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n水は電気をよく通す。\nゴムは電気を通さない。",
-   "en": ""
+   "en": "Young Man:\nWater conducts electricity well.\nRubber doesn't conduct it.",
+   "status": "done"
   },
   {
    "id": "R06:20F7C",
@@ -2432,7 +2496,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おぼえておくと、いいよ。",
-   "en": ""
+   "en": "That's worth remembering.",
+   "status": "done"
   },
   {
    "id": "R06:20F98",
@@ -2440,7 +2505,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nさっき、街の左おくで、\n【サンダール】を見たぞ。",
-   "en": ""
+   "en": "Man:\nI just saw Thundar at the\nback of town, on the left.",
+   "status": "done"
   },
   {
    "id": "R06:20FD6",
@@ -2448,7 +2514,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "またしょうこりもなく、\n「はあ～ぁゴシゴシ」と下敷きで\n静電気を起こしていたぞ。",
-   "en": ""
+   "en": "At it again! \"Ahhh, rub-a-dub!\"\nRubbing a pencil board to\nmake static electricity.",
+   "status": "done"
   },
   {
    "id": "R06:21028",
@@ -2456,7 +2523,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nやつがなぜ、静電気を\n起こしているのか、わからん。",
-   "en": ""
+   "en": "Man:\nI don't know why he's making\nall that static electricity.",
+   "status": "done"
   },
   {
    "id": "R06:21068",
@@ -2464,7 +2532,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nこの先の道は、正しい順番で\n進まないと、ループするわよ。",
-   "en": ""
+   "en": "Young Woman:\nThe road ahead loops unless\nyou take the turns in order.",
+   "status": "done"
   },
   {
    "id": "R06:210B0",
@@ -2472,7 +2541,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\n救世主さま、あそこの宝箱を\n開けておいたほうがいいですぞ。",
-   "en": ""
+   "en": "Man:\nSavior-sama, you ought to open\nthat treasure chest over there.",
+   "status": "done"
   },
   {
    "id": "R06:210F8",
@@ -2480,7 +2550,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nここは、【ビリビリ城】だ。\nそこら中、静電気だらけなのさ。",
-   "en": ""
+   "en": "Man:\nThis is Biribiri Castle.\nThere's static everywhere.",
+   "status": "done"
   },
   {
    "id": "R06:21140",
@@ -2488,7 +2559,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\n放電してるわ・・・。\nすごい電気ね。",
-   "en": ""
+   "en": "Young Woman:\nIt's discharging...\nWhat powerful electricity!",
+   "status": "done"
   },
   {
    "id": "R06:21174",
@@ -2496,7 +2568,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nえっ？　【天の龍馬】？\nさあ？　聞いたことがないわね。",
-   "en": ""
+   "en": "Young Woman:\nHuh? The Celestial Dragon Horse?\nHmm? I've never heard of it.",
+   "status": "done"
   },
   {
    "id": "R06:211BC",
@@ -2504,7 +2577,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじいさん：\nこの先はトラップじゃぞ。\nルートを考えて進めよ。",
-   "en": ""
+   "en": "Old Man:\nThere's a trap ahead.\nPlan yer route as ye go.",
+   "status": "done"
   },
   {
    "id": "R06:211FC",
@@ -2512,7 +2586,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おとこの子：\nよかったー！\nピリピリしなくなったよ。",
-   "en": ""
+   "en": "Boy:\nYay!\nNo more getting zapped!",
+   "status": "done"
   },
   {
    "id": "R06:21232",
@@ -2520,7 +2595,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "救世主さまが【サンダール】を\n倒してくれたんだね？",
-   "en": ""
+   "en": "You beat Thundar for us,\nSavior-sama, didn't you?",
+   "status": "done"
   },
   {
    "id": "R06:21268",
@@ -2528,7 +2604,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\nエレキテル？\nそれって、おいしいの？",
-   "en": ""
+   "en": "Girl:\nElekiter?\nDoes that taste good?",
+   "status": "done"
   },
   {
    "id": "R06:2129C",
@@ -2536,7 +2613,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\n魔神バトルでダメージを\n受けたときは、回復して。",
-   "en": ""
+   "en": "Girl:\nIf hurt in a Mashin Battle,\nuse recovery!",
+   "status": "done"
   },
   {
    "id": "R06:212DC",
@@ -2544,7 +2622,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "回復すると、\nＨＰを回復できるだけでなく、\n自分の番が早く回ってくるわ。",
-   "en": ""
+   "en": "Recovery doesn't just\nrestore your HP. It also makes\nyour next turn come sooner.",
+   "status": "done"
   },
   {
    "id": "R06:21328",
@@ -2552,7 +2631,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nこの村には、【ワルモンダー】の\n手先が２人もいるんだ。",
-   "en": ""
+   "en": "Young Man:\nThis village has two of\nWarumonder's henchmen in it.",
+   "status": "done"
   },
   {
    "id": "R06:2136E",
@@ -2560,7 +2640,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "１人は【サンダール】といって、\nそこら中、静電気だらけにして\nよろこんでいるやつだ。",
-   "en": ""
+   "en": "One's called Thundar.\nHe gets his kicks spreading\nstatic electricity everywhere.",
+   "status": "done"
   },
   {
    "id": "R06:213C4",
@@ -2568,7 +2649,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "もう１人は【ビリビリマン】。\n強烈な電撃をあやつれる。",
-   "en": ""
+   "en": "The other is Biribiri Man.\nHe can control powerful\nelectric shocks.",
+   "status": "done"
   },
   {
    "id": "R06:213FC",
@@ -2576,7 +2658,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【サンダール】は、救世主さまが\n倒してくれたんだよね。",
-   "en": ""
+   "en": "You beat Thundar for us,\nSavior-sama, didn't you?",
+   "status": "done"
   },
   {
    "id": "R06:21434",
@@ -2584,7 +2667,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ビリビリマン】は、\n【エネルギー城】にいるぞ。\n右がわの村外れに行ってみな。",
-   "en": ""
+   "en": "Biribiri Man's in Energy Castle.\nTry the outskirts on the right\nside of the village.",
+   "status": "done"
   },
   {
    "id": "R06:21484",
@@ -2592,7 +2676,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【サンダール】の次は\n【ビリビリマン】かい？",
-   "en": ""
+   "en": "Man:\nFirst Thundar, and now\nBiribiri Man?",
+   "status": "done"
   },
   {
    "id": "R06:214BE",
@@ -2600,7 +2685,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "まいったなぁ。",
-   "en": ""
+   "en": "Oh, give me a break.",
+   "status": "done"
   },
   {
    "id": "R06:214D0",
@@ -2608,7 +2694,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nこの近くに【聖なる森】という\n場所があるの。",
-   "en": ""
+   "en": "Young Woman:\nThere's a place nearby\ncalled the Sacred Forest.",
+   "status": "done"
   },
   {
    "id": "R06:2150C",
@@ -2616,7 +2703,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "なんでも、失われたものを\n元に戻す力があるそうよ。",
-   "en": ""
+   "en": "They say it has the power\nto restore things that\nhave been lost.",
+   "status": "done"
   },
   {
    "id": "R06:21540",
@@ -2624,7 +2712,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ただし、とてつもなく時間が\nかかるらしいわ。",
-   "en": ""
+   "en": "But apparently, it takes\nan awfully long time.",
+   "status": "done"
   },
   {
    "id": "R06:21570",
@@ -2632,7 +2721,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n静電気はきえたんだけど、\nまだ【ビリビリマン】がいるの。",
-   "en": ""
+   "en": "Young Woman:\nThe static's gone, but\nBiribiri Man is still here.",
+   "status": "done"
   },
   {
    "id": "R06:215B8",
@@ -2640,7 +2730,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "みんなに電気のすばらしさを\n教えたいと意気込むのは、\nわかるんだけど・・・。",
-   "en": ""
+   "en": "I can see why he's so eager\nto teach everyone how wonderful\nelectricity is, but...",
+   "status": "done"
   },
   {
    "id": "R06:21608",
@@ -2648,7 +2739,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nはあ～ゴシゴシ。",
-   "en": ""
+   "en": "Man:\nAhhh, rub-a-dub-dub.",
+   "status": "done"
   },
   {
    "id": "R06:21626",
@@ -2656,7 +2748,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "街から静電気がきえようと、\nワシは、ゴシゴシしつづけるぞ。\nかみがフサフサになるまで！",
-   "en": ""
+   "en": "The town's static may be gone,\nbut I'll keep rubbing until\nI've got a full head of hair!",
+   "status": "done"
   },
   {
    "id": "R06:21680",
@@ -2664,7 +2757,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n【ビリビリマン】って\nどんなやつか知っているかい？",
-   "en": ""
+   "en": "Man:\nDo you know what kind of\nfellow Biribiri Man is?",
+   "status": "done"
   },
   {
    "id": "R06:216C0",
@@ -2672,7 +2766,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "知っている。\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Do you know him?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R06:216E6",
@@ -2680,7 +2775,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nそうか、ならいいんだ。",
-   "en": ""
+   "en": "Man:\nOh, all right, then.",
+   "status": "done"
   },
   {
    "id": "R06:2170A",
@@ -2688,7 +2784,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【ビリビリマン】は、\n電気にとりつかれたやつだ。",
-   "en": ""
+   "en": "Man:\nBiribiri Man is obsessed\nwith electricity.",
+   "status": "done"
   },
   {
    "id": "R06:21748",
@@ -2696,7 +2793,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "電気のすばらしさを教えるために、\nなんかへんてこなものを持って、\nみんなに見せびらかしていたぞ。",
-   "en": ""
+   "en": "To show how great electricity\nis, he carried some odd thing\naround, showing it to everyone.",
+   "status": "done"
   },
   {
    "id": "R06:217AA",
@@ -2704,7 +2802,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "なんでも、エレキテルとかいう\nものらしい。",
-   "en": ""
+   "en": "I hear it's called\nan Elekiter or something.",
+   "status": "done"
   },
   {
    "id": "R06:217D8",
@@ -2712,7 +2811,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n「電気はすばらしい！」と\n【ビリビリマン】が言っておる。",
-   "en": ""
+   "en": "Man:\n\"Electricity is wonderful!\"\nThat's what Biribiri Man says.",
+   "status": "done"
   },
   {
    "id": "R06:2181E",
@@ -2720,7 +2820,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "たしかに一理あるな。\n電気のおかげで、ずいぶん\nベンリな世の中になったよ。",
-   "en": ""
+   "en": "He's got a point.\nElectricity has made life\na whole lot more convenient.",
+   "status": "done"
   },
   {
    "id": "R06:2186C",
@@ -2728,7 +2829,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばさん：\n救世主さまが、がんばってくれた\nから、気持ちよく水がのめるよ。",
-   "en": ""
+   "en": "Woman:\nYour hard work, Savior-sama,\nlets me enjoy drinking water.",
+   "status": "done"
   },
   {
    "id": "R06:218B8",
@@ -2736,7 +2838,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\n電気はすばらしいのぉ。\n心が明るくなってくるわい。",
-   "en": ""
+   "en": "Old Woman:\nElectricity is wonderful.\nIt brightens my spirits!",
+   "status": "done"
   },
   {
    "id": "R06:218FC",
@@ -2744,7 +2847,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "ウンチクおばあさん：\n電気はのぉ、ヒトの体内にも\n流れておるのじゃ。",
-   "en": ""
+   "en": "Know-It-All Granny:\nElectricity flows through\nhuman bodies too, ye know.",
+   "status": "done"
   },
   {
    "id": "R06:21942",
@@ -2752,7 +2856,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "知っておったか？",
-   "en": ""
+   "en": "Did ye know that?",
+   "status": "done"
   },
   {
    "id": "R06:21954",
@@ -2760,7 +2865,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ウンチクおばあさん：\n電圧の大きさを表す、\n「ボルト」ということばがある。",
-   "en": ""
+   "en": "Know-It-All Granny:\nA \"volt\" is a unit used\nto measure voltage.",
+   "status": "done"
   },
   {
    "id": "R06:219A0",
@@ -2768,7 +2874,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これは、電池を生み出した、\n【ボルタ】という人の名前に\nちなんでつけられたのじゃ。",
-   "en": ""
+   "en": "It's named after Volta,\nthe man who invented\nthe battery.",
+   "status": "done"
   },
   {
    "id": "R06:219F4",
@@ -2776,7 +2883,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\n【エネルギー城】なら、\nそこから行けるんじゃ。",
-   "en": ""
+   "en": "Old Man:\nYe can get to Energy Castle\nfrom there.",
+   "status": "done"
   },
   {
    "id": "R06:21A34",
@@ -2784,7 +2892,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\n救世主さま、\nありがとうございますじゃ。",
-   "en": ""
+   "en": "Old Man:\nThank ye kindly,\nSavior-sama.",
+   "status": "done"
   },
   {
    "id": "R06:21A6C",
@@ -2792,7 +2901,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【サンダール】が\n元に戻りましたぞ。",
-   "en": ""
+   "en": "Thundar's back to\nhis old self.",
+   "status": "done"
   },
   {
    "id": "R06:21A92",
@@ -2800,7 +2910,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "「エレキギターでみんなを\nしびれさせてやるぜ！」と\n意気込んでおった。",
-   "en": ""
+   "en": "\"I'll electrify the crowd\nwith my electric guitar!\"\nhe declared with gusto.",
+   "status": "done"
   },
   {
    "id": "R06:21ADA",
@@ -2808,7 +2919,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ゆがんだ人間の心を直す\nお主の力・・・、\nすばらしいものじゃな。",
-   "en": ""
+   "en": "That power of yers to mend\npeople's twisted hearts...\nIt's a wonderful thing.",
+   "status": "done"
   },
   {
    "id": "R06:21B1C",
@@ -2816,7 +2928,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n【ビリビリマン】も、\n正しき心を持っているはずじゃ。",
-   "en": ""
+   "en": "Old Man:\nBiribiri Man must have\na good heart in him too.",
+   "status": "done"
   },
   {
    "id": "R06:21B60",
@@ -2824,7 +2937,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "救世主さまの力で、\nやつの心も救ってくだされ。",
-   "en": ""
+   "en": "Please use your power to save\nhis heart too, Savior-sama.",
+   "status": "done"
   },
   {
    "id": "R06:21B90",
@@ -2832,7 +2946,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はじめてのおとこの子：\nなあ、もう一度キスしようよ。",
-   "en": ""
+   "en": "First Boy:\nHey, let's kiss again.",
+   "status": "done"
   },
   {
    "id": "R06:21BC6",
@@ -2840,7 +2955,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はじめてのおんなの子：\nうん。",
-   "en": ""
+   "en": "First Girl:\nOkay.",
+   "status": "done"
   },
   {
    "id": "R06:21BE6",
@@ -2848,7 +2964,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・。\nチュッ！",
-   "en": ""
+   "en": ".........\nSmooch!",
+   "status": "done"
   },
   {
    "id": "R06:21C06",
@@ -2856,7 +2973,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はじめてのおとこの子：\n・・・あれ？　ピリッとしない。",
-   "en": ""
+   "en": "First Boy:\n...Huh? No zap.",
+   "status": "done"
   },
   {
    "id": "R06:21C3E",
@@ -2864,7 +2982,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "でも、心のおくで\nなんかピリッとした・・・。\nこれが、本当のキスなんだ・・・。",
-   "en": ""
+   "en": "But deep down in my heart,\nI felt a little spark...\nSo this is a real kiss...",
+   "status": "done"
   },
   {
    "id": "R06:21C90",
@@ -2872,7 +2991,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "はじめてのおとこの子：\nなあ、もう一度キスしようよ。",
-   "en": ""
+   "en": "First Boy:\nHey, let's kiss again.",
+   "status": "done"
   },
   {
    "id": "R06:21CC6",
@@ -2880,7 +3000,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はじめてのおんなの子：\nうん。",
-   "en": ""
+   "en": "First Girl:\nOkay.",
+   "status": "done"
   },
   {
    "id": "R06:21CE6",
@@ -2888,7 +3009,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・。\nチュッ！",
-   "en": ""
+   "en": ".........\nSmooch!",
+   "status": "done"
   },
   {
    "id": "R06:21D06",
@@ -2896,7 +3018,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はじめてのおとこの子：\n・・・あれ？　ピリッとしない。",
-   "en": ""
+   "en": "First Boy:\n...Huh? No spark.",
+   "status": "done"
   },
   {
    "id": "R06:21D3E",
@@ -2904,7 +3027,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "でも、心のおくで\nなんかピリッとした・・・。\nこれが、本当のキスなんだ・・・。",
-   "en": ""
+   "en": "But deep down in my heart,\nI felt a little spark...\nSo this is a real kiss...",
+   "status": "done"
   },
   {
    "id": "R06:21D90",
@@ -2912,7 +3036,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n【ＩＱバトル】で、どうしても\n解けそうにないとき・・・。",
-   "en": ""
+   "en": "Man:\nIf you're playing IQ Battle\nand just can't solve it...",
+   "status": "done"
   },
   {
    "id": "R06:21DD6",
@@ -2920,7 +3045,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そんなときは、\nギブアップする手もあるぞ。",
-   "en": ""
+   "en": "When that happens,\nyou can always give up.",
+   "status": "done"
   },
   {
    "id": "R06:21E04",
@@ -2928,7 +3054,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n【きおく力ゲーム】では、\nメモを取るとラクチンじゃ。",
-   "en": ""
+   "en": "Man:\nTaking notes makes the\nMemory Game a breeze.",
+   "status": "done"
   },
   {
    "id": "R06:21E48",
@@ -2936,7 +3063,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n【ブリキントンたたき】では、\nレンダすると、いいぞ。",
-   "en": ""
+   "en": "Man:\nIn Whack-a-Burikinton,\nkeep mashing that button!",
+   "status": "done"
   },
   {
    "id": "R06:21E8C",
@@ -2944,7 +3072,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n【１５パズル】では、\nかんさつ力を効かせい。",
-   "en": ""
+   "en": "Man:\nIn the 15 Puzzle,\nkeep your eyes peeled.",
+   "status": "done"
   },
   {
    "id": "R06:21EC8",
@@ -2952,7 +3081,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n【ヒット・アンド・ブロー】では、\n前の手をよく見て考えい。",
-   "en": ""
+   "en": "Man:\nIn Hit and Blow, think carefully\nabout your previous moves.",
+   "status": "done"
   }
  ]
 }

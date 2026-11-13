@@ -8,7 +8,8 @@
    "max": 8,
    "len_at": "02465",
    "jp": "みちづれオオカミ",
-   "en": ""
+   "en": "Pal Wolf",
+   "status": "done"
   },
   {
    "id": "ENE10:023F4",
@@ -16,7 +17,8 @@
    "max": 8,
    "len_at": "02479",
    "jp": "つれづれオオカミ",
-   "en": ""
+   "en": "Bored Wolf",
+   "status": "done"
   },
   {
    "id": "ENE10:02404",
@@ -24,28 +26,32 @@
    "max": 8,
    "len_at": "0248D",
    "jp": "くつずれオオカミ",
-   "en": ""
+   "en": "Sore Wolf",
+   "status": "done"
   },
   {
    "id": "ENE10:02414",
    "kind": "bname",
    "max": 11,
    "jp": "みちづれオオカミ",
-   "en": ""
+   "en": "Pal Wolf",
+   "status": "done"
   },
   {
    "id": "ENE10:02420",
    "kind": "bname",
    "max": 11,
    "jp": "つれづれオオカミ",
-   "en": ""
+   "en": "Bored Wolf",
+   "status": "done"
   },
   {
    "id": "ENE10:0242C",
    "kind": "bname",
    "max": 11,
    "jp": "くつずれオオカミ",
-   "en": ""
+   "en": "Sore Wolf",
+   "status": "done"
   }
  ]
 }

@@ -8,7 +8,8 @@
    "max": 9,
    "len_at": "015F1",
    "jp": "マイコ・ジョウダン",
-   "en": ""
+   "en": "Maiko Jodan",
+   "status": "done"
   },
   {
    "id": "ENE08:01548",
@@ -16,7 +17,8 @@
    "max": 10,
    "len_at": "01605",
    "jp": "マタマタ・ジョウダン",
-   "en": ""
+   "en": "Again Jodan",
+   "status": "done"
   },
   {
    "id": "ENE08:0155C",
@@ -24,7 +26,8 @@
    "max": 10,
    "len_at": "01619",
    "jp": "モットモ・ジョウダン",
-   "en": ""
+   "en": "Most Jodan",
+   "status": "done"
   },
   {
    "id": "ENE08:01570",
@@ -32,35 +35,40 @@
    "max": 11,
    "len_at": "0162D",
    "jp": "ジョウダン・リターンズ",
-   "en": ""
+   "en": "Jodan Redux",
+   "status": "done"
   },
   {
    "id": "ENE08:01588",
    "kind": "bname",
    "max": 11,
    "jp": "マイコ[00EB:・]ジョウダン",
-   "en": ""
+   "en": "Maiko Jodan",
+   "status": "done"
   },
   {
    "id": "ENE08:01594",
    "kind": "bname",
    "max": 11,
    "jp": "マタマタ[00EB:・]ジョウダン",
-   "en": ""
+   "en": "Again Jodan",
+   "status": "done"
   },
   {
    "id": "ENE08:015A0",
    "kind": "bname",
    "max": 11,
    "jp": "モットモ[00EB:・]ジョウダン",
-   "en": ""
+   "en": "Most Jodan",
+   "status": "done"
   },
   {
    "id": "ENE08:015AC",
    "kind": "bname",
    "max": 11,
    "jp": "ジョウダン[00EB:・]リターンズ",
-   "en": ""
+   "en": "Jodan Redux",
+   "status": "done"
   }
  ]
 }

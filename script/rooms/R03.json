@@ -8,7 +8,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあっ、次の村が見えてきたよ！！",
-   "en": ""
+   "en": "Wataru:\nHey, I can see\nthe next village!!",
+   "status": "done"
   },
   {
    "id": "R03:0E362",
@@ -16,7 +17,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそのようでございますわね。",
-   "en": ""
+   "en": "Sakuya:\nSo it would appear.",
+   "status": "done"
   },
   {
    "id": "R03:0E396",
@@ -24,7 +26,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：[B000]明\nうーむ、何か爆発が\n起こっているようではないか？",
-   "en": ""
+   "en": "Aragoto:[B000][013A]\nHmm. Are those explosions\nI see?",
+   "status": "done"
   },
   {
    "id": "R03:0E3EA",
@@ -32,7 +35,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "なぞのこえ：\nよーし、やれっ！",
-   "en": ""
+   "en": "Mysterious Voice:\nAll right, do it!",
+   "status": "done"
   },
   {
    "id": "R03:0E41A",
@@ -40,7 +44,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "村人：\nうわぁー。",
-   "en": ""
+   "en": "Villager:\nWhoaaa!",
+   "status": "done"
   },
   {
    "id": "R03:0E43E",
@@ -48,7 +53,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "村人：\nたすけてー。",
-   "en": ""
+   "en": "Villager:\nHeeelp!",
+   "status": "done"
   },
   {
    "id": "R03:0E464",
@@ -56,7 +62,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nきゃあー。",
-   "en": ""
+   "en": "Villager:\nEeeek!",
+   "status": "done"
   },
   {
    "id": "R03:0E486",
@@ -64,7 +71,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうっわぁー、すっげぇー。",
-   "en": ""
+   "en": "Wataru:\nWhoa! That's amazing!",
+   "status": "done"
   },
   {
    "id": "R03:0E4B8",
@@ -72,7 +80,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n本当に家が爆発していますわ。",
-   "en": ""
+   "en": "Sakuya:\nThose houses really are\nexploding!",
+   "status": "done"
   },
   {
    "id": "R03:0E4EE",
@@ -80,7 +89,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nいやぁ、\nリアリティにあふれているなぁ。",
-   "en": ""
+   "en": "Aragoto:\nI say!\nSuch splendid realism!",
+   "status": "done"
   },
   {
    "id": "R03:0E534",
@@ -88,7 +98,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\n今、何と言ったのかね？",
-   "en": ""
+   "en": "Moro Moro Q:\nWhat did you just say?",
+   "status": "done"
   },
   {
    "id": "R03:0E56A",
@@ -96,7 +107,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nいやぁ、リアリティがあるなぁと。",
-   "en": ""
+   "en": "Aragoto:\nOh, that it looks quite real.",
+   "status": "done"
   },
   {
    "id": "R03:0E5A6",
@@ -104,7 +116,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nそうか！",
-   "en": ""
+   "en": "Moro Moro Q:\nIndeed!",
+   "status": "done"
   },
   {
    "id": "R03:0E5CE",
@@ -112,7 +125,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "うんうん、キミは特撮のことが\nよくわかっているようだね。",
-   "en": ""
+   "en": "Yes, yes! You clearly know\na thing or two about\nspecial effects.",
+   "status": "done"
   },
   {
    "id": "R03:0E616",
@@ -120,7 +134,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "やはり特撮は\n本物を使わんとイカンな。",
-   "en": ""
+   "en": "For special effects, you simply\nhave to use the real thing!",
+   "status": "done"
   },
   {
    "id": "R03:0E64E",
@@ -128,7 +143,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nしかし、あのエキストラの人たち\nも大変ですなぁ。",
-   "en": ""
+   "en": "Aragoto:\nStill, those extras seem to be\nhaving a rather rough time.",
+   "status": "done"
   },
   {
    "id": "R03:0E69A",
@@ -136,7 +152,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nまるで\n本当に[0212:救]われているようですわ。",
-   "en": ""
+   "en": "Sakuya:\nIt is as though they are\ntruly being rescued.",
+   "status": "done"
   },
   {
    "id": "R03:0E6DA",
@@ -144,7 +161,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n大した演技力だね。",
-   "en": ""
+   "en": "Wataru:\nThat's some pretty great acting!",
+   "status": "done"
   },
   {
    "id": "R03:0E706",
@@ -152,7 +170,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nいや、\nあれはリアリティを出すために",
-   "en": ""
+   "en": "Moro Moro Q:\nOh, no.\nTo make it look real,",
+   "status": "done"
   },
   {
    "id": "R03:0E74A",
@@ -160,7 +179,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人を本当に[0212:救]っているんだ。",
-   "en": ""
+   "en": "we're actually rescuing\nthe villagers.",
+   "status": "done"
   },
   {
    "id": "R03:0E776",
@@ -168,7 +188,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルたち：\nい！？",
-   "en": ""
+   "en": "Wataru & co.:\nHuh?!",
+   "status": "done"
   },
   {
    "id": "R03:0E79A",
@@ -176,7 +197,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nうんうん、特撮のリアリティと\nいうのは、こうじゃなくっちゃ。",
-   "en": ""
+   "en": "Moro Moro Q:\nYes, yes! This is the realism\nspecial effects demand!",
+   "status": "done"
   },
   {
    "id": "R03:0E7F6",
@@ -184,7 +206,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nでも本物っぽさを出すために\n罪もないヒトを傷つけるのは",
-   "en": ""
+   "en": "Wataru:\nBut hurting innocent people\njust to make things look real...",
+   "status": "done"
   },
   {
    "id": "R03:0E846",
@@ -192,7 +215,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "良くないよ。",
-   "en": ""
+   "en": "That's wrong!",
+   "status": "done"
   },
   {
    "id": "R03:0E862",
@@ -200,7 +224,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nワタルさまの\nおっしゃる通りですわ。",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama is\nquite correct.",
+   "status": "done"
   },
   {
    "id": "R03:0E8A2",
@@ -208,7 +233,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nそうか・・・。",
-   "en": ""
+   "en": "Moro Moro Q:\nI see...",
+   "status": "done"
   },
   {
    "id": "R03:0E8D0",
@@ -216,7 +242,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "どうやら君たちには\n本当の映像の良さが\nわからないようだ。",
-   "en": ""
+   "en": "It seems you fail to appreciate\nthe true beauty of cinema.",
+   "status": "done"
   },
   {
    "id": "R03:0E91A",
@@ -224,7 +251,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "まあ、文句があるなら\nいつでも言いにきたまえ。\nまた会おう。",
-   "en": ""
+   "en": "Well, if you have a complaint,\ncome and tell me anytime.\nUntil we meet again.",
+   "status": "done"
   },
   {
    "id": "R03:0E968",
@@ -232,7 +260,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "モロ・モロＱ：\n撤収ーっ！",
-   "en": ""
+   "en": "Moro Moro Q:\nPack it up!",
+   "status": "done"
   },
   {
    "id": "R03:0E994",
@@ -240,7 +269,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n間違ってると思う。",
-   "en": ""
+   "en": "Wataru:\nI think he's got it all wrong.",
+   "status": "done"
   },
   {
    "id": "R03:0E9C0",
@@ -248,7 +278,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n拙も同意見だ。",
-   "en": ""
+   "en": "Aragoto:\nI am of the same mind.",
+   "status": "done"
   },
   {
    "id": "R03:0E9EC",
@@ -256,7 +287,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n大丈夫ですか？",
-   "en": ""
+   "en": "Sakuya:\nAre you all right?",
+   "status": "done"
   },
   {
    "id": "R03:0EA14",
@@ -264,7 +296,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "村人：\nう・・・うう・・・。",
-   "en": ""
+   "en": "Villager:\nUgh... Ooh...",
+   "status": "done"
   },
   {
    "id": "R03:0EA46",
@@ -272,7 +305,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nなぁ、あんた達、\n救世主なんじゃろ？",
-   "en": ""
+   "en": "Villager:\nSay, you folks are the\nSaviors, aren't you?",
+   "status": "done"
   },
   {
    "id": "R03:0EA82",
@@ -280,7 +314,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわ。",
-   "en": ""
+   "en": "Sakuya:\nThat is correct.",
+   "status": "done"
   },
   {
    "id": "R03:0EAA8",
@@ -288,7 +323,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\n村々を\n平和に導いてくれるっちゅー。",
-   "en": ""
+   "en": "Villager:\nThe ones who bring peace\nto all the villages?",
+   "status": "done"
   },
   {
    "id": "R03:0EAE4",
@@ -296,7 +332,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそうだな。",
-   "en": ""
+   "en": "Aragoto:\nIndeed.",
+   "status": "done"
   },
   {
    "id": "R03:0EB0A",
@@ -304,7 +341,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nじゃあ、あの【モロ・モロＱ】を\n何とかしてくれんかの。",
-   "en": ""
+   "en": "Villager:\nThen could you do something\nabout that Moro Moro Q?",
+   "status": "done"
   },
   {
    "id": "R03:0EB58",
@@ -312,7 +350,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうですよね、いくら\n本物らしさを出したいからって、",
-   "en": ""
+   "en": "Wataru:\nYeah! No matter how much\nhe wants things to look real,",
+   "status": "done"
   },
   {
    "id": "R03:0EBA6",
@@ -320,7 +359,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村のヒトを傷つけるなんて\n許せないよ。",
-   "en": ""
+   "en": "he can't go around hurting\nthe people here!",
+   "status": "done"
   },
   {
    "id": "R03:0EBDC",
@@ -328,7 +368,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nそうなんじゃ、\nワシらもノリは大好きなんじゃが、",
-   "en": ""
+   "en": "Villager:\nExactly. We love getting\nin on the action, but...",
+   "status": "done"
   },
   {
    "id": "R03:0EC24",
@@ -336,7 +377,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヒーローが出てきて\n助けてくれないんじゃ、\nヤル気がしないんじゃ。",
-   "en": ""
+   "en": "if no hero shows up to save us,\nwe just can't get into it.",
+   "status": "done"
   },
   {
    "id": "R03:0EC76",
@@ -344,7 +386,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nは？",
-   "en": ""
+   "en": "Wataru:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R03:0EC94",
@@ -352,7 +395,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nやっぱヒーローが助けてくれんと、\n何かこう、",
-   "en": ""
+   "en": "Villager:\nWithout a hero to save us,\nit's just sort of...",
+   "status": "done"
   },
   {
    "id": "R03:0ECD8",
@@ -360,7 +404,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ファイトが出ないというか・・・。",
-   "en": ""
+   "en": "We can't get fired up, you know?",
+   "status": "done"
   },
   {
    "id": "R03:0ED08",
@@ -368,7 +413,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nは？",
-   "en": ""
+   "en": "Wataru:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R03:0ED26",
@@ -376,7 +422,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nなあ、みんな。",
-   "en": ""
+   "en": "Villager:\nRight, everyone?",
+   "status": "done"
   },
   {
    "id": "R03:0ED4C",
@@ -384,7 +431,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nはぁ・・・。",
-   "en": ""
+   "en": "Wataru:\nUh...",
+   "status": "done"
   },
   {
    "id": "R03:0ED72",
@@ -392,7 +440,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nそこでじゃ、",
-   "en": ""
+   "en": "Villager:\nSo, here's the thing...",
+   "status": "done"
   },
   {
    "id": "R03:0ED96",
@@ -400,7 +449,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あんた達に\n【超おもしろカッコいい隊】に\nなって欲しいんじゃ。",
-   "en": ""
+   "en": "We want you folks to become\nour Super Funny Cool Squad.",
+   "status": "done"
   },
   {
    "id": "R03:0EDE4",
@@ -408,7 +458,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nはぁ？",
-   "en": ""
+   "en": "Wataru:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R03:0EE04",
@@ -416,7 +467,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nそうじゃそうじゃ！\n【超おもしろカッコいい隊】じゃ！",
-   "en": ""
+   "en": "Villager:\nYes, yes! That's it!\nThe Super Funny Cool Squad!",
+   "status": "done"
   },
   {
    "id": "R03:0EE50",
@@ -424,7 +476,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nワシらのヒーローの誕生じゃ！",
-   "en": ""
+   "en": "Villager:\nOur very own heroes are born!",
+   "status": "done"
   },
   {
    "id": "R03:0EE84",
@@ -432,7 +485,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\n・・・と言うわけで、\nやってくださるな？",
-   "en": ""
+   "en": "Villager:\n...So, with that settled,\nyou'll do it, won't you?",
+   "status": "done"
   },
   {
    "id": "R03:0EEC4",
@@ -440,7 +494,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nど、どうしよう。",
-   "en": ""
+   "en": "Wataru:\nW-what should we do?",
+   "status": "done"
   },
   {
    "id": "R03:0EEEE",
@@ -448,7 +503,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nここの方々も、かなり変わった\n人達のようですわね。",
-   "en": ""
+   "en": "Sakuya:\nThe people here seem rather\npeculiar as well.",
+   "status": "done"
   },
   {
    "id": "R03:0EF3A",
@@ -456,7 +512,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nぼうや、おもしろそうじゃないか。",
-   "en": ""
+   "en": "Aragoto:\nI say, boy! This sounds amusing.",
+   "status": "done"
   },
   {
    "id": "R03:0EF76",
@@ -464,7 +521,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nええーっ、やるのぉ？",
-   "en": ""
+   "en": "Wataru:\nWhaaat? We're doing this?",
+   "status": "done"
   },
   {
    "id": "R03:0EFA4",
@@ -472,7 +530,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n「郷に入っては郷に従え」と\nいうしな。",
-   "en": ""
+   "en": "Aragoto:\n\"When in Rome, do as the\nRomans do,\" as they say.",
+   "status": "done"
   },
   {
    "id": "R03:0EFE6",
@@ -480,7 +539,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそのことわざは、\nこの場合は意味が・・・。",
-   "en": ""
+   "en": "Sakuya:\nThat proverb hardly applies\nin this situation...",
+   "status": "done"
   },
   {
    "id": "R03:0F02A",
@@ -488,7 +548,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nよし、やってみよう！",
-   "en": ""
+   "en": "Wataru:\nAll right, let's give it a shot!",
+   "status": "done"
   },
   {
    "id": "R03:0F058",
@@ -496,7 +557,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nワタルさま！",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama!",
+   "status": "done"
   },
   {
    "id": "R03:0F07E",
@@ -504,7 +566,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n村のヒトが納得するなら。\nそうしようよ。",
-   "en": ""
+   "en": "Wataru:\nIf it'll make the villagers\nhappy, let's do it!",
+   "status": "done"
   },
   {
    "id": "R03:0F0C0",
@@ -512,7 +575,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nよし決まった！　善は急げだ！",
-   "en": ""
+   "en": "Aragoto:\nSettled!\nNo time like the present!",
+   "status": "done"
   },
   {
    "id": "R03:0F0F8",
@@ -520,7 +584,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\n・・・と、言うわけで、",
-   "en": ""
+   "en": "Villager:\n...Now, then...",
+   "status": "done"
   },
   {
    "id": "R03:0F126",
@@ -528,7 +593,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "まず、コサクさんに\nカッコいい隊の衣装を\nお願いしてくるのじゃ。",
-   "en": ""
+   "en": "First, go ask Kosaku-san\nto make costumes for\nthe Cool Squad.",
+   "status": "done"
   },
   {
    "id": "R03:0F176",
@@ -536,7 +602,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nコサクさんって、\nどこにいるの？",
-   "en": ""
+   "en": "Wataru:\nWhere can we find Kosaku-san?",
+   "status": "done"
   },
   {
    "id": "R03:0F1B0",
@@ -544,7 +611,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\n村の入り口近くの家じゃな。",
-   "en": ""
+   "en": "Villager:\nHis house is near the entrance\nto the village.",
+   "status": "done"
   },
   {
    "id": "R03:0F1E2",
@@ -552,7 +620,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そこで、衣装をお願いしたら、\n村の興にある家で\n布をもらってきて・・・。",
-   "en": ""
+   "en": "Once you've asked for costumes,\nget some cloth from the house\nat the back of the village...",
+   "status": "done"
   },
   {
    "id": "R03:0F23A",
@@ -560,7 +629,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n衣装にしてもらえばいいんだね？",
-   "en": ""
+   "en": "Wataru:\nThen have him make it into\ncostumes, right?",
+   "status": "done"
   },
   {
    "id": "R03:0F272",
@@ -568,7 +638,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nそうじゃ。",
-   "en": ""
+   "en": "Villager:\nThat's right.",
+   "status": "done"
   },
   {
    "id": "R03:0F294",
@@ -576,7 +647,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "んで、衣装ができたら、\n村の興にある採石場へ行って、",
-   "en": ""
+   "en": "Once the costumes are ready,\nhead to the Quarry at the back\nof the village...",
+   "status": "done"
   },
   {
    "id": "R03:0F2D8",
@@ -584,7 +656,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n【モロ・モロＱ】と対決！　だな。",
-   "en": ""
+   "en": "Aragoto:\nAnd face Moro Moro Q!\nCorrect?",
+   "status": "done"
   },
   {
    "id": "R03:0F314",
@@ -592,7 +665,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nそうじゃ。",
-   "en": ""
+   "en": "Villager:\nThat's right.",
+   "status": "done"
   },
   {
    "id": "R03:0F336",
@@ -600,7 +674,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "じゃっ、がんばってくだされ、\n【超おもしろカッコいい隊】よ！",
-   "en": ""
+   "en": "Well, best of luck to you,\nSuper Funny Cool Squad!",
+   "status": "done"
   },
   {
    "id": "R03:0F39C",
@@ -608,7 +683,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nとうとうやって来たね、【超\nおもしろカッコいい隊】の諸君。",
-   "en": ""
+   "en": "Moro Moro Q:\nAt last, you've arrived,\nmy Super Funny Cool Squad!",
+   "status": "done"
   },
   {
    "id": "R03:0F3F6",
@@ -616,7 +692,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nなぜそのことを・・・！",
-   "en": ""
+   "en": "Wataru:\nHow did you know about that?!",
+   "status": "done"
   },
   {
    "id": "R03:0F426",
@@ -624,7 +701,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nそういう楽しそうなシナリオが、\nボクの耳に入らないと思うかい？",
-   "en": ""
+   "en": "Moro Moro Q:\nDid you think a plot that fun\nwouldn't reach my ears?",
+   "status": "done"
   },
   {
    "id": "R03:0F484",
@@ -632,7 +710,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nさては村人みんなグルだったな？",
-   "en": ""
+   "en": "Aragoto:\nAha! The whole village was\nin on it, then?",
+   "status": "done"
   },
   {
    "id": "R03:0F4C0",
@@ -640,7 +719,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nチッチッチ。\nグルだなんて人聞きの悪い。",
-   "en": ""
+   "en": "Moro Moro Q:\nTut, tut, tut.\nYou make it sound so sinister.",
+   "status": "done"
   },
   {
    "id": "R03:0F508",
@@ -648,7 +728,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "みんな最高の映像を\n撮りたいだけなのさ。",
-   "en": ""
+   "en": "Everyone just wants to capture\nthe finest footage possible.",
+   "status": "done"
   },
   {
    "id": "R03:0F540",
@@ -656,7 +737,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nちがう！\nそんな考えは間違っている！",
-   "en": ""
+   "en": "Wataru:\nNo!\nThat's all wrong!",
+   "status": "done"
   },
   {
    "id": "R03:0F57E",
@@ -664,7 +746,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそうだ！\nヒトの幸せをむしばむ悪人め！",
-   "en": ""
+   "en": "Aragoto:\nIndeed! You villain who devours\nthe happiness of others!",
+   "status": "done"
   },
   {
    "id": "R03:0F5C0",
@@ -672,7 +755,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ゆ・る・さ・ん！",
-   "en": ""
+   "en": "I! Will! Not! Forgive you!",
+   "status": "done"
   },
   {
    "id": "R03:0F5E0",
@@ -680,7 +764,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nなんだかんだ言って、\nお二人ともハマってますわ。",
-   "en": ""
+   "en": "Sakuya:\nFor all your talk, you two are\nquite caught up in your roles.",
+   "status": "done"
   },
   {
    "id": "R03:0F62C",
@@ -688,7 +773,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nはぁーっはっはっは！　こい！\n【超おもしろカッコいい隊】よ！",
-   "en": ""
+   "en": "Moro Moro Q:\nHa ha ha ha! Come at me,\nSuper Funny Cool Squad!",
+   "status": "done"
   },
   {
    "id": "R03:0F688",
@@ -696,7 +782,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n望むところだ！　行くぞ！",
-   "en": ""
+   "en": "Wataru:\nYou're on! Let's go!",
+   "status": "done"
   },
   {
    "id": "R03:0F6BA",
@@ -704,7 +791,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nおう！",
-   "en": ""
+   "en": "Aragoto:\nAye!",
+   "status": "done"
   },
   {
    "id": "R03:0F6DC",
@@ -712,7 +800,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nお、おう・・・。",
-   "en": ""
+   "en": "Sakuya:\nA-aye...",
+   "status": "done"
   },
   {
    "id": "R03:0F706",
@@ -720,7 +809,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nへっぽこチェンジ！\n【超おもしろカッコいい隊】！",
-   "en": ""
+   "en": "Wataru:\nBungle Change!\nSuper Funny Cool Squad!",
+   "status": "done"
   },
   {
    "id": "R03:0F752",
@@ -728,7 +818,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "モロ・モロＱ：\n行け！\n「魔神獣【ＳＦＸザウルス】」よ！",
-   "en": ""
+   "en": "Moro Moro Q:\nGo!\n\"Mashin beast SFX Saurus\"!",
+   "status": "done"
   },
   {
    "id": "R03:0F7A6",
@@ -736,7 +827,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nき、きったねぇー。",
-   "en": ""
+   "en": "Aragoto:\nY-you dirty cheat!",
+   "status": "done"
   },
   {
    "id": "R03:0F7D4",
@@ -744,7 +836,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nはぁーっはっはっは！",
-   "en": ""
+   "en": "Moro Moro Q:\nHaaa ha ha ha!",
+   "status": "done"
   },
   {
    "id": "R03:0F808",
@@ -752,7 +845,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "これが「あえて王道を\n破って素晴らしい演出」\nというやつだ！",
-   "en": ""
+   "en": "That's what we call \"brilliant\ndirection that dares to defy\nconvention\"!",
+   "status": "done"
   },
   {
    "id": "R03:0F854",
@@ -760,7 +854,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nクッソー。",
-   "en": ""
+   "en": "Wataru:\nDarn it!",
+   "status": "done"
   },
   {
    "id": "R03:0F878",
@@ -768,7 +863,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "そっちが魔神でくるなら、\nこっちも魔神で勝負だ！",
-   "en": ""
+   "en": "If you're bringing a mashin,\nwe'll fight with a mashin, too!",
+   "status": "done"
   },
   {
    "id": "R03:0F8C6",
@@ -776,7 +872,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nあ、どうも。",
-   "en": ""
+   "en": "Moro Moro Q:\nOh, hello.",
+   "status": "done"
   },
   {
    "id": "R03:0F8F2",
@@ -784,7 +881,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nリアリティを求めるのも良いが、",
-   "en": ""
+   "en": "Aragoto:\nSeeking realism is all well\nand good...",
+   "status": "done"
   },
   {
    "id": "R03:0F92C",
@@ -792,7 +890,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "みんなを困らせるようなことに\nなってはいけないぞ。",
-   "en": ""
+   "en": "But you must not cause\ntrouble for everyone else.",
+   "status": "done"
   },
   {
    "id": "R03:0F970",
@@ -800,7 +899,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "モロ・モロＱ：\nはぁ、すんませんでした。\n反省してます。",
-   "en": ""
+   "en": "Moro Moro Q:\nYes, I'm sorry.\nI've learned my lesson.",
+   "status": "done"
   },
   {
    "id": "R03:0F9B8",
@@ -808,7 +908,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nまぁこれからは村の人と協力して\nいいもの作ってよ。",
-   "en": ""
+   "en": "Wataru:\nWell, work with the villagers\nand make something good, okay?",
+   "status": "done"
   },
   {
    "id": "R03:0FA04",
@@ -816,7 +917,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "期待してるからさっ。",
-   "en": ""
+   "en": "I'm counting on you!",
+   "status": "done"
   },
   {
    "id": "R03:0FA2A",
@@ -824,7 +926,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "モロ・モロＱ：\nはぁ、がんばります。",
-   "en": ""
+   "en": "Moro Moro Q:\nYes, I'll do my best.",
+   "status": "done"
   },
   {
    "id": "R03:0FA62",
@@ -832,7 +935,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n次の村は、どんなところかなぁ。",
-   "en": ""
+   "en": "Wataru:\nI wonder what the next\nvillage will be like.",
+   "status": "done"
   },
   {
    "id": "R03:0FA9A",
@@ -840,7 +944,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nうむ、次の村はきっと温泉だ。",
-   "en": ""
+   "en": "Aragoto:\nMm. Surely the next village\nwill have hot springs.",
+   "status": "done"
   },
   {
    "id": "R03:0FAD2",
@@ -848,7 +953,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあら、どうしてですの？",
-   "en": ""
+   "en": "Sakuya:\nOh? Whatever makes you say that?",
+   "status": "done"
   },
   {
    "id": "R03:0FB02",
@@ -856,7 +962,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n特撮村だっただけに、\n「ＴＯ　草津」だったりして・・。",
-   "en": ""
+   "en": "Aragoto:\nAfter all these special effects,\nnext stop: spa-cial effects...",
+   "status": "done"
   },
   {
    "id": "R03:0FB54",
@@ -864,7 +971,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルとサクヤ：\n・・・。",
-   "en": ""
+   "en": "Wataru & Sakuya:\n...",
+   "status": "done"
   },
   {
    "id": "R03:1266C",
@@ -872,7 +980,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\n【採石場】の中は、\nベルトコンベアで進むんだ。",
-   "en": ""
+   "en": "Boy:\nYou ride conveyor belts to get\naround inside the Quarry.",
+   "status": "done"
   },
   {
    "id": "R03:126AA",
@@ -880,7 +989,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "レバーを動かせば、\nベルトコンベアの進む方向を\n変えられるよ。",
-   "en": ""
+   "en": "Move a lever to change\nwhich way the conveyor\nbelts go.",
+   "status": "done"
   },
   {
    "id": "R03:126EC",
@@ -888,7 +998,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\nエイガって、テレビばんぐみと\nどう違うの？",
-   "en": ""
+   "en": "Girl:\nHow are movies different\nfrom TV shows?",
+   "status": "done"
   },
   {
    "id": "R03:12728",
@@ -896,7 +1007,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\n村をあらすワルモノめっ！\nせいぎのダンガンを受けてみよっ。",
-   "en": ""
+   "en": "Girl:\nYou fiend! Wrecking our village!\nTaste the bullets of justice!",
+   "status": "done"
   },
   {
    "id": "R03:12772",
@@ -904,7 +1016,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ばきゅーん！！",
-   "en": ""
+   "en": "Pew-pew!!",
+   "status": "done"
   },
   {
    "id": "R03:12782",
@@ -912,7 +1025,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もー！　おにいちゃんたち！\nちゃんと倒れてよ！！",
-   "en": ""
+   "en": "Oh, come on, you guys!\nYou're supposed to fall down!!",
+   "status": "done"
   },
   {
    "id": "R03:127B4",
@@ -920,7 +1034,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nやぁ、見なれない人達だね。\nここは特撮好きが集まる村・・・。",
-   "en": ""
+   "en": "Young Man:\nHey, new faces! This village is\nwhere special effects fans meet.",
+   "status": "done"
   },
   {
    "id": "R03:12800",
@@ -928,7 +1043,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【エキストラタウン】さ！",
-   "en": ""
+   "en": "It's Extra Town!",
+   "status": "done"
   },
   {
    "id": "R03:1281C",
@@ -936,7 +1052,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nえっ？\nエキストラのいみ？",
-   "en": ""
+   "en": "Young Man:\nHuh?\nWhat does \"extra\" mean?",
+   "status": "done"
   },
   {
    "id": "R03:12846",
@@ -944,7 +1061,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "わきやくのことだよ。",
-   "en": ""
+   "en": "Someone with a background role.",
+   "status": "done"
   },
   {
    "id": "R03:1285C",
@@ -952,7 +1070,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\n【コサク】、【キサク】という\nショクニンさんを知ってる？",
-   "en": ""
+   "en": "Woman:\nDo you know the craftsmen\nKosaku-san and Kisaku-san?",
+   "status": "done"
   },
   {
    "id": "R03:128A2",
@@ -960,7 +1079,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【キサク】さんが、生地をしたて、\n【コサク】さんが、\n衣装を作る・・・。",
-   "en": ""
+   "en": "Kisaku-san prepares the fabric,\nand Kosaku-san makes\nthe costumes...",
+   "status": "done"
   },
   {
    "id": "R03:128EC",
@@ -968,7 +1088,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "この村にとって、だいじな人達よ。",
-   "en": ""
+   "en": "They're vital to this village.",
+   "status": "done"
   },
   {
    "id": "R03:12910",
@@ -976,7 +1097,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nこの村のボスは、いつも、\n【採石場】からやって来るのさ。",
-   "en": ""
+   "en": "Man:\nThe boss of this village always\ncomes here from the Quarry.",
+   "status": "done"
   },
   {
    "id": "R03:12958",
@@ -984,7 +1106,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n【採石場】に行くなら、\nちょうろうにキョカをもらいなよ。",
-   "en": ""
+   "en": "Man:\nIf you're going to the Quarry,\nget the elder's permission.",
+   "status": "done"
   },
   {
    "id": "R03:129A0",
@@ -992,7 +1115,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nうおっー。\nいやーっ。",
-   "en": ""
+   "en": "Young Man:\nWhoaaa!\nYaaah!",
+   "status": "done"
   },
   {
    "id": "R03:129C6",
@@ -1000,7 +1124,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おわっー。\nうーん。\n演ずるのってむずかしい。",
-   "en": ""
+   "en": "Waaah!\nHmm.\nActing sure is hard.",
+   "status": "done"
   },
   {
    "id": "R03:129F8",
@@ -1008,7 +1133,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nはひー。\nうきゃー。",
-   "en": ""
+   "en": "Young Man:\nHeee!\nEeeek!",
+   "status": "done"
   },
   {
    "id": "R03:12A1C",
@@ -1016,7 +1142,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "どひー。\nうーん・・・。\nまだまだかな・・・。",
-   "en": ""
+   "en": "Yeeek!\nHmm...\nStill not there yet...",
+   "status": "done"
   },
   {
    "id": "R03:12A4C",
@@ -1024,7 +1151,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nポカポカして、いい天気じゃのう。",
-   "en": ""
+   "en": "Old Woman:\nSuch lovely, warm weather.",
+   "status": "done"
   },
   {
    "id": "R03:12A7C",
@@ -1032,7 +1160,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\n【コサク】さんのところには、\nもう行ったかね？",
-   "en": ""
+   "en": "Old Woman:\nHave you been to see\nKosaku-san yet?",
+   "status": "done"
   },
   {
    "id": "R03:12ABA",
@@ -1040,7 +1169,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ぶっきらぼうなおとこじゃが、\nこれが、いいしごとをするんじゃ。",
-   "en": ""
+   "en": "He's a gruff fellow,\nbut he does fine work.",
+   "status": "done"
   },
   {
    "id": "R03:12AFC",
@@ -1048,7 +1178,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n【キサク】さんのところには、\nもう行ったかね？",
-   "en": ""
+   "en": "Old Woman:\nHave you been to see\nKisaku-san yet?",
+   "status": "done"
   },
   {
    "id": "R03:12B3A",
@@ -1056,7 +1187,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "きさくなおとこでのう、\nしごともはやいとヒョウバンじゃ。",
-   "en": ""
+   "en": "Such a friendly fellow.\nHe's known for his speedy\nwork, too.",
+   "status": "done"
   },
   {
    "id": "R03:12B74",
@@ -1064,7 +1196,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nいま作っているエイガは、\n【ザ・ザウルス】というの。",
-   "en": ""
+   "en": "Young Woman:\nThe movie we're making now\nis called The Saurus.",
+   "status": "done"
   },
   {
    "id": "R03:12BB8",
@@ -1072,7 +1205,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "主演は【ＳＦＸザウルス】よ。",
-   "en": ""
+   "en": "It stars SFX Saurus.",
+   "status": "done"
   },
   {
    "id": "R03:12BD8",
@@ -1080,7 +1214,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nエイガのヒーローっていったら、\nやっぱりガンマンだよなぁ。",
-   "en": ""
+   "en": "Boy:\nWhen it comes to movie heroes,\nyou can't beat a gunslinger!",
+   "status": "done"
   },
   {
    "id": "R03:12C24",
@@ -1088,7 +1223,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nあそこの家は、\nおもちゃやさんだよ。",
-   "en": ""
+   "en": "Young Man:\nThat house over there\nis a toy store.",
+   "status": "done"
   },
   {
    "id": "R03:12C58",
@@ -1096,7 +1232,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【モロ・モロＱ】さんが\nやっている店なんだけど、\n今は店を閉めているんだ。",
-   "en": ""
+   "en": "Moro Moro Q-san runs it,\nbut it's closed right now.",
+   "status": "done"
   },
   {
    "id": "R03:12CA4",
@@ -1104,7 +1241,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n【モロ・モロＱ】さんは、\n特撮エイガを撮るようになって、",
-   "en": ""
+   "en": "Young Man:\nEver since Moro Moro Q-san\nstarted making effects movies...",
+   "status": "done"
   },
   {
    "id": "R03:12CEC",
@@ -1112,7 +1250,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "人がかわっちゃったんだ。",
-   "en": ""
+   "en": "He's become a different person.",
+   "status": "done"
   },
   {
    "id": "R03:12D08",
@@ -1120,7 +1259,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじいさん：\nこの先はブリキントンだらけじゃ。\n気をつけて行きなされ。",
-   "en": ""
+   "en": "Old Man:\nIt's crawling with Tinpotons\nup ahead. Watch yourselves.",
+   "status": "done"
   },
   {
    "id": "R03:12D50",
@@ -1128,7 +1268,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nああっー！\n私のスウィートホームが！！",
-   "en": ""
+   "en": "Young Woman:\nAaaah!\nMy home sweet home!!",
+   "status": "done"
   },
   {
    "id": "R03:12D86",
@@ -1136,7 +1277,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "返して！\nだれか、私のスウィートホームを\n返してちょうだいぃっ！！",
-   "en": ""
+   "en": "Give it back!\nSomebody, please give me back\nmy home sweet home!!",
+   "status": "done"
   },
   {
    "id": "R03:12DCC",
@@ -1144,7 +1286,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nあたしぃ、こー見えても、\nジョユウをめざしているの！",
-   "en": ""
+   "en": "Young Woman:\nBelieve it or not,\nI'm going to be an actress!",
+   "status": "done"
   },
   {
    "id": "R03:12E10",
@@ -1152,7 +1295,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "気やすく話しかけないでくれる？",
-   "en": ""
+   "en": "Don't talk to me\nlike we're pals.",
+   "status": "done"
   },
   {
    "id": "R03:12E30",
@@ -1160,7 +1304,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\n話しかけないでって\n言ったでしょ！",
-   "en": ""
+   "en": "Young Woman:\nI told you not to talk to me!",
+   "status": "done"
   },
   {
    "id": "R03:12E64",
@@ -1168,7 +1313,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\nエイガといえば・・・\nやっぱりロマンスものよねぇ。",
-   "en": ""
+   "en": "Young Woman:\nWhen it comes to movies...\nRomance is the best, of course.",
+   "status": "done"
   },
   {
    "id": "R03:12EA8",
@@ -1176,7 +1322,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n戦いにつかれたら、\n体をやすめることが先決じゃ。",
-   "en": ""
+   "en": "Old Woman:\nIf battle has worn you out,\nresting up must come first.",
+   "status": "done"
   },
   {
    "id": "R03:12EE8",
@@ -1184,7 +1331,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ムリはいかんぞ。",
-   "en": ""
+   "en": "Don't push yourself too hard.",
+   "status": "done"
   },
   {
    "id": "R03:12EFC",
@@ -1192,7 +1340,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\n今日は、ハニーと\nはじめてのデートさ！",
-   "en": ""
+   "en": "Boy:\nToday's my first date\nwith my honey!",
+   "status": "done"
   },
   {
    "id": "R03:12F32",
@@ -1200,7 +1349,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "さあ、ハニー！\n何でも欲しい物を言ってごらん。",
-   "en": ""
+   "en": "Come on, honey!\nTell me anything you want!",
+   "status": "done"
   },
   {
    "id": "R03:12F64",
@@ -1208,7 +1358,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nやっぱりコンビニは\n落ち着くわねー。",
-   "en": ""
+   "en": "Young Woman:\nAh, convenience stores really\nmake me feel at home.",
+   "status": "done"
   },
   {
    "id": "R03:12F98",
@@ -1216,7 +1367,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "それにしても・・・。\nこの子、一体何なのよ！？",
-   "en": ""
+   "en": "Still...\nWhat's with this kid?!",
+   "status": "done"
   },
   {
    "id": "R03:12FC8",
@@ -1224,7 +1376,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\n【超おもしろカッコいい隊】！！\nたのしみにしているからねっ！",
-   "en": ""
+   "en": "Boy:\nSuper Funny Cool Squad!!\nI can't wait to see you!",
+   "status": "done"
   },
   {
    "id": "R03:13014",
@@ -1232,7 +1385,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nまず、となりの家で、\nヒーロースーツをたのみなよ。",
-   "en": ""
+   "en": "Young Man:\nFirst, ask for a Hero Suit\nat the house next door.",
+   "status": "done"
   },
   {
    "id": "R03:13056",
@@ -1240,7 +1394,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "その後は、村の興の家で\nヒーロースーツにひつような\n生地をもらって来るんだ！",
-   "en": ""
+   "en": "Then get the fabric for the\nHero Suit from the house\nat the back of the village!",
+   "status": "done"
   },
   {
    "id": "R03:130A4",
@@ -1248,7 +1403,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nああ、はやく、\n【超おもしろカッコいい隊】の",
-   "en": ""
+   "en": "Young Woman:\nOh, I can hardly wait for\nthe Super Funny Cool Squad...",
+   "status": "done"
   },
   {
    "id": "R03:130E0",
@@ -1256,7 +1412,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "カツヤクが見たいわぁ。",
-   "en": ""
+   "en": "to show us what they can do!",
+   "status": "done"
   },
   {
    "id": "R03:130F8",
@@ -1264,7 +1421,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\nわしも、\nもうすこしわかければ・・・。",
-   "en": ""
+   "en": "Old Man:\nIf only I were\na little younger...",
+   "status": "done"
   },
   {
    "id": "R03:13130",
@@ -1272,7 +1430,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "ちょうろう：\n何か困ったことがあったら、\nワシに、こえをかけてくだされ。",
-   "en": ""
+   "en": "Elder:\nIf anything troubles you,\njust come and speak to me.",
+   "status": "done"
   },
   {
    "id": "R03:1317C",
@@ -1280,7 +1439,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "ちょうろう：\n何かね？　困りごとかね？",
-   "en": ""
+   "en": "Elder:\nWhat is it?\nSome sort of trouble?",
+   "status": "done"
   },
   {
    "id": "R03:131A4",
@@ -1288,7 +1448,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nじつは、\nお願いがございまして・・・。",
-   "en": ""
+   "en": "Sakuya:\nWell, we have a favor\nto ask of you...",
+   "status": "done"
   },
   {
    "id": "R03:131D6",
@@ -1296,7 +1457,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\n【キサク】さんの家に\n行きたいんだけど、",
-   "en": ""
+   "en": "Wataru:\nWe want to go to\nKisaku-san's house...",
+   "status": "done"
   },
   {
    "id": "R03:1320A",
@@ -1304,7 +1466,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "見はりにジャマされちゃうんだ。\n通行のキョカをちょうだい。",
-   "en": ""
+   "en": "But the guard won't let us past.\nCan we have permission to go?",
+   "status": "done"
   },
   {
    "id": "R03:13246",
@@ -1312,7 +1475,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちょうろう：\nうーむ。\nあっさりと言ってくれるな。",
-   "en": ""
+   "en": "Elder:\nHmm.\nYou make it sound so simple.",
+   "status": "done"
   },
   {
    "id": "R03:1327A",
@@ -1320,7 +1484,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "たやすくキョカすると、\n【モロ・モロＱ】様に\nしかられてしまうのじゃ。",
-   "en": ""
+   "en": "If I hand out permission\nso easily, Moro Moro Q-sama\nwill give me a scolding.",
+   "status": "done"
   },
   {
    "id": "R03:132C2",
@@ -1328,7 +1493,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\nお願いだよ。",
-   "en": ""
+   "en": "Wataru:\nPlease!",
+   "status": "done"
   },
   {
    "id": "R03:132DA",
@@ -1336,7 +1502,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "村人が、ボク達\n【超おもしろカッコいい隊】を\nまっているんだ！",
-   "en": ""
+   "en": "The villagers are waiting\nfor us, the\nSuper Funny Cool Squad!",
+   "status": "done"
   },
   {
    "id": "R03:1331A",
@@ -1344,7 +1511,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちょうろう：\nほほっ？\n【超おもしろカッコいい隊】とな？",
-   "en": ""
+   "en": "Elder:\nHo ho! The Super Funny\nCool Squad, you say?",
+   "status": "done"
   },
   {
    "id": "R03:13354",
@@ -1352,7 +1520,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "それはワクワクするのう。",
-   "en": ""
+   "en": "That does sound exciting.",
+   "status": "done"
   },
   {
    "id": "R03:1336E",
@@ -1360,7 +1529,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nでは！",
-   "en": ""
+   "en": "Sakuya:\nThen you will!",
+   "status": "done"
   },
   {
    "id": "R03:13380",
@@ -1368,7 +1538,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちょうろう：\nワシもまぜてくれんかのう？",
-   "en": ""
+   "en": "Elder:\nCould I join you, too?",
+   "status": "done"
   },
   {
    "id": "R03:133AA",
@@ -1376,7 +1547,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nへっ！？",
-   "en": ""
+   "en": "Sakuya:\nWhat?!",
+   "status": "done"
   },
   {
    "id": "R03:133BE",
@@ -1384,7 +1556,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nじいさんには、\nけっこうこたえるしごとだ。",
-   "en": ""
+   "en": "Aragoto:\nSuch work would take quite\na toll on a man your age.",
+   "status": "done"
   },
   {
    "id": "R03:133F6",
@@ -1392,7 +1565,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "気持ちをさっするが、\nここは拙達にまかせてほしい。",
-   "en": ""
+   "en": "I understand your feelings,\nbut please leave this to us.",
+   "status": "done"
   },
   {
    "id": "R03:1342A",
@@ -1400,7 +1574,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちょうろう：\nそうかのう・・・。\nざんねんじゃ・・・。",
-   "en": ""
+   "en": "Elder:\nYou think so...?\nWhat a pity...",
+   "status": "done"
   },
   {
    "id": "R03:13462",
@@ -1408,7 +1583,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "それでは、\nツウコウテガタをあげよう。\nほれ。",
-   "en": ""
+   "en": "Then I'll give you\na Travel Pass.\nHere you are.",
+   "status": "done"
   },
   {
    "id": "R03:13492",
@@ -1416,7 +1592,8 @@
    "kind": "next",
    "end": "A000",
    "jp": "ツウコウテガタを\n手に入れた！",
-   "en": ""
+   "en": "Got the Travel Pass!",
+   "status": "done"
   },
   {
    "id": "R03:134B8",
@@ -1424,7 +1601,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ちょうろう：\nツウコウテガタは、\nやくに立ったかのう？",
-   "en": ""
+   "en": "Elder:\nDid the Travel Pass\ncome in handy?",
+   "status": "done"
   },
   {
    "id": "R03:134F0",
@@ -1432,7 +1610,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "モロ・モロＱの手下：\nおい、\nここから先へ行ってはならん。",
-   "en": ""
+   "en": "Moro Moro Q's Minion:\nHey!\nYou can't go past here.",
+   "status": "done"
   },
   {
    "id": "R03:1352C",
@@ -1440,7 +1619,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nなんだ？\n拙達はこの先の家に行くだけだ。",
-   "en": ""
+   "en": "Aragoto:\nWhat? We're merely going\nto the house up ahead.",
+   "status": "done"
   },
   {
    "id": "R03:13562",
@@ -1448,7 +1628,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "モロ・モロＱの手下：\nこの先は、【モロ・モロＱ】様の\n【採石場】へつづいている。",
-   "en": ""
+   "en": "Moro Moro Q's Minion:\nThis path leads to\nMoro Moro Q-sama's Quarry.",
+   "status": "done"
   },
   {
    "id": "R03:135B4",
@@ -1456,7 +1637,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "キョカのないものは、通せん。",
-   "en": ""
+   "en": "No one gets through\nwithout permission.",
+   "status": "done"
   },
   {
    "id": "R03:135D2",
@@ -1464,7 +1646,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワタル：\nしょうがない。出直そう。",
-   "en": ""
+   "en": "Wataru:\nOh, well. Let's come back later.",
+   "status": "done"
   },
   {
    "id": "R03:135F8",
@@ -1472,7 +1655,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "モロ・モロＱの手下：\nふむ・・・。\nたしかにツウコウテガタだ。",
-   "en": ""
+   "en": "Moro Moro Q's Minion:\nHmm...\nThat's a Travel Pass, all right.",
+   "status": "done"
   },
   {
    "id": "R03:13638",
@@ -1480,7 +1664,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "よし、通っていいぞ。",
-   "en": ""
+   "en": "All right, you may pass.",
+   "status": "done"
   },
   {
    "id": "R03:13650",
@@ -1488,7 +1673,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "モロ・モロＱの手下：\nおい、\nここから先へ行ってはならん。",
-   "en": ""
+   "en": "Moro Moro Q's Minion:\nHey!\nYou can't go past here.",
+   "status": "done"
   },
   {
    "id": "R03:1368C",
@@ -1496,7 +1682,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nなんだ？\n拙達はこの先の家に行くだけだ。",
-   "en": ""
+   "en": "Aragoto:\nWhat? We're merely going\nto the house up ahead.",
+   "status": "done"
   },
   {
    "id": "R03:136C2",
@@ -1504,7 +1691,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "モロ・モロＱの手下：\nこの先は、【モロ・モロＱ】様の\n【採石場】へつづいている。",
-   "en": ""
+   "en": "Moro Moro Q's Minion:\nThis path leads to\nMoro Moro Q-sama's Quarry.",
+   "status": "done"
   },
   {
    "id": "R03:13714",
@@ -1512,7 +1700,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "キョカのないものは、通せん。",
-   "en": ""
+   "en": "No one gets through\nwithout permission.",
+   "status": "done"
   },
   {
    "id": "R03:13732",
@@ -1520,7 +1709,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワタル：\nしょうがない。出直そう。",
-   "en": ""
+   "en": "Wataru:\nOh, well. Let's come back later.",
+   "status": "done"
   },
   {
    "id": "R03:13758",
@@ -1528,7 +1718,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "モロ・モロＱの手下：\nキョカをもらってきたのか。\nならば、先に行くがいい。",
-   "en": ""
+   "en": "Moro Moro Q's Minion:\nYou got permission, then?\nGo on through.",
+   "status": "done"
   },
   {
    "id": "R03:137A4",
@@ -1536,7 +1727,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "モロ・モロＱの手下：\nなんだ？　お前達は？",
-   "en": ""
+   "en": "Moro Moro Q's Minion:\nWhat? Who are you lot?",
+   "status": "done"
   },
   {
    "id": "R03:137D0",
@@ -1544,7 +1736,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ここから先は、\n【モロ・モロＱ】様の\n【採石場】だ。",
-   "en": ""
+   "en": "Beyond here lies\nMoro Moro Q-sama's\nQuarry.",
+   "status": "done"
   },
   {
    "id": "R03:13806",
@@ -1552,7 +1745,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "かえれ、かえれ！",
-   "en": ""
+   "en": "Go on, scram!",
+   "status": "done"
   },
   {
    "id": "R03:13818",
@@ -1560,7 +1754,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コサク：\nあん？\nヒーロースーツが、ほしいだぁ？",
-   "en": ""
+   "en": "Kosaku:\nHuh? You want a Hero Suit?",
+   "status": "done"
   },
   {
    "id": "R03:1384A",
@@ -1568,7 +1763,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nなんだか\nぶっきらぼうな方ですわね・・・。",
-   "en": ""
+   "en": "Sakuya:\nWhat a rather brusque\nsort of gentleman...",
+   "status": "done"
   },
   {
    "id": "R03:13880",
@@ -1576,7 +1772,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コサク：\nだめだ、だめだ！",
-   "en": ""
+   "en": "Kosaku:\nNo way! Forget it!",
+   "status": "done"
   },
   {
    "id": "R03:1389C",
@@ -1584,7 +1781,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あいにくオレは、作品を気やすく\n作らないポリシーでね。",
-   "en": ""
+   "en": "Sorry, I make it a rule never\nto take my craft lightly.",
+   "status": "done"
   },
   {
    "id": "R03:138D4",
@@ -1592,7 +1790,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\nそんなぁ。",
-   "en": ""
+   "en": "Wataru:\nAw, come on!",
+   "status": "done"
   },
   {
    "id": "R03:138EA",
@@ -1600,7 +1799,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nそこを、ぜひ！！\n村人が救いをまっている・・・！",
-   "en": ""
+   "en": "Aragoto:\nPlease, I must insist!!\nThe villagers await our aid...!",
+   "status": "done"
   },
   {
    "id": "R03:13928",
@@ -1608,7 +1808,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "拙達、\n【超おもしろカッコいい隊】の\n救いを！！",
-   "en": ""
+   "en": "The aid of none other than us,\nthe Super Fun Cool Squad!!",
+   "status": "done"
   },
   {
    "id": "R03:1395A",
@@ -1616,7 +1817,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コサク：\n・・・ほう・・・。\n村人を救うのが目的か・・・。",
-   "en": ""
+   "en": "Kosaku:\n...Oh...? So you're out\nto save the villagers...",
+   "status": "done"
   },
   {
    "id": "R03:13996",
@@ -1624,7 +1826,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "なるほど、\nそれなら力になってやらあ。\nただし、ジョウケンがある。",
-   "en": ""
+   "en": "I see.\nThen I'll lend you a hand.\nBut there's one condition.",
+   "status": "done"
   },
   {
    "id": "R03:139DA",
@@ -1632,7 +1835,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\nジョウケン？",
-   "en": ""
+   "en": "Wataru:\nA condition?",
+   "status": "done"
   },
   {
    "id": "R03:139F2",
@@ -1640,7 +1844,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コサク：\n村の興の家で生地をとってきな。",
-   "en": ""
+   "en": "Kosaku:\nGet fabric from the house\nat the back of the village.",
+   "status": "done"
   },
   {
    "id": "R03:13A1C",
@@ -1648,7 +1853,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "オレのオトウトで\n【キサク】というやつがいるから、\nそいつにたのみな。",
-   "en": ""
+   "en": "My little brother Kisaku\nlives there.\nAsk him for it.",
+   "status": "done"
   },
   {
    "id": "R03:13A64",
@@ -1656,7 +1862,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nわかりましたわ。\n【キサク】さんですわね。",
-   "en": ""
+   "en": "Sakuya:\nUnderstood.\nKisaku-san, was it?",
+   "status": "done"
   },
   {
    "id": "R03:13A9A",
@@ -1664,7 +1871,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "すぐにとって参りますわ。",
-   "en": ""
+   "en": "I shall fetch it at once.",
+   "status": "done"
   },
   {
    "id": "R03:13AB4",
@@ -1672,7 +1880,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コサク：\n生地はどうした？",
-   "en": ""
+   "en": "Kosaku:\nWhere's the fabric?",
+   "status": "done"
   },
   {
    "id": "R03:13AD0",
@@ -1680,7 +1889,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "はやく、とってこい！！",
-   "en": ""
+   "en": "Hurry up and get it!!",
+   "status": "done"
   },
   {
    "id": "R03:13AE8",
@@ -1688,7 +1898,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コサク：\nおう、とってきたかぁ。",
-   "en": ""
+   "en": "Kosaku:\nOh, you got it, huh?",
+   "status": "done"
   },
   {
    "id": "R03:13B0A",
@@ -1696,7 +1907,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "よーし、作ってやるから、\nちょっとまっていろ！",
-   "en": ""
+   "en": "Right, I'll make it for you.\nHang on a minute!",
+   "status": "done"
   },
   {
    "id": "R03:13B3A",
@@ -1704,7 +1916,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・・・・・・・。\n・・・・・・・・・・・・・・・。\n・・・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "...............\n...............\n...............",
+   "status": "done"
   },
   {
    "id": "R03:13BA0",
@@ -1712,7 +1925,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コサク：\nほれ、できたぞ。",
-   "en": ""
+   "en": "Kosaku:\nThere. It's done.",
+   "status": "done"
   },
   {
    "id": "R03:13BBC",
@@ -1720,7 +1934,8 @@
    "kind": "next",
    "end": "F000",
    "jp": "ヒーロースーツを\n手に入れた！",
-   "en": ""
+   "en": "Got the Hero Suit!",
+   "status": "done"
   },
   {
    "id": "R03:13BE0",
@@ -1728,7 +1943,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\nようし、ヒーロースーツも\n手に入れたし・・・。",
-   "en": ""
+   "en": "Wataru:\nAll right, now we've got\nthe Hero Suit, too...",
+   "status": "done"
   },
   {
    "id": "R03:13C1A",
@@ -1736,7 +1952,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nいざ、決戦の場へ！",
-   "en": ""
+   "en": "Aragoto:\nOnward to the final showdown!",
+   "status": "done"
   },
   {
    "id": "R03:13C3A",
@@ -1744,7 +1961,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタルとアラゴト：\n行くぞ！\n【超おもしろカッコいい隊】！！",
-   "en": ""
+   "en": "Wataru & Aragoto:\nLet's go!\nSuper Fun Cool Squad!!",
+   "status": "done"
   },
   {
    "id": "R03:13C78",
@@ -1752,7 +1970,8 @@
    "kind": "next",
    "end": "D000",
    "jp": "サクヤ：\n・・・・・・・・・。",
-   "en": ""
+   "en": "Sakuya:\n.........",
+   "status": "done"
   },
   {
    "id": "R03:13CA0",
@@ -1760,7 +1979,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "コサク：\nようがねぇなら、\n来るんじゃねぇ！",
-   "en": ""
+   "en": "Kosaku:\nIf you've got no business here,\nstay out!",
+   "status": "done"
   },
   {
    "id": "R03:13CD0",
@@ -1768,7 +1988,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "キサク：\nは～い、何ですか？\n・・・えっ？　キジですか？",
-   "en": ""
+   "en": "Kisaku:\nYeees? What can I do for you?\n...Eh? Fabric?",
+   "status": "done"
   },
   {
    "id": "R03:13D0A",
@@ -1776,7 +1997,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "でしたら、あっしのアニキに\n言って、どんなキジがいいか\nそうだんしてきてくだせえ。",
-   "en": ""
+   "en": "Then go have a word with\nmy big brother about what\nsort of fabric you need.",
+   "status": "done"
   },
   {
    "id": "R03:13D5E",
@@ -1784,7 +2006,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "でないと、あっしの方で\nキジをわたせないんですわ。\nすんませんねぇ。",
-   "en": ""
+   "en": "Can't give you any fabric\ntill you've done that.\nSorry about that!",
+   "status": "done"
   },
   {
    "id": "R03:13DA4",
@@ -1792,7 +2015,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nごめんください。",
-   "en": ""
+   "en": "Sakuya:\nPardon the intrusion.",
+   "status": "done"
   },
   {
    "id": "R03:13DC0",
@@ -1800,7 +2024,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "キサク：\nあいよっ！",
-   "en": ""
+   "en": "Kisaku:\nComing!",
+   "status": "done"
   },
   {
    "id": "R03:13DD6",
@@ -1808,7 +2033,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おっ、きゃくじんとはめずらしい。\nおちゃでものんでけぇ。",
-   "en": ""
+   "en": "Oh, visitors! That's a rarity.\nStay for a cup of tea!",
+   "status": "done"
   },
   {
    "id": "R03:13E10",
@@ -1816,7 +2042,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nおにいさんとは違って、\nずいぶん、気さくな方ですわね。",
-   "en": ""
+   "en": "Sakuya:\nUnlike your brother, you are\nquite an amiable gentleman.",
+   "status": "done"
   },
   {
    "id": "R03:13E52",
@@ -1824,7 +2051,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\n【コサク】さんのしょうかいで、\n生地をもらいに来たんだけど。",
-   "en": ""
+   "en": "Wataru:\nKosaku-san sent us over.\nWe've come to get some fabric.",
+   "status": "done"
   },
   {
    "id": "R03:13E9A",
@@ -1832,7 +2060,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "キサク：\nほう、【コサク】アニキからかい！\nアニキ、あいそ悪いでしょう。",
-   "en": ""
+   "en": "Kisaku:\nOh, my big brother Kosaku!\nNot very friendly, is he?",
+   "status": "done"
   },
   {
    "id": "R03:13EE4",
@@ -1840,7 +2069,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nえ・・・いえ、そんな・・・。",
-   "en": ""
+   "en": "Sakuya:\nEr... No, I would not say...",
+   "status": "done"
   },
   {
    "id": "R03:13F0C",
@@ -1848,7 +2078,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "私達の願いを聞き入れて\nくださいましたし・・・。",
-   "en": ""
+   "en": "He did agree to help us\nwith our request...",
+   "status": "done"
   },
   {
    "id": "R03:13F3E",
@@ -1856,7 +2087,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "キサク：\nいえいえ、アニキはガンコだから。",
-   "en": ""
+   "en": "Kisaku:\nOh, no, he's a stubborn one!",
+   "status": "done"
   },
   {
    "id": "R03:13F6A",
@@ -1864,7 +2096,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "でも、そのアニキが\n引き受けたなら\nよほどのことでしょう。",
-   "en": ""
+   "en": "But if even he agreed to help,\nit must be something\npretty important.",
+   "status": "done"
   },
   {
    "id": "R03:13FA6",
@@ -1872,7 +2105,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nそうなのだ。",
-   "en": ""
+   "en": "Aragoto:\nIndeed it is.",
+   "status": "done"
   },
   {
    "id": "R03:13FC0",
@@ -1880,7 +2114,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "いま、村人達には、拙達\n【超おもしろカッコいい隊】が\nひつようなのだ！",
-   "en": ""
+   "en": "The villagers need us now!\nUs, the Super Fun Cool Squad!",
+   "status": "done"
   },
   {
    "id": "R03:14008",
@@ -1888,7 +2123,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "キサク：\nほう、ヒーロースーツけぇ？\nそれじゃ、これだな・・・。",
-   "en": ""
+   "en": "Kisaku:\nOh, a Hero Suit, eh?\nThen this is what you need...",
+   "status": "done"
   },
   {
    "id": "R03:1404A",
@@ -1896,7 +2132,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ほれ、持ってけぇ！",
-   "en": ""
+   "en": "Here, take it!",
+   "status": "done"
   },
   {
    "id": "R03:1405E",
@@ -1904,7 +2141,8 @@
    "kind": "next",
    "end": "A000",
    "jp": "テカテカしたキジを\n手に入れた！",
-   "en": ""
+   "en": "Got the Shiny Fabric!",
+   "status": "done"
   },
   {
    "id": "R03:14084",
@@ -1912,7 +2150,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "キサク：\nアニキに、よろしく\n言っておいてください。",
-   "en": ""
+   "en": "Kisaku:\nGive my regards to\nmy big brother.",
+   "status": "done"
   },
   {
    "id": "R03:140BC",
@@ -1920,7 +2159,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n【超おもしろカッコいい隊】の\n衣装が欲しい？",
-   "en": ""
+   "en": "Old Woman:\nWant costumes for the\nSuper Fun Cool Squad?",
+   "status": "done"
   },
   {
    "id": "R03:140F8",
@@ -1928,7 +2168,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ならば、村の入口近くの家へ、\n行きなされ。",
-   "en": ""
+   "en": "Then go to the house near\nthe village entrance.",
+   "status": "done"
   },
   {
    "id": "R03:14124",
@@ -1936,7 +2177,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\n生地が欲しいと？",
-   "en": ""
+   "en": "Old Woman:\nYe want fabric?",
+   "status": "done"
   },
   {
    "id": "R03:14144",
@@ -1944,7 +2186,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ならば、村の興の家へ、\n行きなされ。",
-   "en": ""
+   "en": "Then go to the house at\nthe back of the village.",
+   "status": "done"
   }
  ]
 }

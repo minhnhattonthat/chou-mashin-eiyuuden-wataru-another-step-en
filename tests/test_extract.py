@@ -82,12 +82,13 @@ def test_menu_split():
     doc = {e["id"]: e for e in json.loads((ROOT / "script/BALLBAT.json").read_text(encoding="utf-8"))["entries"]}
     assert doc["BALLBAT:2156C"]["jp"] == "スポーツキャップ" and doc["BALLBAT:2157C"]["jp"] == "龍神のかんむり"
     assert "BALLBAT:21530" not in doc  # [u32 3, u32 ptr] record
-    assert doc["BALLBAT:22830"] == {"id": "BALLBAT:22830", "kind": "bfont", "jp": "ホムライフル", "en": "",
-                                    "len_at": "22AB4"}
+    src = lambda e: {k: v for k, v in e.items() if k not in ("en", "status")}  # noqa: E731  (translation fields)
+    assert src(doc["BALLBAT:22830"]) == {"id": "BALLBAT:22830", "kind": "bfont", "jp": "ホムライフル",
+                                         "len_at": "22AB4"}
     assert doc["BALLBAT:22190"]["len_at"] == "2245C"  # lose message: record 14 cells of 16, drawn 14
     assert "len_at" not in doc["BALLBAT:21CFC"]  # [u32 id, u32 ptr] block 0x21E1C
     ene = {e["id"]: e for e in json.loads((ROOT / "script/ene/ENE01.json").read_text(encoding="utf-8"))["entries"]}
-    assert ene["ENE01:034C8"] == {"id": "ENE01:034C8", "kind": "bname", "max": 11, "jp": "ファックスメン", "en": ""}
+    assert src(ene["ENE01:034C8"]) == {"id": "ENE01:034C8", "kind": "bname", "max": 11, "jp": "ファックスメン"}
     assert ene["ENE01:034A4"]["len_at"] == "03501"
     assert doc["BALLBAT:252E0"]["jp"] == "リンリーン"  # a code ref mid-string must not cut
     st = {e["id"]: e for e in json.loads((ROOT / "script/ST.json").read_text(encoding="utf-8"))["entries"]}

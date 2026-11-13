@@ -8,7 +8,8 @@
    "max": 9,
    "len_at": "0275D",
    "jp": "プリリン・モンロー",
-   "en": ""
+   "en": "Purr Monroe",
+   "status": "done"
   },
   {
    "id": "ENE03:026B8",
@@ -16,7 +17,8 @@
    "max": 9,
    "len_at": "02771",
    "jp": "ポヨヨン・モンロー",
-   "en": ""
+   "en": "BoingMonroe",
+   "status": "done"
   },
   {
    "id": "ENE03:026CC",
@@ -24,7 +26,8 @@
    "max": 9,
    "len_at": "02785",
    "jp": "パフフン・モンロー",
-   "en": ""
+   "en": "Puff Monroe",
+   "status": "done"
   },
   {
    "id": "ENE03:026E0",
@@ -32,35 +35,40 @@
    "max": 9,
    "len_at": "02799",
    "jp": "アハハン・モンロー",
-   "en": ""
+   "en": "Haha Monroe",
+   "status": "done"
   },
   {
    "id": "ENE03:026F4",
    "kind": "bname",
    "max": 11,
    "jp": "プリリン[00EB:・]モンロー",
-   "en": ""
+   "en": "Purr Monroe",
+   "status": "done"
   },
   {
    "id": "ENE03:02700",
    "kind": "bname",
    "max": 11,
    "jp": "ポヨヨン[00EB:・]モンロー",
-   "en": ""
+   "en": "BoingMonroe",
+   "status": "done"
   },
   {
    "id": "ENE03:0270C",
    "kind": "bname",
    "max": 11,
    "jp": "パフフン[00EB:・]モンロー",
-   "en": ""
+   "en": "Puff Monroe",
+   "status": "done"
   },
   {
    "id": "ENE03:02718",
    "kind": "bname",
    "max": 11,
    "jp": "アハハン[00EB:・]モンロー",
-   "en": ""
+   "en": "Haha Monroe",
+   "status": "done"
   }
  ]
 }

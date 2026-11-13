@@ -8,7 +8,8 @@
    "max": 9,
    "len_at": "02741",
    "jp": "ボン・キュ・ボーン",
-   "en": ""
+   "en": "Va Va Boom",
+   "status": "done"
   },
   {
    "id": "ENE14:026CC",
@@ -16,7 +17,8 @@
    "max": 10,
    "len_at": "02755",
    "jp": "ダイナマイト・ボーン",
-   "en": ""
+   "en": "Dynamibone",
+   "status": "done"
   },
   {
    "id": "ENE14:026E0",
@@ -24,28 +26,32 @@
    "max": 8,
    "len_at": "02769",
    "jp": "ボーン・ウーマン",
-   "en": ""
+   "en": "Boom Woman",
+   "status": "done"
   },
   {
    "id": "ENE14:026F0",
    "kind": "bname",
    "max": 11,
    "jp": "ボン[00EB:・]キュ[00EB:・]ボーン",
-   "en": ""
+   "en": "Va Va Boom",
+   "status": "done"
   },
   {
    "id": "ENE14:026FC",
    "kind": "bname",
    "max": 11,
    "jp": "ダイナマイト[00EB:・]ボーン",
-   "en": ""
+   "en": "Dynamibone",
+   "status": "done"
   },
   {
    "id": "ENE14:02708",
    "kind": "bname",
    "max": 11,
    "jp": "ボーン[00EB:・]ウーマン",
-   "en": ""
+   "en": "Boom Woman",
+   "status": "done"
   }
  ]
 }

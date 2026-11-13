@@ -9,28 +9,32 @@
    "slot": 0,
    "max": 16,
    "jp": "よろしいですか　　　はい　いいえ",
-   "en": ""
+   "en": "Is this OK?      Yes  No",
+   "status": "done"
   },
   {
    "id": "EXE:77BC0",
    "slot": 1,
    "max": 16,
    "jp": "おかねがたりません！！",
-   "en": ""
+   "en": "Not enough money!!",
+   "status": "done"
   },
   {
    "id": "EXE:77BE0",
    "slot": 2,
    "max": 16,
    "jp": "もてる数が限界の装備があります。",
-   "en": ""
+   "en": "Some gear is at the carry limit.",
+   "status": "done"
   },
   {
    "id": "EXE:77C00",
    "slot": 3,
    "max": 16,
    "jp": "すでに、もっています。",
-   "en": ""
+   "en": "You already have it.",
+   "status": "done"
   }
  ]
 }

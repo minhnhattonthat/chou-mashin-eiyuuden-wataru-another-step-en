@@ -8,7 +8,8 @@
    "max": 10,
    "len_at": "01F9D",
    "jp": "ミスター・タラックチ",
-   "en": ""
+   "en": "Mr. Codlips",
+   "status": "done"
   },
   {
    "id": "ENE16:01F20",
@@ -16,7 +17,8 @@
    "max": 9,
    "len_at": "01FB1",
    "jp": "ミスター・タラッコ",
-   "en": ""
+   "en": "Mr. Roe",
+   "status": "done"
   },
   {
    "id": "ENE16:01F34",
@@ -24,28 +26,32 @@
    "max": 11,
    "len_at": "01FC5",
    "jp": "ミスティー・タラックチ",
-   "en": ""
+   "en": "Misty Lips",
+   "status": "done"
   },
   {
    "id": "ENE16:01F4C",
    "kind": "bname",
    "max": 11,
    "jp": "ミスター[00EB:・]タラックチ",
-   "en": ""
+   "en": "Mr. Codlips",
+   "status": "done"
   },
   {
    "id": "ENE16:01F58",
    "kind": "bname",
    "max": 11,
    "jp": "ミスター[00EB:・]タラッコ",
-   "en": ""
+   "en": "Mr. Roe",
+   "status": "done"
   },
   {
    "id": "ENE16:01F64",
    "kind": "bname",
    "max": 11,
    "jp": "ミスティー[00EB:・]タラックチ",
-   "en": ""
+   "en": "Misty Lips",
+   "status": "done"
   }
  ]
 }

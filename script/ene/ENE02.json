@@ -8,7 +8,8 @@
    "max": 8,
    "len_at": "04005",
    "jp": "ジャー・サンプン",
-   "en": ""
+   "en": "Jar Sanpun",
+   "status": "done"
   },
   {
    "id": "ENE02:03FBC",
@@ -16,21 +17,24 @@
    "max": 7,
    "len_at": "04019",
    "jp": "モー・イップン",
-   "en": ""
+   "en": "Mo Ippun",
+   "status": "done"
   },
   {
    "id": "ENE02:03FCC",
    "kind": "bname",
    "max": 11,
    "jp": "ジャー[00EB:・]サンプン",
-   "en": ""
+   "en": "Jar Sanpun",
+   "status": "done"
   },
   {
    "id": "ENE02:03FD8",
    "kind": "bname",
    "max": 11,
    "jp": "モー[00EB:・]イップン",
-   "en": ""
+   "en": "Mo Ippun",
+   "status": "done"
   }
  ]
 }

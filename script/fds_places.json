@@ -9,343 +9,392 @@
    "slot": 0,
    "max": 10,
    "jp": "もんじゃ村",
-   "en": ""
+   "en": "Monja Village",
+   "status": "done"
   },
   {
    "id": "FDS:120EC",
    "slot": 1,
    "max": 10,
    "jp": "龍神池",
-   "en": ""
+   "en": "Ryujin Pond",
+   "status": "done"
   },
   {
    "id": "FDS:12100",
    "slot": 2,
    "max": 10,
    "jp": "コンビニ村",
-   "en": ""
+   "en": "Konbini Village",
+   "status": "done"
   },
   {
    "id": "FDS:12114",
    "slot": 3,
    "max": 10,
    "jp": "コンビニ村",
-   "en": ""
+   "en": "Konbini Village",
+   "status": "done"
   },
   {
    "id": "FDS:12128",
    "slot": 4,
    "max": 10,
    "jp": "ガンボづくし村",
-   "en": ""
+   "en": "Ganbozukushi Village",
+   "status": "done"
   },
   {
    "id": "FDS:1213C",
    "slot": 5,
    "max": 10,
    "jp": "カネワローン前",
-   "en": ""
+   "en": "Outside Kanewa Loans",
+   "status": "done"
   },
   {
    "id": "FDS:12150",
    "slot": 6,
    "max": 10,
    "jp": "カネワローン",
-   "en": ""
+   "en": "Kanewa Loans",
+   "status": "done"
   },
   {
    "id": "FDS:12164",
    "slot": 7,
    "max": 10,
    "jp": "地下通路",
-   "en": ""
+   "en": "Underground Passage",
+   "status": "done"
   },
   {
    "id": "FDS:12178",
    "slot": 8,
    "max": 10,
    "jp": "エキストラタウン",
-   "en": ""
+   "en": "Extra Town",
+   "status": "done"
   },
   {
    "id": "FDS:1218C",
    "slot": 9,
    "max": 10,
    "jp": "さいせき場",
-   "en": ""
+   "en": "Quarry",
+   "status": "done"
   },
   {
    "id": "FDS:121A0",
    "slot": 10,
    "max": 10,
    "jp": "キャラクターシティ",
-   "en": ""
+   "en": "Character City",
+   "status": "done"
   },
   {
    "id": "FDS:121B4",
    "slot": 11,
    "max": 10,
    "jp": "コミック創界山会場",
-   "en": ""
+   "en": "Comic Sokaizan Hall",
+   "status": "done"
   },
   {
    "id": "FDS:121C8",
    "slot": 12,
    "max": 10,
    "jp": "ケイコータウン",
-   "en": ""
+   "en": "Keiko Town",
+   "status": "done"
   },
   {
    "id": "FDS:121DC",
    "slot": 13,
    "max": 10,
    "jp": "シャンデリア城前",
-   "en": ""
+   "en": "Chandelier Forecourt",
+   "status": "done"
   },
   {
    "id": "FDS:121F0",
    "slot": 14,
    "max": 10,
    "jp": "シャンデリア城",
-   "en": ""
+   "en": "Chandelier Castle",
+   "status": "done"
   },
   {
    "id": "FDS:12204",
    "slot": 15,
    "max": 10,
    "jp": "ビリビリタウン",
-   "en": ""
+   "en": "Biribiri Town",
+   "status": "done"
   },
   {
    "id": "FDS:12218",
    "slot": 16,
    "max": 10,
    "jp": "ビリビリ城前",
-   "en": ""
+   "en": "Biribiri Castle Gate",
+   "status": "done"
   },
   {
    "id": "FDS:1222C",
    "slot": 17,
    "max": 10,
    "jp": "ビリビリ城",
-   "en": ""
+   "en": "Biribiri Castle",
+   "status": "done"
   },
   {
    "id": "FDS:12240",
    "slot": 18,
    "max": 10,
    "jp": "エネルギー城前",
-   "en": ""
+   "en": "Energy Castle Gate",
+   "status": "done"
   },
   {
    "id": "FDS:12254",
    "slot": 19,
    "max": 10,
    "jp": "エネルギー城",
-   "en": ""
+   "en": "Energy Castle",
+   "status": "done"
   },
   {
    "id": "FDS:12268",
    "slot": 20,
    "max": 10,
    "jp": "エネルギー城",
-   "en": ""
+   "en": "Energy Castle",
+   "status": "done"
   },
   {
    "id": "FDS:1227C",
    "slot": 21,
    "max": 10,
    "jp": "聖なる森",
-   "en": ""
+   "en": "Sacred Forest",
+   "status": "done"
   },
   {
    "id": "FDS:12290",
    "slot": 22,
    "max": 10,
    "jp": "アイドリアンシティ",
-   "en": ""
+   "en": "Idorian City",
+   "status": "done"
   },
   {
    "id": "FDS:122A4",
    "slot": 23,
    "max": 10,
    "jp": "下水道",
-   "en": ""
+   "en": "Sewers",
+   "status": "done"
   },
   {
    "id": "FDS:122B8",
    "slot": 24,
    "max": 10,
    "jp": "電脳空間",
-   "en": ""
+   "en": "Cyberspace",
+   "status": "done"
   },
   {
    "id": "FDS:122CC",
    "slot": 25,
    "max": 10,
    "jp": "デジクロソフトビル",
-   "en": ""
+   "en": "Digicrosoft Building",
+   "status": "done"
   },
   {
    "id": "FDS:122E0",
    "slot": 26,
    "max": 10,
    "jp": "サウンドエコー村",
-   "en": ""
+   "en": "Sound Echo Village",
+   "status": "done"
   },
   {
    "id": "FDS:122F4",
    "slot": 27,
    "max": 10,
    "jp": "ワルトリン城",
-   "en": ""
+   "en": "Warutorin Castle",
+   "status": "done"
   },
   {
    "id": "FDS:12308",
    "slot": 28,
    "max": 10,
    "jp": "ケーブルの森",
-   "en": ""
+   "en": "Cable Forest",
+   "status": "done"
   },
   {
    "id": "FDS:1231C",
    "slot": 29,
    "max": 10,
    "jp": "アスリート村",
-   "en": ""
+   "en": "Athlete Village",
+   "status": "done"
   },
   {
    "id": "FDS:12330",
    "slot": 30,
    "max": 10,
    "jp": "コロッシアム",
-   "en": ""
+   "en": "Colosseum",
+   "status": "done"
   },
   {
    "id": "FDS:12344",
    "slot": 31,
    "max": 10,
    "jp": "アスレチック村",
-   "en": ""
+   "en": "Athletic Village",
+   "status": "done"
   },
   {
    "id": "FDS:12358",
    "slot": 32,
    "max": 10,
    "jp": "けんこう温泉ランド",
-   "en": ""
+   "en": "Health Spa Land",
+   "status": "done"
   },
   {
    "id": "FDS:1236C",
    "slot": 33,
    "max": 10,
    "jp": "ハナヨメ村",
-   "en": ""
+   "en": "Bride Village",
+   "status": "done"
   },
   {
    "id": "FDS:12380",
    "slot": 34,
    "max": 10,
    "jp": "ハナヨメキャッスル",
-   "en": ""
+   "en": "Bride Castle",
+   "status": "done"
   },
   {
    "id": "FDS:12394",
    "slot": 35,
    "max": 10,
    "jp": "サビレータウン",
-   "en": ""
+   "en": "Sabire Town",
+   "status": "done"
   },
   {
    "id": "FDS:123A8",
    "slot": 36,
    "max": 10,
    "jp": "ワルジョの城",
-   "en": ""
+   "en": "Warujo's Castle",
+   "status": "done"
   },
   {
    "id": "FDS:123BC",
    "slot": 37,
    "max": 10,
    "jp": "サビレータウン",
-   "en": ""
+   "en": "Sabire Town",
+   "status": "done"
   },
   {
    "id": "FDS:123D0",
    "slot": 38,
    "max": 10,
    "jp": "ワルジョの城",
-   "en": ""
+   "en": "Warujo's Castle",
+   "status": "done"
   },
   {
    "id": "FDS:123E4",
    "slot": 39,
    "max": 10,
    "jp": "魔神湯治場への道",
-   "en": ""
+   "en": "Road to Mashin Spa",
+   "status": "done"
   },
   {
    "id": "FDS:123F8",
    "slot": 40,
    "max": 10,
    "jp": "魔神湯治場への道",
-   "en": ""
+   "en": "Road to Mashin Spa",
+   "status": "done"
   },
   {
    "id": "FDS:1240C",
    "slot": 41,
    "max": 10,
    "jp": "魔神湯治場",
-   "en": ""
+   "en": "Mashin Spa",
+   "status": "done"
   },
   {
    "id": "FDS:12420",
    "slot": 42,
    "max": 10,
    "jp": "ムキリョク村",
-   "en": ""
+   "en": "Mukiryoku Village",
+   "status": "done"
   },
   {
    "id": "FDS:12434",
    "slot": 43,
    "max": 10,
    "jp": "ワルモンダー城Ａ",
-   "en": ""
+   "en": "Warumonder Castle A",
+   "status": "done"
   },
   {
    "id": "FDS:12448",
    "slot": 44,
    "max": 10,
    "jp": "ワルモンダー城Ｂ",
-   "en": ""
+   "en": "Warumonder Castle B",
+   "status": "done"
   },
   {
    "id": "FDS:1245C",
    "slot": 45,
    "max": 10,
    "jp": "ワルモンダー城Ｃ",
-   "en": ""
+   "en": "Warumonder Castle C",
+   "status": "done"
   },
   {
    "id": "FDS:12470",
    "slot": 46,
    "max": 10,
    "jp": "ワルモンダー城Ｄ",
-   "en": ""
+   "en": "Warumonder Castle D",
+   "status": "done"
   },
   {
    "id": "FDS:12484",
    "slot": 47,
    "max": 10,
    "jp": "ワルモンダー城Ｅ",
-   "en": ""
+   "en": "Warumonder Castle E",
+   "status": "done"
   },
   {
    "id": "FDS:12498",
    "slot": 48,
    "max": 10,
    "jp": "ワルモンダーの間",
-   "en": ""
+   "en": "Warumonder's Chamber",
+   "status": "done"
   }
  ]
 }

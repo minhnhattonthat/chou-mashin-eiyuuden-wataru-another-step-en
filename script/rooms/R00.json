@@ -8,7 +8,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nおーっ、目が覚めたかえ！？",
-   "en": ""
+   "en": "Obaba:\nOho! You're awake, are ye?",
+   "status": "done"
   },
   {
    "id": "R00:0CD28",
@@ -16,7 +17,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nは？",
-   "en": ""
+   "en": "Wataru:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R00:0CD46",
@@ -24,7 +26,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "はぁ・・・。",
-   "en": ""
+   "en": "Uh...",
+   "status": "done"
   },
   {
    "id": "R00:0CD62",
@@ -32,7 +35,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nうんうん、\nどこもケガはないようじゃの。",
-   "en": ""
+   "en": "Obaba:\nMm-hm. Not a scratch on ye,\nfrom the look of it.",
+   "status": "done"
   },
   {
    "id": "R00:0CDA4",
@@ -40,7 +44,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "良かったのぉ。",
-   "en": ""
+   "en": "Thank goodness, eh?",
+   "status": "done"
   },
   {
    "id": "R00:0CDC2",
@@ -48,7 +53,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nは、はい・・・。\nありがとうございます。",
-   "en": ""
+   "en": "Wataru:\nY-yes...\nThank you very much.",
+   "status": "done"
   },
   {
    "id": "R00:0CE04",
@@ -56,7 +62,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "オババ：\n・・・で。おまえ、名前は？",
-   "en": ""
+   "en": "Obaba:\n...So. What's your name, boy?",
+   "status": "done"
   },
   {
    "id": "R00:0CE3A",
@@ -64,7 +71,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nここはどこなんですか？",
-   "en": ""
+   "en": "Wataru:\nWhere am I?",
+   "status": "done"
   },
   {
    "id": "R00:0CE6A",
@@ -72,7 +80,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nえ？\nここは【もんじゃ村】じゃよ。",
-   "en": ""
+   "en": "Obaba:\nEh?\nWhy, this is Monja Village.",
+   "status": "done"
   },
   {
    "id": "R00:0CEA6",
@@ -80,7 +89,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "でぇ、おまえの名前は・・・。",
-   "en": ""
+   "en": "Now then, your name is...",
+   "status": "done"
   },
   {
    "id": "R00:0CED2",
@@ -88,7 +98,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n【もんじゃ村】なんて、\n聞いたことないなぁ・・・。",
-   "en": ""
+   "en": "Wataru:\nMonja Village? I've never\nheard of it...",
+   "status": "done"
   },
   {
    "id": "R00:0CF1E",
@@ -96,7 +107,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "何県にあるんですか？",
-   "en": ""
+   "en": "What prefecture is it in?",
+   "status": "done"
   },
   {
    "id": "R00:0CF42",
@@ -104,7 +116,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nあー、な、何県って・・・。",
-   "en": ""
+   "en": "Obaba:\nP-prefecture...?",
+   "status": "done"
   },
   {
    "id": "R00:0CF76",
@@ -112,7 +125,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nいやぁ、\nボク龍神池の近くを歩いてたら、",
-   "en": ""
+   "en": "Wataru:\nWell, see, I was walking\nnear Ryujin Pond, and then",
+   "status": "done"
   },
   {
    "id": "R00:0CFB8",
@@ -120,7 +134,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "突然すごい光が\nまわり中に広がって・・・。",
-   "en": ""
+   "en": "this amazing light spread out\nall around me...",
+   "status": "done"
   },
   {
    "id": "R00:0CFF2",
@@ -128,7 +143,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nいや、だから、おまえの・・・。",
-   "en": ""
+   "en": "Obaba:\nYes, yes, but YOUR...",
+   "status": "done"
   },
   {
    "id": "R00:0D02A",
@@ -136,7 +152,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nいや、\nビックリしたのなんのって、",
-   "en": ""
+   "en": "Wataru:\nSeriously, I nearly jumped\nout of my skin!",
+   "status": "done"
   },
   {
    "id": "R00:0D066",
@@ -144,7 +161,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "それでね・・・",
-   "en": ""
+   "en": "And then...",
+   "status": "done"
   },
   {
    "id": "R00:0D084",
@@ -152,7 +170,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "オババ：\nだぁーっ！！",
-   "en": ""
+   "en": "Obaba:\nGAAAH!!",
+   "status": "done"
   },
   {
    "id": "R00:0D0AC",
@@ -160,7 +179,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nぅええっ！！",
-   "en": ""
+   "en": "Wataru:\nWhoa!!",
+   "status": "done"
   },
   {
    "id": "R00:0D0D2",
@@ -168,7 +188,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nおまえの名前は、\nなんというんじゃっ！！",
-   "en": ""
+   "en": "Obaba:\nWhat! Is! Your! NAME!!",
+   "status": "done"
   },
   {
    "id": "R00:0D114",
@@ -176,7 +197,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nほ、炎部（ほむらべ）ワタル。",
-   "en": ""
+   "en": "Wataru:\nW-Wataru Homurabe.",
+   "status": "done"
   },
   {
    "id": "R00:0D14A",
@@ -184,7 +206,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "オババ：\nワタルというんじゃな？",
-   "en": ""
+   "en": "Obaba:\nWataru, ye say?",
+   "status": "done"
   },
   {
    "id": "R00:0D17C",
@@ -192,7 +215,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nう、うん。",
-   "en": ""
+   "en": "Wataru:\nY-yeah.",
+   "status": "done"
   },
   {
    "id": "R00:0D1A0",
@@ -200,7 +224,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nうむ、いいつたえ通りじゃ。",
-   "en": ""
+   "en": "Obaba:\nMm. Just as the legend says.",
+   "status": "done"
   },
   {
    "id": "R00:0D1D4",
@@ -208,7 +233,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nいいつたえ？",
-   "en": ""
+   "en": "Wataru:\nLegend?",
+   "status": "done"
   },
   {
    "id": "R00:0D1FA",
@@ -216,7 +242,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nそうじゃ。",
-   "en": ""
+   "en": "Obaba:\nAye.",
+   "status": "done"
   },
   {
    "id": "R00:0D21E",
@@ -224,7 +251,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「創界山が危機に陥ったとき、\nそれを救う者が空から降りてくる。",
-   "en": ""
+   "en": "\"When Sokaizan is in peril, one\nshall descend from the sky to\nsave it.",
+   "status": "done"
   },
   {
    "id": "R00:0D26C",
@@ -232,7 +260,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "その名をワタルといい、\n龍の神と共に悪を倒す」",
-   "en": ""
+   "en": "He is called Wataru, and he\nshall vanquish evil with the\nDragon God.\"",
+   "status": "done"
   },
   {
    "id": "R00:0D2AA",
@@ -240,7 +269,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "炎部ワタルよ、\nおまえはこの世界の\n救世主なのじゃよ。",
-   "en": ""
+   "en": "Wataru Homurabe,\nye are the Savior\nof this world!",
+   "status": "done"
   },
   {
    "id": "R00:0D2F0",
@@ -248,7 +278,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n救世主？",
-   "en": ""
+   "en": "Wataru:\nSavior?",
+   "status": "done"
   },
   {
    "id": "R00:0D312",
@@ -256,7 +287,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nそおうじゃ、救世主。",
-   "en": ""
+   "en": "Obaba:\nThat's right, the Savior.",
+   "status": "done"
   },
   {
    "id": "R00:0D340",
@@ -264,7 +296,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nダレが？",
-   "en": ""
+   "en": "Wataru:\nWho is?",
+   "status": "done"
   },
   {
    "id": "R00:0D362",
@@ -272,7 +305,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nおまえが。",
-   "en": ""
+   "en": "Obaba:\nYou are.",
+   "status": "done"
   },
   {
    "id": "R00:0D386",
@@ -280,7 +314,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nなんの？",
-   "en": ""
+   "en": "Wataru:\nOf what?",
+   "status": "done"
   },
   {
    "id": "R00:0D3A8",
@@ -288,7 +323,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nこの世界の。",
-   "en": ""
+   "en": "Obaba:\nOf this world.",
+   "status": "done"
   },
   {
    "id": "R00:0D3CE",
@@ -296,7 +332,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nはぁ・・・。\nあ、そおう！",
-   "en": ""
+   "en": "Wataru:\nHuh...\nOh, I get it!",
+   "status": "done"
   },
   {
    "id": "R00:0D402",
@@ -304,7 +341,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "で、悪いヤツはどこ？\n伝説の剣は？　龍の神ってなに？",
-   "en": ""
+   "en": "So where's the bad guy?\nThe legendary sword? And what's\na dragon god?",
+   "status": "done"
   },
   {
    "id": "R00:0D446",
@@ -312,7 +350,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\n・・・。",
-   "en": ""
+   "en": "Obaba:\n...",
+   "status": "done"
   },
   {
    "id": "R00:0D468",
@@ -320,7 +359,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nいっやぁ、ゲームの世界に\n入り込んじゃったと思えば、",
-   "en": ""
+   "en": "Wataru:\nWell, if I just pretend I got\nsucked into a video game,",
+   "status": "done"
   },
   {
    "id": "R00:0D4B6",
@@ -328,7 +368,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "なんにも[0253:悩]むことないなぁ。",
-   "en": ""
+   "en": "there's nothing to worry about!",
+   "status": "done"
   },
   {
    "id": "R00:0D4E0",
@@ -336,7 +377,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ちょっと気楽な気持ちで\nやってみた方が\nおもしろそうだもんねっ！",
-   "en": ""
+   "en": "It'll be way more fun if I\njust take it easy and\ngo for it!",
+   "status": "done"
   },
   {
    "id": "R00:0D530",
@@ -344,7 +386,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nふふっ、\n元気な救世主さまがいらしたのね。",
-   "en": ""
+   "en": "Sakuya:\nHee hee! What a lively\nSavior-sama has arrived.",
+   "status": "done"
   },
   {
    "id": "R00:0D576",
@@ -352,7 +395,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nん・・・？\n君はだれ？",
-   "en": ""
+   "en": "Wataru:\nHm...?\nWho are you?",
+   "status": "done"
   },
   {
    "id": "R00:0D5A8",
@@ -360,7 +404,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nお初にお目にかかります、\n救世主さま。",
-   "en": ""
+   "en": "Sakuya:\nIt is an honor to make your\nacquaintance, Savior-sama.",
+   "status": "done"
   },
   {
    "id": "R00:0D5E8",
@@ -368,7 +413,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "わたくし、忍部一族のひとり、\n忍部サクヤと申します。\n以後お見知り置きを。",
-   "en": ""
+   "en": "I am Sakuya Shinobibe, of the\nShinobibe clan. I look forward\nto making your acquaintance.",
+   "status": "done"
   },
   {
    "id": "R00:0D642",
@@ -376,7 +422,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nボク、炎部ワタル。\nよろしくねっ！",
-   "en": ""
+   "en": "Wataru:\nI'm Wataru Homurabe.\nNice to meet you!",
+   "status": "done"
   },
   {
    "id": "R00:0D67E",
@@ -384,7 +431,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nワシのときは\n全然話を聞いていなかったのに。",
-   "en": ""
+   "en": "Obaba:\nHe wouldn't listen to a word\nwhen I was talking to him.",
+   "status": "done"
   },
   {
    "id": "R00:0D6C4",
@@ -392,7 +440,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ゲンキンな救世主さまじゃの。",
-   "en": ""
+   "en": "Ye change yer tune quickly,\nSavior-sama.",
+   "status": "done"
   },
   {
    "id": "R00:0D6F0",
@@ -400,7 +449,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれはお遅さまが",
-   "en": ""
+   "en": "Sakuya:\nPerhaps it is because you,\nObaba-sama,",
+   "status": "done"
   },
   {
    "id": "R00:0D71A",
@@ -408,7 +458,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "妖怪のような風貌（ふうぼう）を\nなさっていらっしゃるからでは\nございませんか？",
-   "en": ""
+   "en": "Grandmother, happen to bear\nsuch a striking resemblance\nto a monster?",
+   "status": "done"
   },
   {
    "id": "R00:0D778",
@@ -416,7 +467,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\n誰が妖怪じゃ！　誰が！",
-   "en": ""
+   "en": "Obaba:\nWho's a monster?! WHO?!",
+   "status": "done"
   },
   {
    "id": "R00:0D7A8",
@@ -424,7 +476,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nさ、救世主さま。\n妖怪は放っておいて、",
-   "en": ""
+   "en": "Sakuya:\nNow, Savior-sama.\nLet us leave the monster be,",
+   "status": "done"
   },
   {
    "id": "R00:0D7E8",
@@ -432,7 +485,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "わたくし達は宝物庫へ\n参りましょう。",
-   "en": ""
+   "en": "and make our way\nto the treasury.",
+   "status": "done"
   },
   {
    "id": "R00:0D81E",
@@ -440,7 +494,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n伝説の剣とか伝説の鎧とかが\nあるんだねっ？",
-   "en": ""
+   "en": "Wataru:\nSo there's a legendary sword\nand legendary armor, right?",
+   "status": "done"
   },
   {
    "id": "R00:0D862",
@@ -448,7 +503,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nええ！\n宝物庫に着くまでに、",
-   "en": ""
+   "en": "Sakuya:\nIndeed!\nOn our way to the treasury,",
+   "status": "done"
   },
   {
    "id": "R00:0D898",
@@ -456,7 +512,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "このあたりのことや\n【ワルモンダー】について\nお話しさせていただきますわ。",
-   "en": ""
+   "en": "allow me to tell you about\nthis region and about\nWarumonder.",
+   "status": "done"
   },
   {
    "id": "R00:0D8F2",
@@ -464,7 +521,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n【ワルモンダー】？",
-   "en": ""
+   "en": "Wataru:\nWarumonder?",
+   "status": "done"
   },
   {
    "id": "R00:0D91E",
@@ -472,7 +530,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nええ、【ワルモンダー】と\nいうのは、・・・。",
-   "en": ""
+   "en": "Sakuya:\nYes. Warumonder is...\nWell...",
+   "status": "done"
   },
   {
    "id": "R00:0D966",
@@ -480,7 +539,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "オババ：\n大丈夫かのぅ・・・。",
-   "en": ""
+   "en": "Obaba:\nWill this be all right,\nI wonder...?",
+   "status": "done"
   },
   {
    "id": "R00:0D99E",
@@ -488,7 +548,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nわぁっ、ピッタリだ！\nおまけに軽くて動きやすいし。",
-   "en": ""
+   "en": "Wataru:\nWow, it fits just right!\nSo light and easy to move in!",
+   "status": "done"
   },
   {
    "id": "R00:0D9EA",
@@ -496,7 +557,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nお似合いでございますわ。",
-   "en": ""
+   "en": "Sakuya:\nIt suits you splendidly.",
+   "status": "done"
   },
   {
    "id": "R00:0DA1C",
@@ -504,7 +566,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nじゃあ、\nこれで創界山の頂上にいる",
-   "en": ""
+   "en": "Wataru:\nSo, with this gear, I just head\nto the top of Sokaizan",
+   "status": "done"
   },
   {
    "id": "R00:0DA58",
@@ -512,7 +575,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "【ワルモンダー】を\n倒せばいいんだね？",
-   "en": ""
+   "en": "and beat Warumonder, right?",
+   "status": "done"
   },
   {
    "id": "R00:0DA8E",
@@ -520,7 +584,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nええ。\nここに来るまでにお話しした通り、",
-   "en": ""
+   "en": "Sakuya:\nYes.\nAs I explained on our way here,",
+   "status": "done"
   },
   {
    "id": "R00:0DAD0",
@@ -528,7 +593,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "創界山の頂上に巣くう悪の化身、\n【ワルモンダー】を倒して、以前の\n美しい世界をとりもどすことが、",
-   "en": ""
+   "en": "To defeat evil incarnate,\nWarumonder, atop Sokaizan, and\nrestore our world's lost beauty,",
+   "status": "done"
   },
   {
    "id": "R00:0DB40",
@@ -536,7 +602,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "救世主たるワタルさまの\nご使命でございますわ。",
-   "en": ""
+   "en": "is your mission as the Savior,\nWataru-sama.",
+   "status": "done"
   },
   {
    "id": "R00:0DB80",
@@ -544,7 +611,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nおうおう、どうやら\nピッタリだったようじゃな。",
-   "en": ""
+   "en": "Obaba:\nOho! Looks like it was\na perfect fit, eh?",
+   "status": "done"
   },
   {
    "id": "R00:0DBC8",
@@ -552,7 +620,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "でな、さっそくじゃが\nお前のやらねばならないことは、\n・・・。",
-   "en": ""
+   "en": "Now then, straight to business.\nWhat ye must do is...\n...",
+   "status": "done"
   },
   {
    "id": "R00:0DC16",
@@ -560,7 +629,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおばあさま、",
-   "en": ""
+   "en": "Sakuya:\nGrandmother,",
+   "status": "done"
   },
   {
    "id": "R00:0DC3C",
@@ -568,7 +638,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルさまにはわたくしから\nご説明させていただきました。",
-   "en": ""
+   "en": "I have already explained\neverything to Wataru-sama.",
+   "status": "done"
   },
   {
    "id": "R00:0DC84",
@@ -576,7 +647,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nあ、そう・・・。",
-   "en": ""
+   "en": "Obaba:\nOh. I see...",
+   "status": "done"
   },
   {
    "id": "R00:0DCAE",
@@ -584,7 +656,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あんまり何でもやられると\nつまらんのぅ。",
-   "en": ""
+   "en": "No fun for me if ye go and\ndo everything yerself.",
+   "status": "done"
   },
   {
    "id": "R00:0DCE6",
@@ -592,7 +665,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあ、そうですわ。",
-   "en": ""
+   "en": "Sakuya:\nOh, that reminds me.",
+   "status": "done"
   },
   {
    "id": "R00:0DD10",
@@ -600,7 +674,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おばあさま、アラゴトおじさまを\nワタルさまにご紹介しなくても\nよろしいのですか？",
-   "en": ""
+   "en": "Grandmother-sama, should we not\nintroduce Uncle Aragoto-sama\nto Wataru-sama?",
+   "status": "done"
   },
   {
    "id": "R00:0DD70",
@@ -608,7 +683,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "オババ：\nあ、そうじゃったそうじゃった。\nおーい、入ってこい。",
-   "en": ""
+   "en": "Obaba:\nAh, yes, yes! Nearly forgot.\nOi! Come on in!",
+   "status": "done"
   },
   {
    "id": "R00:0DDC0",
@@ -616,7 +692,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nフッ、旅は道づれ世は情け、\n思い立ったが吉日よ。",
-   "en": ""
+   "en": "Aragoto:\nTravel needs friends, life love!\nHmph! No time like the present!",
+   "status": "done"
   },
   {
    "id": "R00:0DE0C",
@@ -624,7 +701,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ぼうや、この剣部一族の長、\n剣部アラゴトが、おまえの旅の\nサポートをしてやるぜ。",
-   "en": ""
+   "en": "Boy, I, Aragoto Tsurugibe,\nchief of the Tsurugibe clan,\nshall aid you on your journey.",
+   "status": "done"
   },
   {
    "id": "R00:0DE6E",
@@ -632,7 +710,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nお主は【おさ】じゃなくて、\n【元おさ】じゃろ。",
-   "en": ""
+   "en": "Obaba:\nYe mean FORMER chief,\nnot chief, eh?",
+   "status": "done"
   },
   {
    "id": "R00:0DEB6",
@@ -640,7 +719,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nワタル、おまえを一人で創界山へ\n行かすわけにもいかんから、",
-   "en": ""
+   "en": "Obaba:\nWataru, I can't send ye off\nto Sokaizan all on yer own,",
+   "status": "done"
   },
   {
    "id": "R00:0DF0A",
@@ -648,7 +728,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤを遣わそうと\n思ったんじゃが、子供２人だけの\n旅では心もとなすぎる。",
-   "en": ""
+   "en": "I thought of sending Sakuya,\nbut two children traveling alone\nwould give me no peace of mind.",
+   "status": "done"
   },
   {
    "id": "R00:0DF64",
@@ -656,7 +737,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そこでこやつを\n保護者兼ボディガードとして\n旅に加える事にしたのじゃ。",
-   "en": ""
+   "en": "So I've decided to have this one\njoin ye as both guardian\nand bodyguard.",
+   "status": "done"
   },
   {
    "id": "R00:0DFBA",
@@ -664,7 +746,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nと、いうわけだ。\nよろしくな、ぼうや。",
-   "en": ""
+   "en": "Aragoto:\nSo there you have it.\nWe shall get along, boy.",
+   "status": "done"
   },
   {
    "id": "R00:0DFFC",
@@ -672,7 +755,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうん！　こっちこそよろしくね。\nえーっと、アラゴトのおじさんっ！",
-   "en": ""
+   "en": "Wataru:\nYeah! Glad to have you along,\num... Uncle Aragoto!",
+   "status": "done"
   },
   {
    "id": "R00:0E056",
@@ -680,7 +764,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nお、おじ・・・さっ、ん。",
-   "en": ""
+   "en": "Aragoto:\nU-Un... cle?",
+   "status": "done"
   },
   {
    "id": "R00:0E08A",
@@ -688,7 +773,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nよろしくお願いいたしますわ。\nお・じ・さ・ま♥",
-   "en": ""
+   "en": "Sakuya:\nI am counting on you, too.\nUn-cle-sama!",
+   "status": "done"
   },
   {
    "id": "R00:0E0D2",
@@ -696,7 +782,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nむっ、むぐっ。\nお、お嬢までっ。",
-   "en": ""
+   "en": "Aragoto:\nG-gah!\nEven you, my lady?!",
+   "status": "done"
   },
   {
    "id": "R00:0E110",
@@ -704,7 +791,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nワタルさま、",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama,",
+   "status": "done"
   },
   {
    "id": "R00:0E136",
@@ -712,7 +800,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "創界山の村々を回るときの\nルールをお教えいたしますわ。",
-   "en": ""
+   "en": "I shall explain the rules for\nvisiting Sokaizan's villages.",
+   "status": "done"
   },
   {
    "id": "R00:0E17C",
@@ -720,7 +809,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "村の中を歩き回ってみましょう？",
-   "en": ""
+   "en": "Shall we take a stroll\naround the village?",
+   "status": "done"
   },
   {
    "id": "R00:0E1AC",
@@ -728,7 +818,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nうんっ！",
-   "en": ""
+   "en": "Wataru:\nYeah!",
+   "status": "done"
   },
   {
    "id": "R00:0E1D0",
@@ -736,7 +827,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nしっかり頼んだぞ、アラゴトよ。",
-   "en": ""
+   "en": "Obaba:\nI'm counting on ye, Aragoto.",
+   "status": "done"
   },
   {
    "id": "R00:0E208",
@@ -744,7 +836,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n承知いたしました、オババさま。",
-   "en": ""
+   "en": "Aragoto:\nUnderstood, Obaba-sama.",
+   "status": "done"
   },
   {
    "id": "R00:0E25C",
@@ -752,7 +845,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおばあさま、行って参ります。",
-   "en": ""
+   "en": "Sakuya:\nWe are off, Grandmother-sama.",
+   "status": "done"
   },
   {
    "id": "R00:0E292",
@@ -760,7 +854,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nでは頼んだぞ、救世主ワタルよ。",
-   "en": ""
+   "en": "Obaba:\nIt's in yer hands now,\nWataru, our Savior.",
+   "status": "done"
   },
   {
    "id": "R00:0E2CA",
@@ -768,7 +863,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうん、まっかせておいてよ！",
-   "en": ""
+   "en": "Wataru:\nYeah, just leave it to me!",
+   "status": "done"
   },
   {
    "id": "R00:0E2FE",
@@ -776,7 +872,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nまずは虹の到着地点に近い村を\nめざすがよい。",
-   "en": ""
+   "en": "Obaba:\nFirst, head for the village\nnear where the rainbow lands.",
+   "status": "done"
   },
   {
    "id": "R00:0E344",
@@ -784,7 +881,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そこからお主の旅は始まるじゃろ。",
-   "en": ""
+   "en": "That is where yer journey\nshall begin.",
+   "status": "done"
   },
   {
    "id": "R00:0E374",
@@ -792,7 +890,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nわかったよ。\nそれじゃ、行って来まーす！",
-   "en": ""
+   "en": "Wataru:\nGot it!\nOkay, off we gooo!",
+   "status": "done"
   },
   {
    "id": "R00:0E3B6",
@@ -800,7 +899,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nアラゴトよ、\nくれぐれも二人を頼んだぞ。",
-   "en": ""
+   "en": "Obaba:\nAragoto, take good care\nof those two, ye hear?",
+   "status": "done"
   },
   {
    "id": "R00:0E3F8",
@@ -808,7 +908,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nおまかせください。",
-   "en": ""
+   "en": "Aragoto:\nYou may leave it to me.",
+   "status": "done"
   },
   {
    "id": "R00:0E426",
@@ -816,7 +917,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "このアラゴト、\nお嬢のことはこの身に代えても\nお守りいたしましょう。",
-   "en": ""
+   "en": "I, Aragoto, shall protect\nthe young lady,\neven at the cost of my own life.",
+   "status": "done"
   },
   {
    "id": "R00:0E47A",
@@ -824,7 +926,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "【ワルモンダー】などという\n不逞（ふてい）の輩も、\nこのアラゴトが・・・",
-   "en": ""
+   "en": "As for that scoundrel\nWarumonder,\nI, Aragoto, shall...",
+   "status": "done"
   },
   {
    "id": "R00:0E4D2",
@@ -832,7 +935,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オババ：\nふんふん？",
-   "en": ""
+   "en": "Obaba:\nMm-hm?",
+   "status": "done"
   },
   {
    "id": "R00:0E4F6",
@@ -840,7 +944,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n【わるもぉんだぁ】じんに\nしてさしあげます。",
-   "en": ""
+   "en": "Aragoto:\nturn him into\nWarumincemeat!",
+   "status": "done"
   },
   {
    "id": "R00:0E53E",
@@ -848,7 +953,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "[B000]のオババ：\n・・・。",
-   "en": ""
+   "en": "[B000][0019]Obaba:\n...",
+   "status": "done"
   },
   {
    "id": "R00:0E564",
@@ -856,7 +962,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "[B000]のサクヤ：\n・・・。",
-   "en": ""
+   "en": "[B000][0019]Sakuya:\n...",
+   "status": "done"
   },
   {
    "id": "R00:0E58A",
@@ -864,7 +971,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "[B000]のワタル：\n・・・。",
-   "en": ""
+   "en": "[B000][0019]Wataru:\n...",
+   "status": "done"
   },
   {
    "id": "R00:0E5B0",
@@ -872,7 +980,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nじゃあいってきまーす。",
-   "en": ""
+   "en": "Wataru:\nOkay, we're off!",
+   "status": "done"
   },
   {
    "id": "R00:109FC",
@@ -880,7 +989,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\n「ワタルくんが、",
-   "en": ""
+   "en": "Girl:\n\"Please let Wataru-kun",
+   "status": "done"
   },
   {
    "id": "R00:10A1C",
@@ -888,7 +998,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルモンダー】をやっつけて\nくれますように。」って、\nお星さまにお願いをしているの。",
-   "en": ""
+   "en": "defeat Warumonder.\"\nThat's what I'm asking\nthe stars-sama for.",
+   "status": "done"
   },
   {
    "id": "R00:10A74",
@@ -896,7 +1007,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nうわぁーっ、",
-   "en": ""
+   "en": "Girl:\nWoooow!",
+   "status": "done"
   },
   {
    "id": "R00:10A90",
@@ -904,7 +1016,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "カワイイもんペットが、\nいっぱいいるぅ。\nほしいなぁ。",
-   "en": ""
+   "en": "There are so many cute Monpets!\nI want one!",
+   "status": "done"
   },
   {
    "id": "R00:10AC8",
@@ -912,7 +1025,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "私はねー、バモスターが\nいいなー。",
-   "en": ""
+   "en": "I'd like a Bamster!",
+   "status": "done"
   },
   {
    "id": "R00:10AEC",
@@ -920,7 +1034,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nやぁ、\nこんな子供が救世主なのかい？",
-   "en": ""
+   "en": "Young Man:\nHey, a kid like you\nis the Savior?",
+   "status": "done"
   },
   {
    "id": "R00:10B20",
@@ -928,7 +1043,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "しんじられないなぁ。\nまあ、いいや。",
-   "en": ""
+   "en": "I can't believe it.\nOh well.",
+   "status": "done"
   },
   {
    "id": "R00:10B46",
@@ -936,7 +1052,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "救世主の使うアイテムや\nもんペットは、お店で買うんだ。",
-   "en": ""
+   "en": "The items and Monpets a Savior\nuses can be bought at shops.",
+   "status": "done"
   },
   {
    "id": "R00:10B7E",
@@ -944,7 +1061,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アイテムは、\n宝箱にも入っているぞ。",
-   "en": ""
+   "en": "You can find items\nin treasure chests, too.",
+   "status": "done"
   },
   {
    "id": "R00:10BA4",
@@ -952,7 +1070,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ノラもんペットは\nもんペットボトルに入っているぞ。",
-   "en": ""
+   "en": "Wild Monpets are found\ninside Monpet Bottles.",
+   "status": "done"
   },
   {
    "id": "R00:10BD8",
@@ -960,7 +1079,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "宝箱ともんペットボトルは、\n洞窟やお城などにあるから\n探してみるのもいいだろう。",
-   "en": ""
+   "en": "Treasure chests and Monpet\nBottles are in caves, castles,\nand such. Try looking for some.",
+   "status": "done"
   },
   {
    "id": "R00:10C2A",
@@ -968,7 +1088,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・それにしても、\n頼りなさそうな、救世主だなぁ。",
-   "en": ""
+   "en": "...Still, you don't look like\na Savior I can count on.",
+   "status": "done"
   },
   {
    "id": "R00:10C60",
@@ -976,7 +1097,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nコンビニで、\nすきなものをすきなだけ",
-   "en": ""
+   "en": "Young Man:\nAt the convenience store,\nanything you want, all you want!",
+   "status": "done"
   },
   {
    "id": "R00:10C94",
@@ -984,7 +1106,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "買えるのって、しあわせだよなぁ。",
-   "en": ""
+   "en": "Being able to buy it is bliss!",
+   "status": "done"
   },
   {
    "id": "R00:10CB8",
@@ -992,7 +1115,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nノラもんペットって、どうやって\nもんペットボトルに入るのかな？",
-   "en": ""
+   "en": "Man:\nHow do wild Monpets get inside\nthose Monpet Bottles, anyway?",
+   "status": "done"
   },
   {
    "id": "R00:10D04",
@@ -1000,7 +1124,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさんためしてみたよ。",
-   "en": ""
+   "en": "I tried it myself, you know.",
+   "status": "done"
   },
   {
    "id": "R00:10D1E",
@@ -1008,7 +1133,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "はっはっは！\nそんな、なまやさしいもんじゃ\nなかったよ。",
-   "en": ""
+   "en": "Ha ha ha!\nTurns out it's no walk\nin the park!",
+   "status": "done"
   },
   {
    "id": "R00:10D58",
@@ -1016,7 +1142,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nここは【もんじゃ村】・・・って、\nそんなことは知ってるよね。",
-   "en": ""
+   "en": "Man:\nThis is Monja Village...\nbut you know that already.",
+   "status": "done"
   },
   {
    "id": "R00:10DA2",
@@ -1024,7 +1151,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "はは。",
-   "en": ""
+   "en": "Ha ha.",
+   "status": "done"
   },
   {
    "id": "R00:10DAC",
@@ -1032,7 +1160,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nワシは、ちょいと前に・・・",
-   "en": ""
+   "en": "Man:\nA little while back, I...",
+   "status": "done"
   },
   {
    "id": "R00:10DD4",
@@ -1040,7 +1169,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "この村に、ひっこしてきたんじゃ。\nいい村じゃのう。",
-   "en": ""
+   "en": "moved to this village.\nA fine village it is, too.",
+   "status": "done"
   },
   {
    "id": "R00:10E08",
@@ -1048,7 +1178,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばさん：\nＨＰがへって、つかれたときは\n宿屋に泊まって休むといいわよ。",
-   "en": ""
+   "en": "Woman:\nLow on HP and feeling worn out?\nRest up with a stay at the inn.",
+   "status": "done"
   },
   {
    "id": "R00:10E54",
@@ -1056,7 +1187,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\nここは、オババ様の家ですよ。",
-   "en": ""
+   "en": "Woman:\nThis is Obaba-sama's house.",
+   "status": "done"
   },
   {
    "id": "R00:10E7E",
@@ -1064,7 +1196,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "オババ様は、龍神池に、\nいらっしゃいますよ。",
-   "en": ""
+   "en": "Obaba-sama is at Ryujin Pond.",
+   "status": "done"
   },
   {
    "id": "R00:10EAC",
@@ -1072,7 +1205,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n宿屋に泊まるときは、\nフロントに聞いてくだされ。",
-   "en": ""
+   "en": "Old Man:\nTo stay at the inn,\nplease ask at the front desk.",
+   "status": "done"
   },
   {
    "id": "R00:10EEC",
@@ -1080,7 +1214,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "でも、誰もいないか。",
-   "en": ""
+   "en": "But there's nobody there, is it?",
+   "status": "done"
   },
   {
    "id": "R00:10F04",
@@ -1088,7 +1223,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nやっぱり、立ち読みは、\nコンビニに限るのぉ。",
-   "en": ""
+   "en": "Old Man:\nNothing beats a convenience\nstore for a little free reading!",
+   "status": "done"
   },
   {
    "id": "R00:10F40",
@@ -1096,7 +1232,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ひょっひょっひょ、\nうひょ、うひょっ・・・♥",
-   "en": ""
+   "en": "Ho ho ho!\nOho! Oho...!",
+   "status": "done"
   },
   {
    "id": "R00:10F70",
@@ -1104,7 +1241,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nうちのジイさん、いったいどこに\n行ったんじゃろなぁ。",
-   "en": ""
+   "en": "Old Woman:\nNow, where in the world\nhas my old man-san gone?",
+   "status": "done"
   },
   {
    "id": "R00:10FB4",
@@ -1112,7 +1250,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "コンビニで立ち読みでも\nしているんかの。",
-   "en": ""
+   "en": "Is he reading without buying\nat the convenience store again?",
+   "status": "done"
   },
   {
    "id": "R00:10FE0",
@@ -1120,7 +1259,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nこっ、子供がこんな所に来たら\nダメだに。",
-   "en": ""
+   "en": "Man:\nK-kids shouldn't be coming\nto a place like this!",
+   "status": "done"
   },
   {
    "id": "R00:11016",
@@ -1128,7 +1268,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "なぁ、ハニー？",
-   "en": ""
+   "en": "Right, honey?",
+   "status": "done"
   },
   {
    "id": "R00:11028",
@@ -1136,7 +1277,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\nこんなこっぱずかしい所を\nぼうやに見られたら、",
-   "en": ""
+   "en": "Woman:\nA boy catching us in such\nan embarrassing situation...",
+   "status": "done"
   },
   {
    "id": "R00:11064",
@@ -1144,7 +1286,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "てれるわね。\nねぇ、ダーリン？　うふふ♥",
-   "en": ""
+   "en": "Why, it makes me blush.\nDoesn't it, darling? Hee hee!",
+   "status": "done"
   },
   {
    "id": "R00:11090",
@@ -1152,7 +1295,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nあーあー、まよってしまったのぅ。",
-   "en": ""
+   "en": "Old Woman:\nOh dear, I've lost my way.",
+   "status": "done"
   },
   {
    "id": "R00:110C0",
@@ -1160,7 +1304,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "家はいったい、\nドコじゃったかいなぁ。\nはぁ・・・。",
-   "en": ""
+   "en": "Where in the world\nwas my house again?\nAh...",
+   "status": "done"
   },
   {
    "id": "R00:110F8",
@@ -1168,7 +1313,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nやっぱり、まよってしまったのぅ。",
-   "en": ""
+   "en": "Old Woman:\nLost my way, just as I feared.",
+   "status": "done"
   },
   {
    "id": "R00:11128",
@@ -1176,7 +1322,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "家はいったい、\nドコじゃったかいなぁ。\nふぅ・・・。",
-   "en": ""
+   "en": "Where in the world\nwas my house again?\nPhew...",
+   "status": "done"
   },
   {
    "id": "R00:11160",
@@ -1184,7 +1331,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\n村の人達のお話は、よーく\n聞いておいた方がいいわよ。",
-   "en": ""
+   "en": "Young Woman:\nBe sure to listen carefully\nto what the villagers tell you.",
+   "status": "done"
   },
   {
    "id": "R00:111A4",
@@ -1192,7 +1340,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nいよいよ、旅立ちね。",
-   "en": ""
+   "en": "Young Woman:\nYou're finally setting off!",
+   "status": "done"
   },
   {
    "id": "R00:111C8",
@@ -1200,7 +1349,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "村の人達のお話は、\n聞いておいてソンはないわ。\nがんばってね。",
-   "en": ""
+   "en": "It never hurts to hear\nwhat the villagers have to say.\nGood luck!",
+   "status": "done"
   },
   {
    "id": "R00:11208",
@@ -1208,7 +1358,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はにぃ：\nこんにちは。",
-   "en": ""
+   "en": "Honey:\nHello.",
+   "status": "done"
   },
   {
    "id": "R00:11220",
@@ -1216,7 +1367,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "私【はにわぁまん】の\nははの【はにぃ】です。",
-   "en": ""
+   "en": "I am Honey, the mother\nof the Haniwaaman family.",
+   "status": "done"
   },
   {
    "id": "R00:1124E",
@@ -1224,7 +1376,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ボーリングバトルの\n説明をいたします。",
-   "en": ""
+   "en": "I will explain Bowling Battle.",
+   "status": "done"
   },
   {
    "id": "R00:11276",
@@ -1232,7 +1385,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "説明を聞きますか？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Would you like an explanation?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R00:112A2",
@@ -1240,7 +1394,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ボーリングバトルは、\n敵に当たるとはじまります。",
-   "en": ""
+   "en": "A Bowling Battle begins\nwhen you run into an enemy.",
+   "status": "done"
   },
   {
    "id": "R00:112D4",
@@ -1248,7 +1403,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【たたかう】【必殺技】\n【アイテム】【にげる】\n【さくせん】【超必殺技】から",
-   "en": ""
+   "en": "From Attack, Special Move,\nItem, Flee,\nTactics, and Super Special Move,",
+   "status": "done"
   },
   {
    "id": "R00:11322",
@@ -1256,7 +1412,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "どんな行動をするのかを\n選択します。",
-   "en": ""
+   "en": "select the action\nyou wish to take.",
+   "status": "done"
   },
   {
    "id": "R00:11348",
@@ -1264,7 +1421,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【たたかう】は、\n通常攻撃コマンドです。",
-   "en": ""
+   "en": "Attack is the command\nfor a normal attack.",
+   "status": "done"
   },
   {
    "id": "R00:11372",
@@ -1272,7 +1430,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【必殺技】は、ＭＰを{k3B}費して、\n覚えている【必殺技】を\n使うことができます。",
-   "en": ""
+   "en": "Special Move spends MP to use\na Special Move you have learned.",
+   "status": "done"
   },
   {
    "id": "R00:113C0",
@@ -1280,7 +1439,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【アイテム】は、さまざまな\n効果を持っているのよ。\nうまく使ってね。",
-   "en": ""
+   "en": "Items have all sorts of effects.\nMake good use of them!",
+   "status": "done"
   },
   {
    "id": "R00:11406",
@@ -1288,7 +1448,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【にげる】は、バトルから、\n【にげる】ときに使います。",
-   "en": ""
+   "en": "Use Flee when you want\nto escape from battle.",
+   "status": "done"
   },
   {
    "id": "R00:1143E",
@@ -1296,7 +1457,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【さくせん】は、気合いを\n{k3B}費して、バトルをゆうりに\n進めるためのコマンドよ。",
-   "en": ""
+   "en": "Tactics is a command that\nspends Spirit to give you\nan advantage in battle.",
+   "status": "done"
   },
   {
    "id": "R00:1148E",
@@ -1304,7 +1466,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【超必殺技】は、【必殺技】\nよりも強力な技で、気合いと\nＭＰを{k3B}費します。",
-   "en": ""
+   "en": "Super Special Move is stronger\nthan Special Move, and uses\nboth Spirit and MP.",
+   "status": "done"
   },
   {
    "id": "R00:114DA",
@@ -1312,7 +1475,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "わかったかしら？\nコマンドの選択ひとつで、\nバトルの流れがかわるのよ。",
-   "en": ""
+   "en": "Does that make sense?\nA single command choice can\nchange the course of a battle.",
+   "status": "done"
   },
   {
    "id": "R00:11522",
@@ -1320,7 +1484,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【どく】【眠り】【マヒ】\n【せきか】【混乱】の\nステータス異常にも気をつけて。",
-   "en": ""
+   "en": "Watch out for status ailments:\nPoison, Sleep, Paralysis,\nPetrification, and Confusion.",
+   "status": "done"
   },
   {
    "id": "R00:11572",
@@ -1328,7 +1493,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "説明はこれで、おしまいです。\nたいへんでしょうけれど、\nがんばってくださいね。",
-   "en": ""
+   "en": "That concludes my explanation.\nIt may be difficult,\nbut please do your best!",
+   "status": "done"
   },
   {
    "id": "R00:115C2",
@@ -1336,7 +1502,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "それでは、\nしつれいいたします。\nはに！　わぁ！！　まん！！！",
-   "en": ""
+   "en": "Well then,\nif you will excuse me.\nHani! Waa!! Man!!!",
+   "status": "done"
   },
   {
    "id": "R00:11602",
@@ -1344,7 +1511,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "はにぃ：\nあら、よろしいのですか・・・。",
-   "en": ""
+   "en": "Honey:\nOh, are you sure...?",
+   "status": "done"
   },
   {
    "id": "R00:1162C",
@@ -1352,7 +1520,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "わぁぼう：\nぼく、【はにわぁまん】の\n【わぁぼう】です。",
-   "en": ""
+   "en": "Waabo:\nI'm Waabo of the\nHaniwaaman family!",
+   "status": "done"
   },
   {
    "id": "R00:11666",
@@ -1360,7 +1529,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あれぇ・・・。",
-   "en": ""
+   "en": "Huuuh...?",
+   "status": "done"
   },
   {
    "id": "R00:11676",
@@ -1368,7 +1538,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとうさんとおかあさんってば\nどこにいったんだろう？",
-   "en": ""
+   "en": "Where could Mom and Dad\nhave gone?",
+   "status": "done"
   },
   {
    "id": "R00:116AC",
@@ -1376,7 +1547,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\nいらっしゃいませー。",
-   "en": ""
+   "en": "Shopkeeper:\nWelcome!",
+   "status": "done"
   },
   {
    "id": "R00:116CC",
@@ -1384,7 +1556,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あら、ウワサの救世主さまだね。\nどれでもすきなタナを\nごらんください。",
-   "en": ""
+   "en": "Oh, the famous Savior-sama!\nPlease browse whichever\nshelves you like.",
+   "status": "done"
   },
   {
    "id": "R00:11714",
@@ -1392,7 +1565,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "私のところまで来てくれたら、\nせいさんについて説明しますよ。",
-   "en": ""
+   "en": "Come over to me, and I'll\nexplain how to pay.",
+   "status": "done"
   },
   {
    "id": "R00:11754",
@@ -1400,7 +1574,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "サクヤ：\nタナの前で○ボタンを押しますと、\nアイテムの名前が表示されますわ。",
-   "en": ""
+   "en": "Sakuya:\nPress Circle before a shelf\nto display the items' names.",
+   "status": "done"
   },
   {
    "id": "R00:117A2",
@@ -1408,7 +1583,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "カーソルを上下に動かして、\nほしいアイテムに合わせ、\n○ボタンを押してくださいね。",
-   "en": ""
+   "en": "Move the cursor up or down\nto the item you would like,\nthen press Circle.",
+   "status": "done"
   },
   {
    "id": "R00:117F6",
@@ -1416,7 +1592,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そして、買いたい数を上下で\nお決めになってください。\n決定は○ボタンですわ。",
-   "en": ""
+   "en": "Then press Up or Down to choose\nhow many you wish to buy.\nPress Circle to confirm.",
+   "status": "done"
   },
   {
    "id": "R00:11844",
@@ -1424,7 +1601,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "買うものが決まりましたら、\nカウンターへ行って、\nせいさんなさってくださいね。",
-   "en": ""
+   "en": "Once you have decided\nwhat to buy, please go\nto the counter and pay.",
+   "status": "done"
   },
   {
    "id": "R00:11894",
@@ -1432,7 +1610,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\nはい。\nせいさんについて教えましょう。",
-   "en": ""
+   "en": "Shopkeeper:\nRight, let me explain\nhow to pay for your purchases.",
+   "status": "done"
   },
   {
    "id": "R00:118C6",
@@ -1440,7 +1619,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "タナで買うものを決めたら、\nカウンターまで来て、\n私に話しかけてください。",
-   "en": ""
+   "en": "Once you've chosen your items\nat the shelves, come over\nto the counter and talk to me.",
+   "status": "done"
   },
   {
    "id": "R00:11912",
@@ -1448,7 +1628,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "話しかけるのも、○ボタンです。",
-   "en": ""
+   "en": "Press Circle to talk, too.",
+   "status": "done"
   },
   {
    "id": "R00:11932",
@@ -1456,7 +1637,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そしたら、私が合計を言うから\n買うかどうか決めてください。",
-   "en": ""
+   "en": "I'll tell you the total,\nand you can decide\nwhether to buy them.",
+   "status": "done"
   },
   {
    "id": "R00:1196E",
@@ -1464,7 +1646,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "買おうとしたけど、やめるときや、\nお金がたりないときは、\nタナにアイテムを戻してください。",
-   "en": ""
+   "en": "If you change your mind,\nor don't have enough money,\nput the items back on the shelf.",
+   "status": "done"
   },
   {
    "id": "R00:119CA",
@@ -1472,7 +1655,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アイテムをタナに戻すには、\nタナの前で、アイテムの数を\nゼロにすればいいです。",
-   "en": ""
+   "en": "To put the items back,\nstand at the shelf and set\nthe number of items to zero.",
+   "status": "done"
   },
   {
    "id": "R00:11A1A",
@@ -1480,7 +1664,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "わかりましたか？",
-   "en": ""
+   "en": "Do you understand?",
+   "status": "done"
   },
   {
    "id": "R00:11A2C",
@@ -1488,7 +1673,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\nちょっとまって、救世主さまー！",
-   "en": ""
+   "en": "Shopkeeper:\nHold on, Savior-sama!",
+   "status": "done"
   },
   {
    "id": "R00:11A56",
@@ -1496,7 +1682,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アイテムを持ったまま、\nせいさんせずに、\nお店から出ちゃイケナイよ。",
-   "en": ""
+   "en": "You mustn't leave the shop\ncarrying items you\nhaven't paid for.",
+   "status": "done"
   },
   {
    "id": "R00:11A9C",
@@ -1504,7 +1691,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "救世主さまは\nそんなコトしないと\nしんじてますけど・・・。",
-   "en": ""
+   "en": "Of course, I trust\nthat Savior-sama would\nnever do such a thing...",
+   "status": "done"
   },
   {
    "id": "R00:11AD8",
@@ -1512,7 +1700,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あっ、そうそう。\n当店は、つぎの村から、\nごりようになれますよ。",
-   "en": ""
+   "en": "Oh, that's right.\nYou can start shopping with us\nfrom the next village onward.",
+   "status": "done"
   },
   {
    "id": "R00:11B1A",
@@ -1520,7 +1709,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "どうぞ、ごひいきにしてください。",
-   "en": ""
+   "en": "We hope you'll shop with us!",
+   "status": "done"
   },
   {
    "id": "R00:11B3C",
@@ -1528,7 +1718,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\nあら、ごめんなさい。",
-   "en": ""
+   "en": "Shopkeeper:\nOh, I'm sorry.",
+   "status": "done"
   },
   {
    "id": "R00:11B5C",
@@ -1536,7 +1727,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "当店は、つぎの村から、\nごりようになってくださいね。",
-   "en": ""
+   "en": "Please start shopping with us\nfrom the next village onward.",
+   "status": "done"
   },
   {
    "id": "R00:11B92",
@@ -1544,7 +1736,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "いつでも店を開けて\nおまちしております。",
-   "en": ""
+   "en": "We'll always be open\nand waiting for you.",
+   "status": "done"
   },
   {
    "id": "R00:11BBC",
@@ -1552,7 +1745,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\nいらっしゃいませー。",
-   "en": ""
+   "en": "Shopkeeper:\nWelcome!",
+   "status": "done"
   },
   {
    "id": "R00:11BDC",
@@ -1560,7 +1754,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "村中でワダイの救世主さまですね。\nここでは、もんペットを\n売っています。",
-   "en": ""
+   "en": "The whole village is talking\nabout you, Savior-sama!\nWe sell Monpets here.",
+   "status": "done"
   },
   {
    "id": "R00:11C26",
@@ -1568,7 +1763,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "もんペットは救世主さまの戦いの\nやくに立つステキな動物ですよ。",
-   "en": ""
+   "en": "Monpets are wonderful animals\nthat can help you in battle,\nSavior-sama.",
+   "status": "done"
   },
   {
    "id": "R00:11C66",
@@ -1576,7 +1772,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "すきなタナをごらんになって\nください。",
-   "en": ""
+   "en": "Please browse whichever\nshelves you like.",
+   "status": "done"
   },
   {
    "id": "R00:11C8E",
@@ -1584,7 +1781,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "レジまで来てくだされば、\nせいさんの仕方などについて\nお教えします。",
-   "en": ""
+   "en": "Come over to the register,\nand I'll explain how to pay\nand so on.",
+   "status": "done"
   },
   {
    "id": "R00:11CD4",
@@ -1592,7 +1790,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\nそれじゃ、\n買い物の仕方をお教えしましょう。",
-   "en": ""
+   "en": "Shopkeeper:\nNow then, let me explain\nhow to shop here.",
+   "status": "done"
   },
   {
    "id": "R00:11D0C",
@@ -1600,7 +1799,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "タナの前で○ボタンを押すと、\n売っているもんペットが\n表示されます。",
-   "en": ""
+   "en": "Press Circle in front of a shelf\nto see which Monpets\nare for sale.",
+   "status": "done"
   },
   {
    "id": "R00:11D52",
@@ -1608,7 +1808,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "カーソルを上下に動かし、\nほしいもんペットに合わせて、\n○ボタンを押してください。",
-   "en": ""
+   "en": "Move the cursor up or down\nto the Monpet you want,\nthen press Circle.",
+   "status": "done"
   },
   {
    "id": "R00:11DA6",
@@ -1616,7 +1817,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "その後、私に\n話しかけてくれれば、\nせいさんできます。",
-   "en": ""
+   "en": "After that, speak to me\nto pay for your purchase.",
+   "status": "done"
   },
   {
    "id": "R00:11DDE",
@@ -1624,7 +1826,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そして、\nもう一度話しかけてくださると、\nもんペットの名前をかえられます。",
-   "en": ""
+   "en": "Then, if you speak to me again,\nyou can change\nyour Monpet's name.",
+   "status": "done"
   },
   {
    "id": "R00:11E2A",
@@ -1632,7 +1835,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "もんペットをすてるときも、\n私のところへ、きてください。",
-   "en": ""
+   "en": "Come see me when you want\nto release a Monpet, too.",
+   "status": "done"
   },
   {
    "id": "R00:11E64",
@@ -1640,7 +1844,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちなみに、\n一度に買えるもんペットは、\n８種類までです。",
-   "en": ""
+   "en": "By the way, you can only buy\neight kinds of Monpet\nat a time.",
+   "status": "done"
   },
   {
    "id": "R00:11E9E",
@@ -1648,7 +1853,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これで、もう、\n買い物できますね。",
-   "en": ""
+   "en": "Now you're ready to shop!",
+   "status": "done"
   },
   {
    "id": "R00:11EC4",
@@ -1656,7 +1862,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "サクヤ：\n火属性のもんペットは、\n火をあやつって攻撃します。",
-   "en": ""
+   "en": "Sakuya:\nFire-element Monpets attack\nby wielding fire.",
+   "status": "done"
   },
   {
    "id": "R00:11F02",
@@ -1664,7 +1871,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "火属性のもんペットはいろいろと\nやくに立ちますので、\nたいへん、ベンリですわ。",
-   "en": ""
+   "en": "Fire-element Monpets are useful\nin all sorts of ways,\nso they are most convenient.",
+   "status": "done"
   },
   {
    "id": "R00:11F54",
@@ -1672,7 +1880,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "サクヤ：\n雷属性のもんペットは、\n雷をあやつって攻撃します。",
-   "en": ""
+   "en": "Sakuya:\nThunder Monpets attack by\ncommanding lightning.",
+   "status": "done"
   },
   {
    "id": "R00:11F92",
@@ -1680,7 +1889,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワタルさま、\nひやかしでさわったりしますと、\n感電しますわよ。",
-   "en": ""
+   "en": "Wataru-sama, if you touch one\nmerely to tease it, you will\nreceive an electric shock.",
+   "status": "done"
   },
   {
    "id": "R00:11FD4",
@@ -1688,7 +1898,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "サクヤ：\n水属性のもんペットは、\n水をあやつって攻撃します。",
-   "en": ""
+   "en": "Sakuya:\nWater Monpets attack by\ncommanding water.",
+   "status": "done"
   },
   {
    "id": "R00:12012",
@@ -1696,7 +1907,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "水が使えるからと、\nスイジ・センタクなどに\nこき使ってはいけませんよ。",
-   "en": ""
+   "en": "Their water powers are no excuse\nto work them to the bone cooking\nand doing your laundry.",
+   "status": "done"
   },
   {
    "id": "R00:1205C",
@@ -1704,7 +1916,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "サクヤ：\nノラもんペットは、もんペット\nショップでは買えませんの。",
-   "en": ""
+   "en": "Sakuya:\nWild Monpets cannot be bought\nat a Monpet shop.",
+   "status": "done"
   },
   {
    "id": "R00:120A0",
@@ -1712,7 +1925,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "洞窟やお城などで\nもんペットボトルを見かけたら\n手にとってみてください。",
-   "en": ""
+   "en": "If you see a Monpet bottle\nin a cave or a castle,\nplease do pick it up.",
+   "status": "done"
   },
   {
    "id": "R00:120EA",
@@ -1720,7 +1934,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ノラもんペットを\n手に入れられますわ。",
-   "en": ""
+   "en": "You will acquire a Wild Monpet.",
+   "status": "done"
   },
   {
    "id": "R00:12112",
@@ -1728,7 +1943,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ノラもんペットは、\n１回使うとなくなりますが、\nたかい攻撃力をもっておりますの。",
-   "en": ""
+   "en": "A Wild Monpet disappears after\na single use, but possesses\nconsiderable attack power.",
+   "status": "done"
   },
   {
    "id": "R00:12164",
@@ -1736,7 +1952,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ノラもんペットは、\nとっても、レアなもんペット\nですのよ。",
-   "en": ""
+   "en": "Wild Monpets are very rare\nMonpets indeed.",
+   "status": "done"
   },
   {
    "id": "R00:121A0",
@@ -1744,7 +1961,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\n救世主さま！",
-   "en": ""
+   "en": "Shopkeeper:\nSavior-sama!",
+   "status": "done"
   },
   {
    "id": "R00:121B8",
@@ -1752,7 +1970,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "もし、せいさんせずに\n店を出たら、たいへんなことに\nなりますよ！",
-   "en": ""
+   "en": "If you leave the shop without\npaying, you'll be in very\nserious trouble!",
+   "status": "done"
   },
   {
    "id": "R00:121FA",
@@ -1760,7 +1979,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "まぁ、救世主さまは\nそんなコトはしないとは\n思いますけどね・・・。",
-   "en": ""
+   "en": "Of course, I don't suppose\nyou would ever do such a thing,\nSavior-sama...",
+   "status": "done"
   },
   {
    "id": "R00:1223E",
@@ -1768,7 +1988,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちなみに、当店は、つぎの村から、\nごりようになれます。\nどうぞ、よろしく・・・。",
-   "en": ""
+   "en": "By the way, you can start using\nour shop in the next village.\nWe look forward to serving you.",
+   "status": "done"
   },
   {
    "id": "R00:12290",
@@ -1776,7 +1997,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "それでは、またのおこしを\nおまちしております。",
-   "en": ""
+   "en": "Well then, we look forward\nto your next visit.",
+   "status": "done"
   },
   {
    "id": "R00:122C0",
@@ -1784,7 +2006,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\n当店は、つぎの村から、\nごりようになれます。",
-   "en": ""
+   "en": "Shopkeeper:\nYou can start using our shop\nin the next village.",
+   "status": "done"
   },
   {
    "id": "R00:122F8",
@@ -1792,7 +2015,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "どうぞ、よろしく・・・。\nそれでは、つぎの村まで\nごきげんよう！",
-   "en": ""
+   "en": "We look forward to serving you.\nUntil we meet in the next\nvillage, farewell!",
+   "status": "done"
   }
  ]
 }

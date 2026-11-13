@@ -9,182 +9,208 @@
    "slot": 0,
    "max": 7,
    "jp": "龍星剣",
-   "en": ""
+   "en": "Wyrmstar Sword",
+   "status": "done"
   },
   {
    "id": "EXE:7F858",
    "slot": 1,
    "max": 7,
    "jp": "ラックラク",
-   "en": ""
+   "en": "Luck-Ease",
+   "status": "done"
   },
   {
    "id": "EXE:7F866",
    "slot": 2,
    "max": 7,
    "jp": "龍炎剣",
-   "en": ""
+   "en": "Wyrmfire Sword",
+   "status": "done"
   },
   {
    "id": "EXE:7F874",
    "slot": 3,
    "max": 7,
    "jp": "龍星天光剣",
-   "en": ""
+   "en": "Wyrmstar Light",
+   "status": "done"
   },
   {
    "id": "EXE:7F882",
    "slot": 4,
    "max": 7,
    "jp": "龍神爆炎剣",
-   "en": ""
+   "en": "Godwyrm Blaze",
+   "status": "done"
   },
   {
    "id": "EXE:7F890",
    "slot": 5,
    "max": 7,
    "jp": "超龍陣",
-   "en": ""
+   "en": "Hyperwyrm Ring",
+   "status": "done"
   },
   {
    "id": "EXE:7F89E",
    "slot": 6,
    "max": 7,
    "jp": "Ｘ之字殺法",
-   "en": ""
+   "en": "X-Cution",
+   "status": "done"
   },
   {
    "id": "EXE:7F8AC",
    "slot": 7,
    "max": 7,
    "jp": "雷光乱弾",
-   "en": ""
+   "en": "Thunder Salvo",
+   "status": "done"
   },
   {
    "id": "EXE:7F8BA",
    "slot": 8,
    "max": 7,
    "jp": "パワフル",
-   "en": ""
+   "en": "Power-Full",
+   "status": "done"
   },
   {
    "id": "EXE:7F8C8",
    "slot": 9,
    "max": 7,
    "jp": "パワフルフル",
-   "en": ""
+   "en": "Power-Fullest",
+   "status": "done"
   },
   {
    "id": "EXE:7F8D6",
    "slot": 10,
    "max": 7,
    "jp": "三日月殺法",
-   "en": ""
+   "en": "Crescent Kill",
+   "status": "done"
   },
   {
    "id": "EXE:7F8E4",
    "slot": 11,
    "max": 7,
    "jp": "超気法",
-   "en": ""
+   "en": "Hyper Chi",
+   "status": "done"
   },
   {
    "id": "EXE:7F8F2",
    "slot": 12,
    "max": 7,
    "jp": "ケアスル",
-   "en": ""
+   "en": "Care-a-Lot",
+   "status": "done"
   },
   {
    "id": "EXE:7F900",
    "slot": 13,
    "max": 7,
    "jp": "ミガルサー",
-   "en": ""
+   "en": "Lighten Up",
+   "status": "done"
   },
   {
    "id": "EXE:7F90E",
    "slot": 14,
    "max": 7,
    "jp": "ケアスルスル",
-   "en": ""
+   "en": "Care-a-Lot-Lot",
+   "status": "done"
   },
   {
    "id": "EXE:7F91C",
    "slot": 15,
    "max": 7,
    "jp": "イタダケアー",
-   "en": ""
+   "en": "Take-Care",
+   "status": "done"
   },
   {
    "id": "EXE:7F92A",
    "slot": 16,
    "max": 7,
    "jp": "飛光散弾",
-   "en": ""
+   "en": "Flash Scatter",
+   "status": "done"
   },
   {
    "id": "EXE:7F938",
    "slot": 17,
    "max": 7,
    "jp": "ヒミコーリン",
-   "en": ""
+   "en": "Himiko Calling",
+   "status": "done"
   },
   {
    "id": "EXE:7F946",
    "slot": 18,
    "max": 7,
    "jp": "超ケアスル",
-   "en": ""
+   "en": "Max Care-a-Lot",
+   "status": "done"
   },
   {
    "id": "EXE:7F954",
    "slot": 19,
    "max": 7,
    "jp": "ケアスル",
-   "en": ""
+   "en": "Care-a-Lot",
+   "status": "done"
   },
   {
    "id": "EXE:7F962",
    "slot": 20,
    "max": 7,
    "jp": "ミガルサー",
-   "en": ""
+   "en": "Lighten Up",
+   "status": "done"
   },
   {
    "id": "EXE:7F970",
    "slot": 21,
    "max": 7,
    "jp": "ケアスルスル",
-   "en": ""
+   "en": "Care-a-Lot-Lot",
+   "status": "done"
   },
   {
    "id": "EXE:7F97E",
    "slot": 22,
    "max": 7,
    "jp": "パワフル",
-   "en": ""
+   "en": "Power-Full",
+   "status": "done"
   },
   {
    "id": "EXE:7F98C",
    "slot": 23,
    "max": 7,
    "jp": "イタダケアー",
-   "en": ""
+   "en": "Take-Care",
+   "status": "done"
   },
   {
    "id": "EXE:7F99A",
    "slot": 24,
    "max": 7,
    "jp": "パワフルフル",
-   "en": ""
+   "en": "Power-Fullest",
+   "status": "done"
   },
   {
    "id": "EXE:7F9A8",
    "slot": 25,
    "max": 7,
    "jp": "超ケアスル",
-   "en": ""
+   "en": "Max Care-a-Lot",
+   "status": "done"
   }
  ]
 }

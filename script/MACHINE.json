@@ -6,239 +6,273 @@
    "id": "MACHINE:10194",
    "kind": "menu",
    "jp": "マイクロ・ウェーブ",
-   "en": "",
-   "end": "FFFF"
+   "en": "Micro Wave",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:101A8",
    "kind": "menu",
    "jp": "バーコードビーム",
-   "en": "",
-   "end": "FFFF"
+   "en": "Barcode Beam",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:101BC",
    "kind": "menu",
    "jp": "りょうがえつぶて",
-   "en": "",
-   "end": "FFFF"
+   "en": "Small Change Barrage",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:101D0",
    "kind": "menu",
    "jp": "スチールフラッシュ",
-   "en": "",
-   "end": "FFFF"
+   "en": "Still Flash",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:101E4",
    "kind": "menu",
    "jp": "タップソード",
-   "en": "",
-   "end": "FFFF"
+   "en": "Tap Sword",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:101F4",
    "kind": "menu",
    "jp": "たいようフラッシュ",
-   "en": "",
-   "end": "FFFF"
+   "en": "Solar Flash",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10208",
    "kind": "menu",
    "jp": "ヒートスラッシュ",
-   "en": "",
-   "end": "FFFF"
+   "en": "Heat Slash",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:1021C",
    "kind": "menu",
    "jp": "ピッカリサンダー",
-   "en": "",
-   "end": "FFFF"
+   "en": "Flashy Thunder",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10230",
    "kind": "menu",
    "jp": "サンダーボール",
-   "en": "",
-   "end": "FFFF"
+   "en": "Thunderball",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10240",
    "kind": "menu",
    "jp": "ビリビリワッパー",
-   "en": "",
-   "end": "FFFF"
+   "en": "Shock Cuffs",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10254",
    "kind": "menu",
    "jp": "ビリビリタイフーン",
-   "en": "",
-   "end": "FFFF"
+   "en": "Shock Typhoon",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10268",
    "kind": "menu",
    "jp": "バーチャル影分身",
-   "en": "",
-   "end": "FFFF"
+   "en": "Virtual Shadow Clones",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:1027C",
    "kind": "menu",
    "jp": "私の歌をお聴き",
-   "en": "",
-   "end": "FFFF"
+   "en": "Listen to My Song",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:1028C",
    "kind": "menu",
    "jp": "私にひざまずきなさい",
-   "en": "",
-   "end": "FFFF"
+   "en": "Kneel Before Me",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:102A4",
    "kind": "menu",
    "jp": "ゴールデンシュート",
-   "en": "",
-   "end": "FFFF"
+   "en": "Golden Shot",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:102B8",
    "kind": "menu",
    "jp": "ゴールデンファイヤー",
-   "en": "",
-   "end": "FFFF"
+   "en": "Golden Fire",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:102D0",
    "kind": "menu",
    "jp": "アームプレス",
-   "en": "",
-   "end": "FFFF"
+   "en": "Arm Press",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:102E0",
    "kind": "menu",
    "jp": "モーレツアタック",
-   "en": "",
-   "end": "FFFF"
+   "en": "Frenzy Attack",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:102F4",
    "kind": "menu",
    "jp": "こうそくリング",
-   "en": "",
-   "end": "FFFF"
+   "en": "Binding Ring",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10304",
    "kind": "menu",
    "jp": "分離攻撃",
-   "en": "",
-   "end": "FFFF"
+   "en": "Split Attack",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10310",
    "kind": "menu",
    "jp": "ビーム",
-   "en": "",
-   "end": "FFFF"
+   "en": "Beam",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10318",
    "kind": "menu",
    "jp": "だだっこパンチ",
-   "en": "",
-   "end": "FFFF"
+   "en": "Tantrum Punch",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10328",
    "kind": "menu",
    "jp": "ヒップアタック",
-   "en": "",
-   "end": "FFFF"
+   "en": "Hip Attack",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10338",
    "kind": "menu",
    "jp": "聖ラブリーキャノン",
-   "en": "",
-   "end": "FFFF"
+   "en": "St. Lovely Cannon",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:1034C",
    "kind": "menu",
    "jp": "ワルワルファイヤー",
-   "en": "",
-   "end": "FFFF"
+   "en": "Wicked Wicked Fire",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10360",
    "kind": "menu",
    "jp": "ワルワルスピリッツ",
-   "en": "",
-   "end": "FFFF"
+   "en": "Wicked Wicked Spirits",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10374",
    "kind": "menu",
    "jp": "デッドリーアイ",
-   "en": "",
-   "end": "FFFF"
+   "en": "Deadly Eye",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10384",
    "kind": "menu",
    "jp": "超龍撃破爆空魔陣",
-   "en": "",
-   "end": "FFFF"
+   "en": "Hyperwyrm Skyburst Sigil",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:10398",
    "kind": "menu",
    "jp": "登龍剣",
-   "en": "",
-   "end": "FFFF"
+   "en": "Toryuken",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:103A0",
    "kind": "menu",
    "jp": "天翔登龍剣",
-   "en": "",
-   "end": "FFFF"
+   "en": "Skysoar Toryuken",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:103AC",
    "kind": "menu",
    "jp": "幻影招龍破",
-   "en": "",
-   "end": "FFFF"
+   "en": "Phantom Wyrmwave",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:103B8",
    "kind": "menu",
    "jp": "昇龍烈火爆裂聖剣",
-   "en": "",
-   "end": "FFFF"
+   "en": "Holy Wyrminferno",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:103CC",
    "kind": "menu",
    "jp": "経験値",
-   "en": "",
-   "end": "FFFF"
+   "en": "Experience Points",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "MACHINE:103D4",
    "kind": "menu",
    "jp": "を手に入れた！",
-   "en": "",
-   "end": "FFFF"
+   "en": "obtained!",
+   "end": "FFFF",
+   "status": "done"
   }
  ]
 }

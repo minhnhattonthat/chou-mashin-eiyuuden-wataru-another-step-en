@@ -8,7 +8,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n景気のいい村のようだな。",
-   "en": ""
+   "en": "Aragoto:\nA prosperous village, it seems.",
+   "status": "done"
   },
   {
    "id": "R09:1014E",
@@ -16,7 +17,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nわぁ、花火がたくさん\n上がっていますわ。",
-   "en": ""
+   "en": "Sakuya:\nOh my, so many fireworks\nlighting up the sky!",
+   "status": "done"
   },
   {
    "id": "R09:10190",
@@ -24,7 +26,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n運動会でもやってるのかなぁ。",
-   "en": ""
+   "en": "Wataru:\nThink they're having\nsome kind of sports day?",
+   "status": "done"
   },
   {
    "id": "R09:101DC",
@@ -32,7 +35,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n困りましたわね・・・。",
-   "en": ""
+   "en": "Sakuya:\nThis is quite a predicament...",
+   "status": "done"
   },
   {
    "id": "R09:1020C",
@@ -40,7 +44,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "これでは村の方々と\nお話もできませんわ。",
-   "en": ""
+   "en": "We cannot even speak\nto the villagers like this.",
+   "status": "done"
   },
   {
    "id": "R09:10244",
@@ -48,7 +53,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうーん。金メダルを持っていれば\nいいんだけど・・・。",
-   "en": ""
+   "en": "Wataru:\nHmm. If only we had\na gold medal...",
+   "status": "done"
   },
   {
    "id": "R09:10292",
@@ -56,7 +62,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nでも、金メダルなんて、そうそう\n手に入るモノではありませんわ。",
-   "en": ""
+   "en": "Sakuya:\nBut gold medals are hardly\neasy to come by.",
+   "status": "done"
   },
   {
    "id": "R09:102EA",
@@ -64,7 +71,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだねぇ。",
-   "en": ""
+   "en": "Wataru:\nYeah, true.",
+   "status": "done"
   },
   {
    "id": "R09:10310",
@@ -72,7 +80,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nん？\n金メダルなら簡単に手に入るぞ。",
-   "en": ""
+   "en": "Aragoto:\nHm? Gold medals?\nThose are easy to obtain.",
+   "status": "done"
   },
   {
    "id": "R09:10352",
@@ -80,7 +89,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルとサクヤ：\nえっ？",
-   "en": ""
+   "en": "Wataru & Sakuya:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R09:1037A",
@@ -88,7 +98,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nこうするんだ。",
-   "en": ""
+   "en": "Aragoto:\nObserve.",
+   "status": "done"
   },
   {
    "id": "R09:103A4",
@@ -96,7 +107,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴトはチケットを使った！\n・・・銀[0227:之]介がやってきた！",
-   "en": ""
+   "en": "Aragoto used a Ticket!\n...Ginnosuke arrived!",
+   "status": "done"
   },
   {
    "id": "R09:103EE",
@@ -104,7 +116,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "銀之介：\n呼んだだスか？",
-   "en": ""
+   "en": "Ginnosuke:\nYou rang?",
+   "status": "done"
   },
   {
    "id": "R09:10416",
@@ -112,7 +125,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n実は金メダルを売って欲しいのだ。",
-   "en": ""
+   "en": "Aragoto:\nI'd like you to sell us\nsome gold medals.",
+   "status": "done"
   },
   {
    "id": "R09:10452",
@@ -120,7 +134,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "銀之介：\nまいどー。はい３つ。",
-   "en": ""
+   "en": "Ginnosuke:\nMuch obliged! Here's three.",
+   "status": "done"
   },
   {
    "id": "R09:10482",
@@ -128,7 +143,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nき、金メダルも売り物なのぉ？",
-   "en": ""
+   "en": "Wataru:\nY-you sell gold medals, too?!",
+   "status": "done"
   },
   {
    "id": "R09:104B8",
@@ -136,7 +152,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "銀之介：\nそりゃ欲しい人がいるから、\n売るだスよ。",
-   "en": ""
+   "en": "Ginnosuke:\nSure do! If folks want 'em,\nI sell 'em.",
+   "status": "done"
   },
   {
    "id": "R09:104FA",
@@ -144,7 +161,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だってホラ、\nここに３人もいるだス。",
-   "en": ""
+   "en": "Just look! I've got three\ncustomers right here.",
+   "status": "done"
   },
   {
    "id": "R09:1052E",
@@ -152,7 +170,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nでも・・・。",
-   "en": ""
+   "en": "Sakuya:\nBut...",
+   "status": "done"
   },
   {
    "id": "R09:10554",
@@ -160,7 +179,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "銀之介：\nいらないんだスか？",
-   "en": ""
+   "en": "Ginnosuke:\nDon't want 'em?",
+   "status": "done"
   },
   {
    "id": "R09:10580",
@@ -168,7 +188,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそんなことはないんだけど・・・。",
-   "en": ""
+   "en": "Wataru:\nWell, it's not that...",
+   "status": "done"
   },
   {
    "id": "R09:105BA",
@@ -176,7 +197,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "銀之介：\nじゃあ商談成立だスな。",
-   "en": ""
+   "en": "Ginnosuke:\nThen we've got ourselves a deal!",
+   "status": "done"
   },
   {
    "id": "R09:105EA",
@@ -184,7 +206,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "今後ともごひいきに\nお願いするだスよぉー。",
-   "en": ""
+   "en": "Keep coming back, now!\nAlways glad to have your custom!",
+   "status": "done"
   },
   {
    "id": "R09:10644",
@@ -192,7 +215,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nどうしたの？",
-   "en": ""
+   "en": "Wataru:\nWhat's wrong?",
+   "status": "done"
   },
   {
    "id": "R09:1066C",
@@ -200,7 +224,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ショタ郎：\nえっ？\nな、何でもないんだ。",
-   "en": ""
+   "en": "Shotaro:\nHuh?\nN-nothing's wrong.",
+   "status": "done"
   },
   {
    "id": "R09:106A4",
@@ -208,7 +233,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nでも、ケガをしていますわ、\n大丈夫ですか？",
-   "en": ""
+   "en": "Sakuya:\nBut you are hurt.\nAre you all right?",
+   "status": "done"
   },
   {
    "id": "R09:106E8",
@@ -216,7 +242,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ショタ郎：\nありがとう。\nでも、本当に何でもないんだよ。",
-   "en": ""
+   "en": "Shotaro:\nThanks.\nBut really, it's nothing.",
+   "status": "done"
   },
   {
    "id": "R09:10730",
@@ -224,7 +251,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n困ったことなら相談にのるぞ。",
-   "en": ""
+   "en": "Aragoto:\nIf you're in trouble,\nwe shall hear you out.",
+   "status": "done"
   },
   {
    "id": "R09:10768",
@@ -232,7 +260,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "何といってもここにいるのは\n救世主ワタルだからな。",
-   "en": ""
+   "en": "After all, you stand before\nnone other than Wataru,\nthe Savior!",
+   "status": "done"
   },
   {
    "id": "R09:107AC",
@@ -240,7 +269,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nボクは炎部ワタル、よろしくねっ。",
-   "en": ""
+   "en": "Wataru:\nI'm Wataru Homurabe.\nNice to meet you!",
+   "status": "done"
   },
   {
    "id": "R09:107E6",
@@ -248,7 +278,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ショタ郎：\nボク、ショタ郎。\nこっちこそよろしくね。",
-   "en": ""
+   "en": "Shotaro:\nI'm Shotaro.\nNice to meet you, too.",
+   "status": "done"
   },
   {
    "id": "R09:1082C",
@@ -256,7 +287,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・今、いじめられてたのは、\nこのメダルのコトでなんだ。",
-   "en": ""
+   "en": "...They were just picking on me\nbecause of this medal.",
+   "status": "done"
   },
   {
    "id": "R09:10876",
@@ -264,7 +296,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nメダル？",
-   "en": ""
+   "en": "Wataru:\nMedal?",
+   "status": "done"
   },
   {
    "id": "R09:1089A",
@@ -272,7 +305,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ショタ郎：\nうん・・・。このメダルは、\nボクが作ったニセモノなんだ。",
-   "en": ""
+   "en": "Shotaro:\nYeah... This medal's\na fake I made myself.",
+   "status": "done"
   },
   {
    "id": "R09:10908",
@@ -280,7 +314,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n何と！？",
-   "en": ""
+   "en": "Aragoto:\nWhat?!",
+   "status": "done"
   },
   {
    "id": "R09:1092C",
@@ -288,7 +323,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "するとこの村では、\n何でもメダルで順位をつけるのか？",
-   "en": ""
+   "en": "So in this village, medals\ndetermine one's rank\nin absolutely everything?",
+   "status": "done"
   },
   {
    "id": "R09:10970",
@@ -296,7 +332,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nメダルがないと\n差別されるなんて・・・。",
-   "en": ""
+   "en": "Sakuya:\nTo be treated so unfairly\nfor having no medal...",
+   "status": "done"
   },
   {
    "id": "R09:109B2",
@@ -304,7 +341,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ショタ郎：\nうん・・・。",
-   "en": ""
+   "en": "Shotaro:\nYeah...",
+   "status": "done"
   },
   {
    "id": "R09:109DA",
@@ -312,7 +350,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ボクの家族は、\nもともとみんな体が弱くて、\nメダルをもらえないんだ。",
-   "en": ""
+   "en": "Everyone in my family's\nalways been weak and sickly,\nso we can't win any medals.",
+   "status": "done"
   },
   {
    "id": "R09:10A2E",
@@ -320,7 +359,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お母さんのクスリを買いたいん\nだけど、メダルを持っていないと\nとても高くて買えないんだ。",
-   "en": ""
+   "en": "I want to buy Mom's medicine,\nbut without a medal,\nit's too expensive to afford.",
+   "status": "done"
   },
   {
    "id": "R09:10A96",
@@ -328,7 +368,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nそれで、\nニセモノのメダルを作って・・・。",
-   "en": ""
+   "en": "Aragoto:\nAnd so, you made\na counterfeit medal...",
+   "status": "done"
   },
   {
    "id": "R09:10ADE",
@@ -336,7 +377,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ショタ郎：\nイケナイことだって\nわかっていたんだけど、",
-   "en": ""
+   "en": "Shotaro:\nI knew it was wrong,\nbut...",
+   "status": "done"
   },
   {
    "id": "R09:10B24",
@@ -344,7 +386,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "クスリを買わなきゃ\nお母さんの病気はよくならないし。\nそれで、ボク・・・。",
-   "en": ""
+   "en": "Mom-san won't get better unless\nI buy her medicine.\nSo I...",
+   "status": "done"
   },
   {
    "id": "R09:10B7E",
@@ -352,7 +395,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n運動が得意かどうかだけで",
-   "en": ""
+   "en": "Sakuya:\nTo think one's athletic ability",
+   "status": "done"
   },
   {
    "id": "R09:10BB0",
@@ -360,7 +404,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "すべてが\n決まってしまうなんて・・・。",
-   "en": ""
+   "en": "could determine absolutely\neverything...",
+   "status": "done"
   },
   {
    "id": "R09:10BE6",
@@ -368,7 +413,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nぅうむ・・・許せんなぁ。",
-   "en": ""
+   "en": "Aragoto:\nHrrm... Unforgivable.",
+   "status": "done"
   },
   {
    "id": "R09:10C1C",
@@ -376,7 +422,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ショタ郎：\nでもいいんだ。",
-   "en": ""
+   "en": "Shotaro:\nBut it's okay.",
+   "status": "done"
   },
   {
    "id": "R09:10C46",
@@ -384,7 +431,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ニセモノのメダルなんかで\n安くものを買おうと思っていた\nボクがいけないんだもん。",
-   "en": ""
+   "en": "It's my fault for trying\nto get things cheaper\nwith a fake medal.",
+   "status": "done"
   },
   {
    "id": "R09:10CA6",
@@ -392,7 +440,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "本物のメダルがもらえるように\nがんばらなくっちゃ。",
-   "en": ""
+   "en": "I've got to work harder\nso I can earn a real medal.",
+   "status": "done"
   },
   {
    "id": "R09:10CEA",
@@ -400,7 +449,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ショタ郎：\nワタルくん・・・？",
-   "en": ""
+   "en": "Shotaro:\nWataru-kun...?",
+   "status": "done"
   },
   {
    "id": "R09:10D18",
@@ -408,7 +458,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n・・・こんなのおかしいよ！\n間違ってるよ！",
-   "en": ""
+   "en": "Wataru:\n...This isn't fair!\nIt's wrong!",
+   "status": "done"
   },
   {
    "id": "R09:10D5C",
@@ -416,7 +467,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R09:10D74",
@@ -424,7 +476,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nぼうや・・・。",
-   "en": ""
+   "en": "Aragoto:\nBoy...",
+   "status": "done"
   },
   {
    "id": "R09:10D9E",
@@ -432,7 +485,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nワタルさま・・・。",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama...",
+   "status": "done"
   },
   {
    "id": "R09:10DCC",
@@ -440,7 +494,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nショタ郎くん！　待ってて！",
-   "en": ""
+   "en": "Wataru:\nShotaro-kun! Just you wait!",
+   "status": "done"
   },
   {
    "id": "R09:10E00",
@@ -448,7 +503,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ボクがそんなルール、\nブッ壊してあげる！\n絶対に！",
-   "en": ""
+   "en": "I'll smash that stupid rule\nfor you!\nI promise!",
+   "status": "done"
   },
   {
    "id": "R09:10E42",
@@ -456,7 +512,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "ショタ郎：\nワタルくん・・・。",
-   "en": ""
+   "en": "Shotaro:\nWataru-kun...",
+   "status": "done"
   },
   {
    "id": "R09:10E7A",
@@ -464,7 +521,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カール：\nわっはっは！\n待っておったぞ救世主ワタル！",
-   "en": ""
+   "en": "Carl:\nWah ha ha!\nI've awaited you, Savior Wataru!",
+   "status": "done"
   },
   {
    "id": "R09:10EBE",
@@ -472,7 +530,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nお前がこの村のルールを\n決めたやつか！！",
-   "en": ""
+   "en": "Wataru:\nYou're the one who made\nthe rules for this village?!!",
+   "status": "done"
   },
   {
    "id": "R09:10F00",
@@ -480,7 +539,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カール：\nそぉーぅだ、私の名前は\n【カール・ジョンソン】！",
-   "en": ""
+   "en": "Carl:\nThaaat's right! My name is\nCarl Johnson!",
+   "status": "done"
   },
   {
    "id": "R09:10F4A",
@@ -488,7 +548,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "この村のルールは、私が決める！！\nわっはっは！　文句があるなら、\nこのコロッシアムの中で聞こう！",
-   "en": ""
+   "en": "I make this village's rules!!\nHa ha ha! Got a complaint? Come\ntell me inside the Colosseum!",
+   "status": "done"
   },
   {
    "id": "R09:10FD4",
@@ -496,7 +557,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カール：\nわぁーっはっはっは！\nビックリしただろーっ！",
-   "en": ""
+   "en": "Carl:\nWaaahahahaha!\nSurprised you, didn't I?!",
+   "status": "done"
   },
   {
    "id": "R09:1101A",
@@ -504,7 +566,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "わっはっはっは！",
-   "en": ""
+   "en": "Wahahahaha!",
+   "status": "done"
   },
   {
    "id": "R09:11054",
@@ -512,7 +575,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カール：\nふむぅ、結構時間が\nかかっているな。",
-   "en": ""
+   "en": "Carl:\nHmm. You're taking quite\na while.",
+   "status": "done"
   },
   {
    "id": "R09:11092",
@@ -520,7 +584,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "これでは\nメダルをやることはできん。",
-   "en": ""
+   "en": "I can't give you a medal\nat this rate.",
+   "status": "done"
   },
   {
    "id": "R09:110C6",
@@ -528,7 +593,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそれだ。",
-   "en": ""
+   "en": "Aragoto:\nThat's the very thing.",
+   "status": "done"
   },
   {
    "id": "R09:110EA",
@@ -536,7 +602,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カール：\n何がだ？",
-   "en": ""
+   "en": "Carl:\nWhat is?",
+   "status": "done"
   },
   {
    "id": "R09:1110C",
@@ -544,7 +611,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n何でそんなルールを作るんだ！",
-   "en": ""
+   "en": "Wataru:\nWhy make a rule like that?!",
+   "status": "done"
   },
   {
    "id": "R09:11142",
@@ -552,7 +620,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "困っている人たちだって\nいるんだぞ！\n今すぐやめるんだ！",
-   "en": ""
+   "en": "Some people are suffering\nbecause of it!\nStop it right now!",
+   "status": "done"
   },
   {
    "id": "R09:1118C",
@@ -560,7 +629,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カール：\n私も昔は、人ひとりひとりに\n順位などつけられないのだ、",
-   "en": ""
+   "en": "Carl:\nI, too, once thought you could\nnever rank people,",
+   "status": "done"
   },
   {
    "id": "R09:111DC",
@@ -568,7 +638,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "みんな同じだ、と思っていた。",
-   "en": ""
+   "en": "that everyone was equal.",
+   "status": "done"
   },
   {
    "id": "R09:11208",
@@ -576,7 +647,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だがどうだ！",
-   "en": ""
+   "en": "But what happened?!",
+   "status": "done"
   },
   {
    "id": "R09:11224",
@@ -584,7 +656,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「自分が一番だ」\n「いいや自分だ」と言って",
-   "en": ""
+   "en": "\"I'm number one!\"\n\"No, I am!\" they say.",
+   "status": "done"
   },
   {
    "id": "R09:1125E",
@@ -592,7 +665,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "人びとは勝手に順位をつけたがる！",
-   "en": ""
+   "en": "People insist on ranking\neach other all on their own!",
+   "status": "done"
   },
   {
    "id": "R09:1128E",
@@ -600,7 +674,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "それならば、\n順位をつけてやろうではないか！",
-   "en": ""
+   "en": "In that case,\nwhy shouldn't I rank them?!",
+   "status": "done"
   },
   {
    "id": "R09:112CA",
@@ -608,7 +683,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "スポーツに秀でたものがメダルを\n手に入れ、数が多ければ多いほど\nエライ人なのだ、とな！！",
-   "en": ""
+   "en": "Excel at sports and win medals!\nThe more you have, the greater\nyou are! That's how it works!!",
+   "status": "done"
   },
   {
    "id": "R09:11332",
@@ -616,7 +692,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそんな間違った考えが\n許されるはずがない！",
-   "en": ""
+   "en": "Wataru:\nThat's totally wrong!\nYou can't get away with that!",
+   "status": "done"
   },
   {
    "id": "R09:11376",
@@ -624,7 +701,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわ！",
-   "en": ""
+   "en": "Sakuya:\nPrecisely!",
+   "status": "done"
   },
   {
    "id": "R09:1139C",
@@ -632,7 +710,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たったひとつのことだけで、\nその人やモノの価値を計るなんて\n間違ってます！",
-   "en": ""
+   "en": "It is wrong to judge the worth\nof a person or thing by just\none single quality!",
+   "status": "done"
   },
   {
    "id": "R09:113F6",
@@ -640,7 +719,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カール：\nふむ・・・。",
-   "en": ""
+   "en": "Carl:\nHmm...",
+   "status": "done"
   },
   {
    "id": "R09:1141C",
@@ -648,7 +728,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "では\n私が間違っているということを\n証明してもらおう・・・。",
-   "en": ""
+   "en": "Then I shall have you\nprove that I am wrong...",
+   "status": "done"
   },
   {
    "id": "R09:11468",
@@ -656,7 +737,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "この勝負でな！",
-   "en": ""
+   "en": "By winning this match!",
+   "status": "done"
   },
   {
    "id": "R09:11492",
@@ -664,7 +746,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n間違っていることを認めろ！",
-   "en": ""
+   "en": "Wataru:\nAdmit you're wrong!",
+   "status": "done"
   },
   {
    "id": "R09:114C6",
@@ -672,7 +755,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カール：\nう、うむぅ・・・。",
-   "en": ""
+   "en": "Carl:\nU-ugh...",
+   "status": "done"
   },
   {
    "id": "R09:114F2",
@@ -680,7 +764,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "こうなれば、\n【ゴールドメダラー】！",
-   "en": ""
+   "en": "If that's how it is...\nGold Medalar!",
+   "status": "done"
   },
   {
    "id": "R09:11544",
@@ -688,7 +773,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カール：\nワタルさんのおかげで\n目がさめました。",
-   "en": ""
+   "en": "Carl:\nYou've opened my eyes,\nWataru-san.",
+   "status": "done"
   },
   {
    "id": "R09:11584",
@@ -696,7 +782,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "やはり人の優劣なんて\n決められないんですよね。",
-   "en": ""
+   "en": "You really can't say one person\nis better than another, can you?",
+   "status": "done"
   },
   {
    "id": "R09:115C2",
@@ -704,7 +791,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだよ、\n人間いいところもあれば、",
-   "en": ""
+   "en": "Wataru:\nRight! Everybody's got\ntheir good points,",
+   "status": "done"
   },
   {
    "id": "R09:11600",
@@ -712,7 +800,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "悪いところもある。",
-   "en": ""
+   "en": "and their bad points, too.",
+   "status": "done"
   },
   {
    "id": "R09:11622",
@@ -720,7 +809,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "一つの方向から\n見ちゃいけないんだよねっ。",
-   "en": ""
+   "en": "You can't just look at people\nfrom one side!",
+   "status": "done"
   },
   {
    "id": "R09:1165E",
@@ -728,7 +818,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ショタ郎：\nワタルくん、どうもありがとう。",
-   "en": ""
+   "en": "Shotaro:\nThanks so much, Wataru-kun.",
+   "status": "done"
   },
   {
    "id": "R09:11698",
@@ -736,7 +827,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おかげでお母さんの薬が\n買えるようになって、\n具合も良くなってきたんだ。",
-   "en": ""
+   "en": "Thanks to you, I can buy\nmedicine for Mom-san now.\nShe's starting to get better.",
+   "status": "done"
   },
   {
    "id": "R09:116F0",
@@ -744,7 +836,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nショタ郎クン、よかったね。",
-   "en": ""
+   "en": "Wataru:\nThat's great, Shotaro-kun!",
+   "status": "done"
   },
   {
    "id": "R09:11724",
@@ -752,7 +845,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ショタ郎：\nそれで、ワタルくんに\nお礼がしたくて、",
-   "en": ""
+   "en": "Shotaro:\nSo, Wataru-kun,\nI wanted to thank you,",
+   "status": "done"
   },
   {
    "id": "R09:11766",
@@ -760,7 +854,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ボク、こういうのを作ったんだ。",
-   "en": ""
+   "en": "and I made you this.",
+   "status": "done"
   },
   {
    "id": "R09:11794",
@@ -768,7 +863,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "リンリンマックスを手に入れた！！",
-   "en": ""
+   "en": "Got Rin-Rin Max!!",
+   "status": "done"
   },
   {
    "id": "R09:117CE",
@@ -776,7 +872,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n何か、間違ってるよね！\nこの世界！！",
-   "en": ""
+   "en": "Wataru:\nSomething's really wrong\nwith this world!!",
+   "status": "done"
   },
   {
    "id": "R09:1180C",
@@ -784,7 +881,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nやっと自覚が出てきたようだな、\nぼうや。",
-   "en": ""
+   "en": "Aragoto:\nAt last, you seem to be\ncatching on, boy.",
+   "status": "done"
   },
   {
    "id": "R09:11850",
@@ -792,7 +890,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそう、そして\nその間違った世界を正すのが、",
-   "en": ""
+   "en": "Sakuya:\nYes. And setting this\nmisguided world right",
+   "status": "done"
   },
   {
    "id": "R09:11894",
@@ -800,7 +899,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルさま、あなたの役目であり、\n召喚されたものの義務なのです。",
-   "en": ""
+   "en": "is your role, Wataru-sama,\nand your duty as the one\nsummoned here.",
+   "status": "done"
   },
   {
    "id": "R09:118FC",
@@ -808,7 +908,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nおっ！\nおじちゃんと勝負しようか。",
-   "en": ""
+   "en": "Villager:\nOh! Care to take on\nthis old fellow?",
+   "status": "done"
   },
   {
    "id": "R09:11936",
@@ -816,7 +917,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・あれっ！？\nなぁんだ、金メダル持ってないの？",
-   "en": ""
+   "en": "...Huh?!\nWhat, you don't have\na gold medal?",
+   "status": "done"
   },
   {
    "id": "R09:11978",
@@ -824,7 +926,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "金メダルを持ってないヤツなんかと\nハナシしてソンしちゃったよ。",
-   "en": ""
+   "en": "I wasted my breath talking to\nsomeone without a gold medal!",
+   "status": "done"
   },
   {
    "id": "R09:119DC",
@@ -832,7 +935,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあのー、すいませーん。\nちょっとお聞きしたいんですが。",
-   "en": ""
+   "en": "Wataru:\nUm, excuse me!\nCan I ask you something?",
+   "status": "done"
   },
   {
    "id": "R09:11A2C",
@@ -840,7 +944,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nあん？\nなんだオメー。",
-   "en": ""
+   "en": "Villager:\nHuh?\nWho the heck are you?",
+   "status": "done"
   },
   {
    "id": "R09:11A5A",
@@ -848,7 +953,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "金メダルも持ってないのに\nオレに話しかけんなよ。",
-   "en": ""
+   "en": "Don't talk to me if you\ndon't even have a gold medal.",
+   "status": "done"
   },
   {
    "id": "R09:1477C",
@@ -856,7 +962,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\n私のともだちの\nショタ郎くんって、",
-   "en": ""
+   "en": "Girl:\nI've got a friend\ncalled Shotaro-kun,",
+   "status": "done"
   },
   {
    "id": "R09:147AE",
@@ -864,7 +971,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "金メダルを\nひとつも持っていないの。",
-   "en": ""
+   "en": "but he doesn't have\na single gold medal.",
+   "status": "done"
   },
   {
    "id": "R09:147D4",
@@ -872,7 +980,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "だから、みんなは、\nアイツとはあそぶなって、\n言うの。",
-   "en": ""
+   "en": "So everyone tells me\nnot to play with him.",
+   "status": "done"
   },
   {
    "id": "R09:1480C",
@@ -880,7 +989,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アイツとあそぶヤツは、\nゼッコウだって。",
-   "en": ""
+   "en": "They say anyone who plays\nwith him can't be their friend.",
+   "status": "done"
   },
   {
    "id": "R09:14836",
@@ -888,7 +998,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・私、\nどうしたらいいのかしら？",
-   "en": ""
+   "en": "...What should I do?",
+   "status": "done"
   },
   {
    "id": "R09:1485C",
@@ -896,7 +1007,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nショタ郎くんは、\n金メダルを持っていないって",
-   "en": ""
+   "en": "Girl:\nJust because Shotaro-kun\ndoesn't have a gold medal,",
+   "status": "done"
   },
   {
    "id": "R09:14898",
@@ -904,7 +1016,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "いうだけで、みんなから\nいじめられているの。",
-   "en": ""
+   "en": "everyone picks on him.",
+   "status": "done"
   },
   {
    "id": "R09:148C6",
@@ -912,7 +1025,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "私はずっと、ともだちで\nいたいのに・・・。",
-   "en": ""
+   "en": "But I want to stay\nhis friend forever...",
+   "status": "done"
   },
   {
    "id": "R09:148F4",
@@ -920,7 +1034,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nここは、【アスリート村】だ。",
-   "en": ""
+   "en": "Man:\nThis is Athlete Village.",
+   "status": "done"
   },
   {
    "id": "R09:1491E",
@@ -928,7 +1043,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワシの金メダルを見てくれ。\nなんと、金１００％だ。\nこれこそ、本当の金メダルだ。",
-   "en": ""
+   "en": "Look at my gold medal!\nIt's 100% gold!\nNow THAT'S a real gold medal.",
+   "status": "done"
   },
   {
    "id": "R09:14970",
@@ -936,7 +1052,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nどれどれ、おまえ達の\n金メダルは・・・、",
-   "en": ""
+   "en": "Man:\nLet's have a look\nat your gold medals...",
+   "status": "done"
   },
   {
    "id": "R09:149A6",
@@ -944,7 +1061,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "！？　なんと、ないぞ！",
-   "en": ""
+   "en": "?! What?! You have none!",
+   "status": "done"
   },
   {
    "id": "R09:149C0",
@@ -952,7 +1070,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nあなた達、３人そろいもそろって、\n金メダルを持っていないのね。",
-   "en": ""
+   "en": "Young Woman:\nAll three of you, and not\na single gold medal among you.",
+   "status": "done"
   },
   {
    "id": "R09:14A0E",
@@ -960,7 +1079,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "とりあえず、アセでも流して、\nがんばってみたら？",
-   "en": ""
+   "en": "Why not work up a sweat\nand give it your best shot?",
+   "status": "done"
   },
   {
    "id": "R09:14A40",
@@ -968,7 +1088,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\nボクは・・・、ちょっとまって！\nキミ達、金メダルを持ってないの？",
-   "en": ""
+   "en": "Boy:\nI'm... Hold on!\nYou don't have any gold medals?",
+   "status": "done"
   },
   {
    "id": "R09:14A90",
@@ -976,7 +1097,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nぐへへへ・・・。",
-   "en": ""
+   "en": "Young Man:\nHeh heh heh...",
+   "status": "done"
   },
   {
    "id": "R09:14AB0",
@@ -984,7 +1106,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ハヤテインはいいぜ。\nすばやさが、上がるんだぜ。\nうひひひ・・・。",
-   "en": ""
+   "en": "Swiftamine is great.\nIt boosts your speed.\nHee hee hee...",
+   "status": "done"
   },
   {
    "id": "R09:14AF4",
@@ -992,7 +1115,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これも・・・、\n金メダルをふやすためさ。\nくけけけ・・・。",
-   "en": ""
+   "en": "This, too...\nAll to get more gold medals.\nKeh heh heh...",
+   "status": "done"
   },
   {
    "id": "R09:14B30",
@@ -1000,7 +1124,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n今のトランポリンの技見た？",
-   "en": ""
+   "en": "Young Man:\nSee that trampoline trick\njust now?",
+   "status": "done"
   },
   {
    "id": "R09:14B5A",
@@ -1008,7 +1133,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ま、金メダルを\n持っていない人達に言っても\nしょうがないけどね。",
-   "en": ""
+   "en": "Well, there's no point talking\nto people who don't have\nany gold medals.",
+   "status": "done"
   },
   {
    "id": "R09:14B9C",
@@ -1016,7 +1142,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nスポーツの後のアセって、\nイヤよねー。",
-   "en": ""
+   "en": "Young Woman:\nUgh, all that sweat\nafter sports is so gross.",
+   "status": "done"
   },
   {
    "id": "R09:14BD2",
@@ -1024,7 +1151,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "金メダルを持っていない\nあなた達も、最悪ね。",
-   "en": ""
+   "en": "You people without gold medals\nare the absolute worst, too.",
+   "status": "done"
   },
   {
    "id": "R09:14C00",
@@ -1032,7 +1160,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nキャ～ン！\n飛んだわ。すっごぉ～い！！",
-   "en": ""
+   "en": "Young Woman:\nEeeek! He flew!\nThat was amaaazing!!",
+   "status": "done"
   },
   {
    "id": "R09:14C36",
@@ -1040,7 +1169,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あなた達も見たでしょ？",
-   "en": ""
+   "en": "You all saw that, right?",
+   "status": "done"
   },
   {
    "id": "R09:14C4E",
@@ -1048,7 +1178,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・！？\nあなた達、金メダルは？",
-   "en": ""
+   "en": "...?!\nWhere are your gold medals?",
+   "status": "done"
   },
   {
    "id": "R09:14C74",
@@ -1056,7 +1187,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\nあら！？　アンタ達、\n金メダルを持っているんだね。",
-   "en": ""
+   "en": "Woman:\nOh?! You lot have\ngold medals, I see.",
+   "status": "done"
   },
   {
    "id": "R09:14CB4",
@@ -1064,7 +1196,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "だけど、買い物のジャマは\nしないでおくれよ。\nすまないねぇ。",
-   "en": ""
+   "en": "But don't get in the way\nof my shopping, please.\nSorry, dears.",
+   "status": "done"
   },
   {
    "id": "R09:14CF4",
@@ -1072,7 +1205,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nあれっ！？　おにいちゃん達\n金メダル持ってないのか？",
-   "en": ""
+   "en": "Man:\nHuh?! You young folks\ndon't have gold medals?",
+   "status": "done"
   },
   {
    "id": "R09:14D38",
@@ -1080,7 +1214,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nボーリングバトルで、\nもんペットばかり使っていると、",
-   "en": ""
+   "en": "Young Woman:\nIf you only use your Monpet\nin Bowling Battle,",
+   "status": "done"
   },
   {
    "id": "R09:14D7C",
@@ -1088,7 +1223,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あなた達のレベルが\n上がらないから、後でテキに\nコテンパンにされちゃうわよ。",
-   "en": ""
+   "en": "you won't level up yourselves,\nand enemies will beat you\nto a pulp later!",
+   "status": "done"
   },
   {
    "id": "R09:14DCC",
@@ -1096,7 +1232,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nゼェ、ゼェ、ゼェ・・・。",
-   "en": ""
+   "en": "Man:\nHuff, huff, huff...",
+   "status": "done"
   },
   {
    "id": "R09:14DF2",
@@ -1104,7 +1241,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ゲームに間に合わないと思って、\nはしって来たんだ・・・。\nハァ、フゥ・・・。",
-   "en": ""
+   "en": "I thought I'd miss the game,\nso I ran all the way here...\nHuff... Phew...",
+   "status": "done"
   },
   {
    "id": "R09:14E40",
@@ -1112,7 +1250,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\nアタマにライトが当たると、\n目立つよな～。",
-   "en": ""
+   "en": "Old Man:\nI sure stand out when\nthe light hits my head.",
+   "status": "done"
   },
   {
    "id": "R09:14E7C",
@@ -1120,7 +1259,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nあつい・・・。",
-   "en": ""
+   "en": "Young Woman:\nIt's hot...",
+   "status": "done"
   },
   {
    "id": "R09:14E9A",
@@ -1128,7 +1268,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "アンタ達も\n金メダルぐらい\nとってみなさいよ。",
-   "en": ""
+   "en": "You lot should at least\ntry winning a gold medal.",
+   "status": "done"
   },
   {
    "id": "R09:14ECA",
@@ -1136,7 +1277,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あー、あつい、あつい。",
-   "en": ""
+   "en": "Oh, it's hot, so hot.",
+   "status": "done"
   },
   {
    "id": "R09:14EE4",
@@ -1144,7 +1286,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "村人：\n金メダル持ってないヤツなんか、\nこの村にはそうそういねーけど、",
-   "en": ""
+   "en": "Villager:\nHardly anyone in this village\ndoesn't have a gold medal,",
+   "status": "done"
   },
   {
    "id": "R09:14F2C",
@@ -1152,7 +1295,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "よその村のヤツもメダルを持って\nいるとはかぎらないんだよなー。\nオメー、わかるか？",
-   "en": ""
+   "en": "but folks from other villages\ndon't necessarily have medals.\nYou get what I mean?",
+   "status": "done"
   },
   {
    "id": "R09:14F80",
@@ -1160,7 +1304,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ま、さっきはすまねーコトを\nしちまったな。",
-   "en": ""
+   "en": "Well, sorry for what\nI did earlier.",
+   "status": "done"
   },
   {
    "id": "R09:14FAC",
@@ -1168,7 +1313,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ま、さっきはすまねーコトを\nしちまったな。",
-   "en": ""
+   "en": "Well, sorry for what\nI did earlier.",
+   "status": "done"
   },
   {
    "id": "R09:14FD8",
@@ -1176,7 +1322,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nどうして、あんなに金メダルに\nこだわるのかしら・・・。",
-   "en": ""
+   "en": "Young Woman:\nWhy are they so obsessed\nwith gold medals...?",
+   "status": "done"
   },
   {
    "id": "R09:15020",
@@ -1184,7 +1331,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\n金メダルなんて\nなければイイのに・・・。",
-   "en": ""
+   "en": "Young Woman:\nI wish there were no\nsuch things as gold medals...",
+   "status": "done"
   },
   {
    "id": "R09:15058",
@@ -1192,7 +1340,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nどれどれ、おまえ達の\n金メダルは、",
-   "en": ""
+   "en": "Man:\nLet's have a look\nat your gold medals...",
+   "status": "done"
   },
   {
    "id": "R09:15088",
@@ -1200,7 +1349,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・！？　なんと、\nまさしく、本物だ！",
-   "en": ""
+   "en": "...?! Why,\nthey're the real thing!",
+   "status": "done"
   },
   {
    "id": "R09:150B4",
@@ -1208,7 +1358,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\n３人おそろいの金メダルなんて、\nステキね。",
-   "en": ""
+   "en": "Young Woman:\nMatching gold medals for\nall three of you! How lovely.",
+   "status": "done"
   },
   {
    "id": "R09:150F0",
@@ -1216,7 +1367,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nぐへへへ・・・。",
-   "en": ""
+   "en": "Young Man:\nHeh heh heh...",
+   "status": "done"
   },
   {
    "id": "R09:15110",
@@ -1224,7 +1376,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ドーピングミはいいぜ。\nちからが、上がるんだぜ。\nうひひひ・・・。",
-   "en": ""
+   "en": "Dopingummy is great.\nIt boosts your strength.\nHee hee hee...",
+   "status": "done"
   },
   {
    "id": "R09:15154",
@@ -1232,7 +1385,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これも・・・、\n金メダルのためさ。\nくけけけ・・・。",
-   "en": ""
+   "en": "This, too...\nIt's all for gold medals.\nKeh heh heh...",
+   "status": "done"
   },
   {
    "id": "R09:1518C",
@@ -1240,7 +1394,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nボクは、空中を飛ぶというよりも、\nあるく気持ちで、",
-   "en": ""
+   "en": "Boy:\nInstead of flying through the\nair, I imagine I'm walking",
+   "status": "done"
   },
   {
    "id": "R09:151CE",
@@ -1248,7 +1403,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ジャンプしているんだよ。",
-   "en": ""
+   "en": "when I jump.",
+   "status": "done"
   },
   {
    "id": "R09:151E8",
@@ -1256,7 +1412,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n今のトランポリンの技は、\nタケトンボみたいだな。",
-   "en": ""
+   "en": "Young Man:\nThat trampoline trick looked\nlike a bamboo propeller toy.",
+   "status": "done"
   },
   {
    "id": "R09:15228",
@@ -1264,7 +1421,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "グルグル・ミラクルと、\n呼ぼう！",
-   "en": ""
+   "en": "Let's call it\nthe Whirlical Miracle!",
+   "status": "done"
   },
   {
    "id": "R09:1524C",
@@ -1272,7 +1430,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nスポーツの後の、\nおとこの人のアセってステキ。",
-   "en": ""
+   "en": "Young Woman:\nA man's sweat after sports\nis so dreamy.",
+   "status": "done"
   },
   {
    "id": "R09:1528A",
@@ -1280,7 +1439,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あなた達が持っている\n金メダルも、ステキ。",
-   "en": ""
+   "en": "Those gold medals you have\nare dreamy, too.",
+   "status": "done"
   },
   {
    "id": "R09:152B8",
@@ -1288,7 +1448,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nキャイ～ン！",
-   "en": ""
+   "en": "Young Woman:\nEeeeek!",
+   "status": "done"
   },
   {
    "id": "R09:152D4",
@@ -1296,7 +1457,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "やっぱり、飛んでる人って、\n「トリになりた～い」とか\n思っているのかしら？",
-   "en": ""
+   "en": "I wonder if people who fly\nare thinking something like,\n\"I wanna be a biiird!\"",
+   "status": "done"
   },
   {
    "id": "R09:15320",
@@ -1304,7 +1466,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\nあら！？　アンタ達、\n金メダルを持っていないんだね。",
-   "en": ""
+   "en": "Woman:\nOh?! You lot don't have\nany gold medals, do you?",
+   "status": "done"
   },
   {
    "id": "R09:15362",
@@ -1312,7 +1475,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "買い物するときたいへんだよ。",
-   "en": ""
+   "en": "Shopping must be hard for you.",
+   "status": "done"
   },
   {
    "id": "R09:15380",
@@ -1320,7 +1484,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nお！　おにいちゃん達の金メダル\nカッコイイね。",
-   "en": ""
+   "en": "Man:\nHey! You young folks have\nsome cool gold medals.",
+   "status": "done"
   },
   {
    "id": "R09:153BC",
@@ -1328,7 +1493,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【カール・ジョンソン】さんは、\n人をおどろかすことがスキなの。",
-   "en": ""
+   "en": "Young Woman:\nCarl Johnson-san just loves\nto surprise people.",
+   "status": "done"
   },
   {
    "id": "R09:1540A",
@@ -1336,7 +1502,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "だから、コロッシアムには\n心して行った方がいいわよ。",
-   "en": ""
+   "en": "So you'd better brace yourselves\nbefore entering the Colosseum.",
+   "status": "done"
   },
   {
    "id": "R09:15440",
@@ -1344,7 +1511,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【カール・ジョンソン】さんは、\n人をおどろかすことがスキなの。",
-   "en": ""
+   "en": "Young Woman:\nCarl Johnson-san just loves\nto surprise people.",
+   "status": "done"
   },
   {
    "id": "R09:1548E",
@@ -1352,7 +1520,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "だから、コロッシアムには\n心して行った方がいいわよ。",
-   "en": ""
+   "en": "So you'd better brace yourselves\nbefore entering the Colosseum.",
+   "status": "done"
   },
   {
    "id": "R09:154C4",
@@ -1360,7 +1529,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あ、そうそう、これをあげるわ。",
-   "en": ""
+   "en": "Oh, right! Here, take this.",
+   "status": "done"
   },
   {
    "id": "R09:154E4",
@@ -1368,7 +1538,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【あがってマスク】を\n手に入れた！",
-   "en": ""
+   "en": "Got Mask Me Up!",
+   "status": "done"
   },
   {
    "id": "R09:15508",
@@ -1376,7 +1547,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nがんばってネ！",
-   "en": ""
+   "en": "Young Woman:\nGive it your best!",
+   "status": "done"
   },
   {
    "id": "R09:15528",
@@ -1384,7 +1556,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nハッ、ハッ、ハッ・・・。",
-   "en": ""
+   "en": "Man:\nHah, hah, hah...",
+   "status": "done"
   },
   {
    "id": "R09:1554E",
@@ -1392,7 +1565,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "イヌのまねっっ！\nこの間のスポーツ選手の\nコキュウ法を見て思いついたんだ。",
-   "en": ""
+   "en": "I'm doing a dog impression!\nAn athlete's breathing technique\nI saw the other day inspired me.",
+   "status": "done"
   },
   {
    "id": "R09:1559C",
@@ -1400,7 +1574,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nアタマにライトが当たると、\nあら、ビックリ！",
-   "en": ""
+   "en": "Old Man:\nWhen the light hits my head,\nwhat a surprise!",
+   "status": "done"
   },
   {
    "id": "R09:155D8",
@@ -1408,7 +1583,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "てかり具合が、金メダルに\nそっくりなんだね～。\nトホホ・・・。",
-   "en": ""
+   "en": "It shines just like\na gold medal.\nOh, woe is me...",
+   "status": "done"
   },
   {
    "id": "R09:15618",
@@ -1416,7 +1592,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nあつい・・・。",
-   "en": ""
+   "en": "Young Woman:\nIt's hot...",
+   "status": "done"
   },
   {
    "id": "R09:15636",
@@ -1424,7 +1601,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "その金メダルをとるときも、\nさぞ、あつかったんだろうね。\nふふふ・・・あ、あつい。",
-   "en": ""
+   "en": "I bet you got pretty hot\nwinning that gold medal, too.\nHee hee... Oh, it's hot.",
+   "status": "done"
   }
  ]
 }

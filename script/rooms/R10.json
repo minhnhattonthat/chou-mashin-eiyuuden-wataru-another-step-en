@@ -16,7 +16,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nこの辺りの人は、体を鍛えるのが\n好きなのかなぁ。",
-   "en": ""
+   "en": "Wataru:\nI guess people around here\nlike working out.",
+   "status": "done"
   },
   {
    "id": "R10:0C474",
@@ -24,7 +25,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nん？　どうした？",
-   "en": ""
+   "en": "Aragoto:\nHm? What is it?",
+   "status": "done"
   },
   {
    "id": "R10:0C4A0",
@@ -32,7 +34,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nだってあの建物に、",
-   "en": ""
+   "en": "Wataru:\nWell, that building...",
+   "status": "done"
   },
   {
    "id": "R10:0C4CC",
@@ -40,7 +43,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n大きな建物でございますわねぇ。",
-   "en": ""
+   "en": "Sakuya:\nMy, what a large building.",
+   "status": "done"
   },
   {
    "id": "R10:0C504",
@@ -48,7 +52,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nあれがどうかしたか？",
-   "en": ""
+   "en": "Aragoto:\nWhat about it?",
+   "status": "done"
   },
   {
    "id": "R10:0C534",
@@ -56,7 +61,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n【アスレチックジム】って\n書いてある・・・。",
-   "en": ""
+   "en": "Wataru:\nIt says\n'Athletic Gym'...",
+   "status": "done"
   },
   {
    "id": "R10:0C590",
@@ -64,7 +70,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nこの【アスレチックジム】は、\n何だか無理矢理体を",
-   "en": ""
+   "en": "Wataru:\nThis Athletic Gym is full of\npeople who look like",
+   "status": "done"
   },
   {
    "id": "R10:0C5DA",
@@ -72,7 +79,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "鍛えさせられてるような\n人達ばっかりだね。",
-   "en": ""
+   "en": "they're being forced to train.",
+   "status": "done"
   },
   {
    "id": "R10:0C614",
@@ -80,7 +88,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n何だか・・・と言うよりは、\nそのもののようだなぁ。",
-   "en": ""
+   "en": "Aragoto:\n\"Look like,\" you say?\nI daresay they ARE.",
+   "status": "done"
   },
   {
    "id": "R10:0C662",
@@ -88,7 +97,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n先ほどの【ワルリリス】という\nものが、無理矢理みんなに",
-   "en": ""
+   "en": "Sakuya:\nCould that Warulilith we met\nearlier be forcing everyone",
+   "status": "done"
   },
   {
    "id": "R10:0C6B2",
@@ -96,7 +106,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "体を鍛えさせているのでは\nないでしょうか？",
-   "en": ""
+   "en": "to train their bodies?",
+   "status": "done"
   },
   {
    "id": "R10:0C6EE",
@@ -104,7 +115,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n話の感じからすると、\nそうだよね。",
-   "en": ""
+   "en": "Wataru:\nFrom what we've heard,\nyeah, sounds like it.",
+   "status": "done"
   },
   {
    "id": "R10:0C72A",
@@ -112,7 +124,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nそういう時は、本人に\n聞いてみるのが一番ってものよ。",
-   "en": ""
+   "en": "Aragoto:\nIn that case, best to hear it\nstraight from the source.",
+   "status": "done"
   },
   {
    "id": "R10:0C77C",
@@ -120,7 +133,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nじゃっ、聞いてみよう！",
-   "en": ""
+   "en": "Wataru:\nThen let's go ask!",
+   "status": "done"
   },
   {
    "id": "R10:0C7C4",
@@ -128,7 +142,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nえーっ？\nこの人が【ワルリリス】！？",
-   "en": ""
+   "en": "Wataru:\nHuuuh?\nTHIS is Warulilith?!",
+   "status": "done"
   },
   {
    "id": "R10:0C804",
@@ -136,7 +151,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\nん？　なんだお前達は？",
-   "en": ""
+   "en": "Warulilith:\nHm? Who are you lot?",
+   "status": "done"
   },
   {
    "id": "R10:0C838",
@@ -144,7 +160,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n無理矢理体を鍛えさせて\nどうするのかなぁーっと思って。",
-   "en": ""
+   "en": "Wataru:\nWhat's the point of forcing\npeople to work out, anyway?",
+   "status": "done"
   },
   {
    "id": "R10:0C888",
@@ -152,7 +169,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nいくら健康的なことでも、\n無理強いはよくないと思いますわ。",
-   "en": ""
+   "en": "Sakuya:\nHowever healthy it may be,\nI think forcing people is wrong.",
+   "status": "done"
   },
   {
    "id": "R10:0C8DE",
@@ -160,7 +178,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\nなんだと？\n無理強いなんぞしていないぞ。",
-   "en": ""
+   "en": "Warulilith:\nWhat?!\nI'm not forcing anyone!",
+   "status": "done"
   },
   {
    "id": "R10:0C924",
@@ -168,7 +187,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ただ、オレはオレの\n嫌いな体型をしているヤツが\n嫌いなだけだ。",
-   "en": ""
+   "en": "I just hate people whose\nbody types I hate.\nThat's all.",
+   "status": "done"
   },
   {
    "id": "R10:0C974",
@@ -176,7 +196,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nお前が好きな体型を\nしていない人や、お年寄りを",
-   "en": ""
+   "en": "Wataru:\nPeople without your ideal body,\nand old people, too...",
+   "status": "done"
   },
   {
    "id": "R10:0C9BC",
@@ -184,7 +205,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "変な穴に落っことすことは、\nもうわかってるんだぞ！\nいい加減白状しろ！",
-   "en": ""
+   "en": "We know you drop them down\nthose weird holes!\nCome on, fess up already!",
+   "status": "done"
   },
   {
    "id": "R10:0CA12",
@@ -192,7 +214,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\n落とし穴の中では、\nオレの好む体型になりたい村人が",
-   "en": ""
+   "en": "Warulilith:\nDown in those pits, villagers\nwho want the bodies I like",
+   "status": "done"
   },
   {
    "id": "R10:0CA62",
@@ -200,7 +223,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "努力を重ねているだけだ。\n酷（ひど）いこととは心外だな。",
-   "en": ""
+   "en": "are simply working hard at it.\nCalling it cruel is an insult!",
+   "status": "done"
   },
   {
    "id": "R10:0CAAA",
@@ -208,7 +232,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれを強要するのが\n酷いことなんですのよ。",
-   "en": ""
+   "en": "Sakuya:\nForcing it upon people is\nwhat makes it cruel.",
+   "status": "done"
   },
   {
    "id": "R10:0CAEE",
@@ -216,7 +241,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\nそうか・・・。",
-   "en": ""
+   "en": "Warulilith:\nIs that so...?",
+   "status": "done"
   },
   {
    "id": "R10:0CB1A",
@@ -224,7 +250,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "それでは酷いことなのかどうか、\n自分の目で\n確かめてみるとよかろう・・・。",
-   "en": ""
+   "en": "Then see for yourselves\nwhether it's cruel\nor not...",
+   "status": "done"
   },
   {
    "id": "R10:0CB76",
@@ -232,7 +259,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "大体、貴様らは、\nオレの大嫌いな体型を\nしているしな・・・。",
-   "en": ""
+   "en": "Besides, every one of you has\nexactly the kind of body\nI can't stand...",
+   "status": "done"
   },
   {
    "id": "R10:0CBC2",
@@ -240,7 +268,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ガキにひょろひょろオヤジ、\n幼児体型の女ときている。",
-   "en": ""
+   "en": "A brat, a scrawny old man,\nand a woman with the figure\nof a little girl.",
+   "status": "done"
   },
   {
    "id": "R10:0CC08",
@@ -248,7 +277,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nオ、オヤジぃぃぃぃぃっっっ！！！",
-   "en": ""
+   "en": "Aragoto:\nO-OLD MAAAAAN!!!",
+   "status": "done"
   },
   {
    "id": "R10:0CC44",
@@ -256,7 +286,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nよ、よ、幼児体型ぃぃぃぃっっっ！",
-   "en": ""
+   "en": "Sakuya:\nA-a-a LITTLE GIRL'S FIGURE!!!",
+   "status": "done"
   },
   {
    "id": "R10:0CC7E",
@@ -264,7 +295,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\nおい！",
-   "en": ""
+   "en": "Warulilith:\nHey!",
+   "status": "done"
   },
   {
    "id": "R10:0CCA2",
@@ -272,7 +304,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "こいつらを例のところに\nつれていけ！！",
-   "en": ""
+   "en": "Take them to\nyou-know-where!!",
+   "status": "done"
   },
   {
    "id": "R10:0CCDA",
@@ -280,7 +313,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nな、何をするんだ！？",
-   "en": ""
+   "en": "Wataru:\nH-hey! What are you doing?!",
+   "status": "done"
   },
   {
    "id": "R10:0CD0E",
@@ -288,7 +322,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nいったい何のつもりだ！",
-   "en": ""
+   "en": "Wataru:\nWhat's the big idea?!",
+   "status": "done"
   },
   {
    "id": "R10:0CD3E",
@@ -296,7 +331,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\nこの建物の中にいる以上、\nお前らにも",
-   "en": ""
+   "en": "Warulilith:\nAs long as you're in this\nbuilding, you too will...",
+   "status": "done"
   },
   {
    "id": "R10:0CD80",
@@ -304,7 +340,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オレ好みの体型になってもらう。",
-   "en": ""
+   "en": "...get bodies that\nsuit my taste.",
+   "status": "done"
   },
   {
    "id": "R10:0CDAE",
@@ -312,7 +349,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n何だって！？",
-   "en": ""
+   "en": "Wataru:\nWhat?!",
+   "status": "done"
   },
   {
    "id": "R10:0CDD4",
@@ -320,7 +358,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nオ、オヤジ・・・。",
-   "en": ""
+   "en": "Aragoto:\nO-old man...",
+   "status": "done"
   },
   {
    "id": "R10:0CE02",
@@ -328,7 +367,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nよ、幼児体型・・・。",
-   "en": ""
+   "en": "Sakuya:\nA little girl's figure...",
+   "status": "done"
   },
   {
    "id": "R10:0CE32",
@@ -336,7 +376,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nや、やめろ！\nこのオトコオンナぁ！",
-   "en": ""
+   "en": "Wataru:\nS-stop it!\nYou... man-woman!",
+   "status": "done"
   },
   {
    "id": "R10:0CE6E",
@@ -344,7 +385,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\nおとこで結構！\n漢と書いてオトコと読む！",
-   "en": ""
+   "en": "Warulilith:\nMan? Fine by me!\nThat's Man with a capital M!",
+   "status": "done"
   },
   {
    "id": "R10:0CEB4",
@@ -352,7 +394,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "オレにとっては、\n最高の誉（ほ）め言葉だ。",
-   "en": ""
+   "en": "To me, that's the highest\ncompliment there is.",
+   "status": "done"
   },
   {
    "id": "R10:0CEF0",
@@ -360,7 +403,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリリス：\nやれ！",
-   "en": ""
+   "en": "Warulilith:\nDo it!",
+   "status": "done"
   },
   {
    "id": "R10:0CF16",
@@ -368,7 +412,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルたち：\nうわぁ～っ！",
-   "en": ""
+   "en": "Wataru & co.:\nWaaaaah!",
+   "status": "done"
   },
   {
    "id": "R10:0CF58",
@@ -376,7 +421,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nむむ、これはちょうど良さそうな\nお湯だ。",
-   "en": ""
+   "en": "Aragoto:\nHmm! This water seems to be\njust the right temperature.",
+   "status": "done"
   },
   {
    "id": "R10:0CF9C",
@@ -384,7 +430,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ついつかって行きたくなるなぁ。",
-   "en": ""
+   "en": "I find myself tempted to\nstop for a soak.",
+   "status": "done"
   },
   {
    "id": "R10:0CFCA",
@@ -392,7 +439,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nだめよ！\n元のところに戻らなきゃ！！",
-   "en": ""
+   "en": "Sakuya:\nNo!\nWe must get back up there!!",
+   "status": "done"
   },
   {
    "id": "R10:0D008",
@@ -400,7 +448,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nう～ん、見れば見るほど\n入って行きたくなる。",
-   "en": ""
+   "en": "Aragoto:\nHmm... The more I look,\nthe more I long for a dip.",
+   "status": "done"
   },
   {
    "id": "R10:0D052",
@@ -408,7 +457,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n温泉に入ることより\n重要なことがあるじゃないか。",
-   "en": ""
+   "en": "Wataru:\nWe've got more important stuff\nto do than soak in a hot spring!",
+   "status": "done"
   },
   {
    "id": "R10:0D09C",
@@ -416,7 +466,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "今はダメだよ。",
-   "en": ""
+   "en": "We can't do that now.",
+   "status": "done"
   },
   {
    "id": "R10:0D0BC",
@@ -424,7 +475,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nワタル殿、\nちょっとだけ、な？",
-   "en": ""
+   "en": "Aragoto:\nWataru-dono,\njust a little dip, eh?",
+   "status": "done"
   },
   {
    "id": "R10:0D0F6",
@@ -432,7 +484,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nダメだって言ってるのに・・・。",
-   "en": ""
+   "en": "Wataru:\nI already said no...",
+   "status": "done"
   },
   {
    "id": "R10:0D12E",
@@ -440,7 +493,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nでも温泉は美容に\nいいって言うわよね・・・。",
-   "en": ""
+   "en": "Sakuya:\nBut they do say hot springs\nare good for one's beauty...",
+   "status": "done"
   },
   {
    "id": "R10:0D174",
@@ -448,7 +502,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそうそう、",
-   "en": ""
+   "en": "Aragoto:\nQuite so, quite so!",
+   "status": "done"
   },
   {
    "id": "R10:0D19A",
@@ -456,7 +511,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「喉元過ぎれば熱さ忘れる」\nと言うではないか。",
-   "en": ""
+   "en": "As they say, \"Once it's down\nthe throat, the heat is\nsoon forgotten.\"",
+   "status": "done"
   },
   {
    "id": "R10:0D1D8",
@@ -464,7 +520,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nちょっとちょっと２人とも！",
-   "en": ""
+   "en": "Wataru:\nHey, hey! You two!",
+   "status": "done"
   },
   {
    "id": "R10:0D20C",
@@ -472,7 +529,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ボク達には\nやらなきゃいけない事が\nあるじゃないか。",
-   "en": ""
+   "en": "We've got things\nwe need to do,\nremember?",
+   "status": "done"
   },
   {
    "id": "R10:0D252",
@@ -480,7 +538,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nせ、拙は、\nもうがまんならんでござるよ～。",
-   "en": ""
+   "en": "Aragoto:\nI-I can restrain myself\nno longeeer!",
+   "status": "done"
   },
   {
    "id": "R10:0D298",
@@ -488,7 +547,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n入っちゃおうか？",
-   "en": ""
+   "en": "Sakuya:\nShall we take a dip?",
+   "status": "done"
   },
   {
    "id": "R10:0D2C2",
@@ -496,7 +556,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nち、ちょっと２人ともー。\n・・・でも気持ちよさそうだなぁ。",
-   "en": ""
+   "en": "Wataru:\nH-hey, you two!\n...It does look pretty nice.",
+   "status": "done"
   },
   {
    "id": "R10:0D318",
@@ -504,7 +565,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R10:0D330",
@@ -512,7 +574,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R10:0D348",
@@ -520,7 +583,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R10:0D362",
@@ -528,7 +592,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリリス：\n一体何をしているんだお前達は！！",
-   "en": ""
+   "en": "Warulilith:\nWhat in the world do you\nthink you're doing?!!",
+   "status": "done"
   },
   {
    "id": "R10:0D3B8",
@@ -536,7 +601,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nあ～、\n【ワルリリス】ではないか・・・。",
-   "en": ""
+   "en": "Aragoto:\nAhhh...\nIf it isn't Warulilith...",
+   "status": "done"
   },
   {
    "id": "R10:0D3FC",
@@ -544,7 +610,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあ～、ほんとだ～。",
-   "en": ""
+   "en": "Wataru:\nOhhh, you're riiight...",
+   "status": "done"
   },
   {
    "id": "R10:0D428",
@@ -552,7 +619,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\n部下から報告を受けて\n様子を見に来てみれば、",
-   "en": ""
+   "en": "Warulilith:\nMy men reported back, so I\ncame to see for myself...",
+   "status": "done"
   },
   {
    "id": "R10:0D472",
@@ -560,7 +628,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ブクブクと太りおって・・・。",
-   "en": ""
+   "en": "And you've all gotten so fat...",
+   "status": "done"
   },
   {
    "id": "R10:0D49E",
@@ -568,7 +637,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "どうせ、温泉につかって\nそのままどうでも良くなって\nしまったのだろう！",
-   "en": ""
+   "en": "You soaked in the hot spring\nand stopped caring about\nanything else, didn't you?!",
+   "status": "done"
   },
   {
    "id": "R10:0D4F4",
@@ -576,7 +646,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルたち：\nギク！",
-   "en": ""
+   "en": "Wataru & co.:\nGulp!",
+   "status": "done"
   },
   {
    "id": "R10:0D518",
@@ -584,7 +655,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\n言い返せまい。",
-   "en": ""
+   "en": "Warulilith:\nNo comeback, eh?",
+   "status": "done"
   },
   {
    "id": "R10:0D544",
@@ -592,7 +664,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nうぐぐ・・・。",
-   "en": ""
+   "en": "Wataru:\nUrk...",
+   "status": "done"
   },
   {
    "id": "R10:0D56E",
@@ -600,7 +673,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n・・・クックック。",
-   "en": ""
+   "en": "Aragoto:\n...Heh heh heh.",
+   "status": "done"
   },
   {
    "id": "R10:0D59C",
@@ -608,7 +682,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「飛んで火に入る蝉の音」\nとはこの事よ。",
-   "en": ""
+   "en": "\"Like a moth to a frying pan!\"\nPrecisely what we have here.",
+   "status": "done"
   },
   {
    "id": "R10:0D5D4",
@@ -616,7 +691,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\n何！？",
-   "en": ""
+   "en": "Warulilith:\nWhat?!",
+   "status": "done"
   },
   {
    "id": "R10:0D5F8",
@@ -624,7 +700,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえ！？　まちがってない？",
-   "en": ""
+   "en": "Wataru:\nHuh?! Isn't that wrong?",
+   "status": "done"
   },
   {
    "id": "R10:0D62A",
@@ -632,7 +709,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nえ！？　・・・ことわざ。",
-   "en": ""
+   "en": "Sakuya:\nHm?! ...The proverb.",
+   "status": "done"
   },
   {
    "id": "R10:0D65E",
@@ -640,7 +718,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n拙達がわざわざ太ったのは、\nお主をおびきよせるため！",
-   "en": ""
+   "en": "Aragoto:\nWe grew fat on purpose,\nall to lure you here!",
+   "status": "done"
   },
   {
    "id": "R10:0D6AE",
@@ -648,7 +727,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お主は見事にひっかかって\nノコノコやって来た、\nと言うわけだ。",
-   "en": ""
+   "en": "And you fell for it completely,\nstrolling right into our trap.\nThat is what happened.",
+   "status": "done"
   },
   {
    "id": "R10:0D6FC",
@@ -656,7 +736,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそ、そうだったんだ！",
-   "en": ""
+   "en": "Wataru:\nO-oh, so that was it!",
+   "status": "done"
   },
   {
    "id": "R10:0D72A",
@@ -664,7 +745,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "でも、そのわりには\n温泉に嬉しそうに\n飛び込んだような・・・。",
-   "en": ""
+   "en": "But you sure looked happy\nwhen you jumped into\nthe hot spring...",
+   "status": "done"
   },
   {
    "id": "R10:0D778",
@@ -672,7 +754,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそのわりには、いち早く\n温泉に飛び込んでましたわ。",
-   "en": ""
+   "en": "Sakuya:\nYet you were the very first\nto jump into the hot spring.",
+   "status": "done"
   },
   {
    "id": "R10:0D7C4",
@@ -680,7 +763,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n「将を射んと欲すれば、\nまず味方から」と言うではないか。",
-   "en": ""
+   "en": "Aragoto:\n\"To shoot the general,\nfirst shoot your own men!\"",
+   "status": "done"
   },
   {
    "id": "R10:0D818",
@@ -688,7 +772,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれを言うなら「敵を欺（あざむ）\nくには、まず味方から」ですわ。",
-   "en": ""
+   "en": "Sakuya:\nYou mean, \"To fool the enemy,\nfirst fool your friends.\"",
+   "status": "done"
   },
   {
    "id": "R10:0D872",
@@ -696,7 +781,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "口からでまかせを\nおっしゃらないで下さい。",
-   "en": ""
+   "en": "Please stop saying whatever\npops into your head.",
+   "status": "done"
   },
   {
    "id": "R10:0D8AC",
@@ -704,7 +790,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\nで、おびき寄せて\nどうするつもりだったのだ？",
-   "en": ""
+   "en": "Warulilith:\nSo, what were you planning\nto do once you lured me here?",
+   "status": "done"
   },
   {
    "id": "R10:0D8F6",
@@ -712,7 +799,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nは？　え、いや、あの・・・。",
-   "en": ""
+   "en": "Aragoto:\nHm? Er, well, you see...",
+   "status": "done"
   },
   {
    "id": "R10:0D92E",
@@ -720,7 +808,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n・・・。",
-   "en": ""
+   "en": "Sakuya:\n...",
+   "status": "done"
   },
   {
    "id": "R10:0D950",
@@ -728,7 +817,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\n貴様の戯（ざ）れ言には\n付き合っておれん。",
-   "en": ""
+   "en": "Warulilith:\nI won't waste my time\non your drivel.",
+   "status": "done"
   },
   {
    "id": "R10:0D998",
@@ -736,7 +826,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "かかれ！",
-   "en": ""
+   "en": "Get them!",
+   "status": "done"
   },
   {
    "id": "R10:0D9BE",
@@ -744,7 +835,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\nくそっ、ブクブクと\n太っている割に敏捷だな。",
-   "en": ""
+   "en": "Warulilith:\nBlast! You're quick,\nconsidering how fat you are.",
+   "status": "done"
   },
   {
    "id": "R10:0DA08",
@@ -752,7 +844,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n「油断は人のためならず」\nでござるな。",
-   "en": ""
+   "en": "Aragoto:\n\"Carelessness begins at home,\"\nas they say.",
+   "status": "done"
   },
   {
    "id": "R10:0DA4A",
@@ -760,7 +853,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリリス：\nぬぅー。こうなれば・・・。\n【シェイプＵ２】よ！！",
-   "en": ""
+   "en": "Warulilith:\nGrrr! In that case...\nCome forth, Shape U2!!",
+   "status": "done"
   },
   {
    "id": "R10:0DAA6",
@@ -768,7 +862,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリリス：\n・・・どうやら、お前達を\n見くびっていたようだな。",
-   "en": ""
+   "en": "Warulilith:\n...It seems I\nunderestimated you.",
+   "status": "done"
   },
   {
    "id": "R10:0DAF6",
@@ -776,7 +871,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nさぁ、村の人達を解放するんだ！",
-   "en": ""
+   "en": "Wataru:\nNow let the villagers go!",
+   "status": "done"
   },
   {
    "id": "R10:0DB2E",
@@ -784,7 +880,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリリス：\nふ、ん・・・。\n次に会った時は覚えておくが良い。",
-   "en": ""
+   "en": "Warulilith:\nHmph...\nYou'll pay next time we meet!",
+   "status": "done"
   },
   {
    "id": "R10:0DB7E",
@@ -792,7 +889,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nまっ、まてっ！",
-   "en": ""
+   "en": "Wataru:\nH-hey, wait!",
+   "status": "done"
   },
   {
    "id": "R10:0DBAE",
@@ -800,7 +898,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\n【ワルリリス】の\n好みの体型でいることが",
-   "en": ""
+   "en": "Villager:\nHaving the kind of body\nWarulilith liked...",
+   "status": "done"
   },
   {
    "id": "R10:0DBEE",
@@ -808,7 +907,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "普通だと思っていましたが、\nそれってかなりおかしいですよね。",
-   "en": ""
+   "en": "I thought that was normal,\nbut it's actually pretty\nstrange, isn't it?",
+   "status": "done"
   },
   {
    "id": "R10:0DC3C",
@@ -816,7 +916,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nこれからは誰のためでもなく、\n自分のために",
-   "en": ""
+   "en": "Villager:\nFrom now on, I can do this\nfor myself, not anyone else.",
+   "status": "done"
   },
   {
    "id": "R10:0DC7E",
@@ -824,7 +925,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "楽しく体を鍛えることが\nできますよ。",
-   "en": ""
+   "en": "I can have fun\ngetting in shape!",
+   "status": "done"
   },
   {
    "id": "R10:0DCB2",
@@ -832,7 +934,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルさん、\nありがとうございました。",
-   "en": ""
+   "en": "Thank you very much,\nWataru-san.",
+   "status": "done"
   },
   {
    "id": "R10:0DCEA",
@@ -840,7 +943,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nあー、これで太る事を気にせず\nたくさんものをたべられるぞぉ！",
-   "en": ""
+   "en": "Villager:\nAhh! Now I can eat all I want\nwithout worrying I'll get fat!",
+   "status": "done"
   },
   {
    "id": "R10:0DD3E",
@@ -848,7 +952,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nワタルさん、【ワルリリス】を\n追い払ってくれたお礼です。",
-   "en": ""
+   "en": "Villager:\nWataru-san, this is for\ndriving Warulilith away.",
+   "status": "done"
   },
   {
    "id": "R10:0DD8E",
@@ -856,7 +961,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "受け取ってください。",
-   "en": ""
+   "en": "Please take it.",
+   "status": "done"
   },
   {
    "id": "R10:0DDB2",
@@ -864,7 +970,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "ライフルーツを手に入れた！",
-   "en": ""
+   "en": "Got Lifefruit!",
+   "status": "done"
   },
   {
    "id": "R10:0DDE6",
@@ -872,7 +979,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nやっぱり無理強いは良くないよね。",
-   "en": ""
+   "en": "Wataru:\nForcing people to do stuff\njust isn't right.",
+   "status": "done"
   },
   {
    "id": "R10:0DE20",
@@ -880,7 +988,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n・・・でも、",
-   "en": ""
+   "en": "Sakuya:\n...Still,",
+   "status": "done"
   },
   {
    "id": "R10:0DE46",
@@ -888,7 +997,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "どちらかっていうと\n楽しんでやってたような\n気がしますわぁ。",
-   "en": ""
+   "en": "I rather think they\nwere enjoying themselves,\nif anything.",
+   "status": "done"
   },
   {
    "id": "R10:0DE92",
@@ -896,7 +1006,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだね。",
-   "en": ""
+   "en": "Wataru:\nYeah.",
+   "status": "done"
   },
   {
    "id": "R10:0DEB6",
@@ -904,7 +1015,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "でもそれって\n何か変じゃないかな。",
-   "en": ""
+   "en": "But isn't there\nsomething weird about that?",
+   "status": "done"
   },
   {
    "id": "R10:0DEE8",
@@ -912,7 +1024,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nあの村の人たちは、\nみんなマッチョな女性が",
-   "en": ""
+   "en": "Aragoto:\nAs for those villagers,\nI suspect they all...",
+   "status": "done"
   },
   {
    "id": "R10:0DF2E",
@@ -920,7 +1033,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "好きだったんじゃないかと\n拙は思うのでござるが・・・？",
-   "en": ""
+   "en": "...had a fondness for\nmuscular women, perhaps?",
+   "status": "done"
   },
   {
    "id": "R10:0DF74",
@@ -928,7 +1042,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルとサクヤ：\n・・・。",
-   "en": ""
+   "en": "Wataru & Sakuya:\n...",
+   "status": "done"
   },
   {
    "id": "R10:10618",
@@ -936,7 +1051,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nむ！　にいちゃん達、\nレベル上げやってないな。",
-   "en": ""
+   "en": "Man:\nHm! You youngsters haven't\nbeen leveling up, have you?",
+   "status": "done"
   },
   {
    "id": "R10:10654",
@@ -944,7 +1060,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "これをやる！",
-   "en": ""
+   "en": "Here! Take this!",
+   "status": "done"
   },
   {
    "id": "R10:10662",
@@ -952,7 +1069,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【あがってマスク】を\n手に入れた！",
-   "en": ""
+   "en": "Got Mask Me Up!",
+   "status": "done"
   },
   {
    "id": "R10:10686",
@@ -960,7 +1078,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "さあ！\nバトルトレーニングルームで\nレベルを上げろ！",
-   "en": ""
+   "en": "Now! Get to the\nBattle Training Room\nand level up!",
+   "status": "done"
   },
   {
    "id": "R10:106BC",
@@ -968,7 +1087,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nここは、\nバトルトレーニングルームだ。",
-   "en": ""
+   "en": "Man:\nThis is the\nBattle Training Room.",
+   "status": "done"
   },
   {
    "id": "R10:106F0",
@@ -976,7 +1096,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n【アスレチック村】にようこそ。",
-   "en": ""
+   "en": "Young Man:\nWelcome to Athletic Village.",
+   "status": "done"
   },
   {
    "id": "R10:1071E",
@@ -984,7 +1105,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ここには、ルームランナー、\nルームサイクルなどの、",
-   "en": ""
+   "en": "We've got treadmills,\nexercise bikes...",
+   "status": "done"
   },
   {
    "id": "R10:10752",
@@ -992,7 +1114,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "トレーニングマシンが\nそろっているんだ。",
-   "en": ""
+   "en": "All sorts of exercise\nmachines are ready to use.",
+   "status": "done"
   },
   {
    "id": "R10:1077C",
@@ -1000,7 +1123,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nかるく、汗を流していってね。\n遊び感覚でやるといいかもね。",
-   "en": ""
+   "en": "Young Man:\nWork up a little sweat!\nTry treating it like a game.",
+   "status": "done"
   },
   {
    "id": "R10:107C8",
@@ -1008,7 +1132,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n【ワルリリス】さまの嫌いな体型を\nしていると、",
-   "en": ""
+   "en": "Young Woman:\nIf you've got a body that\nWarulilith-sama doesn't like...",
+   "status": "done"
   },
   {
    "id": "R10:10806",
@@ -1016,7 +1141,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ここに落とされるのよ。",
-   "en": ""
+   "en": "You get dropped down here.",
+   "status": "done"
   },
   {
    "id": "R10:10820",
@@ -1024,7 +1150,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nそこの穴から、たまに湯気が\n出てくるのよね。",
-   "en": ""
+   "en": "Young Woman:\nSteam sometimes comes out\nof that hole over there.",
+   "status": "done"
   },
   {
    "id": "R10:1085C",
@@ -1032,7 +1159,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "とっても、\nミステリアスなところへ\n通じちゃってるのかしら？",
-   "en": ""
+   "en": "I wonder if it leads\nsomewhere really\nmysterious?",
+   "status": "done"
   },
   {
    "id": "R10:1089C",
@@ -1040,7 +1168,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nホントは、私、しってるの。\nなんと！　そこの穴って・・・、",
-   "en": ""
+   "en": "Young Woman:\nActually, I know the secret.\nGuess what! That hole...",
+   "status": "done"
   },
   {
    "id": "R10:108E6",
@@ -1048,7 +1177,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "すごく、「きびしぃーっ！」って\nウワサのところに、通じて\nいるのよ。",
-   "en": ""
+   "en": "It leads to a place\nthat's supposed to be\n\"super striiiict!\"",
+   "status": "done"
   },
   {
    "id": "R10:1092C",
@@ -1056,7 +1186,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "こわいでしょ？",
-   "en": ""
+   "en": "Scary, huh?",
+   "status": "done"
   },
   {
    "id": "R10:1093C",
@@ -1064,7 +1195,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nふん！　ふん！！　ふんっ！！！",
-   "en": ""
+   "en": "Young Man:\nHuff! Huff!! HUFF!!!",
+   "status": "done"
   },
   {
    "id": "R10:1096A",
@@ -1072,7 +1204,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はな息アラくて、すまん！",
-   "en": ""
+   "en": "Sorry for all the snorting!",
+   "status": "done"
   },
   {
    "id": "R10:10984",
@@ -1080,7 +1213,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ふーんっっ！！！",
-   "en": ""
+   "en": "HUUUFF!!!",
+   "status": "done"
   },
   {
    "id": "R10:10998",
@@ -1088,7 +1222,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nボクは、今でこそこんなに\nしっかりした体になったけど、",
-   "en": ""
+   "en": "Young Man:\nI've got a sturdy body now,\nbut when I was little...",
+   "status": "done"
   },
   {
    "id": "R10:109DE",
@@ -1096,7 +1231,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "小さいころは、\n体の弱い子だったんだ。",
-   "en": ""
+   "en": "I was a weak,\nsickly kid.",
+   "status": "done"
   },
   {
    "id": "R10:10A08",
@@ -1104,7 +1240,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\nこれも、トレーニングと\n努力のたまものかな。",
-   "en": ""
+   "en": "Young Man:\nI guess all that training\nand hard work paid off.",
+   "status": "done"
   },
   {
    "id": "R10:10A44",
@@ -1112,7 +1249,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nイェーイ！　ワタシ、\nチョンマゲ、ダイスキネ～。",
-   "en": ""
+   "en": "Young Man:\nYaaay!\nI looove topknots!",
+   "status": "done"
   },
   {
    "id": "R10:10A84",
@@ -1120,7 +1258,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nワタシ、トオイクニデ\nボディビルダー、ヤッテマ～ス。",
-   "en": ""
+   "en": "Young Man:\nI am a bodybuilder\nfrom a faaaway country!",
+   "status": "done"
   },
   {
    "id": "R10:10AC8",
@@ -1128,7 +1267,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nアナタタチ、\nトレーニングシマスカ？",
-   "en": ""
+   "en": "Young Man:\nYou are here\nto train, yes?",
+   "status": "done"
   },
   {
    "id": "R10:10AFC",
@@ -1136,7 +1276,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワタシ、ガンバリマ～ス。",
-   "en": ""
+   "en": "I will do my beeest!",
+   "status": "done"
   },
   {
    "id": "R10:10B18",
@@ -1144,7 +1285,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nワタシ、トレーニング\nダイスキデース。",
-   "en": ""
+   "en": "Young Man:\nI looove\nworking out!",
+   "status": "done"
   },
   {
    "id": "R10:10B4E",
@@ -1152,7 +1294,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ウンドウスルコトハ、\nトテモ、トテモ、タノシイ\nデース。",
-   "en": ""
+   "en": "Exercise is very,\nvery muuuch fun!",
+   "status": "done"
   },
   {
    "id": "R10:10B88",
@@ -1160,7 +1303,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nオゥ、ボーイ！\nアカクナルコト、ナイネ。",
-   "en": ""
+   "en": "Young Woman:\nOh, boy!\nNo need to blush, yes?",
+   "status": "done"
   },
   {
    "id": "R10:10BC0",
@@ -1168,7 +1312,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "コノスタイル\nシタギジャ、ナイヨ。\nトレーニング・スタイルネ～。",
-   "en": ""
+   "en": "This outfit is\nnot underwear.\nIt is workout weaar!",
+   "status": "done"
   },
   {
    "id": "R10:10C04",
@@ -1176,7 +1321,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\nもんペットといっしょに\nトレーニングしようかなー。",
-   "en": ""
+   "en": "Young Woman:\nMaybe I'll work out\nwith my Monpet.",
+   "status": "done"
   },
   {
    "id": "R10:10C48",
@@ -1184,7 +1330,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nこの子達といっしょだったら、\nすごく楽しいだろうなー。",
-   "en": ""
+   "en": "Young Woman:\nIt'd be so much fun\nwith these little ones!",
+   "status": "done"
   },
   {
    "id": "R10:10C8E",
@@ -1192,7 +1339,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワクワクして来ちゃった。",
-   "en": ""
+   "en": "I'm getting excited already!",
+   "status": "done"
   },
   {
    "id": "R10:10CA8",
@@ -1200,7 +1348,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【ワルリリス】さまが、お年寄り\nを穴に落っことすんだけど、",
-   "en": ""
+   "en": "Young Woman:\nWarulilith-sama drops\nold people down the hole...",
+   "status": "done"
   },
   {
    "id": "R10:10CF2",
@@ -1208,7 +1357,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "みんなうれしそうでかなしそうな、\nフクザツなかおをしているのよね。\nなんかフシギ・・・？",
-   "en": ""
+   "en": "But they all look happy and sad\nat the same time.\nIsn't that strange...?",
+   "status": "done"
   },
   {
    "id": "R10:10D4C",
@@ -1216,7 +1366,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nバナナは、とっても体にいいんだ！",
-   "en": ""
+   "en": "Young Man:\nBananas are really\ngood for you!",
+   "status": "done"
   },
   {
    "id": "R10:10D7C",
@@ -1224,7 +1375,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そうそう、よくバナナは、\nおやつに入るんですか？\nとか言われるよね。",
-   "en": ""
+   "en": "Oh, right! People often ask,\n\"Do bananas count as snacks?\"\nYou hear that a lot.",
+   "status": "done"
   },
   {
    "id": "R10:10DC2",
@@ -1232,7 +1384,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そんな人に、言ってやりたい。",
-   "en": ""
+   "en": "Here's what I want\nto tell those people.",
+   "status": "done"
   },
   {
    "id": "R10:10DE0",
@@ -1240,7 +1393,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "バナナは果物なんじゃい！\n・・・てね。",
-   "en": ""
+   "en": "Bananas are FRUIT!\n...That's what.",
+   "status": "done"
   },
   {
    "id": "R10:10EBC",
@@ -1248,7 +1402,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nオレンジはビタミンＣがたくさん\nとれて、とっても体にいいんだ！",
-   "en": ""
+   "en": "Young Man:\nOranges have lots of vitamin C.\nThey're really good for you!",
+   "status": "done"
   },
   {
    "id": "R10:10F0A",
@@ -1256,7 +1411,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "もちろん、オレンジは\nおやつじゃないぞ。",
-   "en": ""
+   "en": "Of course, oranges\naren't snacks, either.",
+   "status": "done"
   },
   {
    "id": "R10:10F34",
@@ -1264,7 +1420,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "オレンジは果物なんじゃい！",
-   "en": ""
+   "en": "Oranges are FRUIT!",
+   "status": "done"
   },
   {
    "id": "R10:10F50",
@@ -1272,7 +1429,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ガッツさん：\nボーリングバトルも\nトレーニングと同じだ。",
-   "en": ""
+   "en": "Guts-san:\nBowling Battle is\njust like training.",
+   "status": "done"
   },
   {
    "id": "R10:10F8A",
@@ -1280,7 +1438,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "つづけなければ、\n誰かに差を付けられてしまう。\nま、そう言うことだ。",
-   "en": ""
+   "en": "If you don't keep at it,\nsomeone will get ahead of you.\nThat's how it goes.",
+   "status": "done"
   },
   {
    "id": "R10:10FD0",
@@ -1288,7 +1447,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nふっ、ふっ、はーっ。",
-   "en": ""
+   "en": "Young Woman:\nHuff, huff, haaah.",
+   "status": "done"
   },
   {
    "id": "R10:10FF4",
@@ -1296,7 +1456,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "何もしないで、スタイルが\nたもてると思ったら、大間違いよ。",
-   "en": ""
+   "en": "If you think you can keep your\nfigure without lifting a finger,\nyou've got it all wrong.",
+   "status": "done"
   },
   {
    "id": "R10:11030",
@@ -1304,7 +1465,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nふっ、ふっ、ふっ！",
-   "en": ""
+   "en": "Young Woman:\nHuff, huff, huff!",
+   "status": "done"
   },
   {
    "id": "R10:11052",
@@ -1312,7 +1474,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "きちんと、体を鍛えなきゃ、\n【ワルリリス】様に嫌われるわ。",
-   "en": ""
+   "en": "If I don't train properly,\nWarulilith-sama won't like me.",
+   "status": "done"
   },
   {
    "id": "R10:11090",
@@ -1320,7 +1483,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nふっ、ふっ、はーっ。",
-   "en": ""
+   "en": "Young Woman:\nHuff, huff, haaah.",
+   "status": "done"
   },
   {
    "id": "R10:110B4",
@@ -1328,7 +1492,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "やっぱり、\n人間、努力が必要よ！",
-   "en": ""
+   "en": "After all,\neveryone has to make an effort!",
+   "status": "done"
   },
   {
    "id": "R10:110D8",
@@ -1336,7 +1501,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n強くなりたいのならば、",
-   "en": ""
+   "en": "Young Woman:\nIf you want to get stronger...",
+   "status": "done"
   },
   {
    "id": "R10:110FE",
@@ -1344,7 +1510,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "バトルトレーニングルームに\n行きなさい。",
-   "en": ""
+   "en": "Go to the\nBattle Training Room.",
+   "status": "done"
   },
   {
    "id": "R10:11128",
@@ -1352,7 +1519,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nトレーニングでつかれたら、\nやすむ。",
-   "en": ""
+   "en": "Young Woman:\nWhen training wears you out,\nrest.",
+   "status": "done"
   },
   {
    "id": "R10:1115C",
@@ -1360,7 +1528,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nやすんでげんきになったら、\nトレーニング。",
-   "en": ""
+   "en": "Young Woman:\nWhen rest perks you up,\ntrain.",
+   "status": "done"
   },
   {
    "id": "R10:11198",
@@ -1368,7 +1537,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n【ワルリリス】様は、\n自分好みの体になっている",
-   "en": ""
+   "en": "Young Woman:\nIt seems Warulilith-sama\nis looking for...",
+   "status": "done"
   },
   {
    "id": "R10:111D6",
@@ -1376,7 +1546,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの方を\nもとめているらしいの。",
-   "en": ""
+   "en": "A man with just the kind\nof body she likes.",
+   "status": "done"
   },
   {
    "id": "R10:111FC",
@@ -1384,7 +1555,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n私も、そんなステキな\nおとこの方に",
-   "en": ""
+   "en": "Young Woman:\nI'd love to meet\nsuch a wonderful man...",
+   "status": "done"
   },
   {
    "id": "R10:1122E",
@@ -1392,7 +1564,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "お会いしたいですわ。",
-   "en": ""
+   "en": "Myself.",
+   "status": "done"
   },
   {
    "id": "R10:11244",
@@ -1400,7 +1573,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nあなた達も、【ワルリリス】様に\n気に入られる体を、作るコトね。",
-   "en": ""
+   "en": "Young Woman:\nYou should build bodies\nWarulilith-sama will like, too.",
+   "status": "done"
   },
   {
    "id": "R10:11294",
@@ -1408,7 +1582,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n【ワルリリス】さまって、嫌いな\n体型のヒトをここに落として、",
-   "en": ""
+   "en": "Young Woman:\nWarulilith-sama dumps people\nhere if she hates their shape.",
+   "status": "done"
   },
   {
    "id": "R10:112E0",
@@ -1416,7 +1591,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "いったいなにをしているのかしら？",
-   "en": ""
+   "en": "Just what is she up to?",
+   "status": "done"
   },
   {
    "id": "R10:11304",
@@ -1424,7 +1600,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nフロあがりの牛乳は\n最高ぉーっ！",
-   "en": ""
+   "en": "Man:\nMilk after a bath is\nthe beeest!",
+   "status": "done"
   },
   {
    "id": "R10:11334",
@@ -1432,7 +1609,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nフツフツと、ふき出す汗！",
-   "en": ""
+   "en": "Young Man:\nThe sweat just keeps\nbubbling up!",
+   "status": "done"
   },
   {
    "id": "R10:1135C",
@@ -1440,7 +1618,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そして・・・、\nダンダンと、ひからびていく\nオレ・・・。ふぅ・・・。",
-   "en": ""
+   "en": "And...\nI'm slowly shriveling up...\nWhew...",
+   "status": "done"
   },
   {
    "id": "R10:113A4",
@@ -1448,7 +1627,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n健康温泉ランド\nサウナがまん大会のチャンピオン。",
-   "en": ""
+   "en": "Man:\nHealth Spa Land's champion of\nthe sauna endurance contest...",
+   "status": "done"
   },
   {
    "id": "R10:113E2",
@@ -1456,7 +1636,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "それは・・・、おじさんだ！",
-   "en": ""
+   "en": "is... yours truly!",
+   "status": "done"
   },
   {
    "id": "R10:11400",
@@ -1464,7 +1645,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n大会レコードは、\nいまだに破られていないのだ！",
-   "en": ""
+   "en": "Man:\nMy contest record\nstill stands unbeaten!",
+   "status": "done"
   },
   {
    "id": "R10:1143C",
@@ -1472,7 +1654,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nチャンピオンは\n今日も、トレーニングだ！",
-   "en": ""
+   "en": "Man:\nThe champion's back\nfor another day of training!",
+   "status": "done"
   },
   {
    "id": "R10:11472",
@@ -1480,7 +1663,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おまえ達のような者と、\n勝負してみたいものだ。",
-   "en": ""
+   "en": "I'd love to test my mettle\nagainst the likes of you.",
+   "status": "done"
   },
   {
    "id": "R10:114A4",
@@ -1488,7 +1672,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\n露天のおフロって、\n結構、勇気がいるのよね。",
-   "en": ""
+   "en": "Young Woman:\nIt takes quite a bit of courage\nto bathe out in the open.",
+   "status": "done"
   },
   {
    "id": "R10:114E0",
@@ -1496,7 +1681,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nあら・・・。\nあなた達は、入らないの？",
-   "en": ""
+   "en": "Young Woman:\nOh...\nAren't you coming in?",
+   "status": "done"
   },
   {
    "id": "R10:11516",
@@ -1504,7 +1690,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "さあ、勇気を出して。",
-   "en": ""
+   "en": "Come on, be brave.",
+   "status": "done"
   },
   {
    "id": "R10:1152C",
@@ -1512,7 +1699,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばさん：\nセッケンで汚れを落として、\nおばさんは生まれ変わるのさ。",
-   "en": ""
+   "en": "Woman:\nI'll scrub away the dirt with\nsoap and be a whole new woman!",
+   "status": "done"
   },
   {
    "id": "R10:11574",
@@ -1520,7 +1708,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nなんか、このルームランナー\nおかしいみたい。",
-   "en": ""
+   "en": "Young Woman:\nSomething seems wrong\nwith this treadmill.",
+   "status": "done"
   },
   {
    "id": "R10:115B0",
@@ -1528,7 +1717,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "スピードメーターが、\n動かないの。",
-   "en": ""
+   "en": "The speedometer\nisn't moving.",
+   "status": "done"
   },
   {
    "id": "R10:115D4",
@@ -1536,7 +1726,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nはぁ、はぁ、はぁ・・・。",
-   "en": ""
+   "en": "Young Man:\nHuff, huff, huff...",
+   "status": "done"
   },
   {
    "id": "R10:115FC",
@@ -1544,7 +1735,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "体力を付けるには、\nルームランナーはもってこいだね。\nはぁ、はぁ、はぁ・・・。",
-   "en": ""
+   "en": "A treadmill's just the thing\nfor building up your stamina.\nHuff, huff, huff...",
+   "status": "done"
   },
   {
    "id": "R10:1164C",
@@ -1552,7 +1744,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nいい汗かいて健康的な生活。",
-   "en": ""
+   "en": "Young Man:\nWork up a good sweat\nand live a healthy life.",
+   "status": "done"
   },
   {
    "id": "R10:11676",
@@ -1560,7 +1753,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これこそが、【ワルリリス】様が、\nのぞむべきすがたなんだよ。",
-   "en": ""
+   "en": "That's just how\nWarulilith-sama wants us to be.",
+   "status": "done"
   },
   {
    "id": "R10:116B4",
@@ -1568,7 +1762,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nこのトレーニングマシーン、\nすっげー古いよ。",
-   "en": ""
+   "en": "Young Man:\nThis exercise machine\nis super old!",
+   "status": "done"
   },
   {
    "id": "R10:116F0",
@@ -1576,7 +1771,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あたらしいヤツに\nならないのかなー。",
-   "en": ""
+   "en": "I wonder if they'll ever\nget a new one.",
+   "status": "done"
   },
   {
    "id": "R10:11718",
@@ -1584,7 +1780,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nはぁ～あ、ぱんっ！",
-   "en": ""
+   "en": "Man:\nHaaaah... Clap!",
+   "status": "done"
   },
   {
    "id": "R10:11738",
@@ -1592,7 +1789,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nずっと、ここにいたいくらい\n素晴らしい温泉だろ。",
-   "en": ""
+   "en": "Young Man:\nSuch a wonderful hot spring,\nyou could stay forever, right?",
+   "status": "done"
   },
   {
    "id": "R10:11778",
@@ -1600,7 +1798,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "キミ達も、そう思っているに\n違いない。\nそうしといてくれ・・・。",
-   "en": ""
+   "en": "You must feel the same way.\nPlease just say you do...",
+   "status": "done"
   },
   {
    "id": "R10:117BC",
@@ -1608,7 +1807,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nそれにしても【ワルリリス】様は、\nああ見えても女なんだよ。",
-   "en": ""
+   "en": "Man:\nStill, despite appearances,\nWarulilith-sama is a woman.",
+   "status": "done"
   },
   {
    "id": "R10:11804",
@@ -1616,7 +1816,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "見た目はコワくておとこみたい\nだけど、ケッコー女らしくて\n良いところもあるんだよ。",
-   "en": ""
+   "en": "She looks scary and manly,\nbut she's pretty feminine\nand has her good points, too.",
+   "status": "done"
   },
   {
    "id": "R10:11858",
@@ -1624,7 +1825,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ちょっと・・・、\nいや、むちゃくちゃステキな\n女・・・かもなぁ・・・。",
-   "en": ""
+   "en": "She's a bit... no,\nan incredibly lovely woman...\nMaybe...",
+   "status": "done"
   },
   {
    "id": "R10:118A0",
@@ -1632,7 +1834,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nだからといって、エッチなことを\n考えちゃいかんぞ！",
-   "en": ""
+   "en": "Man:\nBut don't go getting\nany naughty ideas!",
+   "status": "done"
   },
   {
    "id": "R10:118E0",
@@ -1640,7 +1843,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nなぜなら・・・、",
-   "en": ""
+   "en": "Man:\nBecause...",
+   "status": "done"
   },
   {
    "id": "R10:118FE",
@@ -1648,7 +1852,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさんみたいに\nなっちゃうからね！",
-   "en": ""
+   "en": "you'll end up\njust like me!",
+   "status": "done"
   },
   {
    "id": "R10:11924",
@@ -1656,7 +1861,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nふ～・・・。\nちょっと、熱いかしらん・・・。",
-   "en": ""
+   "en": "Young Woman:\nWhew...\nA little hot, perhaps...",
+   "status": "done"
   },
   {
    "id": "R10:11960",
@@ -1664,7 +1870,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばさん：\nいや～ん、エッチぃ～ん。",
-   "en": ""
+   "en": "Woman:\nOooh, you perrrvert!",
+   "status": "done"
   },
   {
    "id": "R10:11988",
@@ -1672,7 +1879,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nおう！　にいちゃん達。\nレベル上げやってるか？",
-   "en": ""
+   "en": "Man:\nHey there, kids!\nBeen leveling up?",
+   "status": "done"
   },
   {
    "id": "R10:119C4",
@@ -1680,7 +1888,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ここが、\nバトルトレーニングルームだ。",
-   "en": ""
+   "en": "This is the\nbattle training room.",
+   "status": "done"
   }
  ]
 }

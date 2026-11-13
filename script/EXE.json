@@ -7,63 +7,72 @@
    "kind": "code",
    "end": "2000",
    "jp": "セーブおねえさん：\nイエーイ！\nわたし、セーブおねえさんよ。",
-   "en": ""
+   "en": "Save Lady:\nYeehaw!\nI'm the Save Lady!",
+   "status": "done"
   },
   {
    "id": "EXE:6AA4E",
    "kind": "next",
    "end": "2000",
    "jp": "見てよ、このウエスタンルック！\nいかにも、せ・い・ぶ！　って\n感じでしょ。",
-   "en": ""
+   "en": "Check out my Western getup!\nI'm the quickest save in the\nWest! Fits me to a T, huh?",
+   "status": "done"
   },
   {
    "id": "EXE:6AA9A",
    "kind": "next",
    "end": "2000",
    "jp": "ワタルくんたちがおとずれる、\n村やお城、洞窟などでゲームの\nデータをセーブできるわ。",
-   "en": ""
+   "en": "Save your game in villages,\ncastles, caves and wherever you\nand your pals go, Wataru-kun.",
+   "status": "done"
   },
   {
    "id": "EXE:6AAF0",
    "kind": "next",
    "end": "2000",
    "jp": "わたしを見かけたら、いつでも\nこえをかけてね。\nセーブするのかどうかを聞くわ。",
-   "en": ""
+   "en": "Whenever you see me, say hi!\nI'll ask whether you want\nto save your game.",
+   "status": "done"
   },
   {
    "id": "EXE:6AB40",
    "kind": "next",
    "end": "2000",
    "jp": "おのぞみなら、\nセーブしてあげるわね。",
-   "en": ""
+   "en": "If you'd like,\nI'll save it for you!",
+   "status": "done"
   },
   {
    "id": "EXE:6AB68",
    "kind": "next",
    "end": "2000",
    "jp": "セーブがめんで、セーブする\nファイルを方向キーで選び、\n○ボタンで決定するだけよ。",
-   "en": ""
+   "en": "On the save screen, use the\nD-pad to choose a file to save,\nthen press Circle to confirm.",
+   "status": "done"
   },
   {
    "id": "EXE:6ABBC",
    "kind": "next",
    "end": "3000",
    "jp": "メモリーカードをわすれずにね。",
-   "en": ""
+   "en": "Don't forget your Memory Card!",
+   "status": "done"
   },
   {
    "id": "EXE:6ABDC",
    "kind": "next",
    "end": "2000",
    "jp": "セーブおねえさん：\nイエーイ！",
-   "en": ""
+   "en": "Save Lady:\nYeehaw!",
+   "status": "done"
   },
   {
    "id": "EXE:6ABFC",
    "kind": "next",
    "end": "4000",
    "jp": "セーブしていく？\n　　　　　　　　はい\n　　　　　　　　いいえ",
-   "en": ""
+   "en": "Want to save before you go?\n                Yes\n                No",
+   "status": "done"
   },
   {
    "id": "EXE:6AC3C",
@@ -77,1576 +86,1801 @@
    "kind": "next",
    "end": "8000",
    "jp": "セーブおねえさん：\nセーブスタート！！",
-   "en": ""
+   "en": "Save Lady:\nLet's get saving!!",
+   "status": "done"
   },
   {
    "id": "EXE:6AC6A",
    "kind": "next",
    "end": "3000",
    "jp": "セーブおねえさん：\nそう・・・。\nあんまりムリをしないでね。",
-   "en": ""
+   "en": "Save Lady:\nAll right...\nDon't push yourself too hard.",
+   "status": "done"
   },
   {
    "id": "EXE:77A84",
    "kind": "ptr",
    "end": "3000",
    "jp": "いらっしゃいませ。",
-   "en": ""
+   "en": "Welcome!",
+   "status": "done"
   },
   {
    "id": "EXE:77A98",
    "kind": "next",
    "end": "2000",
    "jp": "いらっしゃいませ。",
-   "en": ""
+   "en": "Welcome!",
+   "status": "done"
   },
   {
    "id": "EXE:77AAC",
    "kind": "next",
    "end": "5000",
    "jp": "せいさんします。",
-   "en": ""
+   "en": "I'll ring that up.",
+   "status": "done"
   },
   {
    "id": "EXE:77AC0",
    "kind": "ptr",
    "end": "2000",
    "jp": "いらっしゃいませ",
-   "en": ""
+   "en": "Welcome!",
+   "status": "done"
   },
   {
    "id": "EXE:77AD2",
    "kind": "next",
    "end": "4000",
    "jp": "もんペットのなまえをかえますか？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Change your Monpet's name?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "EXE:77B0E",
    "kind": "next",
    "end": "4000",
    "jp": "もんペットをすてますか？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Release your Monpet?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "EXE:77B44",
    "kind": "next",
    "end": "3000",
    "jp": "いらっしゃーい・・・。\n買えるものがあるなら、買って\nいっておくれ。",
-   "en": ""
+   "en": "Well, hello there...\nIf there's anything you can\nbuy, do buy it, won't you?",
+   "status": "done"
   },
   {
    "id": "EXE:77C20",
    "kind": "menu",
    "jp": "おきゃくさん、ちょっと。",
-   "en": "",
-   "end": "1000"
+   "en": "A moment, please, customer.",
+   "end": "1000",
+   "status": "done"
   },
   {
    "id": "EXE:77C3A",
    "kind": "menu",
    "jp": "１．もどる",
-   "en": "",
-   "end": "1000"
+   "en": "1. Go back",
+   "end": "1000",
+   "status": "done"
   },
   {
    "id": "EXE:77C46",
    "kind": "menu",
    "jp": "２．でる",
-   "en": "",
-   "end": "4000"
+   "en": "2. Leave",
+   "end": "4000",
+   "status": "done"
   },
   {
    "id": "EXE:79EC0",
    "kind": "code",
    "end": "4000",
    "jp": "おとまりになりますか？\n１．うん、ねよーねよー\n２．まだ、眠くないなぁ",
-   "en": ""
+   "en": "Will you be staying the night?\n1. Yeah! Let's hit the hay!\n2. I'm not sleepy yet.",
+   "status": "done"
   },
   {
    "id": "EXE:7A4DC",
    "kind": "ptr",
    "end": "3000",
    "jp": "宝箱は空っぽだ。　　　　　　　　",
-   "en": ""
+   "en": "The treasure chest is empty.",
+   "status": "done"
   },
   {
    "id": "EXE:7A500",
    "kind": "menu",
    "jp": "宝箱を開けた！",
-   "en": "",
+   "en": "Opened the treasure chest!",
    "tail": 9,
-   "end": "3000"
+   "end": "3000",
+   "status": "done"
   },
   {
    "id": "EXE:7A524",
    "kind": "ptr",
    "end": "3000",
    "jp": "もんペットボトルをひろった！　　",
-   "en": ""
+   "en": "Picked up a Monpet Bottle!",
+   "status": "done"
   },
   {
    "id": "EXE:7A578",
    "kind": "ptr",
    "end": "3000",
    "jp": "ウレピアスを手に入れた！",
-   "en": ""
+   "en": "Got Chearrings!",
+   "status": "done"
   },
   {
    "id": "EXE:7A594",
    "kind": "ptr",
    "end": "3000",
    "jp": "ハッピアスを手に入れた！",
-   "en": ""
+   "en": "Got Happiercings!",
+   "status": "done"
   },
   {
    "id": "EXE:7A5B0",
    "kind": "ptr",
    "end": "3000",
    "jp": "ユートピアスを手に入れた！",
-   "en": ""
+   "en": "Got Utopiercings!",
+   "status": "done"
   },
   {
    "id": "EXE:7A5CC",
    "kind": "next",
    "end": "3000",
    "jp": "ナナヒカリングを手に入れた！",
-   "en": ""
+   "en": "Got a Nepotiring!",
+   "status": "done"
   },
   {
    "id": "EXE:7A5EC",
    "kind": "ptr",
    "end": "3000",
    "jp": "トリプルアームを手に入れた！",
-   "en": ""
+   "en": "Got a Triple Arm!",
+   "status": "done"
   },
   {
    "id": "EXE:7A60C",
    "kind": "ptr",
    "end": "3000",
    "jp": "プロテクトバンドを手に入れた！",
-   "en": ""
+   "en": "Got a Protect Band!",
+   "status": "done"
   },
   {
    "id": "EXE:7A62C",
    "kind": "next",
    "end": "3000",
    "jp": "勇気のマントを手に入れた！",
-   "en": ""
+   "en": "Got a Courage Cape!",
+   "status": "done"
   },
   {
    "id": "EXE:7A648",
    "kind": "next",
    "end": "3000",
    "jp": "ケッセイリングを手に入れた！",
-   "en": ""
+   "en": "Got a Serum Ring!",
+   "status": "done"
   },
   {
    "id": "EXE:7A668",
    "kind": "ptr",
    "end": "3000",
    "jp": "ユメミヌリングを手に入れた！",
-   "en": ""
+   "en": "Got a Dreamless Ring!",
+   "status": "done"
   },
   {
    "id": "EXE:7A688",
    "kind": "ptr",
    "end": "3000",
    "jp": "ストーンリングを手に入れた！",
-   "en": ""
+   "en": "Got a Stone Ring!",
+   "status": "done"
   },
   {
    "id": "EXE:7A6A8",
    "kind": "ptr",
    "end": "3000",
    "jp": "ショックリングを手に入れた！",
-   "en": ""
+   "en": "Got a Shock Ring!",
+   "status": "done"
   },
   {
    "id": "EXE:7A6C8",
    "kind": "ptr",
    "end": "3000",
    "jp": "チンセイリングを手に入れた！",
-   "en": ""
+   "en": "Got a Calming Ring!",
+   "status": "done"
   },
   {
    "id": "EXE:7A6E8",
    "kind": "ptr",
    "end": "3000",
    "jp": "ライフリングを手に入れた！",
-   "en": ""
+   "en": "Got a Life Ring!",
+   "status": "done"
   },
   {
    "id": "EXE:7A704",
    "kind": "next",
    "end": "3000",
    "jp": "マジックリングを手に入れた！",
-   "en": ""
+   "en": "Got a Magic Ring!",
+   "status": "done"
   },
   {
    "id": "EXE:7A724",
    "kind": "ptr",
    "end": "3000",
    "jp": "リンリングを手に入れた！",
-   "en": ""
+   "en": "Got a Rin Ring!",
+   "status": "done"
   },
   {
    "id": "EXE:7A740",
    "kind": "ptr",
    "end": "3000",
    "jp": "リンリンリングを手に入れた！",
-   "en": ""
+   "en": "Got a Rin-Rin Ring!",
+   "status": "done"
   },
   {
    "id": "EXE:7A760",
    "kind": "ptr",
    "end": "3000",
    "jp": "スタコラマントを手に入れた！",
-   "en": ""
+   "en": "Got a Cape Escape!",
+   "status": "done"
   },
   {
    "id": "EXE:7A780",
    "kind": "ptr",
    "end": "3000",
    "jp": "ダンボルギーニを手に入れた！",
-   "en": ""
+   "en": "Got a Cardborghini!",
+   "status": "done"
   },
   {
    "id": "EXE:7A7A0",
    "kind": "ptr",
    "end": "3000",
    "jp": "きせきの星を手に入れた！",
-   "en": ""
+   "en": "Got a Miracle Star!",
+   "status": "done"
   },
   {
    "id": "EXE:7A7BC",
    "kind": "ptr",
    "end": "3000",
    "jp": "経験チップを手に入れた！",
-   "en": ""
+   "en": "Got an Experience Chip!",
+   "status": "done"
   },
   {
    "id": "EXE:7A7D8",
    "kind": "ptr",
    "end": "3000",
    "jp": "ガマグチョキンを手に入れた！",
-   "en": ""
+   "en": "Got a Purseverance!",
+   "status": "done"
   },
   {
    "id": "EXE:7A7F8",
    "kind": "ptr",
    "end": "3000",
    "jp": "タフネストーンを手に入れた！",
-   "en": ""
+   "en": "Got a Toughnestone!",
+   "status": "done"
   },
   {
    "id": "EXE:7A818",
    "kind": "ptr",
    "end": "3000",
    "jp": "パワーマフラーを手に入れた！",
-   "en": ""
+   "en": "Got a Power Scarf!",
+   "status": "done"
   },
   {
    "id": "EXE:7A838",
    "kind": "ptr",
    "end": "3000",
    "jp": "パワードマフラーを手に入れた！",
-   "en": ""
+   "en": "Got a Powered Scarf!",
+   "status": "done"
   },
   {
    "id": "EXE:7A858",
    "kind": "next",
    "end": "3000",
    "jp": "ホムライフルを手に入れた！",
-   "en": ""
+   "en": "Got a Flarifle!",
+   "status": "done"
   },
   {
    "id": "EXE:7A874",
    "kind": "next",
    "end": "3000",
    "jp": "ヒョウガトリングを手に入れた！",
-   "en": ""
+   "en": "Got a Glaciatling!",
+   "status": "done"
   },
   {
    "id": "EXE:7A894",
    "kind": "next",
    "end": "3000",
    "jp": "イカヅチェーンを手に入れた！",
-   "en": ""
+   "en": "Got a Thundchain!",
+   "status": "done"
   },
   {
    "id": "EXE:7A8B4",
    "kind": "ptr",
    "end": "3000",
    "jp": "神がみのさばきを手に入れた！",
-   "en": ""
+   "en": "Got Judgment of the Gods!",
+   "status": "done"
   },
   {
    "id": "EXE:7A8D4",
    "kind": "ptr",
    "end": "3000",
    "jp": "ムジンとうを手に入れた！",
-   "en": ""
+   "en": "Got a Deserted Islesword!",
+   "status": "done"
   },
   {
    "id": "EXE:7A8F0",
    "kind": "ptr",
    "end": "3000",
    "jp": "まるひファイルを手に入れた！",
-   "en": ""
+   "en": "Got a Hush File!",
+   "status": "done"
   },
   {
    "id": "EXE:7A910",
    "kind": "ptr",
    "end": "3000",
    "jp": "ヌケガケロッドを手に入れた！",
-   "en": ""
+   "en": "Got a Headstartod!",
+   "status": "done"
   },
   {
    "id": "EXE:7A930",
    "kind": "ptr",
    "end": "3000",
    "jp": "フライングロッドを手に入れた！",
-   "en": ""
+   "en": "Got a Flyaheadrod!",
+   "status": "done"
   },
   {
    "id": "EXE:7A950",
    "kind": "next",
    "end": "3000",
    "jp": "キカンデスタイを手に入れた！",
-   "en": ""
+   "en": "Got an Immuni-Tie!",
+   "status": "done"
   },
   {
    "id": "EXE:7A970",
    "kind": "ptr",
    "end": "3000",
    "jp": "勇気のあかしを手に入れた！",
-   "en": ""
+   "en": "Got a Token of Courage!",
+   "status": "done"
   },
   {
    "id": "EXE:7A98C",
    "kind": "next",
    "end": "3000",
    "jp": "マジックリスタルを手に入れた！",
-   "en": ""
+   "en": "Got a Magicrystal!",
+   "status": "done"
   },
   {
    "id": "EXE:7A9AC",
    "kind": "next",
    "end": "3000",
    "jp": "龍神水を手に入れた！",
-   "en": ""
+   "en": "Got Dragon God Water!",
+   "status": "done"
   },
   {
    "id": "EXE:7A9C4",
    "kind": "ptr",
    "end": "3000",
    "jp": "オタスケボーを手に入れた！",
-   "en": ""
+   "en": "Got a Skate Aid!",
+   "status": "done"
   },
   {
    "id": "EXE:7A9E0",
    "kind": "next",
    "end": "3000",
    "jp": "アタリマセンサーを手に入れた！",
-   "en": ""
+   "en": "Got a Missensor!",
+   "status": "done"
   },
   {
    "id": "EXE:7AA00",
    "kind": "next",
    "end": "3000",
    "jp": "マッスルストーンを手に入れた！",
-   "en": ""
+   "en": "Got a MuscleStone!",
+   "status": "done"
   },
   {
    "id": "EXE:7AA20",
    "kind": "next",
    "end": "3000",
    "jp": "スーパーストーンを手に入れた！",
-   "en": ""
+   "en": "Got a Super Stone!",
+   "status": "done"
   },
   {
    "id": "EXE:7AA40",
    "kind": "next",
    "end": "3000",
    "jp": "ガードストーンを手に入れた！",
-   "en": ""
+   "en": "Got a Guard Stone!",
+   "status": "done"
   },
   {
    "id": "EXE:7AA60",
    "kind": "ptr",
    "end": "3000",
    "jp": "バリアストーンを手に入れた！",
-   "en": ""
+   "en": "Got a Ward Stone!",
+   "status": "done"
   },
   {
    "id": "EXE:7AA80",
    "kind": "ptr",
    "end": "3000",
    "jp": "シーフストーンを手に入れた！",
-   "en": ""
+   "en": "Got a Thief Stone!",
+   "status": "done"
   },
   {
    "id": "EXE:7AAA0",
    "kind": "ptr",
    "end": "3000",
    "jp": "マジックーポンを手に入れた！",
-   "en": ""
+   "en": "Got a Magicoupon!",
+   "status": "done"
   },
   {
    "id": "EXE:7AAC0",
    "kind": "ptr",
    "end": "3000",
    "jp": "リンリンマックスを手に入れた！",
-   "en": ""
+   "en": "Got a Rin-Rin Max!",
+   "status": "done"
   },
   {
    "id": "EXE:7AAE0",
    "kind": "next",
    "end": "3000",
    "jp": "デルデルーレットを手に入れた！",
-   "en": ""
+   "en": "Got an Outroulette!",
+   "status": "done"
   },
   {
    "id": "EXE:7AB00",
    "kind": "next",
    "end": "3000",
    "jp": "カワセンスを手に入れた！",
-   "en": ""
+   "en": "Got an Evasifan!",
+   "status": "done"
   },
   {
    "id": "EXE:7AB1C",
    "kind": "ptr",
    "end": "3000",
    "jp": "ストップランを手に入れた！",
-   "en": ""
+   "en": "Got a Stoprun!",
+   "status": "done"
   },
   {
    "id": "EXE:7AB38",
    "kind": "next",
    "end": "3000",
    "jp": "ポロロチョコを手に入れた！",
-   "en": ""
+   "en": "Got Chocororo!",
+   "status": "done"
   },
   {
    "id": "EXE:7AB54",
    "kind": "next",
    "end": "3000",
    "jp": "ベジタリキュウリを手に入れた！",
-   "en": ""
+   "en": "Got a Veggiecuke!",
+   "status": "done"
   },
   {
    "id": "EXE:7AB74",
    "kind": "next",
    "end": "3000",
    "jp": "デリシャスナックを手に入れた！",
-   "en": ""
+   "en": "Got a Delicisnack!",
+   "status": "done"
   },
   {
    "id": "EXE:7AB94",
    "kind": "next",
    "end": "3000",
    "jp": "マジカルポテトを手に入れた！",
-   "en": ""
+   "en": "Got a Magipotato!",
+   "status": "done"
   },
   {
    "id": "EXE:7ABB4",
    "kind": "ptr",
    "end": "3000",
    "jp": "マジカルバーガーを手に入れた！",
-   "en": ""
+   "en": "Got a Magiburger!",
+   "status": "done"
   },
   {
    "id": "EXE:7ABD4",
    "kind": "next",
    "end": "3000",
    "jp": "エリックソウを手に入れた！",
-   "en": ""
+   "en": "Got Elixirweed!",
+   "status": "done"
   },
   {
    "id": "EXE:7ABF0",
    "kind": "next",
    "end": "3000",
    "jp": "ヘルプミを手に入れた！",
-   "en": ""
+   "en": "Got a Helpme!",
+   "status": "done"
   },
   {
    "id": "EXE:7AC08",
    "kind": "next",
    "end": "3000",
    "jp": "ハイヘルプミを手に入れた！",
-   "en": ""
+   "en": "Got a HiHelpme!",
+   "status": "done"
   },
   {
    "id": "EXE:7AC24",
    "kind": "next",
    "end": "3000",
    "jp": "マジカルシェイクを手に入れた！",
-   "en": ""
+   "en": "Got a Magishake!",
+   "status": "done"
   },
   {
    "id": "EXE:7AC44",
    "kind": "next",
    "end": "3000",
    "jp": "おとまりセットを手に入れた！",
-   "en": ""
+   "en": "Got a StayoverSet!",
+   "status": "done"
   },
   {
    "id": "EXE:7AC64",
    "kind": "ptr",
    "end": "3000",
    "jp": "ジョキンバコを手に入れた！",
-   "en": ""
+   "en": "Got a Sterilibox!",
+   "status": "done"
   },
   {
    "id": "EXE:7AC80",
    "kind": "next",
    "end": "3000",
    "jp": "モーニングローブを手に入れた！",
-   "en": ""
+   "en": "Got a Morningrobe!",
+   "status": "done"
   },
   {
    "id": "EXE:7ACA0",
    "kind": "next",
    "end": "3000",
    "jp": "ピコパリハンマーを手に入れた！",
-   "en": ""
+   "en": "Got a Bonkhammer!",
+   "status": "done"
   },
   {
    "id": "EXE:7ACC0",
    "kind": "next",
    "end": "3000",
    "jp": "マヒナジュエルを手に入れた！",
-   "en": ""
+   "en": "Got a Paralyjewel!",
+   "status": "done"
   },
   {
    "id": "EXE:7ACE0",
    "kind": "ptr",
    "end": "3000",
    "jp": "ゴロニャンハンドを手に入れた！",
-   "en": ""
+   "en": "Got a Purr Paw!",
+   "status": "done"
   },
   {
    "id": "EXE:7AD00",
    "kind": "next",
    "end": "3000",
    "jp": "フレッシュポーチを手に入れた！",
-   "en": ""
+   "en": "Got a Fresh Pouch!",
+   "status": "done"
   },
   {
    "id": "EXE:7AD20",
    "kind": "next",
    "end": "3000",
    "jp": "あがってマスクを手に入れた！",
-   "en": ""
+   "en": "Got a Mask Me Up!",
+   "status": "done"
   },
   {
    "id": "EXE:7AD40",
    "kind": "ptr",
    "end": "3000",
    "jp": "ガッツまようじを手に入れた！",
-   "en": ""
+   "en": "Got a Gutsy Toothpick!",
+   "status": "done"
   },
   {
    "id": "EXE:7AD60",
    "kind": "ptr",
    "end": "3000",
    "jp": "どこんジョウロを手に入れた！",
-   "en": ""
+   "en": "Got a Gutsprinkler!",
+   "status": "done"
   },
   {
    "id": "EXE:7AD80",
    "kind": "ptr",
    "end": "3000",
    "jp": "ゆるしてチョークを手に入れた！",
-   "en": ""
+   "en": "Got Chalk It Up!",
+   "status": "done"
   },
   {
    "id": "EXE:7ADA0",
    "kind": "next",
    "end": "3000",
    "jp": "ナカヨシンジュを手に入れた！",
-   "en": ""
+   "en": "Got Pearlmates!",
+   "status": "done"
   },
   {
    "id": "EXE:7ADC0",
    "kind": "ptr",
    "end": "3000",
    "jp": "宝アルカネを手に入れた！",
-   "en": ""
+   "en": "Got Loot 'n' Behold!",
+   "status": "done"
   },
   {
    "id": "EXE:7ADDC",
    "kind": "ptr",
    "end": "3000",
    "jp": "サクヤしんしょを手に入れた！",
-   "en": ""
+   "en": "Got Sakuya's Secret Scroll!",
+   "status": "done"
   },
   {
    "id": "EXE:7ADFC",
    "kind": "ptr",
    "end": "3000",
    "jp": "ヒミコミックを手に入れた！",
-   "en": ""
+   "en": "Got Himikomix!",
+   "status": "done"
   },
   {
    "id": "EXE:7AE18",
    "kind": "next",
    "end": "3000",
    "jp": "ドーピングミを手に入れた！",
-   "en": ""
+   "en": "Got a Dopingummy!",
+   "status": "done"
   },
   {
    "id": "EXE:7AE34",
    "kind": "next",
    "end": "3000",
    "jp": "ガードロップを手に入れた！",
-   "en": ""
+   "en": "Got a Guardrop!",
+   "status": "done"
   },
   {
    "id": "EXE:7AE50",
    "kind": "next",
    "end": "3000",
    "jp": "テツジンタンを手に入れた！",
-   "en": ""
+   "en": "Got an Ironmint!",
+   "status": "done"
   },
   {
    "id": "EXE:7AE6C",
    "kind": "next",
    "end": "3000",
    "jp": "ハヤテインを手に入れた！",
-   "en": ""
+   "en": "Got a Swiftamine!",
+   "status": "done"
   },
   {
    "id": "EXE:7AE88",
    "kind": "ptr",
    "end": "3000",
    "jp": "勇気のミを手に入れた！",
-   "en": ""
+   "en": "Got a Courage Nut!",
+   "status": "done"
   },
   {
    "id": "EXE:7AEA0",
    "kind": "next",
    "end": "3000",
    "jp": "ライフルーツを手に入れた！",
-   "en": ""
+   "en": "Got a Lifefruit!",
+   "status": "done"
   },
   {
    "id": "EXE:7AEBC",
    "kind": "next",
    "end": "3000",
    "jp": "マジカリンゴを手に入れた！",
-   "en": ""
+   "en": "Got a Magicapple!",
+   "status": "done"
   },
   {
    "id": "EXE:7AED8",
    "kind": "next",
    "end": "3000",
    "jp": "ティンクを手に入れた！",
-   "en": ""
+   "en": "Got Tink!",
+   "status": "done"
   },
   {
    "id": "EXE:7AEF0",
    "kind": "next",
    "end": "3000",
    "jp": "キメルを手に入れた！",
-   "en": ""
+   "en": "Got Chimer!",
+   "status": "done"
   },
   {
    "id": "EXE:7AF08",
    "kind": "ptr",
    "end": "3000",
    "jp": "ギルバックを手に入れた！",
-   "en": ""
+   "en": "Got Gillback!",
+   "status": "done"
   },
   {
    "id": "EXE:7AF24",
    "kind": "ptr",
    "end": "3000",
    "jp": "ファイヤードを手に入れた！",
-   "en": ""
+   "en": "Got Firebird!",
+   "status": "done"
   },
   {
    "id": "EXE:7AF40",
    "kind": "next",
    "end": "3000",
    "jp": "ヘイルを手に入れた！",
-   "en": ""
+   "en": "Got Hail!",
+   "status": "done"
   },
   {
    "id": "EXE:7AF58",
    "kind": "ptr",
    "end": "3000",
    "jp": "ワオドーベルを手に入れた！",
-   "en": ""
+   "en": "Got Wowberman!",
+   "status": "done"
   },
   {
    "id": "EXE:7AF74",
    "kind": "next",
    "end": "3000",
    "jp": "タマプーを手に入れた！",
-   "en": ""
+   "en": "Got Tadpuff!",
+   "status": "done"
   },
   {
    "id": "EXE:7AF8C",
    "kind": "next",
    "end": "3000",
    "jp": "モルを手に入れた！",
-   "en": ""
+   "en": "Got Mole!",
+   "status": "done"
   },
   {
    "id": "EXE:7AFA0",
    "kind": "next",
    "end": "3000",
    "jp": "ベビルを手に入れた！",
-   "en": ""
+   "en": "Got Babevil!",
+   "status": "done"
   },
   {
    "id": "EXE:7AFB8",
    "kind": "ptr",
    "end": "3000",
    "jp": "ケロプーを手に入れた！",
-   "en": ""
+   "en": "Got Croakpuff!",
+   "status": "done"
   },
   {
    "id": "EXE:7AFD0",
    "kind": "next",
    "end": "3000",
    "jp": "ワオバーナルを手に入れた！",
-   "en": ""
+   "en": "Got Wowbernard!",
+   "status": "done"
   },
   {
    "id": "EXE:7AFEC",
    "kind": "next",
    "end": "3000",
    "jp": "トノケロを手に入れた！",
-   "en": ""
+   "en": "Got Lord Croak!",
+   "status": "done"
   },
   {
    "id": "EXE:7B004",
    "kind": "next",
    "end": "3000",
    "jp": "キララを手に入れた！",
-   "en": ""
+   "en": "Got Sparkle!",
+   "status": "done"
   },
   {
    "id": "EXE:7B01C",
    "kind": "ptr",
    "end": "3000",
    "jp": "キンケロを手に入れた！",
-   "en": ""
+   "en": "Got Gold Croak!",
+   "status": "done"
   },
   {
    "id": "EXE:7B034",
    "kind": "next",
    "end": "3000",
    "jp": "キングトノプを手に入れた！",
-   "en": ""
+   "en": "Got King Croakpuff!",
+   "status": "done"
   },
   {
    "id": "EXE:7B050",
    "kind": "next",
    "end": "3000",
    "jp": "１５００ガンボを手に入れた！",
-   "en": ""
+   "en": "Got 1500 Ganbo!",
+   "status": "done"
   },
   {
    "id": "EXE:7B070",
    "kind": "ptr",
    "end": "3000",
    "jp": "２０００ガンボを手に入れた！",
-   "en": ""
+   "en": "Got 2000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "EXE:7B090",
    "kind": "ptr",
    "end": "3000",
    "jp": "３０００ガンボを手に入れた！",
-   "en": ""
+   "en": "Got 3000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "EXE:7B0B0",
    "kind": "ptr",
    "end": "3000",
    "jp": "４０００ガンボを手に入れた！",
-   "en": ""
+   "en": "Got 4000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "EXE:7B0D0",
    "kind": "ptr",
    "end": "3000",
    "jp": "４５００ガンボを手に入れた！",
-   "en": ""
+   "en": "Got 4500 Ganbo!",
+   "status": "done"
   },
   {
    "id": "EXE:7B0F0",
    "kind": "ptr",
    "end": "3000",
    "jp": "５０００ガンボを手に入れた！",
-   "en": ""
+   "en": "Got 5,000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "EXE:7B110",
    "kind": "ptr",
    "end": "3000",
    "jp": "６０００ガンボを手に入れた！",
-   "en": ""
+   "en": "Got 6,000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "EXE:7B130",
    "kind": "ptr",
    "end": "3000",
    "jp": "７０００ガンボを手に入れた！",
-   "en": ""
+   "en": "Got 7,000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "EXE:7B150",
    "kind": "ptr",
    "end": "3000",
    "jp": "８０００ガンボを手に入れた！",
-   "en": ""
+   "en": "Got 8,000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "EXE:7B170",
    "kind": "ptr",
    "end": "3000",
    "jp": "１００００ガンボを手に入れた！",
-   "en": ""
+   "en": "Got 10,000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "EXE:7B190",
    "kind": "next",
    "end": "3000",
    "jp": "宝箱は空っぽだ。",
-   "en": ""
+   "en": "The treasure chest is empty.",
+   "status": "done"
   },
   {
    "id": "EXE:7B1A4",
    "kind": "ptr",
    "end": "3000",
    "jp": "ウレピアスを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Chearrings!\nBut you already have them,\nso you left them.",
+   "status": "done"
   },
   {
    "id": "EXE:7B1E0",
    "kind": "next",
    "end": "3000",
    "jp": "ハッピアスを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Happiercings!\nBut you already have them,\nso you left them.",
+   "status": "done"
   },
   {
    "id": "EXE:7B21C",
    "kind": "next",
    "end": "3000",
    "jp": "ユートピアスを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Utopiercings!\nBut you already have them,\nso you left them.",
+   "status": "done"
   },
   {
    "id": "EXE:7B25C",
    "kind": "ptr",
    "end": "3000",
    "jp": "ナナヒカリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Nepotiring!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B29C",
    "kind": "next",
    "end": "3000",
    "jp": "トリプルアームを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Triple Arm!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B2DC",
    "kind": "next",
    "end": "3000",
    "jp": "プロテクトバンドを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Protect Band!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B320",
    "kind": "ptr",
    "end": "3000",
    "jp": "勇気のマントを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Courage Cape!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B360",
    "kind": "ptr",
    "end": "3000",
    "jp": "ケッセイリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Serum Ring!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B3A0",
    "kind": "next",
    "end": "3000",
    "jp": "ユメミヌリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Dreamless Ring!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B3E0",
    "kind": "next",
    "end": "3000",
    "jp": "ストーンリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Stone Ring!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B420",
    "kind": "next",
    "end": "3000",
    "jp": "ショックリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Shock Ring!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B460",
    "kind": "next",
    "end": "3000",
    "jp": "チンセイリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Calming Ring!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B4A0",
    "kind": "next",
    "end": "3000",
    "jp": "ライフリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Life Ring!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B4E0",
    "kind": "ptr",
    "end": "3000",
    "jp": "マジックリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Magic Ring!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B520",
    "kind": "next",
    "end": "3000",
    "jp": "リンリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Rin Ring!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B55C",
    "kind": "next",
    "end": "3000",
    "jp": "リンリンリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Rin-Rin Ring!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B59C",
    "kind": "next",
    "end": "3000",
    "jp": "スタコラマントを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Cape Escape!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B5DC",
    "kind": "next",
    "end": "3000",
    "jp": "ダンボルギーニを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Cardborghini!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B61C",
    "kind": "next",
    "end": "3000",
    "jp": "きせきの星を手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Miracle Star!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B658",
    "kind": "next",
    "end": "3000",
    "jp": "経験チップを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got an Experience Chip!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B694",
    "kind": "next",
    "end": "3000",
    "jp": "ガマグチョキンを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Purseverance!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B6D4",
    "kind": "next",
    "end": "3000",
    "jp": "タフネストーンを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Toughnestone!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B714",
    "kind": "next",
    "end": "3000",
    "jp": "パワーマフラーを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Power Scarf!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B754",
    "kind": "next",
    "end": "3000",
    "jp": "パワードマフラーを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Powered Scarf!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B798",
    "kind": "ptr",
    "end": "3000",
    "jp": "ホムライフルを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Flarifle!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B7D8",
    "kind": "ptr",
    "end": "3000",
    "jp": "ヒョウガトリングを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Glaciatling!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B81C",
    "kind": "ptr",
    "end": "3000",
    "jp": "イカヅチェーンを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Thundchain!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B85C",
    "kind": "next",
    "end": "3000",
    "jp": "神がみのさばきを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Judgment of the Gods!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B89C",
    "kind": "next",
    "end": "3000",
    "jp": "ムジンとうを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Desert-Isle Blade!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B8D8",
    "kind": "next",
    "end": "3000",
    "jp": "まるひファイルを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Hush File!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B918",
    "kind": "next",
    "end": "3000",
    "jp": "ヌケガケロッドを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Headstartod!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B958",
    "kind": "next",
    "end": "3000",
    "jp": "フライングロッドを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Flyaheadrod!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B99C",
    "kind": "ptr",
    "end": "3000",
    "jp": "キカンデスタイを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got an Immuni-Tie!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7B9DC",
    "kind": "next",
    "end": "3000",
    "jp": "勇気のあかしを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Courage Emblem!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BA1C",
    "kind": "ptr",
    "end": "3000",
    "jp": "マジックリスタルを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Magicrystal!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BA60",
    "kind": "ptr",
    "end": "3000",
    "jp": "龍神水を手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Dragon God Water!\nBut you already have some,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BA98",
    "kind": "next",
    "end": "3000",
    "jp": "オタスケボーを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Skate Aid!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BAD8",
    "kind": "ptr",
    "end": "3000",
    "jp": "アタリマセンサーを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Missensor!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BB1C",
    "kind": "ptr",
    "end": "3000",
    "jp": "マッスルストーンを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a MuscleStone!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BB60",
    "kind": "ptr",
    "end": "3000",
    "jp": "スーパーストーンを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Super Stone!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BBA4",
    "kind": "ptr",
    "end": "3000",
    "jp": "ガードストーンを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Guard Stone!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BBE4",
    "kind": "next",
    "end": "3000",
    "jp": "バリアストーンを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Ward Stone!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BC24",
    "kind": "next",
    "end": "3000",
    "jp": "シーフストーンを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Thief Stone!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BC64",
    "kind": "next",
    "end": "3000",
    "jp": "マジックーポンを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Magicoupon!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BCA4",
    "kind": "next",
    "end": "3000",
    "jp": "リンリンマックスを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Rin-Rin Max!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BCE8",
    "kind": "ptr",
    "end": "3000",
    "jp": "デルデルーレットを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got an Outroulette!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BD2C",
    "kind": "ptr",
    "end": "3000",
    "jp": "カワセンスを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got an Evasifan!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BD68",
    "kind": "next",
    "end": "3000",
    "jp": "ストップランを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Stoprun!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BDA8",
    "kind": "ptr",
    "end": "3000",
    "jp": "ポロロチョコを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Chocororo!\nBut you already have some,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BDE8",
    "kind": "ptr",
    "end": "3000",
    "jp": "ベジタリキュウリを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Veggiecuke!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BE2C",
    "kind": "ptr",
    "end": "3000",
    "jp": "デリシャスナックを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Delicisnack!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BE70",
    "kind": "ptr",
    "end": "3000",
    "jp": "マジカルポテトを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Magipotato!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BEB0",
    "kind": "next",
    "end": "3000",
    "jp": "マジカルバーガーを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Magiburger!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BEF4",
    "kind": "ptr",
    "end": "3000",
    "jp": "エリックソウを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Elixirweed!\nBut you already have some,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BF34",
    "kind": "ptr",
    "end": "3000",
    "jp": "ヘルプミを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Helpme!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BF70",
    "kind": "ptr",
    "end": "3000",
    "jp": "ハイヘルプミを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a HiHelpme!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BFB0",
    "kind": "ptr",
    "end": "3000",
    "jp": "マジカルシェイクを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Magishake!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7BFF4",
    "kind": "ptr",
    "end": "3000",
    "jp": "おとまりセットを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a StayoverSet!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C034",
    "kind": "next",
    "end": "3000",
    "jp": "ジョキンバコを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Sterilibox!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C074",
    "kind": "ptr",
    "end": "3000",
    "jp": "モーニングローブを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Morningrobe!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C0B8",
    "kind": "ptr",
    "end": "3000",
    "jp": "ピコパリハンマーを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Bonkhammer!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C0FC",
    "kind": "ptr",
    "end": "3000",
    "jp": "マヒナジュエルを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Paralyjewel!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C13C",
    "kind": "next",
    "end": "3000",
    "jp": "ゴロニャンハンドを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Purr Paw!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C180",
    "kind": "ptr",
    "end": "3000",
    "jp": "フレッシュポーチを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Fresh Pouch!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C1C4",
    "kind": "ptr",
    "end": "3000",
    "jp": "あがってマスクを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Mask Me Up!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C204",
    "kind": "next",
    "end": "3000",
    "jp": "ガッツまようじを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Gutspick!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C244",
    "kind": "next",
    "end": "3000",
    "jp": "どこんジョウロを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Gutsprinkler!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C284",
    "kind": "next",
    "end": "3000",
    "jp": "ゆるしてチョークを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Chalk It Up!\nBut you already have some,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C2C8",
    "kind": "ptr",
    "end": "3000",
    "jp": "ナカヨシンジュを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Pearlmates!\nBut you already have some,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C308",
    "kind": "next",
    "end": "3000",
    "jp": "宝アルカネを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Loot 'n' Behold!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C344",
    "kind": "next",
    "end": "3000",
    "jp": "サクヤしんしょを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Sakuya's Manual!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C384",
    "kind": "next",
    "end": "3000",
    "jp": "ヒミコミックを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Himikomix!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C3C4",
    "kind": "ptr",
    "end": "3000",
    "jp": "ドーピングミを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Dopingummy!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C404",
    "kind": "ptr",
    "end": "3000",
    "jp": "ガードロップを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Guardrop!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C444",
    "kind": "ptr",
    "end": "3000",
    "jp": "テツジンタンを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got an Ironmint!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C484",
    "kind": "ptr",
    "end": "3000",
    "jp": "ハヤテインを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got Swiftamine!\nBut you already have some,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C4C0",
    "kind": "next",
    "end": "3000",
    "jp": "勇気のミを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Courage Nut!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C4FC",
    "kind": "ptr",
    "end": "3000",
    "jp": "ライフルーツを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Lifefruit!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C53C",
    "kind": "ptr",
    "end": "3000",
    "jp": "マジカリンゴを手に入れた！\nだが、もっているのであきらめた。",
-   "en": ""
+   "en": "Got a Magicapple!\nBut you already have one,\nso you left it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C57C",
    "kind": "ptr",
    "end": "3000",
    "jp": "ティンクを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Tink!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C5B0",
    "kind": "ptr",
    "end": "3000",
    "jp": "キメルを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Chimer!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C5E0",
    "kind": "next",
    "end": "3000",
    "jp": "ギルバックを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Gillback!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C614",
    "kind": "next",
    "end": "3000",
    "jp": "ファイヤードを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Firebird!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C64C",
    "kind": "ptr",
    "end": "3000",
    "jp": "ヘイルを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Hail!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C67C",
    "kind": "next",
    "end": "3000",
    "jp": "ワオドーベルを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Wowberman!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C6B4",
    "kind": "ptr",
    "end": "3000",
    "jp": "タマプーを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Tadpuff!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C6E8",
    "kind": "ptr",
    "end": "3000",
    "jp": "モルを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Mole!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C718",
    "kind": "ptr",
    "end": "3000",
    "jp": "ベビルを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Babevil!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C748",
    "kind": "next",
    "end": "3000",
    "jp": "ケロプーを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Croakpuff!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C77C",
    "kind": "ptr",
    "end": "3000",
    "jp": "ワオバーナルを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Wowbernard!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C7B4",
    "kind": "ptr",
    "end": "3000",
    "jp": "トノケロを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Lord Croak!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C7E8",
    "kind": "ptr",
    "end": "3000",
    "jp": "キララを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Sparkle!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C818",
    "kind": "next",
    "end": "3000",
    "jp": "キンケロを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got Gold Croak!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C84C",
    "kind": "ptr",
    "end": "3000",
    "jp": "キングトノプを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got King Croakpuff!\nBut you couldn't carry it.",
+   "status": "done"
   },
   {
    "id": "EXE:7C884",
    "kind": "ptr",
    "end": "3000",
    "jp": "１５００ガンボを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got 1,500 Ganbo!\nBut you couldn't carry it all.",
+   "status": "done"
   },
   {
    "id": "EXE:7C8BC",
    "kind": "next",
    "end": "3000",
    "jp": "２０００ガンボを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got 2,000 Ganbo!\nBut you couldn't carry it all.",
+   "status": "done"
   },
   {
    "id": "EXE:7C8F4",
    "kind": "next",
    "end": "3000",
    "jp": "３０００ガンボを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got 3,000 Ganbo!\nBut you couldn't carry it all.",
+   "status": "done"
   },
   {
    "id": "EXE:7C92C",
    "kind": "next",
    "end": "3000",
    "jp": "４０００ガンボを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got 4,000 Ganbo!\nBut you couldn't carry it all.",
+   "status": "done"
   },
   {
    "id": "EXE:7C964",
    "kind": "next",
    "end": "3000",
    "jp": "４５００ガンボを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got 4,500 Ganbo!\nBut you couldn't carry it all.",
+   "status": "done"
   },
   {
    "id": "EXE:7C99C",
    "kind": "next",
    "end": "3000",
    "jp": "５０００ガンボを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got 5,000 Ganbo!\nBut you couldn't carry it all.",
+   "status": "done"
   },
   {
    "id": "EXE:7C9D4",
    "kind": "next",
    "end": "3000",
    "jp": "６０００ガンボを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got 6,000 Ganbo!\nBut you couldn't carry it all.",
+   "status": "done"
   },
   {
    "id": "EXE:7CA0C",
    "kind": "next",
    "end": "3000",
    "jp": "７０００ガンボを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got 7,000 Ganbo!\nBut you couldn't carry it all.",
+   "status": "done"
   },
   {
    "id": "EXE:7CA44",
    "kind": "next",
    "end": "3000",
    "jp": "８０００ガンボを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got 8,000 Ganbo!\nBut you couldn't carry it all.",
+   "status": "done"
   },
   {
    "id": "EXE:7CA7C",
    "kind": "next",
    "end": "3000",
    "jp": "１００００ガンボを手に入れた！\nだが、もちきれなかった。",
-   "en": ""
+   "en": "Got 10,000 Ganbo!\nBut you couldn't carry it all.",
+   "status": "done"
   }
  ]
 }

@@ -29,7 +29,7 @@ TOKEN = re.compile(r"\[B000\]")  # the translator writes [B000] alone; merge app
 FREE = set()
 VARIABLE = r"\[var[^\]]*\]"  # no drawn-number placeholders in this game's script
 HONORIFICS = {"くん": "-kun", "さん": "-san", "さま": "-sama", "様": "-sama", "ちゃん": "-chan"}  # D1, after a name
-NAME_CH = "ァ-ヶー一-鿿々Ａ-Ｚ"  # a honorific counts only right after a katakana/kanji name (not おじさん)
+NAME_CH = "ァ-ヶーＡ-Ｚ"  # a honorific counts only right after a katakana name (not おじさん, 貴様, 皆さん, 母さん)
 LIMITS = "docs/re/windows.md"  # letters per line (two per 16x16 cell, D8) and lines per box
 
 
@@ -62,6 +62,9 @@ def box(entry):
     if "slot" in entry:  # fixed-width field: `max` cells
         if src == "EXE" and 0x80094 <= int(off, 16) < 0x801AC:  # もんペット attack names: one letter per cell
             return entry["max"], 1, "name"
+        if (src == "EXE" and 0x7D7C0 <= int(off, 16) < 0x7DC7C) or (src == "FDS" and int(off, 16) >= 0x18550):
+            # item effect blurbs and the config voice lines: text, not names
+            return 2 * entry["max"], 1, "menu"
         return 2 * entry["max"], 1, "name" if entry["max"] <= 10 else "menu"
     if kind == "bname":
         return 11, 1, "name"
@@ -72,9 +75,11 @@ def box(entry):
     if src == "BALLBAT":
         return 32, 1, "menu"
     if src == "MACHINE":
-        return (16 if 0x10398 <= int(off, 16) < 0x103CC else 26), 1, "name"
+        o = int(off, 16)
+        return (16 if 0x10398 <= o < 0x103CC else 26), 1, "menu" if o >= 0x103CC else "name"  # 経験値/を手に入れた
     if src == "TTL":
-        return (12 if int(off, 16) < 0x05528 else 24), 1, "menu"
+        # labels: 6 cells today; phase 7 moves the value column one cell right (x 112 -> 128), values keep 24
+        return (14 if int(off, 16) < 0x05528 else 24), 1, "menu"
     if src == "LVUP":
         return 30, 4, "menu"
     return 32, 3, "choice" if "\n　" in entry["jp"] else "dlg"
@@ -127,7 +132,7 @@ def width_problems(entry, en):
     sp = speaker(entry["jp"])
     if sp:
         want = SPEAKERS.get(sp)
-        if want and lines[0] != want + ":":
+        if want and lines[0].strip() != want + ":":
             out.append(f"speaker line must be {want + ':'!r}")
         elif not lines[0].endswith(":"):
             out.append("first line is the speaker: end it with ':'")

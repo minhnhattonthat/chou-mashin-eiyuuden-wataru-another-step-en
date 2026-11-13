@@ -8,7 +8,8 @@
    "max": 7,
    "len_at": "0464D",
    "jp": "ベジタリニャン",
-   "en": ""
+   "en": "Veggiecat",
+   "status": "done"
   },
   {
    "id": "ENE07:045A0",
@@ -16,7 +17,8 @@
    "max": 11,
    "len_at": "04661",
    "jp": "ベジタリニャン・ニセー",
-   "en": ""
+   "en": "VeggiecatII",
+   "status": "done"
   },
   {
    "id": "ENE07:045B8",
@@ -24,7 +26,8 @@
    "max": 10,
    "len_at": "04675",
    "jp": "ベジタリニャンダフル",
-   "en": ""
+   "en": "Veggiepurr",
+   "status": "done"
   },
   {
    "id": "ENE07:045CC",
@@ -32,35 +35,40 @@
    "max": 11,
    "len_at": "04689",
    "jp": "ベジタリニャン・ゼット",
-   "en": ""
+   "en": "Veggiecat Z",
+   "status": "done"
   },
   {
    "id": "ENE07:045E4",
    "kind": "bname",
    "max": 11,
    "jp": "ベジタリニャン",
-   "en": ""
+   "en": "Veggiecat",
+   "status": "done"
   },
   {
    "id": "ENE07:045F0",
    "kind": "bname",
    "max": 11,
    "jp": "ベジタリニャン[00EB:・]ニセー",
-   "en": ""
+   "en": "VeggiecatII",
+   "status": "done"
   },
   {
    "id": "ENE07:045FC",
    "kind": "bname",
    "max": 11,
    "jp": "ベジタリニャンダフル",
-   "en": ""
+   "en": "Veggiepurr",
+   "status": "done"
   },
   {
    "id": "ENE07:04608",
    "kind": "bname",
    "max": 11,
    "jp": "ベジタリニャン[00EB:・]ゼット",
-   "en": ""
+   "en": "Veggiecat Z",
+   "status": "done"
   }
  ]
 }

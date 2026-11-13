@@ -8,7 +8,8 @@
    "max": 7,
    "len_at": "02D95",
    "jp": "サイダーコップ",
-   "en": ""
+   "en": "Cider Cop",
+   "status": "done"
   },
   {
    "id": "ENE13:02D04",
@@ -16,7 +17,8 @@
    "max": 5,
    "len_at": "02DA9",
    "jp": "コケコップ",
-   "en": ""
+   "en": "Cluck Cop",
+   "status": "done"
   },
   {
    "id": "ENE13:02D10",
@@ -24,7 +26,8 @@
    "max": 6,
    "len_at": "02DBD",
    "jp": "ラムネコップ",
-   "en": ""
+   "en": "Ramune Cop",
+   "status": "done"
   },
   {
    "id": "ENE13:02D1C",
@@ -32,35 +35,40 @@
    "max": 7,
    "len_at": "02DD1",
    "jp": "シェイクコップ",
-   "en": ""
+   "en": "Shake Cop",
+   "status": "done"
   },
   {
    "id": "ENE13:02D2C",
    "kind": "bname",
    "max": 11,
    "jp": "サイダーコップ",
-   "en": ""
+   "en": "Cider Cop",
+   "status": "done"
   },
   {
    "id": "ENE13:02D38",
    "kind": "bname",
    "max": 11,
    "jp": "コケコップ",
-   "en": ""
+   "en": "Cluck Cop",
+   "status": "done"
   },
   {
    "id": "ENE13:02D44",
    "kind": "bname",
    "max": 11,
    "jp": "ラムネコップ",
-   "en": ""
+   "en": "Ramune Cop",
+   "status": "done"
   },
   {
    "id": "ENE13:02D50",
    "kind": "bname",
    "max": 11,
    "jp": "シェイクコップ",
-   "en": ""
+   "en": "Shake Cop",
+   "status": "done"
   }
  ]
 }

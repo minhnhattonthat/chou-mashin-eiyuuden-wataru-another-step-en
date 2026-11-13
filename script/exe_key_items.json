@@ -16,112 +16,128 @@
    "slot": 1,
    "max": 8,
    "jp": "はし",
-   "en": ""
+   "en": "Chopsticks",
+   "status": "done"
   },
   {
    "id": "EXE:7CE38",
    "slot": 2,
    "max": 8,
    "jp": "そうこのカギ",
-   "en": ""
+   "en": "Warehouse Key",
+   "status": "done"
   },
   {
    "id": "EXE:7CE48",
    "slot": 3,
    "max": 8,
    "jp": "チケット",
-   "en": ""
+   "en": "Ticket",
+   "status": "done"
   },
   {
    "id": "EXE:7CE58",
    "slot": 4,
    "max": 8,
    "jp": "ツウコウテガタ",
-   "en": ""
+   "en": "Travel Pass",
+   "status": "done"
   },
   {
    "id": "EXE:7CE68",
    "slot": 5,
    "max": 8,
    "jp": "テカテカしたキジ",
-   "en": ""
+   "en": "Shiny Fabric",
+   "status": "done"
   },
   {
    "id": "EXE:7CE78",
    "slot": 6,
    "max": 8,
    "jp": "ヒーロースーツ",
-   "en": ""
+   "en": "Hero Suit",
+   "status": "done"
   },
   {
    "id": "EXE:7CE88",
    "slot": 7,
    "max": 8,
    "jp": "カタログ",
-   "en": ""
+   "en": "Catalog",
+   "status": "done"
   },
   {
    "id": "EXE:7CE98",
    "slot": 8,
    "max": 8,
    "jp": "ワタノレのホン",
-   "en": ""
+   "en": "VVataru Book",
+   "status": "done"
   },
   {
    "id": "EXE:7CEA8",
    "slot": 9,
    "max": 8,
    "jp": "ヒシコのホン",
-   "en": ""
+   "en": "Hishiko Book",
+   "status": "done"
   },
   {
    "id": "EXE:7CEB8",
    "slot": 10,
    "max": 8,
    "jp": "カイホウ　ウメ",
-   "en": ""
+   "en": "Plum Bulletin",
+   "status": "done"
   },
   {
    "id": "EXE:7CEC8",
    "slot": 11,
    "max": 8,
    "jp": "カイホウ　タケ",
-   "en": ""
+   "en": "Bamboo Bulletin",
+   "status": "done"
   },
   {
    "id": "EXE:7CED8",
    "slot": 12,
    "max": 8,
    "jp": "カイホウ　マツ",
-   "en": ""
+   "en": "Pine Bulletin",
+   "status": "done"
   },
   {
    "id": "EXE:7CEE8",
    "slot": 13,
    "max": 8,
    "jp": "リュウノケン",
-   "en": ""
+   "en": "Dragon Sword",
+   "status": "done"
   },
   {
    "id": "EXE:7CEF8",
    "slot": 14,
    "max": 8,
    "jp": "トラノマガタマ",
-   "en": ""
+   "en": "Tiger Magatama",
+   "status": "done"
   },
   {
    "id": "EXE:7CF08",
    "slot": 15,
    "max": 8,
    "jp": "ニジノカガミ",
-   "en": ""
+   "en": "Rainbow Mirror",
+   "status": "done"
   },
   {
    "id": "EXE:7CF18",
    "slot": 16,
    "max": 8,
    "jp": "[0224]メダル",
-   "en": ""
+   "en": "[0224] Medal",
+   "status": "done"
   }
  ]
 }

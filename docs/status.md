@@ -2,10 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate. Phase 5 done: every box variant in docs/re/windows.md measured in game (budgets there are
-  the translators' limits). Last build: build/wataru_en.bin sha1 6bebf36b... (2026-11-14, marker build + header
-  patch), smoke ok. Stress builds: `tools/stress.py` (dialogue), `--ui` (menus/battle).
+- **Phase:** 6. Translate in progress: first draft of all 42 batches done by codex, review/revise round running.
+  Last build: build/wataru_en.bin sha1 6bebf36b... (2026-11-14, marker build + header patch), smoke ok.
 - **Done:**
+  - Phase 6, session 1 (2026-11-14): glossary rulings D9 (names: Hepburn, English-pun spellings), D10 (register,
+    SFX), D11 (codex translates, prompt-only); `## Speakers` table (exact speaker labels); docs/style-reference.md
+    (pilot R00:0CCF4-0D5A8 by the controller + voices), docs/synopsis.md (episodes 0-14), docs/translator-brief.md,
+    docs/reviewer-brief.md, docs/polish.md. Tools: `tools/batches.py` (split/check/merge/terms/pairs; limits per
+    entry in `box()` from windows.md; speaker, cursor-indent, honorific-after-katakana, [B000] rules; merge fills
+    the B000 arg word), `tools/tl_codex.py` (tl / fix / review / revise via `codex exec` prompt-only),
+    `tools/names.py` (one English per item/skill/enemy/place across tables, fits the tightest field; writes the
+    generated glossary section). `insert.py`: English longer than its JP slot falls back to the marker and is
+    listed in work/overflow.tsv (phase 7 grows slots), so builds and tests stay green. 42 batches (work/tl/), wave 0
+    = name tables (b001-b006), wave 1 = dialogue.
   - Phase 5, session 5 (2026-11-14), width gate closed: mashin HP found (mashin u16 0x800BE31E/0x800BEBA4, enemy
     0x800BE38A/0x800BEF04, debug.md); retry box measured 7 cells = 14 letters x 2 lines (scene mashin_lose); mashin
     win shows no 経験値 banner (scene mashin_win: explosion -> fade -> mode B story dialogue; the strings are banner
@@ -82,17 +91,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 6: translate, `references/translation.md`):**
-  1. Before the first batch (§Before the first batch): fill glossary.md's open rulings (register, SFX style: agent
-     defaults under D6, record in decisions.md), seed names (official Wataru English where it exists, D2),
-     `docs/synopsis.md` (plot by episode 0-14), pilot one slice (ep00/ep01 opening) -> `docs/style-reference.md`.
-  2. `tools/batches.py` from `$SKILL/assets/batches.py`; ADAPTER: script/ JSON (rooms/*.json pages, EXE/ST/BALLBAT/
-     MACHINE/TTL/LVUP/FDS menus, exe_* fixed tables, ene/), limits from docs/re/windows.md (dialogue 32 letters x 3
-     lines incl. the speaker line; fixed fields 2 letters per cell, except もんペット attack names: 10 letters).
-     Speakers are the first line (`ワタル：`); pages end 2000 (next page) / 3000 (message end); key-item
-     descriptions use borrowed room-font codes ([01AF] etc., reading depends on episode). `docs/translator-brief.md`
-     + `docs/reviewer-brief.md` from the skill assets; terms pass before wave 1.
-  3. Dispatch: Orca refuses nested workers, so translate in this session or with `codex exec`; review in a fresh
-     read-only pass and write the verdicts.
+  1. Every batch must check OK and be merged: `python -X utf8 tools/batches.py check bNNN` (no args = everything
+     merged, also run by check.py). Failing unmerged batch: `tools/tl_codex.py tl bNNN` (reuses its .out.tsv, sends
+     only failing rows), then `batches.py merge bNNN --overwrite`. Failing merged batch: `tl_codex.py fix bNNN`.
+  2. Review: `batches.py pairs bNNN` -> `tl_codex.py review work/tl/bNNN.pairs.txt` -> work/tl/bNNN.pairs.review.md;
+     `tl_codex.py revise bNNN` sends its Critical/Important back through codex and appends Minors to
+     docs/polish.md; merge --overwrite; re-review until the report has no Critical/Important. Verdicts:
+     work/tl/review_verdicts.tsv (batch, ok|issue, note). After any name change in a table: `tools/names.py --apply`
+     then `batches.py terms`.
+  3. Phase 6 done when check is clean, every batch's last review has no Critical/Important, glossary current.
+  Known draft gaps: BALLBAT messages with inner blank cells (ステータス　　を受けない: an icon or name is drawn
+  there?) were translated without the blanks: check in game (phase 7/8). LVUP line 4: the level number prints into
+  the JP blank cells (cols 7-8): English "Wataru reached level    !" puts the gap elsewhere: phase 7 must find
+  where the digits go. TTL config labels may be 14 letters: phase 7 moves the value column x 112 -> 128.
   Phase-7 items already known (do not block phase 6): text longer than its JP slot (grow banks: bank pointers, NPC
   u32 arrays, text.md; menu pointers; fixed tables); fallback single-letter cells when a font context overflows;
   mashin strip relayout (windows.md); banner/bfont names past their JP cells (relocate via their u32 / record

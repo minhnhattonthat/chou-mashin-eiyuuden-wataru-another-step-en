@@ -16,112 +16,128 @@
    "slot": 1,
    "max": 10,
    "jp": "単体ＨＰ１００回復",
-   "en": ""
+   "en": "One: heal 100 HP",
+   "status": "done"
   },
   {
    "id": "EXE:7D7E8",
    "slot": 2,
    "max": 10,
    "jp": "単体ＨＰ５００回復",
-   "en": ""
+   "en": "One: heal 500 HP",
+   "status": "done"
   },
   {
    "id": "EXE:7D7FC",
    "slot": 3,
    "max": 10,
    "jp": "単体ＨＰすべて回復",
-   "en": ""
+   "en": "One: restore all HP",
+   "status": "done"
   },
   {
    "id": "EXE:7D810",
    "slot": 4,
    "max": 10,
    "jp": "単体ＭＰ３０回復",
-   "en": ""
+   "en": "One: restore 30 MP",
+   "status": "done"
   },
   {
    "id": "EXE:7D824",
    "slot": 5,
    "max": 10,
    "jp": "単体ＭＰすべて回復",
-   "en": ""
+   "en": "One: restore all MP",
+   "status": "done"
   },
   {
    "id": "EXE:7D838",
    "slot": 6,
    "max": 10,
    "jp": "単体ＨＰ・ＭＰ全回復",
-   "en": ""
+   "en": "One: full HP and MP",
+   "status": "done"
   },
   {
    "id": "EXE:7D84C",
    "slot": 7,
    "max": 10,
    "jp": "全体ＨＰ５００回復",
-   "en": ""
+   "en": "All: heal 500 HP",
+   "status": "done"
   },
   {
    "id": "EXE:7D860",
    "slot": 8,
    "max": 10,
    "jp": "全体ＨＰすべて回復",
-   "en": ""
+   "en": "All: restore all HP",
+   "status": "done"
   },
   {
    "id": "EXE:7D874",
    "slot": 9,
    "max": 10,
    "jp": "全体ＭＰ５０回復",
-   "en": ""
+   "en": "All: restore 50 MP",
+   "status": "done"
   },
   {
    "id": "EXE:7D888",
    "slot": 10,
    "max": 10,
    "jp": "全体ＨＰ・ＭＰ全回復",
-   "en": ""
+   "en": "All: full HP and MP",
+   "status": "done"
   },
   {
    "id": "EXE:7D89C",
    "slot": 11,
    "max": 10,
    "jp": "全体ドクちりょう",
-   "en": ""
+   "en": "All: cure poison",
+   "status": "done"
   },
   {
    "id": "EXE:7D8B0",
    "slot": 12,
    "max": 10,
    "jp": "全体スイミンちりょう",
-   "en": ""
+   "en": "All: cure sleep",
+   "status": "done"
   },
   {
    "id": "EXE:7D8C4",
    "slot": 13,
    "max": 10,
    "jp": "全体セキカちりょう",
-   "en": ""
+   "en": "All: unpetrify",
+   "status": "done"
   },
   {
    "id": "EXE:7D8D8",
    "slot": 14,
    "max": 10,
    "jp": "全体マヒちりょう",
-   "en": ""
+   "en": "All: cure paralysis",
+   "status": "done"
   },
   {
    "id": "EXE:7D8EC",
    "slot": 15,
    "max": 10,
    "jp": "全体コンランちりょう",
-   "en": ""
+   "en": "All: cure confusion",
+   "status": "done"
   },
   {
    "id": "EXE:7D900",
    "slot": 16,
    "max": 10,
    "jp": "全体すべてをちりょう",
-   "en": ""
+   "en": "All: cure ailments",
+   "status": "done"
   },
   {
    "id": "EXE:7D914",
@@ -135,56 +151,64 @@
    "slot": 18,
    "max": 10,
    "jp": "全体炎１００ダメージ",
-   "en": ""
+   "en": "All take 100 fire",
+   "status": "done"
   },
   {
    "id": "EXE:7D93C",
    "slot": 19,
    "max": 10,
    "jp": "全体水１００ダメージ",
-   "en": ""
+   "en": "All take 100 water",
+   "status": "done"
   },
   {
    "id": "EXE:7D950",
    "slot": 20,
    "max": 10,
    "jp": "全体雷１００ダメージ",
-   "en": ""
+   "en": "All take 100 thunder",
+   "status": "done"
   },
   {
    "id": "EXE:7D964",
    "slot": 21,
    "max": 10,
    "jp": "全体９９９ダメージ",
-   "en": ""
+   "en": "All take 999 damage",
+   "status": "done"
   },
   {
    "id": "EXE:7D978",
    "slot": 22,
    "max": 10,
    "jp": "全体ザコ一撃でたおす",
-   "en": ""
+   "en": "Slay all minor foes",
+   "status": "done"
   },
   {
    "id": "EXE:7D98C",
    "slot": 23,
    "max": 10,
    "jp": "全体ヒミコしょうかん",
-   "en": ""
+   "en": "All: summon Himiko",
+   "status": "done"
   },
   {
    "id": "EXE:7D9A0",
    "slot": 24,
    "max": 10,
    "jp": "ボス１００ダメージ",
-   "en": ""
+   "en": "Boss: 100 damage",
+   "status": "done"
   },
   {
    "id": "EXE:7D9B4",
    "slot": 25,
    "max": 10,
    "jp": "ボス５００ダメージ",
-   "en": ""
+   "en": "Boss: 500 damage",
+   "status": "done"
   },
   {
    "id": "EXE:7D9C8",
@@ -198,112 +222,128 @@
    "slot": 27,
    "max": 10,
    "jp": "単体特殊攻撃を防ぐ",
-   "en": ""
+   "en": "One: block specials",
+   "status": "done"
   },
   {
    "id": "EXE:7D9F0",
    "slot": 28,
    "max": 10,
    "jp": "単体ダメージＭＰ回復",
-   "en": ""
+   "en": "One: damage heals MP",
+   "status": "done"
   },
   {
    "id": "EXE:7DA04",
    "slot": 29,
    "max": 10,
    "jp": "単体使うＭＰ５０％に",
-   "en": ""
+   "en": "One: halve MP costs",
+   "status": "done"
   },
   {
    "id": "EXE:7DA18",
    "slot": 30,
    "max": 10,
    "jp": "単体のうりょくアップ",
-   "en": ""
+   "en": "One: boost stats",
+   "status": "done"
   },
   {
    "id": "EXE:7DA2C",
    "slot": 31,
    "max": 10,
    "jp": "全体必ず逃げられる",
-   "en": ""
+   "en": "All: sure escape",
+   "status": "done"
   },
   {
    "id": "EXE:7DA40",
    "slot": 32,
    "max": 10,
    "jp": "全体攻撃かいひアップ",
-   "en": ""
+   "en": "All: attack/dodge up",
+   "status": "done"
   },
   {
    "id": "EXE:7DA54",
    "slot": 33,
    "max": 10,
    "jp": "全体攻撃力アップ",
-   "en": ""
+   "en": "All: attack up",
+   "status": "done"
   },
   {
    "id": "EXE:7DA68",
    "slot": 34,
    "max": 10,
    "jp": "全体特殊攻撃力アップ",
-   "en": ""
+   "en": "All: special power+",
+   "status": "done"
   },
   {
    "id": "EXE:7DA7C",
    "slot": 35,
    "max": 10,
    "jp": "全体防御力アップ",
-   "en": ""
+   "en": "All: defense up",
+   "status": "done"
   },
   {
    "id": "EXE:7DA90",
    "slot": 36,
    "max": 10,
    "jp": "全体特殊防御力アップ",
-   "en": ""
+   "en": "All: special guard+",
+   "status": "done"
   },
   {
    "id": "EXE:7DAA4",
    "slot": 37,
    "max": 10,
    "jp": "全体かいひアップ",
-   "en": ""
+   "en": "All: dodge up",
+   "status": "done"
   },
   {
    "id": "EXE:7DAB8",
    "slot": 38,
    "max": 10,
    "jp": "全体補助技効果ながく",
-   "en": ""
+   "en": "All: longer support",
+   "status": "done"
   },
   {
    "id": "EXE:7DACC",
    "slot": 39,
    "max": 10,
    "jp": "全体気合い１００％に",
-   "en": ""
+   "en": "All: Spirit to 100%",
+   "status": "done"
   },
   {
    "id": "EXE:7DAE0",
    "slot": 40,
    "max": 10,
    "jp": "全体必殺技で攻撃",
-   "en": ""
+   "en": "All: finishing move",
+   "status": "done"
   },
   {
    "id": "EXE:7DAF4",
    "slot": 41,
    "max": 10,
    "jp": "全体敵かいひダウン",
-   "en": ""
+   "en": "All foes: dodge down",
+   "status": "done"
   },
   {
    "id": "EXE:7DB08",
    "slot": 42,
    "max": 10,
    "jp": "全体敵の動き止める",
-   "en": ""
+   "en": "All foes: stop",
+   "status": "done"
   },
   {
    "id": "EXE:7DB1C",
@@ -317,105 +357,120 @@
    "slot": 44,
    "max": 10,
    "jp": "１レベルアップ",
-   "en": ""
+   "en": "Gain 1 level",
+   "status": "done"
   },
   {
    "id": "EXE:7DB44",
    "slot": 45,
    "max": 10,
    "jp": "気合い１０％アップ",
-   "en": ""
+   "en": "Spirit +10%",
+   "status": "done"
   },
   {
    "id": "EXE:7DB58",
    "slot": 46,
    "max": 10,
    "jp": "気合い２０％アップ",
-   "en": ""
+   "en": "Spirit +20%",
+   "status": "done"
   },
   {
    "id": "EXE:7DB6C",
    "slot": 47,
    "max": 10,
    "jp": "まんびきを１回見逃し",
-   "en": ""
+   "en": "One theft forgiven",
+   "status": "done"
   },
   {
    "id": "EXE:7DB80",
    "slot": 48,
    "max": 10,
    "jp": "バトルをさけられる",
-   "en": ""
+   "en": "Avoid battles",
+   "status": "done"
   },
   {
    "id": "EXE:7DB94",
    "slot": 49,
    "max": 10,
    "jp": "宝箱開けてないとなる",
-   "en": ""
+   "en": "Rings: unopened loot",
+   "status": "done"
   },
   {
    "id": "EXE:7DBA8",
    "slot": 50,
    "max": 10,
    "jp": "かしこさ１アップ",
-   "en": ""
+   "en": "Wisdom +1",
+   "status": "done"
   },
   {
    "id": "EXE:7DBBC",
    "slot": 51,
    "max": 10,
    "jp": "かしこさ１ダウン",
-   "en": ""
+   "en": "Wisdom -1",
+   "status": "done"
   },
   {
    "id": "EXE:7DBD0",
    "slot": 52,
    "max": 10,
    "jp": "ちから１アップ",
-   "en": ""
+   "en": "Strength +1",
+   "status": "done"
   },
   {
    "id": "EXE:7DBE4",
    "slot": 53,
    "max": 10,
    "jp": "がんじょうさ１アップ",
-   "en": ""
+   "en": "Toughness +1",
+   "status": "done"
   },
   {
    "id": "EXE:7DBF8",
    "slot": 54,
    "max": 10,
    "jp": "がまんづよさ１アップ",
-   "en": ""
+   "en": "Endurance +1",
+   "status": "done"
   },
   {
    "id": "EXE:7DC0C",
    "slot": 55,
    "max": 10,
    "jp": "すばやさ１アップ",
-   "en": ""
+   "en": "Speed +1",
+   "status": "done"
   },
   {
    "id": "EXE:7DC20",
    "slot": 56,
    "max": 10,
    "jp": "のうりょくアップ",
-   "en": ""
+   "en": "Boosts stats",
+   "status": "done"
   },
   {
    "id": "EXE:7DC34",
    "slot": 57,
    "max": 10,
    "jp": "ＨＰなどをアップ",
-   "en": ""
+   "en": "Raises HP and more",
+   "status": "done"
   },
   {
    "id": "EXE:7DC48",
    "slot": 58,
    "max": 10,
    "jp": "ＭＰなどをアップ",
-   "en": ""
+   "en": "Raises MP and more",
+   "status": "done"
   }
  ]
 }

@@ -8,7 +8,8 @@
    "max": 5,
    "len_at": "02CA9",
    "jp": "ポロロ１３",
-   "en": ""
+   "en": "Pororo 13",
+   "status": "done"
   },
   {
    "id": "ENE04:02C40",
@@ -16,7 +17,8 @@
    "max": 5,
    "len_at": "02CBD",
    "jp": "アクロ１３",
-   "en": ""
+   "en": "Acro 13",
+   "status": "done"
   },
   {
    "id": "ENE04:02C4C",
@@ -24,28 +26,32 @@
    "max": 5,
    "len_at": "02CD1",
    "jp": "アスロ１３",
-   "en": ""
+   "en": "Asuro 13",
+   "status": "done"
   },
   {
    "id": "ENE04:02C58",
    "kind": "bname",
    "max": 11,
    "jp": "ポロロ１３",
-   "en": ""
+   "en": "Pororo 13",
+   "status": "done"
   },
   {
    "id": "ENE04:02C64",
    "kind": "bname",
    "max": 11,
    "jp": "アクロ１３",
-   "en": ""
+   "en": "Acro 13",
+   "status": "done"
   },
   {
    "id": "ENE04:02C70",
    "kind": "bname",
    "max": 11,
    "jp": "アスロ１３",
-   "en": ""
+   "en": "Asuro 13",
+   "status": "done"
   }
  ]
 }

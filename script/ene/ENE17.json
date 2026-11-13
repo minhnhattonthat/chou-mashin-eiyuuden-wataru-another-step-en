@@ -8,7 +8,8 @@
    "max": 7,
    "len_at": "02BC1",
    "jp": "ムキリョクさん",
-   "en": ""
+   "en": "Lackada-san",
+   "status": "done"
   },
   {
    "id": "ENE17:02B50",
@@ -16,7 +17,8 @@
    "max": 7,
    "len_at": "02BD5",
    "jp": "ムキリョデンカ",
-   "en": ""
+   "en": "Prince Idle",
+   "status": "done"
   },
   {
    "id": "ENE17:02B60",
@@ -24,28 +26,32 @@
    "max": 7,
    "len_at": "02BE9",
    "jp": "ムキリョキング",
-   "en": ""
+   "en": "King Apathy",
+   "status": "done"
   },
   {
    "id": "ENE17:02B70",
    "kind": "bname",
    "max": 11,
    "jp": "ムキリョクさん",
-   "en": ""
+   "en": "Lackada-san",
+   "status": "done"
   },
   {
    "id": "ENE17:02B7C",
    "kind": "bname",
    "max": 11,
    "jp": "ムキリョデンカ",
-   "en": ""
+   "en": "Prince Idle",
+   "status": "done"
   },
   {
    "id": "ENE17:02B88",
    "kind": "bname",
    "max": 11,
    "jp": "ムキリョキング",
-   "en": ""
+   "en": "King Apathy",
+   "status": "done"
   }
  ]
 }

@@ -8,7 +8,8 @@
    "max": 10,
    "len_at": "01DDD",
    "jp": "ミスター・ハイキング",
-   "en": ""
+   "en": "Mr. Hiking",
+   "status": "done"
   },
   {
    "id": "ENE05:01D38",
@@ -16,7 +17,8 @@
    "max": 10,
    "len_at": "01DF1",
    "jp": "ミスター・ピクニック",
-   "en": ""
+   "en": "Mr. Picnic",
+   "status": "done"
   },
   {
    "id": "ENE05:01D4C",
@@ -24,7 +26,8 @@
    "max": 9,
    "len_at": "01E05",
    "jp": "ミスター・ハイホー",
-   "en": ""
+   "en": "Mr. Hi-Ho",
+   "status": "done"
   },
   {
    "id": "ENE05:01D60",
@@ -32,35 +35,40 @@
    "max": 9,
    "len_at": "01E19",
    "jp": "ミスター・ブラボー",
-   "en": ""
+   "en": "Mr. Bravo",
+   "status": "done"
   },
   {
    "id": "ENE05:01D74",
    "kind": "bname",
    "max": 11,
    "jp": "ミスター[00EB:・]ハイキング",
-   "en": ""
+   "en": "Mr. Hiking",
+   "status": "done"
   },
   {
    "id": "ENE05:01D80",
    "kind": "bname",
    "max": 11,
    "jp": "ミスター[00EB:・]ピクニック",
-   "en": ""
+   "en": "Mr. Picnic",
+   "status": "done"
   },
   {
    "id": "ENE05:01D8C",
    "kind": "bname",
    "max": 11,
    "jp": "ミスター[00EB:・]ハイホー",
-   "en": ""
+   "en": "Mr. Hi-Ho",
+   "status": "done"
   },
   {
    "id": "ENE05:01D98",
    "kind": "bname",
    "max": 11,
    "jp": "ミスター[00EB:・]ブラボー",
-   "en": ""
+   "en": "Mr. Bravo",
+   "status": "done"
   }
  ]
 }

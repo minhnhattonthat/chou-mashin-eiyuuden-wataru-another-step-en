@@ -9,28 +9,32 @@
    "slot": 0,
    "max": 16,
    "jp": "もんペットを選んでください。",
-   "en": ""
+   "en": "Please choose a Monpet.",
+   "status": "done"
   },
   {
    "id": "EXE:77C78",
    "slot": 1,
    "max": 16,
    "jp": "なまえを入れてください。",
-   "en": ""
+   "en": "Please enter a name.",
+   "status": "done"
   },
   {
    "id": "EXE:77C98",
    "slot": 2,
    "max": 16,
    "jp": "このなまえでよろしいですか？",
-   "en": ""
+   "en": "Is this name OK?",
+   "status": "done"
   },
   {
    "id": "EXE:77CB8",
    "slot": 3,
    "max": 8,
    "jp": "なまえへんこう",
-   "en": ""
+   "en": "Change Name",
+   "status": "done"
   }
  ]
 }

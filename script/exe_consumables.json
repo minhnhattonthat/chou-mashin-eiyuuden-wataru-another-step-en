@@ -16,112 +16,128 @@
    "slot": 1,
    "max": 8,
    "jp": "ポロロチョコ",
-   "en": ""
+   "en": "Chocororo",
+   "status": "done"
   },
   {
    "id": "EXE:7D420",
    "slot": 2,
    "max": 8,
    "jp": "ベジタリキュウリ",
-   "en": ""
+   "en": "Veggiecuke",
+   "status": "done"
   },
   {
    "id": "EXE:7D430",
    "slot": 3,
    "max": 8,
    "jp": "デリシャスナック",
-   "en": ""
+   "en": "Delicisnack",
+   "status": "done"
   },
   {
    "id": "EXE:7D440",
    "slot": 4,
    "max": 8,
    "jp": "マジカルポテト",
-   "en": ""
+   "en": "Magipotato",
+   "status": "done"
   },
   {
    "id": "EXE:7D450",
    "slot": 5,
    "max": 8,
    "jp": "マジカルバーガー",
-   "en": ""
+   "en": "Magiburger",
+   "status": "done"
   },
   {
    "id": "EXE:7D460",
    "slot": 6,
    "max": 8,
    "jp": "エリックソウ",
-   "en": ""
+   "en": "Elixirweed",
+   "status": "done"
   },
   {
    "id": "EXE:7D470",
    "slot": 7,
    "max": 8,
    "jp": "ヘルプミ",
-   "en": ""
+   "en": "Helpme",
+   "status": "done"
   },
   {
    "id": "EXE:7D480",
    "slot": 8,
    "max": 8,
    "jp": "ハイヘルプミ",
-   "en": ""
+   "en": "HiHelpme",
+   "status": "done"
   },
   {
    "id": "EXE:7D490",
    "slot": 9,
    "max": 8,
    "jp": "マジカルシェイク",
-   "en": ""
+   "en": "Magishake",
+   "status": "done"
   },
   {
    "id": "EXE:7D4A0",
    "slot": 10,
    "max": 8,
    "jp": "おとまりセット",
-   "en": ""
+   "en": "StayoverSet",
+   "status": "done"
   },
   {
    "id": "EXE:7D4B0",
    "slot": 11,
    "max": 8,
    "jp": "ジョキンバコ",
-   "en": ""
+   "en": "Sterilibox",
+   "status": "done"
   },
   {
    "id": "EXE:7D4C0",
    "slot": 12,
    "max": 8,
    "jp": "モーニングローブ",
-   "en": ""
+   "en": "Morningrobe",
+   "status": "done"
   },
   {
    "id": "EXE:7D4D0",
    "slot": 13,
    "max": 8,
    "jp": "ピコパリハンマー",
-   "en": ""
+   "en": "Bonkhammer",
+   "status": "done"
   },
   {
    "id": "EXE:7D4E0",
    "slot": 14,
    "max": 8,
    "jp": "マヒナジュエル",
-   "en": ""
+   "en": "Paralyjewel",
+   "status": "done"
   },
   {
    "id": "EXE:7D4F0",
    "slot": 15,
    "max": 8,
    "jp": "ゴロニャンハンド",
-   "en": ""
+   "en": "Purr Paw",
+   "status": "done"
   },
   {
    "id": "EXE:7D500",
    "slot": 16,
    "max": 8,
    "jp": "フレッシュポーチ",
-   "en": ""
+   "en": "Fresh Pouch",
+   "status": "done"
   },
   {
    "id": "EXE:7D510",
@@ -135,56 +151,64 @@
    "slot": 18,
    "max": 8,
    "jp": "ホムライフル",
-   "en": ""
+   "en": "Flarifle",
+   "status": "done"
   },
   {
    "id": "EXE:7D530",
    "slot": 19,
    "max": 8,
    "jp": "ヒョウガトリング",
-   "en": ""
+   "en": "Glaciatling",
+   "status": "done"
   },
   {
    "id": "EXE:7D540",
    "slot": 20,
    "max": 8,
    "jp": "イカヅチェーン",
-   "en": ""
+   "en": "Thundchain",
+   "status": "done"
   },
   {
    "id": "EXE:7D550",
    "slot": 21,
    "max": 8,
    "jp": "神がみのさばき",
-   "en": ""
+   "en": "Divine Judgment",
+   "status": "done"
   },
   {
    "id": "EXE:7D560",
    "slot": 22,
    "max": 8,
    "jp": "ムジンとう",
-   "en": ""
+   "en": "Isleblade",
+   "status": "done"
   },
   {
    "id": "EXE:7D570",
    "slot": 23,
    "max": 8,
    "jp": "まるひファイル",
-   "en": ""
+   "en": "Hush File",
+   "status": "done"
   },
   {
    "id": "EXE:7D580",
    "slot": 24,
    "max": 8,
    "jp": "ヌケガケロッド",
-   "en": ""
+   "en": "Headstartod",
+   "status": "done"
   },
   {
    "id": "EXE:7D590",
    "slot": 25,
    "max": 8,
    "jp": "フライングロッド",
-   "en": ""
+   "en": "Flyaheadrod",
+   "status": "done"
   },
   {
    "id": "EXE:7D5A0",
@@ -198,112 +222,128 @@
    "slot": 27,
    "max": 8,
    "jp": "キカンデスタイ",
-   "en": ""
+   "en": "Immuni-Tie",
+   "status": "done"
   },
   {
    "id": "EXE:7D5C0",
    "slot": 28,
    "max": 8,
    "jp": "勇気のあかし",
-   "en": ""
+   "en": "Proof of Courage",
+   "status": "done"
   },
   {
    "id": "EXE:7D5D0",
    "slot": 29,
    "max": 8,
    "jp": "マジックリスタル",
-   "en": ""
+   "en": "Magicrystal",
+   "status": "done"
   },
   {
    "id": "EXE:7D5E0",
    "slot": 30,
    "max": 8,
    "jp": "龍神水",
-   "en": ""
+   "en": "Dragon God Water",
+   "status": "done"
   },
   {
    "id": "EXE:7D5F0",
    "slot": 31,
    "max": 8,
    "jp": "オタスケボー",
-   "en": ""
+   "en": "Skate Aid",
+   "status": "done"
   },
   {
    "id": "EXE:7D600",
    "slot": 32,
    "max": 8,
    "jp": "アタリマセンサー",
-   "en": ""
+   "en": "Missensor",
+   "status": "done"
   },
   {
    "id": "EXE:7D610",
    "slot": 33,
    "max": 8,
    "jp": "マッスルストーン",
-   "en": ""
+   "en": "MuscleStone",
+   "status": "done"
   },
   {
    "id": "EXE:7D620",
    "slot": 34,
    "max": 8,
    "jp": "スーパーストーン",
-   "en": ""
+   "en": "Super Stone",
+   "status": "done"
   },
   {
    "id": "EXE:7D630",
    "slot": 35,
    "max": 8,
    "jp": "ガードストーン",
-   "en": ""
+   "en": "Guard Stone",
+   "status": "done"
   },
   {
    "id": "EXE:7D640",
    "slot": 36,
    "max": 8,
    "jp": "バリアストーン",
-   "en": ""
+   "en": "Ward Stone",
+   "status": "done"
   },
   {
    "id": "EXE:7D650",
    "slot": 37,
    "max": 8,
    "jp": "シーフストーン",
-   "en": ""
+   "en": "Thief Stone",
+   "status": "done"
   },
   {
    "id": "EXE:7D660",
    "slot": 38,
    "max": 8,
    "jp": "マジックーポン",
-   "en": ""
+   "en": "Magicoupon",
+   "status": "done"
   },
   {
    "id": "EXE:7D670",
    "slot": 39,
    "max": 8,
    "jp": "リンリンマックス",
-   "en": ""
+   "en": "Rin-Rin Max",
+   "status": "done"
   },
   {
    "id": "EXE:7D680",
    "slot": 40,
    "max": 8,
    "jp": "デルデルーレット",
-   "en": ""
+   "en": "Outroulette",
+   "status": "done"
   },
   {
    "id": "EXE:7D690",
    "slot": 41,
    "max": 8,
    "jp": "カワセンス",
-   "en": ""
+   "en": "Evasifan",
+   "status": "done"
   },
   {
    "id": "EXE:7D6A0",
    "slot": 42,
    "max": 8,
    "jp": "ストップラン",
-   "en": ""
+   "en": "Stoprun",
+   "status": "done"
   },
   {
    "id": "EXE:7D6B0",
@@ -317,105 +357,120 @@
    "slot": 44,
    "max": 8,
    "jp": "あがってマスク",
-   "en": ""
+   "en": "Mask Me Up",
+   "status": "done"
   },
   {
    "id": "EXE:7D6D0",
    "slot": 45,
    "max": 8,
    "jp": "ガッツまようじ",
-   "en": ""
+   "en": "Gritpick",
+   "status": "done"
   },
   {
    "id": "EXE:7D6E0",
    "slot": 46,
    "max": 8,
    "jp": "どこんジョウロ",
-   "en": ""
+   "en": "Gutsprinkler",
+   "status": "done"
   },
   {
    "id": "EXE:7D6F0",
    "slot": 47,
    "max": 8,
    "jp": "ゆるしてチョーク",
-   "en": ""
+   "en": "Chalk It Up",
+   "status": "done"
   },
   {
    "id": "EXE:7D700",
    "slot": 48,
    "max": 8,
    "jp": "ナカヨシンジュ",
-   "en": ""
+   "en": "Pearlmates",
+   "status": "done"
   },
   {
    "id": "EXE:7D710",
    "slot": 49,
    "max": 8,
    "jp": "宝アルカネ",
-   "en": ""
+   "en": "Loot 'n' Behold",
+   "status": "done"
   },
   {
    "id": "EXE:7D720",
    "slot": 50,
    "max": 8,
    "jp": "サクヤしんしょ",
-   "en": ""
+   "en": "Sakuya's Manual",
+   "status": "done"
   },
   {
    "id": "EXE:7D730",
    "slot": 51,
    "max": 8,
    "jp": "ヒミコミック",
-   "en": ""
+   "en": "Himikomix",
+   "status": "done"
   },
   {
    "id": "EXE:7D740",
    "slot": 52,
    "max": 8,
    "jp": "ドーピングミ",
-   "en": ""
+   "en": "Dopingummy",
+   "status": "done"
   },
   {
    "id": "EXE:7D750",
    "slot": 53,
    "max": 8,
    "jp": "ガードロップ",
-   "en": ""
+   "en": "Guardrop",
+   "status": "done"
   },
   {
    "id": "EXE:7D760",
    "slot": 54,
    "max": 8,
    "jp": "テツジンタン",
-   "en": ""
+   "en": "Ironmint",
+   "status": "done"
   },
   {
    "id": "EXE:7D770",
    "slot": 55,
    "max": 8,
    "jp": "ハヤテイン",
-   "en": ""
+   "en": "Swiftamine",
+   "status": "done"
   },
   {
    "id": "EXE:7D780",
    "slot": 56,
    "max": 8,
    "jp": "勇気のミ",
-   "en": ""
+   "en": "Courage Nut",
+   "status": "done"
   },
   {
    "id": "EXE:7D790",
    "slot": 57,
    "max": 8,
    "jp": "ライフルーツ",
-   "en": ""
+   "en": "Lifefruit",
+   "status": "done"
   },
   {
    "id": "EXE:7D7A0",
    "slot": 58,
    "max": 8,
    "jp": "マジカリンゴ",
-   "en": ""
+   "en": "Magicapple",
+   "status": "done"
   }
  ]
 }

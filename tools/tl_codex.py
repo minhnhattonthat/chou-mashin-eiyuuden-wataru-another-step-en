@@ -6,6 +6,9 @@ so it gets every file it needs inside the prompt and answers in its last message
            work/tl/bNNN.report.txt (NEW TERM / UNSURE lines)
     python -X utf8 tools/tl_codex.py review PAIRS.txt .. [--jobs 4]
         -> PAIRS.review.md (docs/reviewer-brief.md applied to one pairs file)
+    python -X utf8 tools/tl_codex.py fix bNNN ..      merged English -> .out.tsv, failing rows back through codex
+    python -X utf8 tools/tl_codex.py revise bNNN ..   Critical/Important of work/tl/bNNN.pairs.review.md back
+        through codex (then the check loop); Minor lines appended to docs/polish.md. Merge with --overwrite after.
 """
 import re
 import shutil  # codex is codex.cmd on Windows: which() finds it, a bare name doesn't
@@ -60,11 +63,14 @@ def translate(batch, tries):
            "Do not use any tools. Translate every row. Reply with ONLY the output TSV (id<TAB>English, line breaks "
            "as the two characters \\n), every id once in order; after it, optional lines starting with "
            "'NEW TERM: ' or 'UNSURE: '.")
-    rows, report = {}, []
+    out = TL / f"{batch}.out.tsv"
+    rows = parse(out.read_text(encoding="utf-8"), set(ids)) if out.exists() else {}
+    report = []
     for attempt in range(tries):
-        text = codex(ask, TL / f"{batch}.last.txt")
-        rows.update(parse(text, set(ids)))
-        report += [ln for ln in text.splitlines() if ln.startswith(("NEW TERM:", "UNSURE:"))]
+        if attempt or len(rows) < len(ids):  # a complete .out.tsv (fix mode) goes straight to the check
+            text = codex(ask, TL / f"{batch}.last.txt")
+            rows.update(parse(text, set(ids)))
+            report += [ln for ln in text.splitlines() if ln.startswith(("NEW TERM:", "UNSURE:"))]
         (TL / f"{batch}.out.tsv").write_text("".join(f"{i}\t{rows[i]}\n" for i in ids if i in rows), encoding="utf-8")
         bad, _ = batches.check_batch(batch, batches.index(), batches.glossary())
         missing = [i for i in ids if i not in rows]
@@ -83,7 +89,8 @@ def translate(batch, tries):
                        for i in fix) +
                "Do not use any tools. Reply with ONLY corrected TSV rows (id<TAB>English) for exactly these ids. Keep "
                "the meaning; re-break or rephrase to fit; never drop content.")
-    (TL / f"{batch}.report.txt").write_text("\n".join(report) + "\n", encoding="utf-8")
+    if report or not (TL / f"{batch}.report.txt").exists():
+        (TL / f"{batch}.report.txt").write_text("\n".join(report) + "\n", encoding="utf-8")
     bad, _ = batches.check_batch(batch, batches.index(), batches.glossary())
     return batch, len(bad)
 
@@ -98,13 +105,64 @@ def review(pairs):
     return p.name, 0
 
 
+ID = re.compile(r"\b(?:R\d\d|EXE|ST|TTL|LVUP|FDS|BALLBAT|MACHINE|ENE\d\d):[0-9A-F]{5}\b")
+
+
+def findings(text):
+    """(Critical+Important lines, Minor lines) of a review report."""
+    major, minor, sec = [], [], None
+    for line in text.splitlines():
+        h = line.lstrip("#").strip().lower()
+        if line.startswith("#"):
+            sec = "major" if h.startswith(("critical", "important")) else "minor" if h.startswith("minor") else None
+        elif sec and ID.search(line):
+            (major if sec == "major" else minor).append(line.strip())
+    return major, minor
+
+
+def revise(batch, tries):
+    """Critical/Important review findings back through codex, then the usual check loop. Minors -> docs/polish.md."""
+    rev = TL / f"{batch}.pairs.review.md"
+    major, minor = findings(rev.read_text(encoding="utf-8"))
+    if minor:
+        with (ROOT / "docs/polish.md").open("a", encoding="utf-8") as f:
+            f.write("".join(f"- [ ] {batch} {m.lstrip('-* ')}\n" for m in minor))
+    refresh(batch)
+    if major:
+        tsv = {ln.split("\t")[0]: ln for ln in (TL / f"{batch}.tsv").read_text(encoding="utf-8").splitlines() if ln}
+        out = TL / f"{batch}.out.tsv"
+        rows = parse(out.read_text(encoding="utf-8"), set(tsv))
+        hit = [i for i in tsv if any(i in m for m in major)]
+        terms = (ROOT / f"build/terms_{batch}.txt").read_text(encoding="utf-8")
+        ask = (context() + f"=== build/terms_{batch}.txt ===\n{terms}\n"
+               "A reviewer flagged these rows. Rows (input TSV) with the current English:\n" +
+               "".join(f"{tsv[i]}\nEN: {rows[i]}\n\n" for i in hit) + "Findings:\n" + "\n".join(major) +
+               "\n\nDo not use any tools. Reply with ONLY corrected TSV rows (id<TAB>English) for these ids, fixing "
+               "each finding (the suggestion is a guide; keep every limit).")
+        rows.update(parse(codex(ask, TL / f"{batch}.last.txt"), set(hit)))
+        out.write_text("".join(f"{i}\t{rows[i]}\n" for i in tsv if i in rows), encoding="utf-8")
+    return translate(batch, tries)
+
+
+def refresh(batch):
+    """fix mode: .out.tsv from the English merged in script/, so the check runs on what ships."""
+    ix = batches.index()
+    ids = [r[0] for r in batches.read_tsv(TL / f"{batch}.tsv")]
+    (TL / f"{batch}.out.tsv").write_text("".join(f"{i}\t" + ix[i].get("en", "").replace("\n", "\\n") + "\n"
+                                                 for i in ids), encoding="utf-8")
+
+
 def main(argv):
-    if len(argv) < 2 or argv[0] not in ("tl", "review"):
+    if len(argv) < 2 or argv[0] not in ("tl", "review", "fix", "revise"):
         sys.exit(__doc__)
+    if argv[0] == "fix":  # failing merged rows back through codex, then merged over the old English
+        for b in [a for a in argv[1:] if a.startswith("b")]:
+            refresh(b)
+        argv = ["tl"] + argv[1:]
     opt = lambda k, d: int(argv[argv.index(k) + 1]) if k in argv else d  # noqa: E731
     names = [a for i, a in enumerate(argv[1:], 1) if not a.startswith("--") and not argv[i - 1].startswith("--")]
     jobs, tries = opt("--jobs", 6), opt("--tries", 3)
-    work = (lambda b: translate(b, tries)) if argv[0] == "tl" else review
+    work = {"tl": lambda b: translate(b, tries), "revise": lambda b: revise(b, tries), "review": review}[argv[0]]
 
     def fn(name):
         try:

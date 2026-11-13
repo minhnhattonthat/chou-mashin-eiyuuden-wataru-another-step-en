@@ -8,7 +8,8 @@
    "max": 7,
    "len_at": "03501",
    "jp": "ファックスメン",
-   "en": ""
+   "en": "Faxmen",
+   "status": "done"
   },
   {
    "id": "ENE01:034B4",
@@ -16,21 +17,24 @@
    "max": 10,
    "len_at": "03515",
    "jp": "ファックスメンサイコ",
-   "en": ""
+   "en": "Psy-Faxmen",
+   "status": "done"
   },
   {
    "id": "ENE01:034C8",
    "kind": "bname",
    "max": 11,
    "jp": "ファックスメン",
-   "en": ""
+   "en": "Faxmen",
+   "status": "done"
   },
   {
    "id": "ENE01:034D4",
    "kind": "bname",
    "max": 11,
    "jp": "ファックスメンサイコ",
-   "en": ""
+   "en": "Psy-Faxmen",
+   "status": "done"
   }
  ]
 }

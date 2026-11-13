@@ -23,35 +23,40 @@
    "slot": 2,
    "max": 16,
    "jp": "おじいさんのために",
-   "en": ""
+   "en": "For the old man:",
+   "status": "done"
   },
   {
    "id": "EXE:7CFD4",
    "slot": 3,
    "max": 16,
    "jp": "とってきたはし。",
-   "en": ""
+   "en": "the chopsticks we fetched.",
+   "status": "done"
   },
   {
    "id": "EXE:7CFF4",
    "slot": 4,
    "max": 16,
    "jp": "村はずれのそうこから、",
-   "en": ""
+   "en": "From the village-edge warehouse,",
+   "status": "done"
   },
   {
    "id": "EXE:7D014",
    "slot": 5,
    "max": 16,
    "jp": "カネワローンへちか道できる。",
-   "en": ""
+   "en": "take a shortcut to Kanewa Loans.",
+   "status": "done"
   },
   {
    "id": "EXE:7D034",
    "slot": 6,
    "max": 16,
    "jp": "ぎんのすけをよぶことができる。",
-   "en": ""
+   "en": "Can be used to call Ginnosuke.",
+   "status": "done"
   },
   {
    "id": "EXE:7D054",
@@ -65,182 +70,208 @@
    "slot": 8,
    "max": 16,
    "jp": "キサクのいえにいくのにひつよう。",
-   "en": ""
+   "en": "Needed to reach Kisaku's house.",
+   "status": "done"
   },
   {
    "id": "EXE:7D094",
    "slot": 9,
    "max": 16,
    "jp": "見はりをどかすことができる。",
-   "en": ""
+   "en": "Gets the guard out of the way.",
+   "status": "done"
   },
   {
    "id": "EXE:7D0B4",
    "slot": 10,
    "max": 16,
    "jp": "超おもしろカッコいい[0221]の",
-   "en": ""
+   "en": "For a super fun, cool [0221]",
+   "status": "done"
   },
   {
    "id": "EXE:7D0D4",
    "slot": 11,
    "max": 16,
    "jp": "スーツを作るのにひつよう。",
-   "en": ""
+   "en": "suit, this material is needed.",
+   "status": "done"
   },
   {
    "id": "EXE:7D0F4",
    "slot": 12,
    "max": 16,
    "jp": "さいせき場にいくのにひつよう。",
-   "en": ""
+   "en": "Needed to reach the quarry.",
+   "status": "done"
   },
   {
    "id": "EXE:7D114",
    "slot": 13,
    "max": 16,
    "jp": "超おもしろカッコいいタイになる。",
-   "en": ""
+   "en": "Becomes a super fun, cool tie.",
+   "status": "done"
   },
   {
    "id": "EXE:7D134",
    "slot": 14,
    "max": 16,
    "jp": "コミック創界山に入るときに",
-   "en": ""
+   "en": "To enter Comic Sokaizan,",
+   "status": "done"
   },
   {
    "id": "EXE:7D154",
    "slot": 15,
    "max": 16,
    "jp": "ひつよう。",
-   "en": ""
+   "en": "you need this.",
+   "status": "done"
   },
   {
    "id": "EXE:7D174",
    "slot": 16,
    "max": 16,
    "jp": "モーレツなワタノレファンに",
-   "en": ""
+   "en": "For a die-hard VVataru fan:",
+   "status": "done"
   },
   {
    "id": "EXE:7D194",
    "slot": 17,
    "max": 16,
    "jp": "たのまれたホン。",
-   "en": ""
+   "en": "the book they requested.",
+   "status": "done"
   },
   {
    "id": "EXE:7D1B4",
    "slot": 18,
    "max": 16,
    "jp": "オシシのへやの前にいる",
-   "en": ""
+   "en": "The man outside Oshishi's room",
+   "status": "done"
   },
   {
    "id": "EXE:7D1D4",
    "slot": 19,
    "max": 16,
    "jp": "おじさんをどかすことができる。",
-   "en": ""
+   "en": "can be made to move with this.",
+   "status": "done"
   },
   {
    "id": "EXE:7D1F4",
    "slot": 20,
    "max": 16,
    "jp": "ファンクラブカイホウ。",
-   "en": ""
+   "en": "A fan club newsletter.",
+   "status": "done"
   },
   {
    "id": "EXE:7D214",
    "slot": 21,
    "max": 16,
    "jp": "できはサイテー。",
-   "en": ""
+   "en": "The quality is terrible.",
+   "status": "done"
   },
   {
    "id": "EXE:7D234",
    "slot": 22,
    "max": 16,
    "jp": "ファンクラブカイホウ。",
-   "en": ""
+   "en": "A fan club newsletter.",
+   "status": "done"
   },
   {
    "id": "EXE:7D254",
    "slot": 23,
    "max": 16,
    "jp": "できは中ぐらい。",
-   "en": ""
+   "en": "The quality is average.",
+   "status": "done"
   },
   {
    "id": "EXE:7D274",
    "slot": 24,
    "max": 16,
    "jp": "ファンクラブカイホウ。",
-   "en": ""
+   "en": "A fan club newsletter.",
+   "status": "done"
   },
   {
    "id": "EXE:7D294",
    "slot": 25,
    "max": 16,
    "jp": "できはサイコー。",
-   "en": ""
+   "en": "The quality is outstanding.",
+   "status": "done"
   },
   {
    "id": "EXE:7D2B4",
    "slot": 26,
    "max": 16,
    "jp": "龍神[01AF]を天翔龍神[01AF]に",
-   "en": ""
+   "en": "Ryujinmaru -> Tensho Ryujinmaru",
+   "status": "done"
   },
   {
    "id": "EXE:7D2D4",
    "slot": 27,
    "max": 16,
    "jp": "パワーアップさせるのに使う。",
-   "en": ""
+   "en": "Used to make this upgrade.",
+   "status": "done"
   },
   {
    "id": "EXE:7D2F4",
    "slot": 28,
    "max": 16,
    "jp": "龍神[01AF]を天翔龍神[01AF]に",
-   "en": ""
+   "en": "Ryujinmaru -> Tensho Ryujinmaru",
+   "status": "done"
   },
   {
    "id": "EXE:7D314",
    "slot": 29,
    "max": 16,
    "jp": "パワーアップさせるのに使う。",
-   "en": ""
+   "en": "Used to make this upgrade.",
+   "status": "done"
   },
   {
    "id": "EXE:7D334",
    "slot": 30,
    "max": 16,
    "jp": "龍神[01AF]を天翔龍神[01AF]に",
-   "en": ""
+   "en": "Ryujinmaru -> Tensho Ryujinmaru",
+   "status": "done"
   },
   {
    "id": "EXE:7D354",
    "slot": 31,
    "max": 16,
    "jp": "パワーアップさせるのに使う。",
-   "en": ""
+   "en": "Used to make this upgrade.",
+   "status": "done"
   },
   {
    "id": "EXE:7D374",
    "slot": 32,
    "max": 16,
    "jp": "[0226]之[0228]からもらったメダル。",
-   "en": ""
+   "en": "A medal from [0226]no[0228].",
+   "status": "done"
   },
   {
    "id": "EXE:7D394",
    "slot": 33,
    "max": 16,
    "jp": "これで村[01D3]が[0231]手にしてくれる。",
-   "en": ""
+   "en": "Now the villagers will heed you.",
+   "status": "done"
   }
  ]
 }

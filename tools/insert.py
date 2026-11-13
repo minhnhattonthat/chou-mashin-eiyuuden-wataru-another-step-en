@@ -163,7 +163,7 @@ def put(bufs, orig, path, off, data, by):
     buf[off:off + len(data)] = data
 
 
-def edits(qa=None):
+def edits(qa=None, english=True):
     """{disc path: new bytes}. qa: {id: text} overrides (stress lines for the width gate), still in place;
     a key '+ID' may run past the slot over the strings after it (tools/stress.py)."""
     WRITES.clear()
@@ -172,7 +172,7 @@ def edits(qa=None):
     ents = entries()
     texts, uses, rows = [], {}, []
     for num, (e, path, off, words, avail, nl, ctx) in enumerate(ents, 1):
-        text = qa.get(e["id"]) or qa.get("+" + e["id"]) or e.get("en") or None
+        text = qa.get(e["id"]) or qa.get("+" + e["id"]) or (e.get("en") if english else None) or None
         if text and e["id"] not in qa and "+" + e["id"] not in qa and \
                 (len(text) if ctx == "BF" else len(cells(text, nl))) > avail:
             # shortcut: English past its JP slot shows the marker until phase 7 grows slots (work/overflow.tsv)
@@ -185,7 +185,15 @@ def edits(qa=None):
         rows.append(f"{num}\t{e['id']}\t{e['jp']!r}")
         if ctx != "BF":
             uses.setdefault(ctx, set()).update(c for c in cells(text, nl) if isinstance(c, str))
-    codes = allocate(uses)
+    try:
+        codes = allocate(uses)
+    except SystemExit as err:
+        if not english:
+            raise
+        # shortcut: the script's English needs more letter pairs than the fonts hold; markers until phase 7's
+        # font work (single-letter fallback cells / per-scene pair loading) makes room
+        print(f"{err}: English withheld, marker build", file=sys.stderr)
+        return edits(qa, english=False)
     orig, bufs, errors = {}, {}, []
 
     def load(path):

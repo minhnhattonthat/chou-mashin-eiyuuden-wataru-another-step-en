@@ -9,35 +9,40 @@
    "slot": 0,
    "max": 7,
    "jp": "なんでやねん",
-   "en": ""
+   "en": "What the heck?",
+   "status": "done"
   },
   {
    "id": "FDS:1855E",
    "slot": 1,
    "max": 7,
    "jp": "さ、さむー",
-   "en": ""
+   "en": "Brrr... Lame!",
+   "status": "done"
   },
   {
    "id": "FDS:1856C",
    "slot": 2,
    "max": 7,
    "jp": "やってられんわ",
-   "en": ""
+   "en": "I've had it!",
+   "status": "done"
   },
   {
    "id": "FDS:1857A",
    "slot": 3,
    "max": 7,
    "jp": "アホかいな",
-   "en": ""
+   "en": "Are you nuts?",
+   "status": "done"
   },
   {
    "id": "FDS:18588",
    "slot": 4,
    "max": 7,
    "jp": "なんじゃそらー",
-   "en": ""
+   "en": "What's THAT?!",
+   "status": "done"
   }
  ]
 }

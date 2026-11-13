@@ -8,7 +8,8 @@
    "max": 8,
    "len_at": "0201D",
    "jp": "がんこジュッテツ",
-   "en": ""
+   "en": "Ironwill",
+   "status": "done"
   },
   {
    "id": "ENE12:01F74",
@@ -16,7 +17,8 @@
    "max": 11,
    "len_at": "02031",
    "jp": "おもいこんだジュッテツ",
-   "en": ""
+   "en": "Ironmind",
+   "status": "done"
   },
   {
    "id": "ENE12:01F8C",
@@ -24,7 +26,8 @@
    "max": 8,
    "len_at": "02045",
    "jp": "おとこジュッテツ",
-   "en": ""
+   "en": "Ironman",
+   "status": "done"
   },
   {
    "id": "ENE12:01F9C",
@@ -32,35 +35,40 @@
    "max": 11,
    "len_at": "02059",
    "jp": "どこんじょうジュッテツ",
-   "en": ""
+   "en": "Ironguts",
+   "status": "done"
   },
   {
    "id": "ENE12:01FB4",
    "kind": "bname",
    "max": 11,
    "jp": "がんこジュッテツ",
-   "en": ""
+   "en": "Ironwill",
+   "status": "done"
   },
   {
    "id": "ENE12:01FC0",
    "kind": "bname",
    "max": 11,
    "jp": "おもいこんだジュッテツ",
-   "en": ""
+   "en": "Ironmind",
+   "status": "done"
   },
   {
    "id": "ENE12:01FCC",
    "kind": "bname",
    "max": 11,
    "jp": "おとこジュッテツ",
-   "en": ""
+   "en": "Ironman",
+   "status": "done"
   },
   {
    "id": "ENE12:01FD8",
    "kind": "bname",
    "max": 11,
    "jp": "どこんじょうジュッテツ",
-   "en": ""
+   "en": "Ironguts",
+   "status": "done"
   }
  ]
 }

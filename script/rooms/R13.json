@@ -8,7 +8,8 @@
    "kind": "code",
    "end": "2000",
    "jp": "ワルジョ：\nまーたきたわね。",
-   "en": ""
+   "en": "Warujo:\nBack agaaain, are you?",
+   "status": "done"
   },
   {
    "id": "R13:1679E",
@@ -16,7 +17,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "前にもやったから、\n説明はなしよ。",
-   "en": ""
+   "en": "You've done this before,\nso I'll skip the explanation.",
+   "status": "done"
   },
   {
    "id": "R13:167C2",
@@ -24,7 +26,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "さあ、はやいところ、\nクリアしてちょうだい。",
-   "en": ""
+   "en": "Now hurry up and\nget through it, would you?",
+   "status": "done"
   },
   {
    "id": "R13:167F0",
@@ -32,7 +35,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "このパネルをめくりますか？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Flip this panel?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R13:16828",
@@ -40,7 +44,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワルジョ：\nおーほっほっほ。\nここまで来たことほめてあげるわ。",
-   "en": ""
+   "en": "Warujo:\nOh ho ho ho!\nWell done making it this far.",
+   "status": "done"
   },
   {
    "id": "R13:16868",
@@ -48,7 +53,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "でもね、おあそびはもうおわり。",
-   "en": ""
+   "en": "But playtime is over, dears.",
+   "status": "done"
   },
   {
    "id": "R13:16888",
@@ -56,7 +62,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おつむの弱いぼうやたちには\nとてもむずかしいトラップを\nよういしたわ。",
-   "en": ""
+   "en": "I've prepared a terribly\ntricky trap for you\nlittle dimwits.",
+   "status": "done"
   },
   {
    "id": "R13:168D0",
@@ -64,7 +71,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "部屋の床をごらんなさい。\nパネルがあるでしょ。",
-   "en": ""
+   "en": "Look at the floor.\nSee those panels?",
+   "status": "done"
   },
   {
    "id": "R13:16900",
@@ -72,7 +80,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "このパネルをめくると、\n私達４人とお父さまの給が\nあらわれるわ。",
-   "en": ""
+   "en": "Flip them over, and you'll see\npictures of us four sisters\nand Father-sama.",
+   "status": "done"
   },
   {
    "id": "R13:16942",
@@ -80,7 +89,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "パネルを２枚づつ開いて、\nおなじ給が出ればオーケーよ。\nちがう給だったら・・・うふふ。",
-   "en": ""
+   "en": "Flip two panels at a time.\nMatch the pictures, and you're\nfine. If they differ... Hee hee.",
+   "status": "done"
   },
   {
    "id": "R13:1699A",
@@ -88,7 +98,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "パネルは、その上で○ボタンを\n押せば、開くわ。\nあなたたちに解けるかしら？",
-   "en": ""
+   "en": "Stand on a panel and press\nthe Circle button to flip it.\nCan you solve my little puzzle?",
+   "status": "done"
   },
   {
    "id": "R13:169E6",
@@ -96,7 +107,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "この先の部屋で待っているわ。\nレディを長く待たせないでね。\nおーほっほっほ。",
-   "en": ""
+   "en": "I'll wait in the room ahead.\nDon't keep a lady waiting long.\nOh ho ho ho!",
+   "status": "done"
   },
   {
    "id": "R13:172EA",
@@ -104,7 +116,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n魔神鍛冶（かじ）ってなんだ？\n魔神湯治場ってどこにあるんだ？",
-   "en": ""
+   "en": "Wataru:\nWhat's a mashin smith?\nWhere's the Mashin Spa?",
+   "status": "done"
   },
   {
    "id": "R13:17340",
@@ -112,7 +125,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n・・・忍部一族に伝わる\n口伝（くでん）があります。",
-   "en": ""
+   "en": "Sakuya:\n...Our Shinobibe clan has\nan oral tradition.",
+   "status": "done"
   },
   {
    "id": "R13:1738C",
@@ -120,7 +134,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「龍の[00DB]身壁（お）つる時、\n創界山地下への扉開かれる。\nそは魔神を鍛えし士地なり。",
-   "en": ""
+   "en": "\"When the dragon's avatar falls,\na gate opens beneath Sokaizan,\nwhere mashin are tempered.",
+   "status": "done"
   },
   {
    "id": "R13:173EE",
@@ -128,7 +143,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍と虎と虹の力により、\n龍の[00DB]身再び天へ翔ぶ」",
-   "en": ""
+   "en": "By the power of dragon, tiger\nand rainbow, the dragon's avatar\nshall soar skyward once more.\"",
+   "status": "done"
   },
   {
    "id": "R13:1742C",
@@ -136,7 +152,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nどういうこと？",
-   "en": ""
+   "en": "Wataru:\nWhat's that mean?",
+   "status": "done"
   },
   {
    "id": "R13:17454",
@@ -144,7 +161,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nつまり、\n龍神丸が倒されると、",
-   "en": ""
+   "en": "Sakuya:\nIn other words,\nwhen Ryujinmaru is defeated,",
+   "status": "done"
   },
   {
    "id": "R13:1748C",
@@ -152,7 +170,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神鍛冶がいる所へ行くことが\n出来るようになる、\nということですわ。",
-   "en": ""
+   "en": "we are able to reach\nthe place where the\nmashin smith resides.",
+   "status": "done"
   },
   {
    "id": "R13:174E0",
@@ -160,7 +179,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "その後の、\n龍と虎と虹の力というのが、\n皆目見当がつきませんけど・・・。",
-   "en": ""
+   "en": "As for the power of the dragon,\ntiger and rainbow, I have\nnot the faintest idea...",
+   "status": "done"
   },
   {
    "id": "R13:17538",
@@ -168,7 +188,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそこに行けば\n龍神丸を直して",
-   "en": ""
+   "en": "Wataru:\nSo if we go there,\nwe can fix Ryujinmaru",
+   "status": "done"
   },
   {
    "id": "R13:1756E",
@@ -176,7 +197,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴトを助けることが\nできるんだね！",
-   "en": ""
+   "en": "and save Aragoto!",
+   "status": "done"
   },
   {
    "id": "R13:175A4",
@@ -184,7 +206,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nええ・・・。",
-   "en": ""
+   "en": "Sakuya:\nYes...",
+   "status": "done"
   },
   {
    "id": "R13:175CA",
@@ -192,7 +215,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "でも、そこがどこにあるかは\n伝わってないんです。",
-   "en": ""
+   "en": "But its location was\nnot passed down to us.",
+   "status": "done"
   },
   {
    "id": "R13:1760A",
@@ -200,7 +224,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "それに創界山に地下があるなんて、\n聞いたことがありませんわ・・・。",
-   "en": ""
+   "en": "Besides, I have never heard\nof any underground realm\nbeneath Sokaizan...",
+   "status": "done"
   },
   {
    "id": "R13:17660",
@@ -208,7 +233,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "なぞのこえ：\nボク知ってるよ。",
-   "en": ""
+   "en": "Mysterious Voice:\nI know where it is.",
+   "status": "done"
   },
   {
    "id": "R13:1768E",
@@ -216,7 +242,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n誰だ！",
-   "en": ""
+   "en": "Wataru:\nWho's there?!",
+   "status": "done"
   },
   {
    "id": "R13:176AE",
@@ -224,7 +251,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "なぞのこえ：\n魔神を直してくれる\n人のコトでしょ？",
-   "en": ""
+   "en": "Mysterious Voice:\nYou mean the person who\nfixes mashin, right?",
+   "status": "done"
   },
   {
    "id": "R13:176F0",
@@ -232,7 +260,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあなたは・・・ワルリーヌさん！",
-   "en": ""
+   "en": "Sakuya:\nYou are... Warurine-san!",
+   "status": "done"
   },
   {
    "id": "R13:17728",
@@ -240,7 +269,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\n【創界山案内ＭＡＰ】って\nいうのに載ってるよ。",
-   "en": ""
+   "en": "Warurine:\nIt's in something called\nthe Sokaizan Guide Map.",
+   "status": "done"
   },
   {
    "id": "R13:17774",
@@ -248,7 +278,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "パパの本棚から\nコッソリ借りて来ちゃったの。",
-   "en": ""
+   "en": "I sneaked it off Papa's\nbookshelf to borrow it.",
+   "status": "done"
   },
   {
    "id": "R13:177B0",
@@ -256,7 +287,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nどうしてここに？",
-   "en": ""
+   "en": "Wataru:\nWhat're you doing here?",
+   "status": "done"
   },
   {
    "id": "R13:177DA",
@@ -264,7 +296,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nだって、パパったら忙しくって\n全然遊んでくれないんだもん。",
-   "en": ""
+   "en": "Warurine:\nWell, Papa's so busy,\nhe never plays with me.",
+   "status": "done"
   },
   {
    "id": "R13:17832",
@@ -272,7 +305,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おっきいお姉ちゃんのところに\n来たら、お姉ちゃん\nデートだって言うし・・・。",
-   "en": ""
+   "en": "I came to see my eldest\nSister-chan, but she said\nshe had a date...",
+   "status": "done"
   },
   {
    "id": "R13:1788E",
@@ -280,7 +314,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だからどうしようかなーって\n思ってたところに、ワタルくんと\nサクヤちゃんがいたの。",
-   "en": ""
+   "en": "I was wondering what to do\nwhen I spotted you, Wataru-kun,\nand Sakuya-chan.",
+   "status": "done"
   },
   {
    "id": "R13:178F0",
@@ -288,7 +323,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nお願いだワルリーヌ。\nその場所を教えてくれないか？",
-   "en": ""
+   "en": "Wataru:\nPlease, Warurine!\nCan you tell us where it is?",
+   "status": "done"
   },
   {
    "id": "R13:1793C",
@@ -296,7 +332,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "創界山の平和が、\nそれに大事な仲間の命が\nかかっているんだ。",
-   "en": ""
+   "en": "Peace in Sokaizan is at stake,\nand so is the life of\na friend who's dear to us.",
+   "status": "done"
   },
   {
    "id": "R13:17988",
@@ -304,7 +341,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nいいよ。",
-   "en": ""
+   "en": "Warurine:\nAll right.",
+   "status": "done"
   },
   {
    "id": "R13:179AE",
@@ -312,7 +350,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n本当ですの？",
-   "en": ""
+   "en": "Sakuya:\nTruly?",
+   "status": "done"
   },
   {
    "id": "R13:179D4",
@@ -320,7 +359,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nその代わり、\nボクも連れてって。",
-   "en": ""
+   "en": "Warurine:\nBut in return,\nyou have to take me along.",
+   "status": "done"
   },
   {
    "id": "R13:17A12",
@@ -328,7 +368,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "一人でさみしかったんだ。",
-   "en": ""
+   "en": "I've been so lonely on my own.",
+   "status": "done"
   },
   {
    "id": "R13:17A50",
@@ -336,7 +377,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神鍛冶：\nお客さんとは、めずらしいのう。\n魔神を直しに来たのかね？",
-   "en": ""
+   "en": "Mashin Smith:\nA customer-san? How unusual!\nHere to have a mashin repaired?",
+   "status": "done"
   },
   {
    "id": "R13:17AA4",
@@ -344,7 +386,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nボクは救世主ワタル。",
-   "en": ""
+   "en": "Wataru:\nI'm Wataru, the Savior.",
+   "status": "done"
   },
   {
    "id": "R13:17AD2",
@@ -352,7 +395,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "創界山を【ワルモンダー】の魔の\n手から救うために戦っているんだ。\nでも、ボクの龍神丸が・・・。",
-   "en": ""
+   "en": "I'm fighting to free Sokaizan\nfrom Warumonder's evil grip.\nBut my Ryujinmaru...",
+   "status": "done"
   },
   {
    "id": "R13:17B40",
@@ -360,7 +404,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "じいさん、ボクの龍神丸を\n直して欲しいんだ！！",
-   "en": ""
+   "en": "Gramps, I need you\nto fix my Ryujinmaru!!",
+   "status": "done"
   },
   {
    "id": "R13:17B7E",
@@ -368,7 +413,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸の力がなければ、\nアラゴトおじさんや、創界山の\nみんなを救うことができないよ！",
-   "en": ""
+   "en": "Without Ryujinmaru's power,\nI can't save Aragoto or everyone\nin Sokaizan!",
+   "status": "done"
   },
   {
    "id": "R13:17BE2",
@@ -376,7 +422,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神鍛冶：\n救世主のあやつる魔神・・・。\n龍神丸か・・・・・・。",
-   "en": ""
+   "en": "Mashin Smith:\nThe Savior's mashin...\nRyujinmaru, eh...",
+   "status": "done"
   },
   {
    "id": "R13:17C32",
@@ -384,7 +431,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "いくら、うでの立つワシでも\nそうたやすくは直せんぞ。",
-   "en": ""
+   "en": "Even with all my skill,\nthat'll be no easy repair.",
+   "status": "done"
   },
   {
    "id": "R13:17C76",
@@ -392,7 +440,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お主の言う龍神丸とやらを\n直すには、それなりのものが\n必要なはずじゃ。",
-   "en": ""
+   "en": "Repairing this Ryujinmaru\nof yours will surely call\nfor something special.",
+   "status": "done"
   },
   {
    "id": "R13:17CCC",
@@ -400,7 +449,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれは一体、何でございますの？",
-   "en": ""
+   "en": "Sakuya:\nAnd what exactly might that be?",
+   "status": "done"
   },
   {
    "id": "R13:17D04",
@@ -408,7 +458,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神鍛冶：\nさあな・・・。何かのアイテムか\n・・・あるいは・・・。",
-   "en": ""
+   "en": "Mashin Smith:\nWho knows... Some sort of item,\nperhaps... Or else...",
+   "status": "done"
   },
   {
    "id": "R13:17D56",
@@ -416,7 +467,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれは、【龍と虎と虹の力】の\nことでしょうか・・・？",
-   "en": ""
+   "en": "Sakuya:\nCould you mean the power of\ndragon, tiger and rainbow...?",
+   "status": "done"
   },
   {
    "id": "R13:17DA4",
@@ -424,7 +476,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神鍛冶：\nう～む・・・。",
-   "en": ""
+   "en": "Mashin Smith:\nHmm...",
+   "status": "done"
   },
   {
    "id": "R13:17DCE",
@@ -432,7 +485,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "いずれにせよ、\nこれは救世主自身のモンダイじゃ。",
-   "en": ""
+   "en": "In any case, this is a matter\nfor the Savior himself.",
+   "status": "done"
   },
   {
    "id": "R13:17E0E",
@@ -440,7 +494,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nボク自身の・・・？",
-   "en": ""
+   "en": "Wataru:\nFor me...?",
+   "status": "done"
   },
   {
    "id": "R13:17E3A",
@@ -448,7 +503,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神鍛冶：\nそうじゃ。魔神の強さ、それは\nあやつる者の強さでもあるのじゃ。",
-   "en": ""
+   "en": "Mashin Smith:\nAye. A mashin's strength is also\nthe strength of its pilot.",
+   "status": "done"
   },
   {
    "id": "R13:17E94",
@@ -456,7 +512,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "力や技の強さだけではない。\n心の強さも、魔神の復活に\n必要となるであろう。",
-   "en": ""
+   "en": "Not just strength or skill.\nStrength of heart is needed,\ntoo, to revive a mashin.",
+   "status": "done"
   },
   {
    "id": "R13:17EEE",
@@ -464,7 +521,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "救世主のレベルアップは、同時に、\n魔神のパワーアップでも\nあるはずじゃ。",
-   "en": ""
+   "en": "When the Savior levels up,\nhis mashin should also\ngrow stronger.",
+   "status": "done"
   },
   {
    "id": "R13:17F46",
@@ -472,7 +530,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "救世主ワタルよ、\n龍神丸を救いたくば、\nおのが心に問うてみよ！",
-   "en": ""
+   "en": "Savior Wataru, if you wish\nto save Ryujinmaru,\nsearch your own heart!",
+   "status": "done"
   },
   {
    "id": "R13:17F9A",
@@ -480,7 +539,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nワタルよ、良く聞け。",
-   "en": ""
+   "en": "Ryujinmaru:\nWataru, listen carefully.",
+   "status": "done"
   },
   {
    "id": "R13:17FC8",
@@ -488,7 +548,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n龍神丸！",
-   "en": ""
+   "en": "Wataru:\nRyujinmaru!",
+   "status": "done"
   },
   {
    "id": "R13:17FEA",
@@ -496,7 +557,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n私を復活させるには、\n３つの力が必要なのだ。",
-   "en": ""
+   "en": "Ryujinmaru:\nTo revive me,\nyou must gather three powers.",
+   "status": "done"
   },
   {
    "id": "R13:18030",
@@ -504,7 +566,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n３つの・・・ちから？",
-   "en": ""
+   "en": "Wataru:\nThree... powers?",
+   "status": "done"
   },
   {
    "id": "R13:1805E",
@@ -512,7 +575,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nそうだ、",
-   "en": ""
+   "en": "Ryujinmaru:\nYes.",
+   "status": "done"
   },
   {
    "id": "R13:18080",
@@ -520,7 +584,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「人々を守るための戦う力」、\n「人々を救うための知の力」、",
-   "en": ""
+   "en": "\"Strength to fight for people\",\n\"wisdom to save people\",",
+   "status": "done"
   },
   {
    "id": "R13:180CA",
@@ -528,7 +593,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そして、\n「人々の魂を奮わせる心の力」。\nその３つの力を集めるのだ。",
-   "en": ""
+   "en": "and \"the heart to stir\npeople's souls\".\nGather these three powers.",
+   "status": "done"
   },
   {
    "id": "R13:1811E",
@@ -536,7 +602,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そのとき私は、\n再びおまえの助けになろう。",
-   "en": ""
+   "en": "Then I shall be able\nto aid you once more.",
+   "status": "done"
   },
   {
    "id": "R13:18158",
@@ -544,7 +611,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそれってドコにあるのさ。\nねぇ、龍神丸ぅ。",
-   "en": ""
+   "en": "Wataru:\nWhere am I gonna find them?\nHey, Ryujinmaruuu!",
+   "status": "done"
   },
   {
    "id": "R13:1819C",
@@ -552,7 +620,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・龍神丸ったらぁ！",
-   "en": ""
+   "en": "...Come on, Ryujinmaru!",
+   "status": "done"
   },
   {
    "id": "R13:181C2",
@@ -560,7 +629,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n３つのちから・・・。\n探すしかないようですわね。",
-   "en": ""
+   "en": "Sakuya:\nThree powers...\nWe have no choice but to search.",
+   "status": "done"
   },
   {
    "id": "R13:18224",
@@ -568,7 +638,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nワタル、\nここではお前の【戦う力】を試す。",
-   "en": ""
+   "en": "Ryujinmaru:\nWataru, here I shall test\nyour fighting power.",
+   "status": "done"
   },
   {
    "id": "R13:18268",
@@ -576,7 +647,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "用意はいいか？",
-   "en": ""
+   "en": "Are you ready?",
+   "status": "done"
   },
   {
    "id": "R13:18286",
@@ -584,7 +656,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "用意はいい？\n１．まっかせてよ！\n２．い、いや、ちょっと待って",
-   "en": ""
+   "en": "Are you ready?\n1. You bet!\n2. N-no, hang on a second!",
+   "status": "done"
   },
   {
    "id": "R13:182D6",
@@ -592,7 +665,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nうん、まっかせてよ！！",
-   "en": ""
+   "en": "Wataru:\nYeah, you bet!!",
+   "status": "done"
   },
   {
    "id": "R13:1830C",
@@ -600,7 +674,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nえっ、いや、ちょっと待ってて。",
-   "en": ""
+   "en": "Wataru:\nHuh? No, hang on a second.",
+   "status": "done"
   },
   {
    "id": "R13:1835C",
@@ -608,7 +683,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nワタル、\nここでは【知の力】が試される。",
-   "en": ""
+   "en": "Ryujinmaru:\nWataru, here your power\nof wisdom will be tested.",
+   "status": "done"
   },
   {
    "id": "R13:1839E",
@@ -616,7 +692,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n【知の力】って・・・なに？",
-   "en": ""
+   "en": "Wataru:\nPower of wisdom? What's that?",
+   "status": "done"
   },
   {
    "id": "R13:183D2",
@@ -624,7 +701,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n私がお前のここまでの\n旅について質問をする。",
-   "en": ""
+   "en": "Ryujinmaru:\nI shall ask you questions\nabout your journey thus far.",
+   "status": "done"
   },
   {
    "id": "R13:18418",
@@ -632,7 +710,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "それにすべて正解するのだ。",
-   "en": ""
+   "en": "You must answer them all\ncorrectly.",
+   "status": "done"
   },
   {
    "id": "R13:18442",
@@ -640,7 +719,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nなーんだ、\nクイズみたいなモンだね。",
-   "en": ""
+   "en": "Wataru:\nOh, that's all?\nIt's like a quiz!",
+   "status": "done"
   },
   {
    "id": "R13:18480",
@@ -648,7 +728,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n用意はいいか？",
-   "en": ""
+   "en": "Ryujinmaru:\nAre you ready?",
+   "status": "done"
   },
   {
    "id": "R13:184A8",
@@ -656,7 +737,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "用意はいい？\n１．まっかせてよ！\n２．え・・・自信ないなぁ",
-   "en": ""
+   "en": "Are you ready?\n1. You bet!\n2. Uh... I'm not so sure.",
+   "status": "done"
   },
   {
    "id": "R13:184F4",
@@ -664,7 +746,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nひとつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nHere is the first question!",
+   "status": "done"
   },
   {
    "id": "R13:18520",
@@ -672,7 +755,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "もんじゃ村で、オババが言っていた\n救世主の言い伝えがある。",
-   "en": ""
+   "en": "In Monja Village, Obaba told\nyou the legend of the Savior.",
+   "status": "done"
   },
   {
    "id": "R13:1856A",
@@ -680,7 +764,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「創界山が危機に陥ったとき、\nそれを救う者が空から降りてきて、\n龍の神と共に悪を倒す。」",
-   "en": ""
+   "en": "\"When Sokaizan faces peril, one\nfrom the sky shall defeat evil\nwith the Dragon God.\"",
+   "status": "done"
   },
   {
    "id": "R13:185D2",
@@ -688,7 +773,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "その者の名は何という？\n　ワタル\n　ワタノレ",
-   "en": ""
+   "en": "What is that person's name?\n  Wataru\n  VVataru",
+   "status": "done"
   },
   {
    "id": "R13:18610",
@@ -696,7 +782,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n正解だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCorrect!",
+   "status": "done"
   },
   {
    "id": "R13:18632",
@@ -704,7 +791,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nふたつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nHere is the second question!",
+   "status": "done"
   },
   {
    "id": "R13:1865E",
@@ -712,7 +800,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ガンボづくし村で、\nサクヤが言っていた言葉がある。",
-   "en": ""
+   "en": "In Ganbozukushi Village,\nSakuya had a saying.",
+   "status": "done"
   },
   {
    "id": "R13:186A0",
@@ -720,7 +809,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「悪銭身につかず」と\n言っていたのだが、",
-   "en": ""
+   "en": "She said,\n\"Ill-gotten gains never last.\"",
+   "status": "done"
   },
   {
    "id": "R13:186D8",
@@ -728,7 +818,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "ああいうのを何という？\n　泡銭（あぶくぜに）\n　あぶらぜみ",
-   "en": ""
+   "en": "What do we call that money?\n  Easy money\n  Easy monkey",
+   "status": "done"
   },
   {
    "id": "R13:18724",
@@ -736,7 +827,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n正解だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCorrect!",
+   "status": "done"
   },
   {
    "id": "R13:18746",
@@ -744,7 +836,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nみっつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nHere is the third question!",
+   "status": "done"
   },
   {
    "id": "R13:18772",
@@ -752,7 +845,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "キャラクターシティーの、\nコミック創界山会場で、",
-   "en": ""
+   "en": "At Comic Sokaizan Hall\nin Character City,",
+   "status": "done"
   },
   {
    "id": "R13:187B2",
@@ -760,7 +854,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "【超魔剣栄光伝ワタノレ】の\n同人誌が売られていた。",
-   "en": ""
+   "en": "a fan comic was on sale:\n'Super Demon Sword Glory\nVVataru'.",
+   "status": "done"
   },
   {
    "id": "R13:187F4",
@@ -768,7 +863,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "ワタノレの仲間の名を答えよ！\n　ヒミコ\n　ツバラク",
-   "en": ""
+   "en": "Name VVataru's companion!\n  Himiko\n  Tsubaraku",
+   "status": "done"
   },
   {
    "id": "R13:18838",
@@ -776,7 +872,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "龍神丸：\n違うぞ！　ワタル！！",
-   "en": ""
+   "en": "Ryujinmaru:\nWrong, Wataru!!",
+   "status": "done"
   },
   {
    "id": "R13:1886C",
@@ -784,7 +881,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n正解だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCorrect!",
+   "status": "done"
   },
   {
    "id": "R13:1888E",
@@ -792,7 +890,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nよっつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nHere is the fourth question!",
+   "status": "done"
   },
   {
    "id": "R13:188BA",
@@ -800,7 +899,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリタウンで、２人の\nワタル達が、一緒に行動する\nことがあった。",
-   "en": ""
+   "en": "In Biribiri Town, the two\nWatarus joined forces\nfor a time.",
+   "status": "done"
   },
   {
    "id": "R13:1890E",
@@ -808,7 +908,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あのとき、ヒミコという者が\n連れていた、",
-   "en": ""
+   "en": "At that time, the girl\ncalled Himiko had with her...",
+   "status": "done"
   },
   {
    "id": "R13:18946",
@@ -816,7 +917,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "もんペットの名を答えよ！\n　トノケロ\n　トノゲロ",
-   "en": ""
+   "en": "What was her Monpet's name?\n  Lord Croak\n  Lord Crock",
+   "status": "done"
   },
   {
    "id": "R13:18988",
@@ -824,7 +926,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n正解だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCorrect!",
+   "status": "done"
   },
   {
    "id": "R13:189AA",
@@ -832,7 +935,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nいつつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nHere is the fifth question!",
+   "status": "done"
   },
   {
    "id": "R13:189D6",
@@ -840,7 +944,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルトリンの城で、ワルトリンは、",
-   "en": ""
+   "en": "At Warutorin's castle,\nWarutorin said...",
+   "status": "done"
   },
   {
    "id": "R13:18A06",
@@ -848,7 +953,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "自分の好きなモノを「好きなだけ」\nと表現することは良くない\nと言っている。",
-   "en": ""
+   "en": "it is wrong to express your love\nfor something by doing it\n\"as much as you like\".",
+   "status": "done"
   },
   {
    "id": "R13:18A60",
@@ -856,7 +962,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "そのとき、人は何をともなうのか？\n　幸せ\n　犠牲（ぎせい）",
-   "en": ""
+   "en": "What does doing so entail?\n  Happiness\n  Sacrifice",
+   "status": "done"
   },
   {
    "id": "R13:18AAC",
@@ -864,7 +971,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "龍神丸：\n違うぞ！　ワタル！！",
-   "en": ""
+   "en": "Ryujinmaru:\nWrong, Wataru!!",
+   "status": "done"
   },
   {
    "id": "R13:18AE0",
@@ -872,7 +980,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n正解だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCorrect!",
+   "status": "done"
   },
   {
    "id": "R13:18B02",
@@ -880,7 +989,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nむっつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nHere is the sixth question!",
+   "status": "done"
   },
   {
    "id": "R13:18B2E",
@@ -888,7 +998,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アスリート村で、\nカール・ジョンソンが\n作ったルールがある。",
-   "en": ""
+   "en": "In Athlete Village,\nCarl Johnson made a rule.",
+   "status": "done"
   },
   {
    "id": "R13:18B7A",
@@ -896,7 +1007,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "それは、「あるものを\n多く持っていると偉い！」\nというものだった。",
-   "en": ""
+   "en": "It was, \"The more you have\nof a certain thing,\nthe more important you are!\"",
+   "status": "done"
   },
   {
    "id": "R13:18BCC",
@@ -904,7 +1016,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "その、あるものを答えよ？\n　鍋メダル\n　金メダル",
-   "en": ""
+   "en": "What was that certain thing?\n  Pot medals\n  Gold medals",
+   "status": "done"
   },
   {
    "id": "R13:18C0E",
@@ -912,7 +1025,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "龍神丸：\n違うぞ！　ワタル！！",
-   "en": ""
+   "en": "Ryujinmaru:\nWrong, Wataru!!",
+   "status": "done"
   },
   {
    "id": "R13:18C42",
@@ -920,7 +1034,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n正解だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCorrect!",
+   "status": "done"
   },
   {
    "id": "R13:18C64",
@@ -928,7 +1043,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nななつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nHere is the seventh question!",
+   "status": "done"
   },
   {
    "id": "R13:18C90",
@@ -936,7 +1052,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アスレチック村で、ワルリリスが\n「オレにとっては、最高の\n誉め言葉だ。」と言っていた。",
-   "en": ""
+   "en": "In Athletic Village, Warulilith\nsaid, \"To me, that's the\nhighest compliment.\"",
+   "status": "done"
   },
   {
    "id": "R13:18CF6",
@@ -944,7 +1061,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "その誉め言葉とは？\n　満\n　男",
-   "en": ""
+   "en": "What was that compliment?\n  Full\n  Man",
+   "status": "done"
   },
   {
    "id": "R13:18D26",
@@ -952,7 +1070,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n正解だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCorrect!",
+   "status": "done"
   },
   {
    "id": "R13:18D48",
@@ -960,7 +1079,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nやっつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nHere is the eighth question!",
+   "status": "done"
   },
   {
    "id": "R13:18D74",
@@ -968,7 +1088,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ハナヨメ村でサクヤが捕まり、\nヨメイリ・コウゾウが\nサクヤと結婚しようとしていた。",
-   "en": ""
+   "en": "In Bride Village, Sakuya was\ncaptured, and Yomeiri\nwas trying to marry her.",
+   "status": "done"
   },
   {
    "id": "R13:18DD6",
@@ -976,7 +1097,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そして、結婚式の合図として、\n鐘を鳴らしていた。",
-   "en": ""
+   "en": "A bell was rung to signal\nthe wedding.",
+   "status": "done"
   },
   {
    "id": "R13:18E16",
@@ -984,7 +1106,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "その鐘の回数を答えよ！\n　１１回\n　１０回",
-   "en": ""
+   "en": "How many times did it ring?\n  11 times\n  10 times",
+   "status": "done"
   },
   {
    "id": "R13:18E52",
@@ -992,7 +1115,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "龍神丸：\n違うぞ！　ワタル！！",
-   "en": ""
+   "en": "Ryujinmaru:\nWrong, Wataru!!",
+   "status": "done"
   },
   {
    "id": "R13:18E86",
@@ -1000,7 +1124,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n正解だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCorrect!",
+   "status": "done"
   },
   {
    "id": "R13:18EA8",
@@ -1008,7 +1133,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nここのつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nHere is the ninth question!",
+   "status": "done"
   },
   {
    "id": "R13:18ED6",
@@ -1016,7 +1142,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョの城で、私は\nワルジョの魔神に敗北を\n喫してしまった。",
-   "en": ""
+   "en": "At Warujo's castle,\nI suffered defeat at the hands\nof Warujo's mashin.",
+   "status": "done"
   },
   {
    "id": "R13:18F24",
@@ -1024,7 +1151,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "その魔神の名を答えよ！\n　ＬＬラバーズ\n　ＲＲラバーズ",
-   "en": ""
+   "en": "Name that mashin!\n  LL Lovers\n  RR Lovers",
+   "status": "done"
   },
   {
    "id": "R13:18F6C",
@@ -1032,7 +1160,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n正解だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCorrect!",
+   "status": "done"
   },
   {
    "id": "R13:18F8E",
@@ -1040,7 +1169,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n最後の質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nThe final question!",
+   "status": "done"
   },
   {
    "id": "R13:18FB6",
@@ -1048,7 +1178,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神湯治場で、私を復活させる\nために必要な３つの力がある。",
-   "en": ""
+   "en": "Three powers were needed to\nrevive me at the Mashin Spa.",
+   "status": "done"
   },
   {
    "id": "R13:19000",
@@ -1056,7 +1187,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "その力とは？\n【人々を守るための戦う力】と\n【人々を救うための知の力】と、",
-   "en": ""
+   "en": "They are the might to fight for\npeople's safety, the wisdom to\nsave people, and...",
+   "status": "done"
   },
   {
    "id": "R13:1905A",
@@ -1064,7 +1196,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "残りひとつの力を答えよ！\n　【人々の魂を奮わせる心の力】\n　【人々の魂を奮わせる命の力】",
-   "en": ""
+   "en": "Name the remaining power!\n  Heart to stir people's souls\n  Life to stir people's souls",
+   "status": "done"
   },
   {
    "id": "R13:190C4",
@@ -1072,7 +1205,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n正解だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCorrect!",
+   "status": "done"
   },
   {
    "id": "R13:190E6",
@@ -1080,7 +1214,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nよくやったぞ！　ワタル！",
-   "en": ""
+   "en": "Ryujinmaru:\nWell done, Wataru!",
+   "status": "done"
   },
   {
    "id": "R13:19118",
@@ -1088,7 +1223,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "【トラノマガタマ】をてにいれた！",
-   "en": ""
+   "en": "Got the Tiger Magatama!",
+   "status": "done"
   },
   {
    "id": "R13:19154",
@@ -1096,7 +1232,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "龍神丸：\n違うぞ！　ワタル！！",
-   "en": ""
+   "en": "Ryujinmaru:\nIncorrect, Wataru!!",
+   "status": "done"
   },
   {
    "id": "R13:19188",
@@ -1104,7 +1241,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "龍神丸：\n・・・そうか。　だが、いつでも\nくるがいい。　まっているぞ！！",
-   "en": ""
+   "en": "Ryujinmaru:\n...I see. Come back anytime.\nI shall be waiting!!",
+   "status": "done"
   },
   {
    "id": "R13:191F8",
@@ -1112,7 +1250,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nよくここまで来たな、\n救世主ワタルよ。",
-   "en": ""
+   "en": "Ryujinmaru:\nYou have done well to come here,\nSavior Wataru.",
+   "status": "done"
   },
   {
    "id": "R13:19238",
@@ -1120,7 +1259,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ここでは、これからの\n旅についての質問をいくつかする。",
-   "en": ""
+   "en": "Here, I shall ask you several\nquestions about the journey\nahead.",
+   "status": "done"
   },
   {
    "id": "R13:1927E",
@@ -1128,7 +1268,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お前の考えを聞かせて欲しい。",
-   "en": ""
+   "en": "I wish to hear your thoughts.",
+   "status": "done"
   },
   {
    "id": "R13:192AA",
@@ -1136,7 +1277,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n用意はいいか？\n救世主、炎部ワタルよ。",
-   "en": ""
+   "en": "Ryujinmaru:\nAre you ready,\nSavior Wataru Homurabe?",
+   "status": "done"
   },
   {
    "id": "R13:192EA",
@@ -1144,7 +1286,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "用意は・・・いいよね？\n１．もっちろん！\n２．悪いけど・・・考えさせて",
-   "en": ""
+   "en": "You're ready...right?\n1. You bet!\n2. Sorry...let me think.",
+   "status": "done"
   },
   {
    "id": "R13:19342",
@@ -1152,7 +1295,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nひとつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nThe first question!",
+   "status": "done"
   },
   {
    "id": "R13:1936E",
@@ -1160,7 +1304,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルよ！\nおまえは、救世主としての\n自覚があるか？",
-   "en": ""
+   "en": "Wataru!\nDo you recognize your\nresponsibility as the Savior?",
+   "status": "done"
   },
   {
    "id": "R13:193B2",
@@ -1168,7 +1313,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "自覚があるか？\n　まかせてよ！\n　自信ないなぁ・・・。",
-   "en": ""
+   "en": "Do you accept your role?\n  Leave it to me!\n  I'm not so sure...",
+   "status": "done"
   },
   {
    "id": "R13:193FA",
@@ -1176,7 +1322,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nその気持ち、忘れるな！",
-   "en": ""
+   "en": "Ryujinmaru:\nNever forget that resolve!",
+   "status": "done"
   },
   {
    "id": "R13:1942A",
@@ -1184,7 +1331,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nふたつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nThe second question!",
+   "status": "done"
   },
   {
    "id": "R13:19456",
@@ -1192,7 +1340,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルよ！\nおまえは、いかなるときも、\nくじけない自信があるか？",
-   "en": ""
+   "en": "Wataru!\nAre you certain you will never\nlose heart, whatever happens?",
+   "status": "done"
   },
   {
    "id": "R13:194A6",
@@ -1200,7 +1349,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "くじけない自信があるか？\n　もちろんだよ！\n　それはちょっとねぇ・・・。",
-   "en": ""
+   "en": "Sure you will never lose heart?\n  Of course!\n  Well, about that...",
+   "status": "done"
   },
   {
    "id": "R13:19500",
@@ -1208,7 +1358,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n頼もしい返事だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nA reassuring answer!",
+   "status": "done"
   },
   {
    "id": "R13:1952A",
@@ -1216,7 +1367,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nみっつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nThe third question!",
+   "status": "done"
   },
   {
    "id": "R13:19556",
@@ -1224,7 +1376,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルよ！\nおまえは、たとえ悪に対してでも\nやさしくなれる心があるか？",
-   "en": ""
+   "en": "Wataru!\nCan your heart show kindness\neven toward evil?",
+   "status": "done"
   },
   {
    "id": "R13:195AC",
@@ -1232,7 +1385,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "やさしくなれる心があるか？\n　うん！\n　そんなことできないよ・・・。",
-   "en": ""
+   "en": "Can your heart show kindness?\n  Yeah!\n  I couldn't do that...",
+   "status": "done"
   },
   {
    "id": "R13:19602",
@@ -1240,7 +1394,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nその心、大事にするのだ！",
-   "en": ""
+   "en": "Ryujinmaru:\nCherish that heart of yours!",
+   "status": "done"
   },
   {
    "id": "R13:19634",
@@ -1248,7 +1403,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nよっつめの質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nThe fourth question!",
+   "status": "done"
   },
   {
    "id": "R13:19660",
@@ -1256,7 +1412,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルよ！\nおまえは、創界山を守る強さを\n持っているか？",
-   "en": ""
+   "en": "Wataru!\nDo you have the strength\nto protect Sokaizan?",
+   "status": "done"
   },
   {
    "id": "R13:196A8",
@@ -1264,7 +1421,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "創界山を守る強さを持っているか？\n　ボクが守ってみせるよ！\n　ボクは創界山を守れないよ。",
-   "en": ""
+   "en": "Strong enough to guard Sokaizan?\n  I'll show you I can!\n  I can't protect Sokaizan.",
+   "status": "done"
   },
   {
    "id": "R13:19712",
@@ -1272,7 +1430,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nそうだ！　がんばれ、ワタル！",
-   "en": ""
+   "en": "Ryujinmaru:\nYes! Keep striving, Wataru!",
+   "status": "done"
   },
   {
    "id": "R13:19748",
@@ -1280,7 +1439,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n最後の質問だ！",
-   "en": ""
+   "en": "Ryujinmaru:\nThe final question!",
+   "status": "done"
   },
   {
    "id": "R13:19770",
@@ -1288,7 +1448,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルよ！\nおまえは、【ワルモンダー】を\n倒す自信があるか？",
-   "en": ""
+   "en": "Wataru!\nAre you certain you can\ndefeat Warumonder?",
+   "status": "done"
   },
   {
    "id": "R13:197BC",
@@ -1296,7 +1457,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "【ワルモンダー】を倒せるか？\n　絶対、倒すよ！\n　ボクには無理だよ・・・。",
-   "en": ""
+   "en": "Can you defeat Warumonder?\n  I'll beat him for sure!\n  It's too much for me...",
+   "status": "done"
   },
   {
    "id": "R13:19818",
@@ -1304,7 +1466,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nうむ！\nそれでこそ、救世主ワタルだ！！",
-   "en": ""
+   "en": "Ryujinmaru:\nYes! That is the spirit,\nSavior Wataru!!",
+   "status": "done"
   },
   {
    "id": "R13:19858",
@@ -1312,7 +1475,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n・・・ワタル。わたしはいつでも\nおまえとともにいる。忘れるな。",
-   "en": ""
+   "en": "Ryujinmaru:\n...Wataru. I am always with you.\nNever forget that.",
+   "status": "done"
   },
   {
    "id": "R13:198B0",
@@ -1320,7 +1484,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "【ニジノカガミ】をてにいれた！",
-   "en": ""
+   "en": "Got the Rainbow Mirror!",
+   "status": "done"
   },
   {
    "id": "R13:198EA",
@@ -1328,7 +1493,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nそうか・・・。だが、ワタルよ。",
-   "en": ""
+   "en": "Ryujinmaru:\nI see... But listen, Wataru.",
+   "status": "done"
   },
   {
    "id": "R13:19922",
@@ -1336,7 +1502,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "自分では気付かなくても、\n周りの者達は救世主として、\n認めてくれているはずだ。",
-   "en": ""
+   "en": "Even if you do not realize it,\nthose around you surely\nrecognize you as the Savior.",
+   "status": "done"
   },
   {
    "id": "R13:19986",
@@ -1344,7 +1511,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nそうか・・・。だが、ワタルよ。",
-   "en": ""
+   "en": "Ryujinmaru:\nI see... But listen, Wataru.",
+   "status": "done"
   },
   {
    "id": "R13:199BE",
@@ -1352,7 +1520,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "人間は誰でも、強さとよわさを\n合わせ持っている。",
-   "en": ""
+   "en": "Every human has both\nstrengths and weaknesses.",
+   "status": "done"
   },
   {
    "id": "R13:199FE",
@@ -1360,7 +1529,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "あきらめない強さと、\nみんなを想う心を持っていれば、\n乗り越えられるはずだ。",
-   "en": ""
+   "en": "With the strength to persevere\nand a heart that cares for all,\nyou should be able to overcome.",
+   "status": "done"
   },
   {
    "id": "R13:19A60",
@@ -1368,7 +1538,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nそうか・・・。だが、ワタルよ。",
-   "en": ""
+   "en": "Ryujinmaru:\nI see... But listen, Wataru.",
+   "status": "done"
   },
   {
    "id": "R13:19A98",
@@ -1376,7 +1547,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "やさしくなれる心とは、\n決して、同情ではなく、\n広い心を持つということだ。",
-   "en": ""
+   "en": "A kind heart does not mean pity.\nIt means having a generous,\nopen heart.",
+   "status": "done"
   },
   {
    "id": "R13:19AF8",
@@ -1384,7 +1556,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\nそうか・・・。だが、ワタルよ。",
-   "en": ""
+   "en": "Ryujinmaru:\nI see... But listen, Wataru.",
+   "status": "done"
   },
   {
    "id": "R13:19B30",
@@ -1392,7 +1565,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "おまえには、たくさんの仲間が\nいる。その者達と力を合わせて、\n創界山を守るのだ！",
-   "en": ""
+   "en": "You have many companions.\nJoin forces with them\nand protect Sokaizan!",
+   "status": "done"
   },
   {
    "id": "R13:19B96",
@@ -1400,7 +1574,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "龍神丸：\nここまできた、おまえにならば、\nできるはずだ！！",
-   "en": ""
+   "en": "Ryujinmaru:\nYou have come this far.\nSurely you can do it!!",
+   "status": "done"
   },
   {
    "id": "R13:19BE6",
@@ -1408,7 +1583,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "龍神丸：\n・・・そうか。　だが、いつでも\nくるがいい。　まっているぞ！！",
-   "en": ""
+   "en": "Ryujinmaru:\n...I see. Come back anytime.\nI shall be waiting!!",
+   "status": "done"
   },
   {
    "id": "R13:19C58",
@@ -1416,7 +1592,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神鍛冶：\nおおお・・・それは・・・。\n何と神々（こうごう）しい・・・！",
-   "en": ""
+   "en": "Mashin Smith:\nOooh... That is...\nWhat divine splendor...!",
+   "status": "done"
   },
   {
    "id": "R13:19CB0",
@@ -1424,7 +1601,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "見事だ！　さすがは、救世主じゃ。\nお主の成果は決してムダにはせぬ。\n１日おいてから来るがよい。",
-   "en": ""
+   "en": "Well done, Savior! I shall not\nwaste your efforts. Return after\none day has passed.",
+   "status": "done"
   },
   {
    "id": "R13:19D1E",
@@ -1432,7 +1610,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "お主の魔神の力を\n見事、引き出してしんぜよう！",
-   "en": ""
+   "en": "I shall bring out the full\npower of your mashin!",
+   "status": "done"
   },
   {
    "id": "R13:19D7C",
@@ -1440,7 +1619,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神鍛冶：\nおお、来たか。待ちかねたぞ。",
-   "en": ""
+   "en": "Mashin Smith:\nAh, ye came. I've been waiting.",
+   "status": "done"
   },
   {
    "id": "R13:19DB4",
@@ -1448,7 +1628,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神を見せる前に、\nわたしたいものがあってな。\nこれじゃ。",
-   "en": ""
+   "en": "Before I show ye the mashin,\nthere's something I wish to\ngive ye. Here.",
+   "status": "done"
   },
   {
    "id": "R13:19DFE",
@@ -1456,7 +1637,8 @@
    "kind": "event",
    "end": "F000",
    "jp": "【天翔登龍剣】を手に入れた！",
-   "en": ""
+   "en": "Got the Skysoar Toryuken!",
+   "status": "done"
   },
   {
    "id": "R13:19E2E",
@@ -1464,7 +1646,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nこ、これは！？",
-   "en": ""
+   "en": "Wataru:\nTh-this is...?!",
+   "status": "done"
   },
   {
    "id": "R13:19E56",
@@ -1472,7 +1655,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神鍛冶：\nお主からあずかった【龍の剣】を\n鍛えて作ったものじゃ。",
-   "en": ""
+   "en": "Mashin Smith:\nI forged the Dragon Sword\nye entrusted to me into this.",
+   "status": "done"
   },
   {
    "id": "R13:19EA8",
@@ -1480,7 +1664,8 @@
    "kind": "event",
    "end": "D000",
    "jp": "見事な出来ばえじゃろう。\n戦いにやく立てるがよい。",
-   "en": ""
+   "en": "A fine piece of work, eh?\nPut it to good use in battle.",
+   "status": "done"
   },
   {
    "id": "R13:19EF6",
@@ -1488,7 +1673,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n【天翔龍神丸】！？",
-   "en": ""
+   "en": "Sakuya:\nTensho Ryujinmaru?!",
+   "status": "done"
   },
   {
    "id": "R13:19F22",
@@ -1496,7 +1682,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nサクヤちゃん、知ってるの？",
-   "en": ""
+   "en": "Warurine:\nSakuya-chan, you know about it?",
+   "status": "done"
   },
   {
    "id": "R13:19F5A",
@@ -1504,7 +1691,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n創界山創成期から伝わる\n神話にしか出てこない、",
-   "en": ""
+   "en": "Sakuya:\nIt appears only in myths from\nthe dawn of Sokaizan...",
+   "status": "done"
   },
   {
    "id": "R13:19FA2",
@@ -1512,7 +1700,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "伝説の魔神ですわ。",
-   "en": ""
+   "en": "It is a legendary mashin.",
+   "status": "done"
   },
   {
    "id": "R13:19FC4",
@@ -1520,7 +1709,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nへぇー、\nそんなスゴイ魔神なんだぁ。",
-   "en": ""
+   "en": "Wataru:\nWow, so it's a really\namazing mashin, huh?",
+   "status": "done"
   },
   {
    "id": "R13:1A002",
@@ -1528,7 +1718,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nええ・・・。",
-   "en": ""
+   "en": "Sakuya:\nYes...",
+   "status": "done"
   },
   {
    "id": "R13:1A028",
@@ -1536,7 +1727,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nサクヤちゃん、どうしたの？\n元気ないよ。",
-   "en": ""
+   "en": "Warurine:\nSakuya-chan, what's wrong?\nYou seem down.",
+   "status": "done"
   },
   {
    "id": "R13:1A06E",
@@ -1544,7 +1736,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n大丈夫？",
-   "en": ""
+   "en": "Wataru:\nAre you okay?",
+   "status": "done"
   },
   {
    "id": "R13:1A090",
@@ -1552,7 +1745,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nええ、わたくしは大丈夫ですわ。\nでも、この伝説の魔神は・・・。",
-   "en": ""
+   "en": "Sakuya:\nYes, I am quite all right.\nBut this legendary mashin...",
+   "status": "done"
   },
   {
    "id": "R13:1A0E8",
@@ -1560,7 +1754,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nなにかマズイことでもあるの？\n魂を取られちゃうとか。",
-   "en": ""
+   "en": "Wataru:\nIs there something bad about it?\nLike, does it steal your soul?",
+   "status": "done"
   },
   {
    "id": "R13:1A136",
@@ -1568,7 +1763,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nいえ、全然そんなことでは\nないのです。",
-   "en": ""
+   "en": "Sakuya:\nNo, it is nothing of the sort.",
+   "status": "done"
   },
   {
    "id": "R13:1A176",
@@ -1576,7 +1772,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "さ、ワタルさま、\nワルリーヌさん、参りましょう。",
-   "en": ""
+   "en": "Come, Wataru-sama,\nWarurine-san. Let us be off.",
+   "status": "done"
   },
   {
    "id": "R13:1A1D0",
@@ -1584,7 +1781,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nパパが心配してるといけないから、\nボクもうお家に帰るね。",
-   "en": ""
+   "en": "Warurine:\nPapa might be worried about me,\nso I'm going home now.",
+   "status": "done"
   },
   {
    "id": "R13:1A228",
@@ -1592,7 +1790,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうかぁ・・・。\nワルリーヌ、ありがとう。",
-   "en": ""
+   "en": "Wataru:\nOh, okay...\nThanks, Warurine.",
+   "status": "done"
   },
   {
    "id": "R13:1A26C",
@@ -1600,7 +1799,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "キミがあの場所を\n教えてくれなかったら、",
-   "en": ""
+   "en": "If you hadn't told us\nabout that place,",
+   "status": "done"
   },
   {
    "id": "R13:1A2A4",
@@ -1608,7 +1808,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "大変なことになるかも\nしれなかったよ。",
-   "en": ""
+   "en": "we could've been in\nreally big trouble.",
+   "status": "done"
   },
   {
    "id": "R13:1A2DC",
@@ -1616,7 +1817,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわ・・・。\n本当にありがとうございました。",
-   "en": ""
+   "en": "Sakuya:\nIndeed...\nThank you ever so much.",
+   "status": "done"
   },
   {
    "id": "R13:1A328",
@@ -1624,7 +1826,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nえ・・・。\n別にいいんだって。",
-   "en": ""
+   "en": "Warurine:\nOh...\nIt was nothing, really.",
+   "status": "done"
   },
   {
    "id": "R13:1A364",
@@ -1632,7 +1835,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "じゃ、またねぇーっ！",
-   "en": ""
+   "en": "Well, see you laaater!",
+   "status": "done"
   },
   {
    "id": "R13:1A3A4",
@@ -1640,7 +1844,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nおばさん！\nおじさんを返してよ！",
-   "en": ""
+   "en": "Wataru:\nHey, lady!\nGive him back!",
+   "status": "done"
   },
   {
    "id": "R13:1A3E0",
@@ -1648,7 +1853,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\nはい、アラゴトさま。\nあーんして♥",
-   "en": ""
+   "en": "Warujo:\nHere, Aragoto-sama.\nOpen wide, darling!",
+   "status": "done"
   },
   {
    "id": "R13:1A420",
@@ -1656,7 +1862,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nあーん♥",
-   "en": ""
+   "en": "Aragoto:\nAaah!",
+   "status": "done"
   },
   {
    "id": "R13:1A444",
@@ -1664,7 +1871,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nへ？",
-   "en": ""
+   "en": "Wataru:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R13:1A462",
@@ -1672,7 +1880,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\nアラゴトさま、次はこれ。\nはい、あーん♥",
-   "en": ""
+   "en": "Warujo:\nTry this next, Aragoto-sama.\nHere, open wide!",
+   "status": "done"
   },
   {
    "id": "R13:1A4A8",
@@ -1680,7 +1889,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nあーん♥",
-   "en": ""
+   "en": "Aragoto:\nAaah!",
+   "status": "done"
   },
   {
    "id": "R13:1A4CE",
@@ -1688,7 +1898,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nど、ど、どうなってんの？　コレ。",
-   "en": ""
+   "en": "Wataru:\nWh-wh-what's going on here?",
+   "status": "done"
   },
   {
    "id": "R13:1A508",
@@ -1696,7 +1907,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nさぁ・・・？",
-   "en": ""
+   "en": "Sakuya:\nI wonder...?",
+   "status": "done"
   },
   {
    "id": "R13:1A530",
@@ -1704,7 +1916,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\nさ、アラゴトさま。\n次はこれですわ。",
-   "en": ""
+   "en": "Warujo:\nNow, Aragoto-sama.\nThis one next.",
+   "status": "done"
   },
   {
    "id": "R13:1A570",
@@ -1712,7 +1925,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n拙はコッチがいいぞ。\nそれっ♥",
-   "en": ""
+   "en": "Aragoto:\nI would rather have this.\nThere!",
+   "status": "done"
   },
   {
    "id": "R13:1A5AC",
@@ -1720,7 +1934,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\nいやぁーん♥\nアラゴトさまのエッチィーん♥",
-   "en": ""
+   "en": "Warujo:\nOooh, stop!\nAragoto-sama, you naughty thing!",
+   "status": "done"
   },
   {
    "id": "R13:1A5F4",
@@ -1728,7 +1943,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nおじさん・・・。\n一体何やってんの！？",
-   "en": ""
+   "en": "Wataru:\nMister...\nWhat the heck are you doing?!",
+   "status": "done"
   },
   {
    "id": "R13:1A634",
@@ -1736,7 +1952,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nん？\n誰かいるような気がするな。",
-   "en": ""
+   "en": "Aragoto:\nHm?\nI sense someone is here.",
+   "status": "done"
   },
   {
    "id": "R13:1A670",
@@ -1744,7 +1961,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\nきっと気のせいですわ。\nはい、アラゴトさま♥",
-   "en": ""
+   "en": "Warujo:\nYou must be imagining it.\nHere you are, Aragoto-sama!",
+   "status": "done"
   },
   {
    "id": "R13:1A6BA",
@@ -1752,7 +1970,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nそうだな。あーん♥",
-   "en": ""
+   "en": "Aragoto:\nQuite right. Aaah!",
+   "status": "done"
   },
   {
    "id": "R13:1A6EA",
@@ -1760,7 +1979,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nぜんっぜん聞いてないよ！",
-   "en": ""
+   "en": "Wataru:\nHe's not listening at all!",
+   "status": "done"
   },
   {
    "id": "R13:1A71E",
@@ -1768,7 +1988,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nおじさまっ！！",
-   "en": ""
+   "en": "Sakuya:\nSir!!",
+   "status": "done"
   },
   {
    "id": "R13:1A748",
@@ -1776,7 +1997,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nんん？\nやっぱり誰かいるぞ？",
-   "en": ""
+   "en": "Aragoto:\nHmm?\nThere IS someone here!",
+   "status": "done"
   },
   {
    "id": "R13:1A782",
@@ -1784,7 +2006,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nお、お、おおおおお・・・お主達、\nいつからそこにいたんだ！？",
-   "en": ""
+   "en": "Aragoto:\nY-y-you lot...\nHow long have you been there?!",
+   "status": "done"
   },
   {
    "id": "R13:1A7DA",
@@ -1792,7 +2015,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおじさまぁ？　・・・いったい、\n何をなさってたのかしらぁ？",
-   "en": ""
+   "en": "Sakuya:\nMy dear sir...? Just what\nwere you doing, I wonder?",
+   "status": "done"
   },
   {
    "id": "R13:1A82E",
@@ -1800,7 +2024,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nい、いや別に・・・、\nじゃなくって、",
-   "en": ""
+   "en": "Aragoto:\nW-well, nothing...\nNo, I mean...",
+   "status": "done"
   },
   {
    "id": "R13:1A86E",
@@ -1808,7 +2033,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "敵の動向を\n探ろうとしていたのでござるよ。",
-   "en": ""
+   "en": "I was attempting to gather\nintelligence on the enemy!",
+   "status": "done"
   },
   {
    "id": "R13:1A8A8",
@@ -1816,7 +2042,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nふーん・・・。",
-   "en": ""
+   "en": "Wataru:\nOh, really...",
+   "status": "done"
   },
   {
    "id": "R13:1A8D0",
@@ -1824,7 +2051,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "それにしては、\nさっきは\nずいぶん楽しそうだったよねぇ。",
-   "en": ""
+   "en": "For someone doing that,\nyou sure looked like you were\nhaving a good time.",
+   "status": "done"
   },
   {
    "id": "R13:1A918",
@@ -1832,7 +2060,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "アラゴト：\nな、な、何を言うっ。\n拙は仲間のためを思って・・・。",
-   "en": ""
+   "en": "Aragoto:\nWh-wh-what are you saying?!\nI had my companions in mind...",
+   "status": "done"
   },
   {
    "id": "R13:1A96A",
@@ -1840,7 +2069,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおじさまっ♥",
-   "en": ""
+   "en": "Sakuya:\nMy dear sir!",
+   "status": "done"
   },
   {
    "id": "R13:1A990",
@@ -1848,7 +2078,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nはいっ！",
-   "en": ""
+   "en": "Aragoto:\nYes, ma'am!",
+   "status": "done"
   },
   {
    "id": "R13:1A9B4",
@@ -1856,7 +2087,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nいい加減、お戻りになられては\nいかがですか？",
-   "en": ""
+   "en": "Sakuya:\nWould you not agree it is high\ntime you returned to us?",
+   "status": "done"
   },
   {
    "id": "R13:1A9FA",
@@ -1864,7 +2096,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nはいっ！\nそうするでありますっ！",
-   "en": ""
+   "en": "Aragoto:\nYes, ma'am!\nI shall do so at once!",
+   "status": "done"
   },
   {
    "id": "R13:1AA38",
@@ -1872,7 +2105,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\nふーん、また来たんだ、ぼうや。",
-   "en": ""
+   "en": "Warujo:\nHmph. Back again, little boy?",
+   "status": "done"
   },
   {
    "id": "R13:1AA72",
@@ -1880,7 +2114,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n今度は前のようには行かないぞっ！",
-   "en": ""
+   "en": "Wataru:\nThings won't go like last time!",
+   "status": "done"
   },
   {
    "id": "R13:1AAAC",
@@ -1888,7 +2123,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\nあーら、すごい自信ねぇ・・・。\nうふふっ。",
-   "en": ""
+   "en": "Warujo:\nMy, aren't we confident...\nHee hee!",
+   "status": "done"
   },
   {
    "id": "R13:1AAF2",
@@ -1896,7 +2132,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "じゃあ、\n２度と立ち上がれないように\nしてあげるわ。",
-   "en": ""
+   "en": "In that case,\nI'll make sure you never\nget back on your feet again.",
+   "status": "done"
   },
   {
    "id": "R13:1AB36",
@@ -1904,7 +2141,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそれはこっちのセリフだ！",
-   "en": ""
+   "en": "Wataru:\nThat's my line!",
+   "status": "done"
   },
   {
    "id": "R13:1AB68",
@@ -1912,7 +2150,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\nアラゴトさまぁーっ。\n待っててくださいねぇ。",
-   "en": ""
+   "en": "Warujo:\nAragoto-sama, daaaarling!\nWait for me!",
+   "status": "done"
   },
   {
    "id": "R13:1ABB0",
@@ -1920,7 +2159,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nゆくぞっ！",
-   "en": ""
+   "en": "Wataru:\nHere goes!",
+   "status": "done"
   },
   {
    "id": "R13:1ABE2",
@@ -1928,7 +2168,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\nキィーッ！\n覚えてなさいよっ！",
-   "en": ""
+   "en": "Warujo:\nEeeek!\nYou'll pay for this!",
+   "status": "done"
   },
   {
    "id": "R13:1AC22",
@@ -1936,7 +2177,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおじさまったら、\nまったくどうかしてますわ！",
-   "en": ""
+   "en": "Sakuya:\nSir, honestly!\nHave you quite lost your senses?",
+   "status": "done"
   },
   {
    "id": "R13:1AC68",
@@ -1944,7 +2186,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nほんとだよ！",
-   "en": ""
+   "en": "Wataru:\nYeah, seriously!",
+   "status": "done"
   },
   {
    "id": "R13:1AC8E",
@@ -1952,7 +2195,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ボク達がどんな思いで\n魔神鍛冶屋さんに行って来たか\nわかってんの？",
-   "en": ""
+   "en": "Do you know how worried we were\non our trip to the mashin\nsmith-san?",
+   "status": "done"
   },
   {
    "id": "R13:1ACE0",
@@ -1960,7 +2204,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nいやいや、",
-   "en": ""
+   "en": "Aragoto:\nNow, now...",
+   "status": "done"
   },
   {
    "id": "R13:1AD06",
@@ -1968,7 +2213,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "【ワルジョ】も初めから悪人\nだったというわけではないんだ。\nその辺をわかって欲しい。",
-   "en": ""
+   "en": "Warujo was not evil\nfrom the beginning, you know.\nI ask that you understand that.",
+   "status": "done"
   },
   {
    "id": "R13:1AD6A",
@@ -1976,7 +2222,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれはわかりましたケド、",
-   "en": ""
+   "en": "Sakuya:\nI understand that, but...",
+   "status": "done"
   },
   {
    "id": "R13:1AD9C",
@@ -1984,7 +2231,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おじさまが【ワルジョ】と\nデレデレしているのは\n関係ないのではありませんこと？",
-   "en": ""
+   "en": "What does that have to do\nwith you making eyes at Warujo,\nmy dear sir?",
+   "status": "done"
   },
   {
    "id": "R13:1ADFA",
@@ -1992,7 +2240,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうそう。",
-   "en": ""
+   "en": "Wataru:\nYeah, exactly.",
+   "status": "done"
   },
   {
    "id": "R13:1AE1E",
@@ -2000,7 +2249,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "女の人にデレデレするなんて、\nあまりにも「らしい」からねぇ。",
-   "en": ""
+   "en": "Making eyes at women is just\na little too \"typical\" of you,\nyou know.",
+   "status": "done"
   },
   {
    "id": "R13:1AE6A",
@@ -2008,7 +2258,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nうっ、うぐっ。",
-   "en": ""
+   "en": "Aragoto:\nUrk... Guh!",
+   "status": "done"
   },
   {
    "id": "R13:1AE94",
@@ -2016,7 +2267,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nうふふ。",
-   "en": ""
+   "en": "Sakuya:\nHee hee.",
+   "status": "done"
   },
   {
    "id": "R13:1AEB6",
@@ -2024,7 +2276,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nあはは。",
-   "en": ""
+   "en": "Wataru:\nHa ha!",
+   "status": "done"
   },
   {
    "id": "R13:1AEDC",
@@ -2032,7 +2285,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nありがとな、\nぼうや・・・いや、ワタル。",
-   "en": ""
+   "en": "Aragoto:\nThank you,\nboy... No, Wataru.",
+   "status": "done"
   },
   {
    "id": "R13:1AF20",
@@ -2040,7 +2294,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえっ？",
-   "en": ""
+   "en": "Wataru:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R13:1AF40",
@@ -2048,7 +2303,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nいや、何でもない。",
-   "en": ""
+   "en": "Aragoto:\nOh, nothing.",
+   "status": "done"
   },
   {
    "id": "R13:1AF6E",
@@ -2056,7 +2312,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nうふふ、おじさまったら。",
-   "en": ""
+   "en": "Sakuya:\nHee hee. Oh, my dear sir.",
+   "status": "done"
   },
   {
    "id": "R13:1AFA4",
@@ -2064,7 +2321,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nとうとう次は【ワルモンダー】\nだね！",
-   "en": ""
+   "en": "Wataru:\nSo Warumonder's finally\nup next!",
+   "status": "done"
   },
   {
    "id": "R13:1AFE2",
@@ -2072,7 +2330,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわ！",
-   "en": ""
+   "en": "Sakuya:\nIndeed!",
+   "status": "done"
   },
   {
    "id": "R13:1B008",
@@ -2080,7 +2339,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "気を抜かないように\nいたしませんといけませんわ。",
-   "en": ""
+   "en": "We must take care to\nremain on our guard.",
+   "status": "done"
   },
   {
    "id": "R13:1B048",
@@ -2088,7 +2348,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそうそう、",
-   "en": ""
+   "en": "Aragoto:\nQuite right.",
+   "status": "done"
   },
   {
    "id": "R13:1B06E",
@@ -2096,7 +2357,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "近くまでやってきたからと言って、\n気を抜いてはいけないな。",
-   "en": ""
+   "en": "We must not let our guard down\nsimply because we are so close.",
+   "status": "done"
   },
   {
    "id": "R13:1B0B8",
@@ -2104,7 +2366,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「勝って子豚の尾を噛（か）めよ」\nと言うし。",
-   "en": ""
+   "en": "\"After a win, don't let your\nlard down,\" as the saying goes.",
+   "status": "done"
   },
   {
    "id": "R13:1B0F4",
@@ -2112,7 +2375,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n・・・。",
-   "en": ""
+   "en": "Wataru:\n...",
+   "status": "done"
   },
   {
    "id": "R13:1B116",
@@ -2120,7 +2384,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n・・・。",
-   "en": ""
+   "en": "Sakuya:\n...",
+   "status": "done"
   },
   {
    "id": "R13:1B13E",
@@ -2128,7 +2393,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸：\n・・・みごとだ。\n人びとをまもるには強さが必要だ。",
-   "en": ""
+   "en": "Ryujinmaru:\n...Well done. Protecting people\nrequires strength.",
+   "status": "done"
   },
   {
    "id": "R13:1B18A",
@@ -2136,7 +2402,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "だが、それだけでは人びとを\nしあわせにすることができない\nことも忘れるな。",
-   "en": ""
+   "en": "But remember, strength alone\ncannot always bring\nhappiness to people.",
+   "status": "done"
   },
   {
    "id": "R13:1B1E6",
@@ -2144,7 +2411,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "【リュウノケン】をてにいれた！",
-   "en": ""
+   "en": "Got the Dragon Sword!",
+   "status": "done"
   },
   {
    "id": "R13:1DABE",
@@ -2152,7 +2420,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nん？　ここは・・・。",
-   "en": ""
+   "en": "Aragoto:\nHm? This place...",
+   "status": "done"
   },
   {
    "id": "R13:1DAEE",
@@ -2160,7 +2429,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおじさま、\n知っていらっしゃるんですの？",
-   "en": ""
+   "en": "Sakuya:\nSir, are you familiar\nwith this place?",
+   "status": "done"
   },
   {
    "id": "R13:1DB30",
@@ -2168,7 +2438,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nんん？　まぁ。\nごほっごほっ、んん。",
-   "en": ""
+   "en": "Aragoto:\nHmm? Well...\nCough, cough... Ahem.",
+   "status": "done"
   },
   {
    "id": "R13:1DB70",
@@ -2176,7 +2447,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n知ってるんだね？",
-   "en": ""
+   "en": "Wataru:\nYou know this place, huh?",
+   "status": "done"
   },
   {
    "id": "R13:1DB9A",
@@ -2184,7 +2456,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nん、んぐっ。",
-   "en": ""
+   "en": "Aragoto:\nMm... Urk.",
+   "status": "done"
   },
   {
    "id": "R13:1DBC2",
@@ -2192,7 +2465,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nここはドコでいらっしゃいますの？\nおじさま。",
-   "en": ""
+   "en": "Sakuya:\nWhat is this place,\nmy dear sir?",
+   "status": "done"
   },
   {
    "id": "R13:1DC08",
@@ -2200,7 +2474,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nい、いやそれは、\nいくらお嬢でも・・・。",
-   "en": ""
+   "en": "Aragoto:\nW-well, that is...\nEven to you, my lady...",
+   "status": "done"
   },
   {
    "id": "R13:1DC4C",
@@ -2208,7 +2483,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nお・じ・さ・ま♥",
-   "en": ""
+   "en": "Sakuya:\nMy. Dear. Sir!",
+   "status": "done"
   },
   {
    "id": "R13:1DC76",
@@ -2216,7 +2492,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nうぅー。\n・・・しょうがない。",
-   "en": ""
+   "en": "Aragoto:\nUrrgh...\n...Very well. I have no choice.",
+   "status": "done"
   },
   {
    "id": "R13:1DCB0",

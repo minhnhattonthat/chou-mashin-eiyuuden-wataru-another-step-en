@@ -16,7 +16,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうぅー、お腹がすいたなぁー。",
-   "en": ""
+   "en": "Wataru:\nUuugh, I'm so hungry...",
+   "status": "done"
   },
   {
    "id": "R01:0E798",
@@ -24,7 +25,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nだらしないな、ぼうや。",
-   "en": ""
+   "en": "Aragoto:\nPull yourself together, boy.",
+   "status": "done"
   },
   {
    "id": "R01:0E7CA",
@@ -32,7 +34,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそういうおじさまだって、かなり\nお腹がすいているようですわ。",
-   "en": ""
+   "en": "Sakuya:\nYou seem quite hungry yourself,\nmy good sir.",
+   "status": "done"
   },
   {
    "id": "R01:0E820",
@@ -40,7 +43,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nうっ・・・。\nそういうお嬢だって・・・！",
-   "en": ""
+   "en": "Aragoto:\nUrk...\nAnd you, young lady...!",
+   "status": "done"
   },
   {
    "id": "R01:0E864",
@@ -48,7 +52,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "いや、しゃべると腹が滅る。",
-   "en": ""
+   "en": "No, talking only stokes\nmy hunger.",
+   "status": "done"
   },
   {
    "id": "R01:0E88E",
@@ -56,7 +61,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nどこかに食べ物でも落ちてない\nかなぁ・・・。",
-   "en": ""
+   "en": "Wataru:\nMaybe there's some food lying\naround somewhere...",
+   "status": "done"
   },
   {
    "id": "R01:0E8D4",
@@ -64,7 +70,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R01:0E8EC",
@@ -72,7 +79,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R01:0E904",
@@ -80,7 +88,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R01:0E91C",
@@ -88,7 +97,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nあっ、あれは村ではないか！？",
-   "en": ""
+   "en": "Aragoto:\nAh! Is that not a village?!",
+   "status": "done"
   },
   {
    "id": "R01:0E954",
@@ -96,7 +106,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nホントだ！　行こう行こう！！",
-   "en": ""
+   "en": "Wataru:\nIt is! Come on, let's go!!",
+   "status": "done"
   },
   {
    "id": "R01:0E98E",
@@ -104,7 +115,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうっわぁーっ！！　村だ村だぁ！",
-   "en": ""
+   "en": "Wataru:\nWhoaaa!! A village! A village!",
+   "status": "done"
   },
   {
    "id": "R01:0E9C6",
@@ -112,7 +124,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nフッ。まるで「九死に一生を得た」\nような気分だぜ！",
-   "en": ""
+   "en": "Aragoto:\nHmph. I feel as though I have\n\"escaped death by a whisker\"!",
+   "status": "done"
   },
   {
    "id": "R01:0EA14",
@@ -120,7 +133,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n良かったですわね、\nワタルさま、おじさま。",
-   "en": ""
+   "en": "Sakuya:\nHow fortunate, Wataru-sama.\nAnd for you too, sir.",
+   "status": "done"
   },
   {
    "id": "R01:0EA5A",
@@ -128,7 +142,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nあっれぇ？",
-   "en": ""
+   "en": "Wataru:\nHuuuh?",
+   "status": "done"
   },
   {
    "id": "R01:0EA80",
@@ -136,7 +151,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nどうかなさいましたか？",
-   "en": ""
+   "en": "Sakuya:\nIs something the matter?",
+   "status": "done"
   },
   {
    "id": "R01:0EAB0",
@@ -144,7 +160,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nいや、別にね、どうもしないんだ\nけど・・・。",
-   "en": ""
+   "en": "Wataru:\nNah, nothing really.\nIt's just...",
+   "status": "done"
   },
   {
    "id": "R01:0EAF6",
@@ -152,7 +169,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "何かこう・・・\nコンビニばっかりみたいな気が\nするんだよなぁ。",
-   "en": ""
+   "en": "Something about this place...\nIt looks like there's nothing\nbut convenience stores.",
+   "status": "done"
   },
   {
    "id": "R01:0EB46",
@@ -160,7 +178,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nいやいやぁ、拙には、ぜーんぜん\nおかしいところなどわからんなぁ。",
-   "en": ""
+   "en": "Aragoto:\nWhy, I see absolutely nothing\nout of the ordinary!",
+   "status": "done"
   },
   {
    "id": "R01:0EBA2",
@@ -168,7 +187,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "それはお主がぼうやだから、では\nないのか？",
-   "en": ""
+   "en": "Perhaps you think so because\nyou are merely a boy?",
+   "status": "done"
   },
   {
    "id": "R01:0EBDE",
@@ -176,7 +196,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nボク、ぼうやじゃないやいっ！\nそんなこと言ったら、",
-   "en": ""
+   "en": "Wataru:\nI'm not a little kid!\nIf you're gonna say that,",
+   "status": "done"
   },
   {
    "id": "R01:0EC2A",
@@ -184,7 +205,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴトだって、\nおじさんじゃないかっ！",
-   "en": ""
+   "en": "then you're an old man,\nAragoto!",
+   "status": "done"
   },
   {
    "id": "R01:0EC64",
@@ -192,7 +214,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nぬ、にゃにぃぃっっ！",
-   "en": ""
+   "en": "Aragoto:\nW-whAAAT?!",
+   "status": "done"
   },
   {
    "id": "R01:0EC96",
@@ -200,7 +223,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nまぁまぁ。ぼうやはぼうや、\nおじさんはおじさん、",
-   "en": ""
+   "en": "Sakuya:\nNow, now. A boy is a boy,\nand an old man is an old man.",
+   "status": "done"
   },
   {
    "id": "R01:0ECE0",
@@ -208,7 +232,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ということでよろしいじゃない\nですか。",
-   "en": ""
+   "en": "Can we not leave it at that?",
+   "status": "done"
   },
   {
    "id": "R01:0ED18",
@@ -216,7 +241,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルとアラゴト：\nうっ、うぐっ！",
-   "en": ""
+   "en": "Wataru & Aragoto:\nUrk! Guh!",
+   "status": "done"
   },
   {
    "id": "R01:0ED4A",
@@ -224,7 +250,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nさぁ参りましょう、お二人とも。",
-   "en": ""
+   "en": "Sakuya:\nCome along, both of you.",
+   "status": "done"
   },
   {
    "id": "R01:0ED9C",
@@ -232,7 +259,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おんなの子：\nお弁当はいりませんかー？\nただ今、無料で配布中でーす！",
-   "en": ""
+   "en": "Girl:\nWho wants a boxed lunch?\nWe're giving them away free!",
+   "status": "done"
   },
   {
    "id": "R01:0EDF0",
@@ -240,7 +268,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nおっ！？　どうやらあそこで\n配っているようだ。",
-   "en": ""
+   "en": "Aragoto:\nOh?! It seems they are handing\nsomething out over there.",
+   "status": "done"
   },
   {
    "id": "R01:0EE3A",
@@ -248,7 +277,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nホントだぁー、よしっ行こう！",
-   "en": ""
+   "en": "Wataru:\nYou're right! Come on, let's go!",
+   "status": "done"
   },
   {
    "id": "R01:0EE72",
@@ -256,7 +286,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "おんなの子：\nありがとうございましたぁーっ！",
-   "en": ""
+   "en": "Girl:\nThank you very muuuch!",
+   "status": "done"
   },
   {
    "id": "R01:0EEB0",
@@ -264,7 +295,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあのぉ・・・。\nつかぬことをお聞きしますが？",
-   "en": ""
+   "en": "Sakuya:\nExcuse me...\nMay I ask an odd question?",
+   "status": "done"
   },
   {
    "id": "R01:0EEF6",
@@ -272,7 +304,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おんなの子：\nはい、なんでしょう？",
-   "en": ""
+   "en": "Girl:\nYes? What is it?",
+   "status": "done"
   },
   {
    "id": "R01:0EF28",
@@ -280,7 +313,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nなぜ、\nこのお弁当は無料なのでしょう？",
-   "en": ""
+   "en": "Sakuya:\nWhy are these boxed lunches\nfree of charge?",
+   "status": "done"
   },
   {
    "id": "R01:0EF68",
@@ -288,7 +322,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "見た所手作りのようですが、\n非常に手間やお金がかかると思う\nのですが・・・。",
-   "en": ""
+   "en": "They appear to be homemade.\nSurely they take a great deal\nof time and money to prepare...",
+   "status": "done"
   },
   {
    "id": "R01:0EFC4",
@@ -296,7 +331,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おんなの子：\nいや、私は、",
-   "en": ""
+   "en": "Girl:\nOh, I just...",
+   "status": "done"
   },
   {
    "id": "R01:0EFEE",
@@ -304,7 +340,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "私の作ったお弁当をみんなに\n食べてもらいたいだけなんです。",
-   "en": ""
+   "en": "I just want everyone to enjoy\nthe boxed lunches I make.",
+   "status": "done"
   },
   {
    "id": "R01:0F038",
@@ -312,7 +349,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だから、別に手間やお金とか、\nそういう苦労は気にならないん\nです。",
-   "en": ""
+   "en": "So the time, the money, and\nall that effort don't really\nbother me.",
+   "status": "done"
   },
   {
    "id": "R01:0F08A",
@@ -320,7 +358,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "例えていうなら、ケーキは作る\nときも食べるときも楽しい！\nようなものです。",
-   "en": ""
+   "en": "It's like cake! Making one\nis just as much fun as eating\none, you know?",
+   "status": "done"
   },
   {
    "id": "R01:0F0E4",
@@ -328,7 +367,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nほーっ！　今時にしては\n立派な心がけだ。感心感心。",
-   "en": ""
+   "en": "Aragoto:\nOh! Such rare virtue these days!\nAdmirable, most admirable.",
+   "status": "done"
   },
   {
    "id": "R01:0F132",
@@ -336,7 +376,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですか・・・。\nありがとうございました。",
-   "en": ""
+   "en": "Sakuya:\nI see...\nThank you very much.",
+   "status": "done"
   },
   {
    "id": "R01:0F178",
@@ -344,7 +385,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "お弁当もいただきましたし、\nさ、参りましょう。",
-   "en": ""
+   "en": "We have our lunches now.\nCome, let us be on our way.",
+   "status": "done"
   },
   {
    "id": "R01:0F1B8",
@@ -352,7 +394,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nいやぁ、良かった良かった。\n「腹が滅ってはウシもあるかぬ」",
-   "en": ""
+   "en": "Aragoto:\nSplendid! As the saying goes,\n\"A cow marches on its stomach!\"",
+   "status": "done"
   },
   {
    "id": "R01:0F20E",
@@ -360,7 +403,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ということわざもあることだし、\nさっそく食べるとしよう！",
-   "en": ""
+   "en": "So, with that wise proverb in\nmind, let us eat at once!",
+   "status": "done"
   },
   {
    "id": "R01:0F256",
@@ -368,7 +412,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nそうそう！　腹が滅っては・・・。\nそんなんだったっけ？",
-   "en": ""
+   "en": "Wataru:\nYeah! A cow marches on its...\nWait, is that how it goes?",
+   "status": "done"
   },
   {
    "id": "R01:0F2AE",
@@ -376,7 +421,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nはぁー、食った食ったぁ。",
-   "en": ""
+   "en": "Aragoto:\nAhhh! What a feast!",
+   "status": "done"
   },
   {
    "id": "R01:0F2E2",
@@ -384,7 +430,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "人間、腹がふくれると\n眠くなってくるでござるよ・・・。",
-   "en": ""
+   "en": "Once a man's belly is full,\nslumber begins to beckon...",
+   "status": "done"
   },
   {
    "id": "R01:0F32A",
@@ -392,7 +439,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nお、おじさん！　ちょっと！\nアラゴトのおじさん！",
-   "en": ""
+   "en": "Wataru:\nH-hey, old man! Hey!\nHey, Aragoto!",
+   "status": "done"
   },
   {
    "id": "R01:0F374",
@@ -400,7 +448,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "・・・ねちゃったよ。",
-   "en": ""
+   "en": "...He's fallen asleep.",
+   "status": "done"
   },
   {
    "id": "R01:0F39A",
@@ -408,7 +457,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおほほほほ、おじさまは全く\nウシやブタのようですわね。",
-   "en": ""
+   "en": "Sakuya:\nOh ho ho ho! Just like a cow\nor a pig, is he not?",
+   "status": "done"
   },
   {
    "id": "R01:0F3EA",
@@ -416,7 +466,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサ、サクヤって・・・、\nすごいこと言うね・・・。",
-   "en": ""
+   "en": "Wataru:\nS-Sakuya...\nYou sure don't hold back...",
+   "status": "done"
   },
   {
    "id": "R01:0F434",
@@ -424,7 +475,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおほほほほほ。",
-   "en": ""
+   "en": "Sakuya:\nOh ho ho ho ho!",
+   "status": "done"
   },
   {
    "id": "R01:0F45C",
@@ -432,7 +484,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nねぇ、どうしようか？",
-   "en": ""
+   "en": "Wataru:\nHey, what should we do?",
+   "status": "done"
   },
   {
    "id": "R01:0F48A",
@@ -440,7 +493,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわねぇ・・・。",
-   "en": ""
+   "en": "Sakuya:\nLet me see...",
+   "status": "done"
   },
   {
    "id": "R01:0F4BA",
@@ -448,7 +502,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴトおじさまは、一度寝て\nしまうと、なかなか目が覚めない\nですから・・・。",
-   "en": ""
+   "en": "Once Aragoto falls asleep,\nit is terribly difficult\nto wake him...",
+   "status": "done"
   },
   {
    "id": "R01:0F518",
@@ -456,7 +511,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n・・・置いてっちゃおうか？",
-   "en": ""
+   "en": "Wataru:\n...Should we leave him behind?",
+   "status": "done"
   },
   {
    "id": "R01:0F54C",
@@ -464,7 +520,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nそうですわね。",
-   "en": ""
+   "en": "Sakuya:\nYes, I think so.",
+   "status": "done"
   },
   {
    "id": "R01:0F58C",
@@ -472,7 +529,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nワタルさま、わたくし何だか頭が\nフラフラしますわ。",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama, I feel rather\ndizzy all of a sudden.",
+   "status": "done"
   },
   {
    "id": "R01:0F5DA",
@@ -480,7 +538,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n大丈夫？　サクヤ。どこかで\n休んだ方がいいんじゃない？",
-   "en": ""
+   "en": "Wataru:\nYou okay, Sakuya? Shouldn't you\nget some rest somewhere?",
+   "status": "done"
   },
   {
    "id": "R01:0F62A",
@@ -488,7 +547,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nでは・・・。\n村の入り口に宿屋がありましたわ。",
-   "en": ""
+   "en": "Sakuya:\nWell... There was an inn\nat the village entrance.",
+   "status": "done"
   },
   {
    "id": "R01:0F672",
@@ -496,7 +556,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nじゃあ、そこに行こう！",
-   "en": ""
+   "en": "Wataru:\nThen let's go there!",
+   "status": "done"
   },
   {
    "id": "R01:0F6AA",
@@ -504,7 +565,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nじゃあボク、薬を探してくるよ。",
-   "en": ""
+   "en": "Wataru:\nI'll go look for some medicine.",
+   "status": "done"
   },
   {
    "id": "R01:0F6E2",
@@ -512,7 +574,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nお願いしますわ、ワタルさま。",
-   "en": ""
+   "en": "Sakuya:\nPlease do, Wataru-sama.",
+   "status": "done"
   },
   {
    "id": "R01:0F730",
@@ -520,7 +583,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "エビフライになっちゃったよーん！",
-   "en": ""
+   "en": "I'm a fried shrimp nowww!",
+   "status": "done"
   },
   {
    "id": "R01:0F762",
@@ -528,7 +592,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nぅわわっ！\nなんじゃこりゃぁーっ？",
-   "en": ""
+   "en": "Wataru:\nW-whoa!\nWhat the heck is thiiis?!",
+   "status": "done"
   },
   {
    "id": "R01:0F7A0",
@@ -536,7 +601,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nうわっ、な、なにするんだよーっ！",
-   "en": ""
+   "en": "Wataru:\nWhoa! Wh-what are you doing?!",
+   "status": "done"
   },
   {
    "id": "R01:0F80C",
@@ -544,7 +610,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "えびフライ：\nわあぁぁっっ！！",
-   "en": ""
+   "en": "Fried Shrimp:\nAaaaah!!",
+   "status": "done"
   },
   {
    "id": "R01:0F83A",
@@ -552,7 +619,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nな、なんだぁ、ここ！？",
-   "en": ""
+   "en": "Wataru:\nWh-what IS this place?!",
+   "status": "done"
   },
   {
    "id": "R01:0F86A",
@@ -560,7 +628,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nよぉー、ぼうや。お主もきたか。",
-   "en": ""
+   "en": "Aragoto:\nAh, boy. So you have come too.",
+   "status": "done"
   },
   {
    "id": "R01:0F8A4",
@@ -568,7 +637,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあーっ、アラゴトのおじさん！！",
-   "en": ""
+   "en": "Wataru:\nOh! It's you, Aragoto!!",
+   "status": "done"
   },
   {
    "id": "R01:0F8DC",
@@ -576,7 +646,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n弁当を食べて、気持ちよく寝て\nいたら、いつのまにかこんな所に",
-   "en": ""
+   "en": "Aragoto:\nI ate lunch and slept soundly,\nthen somehow ended up here...",
+   "status": "done"
   },
   {
    "id": "R01:0F934",
@@ -584,7 +655,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おさまっちまった。\nこれぞ「油断大敵あめアラレ」\nってヤツだな、わっはっは！",
-   "en": ""
+   "en": "...here! \"Never let your guard\ndown... or your gumdrops!\"\nWah ha ha!",
+   "status": "done"
   },
   {
    "id": "R01:0F990",
@@ -592,7 +664,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nいったい全体！\nこれはどういうことなの！？",
-   "en": ""
+   "en": "Wataru:\nWhat in the world is going on?!",
+   "status": "done"
   },
   {
    "id": "R01:0F9D4",
@@ -600,7 +673,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nこれはすべて・・・\nおべんと娘の仕組んだことですわ。",
-   "en": ""
+   "en": "Sakuya:\nThis is all...\nBento Girl's doing.",
+   "status": "done"
   },
   {
    "id": "R01:0FA22",
@@ -608,7 +682,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサクヤまで！！",
-   "en": ""
+   "en": "Wataru:\nYou too, Sakuya?!",
+   "status": "done"
   },
   {
    "id": "R01:0FA4A",
@@ -616,7 +691,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n私たちが公園でいただいたお弁当\nには、人間をお弁当の具にする、",
-   "en": ""
+   "en": "Sakuya:\nThe lunches we ate in the park\nturn people into lunch fillings.",
+   "status": "done"
   },
   {
    "id": "R01:0FAA2",
@@ -624,7 +700,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "悪い魔法がかけてあったんですわ。",
-   "en": ""
+   "en": "They were enchanted with\nevil magic.",
+   "status": "done"
   },
   {
    "id": "R01:0FAD2",
@@ -632,7 +709,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\n悪い魔法なんて人聞きが悪い。",
-   "en": ""
+   "en": "Bento Girl:\n\"Evil magic\"? How rude!",
+   "status": "done"
   },
   {
    "id": "R01:0FB0C",
@@ -640,7 +718,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "私はみなさんがオイシイお弁当に\nなるための、おまじないをした\nまでです。",
-   "en": ""
+   "en": "I merely cast a little charm\nto turn you all into delicious\nboxed lunches.",
+   "status": "done"
   },
   {
    "id": "R01:0FB64",
@@ -648,7 +727,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そうですねぇ、あまーいスイカに\nしょっぱいお塩をかけるともっと\n甘くなる、ようなものでしょうか。",
-   "en": ""
+   "en": "Let's see... It's like putting\nsalty salt on sweet watermelon\nto make it even sweeter!",
+   "status": "done"
   },
   {
    "id": "R01:0FBD4",
@@ -656,7 +736,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあーっ、キミはさっきの！！",
-   "en": ""
+   "en": "Wataru:\nHey! You're that girl!!",
+   "status": "done"
   },
   {
    "id": "R01:0FC08",
@@ -664,7 +745,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\nうふふっ。こうなると\n救世主ワタルも形無しですね。",
-   "en": ""
+   "en": "Bento Girl:\nHee hee! Even Savior Wataru\nlooks pathetic like this.",
+   "status": "done"
   },
   {
    "id": "R01:0FC58",
@@ -672,7 +754,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえっ、ボクを知ってるの？",
-   "en": ""
+   "en": "Wataru:\nHuh? You know who I am?",
+   "status": "done"
   },
   {
    "id": "R01:0FC8A",
@@ -680,7 +763,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\n救世主ワタルと言ったらアタシや\nワルモンダー様の行く手をはばむ",
-   "en": ""
+   "en": "Bento Girl:\nSavior Wataru, who defies me\nand Warumonder-sama, is...",
+   "status": "done"
   },
   {
    "id": "R01:0FCE6",
@@ -688,7 +772,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "伝説の勇者！",
-   "en": ""
+   "en": "The legendary hero!",
+   "status": "done"
   },
   {
    "id": "R01:0FD02",
@@ -696,7 +781,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "それが創界山にあらわれたという\nことは、「梅干しとうなぎの食べ\nあわせが悪い」と、おなじくらい",
-   "en": ""
+   "en": "That he has come to Sokaizan is\nas well-known as pickled plums\nand eel being a bad combination!",
+   "status": "done"
   },
   {
    "id": "R01:0FD70",
@@ -704,7 +790,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "誰でも知っていることです！",
-   "en": ""
+   "en": "Everybody knows it!",
+   "status": "done"
   },
   {
    "id": "R01:0FD9A",
@@ -712,7 +799,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nええっ！？　そうなの？",
-   "en": ""
+   "en": "Wataru:\nWhat?! Really?",
+   "status": "done"
   },
   {
    "id": "R01:0FDCA",
@@ -720,7 +808,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "うーん・・・でも、\nこんなことしちゃいけないよ！！",
-   "en": ""
+   "en": "Hmm... But still,\nyou can't go doing this!!",
+   "status": "done"
   },
   {
    "id": "R01:0FE0C",
@@ -728,7 +817,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "キミがボクのファンだってことは\n良くわかったケド、ボクをお弁当に\nして食べちゃいたいとか、",
-   "en": ""
+   "en": "I get it, you're my fan, but\nturning me into lunch so you can\neat me...",
+   "status": "done"
   },
   {
    "id": "R01:0FE76",
@@ -736,7 +826,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そのために、罪もない人々を巻き\n込むとか。\nそういうのはいけないことだよ！！",
-   "en": ""
+   "en": "And dragging innocent people\ninto it, too...\nThat's just wrong!!",
+   "status": "done"
   },
   {
    "id": "R01:0FED2",
@@ -744,7 +835,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\nは！？",
-   "en": ""
+   "en": "Bento Girl:\nHuh?!",
+   "status": "done"
   },
   {
    "id": "R01:0FEF6",
@@ -752,7 +844,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおほほ、救世主様はちょっと思い\nこみが激しいのです。",
-   "en": ""
+   "en": "Sakuya:\nOh ho ho! Savior-sama does tend\nto jump to conclusions.",
+   "status": "done"
   },
   {
    "id": "R01:0FF44",
@@ -760,7 +853,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "許してあげてくださいね？",
-   "en": ""
+   "en": "Do forgive him, will you?",
+   "status": "done"
   },
   {
    "id": "R01:0FF6C",
@@ -768,7 +862,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\nはぁ・・・。",
-   "en": ""
+   "en": "Bento Girl:\nUh...",
+   "status": "done"
   },
   {
    "id": "R01:0FF96",
@@ -776,7 +871,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R01:0FFAE",
@@ -784,7 +880,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n・・・なぜだ？",
-   "en": ""
+   "en": "Aragoto:\n...Why?",
+   "status": "done"
   },
   {
    "id": "R01:0FFD8",
@@ -792,7 +889,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\n何がよ？",
-   "en": ""
+   "en": "Bento Girl:\nWhy what?",
+   "status": "done"
   },
   {
    "id": "R01:0FFFE",
@@ -800,7 +898,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nなぜ私のファンにならずに、\nあんなぼうやのファンになるのだ？",
-   "en": ""
+   "en": "Aragoto:\nWhy be a fan of a boy like him\ninstead of a fan of mine?",
+   "status": "done"
   },
   {
    "id": "R01:10056",
@@ -808,7 +907,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\nは！？",
-   "en": ""
+   "en": "Bento Girl:\nHuh?!",
+   "status": "done"
   },
   {
    "id": "R01:1007A",
@@ -816,7 +916,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおほほ・・・アラゴトおじさまは\nちょっと察しが悪いのです。",
-   "en": ""
+   "en": "Sakuya:\nOh ho ho... Aragoto is rather\nslow on the uptake.",
+   "status": "done"
   },
   {
    "id": "R01:100CE",
@@ -824,7 +925,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "許してあげてくださいね。",
-   "en": ""
+   "en": "Do forgive him, please.",
+   "status": "done"
   },
   {
    "id": "R01:100F6",
@@ -832,7 +934,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\nはぁ・・・。",
-   "en": ""
+   "en": "Bento Girl:\nUh...",
+   "status": "done"
   },
   {
    "id": "R01:10120",
@@ -840,7 +943,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nぼく、ぼうやじゃないやいっ！",
-   "en": ""
+   "en": "Wataru:\nI'm not a little kid!",
+   "status": "done"
   },
   {
    "id": "R01:10156",
@@ -848,7 +952,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nぼうやをぼうやと言って、\n何が悪いのだ？",
-   "en": ""
+   "en": "Aragoto:\nWhat is wrong with calling\na boy a boy?",
+   "status": "done"
   },
   {
    "id": "R01:1019A",
@@ -856,7 +961,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそんなこと言ったら、アラゴト\nだっておじさんじゃないかっ！",
-   "en": ""
+   "en": "Wataru:\nIf you're gonna say that, then\nyou're an old man, Aragoto!",
+   "status": "done"
   },
   {
    "id": "R01:101EE",
@@ -864,7 +970,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nぬ、にゃにぃぃっっ！",
-   "en": ""
+   "en": "Aragoto:\nW-whAAAT?!",
+   "status": "done"
   },
   {
    "id": "R01:1021E",
@@ -872,7 +979,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "サクヤ：\nまぁまぁ。ぼうやはぼうや、\nおじさんはおじさん、という・・・",
-   "en": ""
+   "en": "Sakuya:\nNow, now. A boy is a boy,\nand an old man is an old...",
+   "status": "done"
   },
   {
    "id": "R01:10276",
@@ -880,7 +988,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\nだぁーっ！！",
-   "en": ""
+   "en": "Bento Girl:\nGAAAH!!",
+   "status": "done"
   },
   {
    "id": "R01:102A0",
@@ -888,7 +997,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あたしを無視してケンカ\nしてるんじゃなーいっ！！",
-   "en": ""
+   "en": "Don't just ignore me and\nstart fighting!!",
+   "status": "done"
   },
   {
    "id": "R01:102E0",
@@ -896,7 +1006,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "こうなったら、レンジ・デ・チン\n魔神で、おまえ達をホカホカの\nお弁当にしちゃうわよ！！",
-   "en": ""
+   "en": "In that case, my Micro-Ding\nmashin will turn you all into\npiping-hot boxed lunches!!",
+   "status": "done"
   },
   {
    "id": "R01:10346",
@@ -904,7 +1015,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nええーっ、それは困るよっ。",
-   "en": ""
+   "en": "Wataru:\nWhaaat? We can't have that!",
+   "status": "done"
   },
   {
    "id": "R01:1037A",
@@ -912,7 +1024,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわ！",
-   "en": ""
+   "en": "Sakuya:\nIndeed!",
+   "status": "done"
   },
   {
    "id": "R01:103A0",
@@ -920,7 +1033,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "電子レンジは人間に有害な電波が\n出ていて、とっても危険\nなんですのよ！",
-   "en": ""
+   "en": "Microwave ovens emit waves\nthat harm humans! They are\nterribly dangerous!",
+   "status": "done"
   },
   {
    "id": "R01:103F6",
@@ -928,7 +1042,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだそうだ・・・。\nそうなの？",
-   "en": ""
+   "en": "Wataru:\nYeah, that's right...\nWait, they do?",
+   "status": "done"
   },
   {
    "id": "R01:10430",
@@ -936,7 +1051,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわ・・・ワタル様！\nおじさま！　反撃しましょう！！",
-   "en": ""
+   "en": "Sakuya:\nIndeed... Wataru-sama! Sir!\nLet us fight back!!",
+   "status": "done"
   },
   {
    "id": "R01:10484",
@@ -944,7 +1060,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルとアラゴト：\nお、おう！",
-   "en": ""
+   "en": "Wataru & Aragoto:\nR-right!",
+   "status": "done"
   },
   {
    "id": "R01:104B4",
@@ -952,7 +1069,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "おべんと娘：\nはっ、しまった。\nここはいったん逃げないとっ。",
-   "en": ""
+   "en": "Bento Girl:\nOh, no! I'd better\nget out of here for now!",
+   "status": "done"
   },
   {
    "id": "R01:10502",
@@ -960,7 +1078,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nワタル様、追いかけて！！",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama, after her!!",
+   "status": "done"
   },
   {
    "id": "R01:10552",
@@ -968,7 +1087,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "おべんと娘：\nうぅー、こうなったら勝負よ！",
-   "en": ""
+   "en": "Bento Girl:\nGrrr! Then let's settle this!",
+   "status": "done"
   },
   {
    "id": "R01:1059A",
@@ -976,7 +1096,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\nううぅー、レンジ・デ・チンよ、\nいらっしゃーい！",
-   "en": ""
+   "en": "Bento Girl:\nGrrr! Micro-Ding,\ncome on ouuut!",
+   "status": "done"
   },
   {
    "id": "R01:105E8",
@@ -984,7 +1105,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえ、ええ？　どうしよう・・・。",
-   "en": ""
+   "en": "Wataru:\nH-huh? What do I do...?",
+   "status": "done"
   },
   {
    "id": "R01:10620",
@@ -992,7 +1114,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "？？？：\nワタル、私を呼べ！",
-   "en": ""
+   "en": "???:\nWataru, call upon me!",
+   "status": "done"
   },
   {
    "id": "R01:1064C",
@@ -1000,7 +1123,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえ？　だれ・・・？",
-   "en": ""
+   "en": "Wataru:\nHuh? Who...?",
+   "status": "done"
   },
   {
    "id": "R01:10678",
@@ -1008,7 +1132,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "もんじゃ村での話：\n困ったことがあったら、龍神様\nの使い、龍神丸を呼ぶのです。",
-   "en": ""
+   "en": "Back in Monja Village:\nIn trouble? Call Ryujinmaru,\nDragon God-sama's messenger.",
+   "status": "done"
   },
   {
    "id": "R01:106D6",
@@ -1016,7 +1141,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nそうか！！　今のが・・・！",
-   "en": ""
+   "en": "Wataru:\nThat's it!! That voice was...!",
+   "status": "done"
   },
   {
    "id": "R01:10716",
@@ -1024,7 +1150,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\n救世主さま、\nありがとうございました。",
-   "en": ""
+   "en": "Bento Girl:\nSavior-sama,\nthank you very much.",
+   "status": "done"
   },
   {
    "id": "R01:1075A",
@@ -1032,7 +1159,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえ、別にいーんだよ。",
-   "en": ""
+   "en": "Wataru:\nOh, don't worry about it.",
+   "status": "done"
   },
   {
    "id": "R01:10788",
@@ -1040,7 +1168,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おべんと娘：\n自分のお弁当を食べてもらいたい\nからって、悪の力を借りるなんて",
-   "en": ""
+   "en": "Bento Girl:\nTo think I used evil powers just\nto have people eat my lunches...",
+   "status": "done"
   },
   {
    "id": "R01:107E4",
@@ -1048,7 +1177,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "良くないことですよね。",
-   "en": ""
+   "en": "That is wrong, is it not?",
+   "status": "done"
   },
   {
    "id": "R01:1080A",
@@ -1056,7 +1186,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそうそう。\nそれがわかっていれば、",
-   "en": ""
+   "en": "Aragoto:\nQuite so, quite so.\nNow that you understand,",
+   "status": "done"
   },
   {
    "id": "R01:10848",
@@ -1064,7 +1195,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "これからは良い料理を作ることが\nできよう。まさに、\n「一を聞いて十を知る」だな！",
-   "en": ""
+   "en": "you shall cook fine meals now.\nIndeed, \"A word to the wise\nis enough\"!",
+   "status": "done"
   },
   {
    "id": "R01:108A8",
@@ -1072,7 +1204,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルとサクヤ：\n・・・。[B000]の",
-   "en": ""
+   "en": "Wataru & Sakuya:\n...[B000][0019]",
+   "status": "done"
   },
   {
    "id": "R01:140FC",
@@ -1080,7 +1213,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nここのコンビニって、お弁当が\n売ってないんだ。",
-   "en": ""
+   "en": "Boy:\nThis convenience store doesn't\nsell boxed lunches.",
+   "status": "done"
   },
   {
    "id": "R01:1413A",
@@ -1088,7 +1222,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "腹滅ったよー。",
-   "en": ""
+   "en": "I'm staaaarving.",
+   "status": "done"
   },
   {
    "id": "R01:1414C",
@@ -1096,7 +1231,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\n【おべんと娘】ちゃんって\nかわいいよね。",
-   "en": ""
+   "en": "Boy:\nBento Girl-chan sure is cute.",
+   "status": "done"
   },
   {
    "id": "R01:14184",
@@ -1104,7 +1240,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もしかして、きみもねらってる？",
-   "en": ""
+   "en": "Wait, are you after her too?",
+   "status": "done"
   },
   {
    "id": "R01:141A4",
@@ -1112,7 +1249,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\n【おべんと娘】さんのお弁当って、\nとってもおいしいの。",
-   "en": ""
+   "en": "Girl:\nBento Girl-san's boxed lunches\nare really yummy.",
+   "status": "done"
   },
   {
    "id": "R01:141EC",
@@ -1120,7 +1258,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nえっ、おべんとう？",
-   "en": ""
+   "en": "Girl:\nHuh? A boxed lunch?",
+   "status": "done"
   },
   {
    "id": "R01:1420E",
@@ -1128,7 +1267,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "それなら、エレベーターを\nのぼったところの、\nひろばでもらえるよ。",
-   "en": ""
+   "en": "Take the elevator up.\nYou can get one in the plaza\nup there.",
+   "status": "done"
   },
   {
    "id": "R01:14254",
@@ -1136,7 +1276,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子　\nおべんとう、もらえた？",
-   "en": ""
+   "en": "Girl:\nDid you get a boxed lunch?",
+   "status": "done"
   },
   {
    "id": "R01:1427C",
@@ -1144,7 +1285,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "店の人：\nああ・・・、いらっしゃい。\nこんなコンビニですが、\n見ていってください・・・。",
-   "en": ""
+   "en": "Shopkeeper:\nAh... Welcome. It's not much,\nbut do have a look around...",
+   "status": "done"
   },
   {
    "id": "R01:142D8",
@@ -1152,7 +1294,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nあのコンビニを見てごらん。",
-   "en": ""
+   "en": "Man:\nTake a look at that store.",
+   "status": "done"
   },
   {
    "id": "R01:14300",
@@ -1160,7 +1303,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "今はコンビニだけど、\nおじさんが子どものころは、\nまだ、スーパーだったんだ。",
-   "en": ""
+   "en": "It's a convenience store now,\nbut when I was a kid,\nit was still a supermarket.",
+   "status": "done"
   },
   {
    "id": "R01:14350",
@@ -1168,7 +1312,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nあなた、もんペットもってる？",
-   "en": ""
+   "en": "Young Woman:\nDo you have a Monpet?",
+   "status": "done"
   },
   {
    "id": "R01:1437C",
@@ -1176,7 +1321,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "私とトモダチにならない？\n１．はい　　　　　　\n２．いいえ　　　　　　",
-   "en": ""
+   "en": "Want to be friends with me?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R01:143C6",
@@ -1184,7 +1330,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nワタルくん、よろしくね！",
-   "en": ""
+   "en": "Young Woman:\nGlad we're friends, Wataru-kun!",
+   "status": "done"
   },
   {
    "id": "R01:143EE",
@@ -1192,7 +1339,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nそう、ざんねんね・・・。",
-   "en": ""
+   "en": "Young Woman:\nOh, that's too bad...",
+   "status": "done"
   },
   {
    "id": "R01:14418",
@@ -1200,7 +1348,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nおう！　ガキンチョ！",
-   "en": ""
+   "en": "Man:\nHey! Squirt!",
+   "status": "done"
   },
   {
    "id": "R01:1443A",
@@ -1208,7 +1357,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "オレはトイレに行って、\n手をあらわないおとこだ！",
-   "en": ""
+   "en": "I'm the kind of guy who doesn't\nwash his hands after going\nto the bathroom!",
+   "status": "done"
   },
   {
    "id": "R01:1446C",
@@ -1216,7 +1366,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "もちろん、弁当を食べる時も\nあらわないのさ！",
-   "en": ""
+   "en": "Of course, I don't wash them\nbefore eating lunch, either!",
+   "status": "done"
   },
   {
    "id": "R01:1449A",
@@ -1224,7 +1375,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "オレってサイテー・・・。",
-   "en": ""
+   "en": "I'm the worst...",
+   "status": "done"
   },
   {
    "id": "R01:144B4",
@@ -1232,7 +1384,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nぼうやは電子レンジでたまごを、\nチンしたことがあるかい？",
-   "en": ""
+   "en": "Man:\nEver tried zapping an egg\nin the microwave, kid?",
+   "status": "done"
   },
   {
    "id": "R01:144FA",
@@ -1240,7 +1393,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "すごいぞー！\nバクハツするんだねー。\nあれにはおどろいたよ！",
-   "en": ""
+   "en": "It's amazing!\nIt explodes!\nBoy, did that surprise me!",
+   "status": "done"
   },
   {
    "id": "R01:14538",
@@ -1248,7 +1402,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\n私のきおくがたしかならば、\nここは、コンビニだろう。",
-   "en": ""
+   "en": "Man:\nIf memory serves me right,\nthis is a convenience store.",
+   "status": "done"
   },
   {
    "id": "R01:1457C",
@@ -1256,7 +1411,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nボクにさわるな！",
-   "en": ""
+   "en": "Young Man:\nDon't touch me!",
+   "status": "done"
   },
   {
    "id": "R01:1459C",
@@ -1264,7 +1420,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おなかであたためている\n【おべんと娘】ちゃんの\nお弁当がつぶれるだろっ！",
-   "en": ""
+   "en": "You'll crush Bento Girl-chan's\nboxed lunch! I'm keeping it\nwarm against my belly!",
+   "status": "done"
   },
   {
    "id": "R01:145E8",
@@ -1272,7 +1429,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n【おべんと娘】のお弁当はのぉ、\nまごころがこもっておるんじゃ。",
-   "en": ""
+   "en": "Old Woman:\nBento Girl puts her whole heart\ninto those boxed lunches.",
+   "status": "done"
   },
   {
    "id": "R01:14636",
@@ -1280,7 +1438,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あの子は、ホントに良い子じゃよ。",
-   "en": ""
+   "en": "She's such a good girl.",
+   "status": "done"
   },
   {
    "id": "R01:14658",
@@ -1288,7 +1447,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n料理できる子が滅っているんだ。",
-   "en": ""
+   "en": "Young Man:\nFewer and fewer girls\ncan cook these days.",
+   "status": "done"
   },
   {
    "id": "R01:14686",
@@ -1296,7 +1456,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "でもね、【おべんと娘】は\nちがうんだ。",
-   "en": ""
+   "en": "But Bento Girl is different.",
+   "status": "done"
   },
   {
    "id": "R01:146B0",
@@ -1304,7 +1465,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n【おべんと娘】、【おべんと娘】。\nいったい、なんだってんだ！",
-   "en": ""
+   "en": "Man:\nBento Girl! Bento Girl!\nWhat's all the fuss about?!",
+   "status": "done"
   },
   {
    "id": "R01:146FA",
@@ -1312,7 +1474,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もしかして、おまえもそうか？",
-   "en": ""
+   "en": "Don't tell me you're a fan too?",
+   "status": "done"
   },
   {
    "id": "R01:14718",
@@ -1320,7 +1483,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\nにいちゃんナウイね！\nボクってヤングだろう？",
-   "en": ""
+   "en": "Old Man:\nYou're groovy, kid!\nI'm pretty hip myself, huh?",
+   "status": "done"
   },
   {
    "id": "R01:14754",
@@ -1328,7 +1492,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\n【おべんと娘】なんてダサイぜ。\nやっぱ【イケイケ娘】ジャン！",
-   "en": ""
+   "en": "Old Man:\nBento Girl is so square!\nGo-Go Girl is where it's at!",
+   "status": "done"
   },
   {
    "id": "R01:147A0",
@@ -1336,7 +1501,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\nワシのセリフ、いけてるっぺ？",
-   "en": ""
+   "en": "Old Man:\nMy lingo's groovy, ain't it?",
+   "status": "done"
   },
   {
    "id": "R01:147CC",
@@ -1344,7 +1510,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nべんりな世の中になったのぉ。\nコンビニ様さまじゃの、ほっほっ。",
-   "en": ""
+   "en": "Old Woman:\nLife is so convenient now!\nBless these stores-sama! Ho ho!",
+   "status": "done"
   },
   {
    "id": "R01:1481C",
@@ -1352,7 +1519,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\nまだまだ、ワカイ子には\n負けないよ。",
-   "en": ""
+   "en": "Old Woman:\nYou youngsters haven't\nbeaten me yet!",
+   "status": "done"
   },
   {
    "id": "R01:14850",
@@ -1360,7 +1528,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nやってみるかい？\nブルドックじゃんけん。",
-   "en": ""
+   "en": "Old Woman:\nCare for a game of\nBulldog Rock-Paper-Scissors?",
+   "status": "done"
   },
   {
    "id": "R01:14888",
@@ -1368,7 +1537,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\n・・・なんと！",
-   "en": ""
+   "en": "Old Woman:\n...Good heavens!",
+   "status": "done"
   },
   {
    "id": "R01:148A6",
@@ -1376,7 +1546,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ぼうやはブルドックじゃんけんを\n知らないのかい？",
-   "en": ""
+   "en": "You don't know how to play\nBulldog Rock-Paper-Scissors,\nboy?",
+   "status": "done"
   },
   {
    "id": "R01:148D8",
@@ -1384,7 +1555,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nまったく、ちかごろのワカイ者は！",
-   "en": ""
+   "en": "Old Woman:\nHonestly! Young people today!",
+   "status": "done"
   },
   {
    "id": "R01:14908",
@@ -1392,7 +1564,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "私のあい手もしてくれないよ。\nさみしいよ・・・。",
-   "en": ""
+   "en": "You won't even keep me company.\nI'm so lonely...",
+   "status": "done"
   },
   {
    "id": "R01:1493C",
@@ -1400,7 +1573,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nシャシャニシキとキョシヒカリは、\nお弁当には、かかせないよね。",
-   "en": ""
+   "en": "Boy:\nSasasnicker and Koshihilarity\nare musts for boxed-lunch rice!",
+   "status": "done"
   },
   {
    "id": "R01:1498C",
@@ -1408,7 +1582,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nそんな、メジャーどころより、\nクララ９９９がいけるよ。",
-   "en": ""
+   "en": "Boy:\nForget those big-name brands.\nClara 999 is the good stuff!",
+   "status": "done"
   },
   {
    "id": "R01:149D4",
@@ -1416,7 +1591,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nコンビニにお弁当売ってないから、\nクサを食べたら・・・ゲリぴー。",
-   "en": ""
+   "en": "Man:\nThe store had no lunches, so I\nate grass... Now I've got runs.",
+   "status": "done"
   },
   {
    "id": "R01:14A24",
@@ -1424,7 +1600,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nここから、上に行くと、\nタダでお弁当がもらえるよ。",
-   "en": ""
+   "en": "Man:\nHead up from here, and you can\nget a boxed lunch for free.",
+   "status": "done"
   },
   {
    "id": "R01:14A64",
@@ -1432,7 +1609,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nふとっているからって、大食いだ\nなんて、ヘンケンだよ！",
-   "en": ""
+   "en": "Young Man:\nIt's unfair to assume I eat a\nlot just because I'm fat!",
+   "status": "done"
   },
   {
    "id": "R01:14AAC",
@@ -1440,7 +1618,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nこの上はキケンだーよ。",
-   "en": ""
+   "en": "Old Woman:\nIt's dangerous up there.",
+   "status": "done"
   },
   {
    "id": "R01:14AD2",
@@ -1448,7 +1627,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "アタシら村人も行かない\nコワーイところだーよ。",
-   "en": ""
+   "en": "It's so scaaary, even we\nvillagers won't go there.",
+   "status": "done"
   },
   {
    "id": "R01:14B04",
@@ -1456,7 +1636,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\nふとっていると、ソンよねー。",
-   "en": ""
+   "en": "Old Woman:\nBeing fat has its downsides.",
+   "status": "done"
   },
   {
    "id": "R01:14B30",
@@ -1464,7 +1645,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\nお弁当には、おかずもなきゃね。",
-   "en": ""
+   "en": "Boy:\nA boxed lunch needs side dishes!",
+   "status": "done"
   },
   {
    "id": "R01:14B60",
@@ -1472,7 +1654,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nおかずは、\nにくだんごがいけるよ。",
-   "en": ""
+   "en": "Boy:\nMeatballs make a great\nside dish.",
+   "status": "done"
   },
   {
    "id": "R01:14B94",
@@ -1480,7 +1663,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nいくらお弁当が\nおいしいからって、",
-   "en": ""
+   "en": "Girl:\nI don't care how yummy\nthose boxed lunches are...",
+   "status": "done"
   },
   {
    "id": "R01:14BC6",
@@ -1488,7 +1672,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "具になんかなりたくないよー。",
-   "en": ""
+   "en": "I don't wanna be a filling!",
+   "status": "done"
   },
   {
    "id": "R01:14BE4",
@@ -1496,7 +1681,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\nぐす、えっえっ・・・。\nおねがい食べないで・・・",
-   "en": ""
+   "en": "Girl:\nSniff... Sob...\nPlease don't eat me...",
+   "status": "done"
   },
   {
    "id": "R01:14C24",
@@ -1504,7 +1690,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n・・・。",
-   "en": ""
+   "en": "Young Man:\n...",
+   "status": "done"
   },
   {
    "id": "R01:14C3C",
@@ -1512,7 +1699,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "いらっしゃい。\nお弁当のおかずでも・・・、\nいかがですか・・・？",
-   "en": ""
+   "en": "Welcome.\nCould I interest you...\nin a side dish for your lunch?",
+   "status": "done"
   },
   {
    "id": "R01:14C80",
@@ -1520,7 +1708,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nおじさんを見てごらん。",
-   "en": ""
+   "en": "Man:\nTake a look at me.",
+   "status": "done"
   },
   {
    "id": "R01:14CA4",
@@ -1528,7 +1717,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "今は弁当の具だけど、\nさっきまでは、\n人間だったんだ・・・。",
-   "en": ""
+   "en": "I'm a lunch filling now,\nbut just a little while ago,\nI was human...",
+   "status": "done"
   },
   {
    "id": "R01:14CE4",
@@ -1536,7 +1726,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nあら、ワタルくん。\n無事だったのね。",
-   "en": ""
+   "en": "Young Woman:\nOh, Wataru-kun.\nYou're safe.",
+   "status": "done"
   },
   {
    "id": "R01:14D18",
@@ -1544,7 +1735,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "うしろすがたで、ゴメンね。",
-   "en": ""
+   "en": "Sorry I've got my back to you.",
+   "status": "done"
   },
   {
    "id": "R01:14D34",
@@ -1552,7 +1744,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nお、おい！\nさわるな！",
-   "en": ""
+   "en": "Man:\nH-hey!\nDon't touch me!",
+   "status": "done"
   },
   {
    "id": "R01:14D58",
@@ -1560,7 +1753,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちゃんと手はあらったか？\n手もあらわずに",
-   "en": ""
+   "en": "Did you wash your hands?\nIf you haven't,",
+   "status": "done"
   },
   {
    "id": "R01:14D82",
@@ -1568,7 +1762,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "オレを食べるなよ！",
-   "en": ""
+   "en": "don't you dare eat me!",
+   "status": "done"
   },
   {
    "id": "R01:14D98",
@@ -1576,7 +1771,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nなんだか、自分がおかずに\n見えてきた・・・。",
-   "en": ""
+   "en": "Man:\nI'm starting to look like\na side dish to myself...",
+   "status": "done"
   },
   {
    "id": "R01:14DD4",
@@ -1584,7 +1780,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nフン！\n私はタダでは食えないぞ！",
-   "en": ""
+   "en": "Man:\nHmph! You won't make\nan easy meal of me!",
+   "status": "done"
   },
   {
    "id": "R01:14E04",
@@ -1592,7 +1789,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nこれって・・・。",
-   "en": ""
+   "en": "Young Man:\nDid this happen...",
+   "status": "done"
   },
   {
    "id": "R01:14E24",
@@ -1600,7 +1798,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【おべんと娘】ちゃんの\nお弁当を食ったせい？",
-   "en": ""
+   "en": "because I ate one of\nBento Girl-chan's boxed lunches?",
+   "status": "done"
   },
   {
    "id": "R01:14E54",
@@ -1608,7 +1807,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nみんなおかずになってしまって、\nコワーイだーよ。",
-   "en": ""
+   "en": "Old Woman:\nEveryone's turned into food!\nIt's scaaary!",
+   "status": "done"
   },
   {
    "id": "R01:14E94",
@@ -1616,7 +1816,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ところがどっこい！\n私のすがたも、コワーイだーよ。",
-   "en": ""
+   "en": "But wouldn't you know it!\nI look scaaary too!",
+   "status": "done"
   },
   {
    "id": "R01:14EC8",
@@ -1624,7 +1825,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nむねんだ・・・・・・。",
-   "en": ""
+   "en": "Young Man:\nOh, the shame......",
+   "status": "done"
   },
   {
    "id": "R01:14EF0",
@@ -1632,7 +1834,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nいつ具になったかと？",
-   "en": ""
+   "en": "Man:\nWhen did I become a filling?",
+   "status": "done"
   },
   {
    "id": "R01:14F12",
@@ -1640,7 +1843,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "私のきおくがたしかならば、\n弁当を食べた後だろう。",
-   "en": ""
+   "en": "If memory serves me right,\nit was after I ate that lunch.",
+   "status": "done"
   },
   {
    "id": "R01:14F48",
@@ -1648,7 +1852,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nにいちゃん！\nどうだいこのファッション？",
-   "en": ""
+   "en": "Old Man:\nHey, kid!\nHow do you like my outfit?",
+   "status": "done"
   },
   {
    "id": "R01:14F80",
@@ -1656,7 +1861,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これからはお弁当ルックが\nはやりだぜぃ！",
-   "en": ""
+   "en": "The boxed-lunch look is gonna\nbe all the rage!",
+   "status": "done"
   },
   {
    "id": "R01:14FAC",
@@ -1664,7 +1870,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\n弁当の具になってしもうたものは、\nしかたないじゃろう。",
-   "en": ""
+   "en": "Old Man:\nI'm a lunch filling now.\nNo use crying over it.",
+   "status": "done"
   },
   {
    "id": "R01:14FF2",
@@ -1672,7 +1879,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "せめて【おべんと娘】の手で\nまごころのこもった弁当に\nしてもらえれば、ホンモウじゃ。",
-   "en": ""
+   "en": "If Bento Girl could make me\npart of a lunch full of love,\nI'd die happy.",
+   "status": "done"
   },
   {
    "id": "R01:15048",
@@ -1680,7 +1888,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nこれで弁当の具にも\nこまらないですむわい。",
-   "en": ""
+   "en": "Old Woman:\nWell, we'll never run short\nof lunch fillings now.",
+   "status": "done"
   },
   {
    "id": "R01:15082",
@@ -1688,7 +1897,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "べんりな世の中になったのぉ。\n【おべんと娘】様さまじゃの、\nほっほっ。",
-   "en": ""
+   "en": "Life is so convenient now!\nBless Bento Girl-sama!\nHo ho!",
+   "status": "done"
   },
   {
    "id": "R01:150CC",
@@ -1696,7 +1906,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\nどうでもいいんじゃが・・・。\nみんなおいしそうじゃのう。",
-   "en": ""
+   "en": "Old Woman:\nNot that it matters, but...\nEveryone looks delicious.",
+   "status": "done"
   },
   {
    "id": "R01:15114",
@@ -1704,7 +1915,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nとほほほほ・・・。",
-   "en": ""
+   "en": "Old Man:\nOh, woe is me...",
+   "status": "done"
   },
   {
    "id": "R01:15136",
@@ -1712,7 +1924,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\nおじいさん、どうしたの？",
-   "en": ""
+   "en": "Wataru:\nWhat's wrong, Gramps?",
+   "status": "done"
   },
   {
    "id": "R01:1515A",
@@ -1720,7 +1933,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nコンビニで弁当をもらったんじゃ。",
-   "en": ""
+   "en": "Old Man:\nI got a boxed lunch\nat the convenience store.",
+   "status": "done"
   },
   {
    "id": "R01:1518A",
@@ -1728,7 +1942,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "でも、\nはしがなくてのう・・・。",
-   "en": ""
+   "en": "But I haven't got\nany chopsticks...",
+   "status": "done"
   },
   {
    "id": "R01:151AC",
@@ -1736,7 +1951,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\nはし？",
-   "en": ""
+   "en": "Wataru:\nChopsticks?",
+   "status": "done"
   },
   {
    "id": "R01:151BE",
@@ -1744,7 +1960,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ああっ！　はしね。",
-   "en": ""
+   "en": "Oh! Chopsticks!",
+   "status": "done"
   },
   {
    "id": "R01:151D2",
@@ -1752,7 +1969,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そうだ、おじいさん！\nとってきてあげるよ。",
-   "en": ""
+   "en": "Hey, Gramps!\nI'll go get some for you.",
+   "status": "done"
   },
   {
    "id": "R01:151FE",
@@ -1760,7 +1978,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\nすまないのう・・・。\nここの近所のコンビニじゃ。",
-   "en": ""
+   "en": "Old Man:\nSorry to trouble ye...\nThe convenience store near here.",
+   "status": "done"
   },
   {
    "id": "R01:15240",
@@ -1768,7 +1987,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nおお・・・これじゃ、これじゃ。",
-   "en": ""
+   "en": "Old Man:\nOh... That's them! That's them!",
+   "status": "done"
   },
   {
    "id": "R01:1526E",
@@ -1776,7 +1996,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "これで弁当が、食べられるわい。\nいのちが、のびた気がするぞい。",
-   "en": ""
+   "en": "Now I can eat my lunch!\nI feel like you've added years\nto my life!",
+   "status": "done"
   },
   {
    "id": "R01:152AE",
@@ -1784,7 +2005,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おれいに、これをとっときなされ。",
-   "en": ""
+   "en": "Take this as my thanks.",
+   "status": "done"
   },
   {
    "id": "R01:152D0",
@@ -1792,7 +2014,8 @@
    "kind": "next",
    "end": "A000",
    "jp": "ガードロップを手に入れた！",
-   "en": ""
+   "en": "Got a Guardrop!",
+   "status": "done"
   },
   {
    "id": "R01:152F4",
@@ -1800,7 +2023,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おじいさん：\nはしはまだかのう・・・。",
-   "en": ""
+   "en": "Old Man:\nAny sign of those chopsticks...?",
+   "status": "done"
   },
   {
    "id": "R01:1531C",
@@ -1808,7 +2032,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワタル：\nごめんね・・・。\nもうちょっとまっててね。",
-   "en": ""
+   "en": "Wataru:\nSorry...\nJust wait a little longer, okay?",
+   "status": "done"
   },
   {
    "id": "R01:15354",
@@ -1816,7 +2041,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nおぉ、ぼうやか。",
-   "en": ""
+   "en": "Old Man:\nOh, it's you, boy.",
+   "status": "done"
   },
   {
    "id": "R01:15374",
@@ -1824,7 +2050,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ぼうやがもってきてくれた\nはしのおかげで、わしは\nおなかがいっぱいじゃよ。",
-   "en": ""
+   "en": "Thanks to the chopsticks\nyou brought me,\nmy belly's full now.",
+   "status": "done"
   },
   {
    "id": "R01:153C0",
@@ -1832,7 +2059,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "いらっしゃいませ～。",
-   "en": ""
+   "en": "Welcooome!",
+   "status": "done"
   },
   {
    "id": "R01:153D6",
@@ -1840,7 +2068,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "お会計は、となりのカウンターで\nおねがいします。",
-   "en": ""
+   "en": "Please pay at the next counter.",
+   "status": "done"
   },
   {
    "id": "R01:15408",
@@ -1848,7 +2077,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "店の人：\nいらっしゃいませ～。",
-   "en": ""
+   "en": "Shopkeeper:\nWelcooome!",
+   "status": "done"
   },
   {
    "id": "R01:15428",
@@ -1856,7 +2086,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・えっ？　はしですか？\nしつれいしました。どうぞ。",
-   "en": ""
+   "en": "...Hm? Chopsticks?\nSorry about that. Here you go.",
+   "status": "done"
   },
   {
    "id": "R01:15460",
@@ -1864,7 +2095,8 @@
    "kind": "next",
    "end": "A000",
    "jp": "はしを手に入れた！",
-   "en": ""
+   "en": "Got the chopsticks!",
+   "status": "done"
   },
   {
    "id": "R01:15478",
@@ -1872,7 +2104,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "店の人：\nいらっしゃいませ～。",
-   "en": ""
+   "en": "Shopkeeper:\nWelcooome!",
+   "status": "done"
   },
   {
    "id": "R01:15498",
@@ -1880,7 +2113,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "いつも、\nごひいきにしていただいて\nありがとうございます。",
-   "en": ""
+   "en": "Thank you for always\nshopping with us.",
+   "status": "done"
   }
  ]
 }

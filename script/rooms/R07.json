@@ -8,7 +8,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n何だか\n活気のありそうな村ですわね。",
-   "en": ""
+   "en": "Sakuya:\nThis village seems\nquite lively.",
+   "status": "done"
   },
   {
    "id": "R07:167C4",
@@ -16,7 +17,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nみんなピンクのハッピを着てるよ。",
-   "en": ""
+   "en": "Wataru:\nEveryone's wearing\npink happi coats!",
+   "status": "done"
   },
   {
    "id": "R07:167FE",
@@ -24,7 +26,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nハッピをきて、みんなハッピー\n・・・なんつって。",
-   "en": ""
+   "en": "Aragoto:\nHappi coats make happy folks...\nHa! Get it?",
+   "status": "done"
   },
   {
    "id": "R07:1684E",
@@ -32,7 +35,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nはぁー。しっかしＴＶの女の子、\nすごい人気だねぇ。",
-   "en": ""
+   "en": "Wataru:\nMan... That girl on TV\nsure is popular.",
+   "status": "done"
   },
   {
    "id": "R07:1689A",
@@ -40,7 +44,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわねぇ。",
-   "en": ""
+   "en": "Sakuya:\nIndeed she is.",
+   "status": "done"
   },
   {
    "id": "R07:168C4",
@@ -48,7 +53,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nやっぱりサイン会とかすると\n行列ができるんだろうなぁ。",
-   "en": ""
+   "en": "Wataru:\nI bet fans line up for miles\nwhen she signs autographs.",
+   "status": "done"
   },
   {
    "id": "R07:16916",
@@ -56,7 +62,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nそれは無理というものだ。",
-   "en": ""
+   "en": "Aragoto:\nThat would be quite impossible.",
+   "status": "done"
   },
   {
    "id": "R07:1694C",
@@ -64,7 +71,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nえっ、何でさ？",
-   "en": ""
+   "en": "Wataru:\nHuh? Why?",
+   "status": "done"
   },
   {
    "id": "R07:16976",
@@ -72,7 +80,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nあれはヴァーチャルアイドル\nといって、",
-   "en": ""
+   "en": "Aragoto:\nShe is what one calls\na virtual idol.",
+   "status": "done"
   },
   {
    "id": "R07:169B8",
@@ -80,7 +89,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "コンピューターで作られた、\n実在しない人物なのだ。",
-   "en": ""
+   "en": "She was created by a computer.\nShe does not actually exist.",
+   "status": "done"
   },
   {
    "id": "R07:169FA",
@@ -88,7 +98,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だから、サイン会や握手会を\n開いたりはできないのさ。",
-   "en": ""
+   "en": "So she cannot hold autograph\nsessions or shake hands\nwith her fans.",
+   "status": "done"
   },
   {
    "id": "R07:16A3E",
@@ -96,7 +107,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nへぇー。\nおじさん、詳しいんだね。",
-   "en": ""
+   "en": "Wataru:\nWow, mister.\nYou sure know your stuff.",
+   "status": "done"
   },
   {
    "id": "R07:16A7C",
@@ -104,7 +116,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nまぁ、いやいやこんなのは\n一般常識ってヤツだな。",
-   "en": ""
+   "en": "Aragoto:\nWell, no, no! This is merely\ncommon knowledge.",
+   "status": "done"
   },
   {
    "id": "R07:16AC8",
@@ -112,7 +125,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nおじさまの一般常識は、あまり\nあてにはならないですけどね。",
-   "en": ""
+   "en": "Sakuya:\nYour common knowledge is hardly\nreliable, though, dear sir.",
+   "status": "done"
   },
   {
    "id": "R07:16B1E",
@@ -120,7 +134,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nガクッ！・・・そ、そうか？",
-   "en": ""
+   "en": "Aragoto:\nOof! ...I-is that so?",
+   "status": "done"
   },
   {
    "id": "R07:16B54",
@@ -128,7 +143,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nま、変なダジャレとか\n間違ってることわざを",
-   "en": ""
+   "en": "Wataru:\nWell, if you'd quit using\nweird puns and botched proverbs,",
+   "status": "done"
   },
   {
    "id": "R07:16B98",
@@ -136,7 +152,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "使ってなければ\n結構信じられるんだけどね。",
-   "en": ""
+   "en": "we could actually believe\nmost of what you say.",
+   "status": "done"
   },
   {
    "id": "R07:16BD2",
@@ -144,7 +161,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nううむぅ。",
-   "en": ""
+   "en": "Aragoto:\nHrrmmm.",
+   "status": "done"
   },
   {
    "id": "R07:16BFA",
@@ -152,7 +170,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれにしても、",
-   "en": ""
+   "en": "Sakuya:\nEven so,",
+   "status": "done"
   },
   {
    "id": "R07:16C22",
@@ -160,7 +179,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "皆さん本当に夢中になって\nいらっしゃるんですのね。",
-   "en": ""
+   "en": "Everyone really is utterly\ncaptivated.",
+   "status": "done"
   },
   {
    "id": "R07:16C64",
@@ -168,7 +188,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nホント、スッゴイよねぇ。",
-   "en": ""
+   "en": "Wataru:\nYeah, it's pretty amazing.",
+   "status": "done"
   },
   {
    "id": "R07:16C96",
@@ -176,7 +197,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "作りモノのアイドルなんかに、\nみんなよくあそこまで\n熱心になれるよなぁ。",
-   "en": ""
+   "en": "How can everyone get\nso worked up over some\nmade-up idol?",
+   "status": "done"
   },
   {
    "id": "R07:16CF0",
@@ -184,7 +206,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nワタルさま！",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama!",
+   "status": "done"
   },
   {
    "id": "R07:16D18",
@@ -192,7 +215,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nな、何？\n何かボク悪いこと言った？",
-   "en": ""
+   "en": "Wataru:\nW-what?\nDid I say something wrong?",
+   "status": "done"
   },
   {
    "id": "R07:16D56",
@@ -200,7 +224,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nファンの前で、そんなことを\n言うのはいくら何でもマズイ！",
-   "en": ""
+   "en": "Aragoto:\nYou simply cannot say such\nthings in front of her fans!",
+   "status": "done"
   },
   {
    "id": "R07:16DAA",
@@ -208,7 +233,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nだぁって、\nどうせ誰かが作ったんでしょ？",
-   "en": ""
+   "en": "Wataru:\nBut come on!\nSomebody just made her up!",
+   "status": "done"
   },
   {
    "id": "R07:16DEC",
@@ -216,7 +242,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nだから、ファンの方々には、\nそんなこと関係ないんですわ！",
-   "en": ""
+   "en": "Sakuya:\nAs I said, that does not\nmatter to her fans!",
+   "status": "done"
   },
   {
    "id": "R07:16E3E",
@@ -224,7 +251,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nきっとみんな怒っているぅ！",
-   "en": ""
+   "en": "Aragoto:\nThey must all be furious!",
+   "status": "done"
   },
   {
    "id": "R07:16E74",
@@ -232,7 +260,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ファンの人：\n【メグ】ちゃんをバカにしたな。",
-   "en": ""
+   "en": "Fan:\nYou made fun of Meg-chan.",
+   "status": "done"
   },
   {
    "id": "R07:16EB2",
@@ -240,7 +269,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ファンの人：\n許せん。",
-   "en": ""
+   "en": "Fan:\nUnforgivable.",
+   "status": "done"
   },
   {
    "id": "R07:16EDA",
@@ -248,7 +278,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ファンの人：\n許さん。",
-   "en": ""
+   "en": "Fan:\nI won't forgive you.",
+   "status": "done"
   },
   {
    "id": "R07:16F0A",
@@ -256,7 +287,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nか、囲まれていますわぁー。",
-   "en": ""
+   "en": "Sakuya:\nW-we are surrounded!",
+   "status": "done"
   },
   {
    "id": "R07:16F3E",
@@ -264,7 +296,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nでぇぇーっ。\nど、どうしよう・・・。",
-   "en": ""
+   "en": "Wataru:\nYikes!\nW-what do we do...?",
+   "status": "done"
   },
   {
    "id": "R07:16F7E",
@@ -272,7 +305,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "なぞのこえ：\nこっちこっち。",
-   "en": ""
+   "en": "Mysterious Voice:\nOver here! Over here!",
+   "status": "done"
   },
   {
    "id": "R07:16FAA",
@@ -280,7 +314,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nえ？",
-   "en": ""
+   "en": "Wataru:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R07:16FCA",
@@ -288,7 +323,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nここ、ここ！　早く！",
-   "en": ""
+   "en": "Takuro:\nHere, here! Hurry!",
+   "status": "done"
   },
   {
    "id": "R07:16FFA",
@@ -296,7 +332,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n何奴じゃ？",
-   "en": ""
+   "en": "Aragoto:\nWho goes there?",
+   "status": "done"
   },
   {
    "id": "R07:17020",
@@ -304,7 +341,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nそんなことはいいから行こう！",
-   "en": ""
+   "en": "Wataru:\nWho cares? Let's go!",
+   "status": "done"
   },
   {
    "id": "R07:17070",
@@ -312,7 +350,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nやぁ、無事だったようだね。",
-   "en": ""
+   "en": "Takuro:\nHey! Looks like you're all safe.",
+   "status": "done"
   },
   {
    "id": "R07:170A6",
@@ -320,7 +359,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n助かったよ、ありがとう。",
-   "en": ""
+   "en": "Wataru:\nYou saved us! Thanks!",
+   "status": "done"
   },
   {
    "id": "R07:170D8",
@@ -328,7 +368,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nありがとうございます。",
-   "en": ""
+   "en": "Sakuya:\nThank you very much.",
+   "status": "done"
   },
   {
    "id": "R07:17108",
@@ -336,7 +377,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\n上がってくるのが遅かったから、\n少しドキドキしたケド、",
-   "en": ""
+   "en": "Takuro:\nYou took so long coming up,\nI was getting a little nervous.",
+   "status": "done"
   },
   {
    "id": "R07:1715A",
@@ -344,7 +386,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "さすがは救世主だね。",
-   "en": ""
+   "en": "But you're the Savior,\nall right!",
+   "status": "done"
   },
   {
    "id": "R07:17180",
@@ -352,7 +395,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n！",
-   "en": ""
+   "en": "Wataru:\n!",
+   "status": "done"
   },
   {
    "id": "R07:1719C",
@@ -360,7 +404,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n！",
-   "en": ""
+   "en": "Sakuya:\n!",
+   "status": "done"
   },
   {
    "id": "R07:171B8",
@@ -368,7 +413,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nなぜそれを！",
-   "en": ""
+   "en": "Aragoto:\nHow do you know that?!",
+   "status": "done"
   },
   {
    "id": "R07:171E0",
@@ -376,7 +422,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nなぜって、パソコン通信で\nキミ達の情報は流れっぱなしだよ。",
-   "en": ""
+   "en": "Takuro:\nHow? The computer networks are\nbuzzing with news about you!",
+   "status": "done"
   },
   {
    "id": "R07:17236",
@@ -384,7 +431,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "創界山のパソコンを持ってるヤツで\nキミ達のことを知らない人は\nいないよ。",
-   "en": ""
+   "en": "Everyone in Sokaizan\nwith a computer knows\nall about you guys.",
+   "status": "done"
   },
   {
    "id": "R07:17290",
@@ -392,7 +440,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあら。",
-   "en": ""
+   "en": "Wataru:\nOh.",
+   "status": "done"
   },
   {
    "id": "R07:172B0",
@@ -400,7 +449,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうなんですの？",
-   "en": ""
+   "en": "Sakuya:\nIs that so?",
+   "status": "done"
   },
   {
    "id": "R07:172DA",
@@ -408,7 +458,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nうん。それよりさ、",
-   "en": ""
+   "en": "Takuro:\nYep. Anyway,",
+   "status": "done"
   },
   {
    "id": "R07:17308",
@@ -416,7 +467,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "キミ、救世主なんだろ？",
-   "en": ""
+   "en": "you're the Savior, right?",
+   "status": "done"
   },
   {
    "id": "R07:1732E",
@@ -424,7 +476,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だったら【メグ】ちゃんを\n助けてくれないかい？",
-   "en": ""
+   "en": "Then could you please\nsave Meg-chan?",
+   "status": "done"
   },
   {
    "id": "R07:1736C",
@@ -432,7 +485,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nだれ・・・それ？",
-   "en": ""
+   "en": "Wataru:\nWho's... that?",
+   "status": "done"
   },
   {
    "id": "R07:17396",
@@ -440,7 +494,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n先ほどの\nヴァーチャルアイドルのことだな？",
-   "en": ""
+   "en": "Aragoto:\nYou mean that virtual idol\nwe saw earlier?",
+   "status": "done"
   },
   {
    "id": "R07:173DE",
@@ -448,7 +503,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nその・・・【メグ】ちゃんを\n助けてって、どういうこと？",
-   "en": ""
+   "en": "Wataru:\nWhat do you mean by\nsaving this... Meg-chan?",
+   "status": "done"
   },
   {
    "id": "R07:1742E",
@@ -456,7 +512,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\n実は今の【メグ】ちゃんは、\nデジクロソフトの",
-   "en": ""
+   "en": "Takuro:\nActually, the current Meg-chan\nis Digicrosoft's...",
+   "status": "done"
   },
   {
    "id": "R07:17476",
@@ -464,7 +521,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "【ビル・ジョブス】に、\nプログラムをいじられて\n操られているんだ。",
-   "en": ""
+   "en": "Bill Jobs from Digicrosoft.\nHe's been tampering\nwith her program.",
+   "status": "done"
   },
   {
    "id": "R07:174C8",
@@ -472,7 +530,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n？　何のために？",
-   "en": ""
+   "en": "Wataru:\nHuh? What for?",
+   "status": "done"
   },
   {
    "id": "R07:174F2",
@@ -480,7 +539,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\n・・・村を支配するためさ。\n【メグ】ちゃんが今歌っている曲は",
-   "en": ""
+   "en": "Takuro:\n...To rule the village.\nThe songs Meg-chan sings now",
+   "status": "done"
   },
   {
    "id": "R07:1754A",
@@ -488,7 +548,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "人を洗脳（せんのう）する\n電波がまぜられているんだ。",
-   "en": ""
+   "en": "have radio waves mixed in\nthat brainwash people.",
+   "status": "done"
   },
   {
    "id": "R07:1758E",
@@ -496,7 +557,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n【サブリミナル】ですわね。",
-   "en": ""
+   "en": "Sakuya:\nSubliminal messages, I see.",
+   "status": "done"
   },
   {
    "id": "R07:175C4",
@@ -504,7 +566,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサブ・・・？",
-   "en": ""
+   "en": "Wataru:\nSubli...?",
+   "status": "done"
   },
   {
    "id": "R07:175EA",
@@ -512,7 +575,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n人の知覚範囲ぎりぎりの\n刺激（しげき）を与え",
-   "en": ""
+   "en": "Sakuya:\nThey use stimuli at the very\nedge of human perception",
+   "status": "done"
   },
   {
    "id": "R07:17630",
@@ -520,7 +584,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "学習させるという、\n洗脳の一種ですわ。",
-   "en": ""
+   "en": "to make people learn things.\nIt is a form of brainwashing.",
+   "status": "done"
   },
   {
    "id": "R07:17668",
@@ -528,7 +593,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nふーん、とりあえず\n悪いコトしてるんだね？",
-   "en": ""
+   "en": "Wataru:\nHuh. So basically,\nhe's doing something bad?",
+   "status": "done"
   },
   {
    "id": "R07:176AC",
@@ -536,7 +602,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nお嬢の話はよくわからんが、\nそういうことだ。",
-   "en": ""
+   "en": "Aragoto:\nThe young lady has lost me,\nbut yes, that is the gist of it.",
+   "status": "done"
   },
   {
    "id": "R07:176F4",
@@ -544,7 +611,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nう・・・。",
-   "en": ""
+   "en": "Sakuya:\nOh...",
+   "status": "done"
   },
   {
    "id": "R07:1771A",
@@ -552,7 +620,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nそういうわけだから、\n【メグ】ちゃんが操られてると、",
-   "en": ""
+   "en": "Takuro:\nSo, as long as Meg-chan\nis being controlled,",
+   "status": "done"
   },
   {
    "id": "R07:1776A",
@@ -560,7 +629,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ゆくゆくはみんなが\n操られちゃうってことなんだ。",
-   "en": ""
+   "en": "everyone else will end up\nbeing controlled too.",
+   "status": "done"
   },
   {
    "id": "R07:177AA",
@@ -568,7 +638,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だから、昔の【メグ】ちゃんに\n戻してあげたいんだよ。",
-   "en": ""
+   "en": "That's why I want to make\nMeg-chan her old self again.",
+   "status": "done"
   },
   {
    "id": "R07:177EE",
@@ -576,7 +647,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nでも、どうやって戻すの？",
-   "en": ""
+   "en": "Wataru:\nBut how do we do that?",
+   "status": "done"
   },
   {
    "id": "R07:17820",
@@ -584,7 +656,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\n【メグ】ちゃんのプログラムを\n元に戻すのさ。",
-   "en": ""
+   "en": "Takuro:\nWe restore Meg-chan's\noriginal program.",
+   "status": "done"
   },
   {
    "id": "R07:17868",
@@ -592,7 +665,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルたち：\nええーっ！？",
-   "en": ""
+   "en": "Wataru & co.:\nWhaaat?!",
+   "status": "done"
   },
   {
    "id": "R07:17892",
@@ -600,7 +674,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nボクが作ったプログラムで、",
-   "en": ""
+   "en": "Takuro:\nWith a program I made,",
+   "status": "done"
   },
   {
    "id": "R07:178C8",
@@ -608,7 +683,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "【メグ】ちゃんを\n操るプログラムを破壊するんだ。",
-   "en": ""
+   "en": "we'll destroy the program\nthat's controlling Meg-chan.",
+   "status": "done"
   },
   {
    "id": "R07:17908",
@@ -616,7 +692,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n・・・はぁ。",
-   "en": ""
+   "en": "Sakuya:\n...Oh.",
+   "status": "done"
   },
   {
    "id": "R07:1792E",
@@ -624,7 +701,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そうなりますと、\nわたくし達がお力になれることは\nないような気がしますけど・・・？",
-   "en": ""
+   "en": "In that case, I do not see\nhow we could be of any\nassistance...?",
+   "status": "done"
   },
   {
    "id": "R07:17990",
@@ -632,7 +710,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nいや、そうでもないんだ。\n【メグ】ちゃんのプログラムに",
-   "en": ""
+   "en": "Takuro:\nWell, you can help. On the way\nto Meg-chan's program,",
+   "status": "done"
   },
   {
    "id": "R07:179E2",
@@ -640,7 +719,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たどり着くまでに、【ビル】の\nヤツが電脳空間に放った変人達が\nいてジャマしてくるんだ。",
-   "en": ""
+   "en": "there are weirdos Bill\nunleashed in cyberspace,\nand they'll get in the way.",
+   "status": "done"
   },
   {
    "id": "R07:17A48",
@@ -648,7 +728,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "プログラムだったら\n問題ないんだケド、そういう\nわけじゃないらしいんだよ。",
-   "en": ""
+   "en": "If they were programs,\nI'd have no trouble, but\nit seems they're not.",
+   "status": "done"
   },
   {
    "id": "R07:17AA2",
@@ -656,7 +737,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だからキミ達には、\nそいつらを退治して欲しいんだ。",
-   "en": ""
+   "en": "Takuro:\nSo I want you guys\nto beat them.",
+   "status": "done"
   },
   {
    "id": "R07:17AE4",
@@ -664,7 +746,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nで、んのう、くうかん？",
-   "en": ""
+   "en": "Wataru:\nCy... ber... space?",
+   "status": "done"
   },
   {
    "id": "R07:17B14",
@@ -672,7 +755,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nコンピューターの内部に、\nそういう空間があるのさ。",
-   "en": ""
+   "en": "Takuro:\nIt's a kind of space\ninside a computer.",
+   "status": "done"
   },
   {
    "id": "R07:17B62",
@@ -680,7 +764,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "【メグ】ちゃんは\nそこに住んでいるんだよ。",
-   "en": ""
+   "en": "That's where Meg-chan lives.",
+   "status": "done"
   },
   {
    "id": "R07:17B9C",
@@ -688,7 +773,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n退治・・・って、\nどうやってですの？",
-   "en": ""
+   "en": "Sakuya:\nBeat them...?\nHow are we to do that?",
+   "status": "done"
   },
   {
    "id": "R07:17BDA",
@@ -696,7 +782,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nさいわい、下水道の臨し部屋に、\n電脳空間に入り込むことの出来る",
-   "en": ""
+   "en": "Takuro:\nLuckily, a hidden Sewers room\nhas a PC to access Cyberspace.",
+   "status": "done"
   },
   {
    "id": "R07:17C34",
@@ -704,7 +791,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "コンピューターがあるんで、\nそこから【メグ】ちゃんの\nところへ行ってもらいたいんだ。",
-   "en": ""
+   "en": "enter cyberspace.\nI'd like you to use it\nto go see Meg-chan.",
+   "status": "done"
   },
   {
    "id": "R07:17C98",
@@ -712,7 +800,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "で、そこまで行く間に\nジャマをしてくるヤツを退治して\nくれればいいんだよ。",
-   "en": ""
+   "en": "All you need to do is beat\nanyone who gets in your way\nwhile you're heading there.",
+   "status": "done"
   },
   {
    "id": "R07:17CF4",
@@ -720,7 +809,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nなんだかムシのいいハナシだな。",
-   "en": ""
+   "en": "Aragoto:\nA rather convenient arrangement\nfor you, I must say.",
+   "status": "done"
   },
   {
    "id": "R07:17D2E",
@@ -728,7 +818,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nそうだね。",
-   "en": ""
+   "en": "Wataru:\nYeah.",
+   "status": "done"
   },
   {
    "id": "R07:17D54",
@@ -736,7 +827,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nで、ボクが【メグ】ちゃんを\n元に戻すプログラムを",
-   "en": ""
+   "en": "Takuro:\nThen, while I'm typing in\nthe program to restore Meg-chan,",
+   "status": "done"
   },
   {
    "id": "R07:17DA0",
@@ -744,7 +836,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "打ち込んでいると、\nきっと電脳空間に【ビル】のヤツが\n現れると思うんだ。",
-   "en": ""
+   "en": "I'm pretty sure Bill\nwill show up in cyberspace.",
+   "status": "done"
   },
   {
    "id": "R07:17DF8",
@@ -752,7 +845,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "そうしたらキミ達に【ビル】の\n相手をしてもらいたいワケ。",
-   "en": ""
+   "en": "When he does, I'd like\nyou guys to deal with Bill.",
+   "status": "done"
   },
   {
    "id": "R07:17E42",
@@ -760,7 +854,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nますます、都合のいいハナシに\nなってきたな。",
-   "en": ""
+   "en": "Aragoto:\nThis grows more convenient\nfor you by the minute.",
+   "status": "done"
   },
   {
    "id": "R07:17E8A",
@@ -768,7 +863,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nそうだね・・・。",
-   "en": ""
+   "en": "Wataru:\nYeah...",
+   "status": "done"
   },
   {
    "id": "R07:17EB6",
@@ -776,7 +872,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n作戦はわかりましたわ。",
-   "en": ""
+   "en": "Sakuya:\nI understand the plan.",
+   "status": "done"
   },
   {
    "id": "R07:17EE6",
@@ -784,7 +881,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "でも、ひとつだけ\nお聞きしたいことがあるのですが。",
-   "en": ""
+   "en": "But there is just one thing\nI would like to ask.",
+   "status": "done"
   },
   {
    "id": "R07:17F2A",
@@ -792,7 +890,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nなに？",
-   "en": ""
+   "en": "Takuro:\nWhat is it?",
+   "status": "done"
   },
   {
    "id": "R07:17F4C",
@@ -800,7 +899,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれほどあのアイドルが\nお好きでいらっしゃるのに、",
-   "en": ""
+   "en": "Sakuya:\nSince you are so very fond\nof that idol,",
+   "status": "done"
   },
   {
    "id": "R07:17F98",
@@ -808,7 +908,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あなたが村中に仕掛けてある\n洗脳電波にかからなかったのは\nなぜですの？",
-   "en": ""
+   "en": "why have you not fallen prey\nto the brainwashing waves\nall over the village?",
+   "status": "done"
   },
   {
    "id": "R07:17FEE",
@@ -816,7 +917,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだよぉ。",
-   "en": ""
+   "en": "Wataru:\nHey, yeah!",
+   "status": "done"
   },
   {
    "id": "R07:18014",
@@ -824,7 +926,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n確かにそれは怪しいな。",
-   "en": ""
+   "en": "Aragoto:\nThat is suspicious indeed.",
+   "status": "done"
   },
   {
    "id": "R07:18048",
@@ -832,7 +935,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\n・・・あ、なーんだそんなことか。",
-   "en": ""
+   "en": "Takuro:\n...Oh! Is that all?",
+   "status": "done"
   },
   {
    "id": "R07:18084",
@@ -840,7 +944,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ボクはおたくだから、\nほとんど外に出ないんでね。\nそれで大丈夫だったんだ。",
-   "en": ""
+   "en": "I'm a geek, so I hardly\never go outside.\nThat's why I was fine.",
+   "status": "done"
   },
   {
    "id": "R07:180DE",
@@ -848,7 +953,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルとアラゴト：\nは？",
-   "en": ""
+   "en": "Wataru & Aragoto:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R07:18108",
@@ -856,7 +962,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n・・・なるほど。\nそれは納得がゆきますわ。",
-   "en": ""
+   "en": "Sakuya:\n...I see.\nThat makes perfect sense.",
+   "status": "done"
   },
   {
    "id": "R07:1814E",
@@ -864,7 +971,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルとアラゴト：\nええーっ！　そうかぁ！？",
-   "en": ""
+   "en": "Wataru & Aragoto:\nWhaaat?! It does?!",
+   "status": "done"
   },
   {
    "id": "R07:1818A",
@@ -872,7 +980,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nじゃっ、ボクはコンピューターの\n用意をしなきゃいけないから",
-   "en": ""
+   "en": "Takuro:\nWell, I have to get\nthe computer ready,",
+   "status": "done"
   },
   {
    "id": "R07:181E0",
@@ -880,7 +989,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "先に行くね。",
-   "en": ""
+   "en": "so I'll go on ahead.",
+   "status": "done"
   },
   {
    "id": "R07:181FE",
@@ -888,7 +998,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nさ、ワタルさま、\nわたくし達も参りましょう。",
-   "en": ""
+   "en": "Sakuya:\nCome, Wataru-sama.\nLet us be on our way as well.",
+   "status": "done"
   },
   {
    "id": "R07:18244",
@@ -896,7 +1007,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそ、そうだね。",
-   "en": ""
+   "en": "Wataru:\nY-yeah.",
+   "status": "done"
   },
   {
    "id": "R07:1826C",
@@ -904,7 +1016,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nそ、そうだな。",
-   "en": ""
+   "en": "Aragoto:\nY-yes, quite.",
+   "status": "done"
   },
   {
    "id": "R07:182B0",
@@ -912,7 +1025,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nこれが\n電脳空間へ行けるコンピュータさ。",
-   "en": ""
+   "en": "Takuro:\nThis is the computer that\ncan take you into cyberspace.",
+   "status": "done"
   },
   {
    "id": "R07:182F4",
@@ -920,7 +1034,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nなんだか\n普通のコンピュータのようだが。",
-   "en": ""
+   "en": "Aragoto:\nIt looks like an ordinary\ncomputer to me.",
+   "status": "done"
   },
   {
    "id": "R07:18338",
@@ -928,7 +1043,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだねぇ・・・。\nこんなんで本当に行けるの？",
-   "en": ""
+   "en": "Wataru:\nYeah... Can this thing\nreally take us there?",
+   "status": "done"
   },
   {
    "id": "R07:18380",
@@ -936,7 +1052,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "たくろー：\nとりあえずそんな意見は無視して\nスイッチＯＮ！",
-   "en": ""
+   "en": "Takuro:\nI'll just ignore those comments.\nPower ON!",
+   "status": "done"
   },
   {
    "id": "R07:183E4",
@@ -944,7 +1061,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nわっわっわぁっ！",
-   "en": ""
+   "en": "Wataru:\nWh-whoa-whoaaa!",
+   "status": "done"
   },
   {
    "id": "R07:1840E",
@@ -952,7 +1070,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "たくろーのこえ：\nな？",
-   "en": ""
+   "en": "Takuro's Voice:\nSee?",
+   "status": "done"
   },
   {
    "id": "R07:18436",
@@ -960,7 +1079,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nうーむ、「百聞は一見にしかず」\nとはこのことでござるなぁ。",
-   "en": ""
+   "en": "Aragoto:\nHmm. As they say,\n\"Seeing is believing.\"",
+   "status": "done"
   },
   {
    "id": "R07:1848C",
@@ -968,7 +1088,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nじゃっ、ボクはプログラムを\n作っているから、あとはよろしく。",
-   "en": ""
+   "en": "Takuro:\nI'll work on the program.\nI'm leaving the rest to you!",
+   "status": "done"
   },
   {
    "id": "R07:184E4",
@@ -976,7 +1097,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえ？　ちょっと！\nこれからどうするのさぁ。",
-   "en": ""
+   "en": "Wataru:\nHuh? Hold on!\nWhat do we do now?",
+   "status": "done"
   },
   {
    "id": "R07:18528",
@@ -984,7 +1106,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ちょっと！",
-   "en": ""
+   "en": "Hey!",
+   "status": "done"
   },
   {
    "id": "R07:18544",
@@ -992,7 +1115,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nお返事がありませんわね。",
-   "en": ""
+   "en": "Sakuya:\nThere is no reply.",
+   "status": "done"
   },
   {
    "id": "R07:18578",
@@ -1000,7 +1124,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nま、しょうがないな。先に進もう。",
-   "en": ""
+   "en": "Aragoto:\nWell, it cannot be helped.\nLet us press on.",
+   "status": "done"
   },
   {
    "id": "R07:185B4",
@@ -1008,7 +1133,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "「あんずより、うめが安い」\nともいうし。",
-   "en": ""
+   "en": "As they say, \"Nothing ventured,\nnothing sprained.\"",
+   "status": "done"
   },
   {
    "id": "R07:185EE",
@@ -1016,7 +1142,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nまぁ、しょうがないね。",
-   "en": ""
+   "en": "Wataru:\nWell, I guess we've got to.",
+   "status": "done"
   },
   {
    "id": "R07:18638",
@@ -1024,7 +1151,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nキミが【メグ】ちゃんだね？",
-   "en": ""
+   "en": "Wataru:\nYou're Meg-chan, right?",
+   "status": "done"
   },
   {
    "id": "R07:1866C",
@@ -1032,7 +1160,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\nはい、【メグ】ですっ。\nみなさん応援してねっ。",
-   "en": ""
+   "en": "Meg:\nThat's right! I'm Meg!\nCheer me on, everyone!",
+   "status": "done"
   },
   {
    "id": "R07:186B2",
@@ -1040,7 +1169,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nおーい、無事についたよー。",
-   "en": ""
+   "en": "Wataru:\nHeeey! We made it here safely!",
+   "status": "done"
   },
   {
    "id": "R07:186E6",
@@ -1048,7 +1178,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nうん、これから\n破壊プログラムを送るから、",
-   "en": ""
+   "en": "Takuro:\nOkay! I'm sending the program\nto destroy hers now.",
+   "status": "done"
   },
   {
    "id": "R07:1872C",
@@ -1056,7 +1187,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "それがうまくいくまで待ってくれ。",
-   "en": ""
+   "en": "Wait until it works.",
+   "status": "done"
   },
   {
    "id": "R07:1875E",
@@ -1064,7 +1196,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nこうやって目の前にいると、\nまるで本物みたいだな。",
-   "en": ""
+   "en": "Aragoto:\nSeeing you here before us,\nyou look just like a real girl.",
+   "status": "done"
   },
   {
    "id": "R07:187AC",
@@ -1072,7 +1205,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\nうふっ、まるで本物なんて\nいっちゃいやだわ。",
-   "en": ""
+   "en": "Meg:\nHee hee! Don't say\n\"just like a real girl\"!",
+   "status": "done"
   },
   {
    "id": "R07:187F0",
@@ -1080,7 +1214,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "私はファンのみんなにとっては\nいつでもホ・ン・モ・ノよっ♥",
-   "en": ""
+   "en": "To all my fans,\nI'm always the R-E-A-L thing!",
+   "status": "done"
   },
   {
    "id": "R07:1883A",
@@ -1088,7 +1223,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nなーんかやっぱり、\nちょっとおかしいねぇ。",
-   "en": ""
+   "en": "Wataru:\nYeah, something's still\na little weird here.",
+   "status": "done"
   },
   {
    "id": "R07:1887E",
@@ -1096,7 +1232,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわね。",
-   "en": ""
+   "en": "Sakuya:\nIndeed.",
+   "status": "done"
   },
   {
    "id": "R07:188A6",
@@ -1104,7 +1241,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\nところで、あなた達は誰なの？\nどうやってここに来たの？",
-   "en": ""
+   "en": "Meg:\nBy the way, who are you?\nHow did you get here?",
+   "status": "done"
   },
   {
    "id": "R07:188F4",
@@ -1112,7 +1250,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nボクは救世主ワタル！",
-   "en": ""
+   "en": "Wataru:\nI'm Wataru, the Savior!",
+   "status": "done"
   },
   {
    "id": "R07:18922",
@@ -1120,7 +1259,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "キミのファンに頼まれて、\nコンピューターをとおって\nここまで来たんだ！",
-   "en": ""
+   "en": "A fan of yours asked us to help,\nso we came all the way here\nthrough a computer!",
+   "status": "done"
   },
   {
    "id": "R07:18978",
@@ -1128,7 +1268,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\nふーん、そうなんだ・・・",
-   "en": ""
+   "en": "Meg:\nOh, so that's why...",
+   "status": "done"
   },
   {
    "id": "R07:189A8",
@@ -1136,7 +1277,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\n・・・ピッ。",
-   "en": ""
+   "en": "Meg:\n...Beep.",
+   "status": "done"
   },
   {
    "id": "R07:189CC",
@@ -1144,7 +1286,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nぴっ・・・？",
-   "en": ""
+   "en": "Wataru:\nBeep...?",
+   "status": "done"
   },
   {
    "id": "R07:189F2",
@@ -1152,7 +1295,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\nウォーニング！",
-   "en": ""
+   "en": "Meg:\nWARNING!",
+   "status": "done"
   },
   {
    "id": "R07:18A18",
@@ -1160,7 +1304,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ディス　エリア　イズ\nインベージョンド！！",
-   "en": ""
+   "en": "THIS AREA HAS BEEN INVADED!!",
+   "status": "done"
   },
   {
    "id": "R07:18A52",
@@ -1168,7 +1313,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "エクスクルージョン　プログラム\nカウントダウン\n１０、９、８・・・",
-   "en": ""
+   "en": "EXCLUSION PROGRAM\nCOUNTDOWN\n10, 9, 8...",
+   "status": "done"
   },
   {
    "id": "R07:18AA6",
@@ -1176,7 +1322,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nな、なんだぁ？",
-   "en": ""
+   "en": "Wataru:\nW-what's going on?",
+   "status": "done"
   },
   {
    "id": "R07:18AD0",
@@ -1184,7 +1331,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nな、何事？",
-   "en": ""
+   "en": "Aragoto:\nW-what is the meaning of this?",
+   "status": "done"
   },
   {
    "id": "R07:18AF8",
@@ -1192,7 +1340,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nゴメンゴメン。",
-   "en": ""
+   "en": "Takuro:\nSorry, sorry!",
+   "status": "done"
   },
   {
    "id": "R07:18B22",
@@ -1200,7 +1349,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "どうも【ビル】のやつが仕掛けた\nプログラムに引っかかっちゃった\nみたいなんだ。",
-   "en": ""
+   "en": "Looks like we got caught in\na program that Bill guy\nset up.",
+   "status": "done"
   },
   {
    "id": "R07:18B80",
@@ -1208,7 +1358,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "何とかするまでがんばってよ。",
-   "en": ""
+   "en": "Hang in there till I fix it!",
+   "status": "done"
   },
   {
    "id": "R07:18BAE",
@@ -1216,7 +1367,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nそんな無責任な！",
-   "en": ""
+   "en": "Aragoto:\nHow utterly irresponsible!",
+   "status": "done"
   },
   {
    "id": "R07:18BDC",
@@ -1224,7 +1376,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだそうだ！",
-   "en": ""
+   "en": "Wataru:\nYeah! What he said!",
+   "status": "done"
   },
   {
    "id": "R07:18C04",
@@ -1232,7 +1385,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nだから今何とかしてるじゃん。",
-   "en": ""
+   "en": "Takuro:\nI told you, I'm working on it!",
+   "status": "done"
   },
   {
    "id": "R07:18C3C",
@@ -1240,7 +1394,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "すぐに何とかするから\nがんばってってさぁ。",
-   "en": ""
+   "en": "I'll fix it in a second,\nso just hang in there!",
+   "status": "done"
   },
   {
    "id": "R07:18C78",
@@ -1248,7 +1403,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nワタルさまぁ。",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama...",
+   "status": "done"
   },
   {
    "id": "R07:18CA0",
@@ -1256,7 +1412,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "カウントダウンのこえ：\n・・・２、１\nエクスクルージョン　プログラム",
-   "en": ""
+   "en": "Countdown Voice:\n...2, 1.\nEXCLUSION PROGRAM",
+   "status": "done"
   },
   {
    "id": "R07:18CF6",
@@ -1264,7 +1421,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "スタート！",
-   "en": ""
+   "en": "START!",
+   "status": "done"
   },
   {
    "id": "R07:18D12",
@@ -1272,7 +1430,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサクヤぁ。\nあの、何とかプログラムってなに？",
-   "en": ""
+   "en": "Wataru:\nSakuyaaa!\nWhat's that whatever program?",
+   "status": "done"
   },
   {
    "id": "R07:18D58",
@@ -1280,7 +1439,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n【エクスクルージョン＝\n排除（はいじょ）する】",
-   "en": ""
+   "en": "Sakuya:\nExclusion means...\nremoval.",
+   "status": "done"
   },
   {
    "id": "R07:18DA0",
@@ -1288,7 +1448,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "という意味ですわ・・・。",
-   "en": ""
+   "en": "That is its meaning...",
+   "status": "done"
   },
   {
    "id": "R07:18DD6",
@@ -1296,7 +1457,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\nはっ、わたし・・・。\n一体・・・？",
-   "en": ""
+   "en": "Meg:\nOh! I...\nWhat happened...?",
+   "status": "done"
   },
   {
    "id": "R07:18E10",
@@ -1304,7 +1466,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n大丈夫？",
-   "en": ""
+   "en": "Wataru:\nAre you okay?",
+   "status": "done"
   },
   {
    "id": "R07:18E32",
@@ -1312,7 +1475,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\nえっ・・・？　あなた方は・・・？\nそれに一体ここは・・・。",
-   "en": ""
+   "en": "Meg:\nHuh...? Who are you...?\nAnd where in the world am I...?",
+   "status": "done"
   },
   {
    "id": "R07:18E84",
@@ -1320,7 +1484,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nキミが悪いヤツに\n操られているから",
-   "en": ""
+   "en": "Wataru:\nSome bad guy was\ncontrolling you,",
+   "status": "done"
   },
   {
    "id": "R07:18EC0",
@@ -1328,7 +1493,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "助けてくれって、\nファンの人に頼まれたんだよ。",
-   "en": ""
+   "en": "so one of your fans\nasked us to save you.",
+   "status": "done"
   },
   {
    "id": "R07:18EFE",
@@ -1336,7 +1502,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\nそうだったんですか・・・。\nありがとうございます。",
-   "en": ""
+   "en": "Meg:\nOh, I see...\nThank you very much.",
+   "status": "done"
   },
   {
    "id": "R07:18F48",
@@ -1344,7 +1511,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nおーい、今、破壊プログラムを\n送ったんだけど。どう？",
-   "en": ""
+   "en": "Takuro:\nHey! I just sent a destruction\nprogram. How'd it go?",
+   "status": "done"
   },
   {
    "id": "R07:18F98",
@@ -1352,7 +1520,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nどうやら成功のようですわよ。",
-   "en": ""
+   "en": "Sakuya:\nIt appears to have worked.",
+   "status": "done"
   },
   {
    "id": "R07:18FCE",
@@ -1360,7 +1529,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nやったあ！\n・・・うう、良かったぁ。",
-   "en": ""
+   "en": "Takuro:\nAll right!\n...Whew, what a relief!",
+   "status": "done"
   },
   {
    "id": "R07:1900E",
@@ -1368,7 +1538,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "【メグ】ちゃあん。",
-   "en": ""
+   "en": "Meg-chaaaan!",
+   "status": "done"
   },
   {
    "id": "R07:19030",
@@ -1376,7 +1547,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nこともすんだコトだし、\nそろそろ脱出だ。",
-   "en": ""
+   "en": "Aragoto:\nNow that the matter is settled,\nlet us make our escape.",
+   "status": "done"
   },
   {
    "id": "R07:19074",
@@ -1384,7 +1556,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nいや、きっと、その辺に\nビル・ジョブスが",
-   "en": ""
+   "en": "Takuro:\nWait. I bet Bill Jobs\nis somewhere around here,",
+   "status": "done"
   },
   {
    "id": "R07:190B8",
@@ -1392,7 +1565,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "臨れているんじゃないかな。",
-   "en": ""
+   "en": "hiding out.",
+   "status": "done"
   },
   {
    "id": "R07:190E2",
@@ -1400,7 +1574,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヤツは、電脳空間にいることが\n多いんだ。今の騒（さわ）ぎに\n気づいてやってくるはずさ。",
-   "en": ""
+   "en": "He's in cyberspace a lot.\nHe'll notice all this commotion\nand come check it out.",
+   "status": "done"
   },
   {
    "id": "R07:1914A",
@@ -1408,7 +1583,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nと、いうことは、この辺のどこか\nに臨れているかもしれないんだね？",
-   "en": ""
+   "en": "Wataru:\nSo he might be hiding somewhere\naround here, huh?",
+   "status": "done"
   },
   {
    "id": "R07:191A4",
@@ -1416,7 +1592,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nうん。",
-   "en": ""
+   "en": "Takuro:\nYeah.",
+   "status": "done"
   },
   {
    "id": "R07:191C6",
@@ -1424,7 +1601,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あいつをやっつけなきゃ、\n根本的に解決したことには\nならないと思う。",
-   "en": ""
+   "en": "Until we beat him,\nI don't think we'll have solved\nthe real problem.",
+   "status": "done"
   },
   {
    "id": "R07:1921A",
@@ -1432,7 +1610,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nいったいどの辺に\n臨れているのやら。",
-   "en": ""
+   "en": "Aragoto:\nWhere could the scoundrel\nbe hiding?",
+   "status": "done"
   },
   {
    "id": "R07:1925C",
@@ -1440,7 +1619,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nくっそー、誰だか知らねぇが\nオレ様のコンピュータの中に",
-   "en": ""
+   "en": "Bill:\nBlast! Whoever you are, you got\ninside Bill-sama's computer",
+   "status": "done"
   },
   {
    "id": "R07:192AA",
@@ -1448,7 +1628,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "勝手に入り込んできやがって。\n見つけたらただじゃおかねぇぞ！",
-   "en": ""
+   "en": "without so much as asking!\nWhen I find you, you'll pay!",
+   "status": "done"
   },
   {
    "id": "R07:192F8",
@@ -1456,7 +1637,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルたち：\n・・・。",
-   "en": ""
+   "en": "Wataru & co.:\n...",
+   "status": "done"
   },
   {
    "id": "R07:1931E",
@@ -1464,7 +1646,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\nあら？　あれはデジクロソフト\nのビルさんじゃありませんか？",
-   "en": ""
+   "en": "Meg:\nOh? Isn't that Bill-san\nfrom Digicrosoft?",
+   "status": "done"
   },
   {
    "id": "R07:19370",
@@ -1472,7 +1655,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nやっぱり。",
-   "en": ""
+   "en": "Wataru:\nI knew it.",
+   "status": "done"
   },
   {
    "id": "R07:19396",
@@ -1480,7 +1664,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nそうだったようですわね。",
-   "en": ""
+   "en": "Sakuya:\nIt seems you were right.",
+   "status": "done"
   },
   {
    "id": "R07:193CA",
@@ -1488,7 +1673,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nやっぱりあいつなの？",
-   "en": ""
+   "en": "Wataru:\nSo that really is the guy?",
+   "status": "done"
   },
   {
    "id": "R07:193F8",
@@ -1496,7 +1682,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "メグ：\nええ、あの方は、\n私を作ってくださった",
-   "en": ""
+   "en": "Meg:\nYes. That gentleman works\nfor the company that made me,",
+   "status": "done"
   },
   {
    "id": "R07:19436",
@@ -1504,7 +1691,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "デジクロソフトの社員の方です。",
-   "en": ""
+   "en": "Digicrosoft.",
+   "status": "done"
   },
   {
    "id": "R07:19466",
@@ -1512,7 +1700,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nぼうや、追いかけるぞぅ！",
-   "en": ""
+   "en": "Aragoto:\nAfter him, boy!",
+   "status": "done"
   },
   {
    "id": "R07:1949C",
@@ -1520,7 +1709,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nおう！",
-   "en": ""
+   "en": "Wataru:\nYeah!",
+   "status": "done"
   },
   {
    "id": "R07:194D4",
@@ -1528,7 +1718,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ビル：\nうわぁーったっちゃったと。\n一体何すんだテメェ！",
-   "en": ""
+   "en": "Bill:\nWhoaaa-ho-ho!\nWhat the heck are you doing?!",
+   "status": "done"
   },
   {
    "id": "R07:1951E",
@@ -1536,7 +1727,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "心臓が飛び出るかと思ったぃ。",
-   "en": ""
+   "en": "My heart nearly jumped\nclean outta my chest!",
+   "status": "done"
   },
   {
    "id": "R07:1954A",
@@ -1544,7 +1736,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nお前が【ビル・ジョブス】だな。",
-   "en": ""
+   "en": "Wataru:\nYou're Bill Jobs, right?",
+   "status": "done"
   },
   {
    "id": "R07:19582",
@@ -1552,7 +1745,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nおおーうぅ、\nいかにもそうだが・・・。",
-   "en": ""
+   "en": "Bill:\nY-yeahhh,\nthat's me, all right...",
+   "status": "done"
   },
   {
    "id": "R07:195C0",
@@ -1560,7 +1754,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オメエはいってぇ何者でぃ。",
-   "en": ""
+   "en": "And who the heck are YOU?",
+   "status": "done"
   },
   {
    "id": "R07:195EA",
@@ -1568,7 +1763,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n救世主、ワタルだ！",
-   "en": ""
+   "en": "Wataru:\nI'm Wataru, the Savior!",
+   "status": "done"
   },
   {
    "id": "R07:19618",
@@ -1576,7 +1772,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nワタル！？　ワタルだって？\nばぁか言っちゃいけねぇよ。",
-   "en": ""
+   "en": "Bill:\nWataru?! Did you say Wataru?\nDon't give me that nonsense!",
+   "status": "done"
   },
   {
    "id": "R07:19666",
@@ -1584,7 +1781,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルってぃやぁ、あの創界山の\nおマヌケ水戸黄門だぞ！？",
-   "en": ""
+   "en": "Wataru? That bumbling do-gooder,\nSokaizan's answer to\nRobin Hood?!",
+   "status": "done"
   },
   {
    "id": "R07:196AE",
@@ -1592,7 +1790,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そんなやつらがどうやって\n電脳空間にくるんだっての！",
-   "en": ""
+   "en": "How would a bunch like that\never get into cyberspace?!",
+   "status": "done"
   },
   {
    "id": "R07:196F2",
@@ -1600,7 +1799,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "たくろー：\n彼らを送り込んだのは、\nこのボクさ。",
-   "en": ""
+   "en": "Takuro:\nI'm the one\nwho sent them in.",
+   "status": "done"
   },
   {
    "id": "R07:19734",
@@ -1608,7 +1808,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nうおぉっ！\n今度は一体誰でぃ！？",
-   "en": ""
+   "en": "Bill:\nWhoa!\nNow who the heck is THAT?!",
+   "status": "done"
   },
   {
    "id": "R07:1976C",
@@ -1616,7 +1817,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "たくろー：\n【メグ】ちゃんのファンの１人さ。",
-   "en": ""
+   "en": "Takuro:\nJust one of Meg-chan's fans.",
+   "status": "done"
   },
   {
    "id": "R07:197AA",
@@ -1624,7 +1826,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nするってぇと、おめぇがオレの\nプログラムを破ったのか。",
-   "en": ""
+   "en": "Bill:\nSo you're the one\nwho cracked my program?",
+   "status": "done"
   },
   {
    "id": "R07:197F8",
@@ -1632,7 +1835,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nそうさ。【メグ】ちゃんを\n操るなんて、ゆるさないぞ！",
-   "en": ""
+   "en": "Takuro:\nThat's right! I'll never forgive\nyou for controlling Meg-chan!",
+   "status": "done"
   },
   {
    "id": "R07:19848",
@@ -1640,7 +1844,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nうふふーん。テメェみたいな\n腕前を持つヤツがいれば、",
-   "en": ""
+   "en": "Bill:\nHeh heh! With somebody\nas skilled as you around,",
+   "status": "done"
   },
   {
    "id": "R07:19894",
@@ -1648,7 +1853,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "人間をこの空間に送り込むことも\n出来ないワケじゃねぇなぁ・・・。",
-   "en": ""
+   "en": "I guess sending humans\ninto this space ain't\noutta the question...",
+   "status": "done"
   },
   {
    "id": "R07:198E6",
@@ -1656,7 +1862,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・するってぇと！",
-   "en": ""
+   "en": "...Then that means!",
+   "status": "done"
   },
   {
    "id": "R07:1990A",
@@ -1664,7 +1871,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nそういうことですわ！",
-   "en": ""
+   "en": "Sakuya:\nPrecisely!",
+   "status": "done"
   },
   {
    "id": "R07:1993A",
@@ -1672,7 +1880,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n観念してもらおうか。",
-   "en": ""
+   "en": "Aragoto:\nWill you surrender, then?",
+   "status": "done"
   },
   {
    "id": "R07:1996C",
@@ -1680,7 +1889,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ビル：\n・・・くっくっく。観念するだと？\n寝言は寝てから言え！",
-   "en": ""
+   "en": "Bill:\n...Heh heh heh. Surrender?\nKeep dreaming!",
+   "status": "done"
   },
   {
    "id": "R07:199BC",
@@ -1688,7 +1898,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n何おーっ！",
-   "en": ""
+   "en": "Wataru:\nWhat was that?!",
+   "status": "done"
   },
   {
    "id": "R07:199E0",
@@ -1696,7 +1907,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n往生際（おうじょうぎわ）が\n悪いぞ！",
-   "en": ""
+   "en": "Aragoto:\nYou do not know when to quit!",
+   "status": "done"
   },
   {
    "id": "R07:19A22",
@@ -1704,7 +1916,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nおめぇらの言ってることが、\n寝言だとわかるようにしてやるぜ！",
-   "en": ""
+   "en": "Bill:\nI'll show you just how much\nyou're dreaming!",
+   "status": "done"
   },
   {
    "id": "R07:19A76",
@@ -1712,7 +1925,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "出でよ！\n【Ｍｒ．イリュージョン】！",
-   "en": ""
+   "en": "Come forth!\nMr. Illusion!",
+   "status": "done"
   },
   {
    "id": "R07:19AAC",
@@ -1720,7 +1934,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nワタルさま！",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama!",
+   "status": "done"
   },
   {
    "id": "R07:19AD2",
@@ -1728,7 +1943,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nうん！\nりゅーじんまるーっ！！",
-   "en": ""
+   "en": "Wataru:\nYeah!\nRyujinmaruuu!!",
+   "status": "done"
   },
   {
    "id": "R07:19B0C",
@@ -1736,7 +1952,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあれ？\n・・・りゅーじんまるーっ！",
-   "en": ""
+   "en": "Wataru:\nHuh?\n...Ryujinmaruuu!",
+   "status": "done"
   },
   {
    "id": "R07:19B48",
@@ -1744,7 +1961,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nどうなさったのですか？",
-   "en": ""
+   "en": "Sakuya:\nWhat is the matter?",
+   "status": "done"
   },
   {
    "id": "R07:19B78",
@@ -1752,7 +1970,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n龍神丸が出てこないんだ。",
-   "en": ""
+   "en": "Wataru:\nRyujinmaru won't come out.",
+   "status": "done"
   },
   {
    "id": "R07:19BAC",
@@ -1760,7 +1979,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nわーっはっはっは！",
-   "en": ""
+   "en": "Bill:\nWah ha ha ha!",
+   "status": "done"
   },
   {
    "id": "R07:19BD6",
@@ -1768,7 +1988,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ここはコンピュータの世界、\n電脳空間だぜぇ。",
-   "en": ""
+   "en": "This is cyberspace,\nthe world inside a computer!",
+   "status": "done"
   },
   {
    "id": "R07:19C12",
@@ -1776,7 +1997,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "普通の空間と違うから、\nお前の魔神は\n出てこられないって寸法よ！",
-   "en": ""
+   "en": "It ain't like normal space,\nso your mashin\ncan't come out here!",
+   "status": "done"
   },
   {
    "id": "R07:19C62",
@@ -1784,7 +2006,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n何だって！？",
-   "en": ""
+   "en": "Wataru:\nWhat?!",
+   "status": "done"
   },
   {
    "id": "R07:19C88",
@@ -1792,7 +2015,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ビル：\nうぅわーっはっはっはっはっは！\nほーれ死ね！　死ねぃっ！",
-   "en": ""
+   "en": "Bill:\nWaaah ha ha ha ha ha!\nNow die! Die!",
+   "status": "done"
   },
   {
    "id": "R07:19CDA",
@@ -1800,7 +2024,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうぁ、うぁわわーっ。",
-   "en": ""
+   "en": "Wataru:\nW-whoaaaa!",
+   "status": "done"
   },
   {
    "id": "R07:19D08",
@@ -1808,7 +2033,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n何とかならないのかぁーっ。",
-   "en": ""
+   "en": "Aragoto:\nCan nothing be done?!",
+   "status": "done"
   },
   {
    "id": "R07:19D3E",
@@ -1816,7 +2042,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nどうにもならないーんっで\nござるのことよほぉーっ！！",
-   "en": ""
+   "en": "Bill:\nNay, good sir! Thou art\nroyally doooomed! Ho hooo!",
+   "status": "done"
   },
   {
    "id": "R07:19D8A",
@@ -1824,7 +2051,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルたち：\nうわーっ！",
-   "en": ""
+   "en": "Wataru & co.:\nAaaah!",
+   "status": "done"
   },
   {
    "id": "R07:19DB2",
@@ -1832,7 +2060,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\n待っててくれ、今何とかしてみる。",
-   "en": ""
+   "en": "Takuro:\nHang on! I'll try something now!",
+   "status": "done"
   },
   {
    "id": "R07:19DEE",
@@ -1840,7 +2069,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n早くしてねぇーっ！",
-   "en": ""
+   "en": "Wataru:\nHurry uuup!",
+   "status": "done"
   },
   {
    "id": "R07:19E22",
@@ -1848,7 +2078,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nうう・・・、もう、もたない。",
-   "en": ""
+   "en": "Aragoto:\nUgh... I cannot hold out...",
+   "status": "done"
   },
   {
    "id": "R07:19E5A",
@@ -1856,7 +2087,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nきっと彼がなんとかしてくれるよ！\nそれまでがんばらなくちゃ！",
-   "en": ""
+   "en": "Wataru:\nHe'll come through! I know it!\nWe've gotta hang on till then!",
+   "status": "done"
   },
   {
    "id": "R07:19EB0",
@@ -1864,7 +2096,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nうふふ、なぁーに\nお涙ちょうだいしてんのぁーっ。",
-   "en": ""
+   "en": "Bill:\nHeh heh! What's with\nthe sob storyyyy?",
+   "status": "done"
   },
   {
    "id": "R07:19EF8",
@@ -1872,7 +2105,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "くっくっく、\nすぃぬぇーっっっ！！！！",
-   "en": ""
+   "en": "Heh heh heh...\nDiiiiie!!!!",
+   "status": "done"
   },
   {
    "id": "R07:19F30",
@@ -1880,7 +2114,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nあら？",
-   "en": ""
+   "en": "Bill:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R07:19F4E",
@@ -1888,7 +2123,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nなんだ？",
-   "en": ""
+   "en": "Wataru:\nWhat's that?",
+   "status": "done"
   },
   {
    "id": "R07:19F70",
@@ -1896,7 +2132,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nあらら？\nあらららららぁーっ！",
-   "en": ""
+   "en": "Bill:\nHuh? Huh?\nWha-wha-whaaaat?!",
+   "status": "done"
   },
   {
    "id": "R07:19FA6",
@@ -1904,7 +2141,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "体があ～吸い出されるぅーっ！",
-   "en": ""
+   "en": "I'm being sucked ooouuut!",
+   "status": "done"
   },
   {
    "id": "R07:19FD2",
@@ -1912,7 +2150,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nやった！　助かったんだ！",
-   "en": ""
+   "en": "Wataru:\nYes! We're saved!",
+   "status": "done"
   },
   {
    "id": "R07:1A004",
@@ -1920,7 +2159,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nって、我々も\n吸い出されているぅーっ！",
-   "en": ""
+   "en": "Aragoto:\nExcept WE are being\nsucked out toooo!",
+   "status": "done"
   },
   {
    "id": "R07:1A046",
@@ -1928,7 +2168,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nきゃあーっ。",
-   "en": ""
+   "en": "Sakuya:\nAaaah!",
+   "status": "done"
   },
   {
    "id": "R07:1A084",
@@ -1936,7 +2177,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nやった！",
-   "en": ""
+   "en": "Wataru:\nAll right!",
+   "status": "done"
   },
   {
    "id": "R07:1A0A6",
@@ -1944,7 +2186,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n助かったようだな。",
-   "en": ""
+   "en": "Aragoto:\nIt seems we are safe.",
+   "status": "done"
   },
   {
    "id": "R07:1A0D6",
@@ -1952,7 +2195,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "たくろー：\nうわぁーっ。",
-   "en": ""
+   "en": "Takuro:\nAaaah!",
+   "status": "done"
   },
   {
    "id": "R07:1A100",
@@ -1960,7 +2204,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nまったく、後ひといきの\nところだったのに・・・。",
-   "en": ""
+   "en": "Bill:\nBlast it! I was\nso close, too...",
+   "status": "done"
   },
   {
    "id": "R07:1A148",
@@ -1968,7 +2213,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "よぉくも\nやってくれちゃったわねぇん！\nお前からしまつしてやるわぃっ！",
-   "en": ""
+   "en": "Now you've gone and done it,\nyou little pest!\nI'll finish YOU off first!",
+   "status": "done"
   },
   {
    "id": "R07:1A1A0",
@@ -1976,7 +2222,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nたいへんだ、\nあの少年が襲われている！",
-   "en": ""
+   "en": "Aragoto:\nTrouble! That boy\nis under attack!",
+   "status": "done"
   },
   {
    "id": "R07:1A1E2",
@@ -1984,7 +2231,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n元の世界に戻ってきたなら\n龍神丸が召喚できるハズですわ！",
-   "en": ""
+   "en": "Sakuya:\nBack home, we should be able to\nsummon Ryujinmaru!",
+   "status": "done"
   },
   {
    "id": "R07:1A234",
@@ -1992,7 +2240,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタルさま！",
-   "en": ""
+   "en": "Wataru-sama!",
+   "status": "done"
   },
   {
    "id": "R07:1A252",
@@ -2000,7 +2249,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nおう！",
-   "en": ""
+   "en": "Wataru:\nYeah!",
+   "status": "done"
   },
   {
    "id": "R07:1A272",
@@ -2008,7 +2258,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nりゅーじんまるーっ！",
-   "en": ""
+   "en": "Wataru:\nRyujinmaruuu!",
+   "status": "done"
   },
   {
    "id": "R07:1A2A0",
@@ -2016,7 +2267,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "龍神丸：\nおおーっ！",
-   "en": ""
+   "en": "Ryujinmaru:\nOoooh!",
+   "status": "done"
   },
   {
    "id": "R07:1A2D2",
@@ -2024,7 +2276,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nはは、\n全くなんと言えばいいのか・・・。",
-   "en": ""
+   "en": "Bill:\nHa ha...\nReally, what can I say...?",
+   "status": "done"
   },
   {
    "id": "R07:1A312",
@@ -2032,7 +2285,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\n【メグ】ちゃんを独り占め\nしようとしたり、",
-   "en": ""
+   "en": "Takuro:\nTrying to keep Meg-chan\nall to yourself,",
+   "status": "done"
   },
   {
    "id": "R07:1A358",
@@ -2040,7 +2294,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村のみんなを洗脳しようとしたり、\nまったくどうかしてたよねぇ。",
-   "en": ""
+   "en": "trying to brainwash\nthe whole village...\nYou really weren't yourself!",
+   "status": "done"
   },
   {
    "id": "R07:1A3A6",
@@ -2048,7 +2303,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nう、む、おっほん。",
-   "en": ""
+   "en": "Bill:\nUh, well, ahem!",
+   "status": "done"
   },
   {
    "id": "R07:1A3D0",
@@ -2056,7 +2312,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あ～いかんいかん、\n他の村に【メグ】の宣伝活動を\nしに行かねばならないんだった。",
-   "en": ""
+   "en": "Oh, dear! This won't do!\nI was supposed to promote Meg\nin the other villages!",
+   "status": "done"
   },
   {
    "id": "R07:1A430",
@@ -2064,7 +2321,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあら、\nお出かけになってしまいますの？",
-   "en": ""
+   "en": "Sakuya:\nOh, are you\nleaving us already?",
+   "status": "done"
   },
   {
    "id": "R07:1A470",
@@ -2072,7 +2330,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビル：\nはは、こう見えても私は【創界山一\n忙しい男】だったんですよ。",
-   "en": ""
+   "en": "Bill:\nHa ha! Believe it or not, I was\nthe busiest man in Sokaizan!",
+   "status": "done"
   },
   {
    "id": "R07:1A4C4",
@@ -2080,7 +2339,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "それでは、失礼。",
-   "en": ""
+   "en": "Well then, excuse me.",
+   "status": "done"
   },
   {
    "id": "R07:1A4E6",
@@ -2088,7 +2348,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nワルモンダーの手下だったときは\n【口が忙しい男】で、",
-   "en": ""
+   "en": "Aragoto:\nAs Warumonder's henchman,\nhe kept his mouth busy.",
+   "status": "done"
   },
   {
    "id": "R07:1A536",
@@ -2096,7 +2357,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "元に戻ったら\n【仕事が忙しい男】かよ。\n何でもかんでも忙しいんだなぁ。",
-   "en": ""
+   "en": "Now he is back to normal,\nhe keeps busy with work?\nBusy no matter what he does!",
+   "status": "done"
   },
   {
    "id": "R07:1A58C",
@@ -2104,7 +2366,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "メグ：\n私のために、\n何だか申し訳ありません。",
-   "en": ""
+   "en": "Meg:\nI feel rather guilty,\nwith all this being for me.",
+   "status": "done"
   },
   {
    "id": "R07:1A5CC",
@@ -2112,7 +2375,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nいいんだって、",
-   "en": ""
+   "en": "Takuro:\nDon't worry about it!",
+   "status": "done"
   },
   {
    "id": "R07:1A5F6",
@@ -2120,7 +2384,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あの人だって【メグ】ちゃんが\n有名になるのがうれしいんだから。",
-   "en": ""
+   "en": "He's happy to see\nMeg-chan getting famous, too!",
+   "status": "done"
   },
   {
    "id": "R07:1A644",
@@ -2128,7 +2393,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ボクだって【村のアイドル】じゃ\nなくって、【創界山のアイドル】\nになって欲しいもん。",
-   "en": ""
+   "en": "I want you to be more than\nour village's idol, too.\nBe the idol of all Sokaizan!",
+   "status": "done"
   },
   {
    "id": "R07:1A6A8",
@@ -2136,7 +2402,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nいいんだって、って、お主が\n宣伝活動しているんではないだろ。",
-   "en": ""
+   "en": "Aragoto:\n\"Don't worry\"? You are not the\none doing the promoting!",
+   "status": "done"
   },
   {
    "id": "R07:1A702",
@@ -2144,7 +2411,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "みんな：\nあはははははっ。",
-   "en": ""
+   "en": "Everyone:\nAh ha ha ha ha!",
+   "status": "done"
   },
   {
    "id": "R07:1A72E",
@@ -2152,7 +2420,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nありがとう。",
-   "en": ""
+   "en": "Wataru:\nThanks.",
+   "status": "done"
   },
   {
    "id": "R07:1A754",
@@ -2160,7 +2429,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "キミが助けてくれなかったら、\n今頃どうなっていたか\nわからなかったよ。",
-   "en": ""
+   "en": "If you hadn't saved us,\nwho knows what would've\nhappened to us by now?",
+   "status": "done"
   },
   {
    "id": "R07:1A7AA",
@@ -2168,7 +2438,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nいいんだって、",
-   "en": ""
+   "en": "Takuro:\nDon't worry about it!",
+   "status": "done"
   },
   {
    "id": "R07:1A7D4",
@@ -2176,7 +2447,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ボクだって【メグ】ちゃんを\n助けてもらったからね",
-   "en": ""
+   "en": "You saved Meg-chan\nfor me, too!",
+   "status": "done"
   },
   {
    "id": "R07:1A814",
@@ -2184,7 +2456,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n今の、いいんだって、は、お主の\n手がらだからいいのかぁ・・・？",
-   "en": ""
+   "en": "Aragoto:\nIs that \"Don't worry\" all right\nbecause the credit is yours...?",
+   "status": "done"
   },
   {
    "id": "R07:1A86E",
@@ -2192,7 +2465,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nははっ。",
-   "en": ""
+   "en": "Wataru:\nHa ha!",
+   "status": "done"
   },
   {
    "id": "R07:1A890",
@@ -2200,7 +2474,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nははっ。",
-   "en": ""
+   "en": "Takuro:\nHa ha!",
+   "status": "done"
   },
   {
    "id": "R07:1A8B4",
@@ -2208,7 +2483,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R07:1A8CA",
@@ -2216,7 +2492,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nがんばって、\n創界山を平和にしてくれよ。",
-   "en": ""
+   "en": "Takuro:\nGood luck!\nBring peace back to Sokaizan!",
+   "status": "done"
   },
   {
    "id": "R07:1A90E",
@@ -2224,7 +2501,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nうんっ！",
-   "en": ""
+   "en": "Wataru:\nYou bet!",
+   "status": "done"
   },
   {
    "id": "R07:1A936",
@@ -2232,7 +2510,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n村中の人たちが\nあんな風になるなんて・・・",
-   "en": ""
+   "en": "Wataru:\nEveryone in the village\nending up like that...",
+   "status": "done"
   },
   {
    "id": "R07:1A97A",
@@ -2240,7 +2519,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "何かおかしいよね。",
-   "en": ""
+   "en": "Something's wrong, huh?",
+   "status": "done"
   },
   {
    "id": "R07:1A99C",
@@ -2248,7 +2528,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわ、",
-   "en": ""
+   "en": "Sakuya:\nIndeed.",
+   "status": "done"
   },
   {
    "id": "R07:1A9C2",
@@ -2256,7 +2537,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だから救世主さまが、\nこの創界山には必要なのですわ。",
-   "en": ""
+   "en": "That is why Sokaizan\nneeds you, Savior-sama.",
+   "status": "done"
   },
   {
    "id": "R07:1AA06",
@@ -2264,7 +2546,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nなるほど・・・。",
-   "en": ""
+   "en": "Wataru:\nI get it...",
+   "status": "done"
   },
   {
    "id": "R07:1AA30",
@@ -2272,7 +2555,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそうそう、ワルモンダーには\nお[0244:炎]をすえてやらねばいかん。",
-   "en": ""
+   "en": "Aragoto:\nIndeed! We must give Warumonder\na good roasting.",
+   "status": "done"
   },
   {
    "id": "R07:1AA84",
@@ -2280,7 +2564,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "救世主は【お[0244:炎]せい】しゅ・・・。\nなんつって。",
-   "en": ""
+   "en": "Savior? More like a Sear-vior!\nHa! Get it?",
+   "status": "done"
   },
   {
    "id": "R07:1AAC6",
@@ -2288,7 +2573,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "デジクロソフトのブレーカーを下げ\nて、ワタルたちをたすけよう！！",
-   "en": ""
+   "en": "Flip Digicrosoft's breaker off\nto save Wataru and his friends!!",
+   "status": "done"
   },
   {
    "id": "R07:1AB16",
@@ -2296,7 +2582,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "デジクロソフトのどこかに、電気の\nブレーカーがある。それを操作して\nワタル達をたすけよう！",
-   "en": ""
+   "en": "There's a circuit breaker\nsomewhere in Digicrosoft.\nUse it to help Wataru's group!",
+   "status": "done"
   },
   {
    "id": "R07:1AB80",
@@ -2304,7 +2591,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ブレーカーの前で○を\n押せばクリアだ！！",
-   "en": ""
+   "en": "Press Circle in front of\nthe breaker to clear this task!!",
+   "status": "done"
   },
   {
    "id": "R07:21E6C",

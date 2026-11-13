@@ -8,7 +8,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nボクこの村に生まれて良かったよ。",
-   "en": ""
+   "en": "Boy:\nI'm so glad I was born\nin this village.",
+   "status": "done"
   },
   {
    "id": "R02:11138",
@@ -16,7 +17,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "だって、欲しい物を買うとお金が\nもらえちゃうんだもん。",
-   "en": ""
+   "en": "When I buy stuff I want,\nthey give me money!",
+   "status": "done"
   },
   {
    "id": "R02:11170",
@@ -24,7 +26,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そうそう、【キャッシュバック】\nとか言うらしいよ。",
-   "en": ""
+   "en": "Oh, right! I think they call it\n\"cashback.\"",
+   "status": "done"
   },
   {
    "id": "R02:111A4",
@@ -32,7 +35,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おとこの子：\n【キャッシュバック】に\nたよってばかりいる大人達に、",
-   "en": ""
+   "en": "Boy:\nThe grown-ups just keep\nrelying on cashback.",
+   "status": "done"
   },
   {
    "id": "R02:111E8",
@@ -40,7 +44,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ボクらはガッカリしたんだ・・・。",
-   "en": ""
+   "en": "We're really disappointed\nin them...",
+   "status": "done"
   },
   {
    "id": "R02:1120A",
@@ -48,7 +53,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "だからボク達はここに集まって、\n「どうしようか？」と\n話し合っていたんだ。",
-   "en": ""
+   "en": "So we all got together here\nto talk about what we\ncould do about it.",
+   "status": "done"
   },
   {
    "id": "R02:11256",
@@ -56,7 +62,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "だけどね。",
-   "en": ""
+   "en": "But, you know...",
+   "status": "done"
   },
   {
    "id": "R02:11262",
@@ -64,7 +71,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ボク達子供の力じゃ、\nどうにもなりそうに\nないんだ・・・。",
-   "en": ""
+   "en": "We're just kids.\nI don't think there's anything\nwe can do...",
+   "status": "done"
   },
   {
    "id": "R02:112A0",
@@ -72,7 +80,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nだからボク達はここに集まって、\n「どうしようか？」と",
-   "en": ""
+   "en": "Boy:\nSo we all got together here\nto talk about what",
+   "status": "done"
   },
   {
    "id": "R02:112E4",
@@ -80,7 +89,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "話し合っていたんだ。",
-   "en": ""
+   "en": "we could do about it.",
+   "status": "done"
   },
   {
    "id": "R02:112FC",
@@ -88,7 +98,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nだけどね。",
-   "en": ""
+   "en": "Boy:\nBut, you know...",
+   "status": "done"
   },
   {
    "id": "R02:11316",
@@ -96,7 +107,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ボク達子供の力じゃ、\nどうにもなりそうに\nないんだ・・・。",
-   "en": ""
+   "en": "We're just kids.\nI don't think there's anything\nwe can do...",
+   "status": "done"
   },
   {
    "id": "R02:11354",
@@ -104,7 +116,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nボクの大好きなプロタンが、\n【キャッシュバック】でもらった",
-   "en": ""
+   "en": "Boy:\nMy favorite Protan! With the\ncashback money,",
+   "status": "done"
   },
   {
    "id": "R02:1139E",
@@ -112,7 +125,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "お金で、買えたんだ。\nいいでしょう。",
-   "en": ""
+   "en": "I could afford to buy it.\nPretty neat, huh?",
+   "status": "done"
   },
   {
    "id": "R02:113C4",
@@ -120,7 +134,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "でも、もんペットだけは\n【キャッシュバック】をして\nくれないから・・・",
-   "en": ""
+   "en": "But they don't give you\ncashback on Monpets...",
+   "status": "done"
   },
   {
    "id": "R02:1140C",
@@ -128,7 +143,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ほかのお店でもうけて、\nそのおカネでかってもらったんだ。",
-   "en": ""
+   "en": "So they made money at other\nstores and used that money\nto buy it for me.",
+   "status": "done"
   },
   {
    "id": "R02:11448",
@@ -136,7 +152,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\n【カネワアルゾウ】ってヤツが\n悪いんだ！",
-   "en": ""
+   "en": "Boy:\nIt's all that Kanewa Aruzo\nguy's fault!",
+   "status": "done"
   },
   {
    "id": "R02:11480",
@@ -144,7 +161,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・だけど、\n本当は・・・・・・、\nいいヤツなのかもしれない。",
-   "en": ""
+   "en": "...But maybe...\nhe's actually...\na nice guy.",
+   "status": "done"
   },
   {
    "id": "R02:114C4",
@@ -152,7 +170,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nボクのともだちのおんなの子は、\n「おとうさんとたくさんあそべる」",
-   "en": ""
+   "en": "Boy:\nOne girl I'm friends with says,\n\"I get to play with Dad a lot!\"",
+   "status": "done"
   },
   {
    "id": "R02:11514",
@@ -160,7 +179,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "なんて、よろこんでいたけど、\nボクは、がんばって働いている\nおとうさんの方が好きだな。",
-   "en": ""
+   "en": "She's happy about that,\nbut I like my dad better\nwhen he's working hard.",
+   "status": "done"
   },
   {
    "id": "R02:1156C",
@@ -168,7 +188,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\n【カネワローン】っていう、\nおっきなビルが、",
-   "en": ""
+   "en": "Girl:\nThere's a huge building\ncalled Kanewa Loans,",
+   "status": "done"
   },
   {
    "id": "R02:115A8",
@@ -176,7 +197,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "村の東の方にあるよ。",
-   "en": ""
+   "en": "on the east side of the village.",
+   "status": "done"
   },
   {
    "id": "R02:115C0",
@@ -184,7 +206,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\n私、働きもしない大人になんて、\nぜったいならないんだから！",
-   "en": ""
+   "en": "Girl:\nI'll never, ever grow up to be\nsomeone who doesn't even work!",
+   "status": "done"
   },
   {
    "id": "R02:1160C",
@@ -192,7 +215,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\n私は、普通のＯＬになるのが、\nユメなの。",
-   "en": ""
+   "en": "Girl:\nMy dream is to be\nan ordinary office worker.",
+   "status": "done"
   },
   {
    "id": "R02:11644",
@@ -200,7 +224,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\n子供にそんけいされる大人に\nなるためにがんばるわ！",
-   "en": ""
+   "en": "Girl:\nI'll work hard to be a grown-up\nthat kids can look up to!",
+   "status": "done"
   },
   {
    "id": "R02:11688",
@@ -208,7 +233,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\n最近、\nパパがいつもおうちにいるの。",
-   "en": ""
+   "en": "Girl:\nLately, Daddy's been\nhome all the time.",
+   "status": "done"
   },
   {
    "id": "R02:116BC",
@@ -216,7 +242,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "だから、いっぱい、いっぱい、\nあそんでもらえるの。",
-   "en": ""
+   "en": "So he gets to play with me\nlots and lots!",
+   "status": "done"
   },
   {
    "id": "R02:116F0",
@@ -224,7 +251,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nお金があふれているなんてっ！\nおかしいわよぉ！",
-   "en": ""
+   "en": "Girl:\nMoney everywhere you look!\nThat's just crazy!",
+   "status": "done"
   },
   {
    "id": "R02:1172E",
@@ -232,7 +260,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "そう思わない？\n１．はい　　　　　　\n２．いいえ　　　　　　",
-   "en": ""
+   "en": "Don't you think so?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R02:1176E",
@@ -240,7 +269,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\nでしょー！！\nそれでこそ、救世主様よぉ！",
-   "en": ""
+   "en": "Girl:\nRight?!! That's what I'd expect\nfrom the Savior-sama!",
+   "status": "done"
   },
   {
    "id": "R02:117A6",
@@ -248,7 +278,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\nなにぃー！？\nあなた、それでも救世主なのぉ！",
-   "en": ""
+   "en": "Girl:\nWhaaat?! And you call\nyourself the Savior?!",
+   "status": "done"
   },
   {
    "id": "R02:117E4",
@@ -256,7 +287,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nおーっほっほっ！！",
-   "en": ""
+   "en": "Girl:\nOh ho ho ho!!",
+   "status": "done"
   },
   {
    "id": "R02:11806",
@@ -264,7 +296,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "わたくしは決して、\nお金もちだからと言って、",
-   "en": ""
+   "en": "My wealth has nothing to do",
+   "status": "done"
   },
   {
    "id": "R02:11834",
@@ -272,7 +305,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "この方達とごいっしょ\nしているわけでは\nございませんのよ。",
-   "en": ""
+   "en": "with my choosing to associate\nwith these people, you know.",
+   "status": "done"
   },
   {
    "id": "R02:11870",
@@ -280,7 +314,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nわたくしはビンボーというものに、\nあこがれているだけですわ。",
-   "en": ""
+   "en": "Girl:\nI simply long to experience\nthis thing called poverty.",
+   "status": "done"
   },
   {
    "id": "R02:118BC",
@@ -288,7 +323,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・？\nわたくし何かおかしなことを\n申しましたでしょうか？",
-   "en": ""
+   "en": "......?\nHave I said something\npeculiar?",
+   "status": "done"
   },
   {
    "id": "R02:11900",
@@ -296,7 +332,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おーっほっほっ！！\nそんなこと\nあるわけありませんわ。",
-   "en": ""
+   "en": "Oh ho ho ho!!\nOf course I could never\ndo such a thing.",
+   "status": "done"
   },
   {
    "id": "R02:11938",
@@ -304,7 +341,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【キャッシュバック】？",
-   "en": ""
+   "en": "Young Woman:\nCashback?",
+   "status": "done"
   },
   {
    "id": "R02:1195E",
@@ -312,7 +350,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そのことなら、\n【カネワローン】に行くと、\n詳しいことがわかると思うわ。",
-   "en": ""
+   "en": "If you go to Kanewa Loans,\nI'm sure you can find out\nall the details.",
+   "status": "done"
   },
   {
    "id": "R02:119A8",
@@ -320,7 +359,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nここから南にいくと、\n【子供達の森】よ。",
-   "en": ""
+   "en": "Young Woman:\nHead south from here to reach\nthe Children's Forest.",
+   "status": "done"
   },
   {
    "id": "R02:119E0",
@@ -328,7 +368,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【キャッシュバック】を\n行っている店のスポンサーは、",
-   "en": ""
+   "en": "Man:\nThe shops offering Cashback\nhave a sponsor...",
+   "status": "done"
   },
   {
    "id": "R02:11A22",
@@ -336,7 +377,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【カネワアルゾウ】ってヤツだ。",
-   "en": ""
+   "en": "A fellow called Kanewa Aruzo.",
+   "status": "done"
   },
   {
    "id": "R02:11A44",
@@ -344,7 +386,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n「あ！　あんな所に\nお金が落ちている！」",
-   "en": ""
+   "en": "Man:\n\"Oh! Look at that money\nlying over there!\"",
+   "status": "done"
   },
   {
    "id": "R02:11A7A",
@@ -352,7 +395,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・と、だれよりも先に、\nそこへ向かってダッシュする\nこともないんだよね～。",
-   "en": ""
+   "en": "...But there's no need to\nrush over and grab it before\nanybody else does anymore.",
+   "status": "done"
   },
   {
    "id": "R02:11ACA",
@@ -360,7 +404,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "なぜだかわかるかい？\n１．はい　　　　　　\n２．いいえ　　　　　　",
-   "en": ""
+   "en": "Do you know why?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R02:11B10",
@@ -368,7 +413,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nそう！　【キャッシュバック】の\nおかげなんだね～。",
-   "en": ""
+   "en": "Man:\nThat's right! It's all\nthanks to Cashback.",
+   "status": "done"
   },
   {
    "id": "R02:11B50",
@@ -376,7 +422,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "でも、つまんない世の中になった\nもんだよね～。",
-   "en": ""
+   "en": "But the world's become\nsuch a boring place.",
+   "status": "done"
   },
   {
    "id": "R02:11B80",
@@ -384,7 +431,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "だってさ～、お金をひろうときの\nあのスリリングな体験が\nできないんだもんさ～。あーあ。",
-   "en": ""
+   "en": "We don't get that thrill\nof picking up money off the\nground anymore. Sigh...",
+   "status": "done"
   },
   {
    "id": "R02:11BD8",
@@ -392,7 +440,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もちろん、働いてお金を\nもらったときのよろこびって\nヤツも感じられないんだよね～。",
-   "en": ""
+   "en": "Of course, we don't get the\njoy of earning money through\nhard work, either.",
+   "status": "done"
   },
   {
    "id": "R02:11C2C",
@@ -400,7 +449,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nう～ん。わからないか～。\nおじさん、がっかり・・・。",
-   "en": ""
+   "en": "Man:\nHmm. You don't know?\nI'm disappointed...",
+   "status": "done"
   },
   {
    "id": "R02:11C6E",
@@ -408,7 +458,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "それは、【キャッシュバック】の\nおかげらしいんだね～。",
-   "en": ""
+   "en": "Apparently, it's all\nthanks to Cashback.",
+   "status": "done"
   },
   {
    "id": "R02:11CA6",
@@ -416,7 +467,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "まあ、世の中そう言うことに\nなっているみたいだけど、\nユメをもって生きていくんだね～。",
-   "en": ""
+   "en": "Well, that seems to be how\nthe world works now, but\nkeep your dreams alive.",
+   "status": "done"
   },
   {
    "id": "R02:11CFE",
@@ -424,7 +476,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そう！　おじさんみたいに\nえがおで、がんばろうよ。\nはい、わらって、わらって！",
-   "en": ""
+   "en": "Yes! Keep smiling and do\nyour best, just like me.\nCome on, smile! Smile!",
+   "status": "done"
   },
   {
    "id": "R02:11D50",
@@ -432,7 +485,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\nコンビニって、スーパーと違って、\n買いすぎちゃうと",
-   "en": ""
+   "en": "Woman:\nUnlike at a supermarket,\nif you buy too much at a",
+   "status": "done"
   },
   {
    "id": "R02:11D90",
@@ -440,7 +494,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "高くついちゃうのよね。",
-   "en": ""
+   "en": "convenience store, it really\ngets expensive.",
+   "status": "done"
   },
   {
    "id": "R02:11DA8",
@@ -448,7 +503,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n村の入口のさかを下ったところに\nあるエレベーターって、",
-   "en": ""
+   "en": "Man:\nYou know the elevator down\nthe slope at the village gate?",
+   "status": "done"
   },
   {
    "id": "R02:11DEC",
@@ -456,7 +512,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "地下につづいていたって話だけど、\n今は、カギがかけられているんだ。",
-   "en": ""
+   "en": "I hear it used to lead\nunderground, but it's\nlocked now.",
+   "status": "done"
   },
   {
    "id": "R02:11E30",
@@ -464,7 +521,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nよく来たね、ぼうや。\nおじさんのお話が、始まるよ。",
-   "en": ""
+   "en": "Man:\nWelcome, sonny!\nIt's time for my story.",
+   "status": "done"
   },
   {
    "id": "R02:11E70",
@@ -472,7 +530,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさんは今日のあさ、\nおべんとうのゴミを\nすてに行ったんだ。",
-   "en": ""
+   "en": "This morning, I went to\nthrow out my empty\nlunch box.",
+   "status": "done"
   },
   {
    "id": "R02:11EB0",
@@ -480,7 +539,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "すると・・・、",
-   "en": ""
+   "en": "And then...",
+   "status": "done"
   },
   {
    "id": "R02:11EC0",
@@ -488,7 +548,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "もんペットが近づいて来たんだ。\nだけど、中身は私がたべて\nしまったので無かったんだよ。",
-   "en": ""
+   "en": "A Monpet came up to me.\nBut I'd already eaten\nall the food in the box.",
+   "status": "done"
   },
   {
    "id": "R02:11F18",
@@ -496,7 +557,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そこで、おじさんは、\nコンビニにおべんとうを\n買いに行ったんだねぇー。",
-   "en": ""
+   "en": "So I went to the convenience\nstore to buy another\nboxed lunch.",
+   "status": "done"
   },
   {
    "id": "R02:11F60",
@@ -504,7 +566,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "すると、もんペットは、\nおじさんについて来るでは\nありませんか！",
-   "en": ""
+   "en": "And wouldn't you know it?\nThe Monpet followed me\nall the way there!",
+   "status": "done"
   },
   {
    "id": "R02:11FA2",
@@ -512,7 +575,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん、本当におどろいたね。",
-   "en": ""
+   "en": "I was really surprised.",
+   "status": "done"
   },
   {
    "id": "R02:11FC2",
@@ -520,7 +584,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "と、まあ、これでおじさんは、\nもんペットとなかよしに\nなったんだよ。",
-   "en": ""
+   "en": "And that's how the Monpet\nand I became friends.",
+   "status": "done"
   },
   {
    "id": "R02:12008",
@@ -528,7 +593,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そして、おじさんともんペットは\nその後、いっしょにおべんとうを\nたべたんだ。",
-   "en": ""
+   "en": "After that, the Monpet and I\nate our boxed lunch together.",
+   "status": "done"
   },
   {
    "id": "R02:12056",
@@ -536,7 +602,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "感動だろ？\n今まで生きてきた中で、\n一番幸せだったねぇー。",
-   "en": ""
+   "en": "Touching, isn't it?\nI'd never been happier\nin my whole life.",
+   "status": "done"
   },
   {
    "id": "R02:12094",
@@ -544,7 +611,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "カネワローンの人：\n私はねぇ、\nお金には目が無いよ。",
-   "en": ""
+   "en": "Kanewa Loans Clerk:\nMe? I just can't\nresist money.",
+   "status": "done"
   },
   {
    "id": "R02:120CC",
@@ -552,7 +620,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "カネワローンの人：\n【キャッシュバック】は、\nすばらしいシステムだと思うね。",
-   "en": ""
+   "en": "Kanewa Loans Clerk:\nI think Cashback is\na wonderful system.",
+   "status": "done"
   },
   {
    "id": "R02:1211C",
@@ -560,7 +629,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "カネワローンの人：\n【カネワローン】へようこそ。",
-   "en": ""
+   "en": "Kanewa Loans Clerk:\nWelcome to Kanewa Loans.",
+   "status": "done"
   },
   {
    "id": "R02:12150",
@@ -568,7 +638,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "カネワローンの人：\n人はお金があればあるだけ、\nしあわせになれるんだよ。",
-   "en": ""
+   "en": "Kanewa Loans Clerk:\nThe more money people have,\nthe happier they can be.",
+   "status": "done"
   },
   {
    "id": "R02:1219A",
@@ -576,7 +647,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "そうは、思わんかね？\n１．はい　　　　　　\n２．いいえ　　　　　　",
-   "en": ""
+   "en": "Don't you agree?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R02:121E0",
@@ -584,7 +656,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "カネワローンの人：\nうん、うん。\nそうだろう。そうだろう。",
-   "en": ""
+   "en": "Kanewa Loans Clerk:\nYes, yes.\nOf course! Of course!",
+   "status": "done"
   },
   {
    "id": "R02:1221C",
@@ -592,7 +665,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "カネワローンの人：\n何を言っとるんだね君はっ！\nわかっとらんよ。",
-   "en": ""
+   "en": "Kanewa Loans Clerk:\nWhat are you talking about?!\nYou don't understand at all!",
+   "status": "done"
   },
   {
    "id": "R02:1225E",
@@ -600,7 +674,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "まったく・・・。",
-   "en": ""
+   "en": "Honestly...",
+   "status": "done"
   },
   {
    "id": "R02:12270",
@@ -608,7 +683,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n何だかわかんないけど・・・、",
-   "en": ""
+   "en": "Young Woman:\nI don't really get it, but...",
+   "status": "done"
   },
   {
    "id": "R02:1229C",
@@ -616,7 +692,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "まあ・・・、\nたまには、体を動かさなきゃね。",
-   "en": ""
+   "en": "Well...\nYou've got to get some exercise\nonce in a while.",
+   "status": "done"
   },
   {
    "id": "R02:122CC",
@@ -624,7 +701,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nわーい。わーい。",
-   "en": ""
+   "en": "Boy:\nYay! Yay!",
+   "status": "done"
   },
   {
    "id": "R02:122EC",
@@ -632,7 +710,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\nへへーん。\nこっちだよー。",
-   "en": ""
+   "en": "Boy:\nHeh heh!\nOver heeere!",
+   "status": "done"
   },
   {
    "id": "R02:12318",
@@ -640,7 +719,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\nオニさんこちら、手のなる方へ。",
-   "en": ""
+   "en": "Girl:\nIt-san, come this way!\nFollow the clapping!",
+   "status": "done"
   },
   {
    "id": "R02:12348",
@@ -648,7 +728,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\nうふふふっ。",
-   "en": ""
+   "en": "Girl:\nHee hee hee!",
+   "status": "done"
   },
   {
    "id": "R02:12364",
@@ -656,7 +737,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "カネワローンの人：\nおろろ・・・！？\n目がまわる・・・。",
-   "en": ""
+   "en": "Kanewa Loans Clerk:\nWhoa...?!\nMy head's spinning...",
+   "status": "done"
   },
   {
    "id": "R02:123A0",
@@ -664,7 +746,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nかーっ！　サケ好きの私には、\nありがたい話さ～。",
-   "en": ""
+   "en": "Young Woman:\nAhh! For a drink lover like me,\nthis is a blessing!",
+   "status": "done"
   },
   {
    "id": "R02:123E0",
@@ -672,7 +755,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ぼうや達も、のむか～い？",
-   "en": ""
+   "en": "You kids want a drink, too?",
+   "status": "done"
   },
   {
    "id": "R02:123FA",
@@ -680,7 +764,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・って、あげないけどね。\nあ～っはっは～っ！",
-   "en": ""
+   "en": "...Well, you're not getting one!\nAh ha ha ha!",
+   "status": "done"
   },
   {
    "id": "R02:1242C",
@@ -688,7 +773,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\n子供達に、サケのみの気もちは\nわからないさ・・・。",
-   "en": ""
+   "en": "Young Woman:\nKids just don't understand\nhow a drinker feels...",
+   "status": "done"
   },
   {
    "id": "R02:12470",
@@ -696,7 +782,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nお金って、次々にわいてくる\nありがたみの無いものだっけ？",
-   "en": ""
+   "en": "Young Woman:\nWas money always so plentiful\nthat we took it for granted?",
+   "status": "done"
   },
   {
    "id": "R02:124B8",
@@ -704,7 +791,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "なんだか、こんなにお金があると、\nあんなに欲しかったはずなのに、\nうれしくないわ。",
-   "en": ""
+   "en": "Now that I've got so much money,\nit doesn't make me happy.\nAnd I used to want it so badly.",
+   "status": "done"
   },
   {
    "id": "R02:1250C",
@@ -712,7 +800,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【カネワアルゾウ】は、\n前は普通の人だったけど、",
-   "en": ""
+   "en": "Young Woman:\nKanewa Aruzo used to be\na perfectly ordinary man,",
+   "status": "done"
   },
   {
    "id": "R02:1254C",
@@ -720,7 +809,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "最近、何かおかしいのよね。",
-   "en": ""
+   "en": "but lately, something's\nbeen odd about him.",
+   "status": "done"
   },
   {
    "id": "R02:12568",
@@ -728,7 +818,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【カネワアルゾウ】が、\n変わってからと言うもの、",
-   "en": ""
+   "en": "Ever since Kanewa Aruzo\nchanged,",
+   "status": "done"
   },
   {
    "id": "R02:1259A",
@@ -736,7 +827,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "村のみんなのお金に対する\nイメージも、変わってしまったわ。",
-   "en": ""
+   "en": "everyone in the village has\nchanged the way they think\nabout money, too.",
+   "status": "done"
   },
   {
    "id": "R02:125D8",
@@ -744,7 +836,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n【キャッシュバック】で\nたまったお金は、",
-   "en": ""
+   "en": "Man:\nThe money I've saved up\nthrough Cashback...",
+   "status": "done"
   },
   {
    "id": "R02:1260E",
@@ -752,7 +845,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ヘソクリにしているのでおじゃる。",
-   "en": ""
+   "en": "goes into my secret stash,\nI do declare.",
+   "status": "done"
   },
   {
    "id": "R02:12630",
@@ -760,7 +854,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nやっぱり、\n世の中お金でおじゃる～。",
-   "en": ""
+   "en": "Man:\nMoney makes the world go round,\nI do declare!",
+   "status": "done"
   },
   {
    "id": "R02:12662",
@@ -768,7 +863,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ふふふ～ん。",
-   "en": ""
+   "en": "Hmm-hmm-hmmm!",
+   "status": "done"
   },
   {
    "id": "R02:12670",
@@ -776,7 +872,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n最近はしごともヒマでね。",
-   "en": ""
+   "en": "Man:\nWork's been slow lately.",
+   "status": "done"
   },
   {
    "id": "R02:12696",
@@ -784,7 +881,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "こうして、むすめと\nあそんでいるんだよ。",
-   "en": ""
+   "en": "So I'm spending time\nplaying with my daughter.",
+   "status": "done"
   },
   {
    "id": "R02:126C0",
@@ -792,7 +890,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nああ・・・、しごと先の人に\nしばらくやすんでいいと",
-   "en": ""
+   "en": "Man:\nAh... The people at work said\nI could take some time off,",
+   "status": "done"
   },
   {
    "id": "R02:12700",
@@ -800,7 +899,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "言われたから、家で\nむすめとあそんでいたんだ。",
-   "en": ""
+   "en": "so I was at home,\nplaying with my daughter.",
+   "status": "done"
   },
   {
    "id": "R02:12730",
@@ -808,7 +908,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ところが、むすめが１人で\n外に行ったきり\nかえって来ないんだ・・・。",
-   "en": ""
+   "en": "But then she went outside\non her own, and she\nhasn't come back...",
+   "status": "done"
   },
   {
    "id": "R02:12776",
@@ -816,7 +917,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "むすめに何かあったらと思うと、\nああ・・・。",
-   "en": ""
+   "en": "If anything's happened\nto my little girl...\nOh...",
+   "status": "done"
   },
   {
    "id": "R02:127A4",
@@ -824,7 +926,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n私、欲しい物はローンで\n買っていたの。",
-   "en": ""
+   "en": "Young Woman:\nI used to buy the things\nI wanted on credit.",
+   "status": "done"
   },
   {
    "id": "R02:127DA",
@@ -832,7 +935,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "それで、大変だったのに、\n【カネワアルゾウ】のやってる、\n【キャッシュバック】のおかげで、",
-   "en": ""
+   "en": "I was really struggling,\nbut thanks to Kanewa Aruzo's\nCashback program,",
+   "status": "done"
   },
   {
    "id": "R02:12836",
@@ -840,7 +944,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "今は、ローンはゼロよ。\nこれで、あんしんして\n子そだてに、せんねんできるわ。",
-   "en": ""
+   "en": "I've paid off all my loans!\nNow I can focus on raising\nmy child without worrying.",
+   "status": "done"
   },
   {
    "id": "R02:12884",
@@ -848,7 +953,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "でも・・・このお店では\n【キャッシュバック】していない\nのよね。なんだかザンネンだわ。",
-   "en": ""
+   "en": "But... this shop doesn't\noffer Cashback.\nThat's a bit disappointing.",
+   "status": "done"
   },
   {
    "id": "R02:128DC",
@@ -856,7 +962,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【カネワローン】は、\n一度つぶれたんだけど、",
-   "en": ""
+   "en": "Young Woman:\nKanewa Loans went out of\nbusiness once,",
+   "status": "done"
   },
   {
    "id": "R02:12918",
@@ -864,7 +971,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "また、立ち直したみたい。\nでも、どうしてかしら？",
-   "en": ""
+   "en": "but it seems to have\nbounced back. How, though?",
+   "status": "done"
   },
   {
    "id": "R02:1294A",
@@ -872,7 +980,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あら・・・？\nそういえば、うちの子\nどこ行ったのかしら？",
-   "en": ""
+   "en": "Oh...?\nCome to think of it,\nwhere has my child gone?",
+   "status": "done"
   },
   {
    "id": "R02:12984",
@@ -880,7 +989,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\n子どもは、いろんなことを\n見つけて大人になるんじゃ。",
-   "en": ""
+   "en": "Old Man:\nChildren grow up by discovering\nall sorts of things.",
+   "status": "done"
   },
   {
    "id": "R02:129C8",
@@ -888,7 +998,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n村の子どもたちが\n{k3B}えたそうじゃな。",
-   "en": ""
+   "en": "Old Man:\nI hear the village children\nhave disappeared.",
+   "status": "done"
   },
   {
    "id": "R02:129FC",
@@ -896,7 +1007,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "きっと、村の南の方にある\n【子どもたちの森】で\nあそんでいるんじゃろう。",
-   "en": ""
+   "en": "They're surely playing in\nthe Children's Forest,\nsouth of the village.",
+   "status": "done"
   },
   {
    "id": "R02:12A46",
@@ -904,7 +1016,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あそこには、倉庫もあるし、\n子どもたちにとっては、\nお城みたいなもんじゃて。",
-   "en": ""
+   "en": "There's a warehouse there, too.\nTo those children, it must\nbe like a castle.",
+   "status": "done"
   },
   {
    "id": "R02:12A94",
@@ -912,7 +1025,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "お主も、行ってみたらどうじゃ？\n何か見つかるかもしれんぞい。",
-   "en": ""
+   "en": "Why don't you go have a look?\nYou might find something.",
+   "status": "done"
   },
   {
    "id": "R02:12AD4",
@@ -920,7 +1034,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\n【キャッシュバック】ちゅう\nもんは、ワカイもんをダメにする。",
-   "en": ""
+   "en": "Old Man:\nThis Cashback business\nis ruining the youngsters.",
+   "status": "done"
   },
   {
    "id": "R02:12B20",
@@ -928,7 +1043,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワシらの、ワカイころは、\nあせ水流して、一生けんめい\n働いたもんじゃ。",
-   "en": ""
+   "en": "When we were young,\nwe worked our fingers\nto the bone.",
+   "status": "done"
   },
   {
    "id": "R02:12B68",
@@ -936,7 +1052,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\n一体どこから、あんなにお金が\n出ているのか、さっぱりわからん。",
-   "en": ""
+   "en": "Old Man:\nI've no idea where all that\nmoney is coming from.",
+   "status": "done"
   },
   {
    "id": "R02:12BB8",
@@ -944,7 +1061,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nイヤな世の中になったもんですよ。",
-   "en": ""
+   "en": "Old Woman:\nWhat an unpleasant world\nwe live in now.",
+   "status": "done"
   },
   {
    "id": "R02:12BE8",
@@ -952,7 +1070,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "お金、お金って、\nどうしてこんな村になって\nしまったんですかねぇ？",
-   "en": ""
+   "en": "Money, money, money...\nHow did our village\nend up like this?",
+   "status": "done"
   },
   {
    "id": "R02:12C2C",
@@ -960,7 +1079,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\n【カネワアルゾウ】と言う人が\n何とかと言う人から、",
-   "en": ""
+   "en": "Old Woman:\nThat man, Kanewa Aruzo,\ngot money from... who was it?",
+   "status": "done"
   },
   {
    "id": "R02:12C6E",
@@ -968,7 +1088,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "お金をもらったそうですよ。",
-   "en": ""
+   "en": "Someone gave it to him,\nor so I hear.",
+   "status": "done"
   },
   {
    "id": "R02:12C8A",
@@ -976,7 +1097,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そのお金で、\n【キャッシュバック】をやってる\nと言う話ですよ。",
-   "en": ""
+   "en": "They say he's using\nthat money to run\nhis Cashback program.",
+   "status": "done"
   },
   {
    "id": "R02:12CCC",
@@ -984,7 +1106,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n【キャッシュバック】でもらった\n金で・・・、ヒック！",
-   "en": ""
+   "en": "Man:\nWith the money I get from\nCashback... Hic!",
+   "status": "done"
   },
   {
    "id": "R02:12D0E",
@@ -992,7 +1115,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サケがのめるなんて、\nなんて幸せなんだー。",
-   "en": ""
+   "en": "I can buy myself drinks!\nOh, what bliss!",
+   "status": "done"
   },
   {
    "id": "R02:12D3A",
@@ -1000,7 +1124,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ヒック！",
-   "en": ""
+   "en": "Hic!",
+   "status": "done"
   },
   {
    "id": "R02:12D44",
@@ -1008,7 +1133,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nヒック！",
-   "en": ""
+   "en": "Man:\nHic!",
+   "status": "done"
   },
   {
    "id": "R02:12D5A",
@@ -1016,7 +1142,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "働かなくていいっていうのは、\n最高だーね。",
-   "en": ""
+   "en": "Not having to work\nis the best!",
+   "status": "done"
   },
   {
    "id": "R02:12D86",
@@ -1024,7 +1151,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ヒック！",
-   "en": ""
+   "en": "Hic!",
+   "status": "done"
   },
   {
    "id": "R02:13702",
@@ -1032,7 +1160,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nああ、やっと次の村へ\n到着いたしましたわ。",
-   "en": ""
+   "en": "Sakuya:\nAh, we have finally arrived\nat the next village.",
+   "status": "done"
   },
   {
    "id": "R02:13746",
@@ -1040,7 +1169,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nここは、どんな村なんだろね。",
-   "en": ""
+   "en": "Wataru:\nI wonder what this village\nis like.",
+   "status": "done"
   },
   {
    "id": "R02:1377C",
@@ -1048,7 +1178,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nどちらにしても、",
-   "en": ""
+   "en": "Aragoto:\nWhatever it may be,",
+   "status": "done"
   },
   {
    "id": "R02:137A8",
@@ -1056,7 +1187,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "お主の想像を超えた場所\nであることに間違いはあるまい。",
-   "en": ""
+   "en": "it is surely a place beyond\nyour wildest imaginings.",
+   "status": "done"
   },
   {
    "id": "R02:137F2",
@@ -1064,7 +1196,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\n最近は買い物をすると\n金がもらえる。",
-   "en": ""
+   "en": "Villager:\nThese days, you get paid\nto go shopping.",
+   "status": "done"
   },
   {
    "id": "R02:1382E",
@@ -1072,7 +1205,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "何てうれしい世の中なんだ。",
-   "en": ""
+   "en": "What a wonderful world!",
+   "status": "done"
   },
   {
    "id": "R02:13858",
@@ -1080,7 +1214,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n聞いたか！？　買い物をすると\n金がもらえるらしいぞ！",
-   "en": ""
+   "en": "Aragoto:\nDid you hear?! They say\nyou get paid to shop!",
+   "status": "done"
   },
   {
    "id": "R02:138A8",
@@ -1088,7 +1223,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそんな都合のいいハナシが\nあるワケないじゃん。",
-   "en": ""
+   "en": "Wataru:\nNo way! Nothing could\nbe that convenient.",
+   "status": "done"
   },
   {
    "id": "R02:138F0",
@@ -1096,7 +1232,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nそれは行ってみないとわからん！\n行ってみよう！",
-   "en": ""
+   "en": "Aragoto:\nWe won't know until we go!\nOnward!",
+   "status": "done"
   },
   {
    "id": "R02:13954",
@@ -1104,7 +1241,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nいやぁ、買い物をすると\n金が[01B9:備]かるというのは、",
-   "en": ""
+   "en": "Aragoto:\nI say! Making money\nby going shopping...",
+   "status": "done"
   },
   {
    "id": "R02:1399E",
@@ -1112,7 +1250,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "まさに都合のいいハナシだなぁ。",
-   "en": ""
+   "en": "What a convenient\narrangement indeed!",
+   "status": "done"
   },
   {
    "id": "R02:139CC",
@@ -1120,7 +1259,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわね。でも、本当に\n都合が良すぎる気がしますわ。",
-   "en": ""
+   "en": "Sakuya:\nIndeed. But I do feel\nit is far too convenient.",
+   "status": "done"
   },
   {
    "id": "R02:13A1E",
@@ -1128,7 +1268,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nなんと？\nお嬢は疑っているのか！？",
-   "en": ""
+   "en": "Aragoto:\nWhat?!\nYou have doubts, young lady?!",
+   "status": "done"
   },
   {
    "id": "R02:13A5E",
@@ -1136,7 +1277,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "ワタル：\nそりゃそうだって。",
-   "en": ""
+   "en": "Wataru:\nOf course she does!",
+   "status": "done"
   },
   {
    "id": "R02:13A8C",
@@ -1144,7 +1286,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だって払った金額よりおつりが\n多いって、おかしいじゃん。",
-   "en": ""
+   "en": "Getting more change than\nwhat you paid is just weird.",
+   "status": "done"
   },
   {
    "id": "R02:13AD4",
@@ -1152,7 +1295,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n【キャッシュバック】というのは、\nこういうものを言うんだろう。",
-   "en": ""
+   "en": "Aragoto:\nSurely this is what\nthey call Cashback.",
+   "status": "done"
   },
   {
    "id": "R02:13B2E",
@@ -1160,7 +1304,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そんなこというのは\nお店のヒトに悪いぜ。",
-   "en": ""
+   "en": "Saying such things is rude\nto the shopkeeper.",
+   "status": "done"
   },
   {
    "id": "R02:13B66",
@@ -1168,7 +1313,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nおじさま、\n【キャッシュバック】というのは、",
-   "en": ""
+   "en": "Sakuya:\nSir, Cashback...",
+   "status": "done"
   },
   {
    "id": "R02:13BAC",
@@ -1176,7 +1322,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "買った商品の何パーセントかを\n返却して結果的に値引きをする\nという性質はあっても、",
-   "en": ""
+   "en": "returns a percentage of an\nitem's price, effectively giving\nyou a discount, but...",
+   "status": "done"
   },
   {
    "id": "R02:13C0E",
@@ -1184,7 +1331,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「無料かそれ以上の結果を\n引き起こす」性質はありませんわ。",
-   "en": ""
+   "en": "it does not mean \"getting it\nfor free, or even getting paid\nto take it.\"",
+   "status": "done"
   },
   {
    "id": "R02:13C58",
@@ -1192,7 +1340,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "わたくしとワタルさまは、\nそこがおかしいと\n申し上げているのです。",
-   "en": ""
+   "en": "Wataru-sama and I are saying\nthat this is what strikes us\nas strange.",
+   "status": "done"
   },
   {
    "id": "R02:13CAA",
@@ -1200,7 +1349,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nそうか・・・？\nではお店のヒトに聞いてみよう。",
-   "en": ""
+   "en": "Aragoto:\nIs that so...?\nThen let us ask the shopkeeper.",
+   "status": "done"
   },
   {
    "id": "R02:13CF6",
@@ -1208,7 +1358,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そこんとこ、どうなの？",
-   "en": ""
+   "en": "So, what's the story?",
+   "status": "done"
   },
   {
    "id": "R02:13D1C",
@@ -1216,7 +1367,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "店員：\nいやー、",
-   "en": ""
+   "en": "Clerk:\nWell, you see...",
+   "status": "done"
   },
   {
    "id": "R02:13D3C",
@@ -1224,7 +1376,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「お金があるのは\n幸せなことだから、じゃんじゃん\nあげちゃって」っていう",
-   "en": ""
+   "en": "\"Having money makes people\nhappy, so just keep\nhanding it out!\"",
+   "status": "done"
   },
   {
    "id": "R02:13D94",
@@ -1232,7 +1385,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "スポンサーのお話なんで。",
-   "en": ""
+   "en": "That's what our sponsor\nhas told us to do.",
+   "status": "done"
   },
   {
    "id": "R02:13DB8",
@@ -1240,7 +1394,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "作性のアラゴト：\nそれ！",
-   "en": ""
+   "en": "Aragoto:\nThere!",
+   "status": "done"
   },
   {
    "id": "R02:13DE0",
@@ -1248,7 +1403,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "きっとそのスポンサーのヒトは、\n善意でやっているに違いない！\nいいヒトではないか。",
-   "en": ""
+   "en": "The sponsor must be acting\nout of pure goodwill!\nWhat a fine person!",
+   "status": "done"
   },
   {
    "id": "R02:13E44",
@@ -1256,7 +1412,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nいや、\nだからそれがおかしいって。",
-   "en": ""
+   "en": "Wataru:\nNo, that's exactly\nwhat's so weird!",
+   "status": "done"
   },
   {
    "id": "R02:13E8A",
@@ -1264,7 +1421,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・\n・・・\n・・・！",
-   "en": ""
+   "en": "...\n...\n...!",
+   "status": "done"
   },
   {
    "id": "R02:13EB2",
@@ -1272,7 +1430,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・！？",
-   "en": ""
+   "en": "...?!",
+   "status": "done"
   },
   {
    "id": "R02:13ECC",
@@ -1280,7 +1439,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・\n・・・\n・・・！！！",
-   "en": ""
+   "en": "...\n...\n...!!!",
+   "status": "done"
   },
   {
    "id": "R02:13EF8",
@@ -1288,7 +1448,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nじゃあ何だ！\nお主は拙がだまされていると！？",
-   "en": ""
+   "en": "Aragoto:\nWhat?! Are you saying\nthat I have been duped?!",
+   "status": "done"
   },
   {
    "id": "R02:13F40",
@@ -1296,7 +1457,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nいや、何もそこまでは・・・。",
-   "en": ""
+   "en": "Wataru:\nWell, I didn't go that far...",
+   "status": "done"
   },
   {
    "id": "R02:13F78",
@@ -1304,7 +1466,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nもういい！\n拙は勝手に買い物をする！",
-   "en": ""
+   "en": "Aragoto:\nEnough! I shall shop\nas I please!",
+   "status": "done"
   },
   {
    "id": "R02:13FB8",
@@ -1312,7 +1475,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "後で欲しいと言ってもあげない！！",
-   "en": ""
+   "en": "Even if you beg me later,\nI'm not sharing!!",
+   "status": "done"
   },
   {
    "id": "R02:13FE8",
@@ -1320,7 +1484,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nあっ、おじさま・・・！",
-   "en": ""
+   "en": "Sakuya:\nAh, Uncle...!",
+   "status": "done"
   },
   {
    "id": "R02:1401A",
@@ -1328,7 +1493,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nどうしようかぁ？",
-   "en": ""
+   "en": "Wataru:\nWhat should we do?",
+   "status": "done"
   },
   {
    "id": "R02:14044",
@@ -1336,7 +1502,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわね・・・。\nこうなったらおじさま抜きで、",
-   "en": ""
+   "en": "Sakuya:\nLet me see...\nWe shall have to leave Uncle be,",
+   "status": "done"
   },
   {
    "id": "R02:14090",
@@ -1344,7 +1511,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おかしなところを調査した方が\n良いと思いますわ。",
-   "en": ""
+   "en": "and investigate anything\nsuspicious ourselves, I daresay.",
+   "status": "done"
   },
   {
    "id": "R02:140D0",
@@ -1352,7 +1520,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nそうしよう、\nあの調子じゃあてになんないし。",
-   "en": ""
+   "en": "Wataru:\nYeah, let's. We can't count on\nhim when he's like this.",
+   "status": "done"
   },
   {
    "id": "R02:14130",
@@ -1360,7 +1529,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nいたっ！",
-   "en": ""
+   "en": "Warurine:\nOw!",
+   "status": "done"
   },
   {
    "id": "R02:14158",
@@ -1368,7 +1538,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "従業員：\n何か文句があるならパパと来な、\nお嬢ちゃん。",
-   "en": ""
+   "en": "Staff:\nA complaint, little girl-chan?\nCome back with your daddy.",
+   "status": "done"
   },
   {
    "id": "R02:141A0",
@@ -1376,7 +1547,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n大丈夫？",
-   "en": ""
+   "en": "Wataru:\nAre you okay?",
+   "status": "done"
   },
   {
    "id": "R02:141C2",
@@ -1384,7 +1556,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n何があったんですの？",
-   "en": ""
+   "en": "Sakuya:\nWhat happened?",
+   "status": "done"
   },
   {
    "id": "R02:141F0",
@@ -1392,7 +1565,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\n村の大人達が、",
-   "en": ""
+   "en": "Warurine:\nThe grown-ups in the village...",
+   "status": "done"
   },
   {
    "id": "R02:1421C",
@@ -1400,7 +1574,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "「買い物をして[01B9:備]かるなら、\n働かなくてもいい」って言って、\n働かないらしいんだ。",
-   "en": ""
+   "en": "They say, \"Why work when we can\nmake money just by shopping?\"\nSo apparently, nobody works.",
+   "status": "done"
   },
   {
    "id": "R02:1427C",
@@ -1408,7 +1583,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "でも、そんなのおかしいと思う。\nだからボク、村の子供達に\n代わって文句を言いに来たんだ。",
-   "en": ""
+   "en": "But I think that's wrong.\nSo I came to complain for\nall the children in the village.",
+   "status": "done"
   },
   {
    "id": "R02:142E4",
@@ -1416,7 +1592,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "でも・・・！",
-   "en": ""
+   "en": "But...!",
+   "status": "done"
   },
   {
    "id": "R02:14300",
@@ -1424,7 +1601,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n子供だからって相手に\nされなかったってワケだ。",
-   "en": ""
+   "en": "Wataru:\nThey wouldn't listen just\nbecause you're a kid, huh?",
+   "status": "done"
   },
   {
    "id": "R02:14348",
@@ -1432,7 +1610,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\n・・・うん。",
-   "en": ""
+   "en": "Warurine:\n...Yes.",
+   "status": "done"
   },
   {
    "id": "R02:14374",
@@ -1440,7 +1619,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nワタルさま、そのような所業、\n許しがたいですわ！",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama, such behavior\nis simply unforgivable!",
+   "status": "done"
   },
   {
    "id": "R02:143BE",
@@ -1448,7 +1628,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだよ！\nボクちょっと言ってくるよ！",
-   "en": ""
+   "en": "Wataru:\nYeah!\nI'll go give them a piece of me!",
+   "status": "done"
   },
   {
    "id": "R02:143FE",
@@ -1456,7 +1637,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nえ！？　今すぐ？",
-   "en": ""
+   "en": "Sakuya:\nWhat?! Right this moment?",
+   "status": "done"
   },
   {
    "id": "R02:1442A",
@@ -1464,7 +1646,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n何すんだよ！",
-   "en": ""
+   "en": "Wataru:\nWhat are you doing?!",
+   "status": "done"
   },
   {
    "id": "R02:14452",
@@ -1472,7 +1655,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nボク、ワルリーヌって言うんだ。",
-   "en": ""
+   "en": "Warurine:\nMy name is Warurine.",
+   "status": "done"
   },
   {
    "id": "R02:14490",
@@ -1480,7 +1664,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "ワタル：\nボクは",
-   "en": ""
+   "en": "Wataru:\nI'm",
+   "status": "done"
   },
   {
    "id": "R02:144B2",
@@ -1488,7 +1673,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nこちらは創界山の救世主\nワタルさま、",
-   "en": ""
+   "en": "Sakuya:\nThis is Wataru-sama,\nthe Savior of Sokaizan.",
+   "status": "done"
   },
   {
    "id": "R02:144F0",
@@ -1496,7 +1682,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "わたくしはワタルさまの\n供をさせていただいている\n忍部サクヤと申します。",
-   "en": ""
+   "en": "I am Sakuya Shinobibe,\nand I have the honor of serving\nas Wataru-sama's companion.",
+   "status": "done"
   },
   {
    "id": "R02:14548",
@@ -1504,7 +1691,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nねえ、お願い！",
-   "en": ""
+   "en": "Warurine:\nListen, please!",
+   "status": "done"
   },
   {
    "id": "R02:14574",
@@ -1512,7 +1700,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "この村の大人を\n悪くしているカネワローンを\n倒すのをてつだって！",
-   "en": ""
+   "en": "Help me bring down Kanewa Loans!\nThey're corrupting the grown-ups\nin this village!",
+   "status": "done"
   },
   {
    "id": "R02:145C4",
@@ -1520,7 +1709,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "村のはずれの倉庫にボクと\n村の子供達がいるから、\n力になって欲しいんだ。それじゃ。",
-   "en": ""
+   "en": "The village kids and I are in a\nwarehouse at the edge of town.\nPlease help us. See you!",
+   "status": "done"
   },
   {
    "id": "R02:14640",
@@ -1528,7 +1718,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nありがとう。\nやっぱり来てくれたんだ。",
-   "en": ""
+   "en": "Warurine:\nThank you.\nYou really did come.",
+   "status": "done"
   },
   {
    "id": "R02:14684",
@@ -1536,7 +1727,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうん、やっぱ変だもんね。\n働かないのにお金が[01B9:備]かるなんて。",
-   "en": ""
+   "en": "Wataru:\nYeah, it's just plain weird,\nmaking money without working.",
+   "status": "done"
   },
   {
    "id": "R02:146D8",
@@ -1544,7 +1736,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわ。",
-   "en": ""
+   "en": "Sakuya:\nIndeed.",
+   "status": "done"
   },
   {
    "id": "R02:146FE",
@@ -1552,7 +1745,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "労働に対して報酬が得られる\nということを忘れてしまうと、",
-   "en": ""
+   "en": "When people forget that rewards\nare earned through their labor,",
+   "status": "done"
   },
   {
    "id": "R02:14746",
@@ -1560,7 +1754,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "人間は\nどんどん堕落してしまいますわ。",
-   "en": ""
+   "en": "they sink ever deeper\ninto idleness.",
+   "status": "done"
   },
   {
    "id": "R02:1477C",
@@ -1568,7 +1763,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nそれでさっそくなんだけど、",
-   "en": ""
+   "en": "Warurine:\nWell, let's get right to it.",
+   "status": "done"
   },
   {
    "id": "R02:147B4",
@@ -1576,7 +1772,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R02:147CA",
@@ -1584,7 +1781,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R02:147E0",
@@ -1592,7 +1790,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R02:147F6",
@@ -1600,7 +1799,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nと、言うわけで、村の子達が\n入り口のあいつを",
-   "en": ""
+   "en": "Warurine:\nSo, the village children will\nkeep that man at the entrance",
+   "status": "done"
   },
   {
    "id": "R02:14840",
@@ -1608,7 +1808,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "混乱させているスキに、\nボクとワタルくんと\nサクヤちゃんが忍び込む、って",
-   "en": ""
+   "en": "busy. While they distract him,\nWataru-kun, Sakuya-chan and I\nwill sneak inside.",
+   "status": "done"
   },
   {
    "id": "R02:14898",
@@ -1616,7 +1817,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "コトでいい？",
-   "en": ""
+   "en": "Is that all right?",
+   "status": "done"
   },
   {
    "id": "R02:148B4",
@@ -1624,7 +1826,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうん。",
-   "en": ""
+   "en": "Wataru:\nYeah.",
+   "status": "done"
   },
   {
    "id": "R02:148D4",
@@ -1632,7 +1835,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nええ。",
-   "en": ""
+   "en": "Sakuya:\nCertainly.",
+   "status": "done"
   },
   {
    "id": "R02:148F6",
@@ -1640,7 +1844,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nじゃあ、作戦開始！",
-   "en": ""
+   "en": "Warurine:\nThen let the operation begin!",
+   "status": "done"
   },
   {
    "id": "R02:14928",
@@ -1648,7 +1853,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "子供：\n大変だよ！　外に変なヤツラが\nいっぱいいるんだ！",
-   "en": ""
+   "en": "Kid:\nWe've got trouble! There are\nloads of weird guys outside!",
+   "status": "done"
   },
   {
    "id": "R02:14970",
@@ -1656,7 +1862,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nきっとカネワの手下達だよ！",
-   "en": ""
+   "en": "Warurine:\nThey must be Kanewa's henchmen!",
+   "status": "done"
   },
   {
    "id": "R02:149A8",
@@ -1664,7 +1871,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそういえば、\nやくに立つって言って、",
-   "en": ""
+   "en": "Wataru:\nOh, that reminds me.\nSomeone said this would help,",
+   "status": "done"
   },
   {
    "id": "R02:149E6",
@@ -1672,7 +1880,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "こんなものもらったんだけど。",
-   "en": ""
+   "en": "and gave it to me.",
+   "status": "done"
   },
   {
    "id": "R02:14A12",
@@ -1680,7 +1889,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nそれ！\nここのエレベーターのカギだよ！！",
-   "en": ""
+   "en": "Warurine:\nThat's it!\nThe key to this elevator!!",
+   "status": "done"
   },
   {
    "id": "R02:14A58",
@@ -1688,7 +1898,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "それがあれば\n地下からビルの近くまで行けるよ！",
-   "en": ""
+   "en": "With that, we can go underground\nand come out near Bill!",
+   "status": "done"
   },
   {
    "id": "R02:14AB0",
@@ -1696,7 +1907,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カネワ：\nふぁっふぁっふぁ、良くぞ\nここまでいらっしゃいました。",
-   "en": ""
+   "en": "Kanewa:\nFwah ha ha! How very good of\nyou to come all this way.",
+   "status": "done"
   },
   {
    "id": "R02:14B00",
@@ -1704,7 +1916,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "さすがは救世主。",
-   "en": ""
+   "en": "Just what I'd expect\nof a Savior.",
+   "status": "done"
   },
   {
    "id": "R02:14B20",
@@ -1712,7 +1925,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nお前のせいで、村の大人達が\n働かなくなってるんだ。",
-   "en": ""
+   "en": "Wataru:\nThe grown-ups in this village\nquit working because of you!",
+   "status": "done"
   },
   {
    "id": "R02:14B6C",
@@ -1720,7 +1934,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "変なキャッシュバックをするのは\nやめるんだ！！",
-   "en": ""
+   "en": "Stop handing out that\nweird cash back!!",
+   "status": "done"
   },
   {
    "id": "R02:14BAA",
@@ -1728,7 +1943,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カネワ：\nは？　お金があればみんな幸せ。\n何が悪いのかな？",
-   "en": ""
+   "en": "Kanewa:\nHm? Money makes everyone happy.\nWhat's wrong with that?",
+   "status": "done"
   },
   {
    "id": "R02:14BF4",
@@ -1736,7 +1952,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nお金があれば幸せなんて、\n違うと思う。",
-   "en": ""
+   "en": "Warurine:\nI don't think having money\nis what makes you happy.",
+   "status": "done"
   },
   {
    "id": "R02:14C38",
@@ -1744,7 +1961,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわ！",
-   "en": ""
+   "en": "Sakuya:\nPrecisely!",
+   "status": "done"
   },
   {
    "id": "R02:14C5E",
@@ -1752,7 +1970,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "お金は\n幸せを得るための手段であって、\n目的ではありませんわ！",
-   "en": ""
+   "en": "Money is a means of attaining\nhappiness, not an end\nin itself!",
+   "status": "done"
   },
   {
    "id": "R02:14CAE",
@@ -1760,7 +1979,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カネワ：\nちっちっち。",
-   "en": ""
+   "en": "Kanewa:\nTut, tut, tut.",
+   "status": "done"
   },
   {
    "id": "R02:14CD4",
@@ -1768,7 +1988,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お金があるから幸せなのです。\n何だかんだ言っても、すべては\nお金がなければ始まらないのです。",
-   "en": ""
+   "en": "Having money makes you happy.\nSay what you like, but nothing\ngets started without money.",
+   "status": "done"
   },
   {
    "id": "R02:14D40",
@@ -1776,7 +1997,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルたち：\nそんなことない！！",
-   "en": ""
+   "en": "Wataru & co.:\nThat's not true!!",
+   "status": "done"
   },
   {
    "id": "R02:14D70",
@@ -1784,7 +2006,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カネワ：\nむふーん。\nわからない子供達ですねぇ。",
-   "en": ""
+   "en": "Kanewa:\nHmph!\nYou children just don't get it.",
+   "status": "done"
   },
   {
    "id": "R02:14DB0",
@@ -1792,7 +2015,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "じゃあこれで私に勝ったら、\nお金を出すのを\n止めようじゃないですか。",
-   "en": ""
+   "en": "Then, if you beat me at this,\nI'll stop handing out money.",
+   "status": "done"
   },
   {
    "id": "R02:14E12",
@@ -1800,7 +2024,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "カネワ：\nおひょーっ、これは参った。\nここは一時退散ですなぁー。",
-   "en": ""
+   "en": "Kanewa:\nOh-ho! You've got me there!\nTime for a temporary retreat!",
+   "status": "done"
   },
   {
    "id": "R02:14E7C",
@@ -1808,7 +2033,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カネワ：\nしつこい子供達ですねぇ。\n子供といえども救世主、",
-   "en": ""
+   "en": "Kanewa:\nWhat persistent children.\nA child, but still the Savior,",
+   "status": "done"
   },
   {
    "id": "R02:14EC6",
@@ -1816,7 +2042,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ということですか。",
-   "en": ""
+   "en": "is that it?",
+   "status": "done"
   },
   {
    "id": "R02:14EE8",
@@ -1824,7 +2051,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "いでよっ！\nいらっしゃぁーい・\nまっしぃぃぃーんっ！",
-   "en": ""
+   "en": "Come forth!\nWelcooome Maaashiiin!",
+   "status": "done"
   },
   {
    "id": "R02:14F4C",
@@ -1832,7 +2060,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カネワ：\n本当にありがとうございました。",
-   "en": ""
+   "en": "Kanewa:\nThank you ever so much.",
+   "status": "done"
   },
   {
    "id": "R02:14F84",
@@ -1840,7 +2069,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お金がたくさんあるだけで\n幸せになれるなんて、\nとんだ思い違いですよね。",
-   "en": ""
+   "en": "To think that simply having lots\nof money could make me happy...\nHow very wrong I was.",
+   "status": "done"
   },
   {
    "id": "R02:14FDC",
@@ -1848,7 +2078,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだねぇ。",
-   "en": ""
+   "en": "Wataru:\nYeah, that's right.",
+   "status": "done"
   },
   {
    "id": "R02:15002",
@@ -1856,7 +2087,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "やっぱり、人間、働かなくっちゃ\nいけないよね。",
-   "en": ""
+   "en": "People really do need to work,\nafter all.",
+   "status": "done"
   },
   {
    "id": "R02:15040",
@@ -1864,7 +2096,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "って、子供のボクがいうのも\n何か生意気だけど・・・。",
-   "en": ""
+   "en": "Though I guess that's pretty\ncheeky coming from a kid...",
+   "status": "done"
   },
   {
    "id": "R02:15084",
@@ -1872,7 +2105,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カネワ：\nいやいやいや・・・。\nさすが救世主さま。",
-   "en": ""
+   "en": "Kanewa:\nNo, no, no...\nAs expected of the Savior-sama.",
+   "status": "done"
   },
   {
    "id": "R02:150C6",
@@ -1880,7 +2114,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お子さまと言えども、\nおっしゃることに\n重みがあります・・・。",
-   "en": ""
+   "en": "You may be a child-sama,\nbut your words carry\nconsiderable weight...",
+   "status": "done"
   },
   {
    "id": "R02:15114",
@@ -1888,7 +2123,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえ、そう？\n・・・それほどでも、あっはっは。",
-   "en": ""
+   "en": "Wataru:\nHuh, really?\n...Aw, I'm not that great! Haha!",
+   "status": "done"
   },
   {
    "id": "R02:1515A",
@@ -1896,7 +2132,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nさぁ、ワタルさま？\n参りましょう。",
-   "en": ""
+   "en": "Sakuya:\nNow, Wataru-sama?\nLet us be on our way.",
+   "status": "done"
   },
   {
    "id": "R02:15196",
@@ -1904,7 +2141,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあ、あららら・・・。",
-   "en": ""
+   "en": "Wataru:\nH-hey, whoa, whoa...",
+   "status": "done"
   },
   {
    "id": "R02:151C4",
@@ -1912,7 +2150,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "カネワ：\nあ、ちょっとお待ち下さい。",
-   "en": ""
+   "en": "Kanewa:\nAh, please wait a moment.",
+   "status": "done"
   },
   {
    "id": "R02:151F8",
@@ -1920,7 +2159,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村を救ってくださった\n救世主さまにお礼を・・・。",
-   "en": ""
+   "en": "A token of thanks for the\nSavior-sama who saved\nour village...",
+   "status": "done"
   },
   {
    "id": "R02:15238",
@@ -1928,7 +2168,8 @@
    "kind": "event",
    "end": "A000",
    "jp": "ガマグチョキンを\n手に入れた！",
-   "en": ""
+   "en": "Got Purseverance!",
+   "status": "done"
   },
   {
    "id": "R02:1526E",
@@ -1936,7 +2177,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nあーあ、おしかったなぁ・・・。",
-   "en": ""
+   "en": "Aragoto:\nAh, what a dreadful waste...",
+   "status": "done"
   },
   {
    "id": "R02:152A8",
@@ -1944,7 +2186,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nべっつにいいじゃん、村の\nみんなが元にもどったんだしさ。",
-   "en": ""
+   "en": "Wataru:\nWhat's the big deal? The whole\nvillage is back to normal now.",
+   "status": "done"
   },
   {
    "id": "R02:152FA",
@@ -1952,7 +2195,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nだからって別に村で買ったものを\n全部返すことはないではないか。",
-   "en": ""
+   "en": "Aragoto:\nEven so, did we have to return\nEVERYTHING we bought here?",
+   "status": "done"
   },
   {
    "id": "R02:15354",
@@ -1960,7 +2204,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "キャッシュバックで手に入れた\nお金まで・・・！",
-   "en": ""
+   "en": "Even the money we got\nfrom the cash back...!",
+   "status": "done"
   },
   {
    "id": "R02:15392",
@@ -1968,7 +2213,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n「悪銭身につかず」ですわ。",
-   "en": ""
+   "en": "Sakuya:\n\"Ill-gotten gains never last.\"",
+   "status": "done"
   },
   {
    "id": "R02:153C6",
@@ -1976,7 +2222,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ああいうのを\n「泡銭（あぶくぜに）」と\nいうのです。",
-   "en": ""
+   "en": "That is what we call\n\"easy money.\"",
+   "status": "done"
   },
   {
    "id": "R02:1540A",
@@ -1984,7 +2231,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nうぅん、まぁ、そうだなぁ。\nでもなんだか惜しかった様な。",
-   "en": ""
+   "en": "Aragoto:\nMm, well, I suppose so.\nStill, it does seem a shame.",
+   "status": "done"
   },
   {
    "id": "R02:1545E",
@@ -1992,7 +2240,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nまぁいいじゃないの。",
-   "en": ""
+   "en": "Wataru:\nAw, don't worry about it.",
+   "status": "done"
   },
   {
    "id": "R02:1548C",
@@ -2000,7 +2249,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お金なんて、\nがんばればまた手に入るしねっ。",
-   "en": ""
+   "en": "We can always get more money\nif we work hard!",
+   "status": "done"
   },
   {
    "id": "R02:154C8",
@@ -2008,7 +2258,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわね。",
-   "en": ""
+   "en": "Sakuya:\nQuite right.",
+   "status": "done"
   },
   {
    "id": "R02:154F0",
@@ -2016,7 +2267,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nん、そうだな。",
-   "en": ""
+   "en": "Aragoto:\nHm. Indeed.",
+   "status": "done"
   },
   {
    "id": "R02:15530",
@@ -2024,7 +2276,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nおい、この先の店、前より\nキャッシュバック率が高いんだと。",
-   "en": ""
+   "en": "Villager:\nHey, that shop ahead raised its\ncash-back rate, I hear!",
+   "status": "done"
   },
   {
    "id": "R02:15582",
@@ -2032,7 +2285,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "村人：\nなに？\nじゃあさっそく行ってみるべ。",
-   "en": ""
+   "en": "Villager:\nWhat?\nThen let's head right over!",
+   "status": "done"
   },
   {
    "id": "R02:155C2",
@@ -2040,7 +2294,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nおい知ってっか？",
-   "en": ""
+   "en": "Villager:\nHey, did you hear?",
+   "status": "done"
   },
   {
    "id": "R02:155EA",
@@ -2048,7 +2303,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あっちの店じゃ、\n他に対抗して値段をべらぼうに\n下げてるらしいぞ。",
-   "en": ""
+   "en": "That shop over there has slashed\nits prices like crazy to compete\nwith the others!",
+   "status": "done"
   },
   {
    "id": "R02:1563C",
@@ -2056,7 +2312,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "村人：\nなんだって？\nじゃあそっちへ行ってみるべ。",
-   "en": ""
+   "en": "Villager:\nWhat's that?\nThen let's try that one!",
+   "status": "done"
   },
   {
    "id": "R02:1569E",
@@ -2064,7 +2321,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "銀之介：\nあなたがワタルさんだスか？\nいやーっ！　光栄だスー！！",
-   "en": ""
+   "en": "Ginnosuke:\nAre you Wataru-san?\nWell, now! It's a real honor!!",
+   "status": "done"
   },
   {
    "id": "R02:156EE",
@@ -2072,7 +2330,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おっと、申しおくれただス。\nあっし、【銀之介】というだスよ。\n以後、御見知りおきを。",
-   "en": ""
+   "en": "Whoops, forgot my introduction!\nName's Ginnosuke.\nMighty pleased to meet you.",
+   "status": "done"
   },
   {
    "id": "R02:15752",
@@ -2080,7 +2339,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "と、感動のなれそめは\nこれくらいにして・・・。",
-   "en": ""
+   "en": "Well, that's enough of our\ntouching first meeting...",
+   "status": "done"
   },
   {
    "id": "R02:15790",
@@ -2088,7 +2348,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "じつは、ちぃとばかし急ぎの\nようがあるんで、これで失礼する\nだスよ。",
-   "en": ""
+   "en": "I've got a bit of urgent\nbusiness to tend to, so I'll\nbe excusin' myself now.",
+   "status": "done"
   },
   {
    "id": "R02:157E4",
@@ -2096,7 +2357,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あっ、そうそう。\nあっし、旅をしながら商人を\nしているんだスが、",
-   "en": ""
+   "en": "Oh, right, one more thing.\nI'm a traveling merchant,\nyou see,",
+   "status": "done"
   },
   {
    "id": "R02:15834",
@@ -2104,7 +2366,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "困ったときは、\nこのチケットで、あっしを\nよんでほしいだス。",
-   "en": ""
+   "en": "so if you're ever in a bind,\njust use this Ticket\nto call me.",
+   "status": "done"
   },
   {
    "id": "R02:15880",
@@ -2112,7 +2375,8 @@
    "kind": "event",
    "end": "F000",
    "jp": "チケットを手に入れた！",
-   "en": ""
+   "en": "Got a Ticket!",
+   "status": "done"
   },
   {
    "id": "R02:158AA",
@@ -2120,7 +2384,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "それと、ここにこんなモンが\n落ちていただス。\n何かのやくに立ててほしいだス。",
-   "en": ""
+   "en": "Also, I found this lying\naround here. Hope you can\nput it to good use!",
+   "status": "done"
   },
   {
    "id": "R02:15906",
@@ -2128,7 +2393,8 @@
    "kind": "event",
    "end": "F000",
    "jp": "そうこのカギを手に入れた！",
-   "en": ""
+   "en": "Got the Warehouse Key!",
+   "status": "done"
   },
   {
    "id": "R02:15934",
@@ -2136,7 +2402,8 @@
    "kind": "event",
    "end": "D000",
    "jp": "それじゃあワタルさん、\n・・・とその御一行さん、\nまた、お会いできるといいだスな。",
-   "en": ""
+   "en": "Well then, Wataru-san...\nand all you folks with him,\nhope we meet again!",
+   "status": "done"
   }
  ]
 }

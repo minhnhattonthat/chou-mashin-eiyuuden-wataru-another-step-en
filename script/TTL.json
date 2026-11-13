@@ -6,267 +6,305 @@
    "id": "TTL:054E0",
    "kind": "menu",
    "jp": "Ｍ",
-   "en": "",
-   "end": "FFFF"
+   "en": "M",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:054E4",
    "kind": "menu",
    "jp": "ボイス",
-   "en": "",
-   "end": "FFFF"
+   "en": "Voice",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:054EC",
    "kind": "menu",
    "jp": "Ｒ１ボタン",
-   "en": "",
-   "end": "FFFF"
+   "en": "R1 Button",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:054F8",
    "kind": "menu",
    "jp": "ＩＱバトル",
-   "en": "",
-   "end": "FFFF"
+   "en": "IQ Battle",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05504",
    "kind": "menu",
    "jp": "魔神バトル",
-   "en": "",
-   "end": "FFFF"
+   "en": "Mashin Battle",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05510",
    "kind": "menu",
    "jp": "タイトル",
-   "en": "",
-   "end": "FFFF"
+   "en": "Title",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:0551C",
    "kind": "menu",
    "jp": "コンフィグ",
-   "en": "",
-   "end": "FFFF"
+   "en": "Config",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05528",
    "kind": "menu",
    "jp": "ステレオ",
-   "en": "",
-   "end": "FFFF"
+   "en": "Stereo",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05534",
    "kind": "menu",
    "jp": "モノラル",
-   "en": "",
-   "end": "FFFF"
+   "en": "Mono",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05540",
    "kind": "menu",
    "jp": "ＯＮ",
-   "en": "",
-   "end": "FFFF"
+   "en": "ON",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05548",
    "kind": "menu",
    "jp": "ＯＦＦ",
-   "en": "",
-   "end": "FFFF"
+   "en": "OFF",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05550",
    "kind": "menu",
    "jp": "なんでやねん",
-   "en": "",
-   "end": "FFFF"
+   "en": "What the heck?!",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05560",
    "kind": "menu",
    "jp": "さ、さむー",
-   "en": "",
-   "end": "FFFF"
+   "en": "Brrr... Lame!",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:0556C",
    "kind": "menu",
    "jp": "やってられんわ",
-   "en": "",
-   "end": "FFFF"
+   "en": "I've had it!",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:0557C",
    "kind": "menu",
    "jp": "アホかいな",
-   "en": "",
-   "end": "FFFF"
+   "en": "Are you nuts?!",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05588",
    "kind": "menu",
    "jp": "なんじゃそらー",
-   "en": "",
-   "end": "FFFF"
+   "en": "What's THAT?!",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05598",
    "kind": "menu",
    "jp": "１５パズル",
-   "en": "",
-   "end": "FFFF"
+   "en": "15 Puzzle",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:055A4",
    "kind": "menu",
    "jp": "ヒット・アンド・ブロー",
-   "en": "",
-   "end": "FFFF"
+   "en": "Hit and Blow",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:055BC",
    "kind": "menu",
    "jp": "ブリキントンたたき",
-   "en": "",
-   "end": "FFFF"
+   "en": "Whack-a-Burikinton",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:055D0",
    "kind": "menu",
    "jp": "きおくりょくゲーム",
-   "en": "",
-   "end": "FFFF"
+   "en": "Memory Game",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:055E4",
    "kind": "menu",
    "jp": "敵の魔神を選んで下さい",
-   "en": "",
-   "end": "FFFF"
+   "en": "Choose an enemy mashin",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:055FC",
    "kind": "menu",
    "jp": "レンジ・デ・チン",
-   "en": "",
-   "end": "FFFF"
+   "en": "Microwave Ding",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05610",
    "kind": "menu",
    "jp": "いらっしゃい魔神",
-   "en": "",
-   "end": "FFFF"
+   "en": "Welcome mashin",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05624",
    "kind": "menu",
    "jp": "ＳＦＸザウルス",
-   "en": "",
-   "end": "FFFF"
+   "en": "SFX Saurus",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05634",
    "kind": "menu",
    "jp": "ドウガヅクエーン",
-   "en": "",
-   "end": "FFFF"
+   "en": "Animadesk Queen",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05648",
    "kind": "menu",
    "jp": "ライトサーチ",
-   "en": "",
-   "end": "FFFF"
+   "en": "Light Search",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05658",
    "kind": "menu",
    "jp": "ラクライガー",
-   "en": "",
-   "end": "FFFF"
+   "en": "Thunder Tiger",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05668",
    "kind": "menu",
    "jp": "エレクトロン",
-   "en": "",
-   "end": "FFFF"
+   "en": "Electron",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05678",
    "kind": "menu",
    "jp": "ミスター・イリュージョン",
-   "en": "",
-   "end": "FFFF"
+   "en": "Mr. Illusion",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05694",
    "kind": "menu",
    "jp": "アムラーＸ５５",
-   "en": "",
-   "end": "FFFF"
+   "en": "Amuler X55",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:056A4",
    "kind": "menu",
    "jp": "ゴールドメダラー",
-   "en": "",
-   "end": "FFFF"
+   "en": "Gold Medalar",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:056B8",
    "kind": "menu",
    "jp": "シェイプＵ２",
-   "en": "",
-   "end": "FFFF"
+   "en": "Shape U2",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:056C8",
    "kind": "menu",
    "jp": "ジューンブライガー",
-   "en": "",
-   "end": "FFFF"
+   "en": "June Briger",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:056DC",
    "kind": "menu",
    "jp": "ＬＬラバーズ・１",
-   "en": "",
-   "end": "FFFF"
+   "en": "LL Lovers 1",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:056F0",
    "kind": "menu",
    "jp": "ＬＬラバーズ・２",
-   "en": "",
-   "end": "FFFF"
+   "en": "LL Lovers 2",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05704",
    "kind": "menu",
    "jp": "ＱＴコアラッコ",
-   "en": "",
-   "end": "FFFF"
+   "en": "QT Koalotter",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05714",
    "kind": "menu",
    "jp": "聖ラブリーフォー",
-   "en": "",
-   "end": "FFFF"
+   "en": "St. Lovely Four",
+   "end": "FFFF",
+   "status": "done"
   },
   {
    "id": "TTL:05728",
    "kind": "menu",
    "jp": "ワルワル・キョジョーン",
-   "en": "",
-   "end": "FFFF"
+   "en": "Bad-Bad Colossus",
+   "end": "FFFF",
+   "status": "done"
   }
  ]
 }

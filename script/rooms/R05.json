@@ -8,7 +8,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうあわぁ、\n何だかまぶしいところだね。",
-   "en": ""
+   "en": "Wataru:\nWhoa!\nIt's pretty bright in here!",
+   "status": "done"
   },
   {
    "id": "R05:11F72",
@@ -16,7 +17,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n地中のわりには明るすぎるな。",
-   "en": ""
+   "en": "Aragoto:\nFar too bright for a place\nunderground, I say.",
+   "status": "done"
   },
   {
    "id": "R05:11FAA",
@@ -24,7 +26,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n天井は明かりだらけですわ。\nまぶしくて当たり前ですわね。",
-   "en": ""
+   "en": "Sakuya:\nThe ceiling is full of lights.\nNo wonder it is so dazzling.",
+   "status": "done"
   },
   {
    "id": "R05:11FFC",
@@ -32,7 +35,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうわぁー、ホントだぁ。",
-   "en": ""
+   "en": "Wataru:\nWhoaaa, you're right!",
+   "status": "done"
   },
   {
    "id": "R05:1202C",
@@ -40,7 +44,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nどうでもいいことだが、\nなぜ村の人たちは",
-   "en": ""
+   "en": "Aragoto:\nA trifling matter, but why\nare all the villagers",
+   "status": "done"
   },
   {
    "id": "R05:12070",
@@ -48,7 +53,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サングラスをしているのだ？",
-   "en": ""
+   "en": "wearing sunglasses?",
+   "status": "done"
   },
   {
    "id": "R05:1209A",
@@ -56,7 +62,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n明かりを暗くすれば\nいいじゃない、ねぇ。",
-   "en": ""
+   "en": "Wataru:\nWhy don't they just turn\nthe lights down, huh?",
+   "status": "done"
   },
   {
    "id": "R05:120F4",
@@ -64,7 +71,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nどうしたんですか？",
-   "en": ""
+   "en": "Wataru:\nWhat's wrong?",
+   "status": "done"
   },
   {
    "id": "R05:12120",
@@ -72,7 +80,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "フーミン：\n救世主のワタルさんが、\nワットに捕まってしまったんです。",
-   "en": ""
+   "en": "Fumin:\nWataru-san, the Savior, has\nbeen captured by Watt!",
+   "status": "done"
   },
   {
    "id": "R05:12174",
@@ -80,7 +89,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえ・・・？　ボクが捕まった？",
-   "en": ""
+   "en": "Wataru:\nHuh...? I got captured?",
+   "status": "done"
   },
   {
    "id": "R05:121AA",
@@ -88,7 +98,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "フーミン：\nは？",
-   "en": ""
+   "en": "Fumin:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R05:121CA",
@@ -96,7 +107,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあ、ボクは救世主ワタルさ。",
-   "en": ""
+   "en": "Wataru:\nOh, I'm Wataru, the Savior!",
+   "status": "done"
   },
   {
    "id": "R05:121FE",
@@ -104,7 +116,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "フーミン：\nはぁ。",
-   "en": ""
+   "en": "Fumin:\nUh...",
+   "status": "done"
   },
   {
    "id": "R05:12220",
@@ -112,7 +125,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nボクが捕まったっていうのは、\nきっと気のせいだからさ、",
-   "en": ""
+   "en": "Wataru:\nMe, captured? You must be\nimagining things, so...",
+   "status": "done"
   },
   {
    "id": "R05:12270",
@@ -120,7 +134,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "そんなに泣かないでよ。\nじゃぁねぇーん。",
-   "en": ""
+   "en": "don't cry so much, okay?\nSee yaaa!",
+   "status": "done"
   },
   {
    "id": "R05:122AE",
@@ -128,7 +143,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n多分、そいつはニセモノだろう。",
-   "en": ""
+   "en": "Aragoto:\nThat fellow is probably\nan impostor.",
+   "status": "done"
   },
   {
    "id": "R05:122E8",
@@ -136,7 +152,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nニセモノ？　どういうこと？",
-   "en": ""
+   "en": "Wataru:\nAn impostor? What do you mean?",
+   "status": "done"
   },
   {
    "id": "R05:1231C",
@@ -144,7 +161,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n誰かが拙達の武勇伝を聞きつけて、\n大方マネでもしていたところを",
-   "en": ""
+   "en": "Aragoto:\nSomeone heard of our exploits\nand tried to imitate us, only to",
+   "status": "done"
   },
   {
    "id": "R05:12376",
@@ -152,7 +170,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "捕まってしまったんだろう・・・。\n運の悪いヤツ。",
-   "en": ""
+   "en": "be captured, no doubt...\nUnlucky fellow.",
+   "status": "done"
   },
   {
    "id": "R05:123B6",
@@ -160,7 +179,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそんな、運が悪いでは\nすまされませんわ。",
-   "en": ""
+   "en": "Sakuya:\nSurely you cannot dismiss this\nas mere bad luck!",
+   "status": "done"
   },
   {
    "id": "R05:123F8",
@@ -168,7 +188,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "わたくし達の代わりに\n捕まえられたなんて、\nかわいそうよ。",
-   "en": ""
+   "en": "The poor souls were\ncaptured in our place.\nHow dreadful for them.",
+   "status": "done"
   },
   {
    "id": "R05:12442",
@@ -176,7 +197,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサクヤの言うとおりだよ。",
-   "en": ""
+   "en": "Wataru:\nSakuya's right!",
+   "status": "done"
   },
   {
    "id": "R05:12474",
@@ -184,7 +206,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ここで放ったらかしたら、\nおじさんのファンが確実に滅るよ。",
-   "en": ""
+   "en": "If we leave them there, mister,\nyou'll lose fans for sure!",
+   "status": "done"
   },
   {
    "id": "R05:124C0",
@@ -192,7 +215,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそ、そうではなくって・・・。",
-   "en": ""
+   "en": "Sakuya:\nTh-that is not what I meant...",
+   "status": "done"
   },
   {
    "id": "R05:124F6",
@@ -200,7 +224,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあと、救世主だったら\n助けなきゃいけないしねぇ。",
-   "en": ""
+   "en": "Wataru:\nBesides, a Savior's gotta\nsave people, right?",
+   "status": "done"
   },
   {
    "id": "R05:12540",
@@ -208,7 +233,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nワタルさま？",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama?",
+   "status": "done"
   },
   {
    "id": "R05:12566",
@@ -216,7 +242,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "できれば、その理由を優先して\nいただきたかったのですが・・・。",
-   "en": ""
+   "en": "I would have preferred that\nyou put that reason first...",
+   "status": "done"
   },
   {
    "id": "R05:125B4",
@@ -224,7 +251,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあは、あは、あは。やっぱり？",
-   "en": ""
+   "en": "Wataru:\nHa, ha, ha... You think?",
+   "status": "done"
   },
   {
    "id": "R05:125EA",
@@ -232,7 +260,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nまぁ、お嬢もぼうやもそういう\nなら、助けに行った方が良いな。",
-   "en": ""
+   "en": "Aragoto:\nWell, if you and the young lady\ninsist, boy, we had best go.",
+   "status": "done"
   },
   {
    "id": "R05:12642",
@@ -240,7 +269,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nじゃっ、行こっ！",
-   "en": ""
+   "en": "Wataru:\nOkay, let's go!",
+   "status": "done"
   },
   {
    "id": "R05:12672",
@@ -248,7 +278,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあそこに捕まってるんだね。",
-   "en": ""
+   "en": "Wataru:\nSo that's where they're\nbeing held.",
+   "status": "done"
   },
   {
    "id": "R05:126A6",
@@ -256,7 +287,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nでも正面から\n「救世主くださーい。」という",
-   "en": ""
+   "en": "Sakuya:\nBut to walk up to the front door\nand say, \"One Savior, please!\"",
+   "status": "done"
   },
   {
    "id": "R05:126EA",
@@ -264,7 +296,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "わけにはいかなそうですわ。",
-   "en": ""
+   "en": "hardly seems possible.",
+   "status": "done"
   },
   {
    "id": "R05:12714",
@@ -272,7 +305,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nこの辺りに何か使えるものが\nあるんじゃないか？",
-   "en": ""
+   "en": "Aragoto:\nSurely there is something\nwe can use around here?",
+   "status": "done"
   },
   {
    "id": "R05:12760",
@@ -280,7 +314,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nこれがあれば、万々歳よ。",
-   "en": ""
+   "en": "Aragoto:\nWith this, success is assured!",
+   "status": "done"
   },
   {
    "id": "R05:12796",
@@ -288,7 +323,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nこっちに乗りな。",
-   "en": ""
+   "en": "Aragoto:\nClimb on here.",
+   "status": "done"
   },
   {
    "id": "R05:127C4",
@@ -296,7 +332,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nそらよっ！",
-   "en": ""
+   "en": "Aragoto:\nHere we go!",
+   "status": "done"
   },
   {
    "id": "R05:127EC",
@@ -304,7 +341,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうわぁぁっ！",
-   "en": ""
+   "en": "Wataru:\nWhoaaa!",
+   "status": "done"
   },
   {
    "id": "R05:12812",
@@ -312,7 +350,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nこれならお城のトコロまでは\n行けますが・・・。",
-   "en": ""
+   "en": "Sakuya:\nThis will get us as far\nas the castle, but...",
+   "status": "done"
   },
   {
    "id": "R05:1285A",
@@ -320,7 +359,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n名案だろ！",
-   "en": ""
+   "en": "Aragoto:\nA brilliant idea, eh?!",
+   "status": "done"
   },
   {
    "id": "R05:12898",
@@ -328,7 +368,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\nキミたちだね、ボクらの代わりに\n捕まっちゃったのは？",
-   "en": ""
+   "en": "G-Wataru:\nYou're the ones who got\ncaught instead of us, right?",
+   "status": "done"
   },
   {
    "id": "R05:128EA",
@@ -336,7 +377,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n代わり・・・？　キミは・・・？",
-   "en": ""
+   "en": "TV Wataru:\nInstead of...?\nWho are you...?",
+   "status": "done"
   },
   {
    "id": "R05:12926",
@@ -344,7 +386,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nボク？　ああ、ボクは・・・。",
-   "en": ""
+   "en": "G-Wataru:\nMe? Oh, I'm...",
+   "status": "done"
   },
   {
    "id": "R05:1295E",
@@ -352,7 +395,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nワタルさま、早くしないと\n敵がやってきますわ。",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama, hurry, or\nthe enemy will be upon us!",
+   "status": "done"
   },
   {
    "id": "R05:129A8",
@@ -360,7 +404,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\nえっ？　ワタルって。",
-   "en": ""
+   "en": "TV Wataru:\nHuh? Wataru?",
+   "status": "done"
   },
   {
    "id": "R05:129DC",
@@ -368,7 +413,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\nおじさんっ！",
-   "en": ""
+   "en": "G-Wataru:\nMister!",
+   "status": "done"
   },
   {
    "id": "R05:12A06",
@@ -376,7 +422,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nおう！　みんなさがってな。\n×・の・字・斬・りぃーっ！",
-   "en": ""
+   "en": "Aragoto:\nRight! Stand back, everyone!\nX... Slaaaash!",
+   "status": "done"
   },
   {
    "id": "R05:12A5A",
@@ -384,7 +431,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\n×の字斬り・・・？　はて？\nどこかで聞いたことが・・・。",
-   "en": ""
+   "en": "Shibaraku:\nX-Slash...? Hm?\nI've heard that somewhere...",
+   "status": "done"
   },
   {
    "id": "R05:12AAE",
@@ -392,7 +440,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n早く逃げましょう。",
-   "en": ""
+   "en": "Sakuya:\nLet us make haste!",
+   "status": "done"
   },
   {
    "id": "R05:12ADC",
@@ -400,7 +449,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n助かったよ。",
-   "en": ""
+   "en": "TV Wataru:\nYou saved us!",
+   "status": "done"
   },
   {
    "id": "R05:12B06",
@@ -408,7 +458,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nまっ、これも\n救世主のつとめだしねっ。",
-   "en": ""
+   "en": "G-Wataru:\nWell, it's all part of\nbeing the Savior!",
+   "status": "done"
   },
   {
    "id": "R05:12B48",
@@ -416,7 +467,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n救世主って、\nボクもそうなんだけど・・・。",
-   "en": ""
+   "en": "TV Wataru:\nThe Savior?\nBut I'm the Savior, too...",
+   "status": "done"
   },
   {
    "id": "R05:12B90",
@@ -424,7 +476,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\nまぁ、マネしてたのはもういい\nからさ。はやいとこ逃げ出そうよ。",
-   "en": ""
+   "en": "G-Wataru:\nLook, forget the copying.\nLet's just get out of here!",
+   "status": "done"
   },
   {
    "id": "R05:12BEC",
@@ -432,7 +485,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\nえっ！？\nマネなんかじゃないのに！",
-   "en": ""
+   "en": "TV Wataru:\nWhat?!\nI'm not copying anyone!",
+   "status": "done"
   },
   {
    "id": "R05:12C2E",
@@ -440,7 +494,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nほぇ？\nワタル同士でケンカしてるのか？",
-   "en": ""
+   "en": "Himiko:\nHuh?\nAre the Watarus fighting?",
+   "status": "done"
   },
   {
    "id": "R05:12C76",
@@ -448,7 +503,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "兵士：\nワット様、囚人共が脱走しました。",
-   "en": ""
+   "en": "Soldier:\nWatt-sama, the prisoners\nhave escaped!",
+   "status": "done"
   },
   {
    "id": "R05:12CAE",
@@ -456,7 +512,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワット：\nにゃ、にゃにいっ！\n・・・ゆるさないデース！",
-   "en": ""
+   "en": "Watt:\nW-whaaat?!\n...I will NOT stand for this!",
+   "status": "done"
   },
   {
    "id": "R05:12CF4",
@@ -464,7 +521,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "みんなペッチャンコにしてやる。",
-   "en": ""
+   "en": "I'll flatten the lot of them!",
+   "status": "done"
   },
   {
    "id": "R05:12D2A",
@@ -472,7 +530,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\n何と！",
-   "en": ""
+   "en": "Shibaraku:\nWhat?!",
+   "status": "done"
   },
   {
    "id": "R05:12D4C",
@@ -480,7 +539,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ではここは\n拙者達がいた頃より大昔の\n創界山だというのでござるか？",
-   "en": ""
+   "en": "Then this is Sokaizan from long,\nlong before the time we\ncame from?!",
+   "status": "done"
   },
   {
    "id": "R05:12D9E",
@@ -488,7 +548,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n・・・はい、\nみなさんのお話を聞いていると、",
-   "en": ""
+   "en": "Sakuya:\n...Yes. From what you\nhave told us,",
+   "status": "done"
   },
   {
    "id": "R05:12DE4",
@@ -496,7 +557,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "どうもそうではないかと・・・。",
-   "en": ""
+   "en": "that does seem to be the case...",
+   "status": "done"
   },
   {
    "id": "R05:12E12",
@@ -504,7 +566,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "シバラク：\nじゃあ拙者達は過去の創界山へ\n来ちゃったわけ？　ウソーん！",
-   "en": ""
+   "en": "Shibaraku:\nSo we're in Sokaizan's past?\nNo waaay!",
+   "status": "done"
   },
   {
    "id": "R05:12E6A",
@@ -512,7 +575,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヒミコ：\nわーいわーい、\nワタルとワタルでケンカ、ケンカ！",
-   "en": ""
+   "en": "Himiko:\nYay, yay! Wataru and Wataru!\nFight, fight, fiiight!",
+   "status": "done"
   },
   {
    "id": "R05:12EB4",
@@ -520,7 +584,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nマネじゃないって言ってるだろ！",
-   "en": ""
+   "en": "TV Wataru:\nI told you, I'm not copying you!",
+   "status": "done"
   },
   {
    "id": "R05:12EF0",
@@ -528,7 +593,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n救世主だっていって\nとっつかまって、",
-   "en": ""
+   "en": "G-Wataru:\nYou called yourself a Savior,\nthen went and got caught!",
+   "status": "done"
   },
   {
    "id": "R05:12F30",
@@ -536,7 +602,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "どこがマネじゃないのさ！",
-   "en": ""
+   "en": "How is that NOT copying me?!",
+   "status": "done"
   },
   {
    "id": "R05:12F58",
@@ -544,7 +611,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n・・・本当は、キミの方が\nマネしてるんじゃないの？",
-   "en": ""
+   "en": "TV Wataru:\n...Actually, aren't you\nthe one copying me?",
+   "status": "done"
   },
   {
    "id": "R05:12FA8",
@@ -552,7 +620,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\n何だって！？",
-   "en": ""
+   "en": "G-Wataru:\nWhat did you say?!",
+   "status": "done"
   },
   {
    "id": "R05:12FD2",
@@ -560,7 +629,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nあー、あいや\nシバラク、シバラクぅっ！",
-   "en": ""
+   "en": "Shibaraku:\nAh, hold on! Just a Shibaraku!\nA Shibaraku, I say!",
+   "status": "done"
   },
   {
    "id": "R05:13014",
@@ -568,7 +638,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "今はどちらがどうと言っている\n場合ではござらん。",
-   "en": ""
+   "en": "This is no time to argue\nabout who is who.",
+   "status": "done"
   },
   {
    "id": "R05:13054",
@@ -576,7 +647,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "それよりも、この世界から\n脱出することを考えなくては。",
-   "en": ""
+   "en": "We must instead consider\nhow to escape this world.",
+   "status": "done"
   },
   {
    "id": "R05:1309C",
@@ -584,7 +656,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "全員：\nうわぁっ。",
-   "en": ""
+   "en": "All:\nWhoa!",
+   "status": "done"
   },
   {
    "id": "R05:130BE",
@@ -592,7 +665,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワット：\nよくもコケにしたですねぇ。",
-   "en": ""
+   "en": "Watt:\nHow dare you make a fool of me!",
+   "status": "done"
   },
   {
    "id": "R05:130F2",
@@ -600,7 +674,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "みんなペッチャンコにしてから\nレーザーで焼いてやるぅ。",
-   "en": ""
+   "en": "I'll flatten you all, then\nroast you with my laser!",
+   "status": "done"
   },
   {
    "id": "R05:13138",
@@ -608,7 +683,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "両ワタル：\nみんな下がって！\nりゅーじんまるーっ！",
-   "en": ""
+   "en": "Both Watarus:\nEveryone, get back!\nRyujinmaruuu!",
+   "status": "done"
   },
   {
    "id": "R05:1317C",
@@ -616,7 +692,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\nあれ？",
-   "en": ""
+   "en": "TV Wataru:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R05:131AE",
@@ -624,7 +701,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワット：\nは？\n私は一体なにをしていたのでスか？",
-   "en": ""
+   "en": "Watt:\nHuh?\nWhat on earth was I doing?",
+   "status": "done"
   },
   {
    "id": "R05:131EE",
@@ -632,7 +710,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nほっ、取りあえずは\n何とかなったみたいだな。",
-   "en": ""
+   "en": "Wataru:\nWhew! Looks like we managed\nsomehow, at least.",
+   "status": "done"
   },
   {
    "id": "R05:13234",
@@ -640,7 +719,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワット：\n明るい世界になるといいなぁ、",
-   "en": ""
+   "en": "Watt:\nI was hoping for a\nbrighter world...",
+   "status": "done"
   },
   {
    "id": "R05:1326A",
@@ -648,7 +728,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "と思っていたら、\n何だかホントに\n明るくなって・・・。",
-   "en": ""
+   "en": "and somehow it really did\nget brighter...",
+   "status": "done"
   },
   {
    "id": "R05:132B0",
@@ -656,7 +737,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n明るい世界もいいが、\n明るすぎる世界はまずいぜぇ。",
-   "en": ""
+   "en": "Aragoto:\nA bright world is all very well,\nbut too bright is no good!",
+   "status": "done"
   },
   {
    "id": "R05:132FE",
@@ -664,7 +746,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\n何事もほどほどが\n大事ということですわ。",
-   "en": ""
+   "en": "Sakuya:\nModeration is essential\nin all things.",
+   "status": "done"
   },
   {
    "id": "R05:13346",
@@ -672,7 +755,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nあぶないところをかたじけない。\n恩に着るでござる。",
-   "en": ""
+   "en": "Shibaraku:\nYou saved us from grave peril.\nWe are in your debt.",
+   "status": "done"
   },
   {
    "id": "R05:13394",
@@ -680,7 +764,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nまぁ、そんなよろしいですのよ。",
-   "en": ""
+   "en": "Sakuya:\nOh, think nothing of it.",
+   "status": "done"
   },
   {
    "id": "R05:133CC",
@@ -688,7 +773,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "どちらもちゃんとした救世主さま\nだったわけですし・・・。",
-   "en": ""
+   "en": "Both boys truly were\nSavior-sama, after all...",
+   "status": "done"
   },
   {
    "id": "R05:13414",
@@ -696,7 +782,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nって、ぼうやたちは\n納得いかないようだがな・・・。",
-   "en": ""
+   "en": "Aragoto:\nThe boys do not seem entirely\nconvinced of that, though...",
+   "status": "done"
   },
   {
    "id": "R05:13464",
@@ -704,7 +791,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nキミの方がマネしてる！",
-   "en": ""
+   "en": "G-Wataru:\nYou're the one copying me!",
+   "status": "done"
   },
   {
    "id": "R05:13496",
@@ -712,7 +800,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nいいや！　キミの方だ！",
-   "en": ""
+   "en": "TV Wataru:\nNo! You're copying ME!",
+   "status": "done"
   },
   {
    "id": "R05:134CA",
@@ -720,7 +809,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nにゃはは！\nマネっこしーあいーっ。",
-   "en": ""
+   "en": "Himiko:\nNyahaha!\nCopycat, copycat, tit for tat!",
+   "status": "done"
   },
   {
    "id": "R05:13508",
@@ -728,7 +818,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nところで、これからお三方は\nどうするんでござるか？",
-   "en": ""
+   "en": "Shibaraku:\nBy the way, what will\nyou three do now?",
+   "status": "done"
   },
   {
    "id": "R05:13556",
@@ -736,7 +827,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n今の創界山を蝕（むしば）む魔王、\n【ワルモンダー】を倒しに",
-   "en": ""
+   "en": "Sakuya:\nTo defeat the demon Warumonder,\nwho now ravages Sokaizan,",
+   "status": "done"
   },
   {
    "id": "R05:135AA",
@@ -744,7 +836,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "地上を目指しますわ。",
-   "en": ""
+   "en": "we shall head for the surface.",
+   "status": "done"
   },
   {
    "id": "R05:135CE",
@@ -752,7 +845,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nううむ・・・。",
-   "en": ""
+   "en": "Shibaraku:\nHmm...",
+   "status": "done"
   },
   {
    "id": "R05:135F8",
@@ -760,7 +854,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ここが大昔となると、\n拙者達は元の世界に戻る手段を\n考えなくては・・・。",
-   "en": ""
+   "en": "If this is the distant past,\nwe must find a way to return\nto our own world...",
+   "status": "done"
   },
   {
    "id": "R05:13650",
@@ -768,7 +863,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "何か手だてをご存じあるまいか？",
-   "en": ""
+   "en": "Might you know of a way?",
+   "status": "done"
   },
   {
    "id": "R05:1367E",
@@ -776,7 +872,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nさぁ？",
-   "en": ""
+   "en": "Aragoto:\nWho knows?",
+   "status": "done"
   },
   {
    "id": "R05:136A0",
@@ -784,7 +881,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nうむぅ・・・。",
-   "en": ""
+   "en": "Shibaraku:\nHmm...",
+   "status": "done"
   },
   {
    "id": "R05:136CA",
@@ -792,7 +890,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "では拙者達も上へ向かった方が\n賢明じゃのっ。",
-   "en": ""
+   "en": "Then we, too, would be wise\nto head upward.",
+   "status": "done"
   },
   {
    "id": "R05:13706",
@@ -800,7 +899,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nではごいっしょに？",
-   "en": ""
+   "en": "Sakuya:\nShall we travel together, then?",
+   "status": "done"
   },
   {
    "id": "R05:13734",
@@ -808,7 +908,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nトノサマケロモンちゃんも\n一緒なのだ。",
-   "en": ""
+   "en": "Himiko:\nTonosama Keromon-chan\nis coming along, too!",
+   "status": "done"
   },
   {
    "id": "R05:13776",
@@ -816,7 +917,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nこんなマネしんぼと一緒なんて、\n絶対いやだよ！",
-   "en": ""
+   "en": "G-Wataru:\nTravel with this copycat?\nNo way!",
+   "status": "done"
   },
   {
    "id": "R05:137C0",
@@ -824,7 +926,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\nこっちだってお断りだよ！",
-   "en": ""
+   "en": "TV Wataru:\nI don't want to go with you,\neither!",
+   "status": "done"
   },
   {
    "id": "R05:137F8",
@@ -832,7 +935,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "両ワタル：\nふんっ！",
-   "en": ""
+   "en": "Both Watarus:\nHmph!",
+   "status": "done"
   },
   {
    "id": "R05:169B0",
@@ -840,7 +944,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nもんペットは、そだてている？",
-   "en": ""
+   "en": "Boy:\nAre you raising a Monpet?",
+   "status": "done"
   },
   {
    "id": "R05:169DC",
@@ -848,7 +953,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もんペットは攻撃力がたかいから、\n十分利用したほうがいいよ。",
-   "en": ""
+   "en": "A Monpet has high attack power,\nso make the most of it!",
+   "status": "done"
   },
   {
    "id": "R05:16A1C",
@@ -856,7 +962,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nまぶしい村だろ～。\n【ケイコータウン】っていうんだ。",
-   "en": ""
+   "en": "Boy:\nBright village, huh?\nIt's called Keiko Town.",
+   "status": "done"
   },
   {
    "id": "R05:16A60",
@@ -864,7 +971,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nわーい。わーい。\nピッカピッカ！",
-   "en": ""
+   "en": "Girl:\nYay! Yay!\nShiny, shiny!",
+   "status": "done"
   },
   {
    "id": "R05:16A90",
@@ -872,7 +980,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいちゃんのあたまも\nピッカピッカ！",
-   "en": ""
+   "en": "Grandpa's head is\nshiny, shiny, too!",
+   "status": "done"
   },
   {
    "id": "R05:16AB8",
@@ -880,7 +989,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nおにいちゃん、\nあたしのこと好き？",
-   "en": ""
+   "en": "Girl:\nHey, mister,\ndo you like me?",
+   "status": "done"
   },
   {
    "id": "R05:16AEA",
@@ -888,7 +998,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "はい、好きです。\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Yes, I like you.\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R05:16B14",
@@ -896,7 +1007,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nだったら、あたしの大好きな\n救世主さまを助けてきてよ！",
-   "en": ""
+   "en": "Girl:\nThen go save the one I love,\nSavior-sama!",
+   "status": "done"
   },
   {
    "id": "R05:16B5A",
@@ -904,7 +1016,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【シャンデリア城】に\n捕まっているのよ！",
-   "en": ""
+   "en": "He's being held prisoner\nin Chandelier Castle!",
+   "status": "done"
   },
   {
    "id": "R05:16B84",
@@ -912,7 +1025,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nそう、あたしもきらいよ！",
-   "en": ""
+   "en": "Girl:\nWell, I don't like you either!",
+   "status": "done"
   },
   {
    "id": "R05:16BAC",
@@ -920,7 +1034,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "救世主さまのほうが、\nとってもかっこいいんだから！",
-   "en": ""
+   "en": "Savior-sama is way, WAY\ncooler than you, anyway!",
+   "status": "done"
   },
   {
    "id": "R05:16BE0",
@@ -928,7 +1043,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nう～む・・・。\nきれいなイルミネーションだ。",
-   "en": ""
+   "en": "Young Man:\nHmm...\nWhat beautiful lights.",
+   "status": "done"
   },
   {
    "id": "R05:16C1C",
@@ -936,7 +1052,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "じっと見つめていたら、\nつい歌いたくなるな・・・。",
-   "en": ""
+   "en": "Staring at them makes me\nwant to burst into song...",
+   "status": "done"
   },
   {
    "id": "R05:16C50",
@@ -944,7 +1061,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nおまえは救世主か？",
-   "en": ""
+   "en": "Young Man:\nAre you the Savior?",
+   "status": "done"
   },
   {
    "id": "R05:16C72",
@@ -952,7 +1070,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "はい、救世主です。\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Yes, I'm the Savior.\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R05:16C9E",
@@ -960,7 +1079,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nうそつけ！　救世主は\n【ワット】に捕まっているんだぞ。",
-   "en": ""
+   "en": "Young Man:\nLiar! The Savior was\ncaptured by Watt!",
+   "status": "done"
   },
   {
    "id": "R05:16CE4",
@@ -968,7 +1088,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おまえ、救世主の真似をして\nちやほやされたいんだろ！\nそれとも・・・。",
-   "en": ""
+   "en": "You pose as the Savior so\neveryone will fuss over you!\nOr maybe...",
+   "status": "done"
   },
   {
    "id": "R05:16D2C",
@@ -976,7 +1097,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "「はい、救世主のどうきゅうせい\n（で）しゅっ！」・・・とでも\n言いたいのか！？",
-   "en": ""
+   "en": "\"Yesh, I'm the Savior's\nclassmate!\"... Is that what\nyou're trying to say?!",
+   "status": "done"
   },
   {
    "id": "R05:16D7C",
@@ -984,7 +1106,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "くだらん！\nさっさと、オレの前から{k3B}えろ！",
-   "en": ""
+   "en": "Nonsense!\nGet out of my sight, now!",
+   "status": "done"
   },
   {
    "id": "R05:16DA8",
@@ -992,7 +1115,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nそうだよな。救世主は【ワット】に\n捕まっているんだからな。",
-   "en": ""
+   "en": "Young Man:\nOf course. The Savior has\nbeen captured by Watt.",
+   "status": "done"
   },
   {
    "id": "R05:16DF4",
@@ -1000,7 +1124,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n村外れにそびえるのが、\n【シャンデリア城】よ。",
-   "en": ""
+   "en": "Young Woman:\nThat castle outside the village\nis Chandelier Castle.",
+   "status": "done"
   },
   {
    "id": "R05:16E32",
@@ -1008,7 +1133,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワット】っていうやつがいる\nシャンデリアの形をした城なの。\nおかげで、まぶしくって・・・。",
-   "en": ""
+   "en": "Watt lives in that castle shaped\nlike a chandelier. And it's\nblindingly bright because of it!",
+   "status": "done"
   },
   {
    "id": "R05:16E90",
@@ -1016,7 +1142,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\nここって、実は地中なのよね。\nなのに、この明るさといったら。",
-   "en": ""
+   "en": "Woman:\nWe're actually underground here.\nYet look how bright it is!",
+   "status": "done"
   },
   {
    "id": "R05:16EDA",
@@ -1024,7 +1151,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワット】のシュミで\n村中、でんきゅうだらけよ！\n目がチカチカしてしょうがないわ。",
-   "en": ""
+   "en": "Watt's taste has filled the\nvillage with light bulbs!\nMy poor eyes keep seeing spots!",
+   "status": "done"
   },
   {
    "id": "R05:16F30",
@@ -1032,7 +1160,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\n大変よ。救世主さまが、\n【ワット】に捕まっちゃったの。",
-   "en": ""
+   "en": "Woman:\nIt's awful! Savior-sama\nhas been captured by Watt!",
+   "status": "done"
   },
   {
    "id": "R05:16F74",
@@ -1040,7 +1169,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【シャンデリア城】に捕らわれて\nいるんだけど、あんなところじゃ、\n誰も助けに行けないわ。",
-   "en": ""
+   "en": "He's held in Chandelier Castle,\nbut who could ever get to a\nplace like that to save him?",
+   "status": "done"
   },
   {
    "id": "R05:16FCE",
@@ -1048,7 +1178,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "どうしよう・・・。",
-   "en": ""
+   "en": "What should we do...?",
+   "status": "done"
   },
   {
    "id": "R05:16FE4",
@@ -1056,7 +1187,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\nむむっ、救世主さまに似ているな。\nキミ、きょうだいかなんかか？",
-   "en": ""
+   "en": "Young Man:\nHmm! You look like Savior-sama.\nAre you brothers or something?",
+   "status": "done"
   },
   {
    "id": "R05:17034",

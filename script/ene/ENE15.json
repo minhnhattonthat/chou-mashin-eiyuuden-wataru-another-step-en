@@ -8,7 +8,8 @@
    "max": 6,
    "len_at": "02C11",
    "jp": "バサマッチョ",
-   "en": ""
+   "en": "Granmacho",
+   "status": "done"
   },
   {
    "id": "ENE15:02BA0",
@@ -16,7 +17,8 @@
    "max": 7,
    "len_at": "02C25",
    "jp": "バサマッチャー",
-   "en": ""
+   "en": "Granmacher",
+   "status": "done"
   },
   {
    "id": "ENE15:02BB0",
@@ -24,28 +26,32 @@
    "max": 8,
    "len_at": "02C39",
    "jp": "バサマッチェスト",
-   "en": ""
+   "en": "Granmachest",
+   "status": "done"
   },
   {
    "id": "ENE15:02BC0",
    "kind": "bname",
    "max": 11,
    "jp": "バサマッチョ",
-   "en": ""
+   "en": "Granmacho",
+   "status": "done"
   },
   {
    "id": "ENE15:02BCC",
    "kind": "bname",
    "max": 11,
    "jp": "バサマッチャー",
-   "en": ""
+   "en": "Granmacher",
+   "status": "done"
   },
   {
    "id": "ENE15:02BD8",
    "kind": "bname",
    "max": 11,
    "jp": "バサマッチェスト",
-   "en": ""
+   "en": "Granmachest",
+   "status": "done"
   }
  ]
 }
