@@ -7,9 +7,9 @@ pair tells the column: ab = col 0, cd = col 1 .. yz = col 12, then ab again). Ro
 word count, menu strings their words + tail padding, fixed fields `max` cells, BALLBAT battle-font names (`bfont`)
 one letter per 8x16 cell (Latin drawn over the kana of MSG_CG's 8x16 font, codes BF_FIRST+); ENE battle-header
 names (`bname`) the same font as NUL-terminated bytes. `len_at` = the byte holding the drawn cell count: rewritten.
-Pair codes per font context: pairs only room text uses go into that room's M16 font (codes 0x1A4+, ROOM_CAP), the
-rest into MSG_CG's kanji slots (mirrored into CNF_MSG, the config screen's copy); when a room font overflows, the
-pair most room fonts share moves to MSG_CG. In `en`, `[XXXX]` is a raw word (controls such as [B000][0003]).
+Pair codes: one code per distinct two-letter cell in the whole script (compose.PAIR_FIRST+), composed at run time
+by the LoadImage hook (tools/compose.py: hook in the EXE, letters + pair table in MSG_CG / CNF_MSG's kanji slots);
+the room fonts are left alone. In `en`, `[XXXX]` is a raw word (controls such as [B000][0003]).
 Every write goes through put() and is logged in WRITES for romdiff (tests/test_insert.py).
 Not text: ids in tbl/not_text.txt are never written.
 """
@@ -22,14 +22,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import compose  # noqa: E402
 import digraph  # noqa: E402
+import roompack  # noqa: E402
 from jtext import Codec, battle_table, table  # noqa: E402
 
 TREE = ROOT / "work" / "disc" / "tree"
 SCRIPT = ROOT / "script"
-CG_FIRST = 0xA6  # MSG_CG / CNF_MSG glyph index = code + 0xA6
-CG_FREE = [c for c in range(0xE6, 0x1A4) if c != 0x181]  # kanji slots; kana, digits, icons and the ▼ 0x181 stay
-ROOM_FIRST, ROOM_CAP = 0x1A4, 190  # room font at 0x80122500, up to 0x80128400
+EXE = "SLPS_013.68"
 BF_FIRST = 0x0F  # battle font: '!' .. '~' -> 0x0F.. (over its kana; digits 1-10 stay), space = 0
 INLINE = {0xB000: 1}
 GLYPH_MAX = 0x262
@@ -127,30 +127,24 @@ def cells(text, nl):
     return out
 
 
+def relocatable(path, off):
+    """Room text in a bank or NPC unit: its pages may change length (tools/roompack.py)."""
+    if not path.startswith("FPRG/R"):
+        return False
+    u = roompack.unit_of(Path(path).stem, off)
+    return bool(u) and u["kind"] in ("bank", "ptr")
+
+
 def bf_code(ch):
     return 0 if ch == " " else BF_FIRST + ord(ch) - 0x21
 
 
 def allocate(uses):
-    """uses {context: set of pairs} -> {context: {pair: code}} (see module doc)."""
-    cg = set(uses.get("CG", ())) - {"  "}
-    rooms = {c: set(s) - cg - {"  "} for c, s in uses.items() if c.startswith("M16")}
-    while True:
-        over = [s for s in rooms.values() if len(s) > ROOM_CAP]
-        if not over:
-            break
-        shared = Counter(p for s in rooms.values() for p in s)
-        best = max(set().union(*over), key=lambda p: (shared[p], p))
-        cg.add(best)
-        for s in rooms.values():
-            s.discard(best)
-    if len(cg) > len(CG_FREE):
-        raise SystemExit(f"insert: {len(cg)} common pairs, MSG_CG has {len(CG_FREE)} free codes")
-    cgmap = dict(zip(sorted(cg), CG_FREE))
-    out = {"CG": cgmap}
-    for c, s in rooms.items():
-        out[c] = {**cgmap, **{p: ROOM_FIRST + i for i, p in enumerate(sorted(s))}}
-    return out
+    """Set of pairs -> {pair: code}: most used first, so the codes are stable as text changes ("  " = blank 0)."""
+    order = sorted(set(uses) - {"  "}, key=lambda p: (-uses[p], p))
+    if len(order) > compose.TABLE_MAX:
+        raise SystemExit(f"insert: {len(order)} letter pairs, the compose table holds {compose.TABLE_MAX}")
+    return {"  ": 0, **{p: compose.PAIR_FIRST + i for i, p in enumerate(order)}}
 
 
 def put(bufs, orig, path, off, data, by):
@@ -170,10 +164,10 @@ def edits(qa=None, english=True):
     OVERFLOW.clear()
     qa = qa or {}
     ents = entries()
-    texts, uses, rows = [], {}, []
+    texts, uses, rows = [], Counter(), []
     for num, (e, path, off, words, avail, nl, ctx) in enumerate(ents, 1):
         text = qa.get(e["id"]) or qa.get("+" + e["id"]) or (e.get("en") if english else None) or None
-        if text and e["id"] not in qa and "+" + e["id"] not in qa and \
+        if text and e["id"] not in qa and "+" + e["id"] not in qa and not relocatable(path, off) and \
                 (len(text) if ctx == "BF" else len(cells(text, nl))) > avail:
             # shortcut: English past its JP slot shows the marker until phase 7 grows slots (work/overflow.tsv)
             OVERFLOW.append(e["id"])
@@ -184,16 +178,8 @@ def edits(qa=None, english=True):
         texts.append(text)
         rows.append(f"{num}\t{e['id']}\t{e['jp']!r}")
         if ctx != "BF":
-            uses.setdefault(ctx, set()).update(c for c in cells(text, nl) if isinstance(c, str))
-    try:
-        codes = allocate(uses)
-    except SystemExit as err:
-        if not english:
-            raise
-        # shortcut: the script's English needs more letter pairs than the fonts hold; markers until phase 7's
-        # font work (single-letter fallback cells / per-scene pair loading) makes room
-        print(f"{err}: English withheld, marker build", file=sys.stderr)
-        return edits(qa, english=False)
+            uses.update(c for c in cells(text, nl) if isinstance(c, str))
+    codes = allocate(uses)
     orig, bufs, errors = {}, {}, []
 
     def load(path):
@@ -201,12 +187,15 @@ def edits(qa=None, english=True):
             orig[path] = (TREE / path).read_bytes()
         return path
 
-    spills = []
+    spills, room_items = [], {}
     for (e, path, off, words, avail, nl, ctx), text in zip(ents, texts):
         if ctx == "BF":
             new = [bf_code(ch) for ch in text]
         else:
-            new = [c if isinstance(c, int) else codes[ctx].get(c, 0) for c in cells(text, nl)]
+            new = [c if isinstance(c, int) else codes[c] for c in cells(text, nl)]
+        if relocatable(path, off) and "+" + e["id"] not in qa:  # room text: laid out per unit (roompack)
+            room_items.setdefault(load(path), {})[off] = (avail, new, e["id"])
+            continue
         spill = len(new) > avail and "+" + e["id"] in qa  # stress only: runs over the next strings, ends 0xFFFF
         if len(new) > avail and not spill:
             errors.append(f"{e['id']}: {len(new)} words, room for {avail}")
@@ -225,22 +214,26 @@ def edits(qa=None, english=True):
         put(bufs, orig, load(path), off, struct.pack("<%dH" % avail, *new), e["id"])
     if errors:
         raise SystemExit("insert: text too long\n  " + "\n  ".join(errors))
+    for path, items in room_items.items():
+        for off, data, by in roompack.pack(Path(path).stem, orig[path], items):
+            put(bufs, orig, path, off, data, by)
     for path, off, data, by in spills:  # after every in-place write, so the spill wins
         put(bufs, orig, path, off, data, by + " spill")
     for path, off, old, new, why in CODE:
         assert struct.unpack_from("<I", orig[load(path)], off)[0] == old, (path, hex(off))
         put(bufs, orig, path, off, struct.pack("<I", new), "code " + why)
-    cg, cnf = load("FM16/MSG_CG.BIN"), load("OUT/CNF_MSG.BIN")
-    for p, c in codes["CG"].items():
-        g = digraph.cell(p)
-        put(bufs, orig, cg, (c + CG_FIRST) * 128, g, f"cg {p!r}")
-        put(bufs, orig, cnf, (c + CG_FIRST) * 128, g, f"cnf {p!r}")
-    for ctx, m in codes.items():
-        if ctx != "CG":
-            f = load(f"FM16/{ctx}.BIN")
-            for p, c in m.items():
-                if c >= ROOM_FIRST:
-                    put(bufs, orig, f, (c - ROOM_FIRST) * 128, digraph.cell(p), f"{ctx} {p!r}")
+    cg, cnf, exe = load("FM16/MSG_CG.BIN"), load("OUT/CNF_MSG.BIN"), load(EXE)
+    table = compose.table_bytes([p for p, c in sorted(codes.items(), key=lambda pc: pc[1]) if c])
+    for f in (cg, cnf):
+        put(bufs, orig, f, compose.FONT - compose.FONT_RAM, compose.font_bytes(), "compose font")
+        put(bufs, orig, f, compose.TABLE - compose.FONT_RAM, table, "compose table")
+    hook = struct.pack("<%dI" % len(compose.hook_words()), *compose.hook_words())
+    at = compose.POS - compose.EXE_BASE
+    assert orig[exe][at:at + 4 + len(hook)] == bytes(4 + len(hook)), "compose hook: EXE zero run not zero"
+    put(bufs, orig, exe, compose.HOOK - compose.EXE_BASE, hook, "code compose hook")
+    at = compose.LOADIMAGE - compose.EXE_BASE
+    assert struct.unpack_from("<2I", orig[exe], at) == compose.LOADIMAGE_HEAD, "LoadImage entry"
+    put(bufs, orig, exe, at, struct.pack("<2I", *compose.patch_words()), "code LoadImage -> compose hook")
     if any(ctx == "BF" for *_, ctx in ents):
         for k in range(0x21, 0x7F):
             put(bufs, orig, cg, bf_code(chr(k)) * 64, bf_cell(chr(k)), f"bf {chr(k)!r}")

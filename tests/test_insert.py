@@ -41,12 +41,23 @@ def test_marker_keeps_layout():
     assert c == ["12", "34", 0x1000, "  ", "cd", 0xB000, 3, "ef", 0x2000]
 
 
-def test_allocate_promotes_shared_pairs():
-    cap = insert.ROOM_CAP
-    many = {f"{i:02d}" for i in range(cap)}
-    m = insert.allocate({"CG": {"AB"}, "M16_R00": many | {"xx"}, "M16_R02": {"xx", "yy"}})
-    assert "xx" in m["CG"] and m["M16_R02"]["yy"] == insert.ROOM_FIRST
-    assert len([c for c in m["M16_R00"].values() if c >= insert.ROOM_FIRST]) == cap
+def test_allocate_one_code_per_pair():
+    from collections import Counter
+    m = insert.allocate(Counter({"ab": 1, "  ": 9, "xy": 5}))
+    assert m == {"  ": 0, "xy": insert.compose.PAIR_FIRST, "ab": insert.compose.PAIR_FIRST + 1}
+    with pytest.raises(SystemExit):
+        insert.allocate(Counter({chr(33 + i // 90) + chr(33 + i % 90): 1 for i in range(insert.compose.TABLE_MAX + 1)}))
+
+
+def test_compose_tables_written(built):
+    """The hook, the LoadImage patch, and letters + pair table in both fonts."""
+    whys = {by for w in insert.WRITES.values() for _, _, _, by in w}
+    assert {"code compose hook", "code LoadImage -> compose hook", "compose font", "compose table"} <= whys
+    cg, cnf = built["FM16/MSG_CG.BIN"], built["OUT/CNF_MSG.BIN"]
+    for path in ("FM16/MSG_CG.BIN", "OUT/CNF_MSG.BIN"):
+        for off, _, new, by in insert.WRITES[path]:
+            if by.startswith("compose"):
+                assert cg[off:off + len(new)] == cnf[off:off + len(new)] == new
 
 
 def test_page_word_counts_kept(built):

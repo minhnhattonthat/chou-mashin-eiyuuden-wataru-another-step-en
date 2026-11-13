@@ -50,6 +50,8 @@ def run(name, opts, a):
         cmd.append("--sheet")
     for s in a.script:
         cmd += ["--script", s]
+    if a.debugger:  # exec/read/write breakpoints in a probe (L.on_exec ...)
+        cmd.append("--debugger")
     for v in a.var:
         cmd += ["--var", v]
     with open(out.with_suffix(".out"), "w", encoding="utf-8") as fh:
@@ -75,6 +77,7 @@ def main():
     p.add_argument("--out", default=str(ROOT / "work" / "qa" / "warp"))
     p.add_argument("--states", default=str(ROOT / "work" / "states"))
     p.add_argument("--no-sheet", action="store_true")
+    p.add_argument("--debugger", action="store_true", help="emu.py --debugger (probes with L.on_exec)")
     p.add_argument("--script", action="append", default=[], help="extra probe for every run (e.g. tools/lua/trapwatch.lua)")
     p.add_argument("--var", action="append", default=[], help="extra emu.py --var for every run")
     a = p.parse_args()
