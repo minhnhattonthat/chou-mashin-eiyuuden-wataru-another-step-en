@@ -6,7 +6,7 @@
    "id": "LVUP:01B68",
    "kind": "menu",
    "jp": "ワタルはレベルアップ！！\nやったね！\nらくしょー！　らくしょー！　　\nワタルはレベル　　になった！",
-   "en": "Wataru leveled up!!\nAll right!\nEasy-peasy! Easy-peasy!\nWataru reached level    !",
+   "en": "Wataru leveled up!!\nAll right!\nEasy-peasy! Easy-peasy!\nWataru: Level     !",
    "end": "FFFF",
    "status": "done"
   },
@@ -14,7 +14,7 @@
    "id": "LVUP:01BCC",
    "kind": "menu",
    "jp": "アラゴトはレベルアップ！！\nふっ。\nぞうさもないことよ。　\nアラゴトはレベル　　になった！",
-   "en": "Aragoto leveled up!!\nHmph.\nA trifling feat.\nAragoto reached level    !",
+   "en": "Aragoto leveled up!!\nHmph.\nA trifling feat.\nAragoto's Level     !",
    "end": "FFFF",
    "status": "done"
   },
@@ -22,7 +22,7 @@
    "id": "LVUP:01C28",
    "kind": "menu",
    "jp": "サクヤはレベルアップ！！\nおほほほほ。\nかんぺきでございますわ。　\nサクヤはレベル　　になった！",
-   "en": "Sakuya leveled up!!\nOh ho ho ho!\nUtterly flawless, I daresay.\nSakuya reached level    !",
+   "en": "Sakuya leveled up!!\nOh ho ho ho!\nUtterly flawless, I daresay.\nSakuya: Level     !",
    "end": "FFFF",
    "status": "done"
   }
