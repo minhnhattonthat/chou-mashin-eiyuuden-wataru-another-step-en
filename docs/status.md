@@ -2,10 +2,20 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G11, G16, G19, G23, G25 credits;
-  drawn, not yet seen in game: G12, G17, G18). Phase 7 done (2026-11-14): full English build, overflow empty, all warp
-  scenes reach.
+- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G16, G19, G20, G23, G25
+  credits; drawn, not yet seen in game: G12, G17, G18). Phase 7 done (2026-11-14): full English build, overflow empty,
+  all warp scenes reach.
 - **Done:**
+  - Phase 8, session 7 (2026-11-14): **G9 memory card** in English (`gfx.MEM_EN` per MEMORY.BIN sprite list, strips
+    via `mem_layout`/`mem_recs`/`mem_check`, はい/いいえ/第 話 -> Yes/No/Ep. in place; `gfx_gen memcard`; test_memcard;
+    `tools/memview.py` composes every message offline -> work/g9/preview.png). Verified in new scene **save_slot**
+    (save into file 1: Which file / Select / Saving / Save complete / filled slot) and title_continue with its card
+    (work/states/card_file1.mcd: Checking / Load slot). New scene save_ep3 (warped ep-3 save shifts the slot row on
+    the original too: not ours). **G20 banners** (D22): one carved word per MBEXT_08 kanji cell (`gfx_gen.BANNER`),
+    verified TO / RYU / KEN in new scene **mashin_fire** (ep13, Wataru MP max poked 99: his 18 < cost 20). **G10** RE
+    (graphics.md: R15.BIN = 8-page scroll state machine; not reached yet, see Next). G7: ending FMV has no burnt-in
+    text. Scene `narration` = the ep15 card flow held 15000 frames (card -> FMV -> roll; R15 not in it). Build sha1
+    b3fc2a7e..., 110 tests. warp_all not rerun this session (no LBA shift: records/pixels in place).
   - Phase 8, session 6 (2026-11-14): **G25 staff roll** (D3, D21) in English: FVHH/STAFF.BIN is a 120x98 tile map of
     16x16 cells (6x7 pages of 320x224) over a glyph image; `tools/staff.py` lays out `gfx/staff_en.txt` (42 pages,
     two-column credits, Spleen 8x16 two letters per cell, colours = the JP's white/orange/yellow palettes) into the same
@@ -175,15 +185,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
-     can't run Python, Orca refuses nested workers): G23 leftovers (monpet element 水/雷/火 = MSG_CG 0xB0-0xB2
+     can't run Python, Orca refuses nested workers): **G10 first** (graphics.md G10 RE: find how R15's scroll starts,
+     then read the R15_MES image (8 x 224 px pages, header 0xC0000322 sprite list) and redraw it as English pages),
+     G23 leftovers (monpet element 水/雷/火 = MSG_CG 0xB0-0xB2
      drawn as one 16x16 cell by FDS code: find the draw site, draw a word or redraw the glyphs as element icons;
      see the drawn-not-seen G23 labels in graphics.md, e.g. a scene in ep 15 for 最終話, Warurine in the party),
      G19 leftovers: VS cards of episodes 2-14 assumed to use the ep1 record layout (spot-check one later matchup with
-     a poke of the battle id if one is found), G20 banners (notes in
-     graphics.md: look at the special-move animation first), G9 memory card (MEM_01, largest: start here, RE + plan in graphics.md G9; scene save), G10 "prologue scroll"
-     FM16/R15_MES.BIN: really the post-final-battle narration (…ワルモンダーの操る魔神の『ワルワル・キュウキョーン』に、
-     天翔龍神丸の最強の一撃…), header 0xC0000322 sprite list (count 0x320, then 8-byte entries u,v / CLUT 0x79C0 /
-     tpage) + 4bpp text image; not seen in scene `ending` (field -> FMV -> staff roll): find where R15 shows it,
+     a poke of the battle id if one is found), G20 other moves (Skysoar / Phantom Wyrmwave / RISE..SWORD chant: fire
+     them in mashin_fire with the cursor moved down, ep 14 for Tensho), G10 R15_MES = the post-final-battle narration
+     (…ワルモンダーの操る魔神の『ワルワル・キュウキョーン』に、天翔龍神丸の最強の一撃…), header 0xC0000322 sprite list
+     (count 0x320, then 8-byte entries u,v / CLUT 0x79C0 / tpage) + 4bpp text image,
      G22 room signs (decide per sign, waive illegible), FMV + FK stills
      check (ep00 opening FMV: no burnt-in text seen). Battle names col B (u 160) is drawn somewhere not yet seen: check it. See G12 (IQ
      win/lose cards, hit-and-blow labels: the ep1 IQ battle is the KIO memory game), G17, G18 in game (add scenes or
