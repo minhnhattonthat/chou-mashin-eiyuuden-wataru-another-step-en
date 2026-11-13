@@ -41,6 +41,7 @@ RAW = re.compile(r"\[([0-9A-F]{4})\]")
 WRITES = {}  # disc path -> [(offset, orig bytes, new bytes, writer)]
 OVERFLOW = []  # ids whose `en` is longer than the JP slot and can't move (marker shown instead)
 MOVED = []  # ids strpack moved to free space
+FDS_BF = set()  # ids FDS draws from the 8x16 font at code + 14 (もんペット moves)
 # Code patches: (path, offset, original u32, new u32, why). The battle header (BALLBAT 0x800DF310-0x800DF3C8) draws
 # the 8-bit enemy name for the 16-bit name's cell count (0x800F1C00), which in English is half the letters: loop to
 # the NUL instead (lbu v1,0(s1) for both count reads; the slt goes, bnez v1 tests the next byte). docs/re/windows.md.
@@ -85,7 +86,10 @@ def entries():
             kind = e.get("kind")
             if "font" in e:
                 ctx, tab, nl = "M16_" + e["font"], "M16_" + e["font"], 0x1000
-            elif kind in ("bfont", "bname"):
+            elif kind in ("bfont", "bname") or doc.get("table") == "mashin_attacks":
+                # mashin_attacks = もんペット moves: FDS draws them with the 8x16 font, 8 px per cell, glyph = code + 14
+                if doc.get("table") == "mashin_attacks":
+                    FDS_BF.add(e["id"])
                 ctx, tab, nl = "BF", "BF", None
             elif "table" in doc or kind == "menu":
                 ctx, tab, nl = "CG", None, 0x9999
@@ -225,7 +229,7 @@ def edits(qa=None, english=True):
     spills, room_items, str_items = [], {}, {}
     for (e, path, off, words, avail, nl, ctx), text in zip(ents, texts):
         if ctx == "BF":
-            new = [bf_code(ch) for ch in text]
+            new = [bf_code(ch) - (14 if e["id"] in FDS_BF else 0) for ch in text]
         else:
             new = [c if isinstance(c, int) else codes[c] for c in cells(text, nl)]
         if relocatable(path, off) and "+" + e["id"] not in qa:  # room text: laid out per unit (roompack)

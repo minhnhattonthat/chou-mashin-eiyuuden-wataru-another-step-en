@@ -14,7 +14,7 @@
    "id": "ST:00134",
    "kind": "menu",
    "jp": "勝負だ！！",
-   "en": "Let's do battle!!",
+   "en": "Fight!!",
    "end": "FFFF",
    "status": "done"
   },
@@ -22,7 +22,7 @@
    "id": "ST:00140",
    "kind": "menu",
    "jp": "勝負よ！！",
-   "en": "Let's do battle!!",
+   "en": "Fight!!",
    "end": "FFFF",
    "status": "done"
   },
@@ -46,7 +46,7 @@
    "id": "ST:00204",
    "kind": "menu",
    "jp": "なに！？　説明を聞かないのか？",
-   "en": "What?! You don't want the rules?",
+   "en": "What?! Won't hear the rules?",
    "end": "FFFF",
    "status": "done"
   },
@@ -54,7 +54,7 @@
    "id": "ST:00224",
    "kind": "menu",
    "jp": "え！？　説明を聞かないの？",
-   "en": "Huh?! You don't want the rules?",
+   "en": "Eh?! Skip the explanation?",
    "end": "FFFF",
    "status": "done"
   },
@@ -62,7 +62,7 @@
    "id": "ST:00264",
    "kind": "menu",
    "jp": "後でこうかいしても、\nしらないぞ！",
-   "en": "Don't blame me if you regret it\nlater!",
+   "en": "Regret it later? Don't blame me!",
    "end": "FFFF",
    "status": "done"
   },
@@ -70,7 +70,7 @@
    "id": "ST:00288",
    "kind": "menu",
    "jp": "後でこうかいしても、\nしらないわよ！",
-   "en": "Don't come crying to me if\nyou regret it later!",
+   "en": "Regret it later? Don't blame me!",
    "end": "FFFF",
    "status": "done"
   },
@@ -110,7 +110,7 @@
    "id": "ST:003B4",
    "kind": "menu",
    "jp": "はじめからやり直すのか？",
-   "en": "Start over from the beginning?",
+   "en": "Start all over again?",
    "end": "FFFF",
    "status": "done"
   },
@@ -118,7 +118,7 @@
    "id": "ST:003D0",
    "kind": "menu",
    "jp": "はじめからやり直すの？",
-   "en": "Start over from the beginning?",
+   "en": "Start all over again?",
    "end": "FFFF",
    "status": "done"
   },
@@ -126,7 +126,7 @@
    "id": "ST:0040C",
    "kind": "menu",
    "jp": "なん度でも、受けて立つぞ！",
-   "en": "I'll take you on as many times\nas you want!",
+   "en": "I'll take you on any time!",
    "end": "FFFF",
    "status": "done"
   },
@@ -134,7 +134,7 @@
    "id": "ST:00428",
    "kind": "menu",
    "jp": "なん度でも、受けて立つわよ！",
-   "en": "I'll take you on as many times\nas you want!",
+   "en": "I'll take you on any time!",
    "end": "FFFF",
    "status": "done"
   },
@@ -142,7 +142,7 @@
    "id": "ST:0046C",
    "kind": "menu",
    "jp": "だがこの後には、\nもっと手ごわいバトルが\nまっているぞ！",
-   "en": "But there are even tougher\nbattles waiting for you\nafter this one!",
+   "en": "But even tougher battles\nawait you after this!",
    "end": "FFFF",
    "status": "done"
   },
@@ -150,7 +150,7 @@
    "id": "ST:004A8",
    "kind": "menu",
    "jp": "でもこの後には、\nもっと手ごわいバトルが\nまっているわよ！",
-   "en": "But there are even tougher\nbattles waiting for you\nafter this one!",
+   "en": "But even tougher battles\nawait you after this!",
    "end": "FFFF",
    "status": "done"
   },
@@ -158,7 +158,7 @@
    "id": "ST:0050C",
    "kind": "menu",
    "jp": "お前のその勇気で、\n立ち向かってくれ！",
-   "en": "Face them with that courage\nof yours!",
+   "en": "Face them with your courage!",
    "end": "FFFF",
    "status": "done"
   },
@@ -166,7 +166,7 @@
    "id": "ST:00534",
    "kind": "menu",
    "jp": "あなたのその勇気で、\n立ち向かうことね！",
-   "en": "You'll have to face them with\nthat courage of yours!",
+   "en": "Face them with your courage!",
    "end": "FFFF",
    "status": "done"
   },
@@ -190,7 +190,7 @@
    "id": "ST:00604",
    "kind": "menu",
    "jp": "ちなみに、\nこのバトルには、\nギブアップがないぞ！",
-   "en": "By the way, you can't choose\nGive Up in this battle!",
+   "en": "By the way, you can't give up\nin this battle!",
    "end": "FFFF",
    "status": "done"
   },
@@ -198,7 +198,7 @@
    "id": "ST:00638",
    "kind": "menu",
    "jp": "ちなみに、\nこのバトルには、\nギブアップがないわ！",
-   "en": "By the way, you can't choose\nGive Up in this battle!",
+   "en": "By the way, you can't give up\nin this battle!",
    "end": "FFFF",
    "status": "done"
   },
@@ -206,7 +206,7 @@
    "id": "ST:00694",
    "kind": "menu",
    "jp": "心してかかれ！",
-   "en": "Be ready for anything!",
+   "en": "Be prepared!",
    "end": "FFFF",
    "status": "done"
   },
@@ -214,7 +214,7 @@
    "id": "ST:006A4",
    "kind": "menu",
    "jp": "心してかかりなさい！",
-   "en": "Make sure you're ready!",
+   "en": "Be well prepared!",
    "end": "FFFF",
    "status": "done"
   },
@@ -222,7 +222,7 @@
    "id": "ST:006E4",
    "kind": "menu",
    "jp": "よーく聞いておくんだぞ。",
-   "en": "Now listen very carefully.",
+   "en": "Listen very carefully.",
    "end": "FFFF",
    "status": "done"
   },
@@ -230,7 +230,7 @@
    "id": "ST:00700",
    "kind": "menu",
    "jp": "よーく聞いておきなさいよ。",
-   "en": "Be sure to listen carefully.",
+   "en": "Listen very carefully.",
    "end": "FFFF",
    "status": "done"
   },
@@ -254,7 +254,7 @@
    "id": "ST:007B4",
    "kind": "menu",
    "jp": "まったく、こまったやつだ！",
-   "en": "Honestly, you're a handful!",
+   "en": "Really, you're a handful!",
    "end": "FFFF",
    "status": "done"
   },
@@ -262,7 +262,7 @@
    "id": "ST:007D0",
    "kind": "menu",
    "jp": "まったく、こまったやつね！",
-   "en": "Honestly, you're a handful!",
+   "en": "Really, you're a handful!",
    "end": "FFFF",
    "status": "done"
   },
@@ -286,7 +286,7 @@
    "id": "ST:008AC",
    "kind": "menu",
    "jp": "バトル中に、\nスタートボタンを押すんだ！",
-   "en": "Press the Start button\nduring the battle!",
+   "en": "Press Start during the battle!",
    "end": "FFFF",
    "status": "done"
   },
@@ -294,7 +294,7 @@
    "id": "ST:008D8",
    "kind": "menu",
    "jp": "バトル中に、\nスタートボタンを押すの！",
-   "en": "Press the Start button\nduring the battle!",
+   "en": "Press Start during the battle!",
    "end": "FFFF",
    "status": "done"
   },
@@ -326,7 +326,7 @@
    "id": "ST:009E0",
    "kind": "menu",
    "jp": "もう一度、\nはじめからやり直す場合は、\nリトライを選択するの！",
-   "en": "If you want to start over\nfrom the beginning,\nchoose Retry!",
+   "en": "To restart from the beginning,\nchoose Retry!",
    "end": "FFFF",
    "status": "done"
   },
@@ -350,7 +350,7 @@
    "id": "ST:00ACC",
    "kind": "menu",
    "jp": "やっぱり、バトルをつづける\nという場合は、バトルをつづける\nを選択するんだ。",
-   "en": "If you decide you want to\nkeep battling after all,\nchoose Continue Battle.",
+   "en": "To keep battling after all,\nchoose Continue Battle.",
    "end": "FFFF",
    "status": "done"
   },
@@ -358,7 +358,7 @@
    "id": "ST:00B1C",
    "kind": "menu",
    "jp": "やっぱり、バトルをつづける\nという場合は、バトルをつづける\nを選択するの。",
-   "en": "If you decide you want to\nkeep battling after all,\nchoose Continue Battle.",
+   "en": "To keep battling after all,\nchoose Continue Battle.",
    "end": "FFFF",
    "status": "done"
   },
@@ -366,7 +366,7 @@
    "id": "ST:00B8C",
    "kind": "menu",
    "jp": "方向キーの、\n上と下で選択できるぞ！",
-   "en": "Use Up and Down on the\ndirectional pad to choose!",
+   "en": "Use D-pad Up and Down to choose!",
    "end": "FFFF",
    "status": "done"
   },
@@ -374,7 +374,7 @@
    "id": "ST:00BB4",
    "kind": "menu",
    "jp": "方向キーの、\n上と下で選択できるわ！",
-   "en": "Use Up and Down on the\ndirectional pad to choose!",
+   "en": "Use D-pad Up and Down to choose!",
    "end": "FFFF",
    "status": "done"
   },
@@ -382,7 +382,7 @@
    "id": "ST:00C04",
    "kind": "menu",
    "jp": "だいじな選択だから、\nよく考えて決めるように！",
-   "en": "This is an important choice,\nso think carefully!",
+   "en": "It's an important choice.\nThink carefully!",
    "end": "FFFF",
    "status": "done"
   },
@@ -390,7 +390,7 @@
    "id": "ST:00C34",
    "kind": "menu",
    "jp": "だいじな選択だから、\nよく考えて決めるようにね！",
-   "en": "This is an important choice,\nso think carefully!",
+   "en": "It's an important choice.\nThink carefully!",
    "end": "FFFF",
    "status": "done"
   },
@@ -398,7 +398,7 @@
    "id": "ST:00C8C",
    "kind": "menu",
    "jp": "決定は○ボタンだ！",
-   "en": "Press the Circle button\nto confirm!",
+   "en": "Circle to confirm!",
    "end": "FFFF",
    "status": "done"
   },
@@ -406,7 +406,7 @@
    "id": "ST:00CA0",
    "kind": "menu",
    "jp": "決定は○ボタンよ！",
-   "en": "Press the Circle button\nto confirm!",
+   "en": "Circle to confirm!",
    "end": "FFFF",
    "status": "done"
   },
@@ -446,7 +446,7 @@
    "id": "ST:00E14",
    "kind": "menu",
    "jp": "バラバラになっているイラストを、\nうまく完成させるとクリアだ！",
-   "en": "Put the scrambled picture back\ntogether correctly, and you win!",
+   "en": "Reassemble the scrambled picture\ncorrectly to win!",
    "end": "FFFF",
    "status": "done"
   },
@@ -454,7 +454,7 @@
    "id": "ST:00E54",
    "kind": "menu",
    "jp": "バラバラになっているイラストを、\nうまく完成させるとクリアよ！",
-   "en": "Put the scrambled picture back\ntogether correctly, and you win!",
+   "en": "Reassemble the scrambled picture\ncorrectly to win!",
    "end": "FFFF",
    "status": "done"
   },
@@ -478,7 +478,7 @@
    "id": "ST:00F3C",
    "kind": "menu",
    "jp": "カーソルは、\nコントローラの\n方向キーで動かすんだ！",
-   "en": "Move the cursor with the\ncontroller's directional\nbuttons!",
+   "en": "Use the controller's D-pad\nto move the cursor!",
    "end": "FFFF",
    "status": "done"
   },
@@ -486,7 +486,7 @@
    "id": "ST:00F74",
    "kind": "menu",
    "jp": "カーソルは、コントローラの\n方向キーで動かすの！",
-   "en": "Move the cursor with the\ncontroller's directional\nbuttons!",
+   "en": "Use the controller's D-pad\nto move the cursor!",
    "end": "FFFF",
    "status": "done"
   },
@@ -494,7 +494,7 @@
    "id": "ST:00FCC",
    "kind": "menu",
    "jp": "上、下、左、右の４方向に動くぞ！",
-   "en": "It moves in four directions:\nup, down, left, and right!",
+   "en": "Move up, down, left or right!",
    "end": "FFFF",
    "status": "done"
   },
@@ -502,7 +502,7 @@
    "id": "ST:00FF0",
    "kind": "menu",
    "jp": "上、下、左、右の４方向に動くわ！",
-   "en": "It moves in four directions:\nup, down, left, and right!",
+   "en": "Move up, down, left or right!",
    "end": "FFFF",
    "status": "done"
   },
@@ -510,7 +510,7 @@
    "id": "ST:0103C",
    "kind": "menu",
    "jp": "でも、動かせないパネルには、\nカーソルは動かせないぞ！",
-   "en": "But you can't move the cursor\nonto a panel that can't move!",
+   "en": "But the cursor can't move\nonto immovable panels!",
    "end": "FFFF",
    "status": "done"
   },
@@ -518,7 +518,7 @@
    "id": "ST:01074",
    "kind": "menu",
    "jp": "でも、動かせないパネルには、\nカーソルは動かせないわよ！",
-   "en": "But you can't move the cursor\nonto a panel that can't move!",
+   "en": "But the cursor can't move\nonto immovable panels!",
    "end": "FFFF",
    "status": "done"
   },
@@ -534,7 +534,7 @@
    "id": "ST:010EC",
    "kind": "menu",
    "jp": "ブザーが、なるの！",
-   "en": "A buzzer will sound!",
+   "en": "A buzzer sounds!",
    "end": "FFFF",
    "status": "done"
   },
@@ -542,7 +542,7 @@
    "id": "ST:01124",
    "kind": "menu",
    "jp": "動かすパネルを選択したら、\n○ボタンで決定だ！",
-   "en": "Once you've picked a panel to\nmove, press Circle to confirm!",
+   "en": "Pick a panel to move;\nconfirm with Circle!",
    "end": "FFFF",
    "status": "done"
   },
@@ -550,7 +550,7 @@
    "id": "ST:01154",
    "kind": "menu",
    "jp": "動かすパネルを選択したら、\n○ボタンで決定よ！",
-   "en": "Once you've picked a panel to\nmove, press Circle to confirm!",
+   "en": "Pick a panel to move;\nconfirm with Circle!",
    "end": "FFFF",
    "status": "done"
   },
@@ -558,7 +558,7 @@
    "id": "ST:011AC",
    "kind": "menu",
    "jp": "決定したパネルは、\n自動で動くぞ！",
-   "en": "The panel you've confirmed\nwill move automatically!",
+   "en": "Confirmed panels\nmove themselves!",
    "end": "FFFF",
    "status": "done"
   },
@@ -566,7 +566,7 @@
    "id": "ST:011D0",
    "kind": "menu",
    "jp": "決定したパネルは、\n自動で動くわ！",
-   "en": "The panel you've confirmed\nwill move automatically!",
+   "en": "Confirmed panels\nmove themselves!",
    "end": "FFFF",
    "status": "done"
   },
@@ -598,7 +598,7 @@
    "id": "ST:012DC",
    "kind": "menu",
    "jp": "こんなパズルもできないぼうやが\nこの私に勝とうなんて、\nおかしすぎるな！",
-   "en": "A boy who can't even solve this\npuzzle thinks he can beat ME?\nHow laughable!",
+   "en": "Boy, can't even do this puzzle?\nThink you can beat ME?\nHow laughable!",
    "end": "FFFF",
    "status": "done"
   },
@@ -606,7 +606,7 @@
    "id": "ST:01328",
    "kind": "menu",
    "jp": "こんなパズルもできないぼうやが\nこの私に勝とうなんて、\nおかしすぎるわね！",
-   "en": "A boy who can't even solve this\npuzzle thinks he can beat ME?\nHow hilarious!",
+   "en": "Boy, can't even do this puzzle?\nThink you can beat ME?\nHow hilarious!",
    "end": "FFFF",
    "status": "done"
   },
@@ -614,7 +614,7 @@
    "id": "ST:0139C",
    "kind": "menu",
    "jp": "私にかかれば、こんなパズル・・・",
-   "en": "For someone like me, this puzzle\nis nothing...",
+   "en": "To me, this puzzle is nothing...",
    "end": "FFFF",
    "status": "done"
   },
@@ -638,7 +638,7 @@
    "id": "ST:0142C",
    "kind": "menu",
    "jp": "ハッ！　できてるぞ！？\n思わず完成させてしまったが、\n負けは負けだ・・・。",
-   "en": "Hah! It's finished?!\nI solved it without thinking,\nbut a loss is a loss...",
+   "en": "Hah! It's done?!\nI solved it without thinking,\nbut a loss is a loss...",
    "end": "FFFF",
    "status": "done"
   },
@@ -646,7 +646,7 @@
    "id": "ST:01478",
    "kind": "menu",
    "jp": "ハッ！　できてるわ！？\n思わず完成させてしまったけど、\n負けは負けね・・・。",
-   "en": "Ah! It's finished?!\nI solved it without thinking,\nbut a loss is a loss...",
+   "en": "Ah! It's done?!\nI solved it without thinking,\nbut a loss is a loss...",
    "end": "FFFF",
    "status": "done"
   },
@@ -670,7 +670,7 @@
    "id": "ST:0155C",
    "kind": "menu",
    "jp": "ふはははは！\nなかなかやるではないか。",
-   "en": "Fwa ha ha ha!\nYou're quite good, aren't you?",
+   "en": "Fwa ha ha ha!\nYou're quite good!",
    "end": "FFFF",
    "status": "done"
   },
@@ -678,7 +678,7 @@
    "id": "ST:01584",
    "kind": "menu",
    "jp": "あはははは！\nなかなかやるじゃない。",
-   "en": "Ah ha ha ha!\nYou're rather good, aren't you?",
+   "en": "Ah ha ha ha!\nYou're rather good!",
    "end": "FFFF",
    "status": "done"
   },
@@ -686,7 +686,7 @@
    "id": "ST:015D4",
    "kind": "menu",
    "jp": "バラバラになっている\nイラストは、\nパネルというんだ！！",
-   "en": "The scattered pieces of the\npicture are called panels!!",
+   "en": "The scattered picture pieces\nare called panels!!",
    "end": "FFFF",
    "status": "done"
   },
@@ -694,7 +694,7 @@
    "id": "ST:01610",
    "kind": "menu",
    "jp": "バラバラになっている\nイラストは、\nパネルというの！！",
-   "en": "The scattered pieces of the\npicture are called panels!!",
+   "en": "The scattered picture pieces\nare called panels!!",
    "end": "FFFF",
    "status": "done"
   },
@@ -718,7 +718,7 @@
    "id": "ST:016D4",
    "kind": "menu",
    "jp": "裏になっている３まいのカードの、\nばしょと種類を当てるとクリアだ！",
-   "en": "Guess the types and positions of\nall three face-down cards,\nand you win!",
+   "en": "Guess the 3 face-down cards'\ntypes and positions to win!",
    "end": "FFFF",
    "status": "done"
   },
@@ -726,7 +726,7 @@
    "id": "ST:01718",
    "kind": "menu",
    "jp": "裏になっている３まいのカードの、\nばしょと種類を当てるとクリアよ！",
-   "en": "Guess the types and positions of\nall three face-down cards,\nand you win!",
+   "en": "Guess the 3 face-down cards'\ntypes and positions to win!",
    "end": "FFFF",
    "status": "done"
   },
@@ -734,7 +734,7 @@
    "id": "ST:01784",
    "kind": "menu",
    "jp": "カードは、９種類あって、\n１から９までの数字とイラストが、\nかいてあるんだ！",
-   "en": "There are nine types of cards,\neach with a picture and a\nnumber from 1 to 9!",
+   "en": "There are 9 card types, with\nnumbers 1 to 9 and pictures!",
    "end": "FFFF",
    "status": "done"
   },
@@ -742,7 +742,7 @@
    "id": "ST:017D4",
    "kind": "menu",
    "jp": "カードは９種類あって、\n１から９までの数字とイラストが\nかいてあるの！",
-   "en": "There are nine types of cards,\neach with a picture and a\nnumber from 1 to 9!",
+   "en": "There are 9 card types, with\nnumbers 1 to 9 and pictures!",
    "end": "FFFF",
    "status": "done"
   },
@@ -766,7 +766,7 @@
    "id": "ST:018CC",
    "kind": "menu",
    "jp": "カーソルは、\nコントローラの\n方向キーで動かすの！",
-   "en": "Move the cursor with the\ncontroller's directional\nbuttons!",
+   "en": "Use the controller's D-pad\nto move the cursor!",
    "end": "FFFF",
    "status": "done"
   },
@@ -790,7 +790,7 @@
    "id": "ST:01984",
    "kind": "menu",
    "jp": "かえたいカードに、\nカーソルを合わせるんだ！",
-   "en": "Move the cursor onto the\ncard you want to change!",
+   "en": "Put the cursor on a card\nto change it!",
    "end": "FFFF",
    "status": "done"
   },
@@ -798,7 +798,7 @@
    "id": "ST:019B4",
    "kind": "menu",
    "jp": "かえたいカードに、\nカーソルを合わせるの！",
-   "en": "Move the cursor onto the\ncard you want to change!",
+   "en": "Put the cursor on a card\nto change it!",
    "end": "FFFF",
    "status": "done"
   },
@@ -806,7 +806,7 @@
    "id": "ST:01A04",
    "kind": "menu",
    "jp": "カードをかえるときは、\n方向キーの上、下で選択するんだ！",
-   "en": "To change a card, press Up or\nDown on the directional buttons\nto make your selection!",
+   "en": "To change cards, select with\nUp or Down on the D-pad!",
    "end": "FFFF",
    "status": "done"
   },
@@ -814,7 +814,7 @@
    "id": "ST:01A40",
    "kind": "menu",
    "jp": "カードをかえるときは、\n方向キーの上、下で選択するのよ！",
-   "en": "To change a card, press Up or\nDown on the directional buttons\nto make your selection!",
+   "en": "To change cards, select with\nUp or Down on the D-pad!",
    "end": "FFFF",
    "status": "done"
   },
@@ -822,7 +822,7 @@
    "id": "ST:01AA4",
    "kind": "menu",
    "jp": "そして、○ボタンで決定だ！",
-   "en": "Then press Circle to confirm!",
+   "en": "Then confirm with Circle!",
    "end": "FFFF",
    "status": "done"
   },
@@ -830,7 +830,7 @@
    "id": "ST:01AC0",
    "kind": "menu",
    "jp": "そして、○ボタンで決定よ！",
-   "en": "Then press Circle to confirm!",
+   "en": "Then confirm with Circle!",
    "end": "FFFF",
    "status": "done"
   },
@@ -838,7 +838,7 @@
    "id": "ST:01B04",
    "kind": "menu",
    "jp": "×ボタンで\nキャンセルもできるぞ！",
-   "en": "You can also press Cross\nto cancel!",
+   "en": "Also press Cross to cancel!",
    "end": "FFFF",
    "status": "done"
   },
@@ -854,7 +854,7 @@
    "id": "ST:01B74",
    "kind": "menu",
    "jp": "３まいのカードを決定したら、\n１ターンおしまいだ！",
-   "en": "Once you've confirmed all three\ncards, your turn is over!",
+   "en": "Confirm all 3 cards to end\nyour turn!",
    "end": "FFFF",
    "status": "done"
   },
@@ -862,7 +862,7 @@
    "id": "ST:01BA8",
    "kind": "menu",
    "jp": "３まいのカードを決定したら、\n１ターンおしまい！",
-   "en": "Once you've confirmed all three\ncards, your turn is over!",
+   "en": "Confirm all 3 cards to end\nyour turn!",
    "end": "FFFF",
    "status": "done"
   },
@@ -870,7 +870,7 @@
    "id": "ST:01C04",
    "kind": "menu",
    "jp": "１ターンがおわって、\nカードのばしょが\n当たっているときは、",
-   "en": "At the end of your turn,\nif a card is in the right\nposition,",
+   "en": "At turn's end, if a card is\nin the right position,",
    "end": "FFFF",
    "status": "done"
   },
@@ -878,7 +878,7 @@
    "id": "ST:01C6C",
    "kind": "menu",
    "jp": "お！　１まい、当たりだ！\nと、ヒントをやろう！",
-   "en": "I'll give you a hint, like:\n\"Oh! One card is correct!\"",
+   "en": "I'll hint, \"Oh! One card\nis right!\"",
    "end": "FFFF",
    "status": "done"
   },
@@ -886,7 +886,7 @@
    "id": "ST:01C9C",
    "kind": "menu",
    "jp": "あら！　１まい、当たりね！\nと、ヒントをあげるわ！",
-   "en": "I'll give you a hint, like:\n\"My! One card is correct!\"",
+   "en": "I'll hint, \"My! One card\nis right!\"",
    "end": "FFFF",
    "status": "done"
   },
@@ -894,7 +894,7 @@
    "id": "ST:01CF4",
    "kind": "menu",
    "jp": "カードの種類が\n当たっているときは、\nうーん。２まい、おしいな！",
-   "en": "If you've got the card types\nright, I'll say:\n\"Hmm. Two cards are close!\"",
+   "en": "If the card types are right:\n\"Hmm. Two cards are close!\"",
    "end": "FFFF",
    "status": "done"
   },
@@ -902,7 +902,7 @@
    "id": "ST:01D38",
    "kind": "menu",
    "jp": "カードの種類が\n当たっているときは、\nうーん。２まい、おしいわね！",
-   "en": "If you've got the card types\nright, I'll say:\n\"Hmm. Two cards are close!\"",
+   "en": "If the card types are right:\n\"Hmm. Two cards are close!\"",
    "end": "FFFF",
    "status": "done"
   },
@@ -910,7 +910,7 @@
    "id": "ST:01DA4",
    "kind": "menu",
    "jp": "カードのばしょと種類が\n当たっているときは、",
-   "en": "If you've got some card\npositions and types right,",
+   "en": "If card types and positions\nare right,",
    "end": "FFFF",
    "status": "done"
   },
@@ -918,7 +918,7 @@
    "id": "ST:01DFC",
    "kind": "menu",
    "jp": "む！　１まい当たりで、\n２まい、おしいんだな！",
-   "en": "\"Hm! One card is correct,\nand two are close!\"",
+   "en": "\"Hm! One card's right,\nand two are close!\"",
    "end": "FFFF",
    "status": "done"
   },
@@ -926,7 +926,7 @@
    "id": "ST:01E2C",
    "kind": "menu",
    "jp": "あ！　１まい当たりで、\n２まい、おしいわね！",
-   "en": "\"Oh! One card is correct,\nand two are close!\"",
+   "en": "\"Oh! One card's right,\nand two are close!\"",
    "end": "FFFF",
    "status": "done"
   },
@@ -934,7 +934,7 @@
    "id": "ST:01E84",
    "kind": "menu",
    "jp": "と、心やさしいヒントをやろう！",
-   "en": "That's the sort of kindly hint\nI'll give you!",
+   "en": "I'll give you such kind hints!",
    "end": "FFFF",
    "status": "done"
   },
@@ -942,7 +942,7 @@
    "id": "ST:01EA4",
    "kind": "menu",
    "jp": "と、心やさしいヒントをあげるわ！",
-   "en": "That's the sort of kindly hint\nI'll give you!",
+   "en": "I'll give you such kind hints!",
    "end": "FFFF",
    "status": "done"
   },
@@ -950,7 +950,7 @@
    "id": "ST:01EEC",
    "kind": "menu",
    "jp": "さらに、Ｌ１とＲ１ボタンで、\n前に選択したカードも\n見られるんだ！",
-   "en": "You can also use L1 and R1\nto look at the cards you\npicked before!",
+   "en": "Also use L1 and R1 to view\nthe cards you picked before!",
    "end": "FFFF",
    "status": "done"
   },
@@ -958,7 +958,7 @@
    "id": "ST:01F30",
    "kind": "menu",
    "jp": "さらに、Ｌ１とＲ１ボタンで、\n前に選択したカードも\n見られるのよ！",
-   "en": "You can also use L1 and R1\nto look at the cards you\npicked before!",
+   "en": "Also use L1 and R1 to view\nthe cards you picked before!",
    "end": "FFFF",
    "status": "done"
   },
@@ -974,7 +974,7 @@
    "id": "ST:01FDC",
    "kind": "menu",
    "jp": "こんな感じで、制限ターン内に、\n３まいのカードを当てるの！",
-   "en": "That's how you guess all three\ncards within the turn limit!",
+   "en": "That's how to guess all 3 cards\nwithin the turn limit!",
    "end": "FFFF",
    "status": "done"
   },
@@ -982,7 +982,7 @@
    "id": "ST:0203C",
    "kind": "menu",
    "jp": "よし、ではいくぞ！\nみごと３まいのカードを\n見きってみよ！！",
-   "en": "All right, here we go!\nSee if you can figure out\nall three cards!!",
+   "en": "All right, here we go!\nTry to work out all 3 cards!!",
    "end": "FFFF",
    "status": "done"
   },
@@ -998,7 +998,7 @@
    "id": "ST:020EC",
    "kind": "menu",
    "jp": "お！　３まい当たりだ！",
-   "en": "Oh! All three cards are correct!",
+   "en": "Oh! All 3 cards right!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1006,7 +1006,7 @@
    "id": "ST:02104",
    "kind": "menu",
    "jp": "あら！　３まい当たりね！",
-   "en": "My! All three cards are correct!",
+   "en": "My! All 3 cards right!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1046,7 +1046,7 @@
    "id": "ST:0224C",
    "kind": "menu",
    "jp": "これがせいかいだ！",
-   "en": "Here's the correct answer!",
+   "en": "Here's the answer!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1054,7 +1054,7 @@
    "id": "ST:02260",
    "kind": "menu",
    "jp": "これがせいかいよ！",
-   "en": "Here's the correct answer!",
+   "en": "Here's the answer!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1070,7 +1070,7 @@
    "id": "ST:022F0",
    "kind": "menu",
    "jp": "さあ！　ブリキントンマシーンに\nのった、ハラペコブリキントンを\nくい止めてみなさい！",
-   "en": "Now! Let's see you stop those\nhungry Burikintons riding their\nBurikinton Machines!",
+   "en": "Now! Try to stop those hungry\nBurikintons riding their\nBurikinton Machines!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1094,7 +1094,7 @@
    "id": "ST:023CC",
    "kind": "menu",
    "jp": "はっはっはっ、ブリキントンに\n負けるようでは、\n話にならんな！",
-   "en": "Ha ha ha! If you can't even\nbeat Burikintons, you're\nnot worth my time!",
+   "en": "Ha ha ha! If Burikintons beat\nyou, you're not worth my time!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1102,7 +1102,7 @@
    "id": "ST:0240C",
    "kind": "menu",
    "jp": "はっはっはっ、ブリキントンに\n負けるようでは、\n話にならないわね！",
-   "en": "Ha ha ha! If you can't even\nbeat Burikintons, you're\nnot worth my time!",
+   "en": "Ha ha ha! If Burikintons beat\nyou, you're not worth my time!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1126,7 +1126,7 @@
    "id": "ST:024FC",
    "kind": "menu",
    "jp": "ケーキに集まってくる、\nブリキントンマシーンから、",
-   "en": "The Burikinton Machines are\nswarming around the cake...",
+   "en": "From Burikinton Machines\nswarming to the cake...",
    "end": "FFFF",
    "status": "done"
   },
@@ -1134,7 +1134,7 @@
    "id": "ST:02554",
    "kind": "menu",
    "jp": "カウントがおわるまで、\nケーキをまもるとクリアだ！",
-   "en": "Protect the cake until the\ncountdown ends, and you win!",
+   "en": "Guard the cake until the\ncountdown ends to win!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1142,7 +1142,7 @@
    "id": "ST:02588",
    "kind": "menu",
    "jp": "カウントがおわるまで、\nケーキをまもるとクリアよ！",
-   "en": "Protect the cake until the\ncountdown ends, and you win!",
+   "en": "Guard the cake until the\ncountdown ends to win!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1166,7 +1166,7 @@
    "id": "ST:02674",
    "kind": "menu",
    "jp": "どいつもなかなか手ごわいぞ！",
-   "en": "Every last one is quite tough!",
+   "en": "Every one is quite tough!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1182,7 +1182,7 @@
    "id": "ST:026DC",
    "kind": "menu",
    "jp": "ブリキントンマシーンは、\nブリキントンたたきでたおすんだ！",
-   "en": "Use the Burikinton Swatter\nto defeat the\nBurikinton Machines!",
+   "en": "Beat Burikinton Machines\nwith the Burikinton Swatter!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1190,7 +1190,7 @@
    "id": "ST:02718",
    "kind": "menu",
    "jp": "ブリキントンマシーンは、\nブリキントンたたきでたおすの！",
-   "en": "Use the Burikinton Swatter\nto defeat the\nBurikinton Machines!",
+   "en": "Beat Burikinton Machines\nwith the Burikinton Swatter!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1198,7 +1198,7 @@
    "id": "ST:0277C",
    "kind": "menu",
    "jp": "ブリキントンたたきは、\nコントローラの\n方向キーで動かすんだ！",
-   "en": "Move the Burikinton Swatter with\nthe controller's directional\nbuttons!",
+   "en": "Move the Burikinton Swatter\nwith the controller's D-pad!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1206,7 +1206,7 @@
    "id": "ST:027BC",
    "kind": "menu",
    "jp": "ブリキントンたたきは、\nコントローラの\n方向キーで動かすの！",
-   "en": "Move the Burikinton Swatter with\nthe controller's directional\nbuttons!",
+   "en": "Move the Burikinton Swatter\nwith the controller's D-pad!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1214,7 +1214,7 @@
    "id": "ST:02824",
    "kind": "menu",
    "jp": "８方向に動くぞ！",
-   "en": "It moves in eight directions!",
+   "en": "Move eight ways!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1222,7 +1222,7 @@
    "id": "ST:02838",
    "kind": "menu",
    "jp": "８方向に動くわよ！",
-   "en": "It moves in eight directions!",
+   "en": "Move eight ways!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1230,7 +1230,7 @@
    "id": "ST:02874",
    "kind": "menu",
    "jp": "うまく、ブリキントンたたきを\nブリキントンマシーンに合わせて、\n○ボタンでたおすんだ！",
-   "en": "Line up the Burikinton Swatter\nwith a Burikinton Machine, then\npress Circle to knock it out!",
+   "en": "Aim the Burikinton Swatter\nat a Burikinton Machine.\nPress Circle to beat it!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1238,7 +1238,7 @@
    "id": "ST:028CC",
    "kind": "menu",
    "jp": "うまく、ブリキントンたたきを\nブリキントンマシーンに合わせて、\n○ボタンでたおすの！",
-   "en": "Line up the Burikinton Swatter\nwith a Burikinton Machine, then\npress Circle to knock it out!",
+   "en": "Aim the Burikinton Swatter\nat a Burikinton Machine.\nPress Circle to beat it!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1246,7 +1246,7 @@
    "id": "ST:0294C",
    "kind": "menu",
    "jp": "こんなこと、\n私がおしえてしまうのも\nどうかと思うが・・・。",
-   "en": "Though I do wonder whether\nI ought to be teaching you\nall this...",
+   "en": "I wonder if I ought to be\nteaching you all this...",
    "end": "FFFF",
    "status": "done"
   },
@@ -1254,7 +1254,7 @@
    "id": "ST:0298C",
    "kind": "menu",
    "jp": "こんなこと、\n私がおしえてしまうのも\nどうかと思うけど・・・。",
-   "en": "Though I do wonder whether\nI ought to be teaching you\nall this...",
+   "en": "I wonder if I ought to be\nteaching you all this...",
    "end": "FFFF",
    "status": "done"
   },
@@ -1310,7 +1310,7 @@
    "id": "ST:02B6C",
    "kind": "menu",
    "jp": "光った数字の順番を、\nみごと当てるとクリアだ！",
-   "en": "Get the order of the flashing\nnumbers right, and you win!",
+   "en": "Match the numbers' flash order\nto win!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1318,7 +1318,7 @@
    "id": "ST:02B9C",
    "kind": "menu",
    "jp": "光った数字の順番を、\nみごと当てるとクリアよ！",
-   "en": "Get the order of the flashing\nnumbers right, and you win!",
+   "en": "Match the numbers' flash order\nto win!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1326,7 +1326,7 @@
    "id": "ST:02BF4",
    "kind": "menu",
    "jp": "きおくりょくゲームは、\nとにかくよく見ることが\nたいせつだ！",
-   "en": "In a memory game, the most\nimportant thing is to watch\nvery closely!",
+   "en": "Above all, watch closely\nin a memory game!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1334,7 +1334,7 @@
    "id": "ST:02C34",
    "kind": "menu",
    "jp": "きおくりょくゲームは、\nとにかくよく見ることが\nたいせつね！",
-   "en": "In a memory game, the most\nimportant thing is to watch\nvery closely!",
+   "en": "Above all, watch closely\nin a memory game!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1342,7 +1342,7 @@
    "id": "ST:02C9C",
    "kind": "menu",
    "jp": "そして、光った順番通りの数字を\nコントローラの方向キーで\n選択するんだ！",
-   "en": "Then use the controller's\ndirectional buttons to select\nthe numbers in the order shown!",
+   "en": "Then use the controller's D-pad\nto pick numbers in flash order!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1350,7 +1350,7 @@
    "id": "ST:02CE8",
    "kind": "menu",
    "jp": "そして、光った順番通りの数字を\nコントローラの方向キーで\n選択するの！",
-   "en": "Then use the controller's\ndirectional buttons to select\nthe numbers in the order shown!",
+   "en": "Then use the controller's D-pad\nto pick numbers in flash order!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1358,7 +1358,7 @@
    "id": "ST:02D54",
    "kind": "menu",
    "jp": "４方向に動くぞ！",
-   "en": "It moves in four directions!",
+   "en": "Move four ways!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1366,7 +1366,7 @@
    "id": "ST:02D68",
    "kind": "menu",
    "jp": "４方向に動くわ！",
-   "en": "It moves in four directions!",
+   "en": "Move four ways!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1374,7 +1374,7 @@
    "id": "ST:02DA4",
    "kind": "menu",
    "jp": "選択したら、○ボタンで決定だ！",
-   "en": "Once you've made your selection,\npress Circle to confirm!",
+   "en": "Choose, then Circle confirms!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1382,7 +1382,7 @@
    "id": "ST:02DC4",
    "kind": "menu",
    "jp": "選択したら、○ボタンで決定よ！",
-   "en": "Once you've made your selection,\npress Circle to confirm!",
+   "en": "Choose, then Circle confirms!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1390,7 +1390,7 @@
    "id": "ST:02E0C",
    "kind": "menu",
    "jp": "当たると、１回戦クリアだ！",
-   "en": "Get it right, and you clear\na round!",
+   "en": "Get it right, win a round!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1398,7 +1398,7 @@
    "id": "ST:02E28",
    "kind": "menu",
    "jp": "当たると、１回戦クリアよ！",
-   "en": "Get it right, and you clear\na round!",
+   "en": "Get it right, win a round!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1406,7 +1406,7 @@
    "id": "ST:02E6C",
    "kind": "menu",
    "jp": "こんな感じで、\n５回戦を勝ちぬくんだ！",
-   "en": "That's how you get through\nall five rounds!",
+   "en": "Win all 5 rounds this way!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1414,7 +1414,7 @@
    "id": "ST:02E94",
    "kind": "menu",
    "jp": "こんな感じで、\n５回戦を勝ちぬくの！",
-   "en": "That's how you get through\nall five rounds!",
+   "en": "Win all 5 rounds this way!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1422,7 +1422,7 @@
    "id": "ST:02EE4",
    "kind": "menu",
    "jp": "さすがだ・・・。",
-   "en": "Impressive, as expected...",
+   "en": "Impressive...",
    "end": "FFFF",
    "status": "done"
   },
@@ -1430,7 +1430,7 @@
    "id": "ST:02EF8",
    "kind": "menu",
    "jp": "さすがね・・・。",
-   "en": "Impressive, as expected...",
+   "en": "Impressive...",
    "end": "FFFF",
    "status": "done"
   },
@@ -1438,7 +1438,7 @@
    "id": "ST:02F34",
    "kind": "menu",
    "jp": "はっはっはっ。\nはり合いがないな！\n出直してこい！",
-   "en": "Ha ha ha! Hardly a challenge!\nCome back when you're ready!",
+   "en": "Ha ha ha! Too easy!\nCome back when you're ready!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1446,7 +1446,7 @@
    "id": "ST:02F68",
    "kind": "menu",
    "jp": "はっはっはっ。\nはり合いがないわね！\n出直してきなさい！",
-   "en": "Ha ha ha! Hardly a challenge!\nCome back when you're ready!",
+   "en": "Ha ha ha! Too easy!\nCome back when you're ready!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1454,7 +1454,7 @@
    "id": "ST:02FCC",
    "kind": "menu",
    "jp": "さあこたえよ！",
-   "en": "Now, give me your answer!",
+   "en": "Answer me now!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1462,7 +1462,7 @@
    "id": "ST:02FDC",
    "kind": "menu",
    "jp": "さあこたえなさい！",
-   "en": "Now, give me your answer!",
+   "en": "Answer me now!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1494,7 +1494,7 @@
    "id": "ST:03C10",
    "kind": "menu",
    "jp": "回戦",
-   "en": "Round",
+   "en": "Rd.",
    "end": "8888",
    "status": "done"
   },
@@ -1502,7 +1502,7 @@
    "id": "ST:03C18",
    "kind": "menu",
    "jp": "個！",
-   "en": "numbers!",
+   "en": "!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1518,7 +1518,7 @@
    "id": "ST:03C34",
    "kind": "menu",
    "jp": "\nきおくする数字は",
-   "en": "\nNumbers to memorize:",
+   "en": "\nMemorize digits:",
    "end": "8888",
    "status": "done"
   },

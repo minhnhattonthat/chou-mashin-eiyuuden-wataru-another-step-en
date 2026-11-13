@@ -22,11 +22,13 @@ _spec = importlib.util.spec_from_file_location("mipsre", Path(__file__).parent /
 _mipsre = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_mipsre)
 
-BASE = {"SLPS_013.68": 0x80017800, "PRG/ST.BIN": 0x800D0000, "PRG/BALLBAT.BIN": 0x800D0000,
+# Not ST: its strings are C local-array initializers, copied (inline lwl/lwr, 16-byte loops) into stack buffers of
+# exactly the JP size, so they stay in place at their JP length (IQ battle text was garbage when moved).
+BASE = {"SLPS_013.68": 0x80017800, "PRG/BALLBAT.BIN": 0x800D0000,
         "PRG/MACHINE.BIN": 0x800D0000, "PRG/TTL.BIN": 0x800D0000}
-# RAM end of the space past each overlay (first address the overlay's code builds past its end; ST: the font).
+# RAM end of the space past each overlay (first address the overlay's code builds past its end).
 # Not TTL: uses its own pool only (POOL).
-TAIL_END = {"PRG/ST.BIN": 0x80110000, "PRG/BALLBAT.BIN": 0x80109800, "PRG/MACHINE.BIN": 0x800F206C}
+TAIL_END = {"PRG/BALLBAT.BIN": 0x80109800, "PRG/MACHINE.BIN": 0x800F206C}
 POOL = {"PRG/TTL.BIN"}  # one run of u32-table strings: re-laid back to back
 # rest of the EXE zero run; 0x80098C2C-0x80098C40 is live (written at the title; strings there froze it, trap-tested)
 EXE_FREE = (compose.HOOK + 4 * len(compose.hook_words()), 0x80098C2C)

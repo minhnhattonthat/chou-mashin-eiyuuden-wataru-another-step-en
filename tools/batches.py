@@ -79,8 +79,8 @@ def box(entry):
         o = int(off, 16)
         return (16 if 0x10398 <= o < 0x103CC else 26), 1, "menu" if o >= 0x103CC else "name"  # 経験値/を手に入れた
     if src == "TTL":
-        # labels: 6 cells today; phase 7 moves the value column one cell right (x 112 -> 128), values keep 24
-        return (14 if int(off, 16) < 0x05528 else 24), 1, "menu"
+        # labels x 8 -> value column x 112: 13 letters (the 7th cell's right half is blank); values keep 24
+        return (13 if int(off, 16) < 0x05528 else 24), 1, "menu"
     if src == "LVUP":
         return 30, 4, "menu"
     return 32, 3, "choice" if "\n　" in entry["jp"] else "dlg"
@@ -130,6 +130,12 @@ def width_problems(entry, en):
                 ind = 2 * (len(j) - len(j.lstrip("　")))
                 if ind and (len(s) - len(s.lstrip(" ")) != ind):
                     out.append(f"line {k + 1} must start with {ind} spaces (cursor cells)")
+    if entry["id"] in st_slots():  # ST: copied into a stack buffer of the JP size, can't grow (strpack.py)
+        avail, nl = st_slots()[entry["id"]]
+        k = len(_insert().cells(en, nl))
+        if k > avail:
+            out.append(f"too long for its slot: {k} cells, room for {avail} (a cell = 2 letters of one line, "
+                       f"each line break is a cell): cut {k - avail}")
     sp = speaker(entry["jp"])
     if sp:
         want = SPEAKERS.get(sp)
@@ -138,6 +144,23 @@ def width_problems(entry, en):
         elif not lines[0].endswith(":"):
             out.append("first line is the speaker: end it with ':'")
     return out
+
+
+def _insert():
+    sys.path.insert(0, str(ROOT / "tools"))
+    import insert
+    return insert
+
+
+_ST = {}
+
+
+def st_slots():
+    """{ST id: (JP words, newline word)}."""
+    if not _ST:
+        _ST.update({e["id"]: (avail, nl) for e, path, off, w, avail, nl, ctx in _insert().entries()
+                    if path == "PRG/ST.BIN"})
+    return _ST
 
 
 def encodable(char):
