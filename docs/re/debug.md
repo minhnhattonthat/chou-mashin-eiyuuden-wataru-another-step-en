@@ -68,6 +68,14 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
   wins the ep-1 battle (GOD + Circle) with a debug-only RAM code patch: nop the `beqz` at 0x8005A7EC. The screen
   shows ワタルはレベルアップ！ … レベル０２になった！ ~350 frames after mode B, then returns to the field.
 - Battle win: ~10,900 frames of 12-frame Circle presses for the forced ep-1 battle (scene `battle_win`).
+- Mashin battle (mode 7) HP, u16, each with a copy: mashin **0x800BE31E / 0x800BEBA4**, enemy **0x800BE38A /
+  0x800BEF04** (RAM search 2026-11-14; the bars redraw only on the next hit). Set after the intro (~1,700 frames
+  into mode 7), so scenes write them with `late=`. Mashin at 1 + one enemy hit = explosion, then the retry box
+  (scene mashin_lose); enemy at 1 + 斬る = explosion, fade, mode B with the story dialogue (scene mashin_win).
+  Cold boot: the command menu drops presses until ~2,100 frames into mode 7; then circles 90 frames apart register.
+- Monpet roster: 8 x 34 bytes at **0x800A8D60** (u16 +0 nonzero = owned; 1 = a 水 rank-A one), swap list 8 x 6 at
+  0x800A9148. Per-episode monpet table u32 0x8008F88C[ep] (6-byte entries: attack-name index into the 10-cell table
+  0x80097AEC = exe_mashin_attacks). Scene monpet_detail.
 - File table 0x80077240: 1,037 records of 0x20 bytes {name ptr, load address, LBA (filled at boot), size, ...};
   loader 0x8002505C(index). `tools/filetab.py` lists it.
 
@@ -75,7 +83,8 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
 
 Title (menu, Continue -> card screen, Config), ep00-ep14 (area map + title card + opening dialogue of every
 episode), field, field menu and its five submenus, shop, save, battle (ball / mashin / IQ), battle won, battle
-lost, level-up, ending (FMV + staff roll), credits (mode 0x16). `warp_all.py` writes `work/qa/warp/<scene>/`
+lost, level-up, ending (FMV + staff roll), credits (mode 0x16); phase 5 added battle_menu/battle_item, mashin
+attack/hit/lose/win, iq_page2, menu_key, monpet_detail. `warp_all.py` writes `work/qa/warp/<scene>/`
 (final.png, sheet) and `work/states/<scene>.sstate`; summary.tsv has the arrival frame and the overlay check.
 
 ## Open (grow the list when a bug report names a place it can't reach)

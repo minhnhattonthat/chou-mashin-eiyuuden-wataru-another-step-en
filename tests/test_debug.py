@@ -21,7 +21,7 @@ def test_scene_list_parses_and_names_are_unique():
     assert want <= set(names)
     for n, opts in sc:
         assert all(k in {"ep", "stop", "idle", "poke", "mode", "press", "atmode", "atstate", "room", "hold",
-                         "frames", "every", "timeout", "wait", "mash", "god", "pokeloop"} for k in opts), n
+                         "frames", "every", "timeout", "wait", "mash", "god", "pokeloop", "late"} for k in opts), n
 
 
 def test_room_match_needs_a_near_exact_head(tmp_path):

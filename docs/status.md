@@ -2,10 +2,18 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Width gate nearly measured (docs/re/windows.md): open = もんペット attack names (exe_mashin_attacks),
-  mashin retry-menu shot, mashin win message. Last build: build/wataru_en.bin sha1 6bebf36b... (2026-11-14, marker
-  build + header patch), smoke ok. Stress builds: `tools/stress.py` (dialogue), `--ui` (menus/battle).
+- **Phase:** 6. Translate. Phase 5 done: every box variant in docs/re/windows.md measured in game (budgets there are
+  the translators' limits). Last build: build/wataru_en.bin sha1 6bebf36b... (2026-11-14, marker build + header
+  patch), smoke ok. Stress builds: `tools/stress.py` (dialogue), `--ui` (menus/battle).
 - **Done:**
+  - Phase 5, session 5 (2026-11-14), width gate closed: mashin HP found (mashin u16 0x800BE31E/0x800BEBA4, enemy
+    0x800BE38A/0x800BEF04, debug.md); retry box measured 7 cells = 14 letters x 2 lines (scene mashin_lose); mashin
+    win shows no 経験値 banner (scene mashin_win: explosion -> fade -> mode B story dialogue; the strings are banner
+    entries 0x20/0x21, budget 13 cells if ever drawn); もんペット attack names measured on the original: 10 cells
+    drawn **squeezed to half width** (8 px per cell), so English = 10 letters, one letter per cell (a 2x-wide
+    single-letter glyph: phase-7 item); roster RAM 0x800A8D60 (scene monpet_detail). warp.lua: `late=F:A:V:N`
+    one-shot write F frames into a scene. Ending/credits toured on the marker build (work/qa/p5/tour_end): FMV and
+    staff roll are graphics (STAFF.BIN, D3 = English: phase 8).
   - Phase 5, session 4 (2026-11-14): battle アイテム list measured (11 letters; inventory RAM + builder found, scene
     battle_item pokes it). Mashin battle: the 斬る/突く, 必殺技 and retry menus are texture strips cut from the MACHINE
     glyph lists by sprite records (box 8 cells = 16 letters; widening = phase-7 engine item, all addresses in
@@ -73,24 +81,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase-2 RE: SysMode table (0x8009C7FC), episode index 0x8009C90C (0-14; 12 and 13 share R13.BIN; 15 = ending),
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
-- **Next (phase 5: finish the width gate, `references/pipeline.md` §Width gate):**
-  1. Open windows.md rows: (a) もんペット attack names: find the monpet roster RAM (FDS code near 0x80104448 /
-     0x8010469C reads the names; the もんペット screen is empty with none owned), poke one, add a scene, fill
-     exe_mashin_attacks in `stress.py --ui` (already filled) and measure. (b) mashin retry menu (リトライ /
-     ゲームをやめる): find mashin HP (RAM diff across an enemy hit with tighter filters, or the bar-draw code), add a
-     mashin_lose scene, shot the menu box. (c) mashin win message (経験値 .. を手に入れた！): look in a mashin
-     battle_win run. Then phase 5 is done. Phase-7 engine items from this session: mashin strip relayout (windows.md).
-  3. Not yet in place-only insert: text longer than its JP slot. Phase 7: grow banks (bank pointers, NPC u32
-     arrays: text.md), menu pointers, fixed tables; fallback single-letter cells when a font context overflows.
-  4. MACHINE glyph lists 0x1761C/0x17630/0x17648, FDS name-entry grid 0x18468 (data, not in script/ yet).
-  5. Tour the marker build further: ending/credits sheets, mashin-battle messages, item-get messages; any box
-     showing Japanese that is not a graphics row = an extractor gap (sweep the disc for its form).
-  3b. Fixed fields now hold 2 letters per cell (8-cell name = 16 letters): measure, relocate only what still overflows.
-  4. Free-RAM: 0x80128800-0x80148000 is free outside battles only (files.md); pick a region that survives battles.
-  5. Marker build (`[id]` per entry), tour with the warps, width gate: measure every box variant in-game.
-  6. Phase 6 prep (translator batches): speakers are the first line (`ワタル：`); pages end 2000 (next page) /
-     3000 (message end); key-item descriptions use borrowed room-font codes ([01AF] etc., reading depends on episode).
-  7. Tour checks owed by the graphics survey (FK stills, FMV burnt-in text, credits pages, battle signs) have warps.
-     Grow scenes.txt when a report names a place it can't reach (open list in docs/re/debug.md).
+- **Next (phase 6: translate, `references/translation.md`):**
+  1. Before the first batch (§Before the first batch): fill glossary.md's open rulings (register, SFX style: agent
+     defaults under D6, record in decisions.md), seed names (official Wataru English where it exists, D2),
+     `docs/synopsis.md` (plot by episode 0-14), pilot one slice (ep00/ep01 opening) -> `docs/style-reference.md`.
+  2. `tools/batches.py` from `$SKILL/assets/batches.py`; ADAPTER: script/ JSON (rooms/*.json pages, EXE/ST/BALLBAT/
+     MACHINE/TTL/LVUP/FDS menus, exe_* fixed tables, ene/), limits from docs/re/windows.md (dialogue 32 letters x 3
+     lines incl. the speaker line; fixed fields 2 letters per cell, except もんペット attack names: 10 letters).
+     Speakers are the first line (`ワタル：`); pages end 2000 (next page) / 3000 (message end); key-item
+     descriptions use borrowed room-font codes ([01AF] etc., reading depends on episode). `docs/translator-brief.md`
+     + `docs/reviewer-brief.md` from the skill assets; terms pass before wave 1.
+  3. Dispatch: Orca refuses nested workers, so translate in this session or with `codex exec`; review in a fresh
+     read-only pass and write the verdicts.
+  Phase-7 items already known (do not block phase 6): text longer than its JP slot (grow banks: bank pointers, NPC
+  u32 arrays, text.md; menu pointers; fixed tables); fallback single-letter cells when a font context overflows;
+  mashin strip relayout (windows.md); banner/bfont names past their JP cells (relocate via their u32 / record
+  tables); monpet attack names as one 2x-wide letter per cell; MACHINE glyph lists 0x1761C/0x17630/0x17648 and FDS
+  name-entry grid 0x18468 (data, not in script/ yet); free RAM that survives battles (0x80128800-0x80148000 is free
+  outside battles only, files.md). Phase 8: graphics rows (G1-G24, incl. STAFF.BIN credits, FMV, FK stills).
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.

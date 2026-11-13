@@ -122,6 +122,12 @@ L.on_frame(function(f)
     if S.pokeloop and not arrived then
       for a, v, n in tostring(S.pokeloop):gmatch("(%x+):(%x+):(%d)") do wr(tonumber(a, 16), tonumber(v, 16), tonumber(n)) end
     end
+    -- late=F:A:V:N,...: written once F frames into the scene (after a battle has set up its own state)
+    if S.late then
+      for f0, a, v, n in tostring(S.late):gmatch("(%d+):(%x+):(%x+):(%d)") do
+        if d == tonumber(f0) then wr(tonumber(a, 16), tonumber(v, 16), tonumber(n)) end
+      end
+    end
     if (L.route_done() or S.mash) and d >= (S.wait or 30) and (S.atmode or S.atstate or mode == 0xC or mode == 0xD or mode == 5
         or S.stop == "title") and arrived_ok(mode) and not arrived then
       arrived = f
