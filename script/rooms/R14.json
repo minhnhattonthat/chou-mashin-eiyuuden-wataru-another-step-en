@@ -8,7 +8,8 @@
    "kind": "code",
    "end": "2000",
    "jp": "ワルジョ：\nまーたきたわね。",
-   "en": ""
+   "en": "Warujo:\nBack agaaain, are you?",
+   "status": "done"
   },
   {
    "id": "R14:1BCBE",
@@ -16,7 +17,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "前にもやったから、\n説明はなしよ。",
-   "en": ""
+   "en": "You've done this before,\nso I'll skip the explanation.",
+   "status": "done"
   },
   {
    "id": "R14:1BCE2",
@@ -24,7 +26,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "さあ、はやいところ、\nクリアしてちょうだい。",
-   "en": ""
+   "en": "Now, hurry up and\nclear it, please.",
+   "status": "done"
   },
   {
    "id": "R14:1BD10",
@@ -32,7 +35,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "このパネルをめくりますか？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Flip this panel?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R14:1C56A",
@@ -40,7 +44,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nとうとうやってきたね！",
-   "en": ""
+   "en": "Wataru:\nWe finally made it!",
+   "status": "done"
   },
   {
    "id": "R14:1C59A",
@@ -48,7 +53,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわね！",
-   "en": ""
+   "en": "Sakuya:\nIndeed we have!",
+   "status": "done"
   },
   {
    "id": "R14:1C5C2",
@@ -56,7 +62,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n・・・。",
-   "en": ""
+   "en": "Aragoto:\n...",
+   "status": "done"
   },
   {
    "id": "R14:1C5E6",
@@ -64,7 +71,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあら、あれは・・・。",
-   "en": ""
+   "en": "Sakuya:\nOh, is that...?",
+   "status": "done"
   },
   {
    "id": "R14:1C614",
@@ -72,7 +80,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nチビリーヌではないか？",
-   "en": ""
+   "en": "Aragoto:\nIs that not Teeny-rine?",
+   "status": "done"
   },
   {
    "id": "R14:1C646",
@@ -80,7 +89,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nえっ！？\nどうしてここに？",
-   "en": ""
+   "en": "Wataru:\nHuh?!\nWhat's she doing here?",
+   "status": "done"
   },
   {
    "id": "R14:1C690",
@@ -88,7 +98,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nワルリーヌっ。",
-   "en": ""
+   "en": "Wataru:\nWarurine!",
+   "status": "done"
   },
   {
    "id": "R14:1C6BA",
@@ -96,7 +107,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nあっ、ワタルくんだぁっ！\n遊びに来てくれたの？",
-   "en": ""
+   "en": "Warurine:\nOh, it's Wataru-kun!\nDid you come to play?",
+   "status": "done"
   },
   {
    "id": "R14:1C706",
@@ -104,7 +116,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n遊びに来たわけじゃねぇな。",
-   "en": ""
+   "en": "Aragoto:\nWe certainly did not come here\nto play.",
+   "status": "done"
   },
   {
    "id": "R14:1C73C",
@@ -112,7 +125,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nなぁんだ・・・。\nちょっと残念だなぁ。",
-   "en": ""
+   "en": "Warurine:\nOh...\nThat's a little disappointing.",
+   "status": "done"
   },
   {
    "id": "R14:1C780",
@@ -120,7 +134,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "でも、ちょっとだけ、\nボクの部屋で遊ばない？",
-   "en": ""
+   "en": "But won't you come play\nin my room for just a bit?",
+   "status": "done"
   },
   {
    "id": "R14:1C7BC",
@@ -128,7 +143,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n遊ばない？\nって言われても・・・。",
-   "en": ""
+   "en": "Wataru:\nCome play?\nWell, even if you ask...",
+   "status": "done"
   },
   {
    "id": "R14:1C7F8",
@@ -136,7 +152,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nいえ、よろしいじゃありませんか。\nワタルさま。",
-   "en": ""
+   "en": "Sakuya:\nWhy, that sounds lovely,\nWataru-sama.",
+   "status": "done"
   },
   {
    "id": "R14:1C840",
@@ -144,7 +161,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌさんの所へ\nおジャマいたしましょう・・・。",
-   "en": ""
+   "en": "Let us pay Warurine-san\na visit...",
+   "status": "done"
   },
   {
    "id": "R14:1C886",
@@ -152,7 +170,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサクヤ？",
-   "en": ""
+   "en": "Wataru:\nSakuya?",
+   "status": "done"
   },
   {
    "id": "R14:1C8A8",
@@ -160,7 +179,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nお嬢には何か考えがあるのだ。\n黙っていろ。",
-   "en": ""
+   "en": "Aragoto:\nThe young lady has a plan.\nKeep quiet.",
+   "status": "done"
   },
   {
    "id": "R14:1C8EE",
@@ -168,7 +188,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nさあ、ワルリーヌさん。\n遊びに行きましょう。",
-   "en": ""
+   "en": "Sakuya:\nCome, Warurine-san.\nLet us go and play.",
+   "status": "done"
   },
   {
    "id": "R14:1C934",
@@ -176,7 +197,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nわぁーい、じゃあ行こっ！",
-   "en": ""
+   "en": "Warurine:\nHooray! Let's go, then!",
+   "status": "done"
   },
   {
    "id": "R14:1C972",
@@ -184,7 +206,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nさっ、ここがボクの部屋だよっ！",
-   "en": ""
+   "en": "Warurine:\nHere we are! This is my room!",
+   "status": "done"
   },
   {
    "id": "R14:1C9AE",
@@ -192,7 +215,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nやはりそうだったのですね？",
-   "en": ""
+   "en": "Sakuya:\nSo it is as I suspected?",
+   "status": "done"
   },
   {
    "id": "R14:1C9E4",
@@ -200,7 +224,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえ？　何が？",
-   "en": ""
+   "en": "Wataru:\nHuh? What is?",
+   "status": "done"
   },
   {
    "id": "R14:1CA0A",
@@ -208,7 +233,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n黙っていろ。",
-   "en": ""
+   "en": "Aragoto:\nKeep quiet.",
+   "status": "done"
   },
   {
    "id": "R14:1CA32",
@@ -216,7 +242,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nどうしたの？　みんな？",
-   "en": ""
+   "en": "Warurine:\nWhat's wrong, everyone?",
+   "status": "done"
   },
   {
    "id": "R14:1CA68",
@@ -224,7 +251,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n界層のボスが\nどうも姉妹のようでしたので、",
-   "en": ""
+   "en": "Sakuya:\nThe bosses of the Layers\nseemed to be sisters,",
+   "status": "done"
   },
   {
    "id": "R14:1CAAC",
@@ -232,7 +260,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そのころからおかしいと\n思ってはいましたわ。",
-   "en": ""
+   "en": "so I have suspected something\nwas amiss ever since.",
+   "status": "done"
   },
   {
    "id": "R14:1CAE8",
@@ -240,7 +269,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nなにが・・・？",
-   "en": ""
+   "en": "Warurine:\nWhat do you mean...?",
+   "status": "done"
   },
   {
    "id": "R14:1CB14",
@@ -248,7 +278,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n？　？　？",
-   "en": ""
+   "en": "Wataru:\n? ? ?",
+   "status": "done"
   },
   {
    "id": "R14:1CB3A",
@@ -256,7 +287,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nワルリーヌさん。",
-   "en": ""
+   "en": "Sakuya:\nWarurine-san.",
+   "status": "done"
   },
   {
    "id": "R14:1CB64",
@@ -264,7 +296,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あなたは、【ワルジョ】、\n【ワルリリス】、【ワルトリン】の\n妹にして、",
-   "en": ""
+   "en": "You are Warujo, Warulilith\nand Warutorin's younger sister,\nand...",
+   "status": "done"
   },
   {
    "id": "R14:1CBBA",
@@ -272,7 +305,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "【魔王ワルモンダーの娘】\nなのですねっ！",
-   "en": ""
+   "en": "the daughter of the Demon King,\nWarumonder!",
+   "status": "done"
   },
   {
    "id": "R14:1CBF2",
@@ -280,7 +314,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nえっ！？",
-   "en": ""
+   "en": "Wataru:\nHuh?!",
+   "status": "done"
   },
   {
    "id": "R14:1CC16",
@@ -288,7 +323,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nえっ・・・？",
-   "en": ""
+   "en": "Warurine:\nHuh...?",
+   "status": "done"
   },
   {
    "id": "R14:1CC40",
@@ -296,7 +332,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n行く先々で私たちに\n協力するフリをしたり、",
-   "en": ""
+   "en": "Sakuya:\nYou pretended to help us\neverywhere we went,",
+   "status": "done"
   },
   {
    "id": "R14:1CC84",
@@ -304,7 +341,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "いたる所に出没したのは、",
-   "en": ""
+   "en": "and kept appearing wherever\nwe were...",
+   "status": "done"
   },
   {
    "id": "R14:1CCAC",
@@ -312,7 +350,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "私たちの情報をあなたの父、\n【ワルモンダー】に\n流すためだったのですね！",
-   "en": ""
+   "en": "all to pass information about us\nto your father,\nWarumonder!",
+   "status": "done"
   },
   {
    "id": "R14:1CD06",
@@ -320,7 +359,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nそ、そんな・・・。\nボク、そんなことしてないよ！",
-   "en": ""
+   "en": "Warurine:\nN-no...\nI never did anything like that!",
+   "status": "done"
   },
   {
    "id": "R14:1CD54",
@@ -328,7 +368,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうかしら・・・。",
-   "en": ""
+   "en": "Sakuya:\nIs that so...?",
+   "status": "done"
   },
   {
    "id": "R14:1CD80",
@@ -336,7 +377,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "胸に手を置いて、\n良く考えることですわ！",
-   "en": ""
+   "en": "Put your hand over your heart\nand think very carefully!",
+   "status": "done"
   },
   {
    "id": "R14:1CDBE",
@@ -344,7 +386,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルモンダー：\nワルリーヌよ、",
-   "en": ""
+   "en": "Warumonder:\nWarurine...",
+   "status": "done"
   },
   {
    "id": "R14:1CDEC",
@@ -352,7 +395,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "お前のお友達のワタルくんは、\n今どうしているのだ？",
-   "en": ""
+   "en": "What is your friend Wataru-kun\nup to now?",
+   "status": "done"
   },
   {
    "id": "R14:1CE36",
@@ -360,7 +404,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルモンダー：\nきっと今頃、お前の友達は\n【ワルリリス】がいる村あたりか？",
-   "en": ""
+   "en": "Warumonder:\nYour friend must be near\nWarulilith's village by now, eh?",
+   "status": "done"
   },
   {
    "id": "R14:1CE96",
@@ -368,7 +413,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルモンダー：\n今、お前の友達は・・・。",
-   "en": ""
+   "en": "Warumonder:\nNow, your friend...",
+   "status": "done"
   },
   {
    "id": "R14:1CED6",
@@ -376,7 +422,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nそ・・・そんなこと・・・。",
-   "en": ""
+   "en": "Warurine:\nTh-that can't...",
+   "status": "done"
   },
   {
    "id": "R14:1CF0E",
@@ -384,7 +431,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n私たちは、",
-   "en": ""
+   "en": "Sakuya:\nWe have traveled all this way...",
+   "status": "done"
   },
   {
    "id": "R14:1CF32",
@@ -392,7 +440,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "創界山に住まう悪の[00DB]身、\n【ワルモンダー一族】を",
-   "en": ""
+   "en": "to wipe the Warumonder family,\nevil incarnate in Sokaizan,",
+   "status": "done"
   },
   {
    "id": "R14:1CF72",
@@ -400,7 +449,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "その歴史から{k3B}し去るために\nここまで旅をしてきたのです。",
-   "en": ""
+   "en": "from the pages of history.",
+   "status": "done"
   },
   {
    "id": "R14:1CFBA",
@@ -408,7 +458,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nチビッ子。",
-   "en": ""
+   "en": "Aragoto:\nLittle one.",
+   "status": "done"
   },
   {
    "id": "R14:1CFE0",
@@ -416,7 +467,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "いやさ【魔王ワルモンダーの娘】、\nワルリーヌよ。\n覚悟を決めよ！",
-   "en": ""
+   "en": "Nay, Warurine, daughter of\nthe Demon King Warumonder...\nPrepare yourself!",
+   "status": "done"
   },
   {
    "id": "R14:1D032",
@@ -424,7 +476,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nやめろよ！",
-   "en": ""
+   "en": "Wataru:\nStop it!",
+   "status": "done"
   },
   {
    "id": "R14:1D056",
@@ -432,7 +485,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌはみんなを\n助けてくれたじゃないか！",
-   "en": ""
+   "en": "Warurine helped all of us,\ndidn't she?!",
+   "status": "done"
   },
   {
    "id": "R14:1D094",
@@ -440,7 +494,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nそれは私たちに取り入るための\n演出ではないと言い切れますか？",
-   "en": ""
+   "en": "Sakuya:\nAre you sure it was not an act\nto win our trust?",
+   "status": "done"
   },
   {
    "id": "R14:1D0EC",
@@ -448,7 +503,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n絶対そんなことないよ！",
-   "en": ""
+   "en": "Wataru:\nShe'd never do that!",
+   "status": "done"
   },
   {
    "id": "R14:1D11C",
@@ -456,7 +512,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だってワルリーヌはいつだって\n手助けしてくれたじゃないか！\nそれに・・・。",
-   "en": ""
+   "en": "Warurine was always there\nto help us, wasn't she?!\nBesides...",
+   "status": "done"
   },
   {
    "id": "R14:1D176",
@@ -464,7 +521,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n救世主ワタルよ。",
-   "en": ""
+   "en": "Aragoto:\nWataru, Savior.",
+   "status": "done"
   },
   {
    "id": "R14:1D1A2",
@@ -472,7 +530,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お主は救世主の資質を持つが故に、\nこの世界に召喚された。",
-   "en": ""
+   "en": "You were summoned to this world\nbecause you have the qualities\nof a Savior.",
+   "status": "done"
   },
   {
    "id": "R14:1D1EA",
@@ -480,7 +539,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n？",
-   "en": ""
+   "en": "Wataru:\n?",
+   "status": "done"
   },
   {
    "id": "R14:1D206",
@@ -488,7 +548,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n救世主の資質の根底は\n【弱者の救済】。",
-   "en": ""
+   "en": "Sakuya:\nA Savior's defining virtue is\nto protect the weak.",
+   "status": "done"
   },
   {
    "id": "R14:1D246",
@@ -496,7 +557,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "虐（しいた）げられたものを\n救うことが、その条件です。",
-   "en": ""
+   "en": "To save those who are oppressed\nis what is required.",
+   "status": "done"
   },
   {
    "id": "R14:1D28C",
@@ -504,7 +566,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nその資質故に、お主は今、\nワルリーヌをかばうのだ。",
-   "en": ""
+   "en": "Aragoto:\nThat virtue is why you now\nstand in defense of Warurine.",
+   "status": "done"
   },
   {
    "id": "R14:1D2DA",
@@ -512,7 +575,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だが、最早魔王となってしまった\n【ワルモンダーの一族】を\n滅することが",
-   "en": ""
+   "en": "But destroying the family\nof Warumonder, now demon kings,\nis what will...",
+   "status": "done"
   },
   {
    "id": "R14:1D330",
@@ -520,7 +584,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "創界山すべての人間・・・、\n弱者への救済になるのだ。",
-   "en": ""
+   "en": "save all the people of Sokaizan,\nthe weak who need our aid.",
+   "status": "done"
   },
   {
    "id": "R14:1D374",
@@ -528,7 +593,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nさぁ、ワタルさま、\nそこをどいてください。",
-   "en": ""
+   "en": "Sakuya:\nNow, Wataru-sama,\nplease step aside.",
+   "status": "done"
   },
   {
    "id": "R14:1D3BA",
@@ -1373,7 +1439,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "この創界山は\nパパのものだったのに・・・。",
-   "en": "But Sokaizan used to\nbelong to Papa...",
+   "en": "Sokaizan would still\nbelong to Papa...",
    "status": "done"
   },
   {
@@ -1832,7 +1898,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n貴様が・・・。",
-   "en": "Aragoto:\nSo it is you...\nyou high-and-mighty-sama.",
+   "en": "Aragoto:\nSo it is you...",
    "status": "done"
   },
   {
@@ -1886,7 +1952,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルモンダー：\nくっくっく・・・。\n洗脳とは人聞きの悪い。",
-   "en": ""
+   "en": "Warumonder:\nHeh heh heh...\n\"Brainwashing\" sounds so nasty.",
+   "status": "done"
   },
   {
    "id": "R14:1F796",
@@ -1894,7 +1961,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "か弱き自分の娘に力を\n貧してやるのは、父親として\n当然のつとめだろう？",
-   "en": ""
+   "en": "Isn't lending my feeble daughter\nmy strength only natural\nfor a father?",
+   "status": "done"
   },
   {
    "id": "R14:1F7EC",
@@ -1902,7 +1970,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそのような気づかいの心を\n持っているなら、",
-   "en": ""
+   "en": "Aragoto:\nIf you have such a caring\nheart, then...",
+   "status": "done"
   },
   {
    "id": "R14:1F832",
@@ -1910,7 +1979,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "なぜ人々の声に耳を貧さねぇんだ！",
-   "en": ""
+   "en": "why won't you lend an ear\nto the people?!",
+   "status": "done"
   },
   {
    "id": "R14:1F864",
@@ -1918,7 +1988,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n今すぐ、元の創界山にもどすんだ！",
-   "en": ""
+   "en": "Wataru:\nPut Sokaizan back the way\nit was! Right now!",
+   "status": "done"
   },
   {
    "id": "R14:1F8A0",
@@ -1926,7 +1997,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルモンダー：\n元の？　はっ！",
-   "en": ""
+   "en": "Warumonder:\nThe way it was? Hah!",
+   "status": "done"
   },
   {
    "id": "R14:1F8CE",
@@ -1934,7 +2006,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワシの所までやってきて、\n言いたいことはそれか？",
-   "en": ""
+   "en": "You came all this way to me,\nand that is all you have to say?",
+   "status": "done"
   },
   {
    "id": "R14:1F910",
@@ -1942,7 +2015,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "貴様は、\n人間の何を知っているというのだ？",
-   "en": ""
+   "en": "What do the likes of you know\nabout humans?",
+   "status": "done"
   },
   {
    "id": "R14:1F94C",
@@ -1950,7 +2024,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nなに？",
-   "en": ""
+   "en": "Wataru:\nWhat?",
+   "status": "done"
   },
   {
    "id": "R14:1F96E",
@@ -1958,7 +2033,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルモンダー：\n貴様のような奴にはわかるまい！",
-   "en": ""
+   "en": "Warumonder:\nYour kind could never\nunderstand!",
+   "status": "done"
   },
   {
    "id": "R14:1F9AC",
@@ -1966,7 +2042,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "弱き人間が、\n何を必要としているのか！\n弱者が、何を幸せだと思うのか！",
-   "en": ""
+   "en": "What weak humans need!\nWhat makes the weak happy!",
+   "status": "done"
   },
   {
    "id": "R14:1FA04",
@@ -1974,7 +2051,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\n何を言っているんだ・・・？",
-   "en": ""
+   "en": "Wataru:\nWhat are you talking about...?",
+   "status": "done"
   },
   {
    "id": "R14:1FA3A",
@@ -1982,7 +2060,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルモンダー：\n弱い人間はな・・・、",
-   "en": ""
+   "en": "Warumonder:\nYou see, weak humans...",
+   "status": "done"
   },
   {
    "id": "R14:1FA6E",
@@ -1990,7 +2069,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "【管理されることこそが必要】\nなのだよ・・・。",
-   "en": ""
+   "en": "need, above all else,\nto be controlled...",
+   "status": "done"
   },
   {
    "id": "R14:1FAAC",
@@ -1998,7 +2078,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n何だと？",
-   "en": ""
+   "en": "Aragoto:\nWhat did you say?",
+   "status": "done"
   },
   {
    "id": "R14:1FAD0",
@@ -2006,7 +2087,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルモンダー：\n管理されることで\n安心した生活を得ることができ、",
-   "en": ""
+   "en": "Warumonder:\nBeing controlled gives them\nsafe, secure lives.",
+   "status": "done"
   },
   {
    "id": "R14:1FB20",
@@ -2014,7 +2096,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "そして、幸せを感じるのだ！\nその幸せを弱者に提供して、\n何が悪い！",
-   "en": ""
+   "en": "And that makes them happy!\nWhat is wrong with giving\nthe weak that happiness?!",
+   "status": "done"
   },
   {
    "id": "R14:1FB72",
@@ -2022,7 +2105,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "今まで通ってきた村のもの達は、\nみな幸せであったろう？",
-   "en": ""
+   "en": "The people in every village\nyou passed through were happy,\nwere they not?",
+   "status": "done"
   },
   {
    "id": "R14:1FBB8",
@@ -2030,7 +2114,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村全体がひとつの価値観によって\n統一されているのだからなぁ。",
-   "en": ""
+   "en": "After all, each entire village\nwas united under a single value.",
+   "status": "done"
   },
   {
    "id": "R14:1FC04",
@@ -2038,7 +2123,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそんな考え方は、あなただけの\n欺瞞（ぎまん）にすぎませんわ！",
-   "en": ""
+   "en": "Sakuya:\nThat is nothing but your own\nself-deception!",
+   "status": "done"
   },
   {
    "id": "R14:1FC5A",
@@ -2046,7 +2132,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n人間は自分の意志、\n自分の価値観で動くものだ！",
-   "en": ""
+   "en": "Aragoto:\nPeople act by their own will,\nand by their own values!",
+   "status": "done"
   },
   {
    "id": "R14:1FCA4",
@@ -2054,7 +2141,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "てめぇの価値観を押しつけるのは\nやめてもらいたいね！",
-   "en": ""
+   "en": "I'll thank you to stop forcing\nyour values on everyone!",
+   "status": "done"
   },
   {
    "id": "R14:1FCEA",
@@ -2062,7 +2150,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nそれに、人はそんなことに\n甘える程弱くない！！",
-   "en": ""
+   "en": "Wataru:\nBesides, people aren't so weak\nthey need to lean on that!!",
+   "status": "done"
   },
   {
    "id": "R14:1FD34",
@@ -2070,7 +2159,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルモンダー：\n・・・所詮（しょせん）、\n救世主と言っても子供か・・・。",
-   "en": ""
+   "en": "Warumonder:\n...A Savior, yet still\nmerely a child...",
+   "status": "done"
   },
   {
    "id": "R14:1FD8C",
@@ -2078,7 +2168,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "口で言ってわからない子供には、\n罰が必要なようだな・・・。",
-   "en": ""
+   "en": "A child who will not listen\nto reason needs punishment,\nit seems...",
+   "status": "done"
   },
   {
    "id": "R14:1FDD8",
@@ -2086,7 +2177,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nわぁっ！　なんだぁっ！？",
-   "en": ""
+   "en": "Wataru:\nWhoa! What's happening?!",
+   "status": "done"
   },
   {
    "id": "R14:1FE0A",
@@ -2094,7 +2186,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルモンダー：\n救世主ワタルよ！",
-   "en": ""
+   "en": "Warumonder:\nWataru, Savior!",
+   "status": "done"
   },
   {
    "id": "R14:1FE3A",
@@ -2102,7 +2195,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "貴様ごときにこのワシの野望が\n止められるものか！！",
-   "en": ""
+   "en": "As if the likes of you could\nput an end to my ambitions!!",
+   "status": "done"
   },
   {
    "id": "R14:25B08",
@@ -2110,7 +2204,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nふあぁ～ぁ。\nかったるいなぁ～。",
-   "en": ""
+   "en": "Boy:\nYaaawn...\nWhat a draaag...",
+   "status": "done"
   },
   {
    "id": "R14:25B38",
@@ -2118,7 +2213,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "世界なんかなくなっちまえば\nいいのに・・・。",
-   "en": ""
+   "en": "I wish the whole world\nwould just disappear...",
+   "status": "done"
   },
   {
    "id": "R14:25B66",
@@ -2126,7 +2222,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おれ、もういらないから\nこれをやる・・。",
-   "en": ""
+   "en": "Here, take this.\nI don't want it anymore...",
+   "status": "done"
   },
   {
    "id": "R14:25B90",
@@ -2134,7 +2231,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【あがってマスク】を手に入れた！",
-   "en": ""
+   "en": "Got Mask Me Up!",
+   "status": "done"
   },
   {
    "id": "R14:25BB2",
@@ -2142,7 +2240,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "　おとこの子：\nふあぁ～ぁ。\nかったるいなぁ～。",
-   "en": ""
+   "en": "  Boy:\nYaaawn...\nWhat a draaag...",
+   "status": "done"
   },
   {
    "id": "R14:25BE4",
@@ -2150,7 +2249,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "世界なんかなくなっちまえば\nいいのに・・・。",
-   "en": ""
+   "en": "I wish the whole world\nwould just disappear...",
+   "status": "done"
   },
   {
    "id": "R14:25C12",
@@ -2158,7 +2258,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "　おとこの子：\nねむ～い・・・。",
-   "en": ""
+   "en": "  Boy:\nSo sleeepy...",
+   "status": "done"
   },
   {
    "id": "R14:25C34",
@@ -2166,7 +2267,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nもはや、何もかもが\nどうでもいいわい・・・。",
-   "en": ""
+   "en": "Old Man:\nNothing matters to me\nanymore...",
+   "status": "done"
   },
   {
    "id": "R14:25C70",
@@ -2174,7 +2276,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルモンダー】さまの\nすることに、まちがいは\nないじゃろうから・・・。",
-   "en": ""
+   "en": "I'm sure Warumonder-sama\ncan't do anything wrong...",
+   "status": "done"
   },
   {
    "id": "R14:25CBC",
@@ -2182,7 +2285,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nあ～？\n【ワルモンダー城】に入りたい～？",
-   "en": ""
+   "en": "Young Man:\nHuuuh? You wanna get inside\nWarumonder Castle?",
+   "status": "done"
   },
   {
    "id": "R14:25CF4",
@@ -2190,7 +2294,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "無理、無理、むりぃぃ～。\nおまえらなんかが、\n【ワルモンダー】にかなうもんか。",
-   "en": ""
+   "en": "No way, no way, no waaay.\nLike you lot could ever\nbeat Warumonder.",
+   "status": "done"
   },
   {
    "id": "R14:25D44",
@@ -2198,7 +2303,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nかっこよくヘアースタイルを\nきめてみたけど、どうでもいいや。",
-   "en": ""
+   "en": "Young Man:\nI got my hair looking cool,\nbut who cares?",
+   "status": "done"
   },
   {
    "id": "R14:25D90",
@@ -2206,7 +2312,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ガールフレンドなんか\nいなくたって、\n全然気にならないし・・・。",
-   "en": ""
+   "en": "I don't even care\nif I don't have a girlfriend...",
+   "status": "done"
   },
   {
    "id": "R14:25DD4",
@@ -2214,7 +2321,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\nは～ん？\nここがどこだか知りたい～？",
-   "en": ""
+   "en": "Woman:\nHuuuh?\nYou wanna know where you aaare?",
+   "status": "done"
   },
   {
    "id": "R14:25E06",
@@ -2222,7 +2330,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "知りたい。\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "I want to know.\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R14:25E2A",
@@ -2230,7 +2339,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばさん：\nん～なら、どこかのだれかに\n聞いてくれや～。",
-   "en": ""
+   "en": "Woman:\nThen go ask somebody\nsomewhere eeelse...",
+   "status": "done"
   },
   {
    "id": "R14:25E64",
@@ -2238,7 +2348,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばさん：\nは～ん・・・そうかい。",
-   "en": ""
+   "en": "Woman:\nHuuuh... Is that so.",
+   "status": "done"
   },
   {
    "id": "R14:25E88",
@@ -2246,7 +2357,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nこのご時世に、コンビニも\nものずきじゃのう・・・。",
-   "en": ""
+   "en": "Old Woman:\nRunning a convenience store now?\nWhat a strange thing to do...",
+   "status": "done"
   },
   {
    "id": "R14:25ECA",
@@ -2254,7 +2366,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "こんなにたくさん売っていても\n買うやつなんか、\nおるわけないのに・・・。",
-   "en": ""
+   "en": "All this stuff for sale,\nand there's not a soul\nwho'd buy any of it...",
+   "status": "done"
   },
   {
    "id": "R14:25F14",
@@ -2262,7 +2375,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nまあ、さすがに、回復アイテムは\n買ったほうがいいがな・・・。",
-   "en": ""
+   "en": "Old Woman:\nWell, you really ought to buy\nhealing items, at least...",
+   "status": "done"
   },
   {
    "id": "R14:25F60",
@@ -2270,7 +2384,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nなにが、もんペットよ・・・。\nこんなもののどこがいいのよ。",
-   "en": ""
+   "en": "Girl:\nMonpet, shmonpet...\nWhat's so great about them?",
+   "status": "done"
   },
   {
    "id": "R14:25FAA",
@@ -2278,7 +2393,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "しつけるのもメンドーだし、\nそだてるのもバカらしいわ。",
-   "en": ""
+   "en": "Training them is such a pain,\nand raising them is just stupid.",
+   "status": "done"
   },
   {
    "id": "R14:25FE4",
@@ -2286,7 +2402,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\nそういえば、公園のばあさん、\nもんペットを必死によんでいたわ。",
-   "en": ""
+   "en": "Girl:\nThat old lady in the park was\nfrantically calling her Monpet.",
+   "status": "done"
   },
   {
    "id": "R14:26034",
@@ -2294,7 +2411,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n【ワルモンダー】は、\n村長だったのよ。",
-   "en": ""
+   "en": "Young Woman:\nWarumonder used to be\nour village chief.",
+   "status": "done"
   },
   {
    "id": "R14:2606A",
@@ -2302,7 +2420,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "やさしい村長さんでね、\nみんなからしたわれていたん\nだけど・・・。",
-   "en": ""
+   "en": "He was such a kind chief-san,\nand everyone loved him,\nbut...",
+   "status": "done"
   },
   {
    "id": "R14:260AE",
@@ -2310,7 +2429,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "なぜ、あのやさしかった\n村長さんが、創界山のみんなを\n苦しませるのかしら・・・？",
-   "en": ""
+   "en": "Why would our once-kind\nchief-san make everyone in\nSokaizan suffer like this...?",
+   "status": "done"
   },
   {
    "id": "R14:26100",
@@ -2318,7 +2438,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nこの村に、救世主っちゅうやつが\nもぐりこんでおるらしいな～。",
-   "en": ""
+   "en": "Old Woman:\nSeems someone called the Savior\nhas sneaked into our village...",
+   "status": "done"
   },
   {
    "id": "R14:2614C",
@@ -2326,7 +2447,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "天下無敵の【ワルモンダー】\nさまに、たてつくとは\nおろかなやつじゃな。",
-   "en": ""
+   "en": "What a fool, defying\nthe invincible Warumonder-sama.",
+   "status": "done"
   },
   {
    "id": "R14:26194",
@@ -2334,7 +2456,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nてやんでえ！\n何だい、何だい、この村は！？",
-   "en": ""
+   "en": "Man:\nAw, nuts!\nWhat's with this village, huh?!",
+   "status": "done"
   },
   {
    "id": "R14:261CC",
@@ -2342,7 +2465,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "無気力なやつらばかりじゃねえか！\nさては【ワルモンダー】って\nやつのしわざだな・・・。",
-   "en": ""
+   "en": "Nothing but listless layabouts!\nI bet this Warumonder guy\nis behind it...",
+   "status": "done"
   },
   {
    "id": "R14:26224",
@@ -2350,7 +2474,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おう、おめえ救世主だろ？\n【ワルモンダー】ってやつを\nちょちょいと倒してこいやー！",
-   "en": ""
+   "en": "Hey, you're the Savior, right?\nGo knock that Warumonder guy\nflat! Piece of cake!",
+   "status": "done"
   },
   {
    "id": "R14:26278",
@@ -2358,7 +2483,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "ちょちょいと倒します！\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "I'll beat him! Piece of cake!\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R14:262A8",
@@ -2366,7 +2492,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nおう、その意気だぜ！\nガツン！　とやってこいやー！",
-   "en": ""
+   "en": "Man:\nYeah, that's the spirit!\nGo give him a good wallop!",
+   "status": "done"
   },
   {
    "id": "R14:262E8",
@@ -2374,7 +2501,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nなにぃ！？\nおめえそれでも救世主か？",
-   "en": ""
+   "en": "Man:\nWhat?!\nYou call yourself the Savior?",
+   "status": "done"
   },
   {
    "id": "R14:2631A",
@@ -2382,7 +2510,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "はぁ～おいらなけてくらぁ・・・。\nこうなったら、おいらが・・・！！\n・・・と思ったが、やっぱやめた！",
-   "en": ""
+   "en": "Aw, you're gonna make me cry...\nThen I'll have to do it myself!!\n...On second thought, forget it!",
+   "status": "done"
   },
   {
    "id": "R14:26380",
@@ -2390,7 +2519,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "無気力タロー：\nここは、天下無敵の\n【ワルモンダー】さまの村だぞー。",
-   "en": ""
+   "en": "Listless Taro:\nThis village belongs to the\ninvincible Warumonder-sama, yep.",
+   "status": "done"
   },
   {
    "id": "R14:263C6",
@@ -2398,7 +2528,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ムキリョク村】というんだぞー。\n無気力な人間だらけだぞー。\nで、わしは無気力タローだぞー。",
-   "en": ""
+   "en": "This is Mukiryoku Village, yep.\nFull of listless folks, yep.\nI'm Listless Taro, yep.",
+   "status": "done"
   },
   {
    "id": "R14:26424",
@@ -2406,7 +2537,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "無気力タロー：\nわしは無気力タローだぞー。\n無気力なげいふうが得意だぞー。",
-   "en": ""
+   "en": "Listless Taro:\nI'm Listless Taro, yep.\nListless comedy's my act, yep.",
+   "status": "done"
   },
   {
    "id": "R14:26470",
@@ -2414,7 +2546,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "だけど、みんな無気力なので、\n全然うけないんだぞー。\nもう、生きていけないんだぞー。",
-   "en": ""
+   "en": "But everyone's listless, yep.\nSo I never get a laugh, yep.\nI can't go on living, yep.",
+   "status": "done"
   },
   {
    "id": "R14:264C8",
@@ -2422,7 +2555,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "ミサキ：\nだめよ！　ケンジくん！\n逃げちゃダメ！",
-   "en": ""
+   "en": "Misaki:\nNo, Kenji-kun!\nDon't run away!",
+   "status": "done"
   },
   {
    "id": "R14:264FA",
@@ -2430,7 +2564,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "死ぬなら、必死に戦って、\nそれから死になさい！！",
-   "en": ""
+   "en": "If you're going to die,\nfight with all you've got first!\nThen you can die!!",
+   "status": "done"
   },
   {
    "id": "R14:2652C",
@@ -2438,7 +2573,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ミサキ：\nケンジくん・・・・・・。\n私って、ダメね・・・。",
-   "en": ""
+   "en": "Misaki:\nKenji-kun......\nI'm no good, am I...?",
+   "status": "done"
   },
   {
    "id": "R14:26568",
@@ -2446,7 +2582,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ミサキ：\nこんなときに、アユカが\nいてくれたら・・・。",
-   "en": ""
+   "en": "Misaki:\nIf only Ayuka were here\nat a time like this...",
+   "status": "done"
   },
   {
    "id": "R14:265A0",
@@ -2454,7 +2591,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\nいらっしゃい！\nぐっすり、ねていきな！",
-   "en": ""
+   "en": "Boy:\nWelcome!\nCome get a good night's sleep!",
+   "status": "done"
   },
   {
    "id": "R14:265D8",
@@ -2462,7 +2600,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nセーブはしたかい？\nつめがあまいと、いけないぞぅ。",
-   "en": ""
+   "en": "Boy:\nDid you save?\nDon't slip up at the last step!",
+   "status": "done"
   },
   {
    "id": "R14:2661C",
@@ -2470,7 +2609,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "アユカ：\n私、アユカよ！\nケンジのやつ、どこに行ったの！",
-   "en": ""
+   "en": "Ayuka:\nI'm Ayuka!\nWhere did that Kenji go?!",
+   "status": "done"
   },
   {
    "id": "R14:26656",
@@ -2478,7 +2618,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "私がいなければ、だめなんだから、\nあいつは！！",
-   "en": ""
+   "en": "He's hopeless without me\naround!!",
+   "status": "done"
   },
   {
    "id": "R14:26688",
@@ -2486,7 +2627,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "アユカ：\nなによ！　ケンジのやつ！\n自分だけ先に無気力になって！",
-   "en": ""
+   "en": "Ayuka:\nThat Kenji! How dare he go all\nlistless before I do!",
+   "status": "done"
   },
   {
    "id": "R14:266CA",
@@ -2494,7 +2636,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ミサキもミサキよ！\nケンジには、あまいんだから！\n私は負けないからね！！",
-   "en": ""
+   "en": "And Misaki's just as bad!\nShe's too soft on Kenji!\nI'm not giving in!!",
+   "status": "done"
   },
   {
    "id": "R14:26714",
@@ -2502,7 +2645,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nちぃ・・・。いいことなんて、\nちっとも、ありゃしない・・・。",
-   "en": ""
+   "en": "Young Man:\nTch... Nothing good\never happens...",
+   "status": "done"
   },
   {
    "id": "R14:26760",
@@ -2510,7 +2654,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "だらけた売り子：\nおい、そこの救世主！\nデリシャスナックを買ってけ！",
-   "en": ""
+   "en": "Lazy Clerk:\nHey, Savior! You there!\nBuy some Delicisnack!",
+   "status": "done"
   },
   {
    "id": "R14:267A6",
@@ -2518,7 +2663,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "デリシャスナックはなぁ、\nきずついた体を回復してくれる、\nありがた～いアイテムなんだ。",
-   "en": ""
+   "en": "Delicisnack is a wooonderful\nitem that heals your\nwounded body.",
+   "status": "done"
   },
   {
    "id": "R14:267FE",
@@ -2526,7 +2672,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "買ってくれなきゃ、おれがこまる！\nアイテムを売りきるまで、\n店主が家にかえしてくれんのだ。",
-   "en": ""
+   "en": "If you don't buy, I'm in a fix!\nThe boss won't let me go home\nuntil I sell every last item.",
+   "status": "done"
   },
   {
    "id": "R14:2685C",
@@ -2534,7 +2681,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "だらけた売り子：\nあ～、かったりぃぃ～。\nノルマなんか、くそくらえだ！",
-   "en": ""
+   "en": "Lazy Clerk:\nUgh, what a draaag...\nQuotas can go stuff it!",
+   "status": "done"
   },
   {
    "id": "R14:268A4",
@@ -2542,7 +2690,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ケンジ：\nミサキさん、ボクもうだめだよ。\n死にたいよ・・・。",
-   "en": ""
+   "en": "Kenji:\nMisaki-san, I can't go on.\nI want to die...",
+   "status": "done"
   },
   {
    "id": "R14:268E2",
@@ -2550,7 +2699,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "何もしたくないよ・・・。\nミサキさんだけ、逃げなよ・・・。",
-   "en": ""
+   "en": "I don't want to do anything...\nJust run away without me,\nMisaki-san...",
+   "status": "done"
   },
   {
    "id": "R14:26920",
@@ -2558,7 +2708,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "ケンジ：\nボクに戦う力なんかないよ・・・。\n・・・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "Kenji:\nI don't have the strength to\nfight... ...............",
+   "status": "done"
   },
   {
    "id": "R14:2696E",
@@ -2566,7 +2717,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・！！\nう、うわぁぁぁぁ！！\nヒトが、ヒトがせまってくるぅ！！",
-   "en": ""
+   "en": "...!!\nU-uaaaah!!\nPeople! People are closing in!!",
+   "status": "done"
   },
   {
    "id": "R14:269B2",
@@ -2574,7 +2726,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "うわぁぁぁぁぁぁぁぁぁぁぁぁぁ\nぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁ\nぁぁぁぁぁぁぁぁぁぁぁ！！！！",
-   "en": ""
+   "en": "Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!",
+   "status": "done"
   },
   {
    "id": "R14:26A14",
@@ -2582,7 +2735,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nお城の【ワルモンダー】さまには、\n娘さんが４人もいるのよ。",
-   "en": ""
+   "en": "Girl:\nWarumonder-sama in the castle\nhas all of four daughters-san.",
+   "status": "done"
   },
   {
    "id": "R14:26A5E",
@@ -2590,7 +2744,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "うつくしい【ワルジョ】さま。\n勇ましい【ワルリリス】さま。\nはじけている【ワルトリン】さま。",
-   "en": ""
+   "en": "The beautiful Warujo-sama.\nThe brave Warulilith-sama.\nThe bubbly Warutorin-sama.",
+   "status": "done"
   },
   {
    "id": "R14:26ABC",
@@ -2598,7 +2753,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そして・・・。\nかわいらしい・・・あれ！？\nあの方、何ていったかしら？",
-   "en": ""
+   "en": "And then...\nThe adorable... Huh?!\nWhat was her name again?",
+   "status": "done"
   },
   {
    "id": "R14:26B04",
@@ -2606,7 +2762,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\nえ～と、だれだったかしら？\nあのミドリのおかっぱの方・・・。",
-   "en": ""
+   "en": "Girl:\nUm... Who was she again?\nThe one with the green bob...",
+   "status": "done"
   },
   {
    "id": "R14:26B50",
@@ -2614,7 +2771,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "じいさん：\nおめえ、知ってるか？",
-   "en": ""
+   "en": "Old Man:\nHey, did you know?",
+   "status": "done"
   },
   {
    "id": "R14:26B72",
@@ -2622,7 +2780,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルモンダー】はなぁ、\n昔は村長だったんだぜ。",
-   "en": ""
+   "en": "Warumonder used to be\nour village chief.",
+   "status": "done"
   },
   {
    "id": "R14:26BA4",
@@ -2630,7 +2789,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "じいさん：\n地べたに座って、くつろぐのも\n気持ちのええもんじゃな～。",
-   "en": ""
+   "en": "Old Man:\nSitting on the ground and\nrelaxing feels mighty nice...",
+   "status": "done"
   },
   {
    "id": "R14:26BEC",
@@ -2638,7 +2798,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nねるより、らくはなかりけり。\n一生ねてくらしたいよ。",
-   "en": ""
+   "en": "Man:\nNo ease so deep as sleep.\nI'd sleep my whole life away.",
+   "status": "done"
   },
   {
    "id": "R14:26C30",
@@ -2646,7 +2807,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nあのふとんのＣＭ、\n耳にのこるんだよな。",
-   "en": ""
+   "en": "Man:\nThat bedding commercial\nsure sticks in your head.",
+   "status": "done"
   },
   {
    "id": "R14:26C66",
@@ -2654,7 +2816,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ねるねるねるぜぇーはぁ～。\nねるねるねるぜぇーはぁ～。\nう～ん、眠くなってきた・・・。",
-   "en": ""
+   "en": "Sleep, sleep, sleep, zzz... ahh.\nSleep, sleep, sleep, zzz... ahh.\nMmm, I'm getting sleepy...",
+   "status": "done"
   },
   {
    "id": "R14:26CC0",
@@ -2662,7 +2825,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nワルリーヌさまは、お花が\nすきだからなぁ・・・・・・。",
-   "en": ""
+   "en": "Man:\nWarurine-sama loves flowers,\nyou know......",
+   "status": "done"
   },
   {
    "id": "R14:26D04",
@@ -2670,7 +2834,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おかげで、ねごごちのいい場所が\nできて、よかったわい。",
-   "en": ""
+   "en": "Thanks to her, we've got\na comfy place to sleep.\nLucky us.",
+   "status": "done"
   },
   {
    "id": "R14:26D3C",
@@ -2678,7 +2843,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nんごーんごーんごー。\n・・・んがぁ！？・・・んごー。",
-   "en": ""
+   "en": "Man:\nSnrrrk... Snrrrk... Snrrrk...\n...Snort?! ...Snrrrk...",
+   "status": "done"
   },
   {
    "id": "R14:26D80",
@@ -2686,7 +2852,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nんごーんごー・・・ふがぁ！？\nワルリーヌさま、ばんざぁい！",
-   "en": ""
+   "en": "Man:\nSnrrrk... Snrrrk... Snort?!\nLong live Warurine-sama!",
+   "status": "done"
   },
   {
    "id": "R14:26DC8",
@@ -2694,7 +2861,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・・んごーんごーんごー。\nむにゃむにゃ・・・。\n【ワルモンダー】さま、ばんざい！",
-   "en": ""
+   "en": "...Snrrrk... Snrrrk... Snrrrk...\nMumble, mumble...\nLong live Warumonder-sama!",
+   "status": "done"
   },
   {
    "id": "R14:26E20",
@@ -2702,7 +2870,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "ワルモンダーの手下：\n何だきさまは！？",
-   "en": ""
+   "en": "Warumonder's Minion:\nWho do you think you are?!",
+   "status": "done"
   },
   {
    "id": "R14:26E48",
@@ -2710,7 +2879,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ここを【ワルモンダー】さまの\n城と知ってのことか！\nさっさとかえれ！",
-   "en": ""
+   "en": "Don't you know this is\nWarumonder-sama's castle?!\nGet out of here!",
+   "status": "done"
   },
   {
    "id": "R14:26E90",
@@ -2718,7 +2888,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "ワルモンダーの手下：\n何だきさまは！？",
-   "en": ""
+   "en": "Warumonder's Minion:\nWho do you think you are?!",
+   "status": "done"
   },
   {
    "id": "R14:26EB8",
@@ -2726,7 +2897,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ここを【ワルモンダー】さまの\n城と知ってのことか！\nさっさとかえれ！",
-   "en": ""
+   "en": "Don't you know this is\nWarumonder-sama's castle?!\nGet out of here!",
+   "status": "done"
   },
   {
    "id": "R14:26F00",
@@ -2734,7 +2906,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nぐて～。ああ～気持ちいい～。\nねるのが一番のたのしみだ～。",
-   "en": ""
+   "en": "Man:\nFlop... Aah, this feels niiice.\nNothing's more fun than sleep...",
+   "status": "done"
   },
   {
    "id": "R14:26F48",
@@ -2742,7 +2915,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nやあ、キミが救世主だね。\nこのさきは長いぞ。",
-   "en": ""
+   "en": "Young Man:\nHi, you're the Savior, right?\nYou've got a long way ahead.",
+   "status": "done"
   },
   {
    "id": "R14:26F84",
@@ -2750,7 +2924,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "十分、装備をととのえてから\n進んだほうがいい。",
-   "en": ""
+   "en": "You'd better get fully equipped\nbefore you go any farther.",
+   "status": "done"
   },
   {
    "id": "R14:26FB4",
@@ -2758,7 +2933,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nここは最強のお方、\n【ワルモンダー】さまのお城じゃ。",
-   "en": ""
+   "en": "Man:\nThis castle belongs to\nthe strongest, Warumonder-sama.",
+   "status": "done"
   },
   {
    "id": "R14:26FF6",
@@ -2766,7 +2942,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "最強じゃから、その手下も\n強者ぞろいじゃ。\nそれにくわえてトラップもある。",
-   "en": ""
+   "en": "He's the strongest, so all\nhis minions are tough, too.\nPlus, there are traps.",
+   "status": "done"
   },
   {
    "id": "R14:27042",
@@ -2774,7 +2951,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "いよいよ救世主もおわりじゃな。\nま、ここまで来たのは、\nたいしたもんだとほめておこう。",
-   "en": ""
+   "en": "It's the end for the Savior.\nStill, I'll give you credit.\nGetting this far is impressive.",
+   "status": "done"
   },
   {
    "id": "R14:2709C",
@@ -2782,7 +2960,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nねえねえ、さっき、ワルリーヌ\nちゃんが通りすぎていったよ。",
-   "en": ""
+   "en": "Boy:\nHey, hey! Warurine-chan just\nwent past here a minute ago!",
+   "status": "done"
   },
   {
    "id": "R14:270E6",
@@ -2790,7 +2969,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "何かあったのかなぁ・・・。",
-   "en": ""
+   "en": "I wonder if something\nhappened...",
+   "status": "done"
   },
   {
    "id": "R14:27104",
@@ -2798,7 +2978,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nワルリーヌちゃんのお父さん、\nいだいなる【ワルモンダー】！！",
-   "en": ""
+   "en": "Boy:\nWarurine-chan's father-san,\nthe great Warumonder!!",
+   "status": "done"
   },
   {
    "id": "R14:27150",
@@ -2806,7 +2987,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "すごいぞ、こわいぞ！\n【ワルモンダー】！！\n「ザ・キング・オブ・悪者」だー！",
-   "en": ""
+   "en": "He's awesome! He's scary!\nWarumonder!!\nHe's \"The King of All Villains\"!",
+   "status": "done"
   },
   {
    "id": "R14:271A0",
@@ -2850,7 +3032,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nここは【ワルトリン】さまの\nエリアじゃ。",
-   "en": "Old Woman:\nThis is Warutorin-sama's\narea.",
+   "en": "Old Woman:\nThis is Warutorin-sama's\narea, ye see.",
    "status": "done"
   },
   {
@@ -2859,7 +3041,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "もう一方は、\n【ワルリリス】さまのエリアじゃ。",
-   "en": "The other side is\nWarulilith-sama's area.",
+   "en": "On the other side, ye'll find\nWarulilith-sama's area.",
    "status": "done"
   },
   {
@@ -3048,7 +3230,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "あんなに体をきたえているのを\n見てると、わしゃぁ、自分が\n情けのおて、何もする気がおきん。",
-   "en": "Seeing how hard she trains\nmakes me feel so pathetic,\nI don't feel like doing a thing.",
+   "en": "Watching her train so hard,\nthis old man feels so ashamed,\nI've no will to do a thing.",
    "status": "done"
   },
   {
@@ -3093,7 +3275,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nう～む、なんか気になるのぉ。\nこっちの部屋と向こうの部屋が。",
-   "en": "Old Woman:\nHmm... Something's bothering me\nabout this room and that one.",
+   "en": "Old Woman:\nHmm... These two rooms puzzle\nme, they do.",
    "status": "done"
   },
   {
@@ -3102,7 +3284,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "にているようで、何かがちがう。\nいったい何じゃろうな・・・。\n気のせいか・・・。",
-   "en": "They look alike, but not quite.\nWhat could it be...?\nAm I imagining it...?",
+   "en": "They look alike, but something's\ndifferent. What could it be, eh?\nPerhaps I'm imagining things...",
    "status": "done"
   },
   {

@@ -1429,7 +1429,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n【おべんと娘】のお弁当はのぉ、\nまごころがこもっておるんじゃ。",
-   "en": "Old Woman:\nBento Girl puts her whole heart\ninto those boxed lunches.",
+   "en": "Old Woman:\nBento Girl puts her whole heart\ninto those lunches, bless her.",
    "status": "done"
   },
   {
@@ -1438,7 +1438,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "あの子は、ホントに良い子じゃよ。",
-   "en": "She's such a good girl.",
+   "en": "Aye, she's such a good girl.",
    "status": "done"
   },
   {
@@ -1618,7 +1618,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nこの上はキケンだーよ。",
-   "en": "Old Woman:\nIt's dangerous up there.",
+   "en": "Old Woman:\nIt's dangerous up there, aye.",
    "status": "done"
   },
   {
@@ -1627,7 +1627,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "アタシら村人も行かない\nコワーイところだーよ。",
-   "en": "It's so scaaary, even we\nvillagers won't go there.",
+   "en": "It's so scaaary, I tell ye!\nEven we villagers won't go\nthere.",
    "status": "done"
   },
   {
@@ -1807,7 +1807,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nみんなおかずになってしまって、\nコワーイだーよ。",
-   "en": "Old Woman:\nEveryone's turned into food!\nIt's scaaary!",
+   "en": "Old Woman:\nEveryone's turned into food!\nIt's scaaary, I tell ye!",
    "status": "done"
   },
   {
@@ -1816,7 +1816,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "ところがどっこい！\n私のすがたも、コワーイだーよ。",
-   "en": "But wouldn't you know it!\nI look scaaary too!",
+   "en": "But wouldn't ye know it!\nI look scaaary too, I tell ye!",
    "status": "done"
   },
   {
@@ -1906,7 +1906,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\nどうでもいいんじゃが・・・。\nみんなおいしそうじゃのう。",
-   "en": "Old Woman:\nNot that it matters, but...\nEveryone looks delicious.",
+   "en": "Old Woman:\nNot that it matters, but...\nEveryone looks delicious, eh?",
    "status": "done"
   },
   {

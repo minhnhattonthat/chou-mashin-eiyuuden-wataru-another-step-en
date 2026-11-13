@@ -512,7 +512,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\n実は今の【メグ】ちゃんは、\nデジクロソフトの",
-   "en": "Takuro:\nActually, the current Meg-chan\nis Digicrosoft's...",
+   "en": "Takuro:\nActually, Meg-chan is now\ncontrolled by Digicrosoft's",
    "status": "done"
   },
   {
@@ -521,7 +521,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "【ビル・ジョブス】に、\nプログラムをいじられて\n操られているんだ。",
-   "en": "Bill Jobs from Digicrosoft.\nHe's been tampering\nwith her program.",
+   "en": "Bill Jobs. He's tampered\nwith her program.",
    "status": "done"
   },
   {
@@ -1178,7 +1178,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nうん、これから\n破壊プログラムを送るから、",
-   "en": "Takuro:\nOkay! I'm sending the program\nto destroy hers now.",
+   "en": "Takuro:\nOkay! I'm sending the program\nto break Bill's control now.",
    "status": "done"
   },
   {
@@ -2231,7 +2231,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n元の世界に戻ってきたなら\n龍神丸が召喚できるハズですわ！",
-   "en": "Sakuya:\nBack home, we should be able to\nsummon Ryujinmaru!",
+   "en": "Sakuya:\nWe are back in the real world!\nWe can summon Ryujinmaru now!",
    "status": "done"
   },
   {
@@ -2600,7 +2600,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nデジクロソフトって知っている？",
-   "en": ""
+   "en": "Young Woman:\nHave you heard of Digicrosoft?",
+   "status": "done"
   },
   {
    "id": "R07:21E9A",
@@ -2608,7 +2609,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "私達のアイドル、【メグ】様を\nプロデュースしているところなの。",
-   "en": ""
+   "en": "They're the company behind\nour idol, Meg-sama.",
+   "status": "done"
   },
   {
    "id": "R07:21EDA",
@@ -2616,7 +2618,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "知っている？\n社員の【ビル・ジョブス】さん。",
-   "en": ""
+   "en": "Do you know Bill Jobs-san,\none of their employees?",
+   "status": "done"
   },
   {
    "id": "R07:21F08",
@@ -2624,7 +2627,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "聞くところによると、\n【メグ】様のプロデュースで\n何十億ガンボもかせいだそうよ！",
-   "en": ""
+   "en": "I hear he's made billions of\nGambo producing Meg-sama!",
+   "status": "done"
   },
   {
    "id": "R07:21F5C",
@@ -2632,7 +2636,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nデジクロソフト？\nハーイ、ワタシ、ヨクゴゾンジー。",
-   "en": ""
+   "en": "Man:\nDigicrosoft?\nYeees, I know it very well!",
+   "status": "done"
   },
   {
    "id": "R07:21F9C",
@@ -2640,7 +2645,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "イマ、ソコニ\nイッテキタトコロネー。",
-   "en": ""
+   "en": "I have just been there,\nyou seeee.",
+   "status": "done"
   },
   {
    "id": "R07:21FC2",
@@ -2648,7 +2654,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "コノサキノ、ハシゴヲノボッテ、\nシバラク、ススンダトコロニ\nアルヨー。",
-   "en": ""
+   "en": "Climb the ladder up ahead,\nthen go a little farther.\nYou'll find it there.",
+   "status": "done"
   },
   {
    "id": "R07:2200C",
@@ -2656,7 +2663,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nイエッー！\n【メグ】、【メグ】！",
-   "en": ""
+   "en": "Young Man:\nYeeaah!\nMeg! Meg!",
+   "status": "done"
   },
   {
    "id": "R07:2203C",
@@ -2664,7 +2672,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "キミにもわかるだろう？\nこの気持ち。",
-   "en": ""
+   "en": "You get it too, right?\nThis feeling?",
+   "status": "done"
   },
   {
    "id": "R07:22062",
@@ -2672,7 +2681,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ディスプレイをなめるように\n見つめて、かたときも【メグ】\nから目を離しちゃだめだぜー！",
-   "en": ""
+   "en": "Drink in every inch of that\nscreen! Don't take your eyes\noff Meg for even a second!",
+   "status": "done"
   },
   {
    "id": "R07:220BC",
@@ -2680,7 +2690,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nイエッー！\n【メグ】、【メグ】！",
-   "en": ""
+   "en": "Young Man:\nYeeaah!\nMeg! Meg!",
+   "status": "done"
   },
   {
    "id": "R07:220EC",
@@ -2688,7 +2699,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "キミのヒトミは、\nソライロモヨウ。\nボクの心はキミにくぎづけ！",
-   "en": ""
+   "en": "Your eyes are sky-blue!\nMy heart is stuck on you!",
+   "status": "done"
   },
   {
    "id": "R07:2212C",
@@ -2696,7 +2708,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nイエッー！\n知ってるかい！？",
-   "en": ""
+   "en": "Young Man:\nYeeaah!\nHey, did you know?!",
+   "status": "done"
   },
   {
    "id": "R07:22158",
@@ -2704,7 +2717,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【メグ】、【メグ】はねぇ！\nボクのかのじょなんだぜぇ！",
-   "en": ""
+   "en": "Meg! Meg is...\nmy girlfriend!",
+   "status": "done"
   },
   {
    "id": "R07:22190",
@@ -2712,7 +2726,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "えっ？　うそもたいがいにしろ？\nうそじゃねえ！",
-   "en": ""
+   "en": "Huh? Quit making stuff up?\nI'm not lying!",
+   "status": "done"
   },
   {
    "id": "R07:221C0",
@@ -2720,7 +2735,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【メグ】は、村人すべてのために\n創られた、きゅうきょくの\nヴァーチャルアイドルなんだぜ！",
-   "en": ""
+   "en": "Meg is the ultimate virtual\nidol, created for everyone\nin the village!",
+   "status": "done"
   },
   {
    "id": "R07:2221C",
@@ -2728,7 +2744,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n【メグ】ファンのごくい！\nひとーつ。",
-   "en": ""
+   "en": "Young Woman:\nThe code of the Meg fan!\nRule one!",
+   "status": "done"
   },
   {
    "id": "R07:22250",
@@ -2736,7 +2753,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ディスプレイに、\nぴったりくっついて\n【メグ】様を見つめるべし！",
-   "en": ""
+   "en": "Press yourself right up\nagainst the screen and\ngaze upon Meg-sama!",
+   "status": "done"
   },
   {
    "id": "R07:22294",
@@ -2744,7 +2762,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n【メグ】ファンのごくい！\nひとーつ。",
-   "en": ""
+   "en": "Young Woman:\nThe code of the Meg fan!\nRule one!",
+   "status": "done"
   },
   {
    "id": "R07:222C8",
@@ -2752,7 +2771,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "目が覚めたら、\nディスプレイに向かって、\n三度、礼をするべし！",
-   "en": ""
+   "en": "Upon waking, face the screen\nand bow three times!",
+   "status": "done"
   },
   {
    "id": "R07:22308",
@@ -2760,7 +2780,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "礼をするべし！",
-   "en": ""
+   "en": "Bow, I say!",
+   "status": "done"
   },
   {
    "id": "R07:22318",
@@ -2768,7 +2789,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【メグ】ファンのごくい！\nひとーつ。",
-   "en": ""
+   "en": "Young Woman:\nThe code of the Meg fan!\nRule one!",
+   "status": "done"
   },
   {
    "id": "R07:2234C",
@@ -2776,7 +2798,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "明日のために、\n【メグ】様の歌を聞くべし！\n聞くべし！",
-   "en": ""
+   "en": "For the sake of tomorrow,\nlisten to Meg-sama's songs!\nListen, I say!",
+   "status": "done"
   },
   {
    "id": "R07:22384",
@@ -2784,7 +2807,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【メグ】ファンのごくい！\nひとーつ。",
-   "en": ""
+   "en": "Young Woman:\nThe code of the Meg fan!\nRule one!",
+   "status": "done"
   },
   {
    "id": "R07:223B8",
@@ -2792,7 +2816,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【メグ】様を見たら、\n７日は、目を洗わないべし！\n洗わないべし！",
-   "en": ""
+   "en": "After seeing Meg-sama, do not\nwash your eyes for seven days!\nDo not wash, I say!",
+   "status": "done"
   },
   {
    "id": "R07:223FC",
@@ -2800,7 +2825,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\n【メグ】様のシングルＣＤ第３弾、\n【星にねがって】はいかが？",
-   "en": ""
+   "en": "Young Woman:\nMeg-sama's third CD single,\n'Wish Upon a Star'! Want one?",
+   "status": "done"
   },
   {
    "id": "R07:22448",
@@ -2808,7 +2834,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nいよっ、そこのぼうや！\n【メグ】様のアルバムいらんかね！",
-   "en": ""
+   "en": "Young Man:\nHey there, kiddo!\nWant Meg-sama's album?",
+   "status": "done"
   },
   {
    "id": "R07:22490",
@@ -2816,7 +2843,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "今なら、いろいろと\nおまけしちゃうよ。",
-   "en": ""
+   "en": "Buy now, and I'll throw in\nall sorts of extras!",
+   "status": "done"
   },
   {
    "id": "R07:224B8",
@@ -2824,7 +2852,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nすごい数のディスプレイでしょ？",
-   "en": ""
+   "en": "Young Woman:\nSo many screens, huh?",
+   "status": "done"
   },
   {
    "id": "R07:224E6",
@@ -2832,7 +2861,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これだけあれば、\nいつでも【メグ】ねえさまの\nそばにいられるわ。",
-   "en": ""
+   "en": "With this many, I can always\nbe close to my dear big sister,\nMeg-sama.",
+   "status": "done"
   },
   {
    "id": "R07:22528",
@@ -2840,7 +2870,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\nディスプレイの近くによると、\nダイナミックよ！",
-   "en": ""
+   "en": "Girl:\nGet close to the screen.\nIt really packs a punch!",
+   "status": "done"
   },
   {
    "id": "R07:22568",
@@ -2848,7 +2879,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nうーん。心にしみこむなぁ～。\nさすが【メグ】ちゃん。",
-   "en": ""
+   "en": "Young Man:\nMmm. It touches my soul...\nThat's our Meg-chan!",
+   "status": "done"
   },
   {
    "id": "R07:225AC",
@@ -2856,7 +2888,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "キミも、ディスプレイにうつる\n【メグ】ちゃんを見ながら、\nみみをすましてごらん。",
-   "en": ""
+   "en": "Try watching Meg-chan\non the screen and listening\nreally closely.",
+   "status": "done"
   },
   {
    "id": "R07:22600",
@@ -2864,7 +2897,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nえっ？　何も聴こえない？",
-   "en": ""
+   "en": "Young Man:\nHuh? You can't hear anything?",
+   "status": "done"
   },
   {
    "id": "R07:22628",
@@ -2872,7 +2906,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "それは、きっとディスプレイに\n近づいていないからだよ。",
-   "en": ""
+   "en": "That must be because you're\nnot close enough to the screen.",
+   "status": "done"
   },
   {
    "id": "R07:22660",
@@ -2880,7 +2915,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もっともっと近づいてごらん。\nきっと【メグ】ちゃんの心の歌が\n聴こえるはずさ。",
-   "en": ""
+   "en": "Try getting much, much closer.\nYou're sure to hear the song\nin Meg-chan's heart.",
+   "status": "done"
   },
   {
    "id": "R07:226B0",
@@ -2888,7 +2924,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\n【メグ】様を見るなら\nこの先のひろばへ行きなされ。",
-   "en": ""
+   "en": "Woman:\nIf ye want to see Meg-sama,\nhead to the square up ahead.",
+   "status": "done"
   },
   {
    "id": "R07:226F0",
@@ -2896,7 +2933,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ひろばのベンチにすわりながら\nゆっくり見るといいぞい。",
-   "en": ""
+   "en": "Sit on a bench in the square\nand take yer time watching.",
+   "status": "done"
   },
   {
    "id": "R07:22728",
@@ -2904,7 +2942,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ＴＶにうつる【メグ】様に\nきっと、くぎづけじゃ。",
-   "en": ""
+   "en": "Ye'll be glued to Meg-sama\non that TV, I reckon.",
+   "status": "done"
   },
   {
    "id": "R07:2275C",
@@ -2912,7 +2951,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばさん：\nセーブはしたかの？",
-   "en": ""
+   "en": "Woman:\nHave ye saved?",
+   "status": "done"
   },
   {
    "id": "R07:2277C",
@@ -2920,7 +2960,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nぼうや、\n悪いことは言わないから、",
-   "en": ""
+   "en": "Old Woman:\nListen, boy.\nTake my advice.",
+   "status": "done"
   },
   {
    "id": "R07:227AE",
@@ -2928,7 +2969,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "必ずセーブをしておきなさい。\nいつどんなことになるか\n分かったもんじゃないからね。",
-   "en": ""
+   "en": "Make sure you save.\nYou never know what might\nhappen, or when.",
+   "status": "done"
   },
   {
    "id": "R07:22804",
@@ -2936,7 +2978,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\n買えるときには、\nしっかり買っておけよ！",
-   "en": ""
+   "en": "Young Man:\nStock up while you can!",
+   "status": "done"
   },
   {
    "id": "R07:2283C",
@@ -2944,7 +2987,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "いつ何がおこるか分からんからな。",
-   "en": ""
+   "en": "You never know what's coming!",
+   "status": "done"
   },
   {
    "id": "R07:22860",
@@ -2952,7 +2996,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\nすぐそこに、ひろばがあるから\nゆっくりしていくといいよ。",
-   "en": ""
+   "en": "Young Man:\nThere's a square just ahead.\nTake a break there.",
+   "status": "done"
   },
   {
    "id": "R07:228A8",
@@ -2960,7 +3005,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【メグ】様の歌を聴かずに、\n何を聴く！？",
-   "en": ""
+   "en": "Young Woman:\nIf you don't hear Meg-sama,\nwhat IS worth hearing?!",
+   "status": "done"
   },
   {
    "id": "R07:228E0",
@@ -2968,7 +3014,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ファーストアルバム、\n【メグとあなたと】、\nナウ・オン・セール！",
-   "en": ""
+   "en": "Her first album,\n'Meg and You',\non sale now!",
+   "status": "done"
   },
   {
    "id": "R07:22924",
@@ -2976,7 +3023,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\nこれこれ、そこの救世主。",
-   "en": ""
+   "en": "Woman:\nHey, hey! Savior!",
+   "status": "done"
   },
   {
    "id": "R07:2294A",
@@ -2984,7 +3032,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "こまっておるか？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Are ye in trouble?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R07:22974",
@@ -2992,7 +3041,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\nこまったときは、\nみんなの話をよく聞くことじゃ。",
-   "en": ""
+   "en": "Woman:\nWhen ye're in trouble,\nlisten well to everyone.",
+   "status": "done"
   },
   {
    "id": "R07:229B2",
@@ -3000,7 +3050,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "それから、おそわったことは\n実行してみることじゃな。",
-   "en": ""
+   "en": "Then try putting what\nye've learned into practice.",
+   "status": "done"
   },
   {
    "id": "R07:229E8",
@@ -3008,7 +3059,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\nこまってないとな？\nそりゃいかんのう。",
-   "en": ""
+   "en": "Woman:\nYe're not in trouble?\nWell, that won't do.",
+   "status": "done"
   },
   {
    "id": "R07:22A1C",
@@ -3016,7 +3068,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "それじゃこれを見るがいい。",
-   "en": ""
+   "en": "Then take a look at this.",
+   "status": "done"
   },
   {
    "id": "R07:22A38",
@@ -3024,7 +3077,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "うふっ♥　【メグ】でーす♥♥♥\n・・・・・・・・・・・・・・・。\n・・・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "Tee hee! It's meee, Meg!\n...............\n...............",
+   "status": "done"
   },
   {
    "id": "R07:22A9C",
@@ -3032,7 +3086,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "どうじゃ、こまったじゃろ？",
-   "en": ""
+   "en": "Well? Troubled now, aren't ye?",
+   "status": "done"
   },
   {
    "id": "R07:22AB8",
@@ -3040,7 +3095,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nふふんふーん。",
-   "en": ""
+   "en": "Young Woman:\nHmm-hmm-hmmm.",
+   "status": "done"
   },
   {
    "id": "R07:22AD6",
@@ -3048,7 +3104,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "愛があれば、\nきせきはおこる！",
-   "en": ""
+   "en": "With love in your heart,\nmiracles come true!",
+   "status": "done"
   },
   {
    "id": "R07:22AF6",
@@ -3056,7 +3113,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "星にね・が・っ・て\nあなたの思い・・・。",
-   "en": ""
+   "en": "Wish up-on a sta-ar,\nwith all your heart...",
+   "status": "done"
   },
   {
    "id": "R07:22B20",
@@ -3064,7 +3122,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "どう？\nうまいでしょ？",
-   "en": ""
+   "en": "Well?\nPretty good, huh?",
+   "status": "done"
   },
   {
    "id": "R07:22B38",
@@ -3072,7 +3131,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nいやー【メグ】さんは、いいのう。",
-   "en": ""
+   "en": "Old Man:\nAhh, that Meg-san is lovely.",
+   "status": "done"
   },
   {
    "id": "R07:22B68",
@@ -3080,7 +3140,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ついつい、ディスプレイのそばに\nよって見とれてしまうわい。",
-   "en": ""
+   "en": "I can't help sidling up to\nthe screen and gazing at her.",
+   "status": "done"
   },
   {
    "id": "R07:22BA4",
@@ -3088,7 +3149,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nいやー【メグ】さんは、いいわい。",
-   "en": ""
+   "en": "Old Man:\nAhh, that Meg-san is wonderful.",
+   "status": "done"
   },
   {
    "id": "R07:22BD4",
@@ -3096,7 +3158,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【バーちゃんアイドル】だから、\n願もふけないし、\nＴＶをつければいつでも会える。",
-   "en": ""
+   "en": "She's a 'granny-chan idol', so\nher face never ages. I can see\nher whenever I turn on the TV.",
+   "status": "done"
   },
   {
    "id": "R07:22C26",
@@ -3104,7 +3167,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "わしのようなおいぼれにも、\nニコッてほほえんでくれるんじゃ。\n・・・はて、何か間違えたかの？",
-   "en": ""
+   "en": "She even gives an old codger\nlike me a sweet little smile.\n...Eh? Did I get anything wrong?",
+   "status": "done"
   },
   {
    "id": "R07:22C84",
@@ -3112,7 +3176,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nねえキミ？",
-   "en": ""
+   "en": "Young Woman:\nHey, you!",
+   "status": "done"
   },
   {
    "id": "R07:22C9E",
@@ -3120,7 +3185,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【メグ】様のオフィシャル\nファンクラブに入らない？",
-   "en": ""
+   "en": "Want to join Meg-sama's\nofficial fan club?",
+   "status": "done"
   },
   {
    "id": "R07:22CD2",
@@ -3128,7 +3194,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "入る？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Join?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R07:22CF2",
@@ -3136,7 +3203,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nオッケーよ！",
-   "en": ""
+   "en": "Young Woman:\nOkay!",
+   "status": "done"
   },
   {
    "id": "R07:22D0E",
@@ -3144,7 +3212,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "それじゃ、左に進んだ先にある\n家に入ってね。\nそこがファンクラブの本部よ。",
-   "en": ""
+   "en": "Then head left and enter the\nhouse up ahead. That's the\nfan club headquarters.",
+   "status": "done"
   },
   {
    "id": "R07:22D5A",
@@ -3152,7 +3221,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "中に会長がいるから、\nファンクラブに入りたいと\n言ってね。",
-   "en": ""
+   "en": "The president's inside.\nTell them you want to join\nthe fan club.",
+   "status": "done"
   },
   {
    "id": "R07:22D96",
@@ -3160,7 +3230,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nそう・・・ざんねんね！",
-   "en": ""
+   "en": "Young Woman:\nOh... That's a shame!",
+   "status": "done"
   },
   {
    "id": "R07:22DBC",
@@ -3168,7 +3239,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "キミは今、\n人生で最大のあやまちを\nおかしたわ。",
-   "en": ""
+   "en": "You've just made\nthe biggest mistake\nof your life.",
+   "status": "done"
   },
   {
    "id": "R07:22DF0",
@@ -3176,7 +3248,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nここ？\n【アイドリアンシティ】よ！",
-   "en": ""
+   "en": "Young Woman:\nHere?\nThis is Idorian City!",
+   "status": "done"
   },
   {
    "id": "R07:22E22",
@@ -3184,7 +3257,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "村のみんなが\nヴァーチャルアイドルの\n【メグ】さんに、ぞっこんよ！",
-   "en": ""
+   "en": "Everyone in the village\nis head over heels for\nMeg-san, the virtual idol!",
+   "status": "done"
   },
   {
    "id": "R07:22E68",
@@ -3192,7 +3266,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nひろばには行ってみた？",
-   "en": ""
+   "en": "Girl:\nHave you been to the square?",
+   "status": "done"
   },
   {
    "id": "R07:22E8E",
@@ -3200,7 +3275,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あそこなら、おちついて\n【メグ】様の歌を聴けるわよ。",
-   "en": ""
+   "en": "You can relax there and\nlisten to Meg-sama's songs.",
+   "status": "done"
   },
   {
    "id": "R07:22EC4",
@@ -3208,7 +3284,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\n【メグ】様は、\n私達、女性のカガミよ！",
-   "en": ""
+   "en": "Girl:\nMeg-sama is a shining example\nto all us women!",
+   "status": "done"
   },
   {
    "id": "R07:22EFA",
@@ -3216,7 +3293,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "アイドルにして、\n気品も合わせ持つ。\nまさに女性のリソウだわ。",
-   "en": ""
+   "en": "An idol with elegance\nto match her fame.\nShe's the ideal woman!",
+   "status": "done"
   },
   {
    "id": "R07:22F3C",
@@ -3224,7 +3302,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n気のせいかのう・・・。",
-   "en": ""
+   "en": "Man:\nMaybe it's just me...",
+   "status": "done"
   },
   {
    "id": "R07:22F60",
@@ -3232,7 +3311,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "最近、【メグ】さんのひとがらが\n変わってしまったような・・・。",
-   "en": ""
+   "en": "But Meg-san seems to have\nchanged lately...",
+   "status": "done"
   },
   {
    "id": "R07:22FA0",
@@ -3240,7 +3320,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【メグ】さんのことかい？\nそうじゃのう・・・・・・。",
-   "en": ""
+   "en": "Man:\nAbout Meg-san, eh?\nLet's see......",
+   "status": "done"
   },
   {
    "id": "R07:22FE2",
@@ -3248,7 +3329,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【メグ】さんをプロデュース\nしているデジクロソフトの\n【ビル・ジョブス】じゃが・・・。",
-   "en": ""
+   "en": "Bill Jobs at Digicrosoft,\nthe man who produces\nMeg-san...",
+   "status": "done"
   },
   {
    "id": "R07:2303A",
@@ -3256,7 +3338,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "最近、人が変わったとの\nうわさじゃ。",
-   "en": ""
+   "en": "They say he's become a\ndifferent person lately.",
+   "status": "done"
   },
   {
    "id": "R07:23060",
@@ -3264,7 +3347,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そう、ちょうど、\n村のみんなが【メグ】さんに\nはまりはじめたころからじゃ。",
-   "en": ""
+   "en": "Yes, ever since everyone\nin the village started\ngetting hooked on Meg-san.",
+   "status": "done"
   },
   {
    "id": "R07:230AC",
@@ -3272,7 +3356,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nやあ、どうしたんだい？\nこどもの来るところじゃないよ！",
-   "en": ""
+   "en": "Man:\nHey, what brings you here?\nThis is no place for kids!",
+   "status": "done"
   },
   {
    "id": "R07:230F0",
@@ -3280,7 +3365,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "えっ？　ここかい？\nデジクロソフトさ。",
-   "en": ""
+   "en": "Huh? This place?\nIt's Digicrosoft.",
+   "status": "done"
   },
   {
    "id": "R07:23118",
@@ -3288,7 +3374,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ヴァーチャルアイドルの\n【メグ】をプロデュース\nしているのさ！",
-   "en": ""
+   "en": "We produce the virtual idol,\nMeg!",
+   "status": "done"
   },
   {
    "id": "R07:23158",
@@ -3296,7 +3383,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "どうだ、おそれいったか！\nわっはっは！",
-   "en": ""
+   "en": "Well? Impressed?\nWah ha ha!",
+   "status": "done"
   },
   {
    "id": "R07:23180",
@@ -3304,7 +3392,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nなによ！　あの部長！！\nちょームカツク！",
-   "en": ""
+   "en": "Young Woman:\nWhat's with that manager?!!\nHe makes me so mad!",
+   "status": "done"
   },
   {
    "id": "R07:231B8",
@@ -3312,7 +3401,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "人をこき使わないでね！",
-   "en": ""
+   "en": "Quit working me to the bone!",
+   "status": "done"
   },
   {
    "id": "R07:231D0",
@@ -3320,7 +3410,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "部長：\nおい、そこの女！\n早くコーヒーを持ってこい！",
-   "en": ""
+   "en": "Manager:\nYou there, woman!\nHurry up with that coffee!",
+   "status": "done"
   },
   {
    "id": "R07:23206",
@@ -3328,7 +3419,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ん？　ムスコはどこにいった！？\nおい、ムスコもさがしてこい！！",
-   "en": ""
+   "en": "Hm? Where's my son gone?!\nHey! Go find my son, too!!",
+   "status": "done"
   },
   {
    "id": "R07:23248",
@@ -3336,7 +3428,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n部長め！　主任のワシに、\n電力制御ルームを見てこいだとぉ！",
-   "en": ""
+   "en": "Man:\nThat manager! I'm a supervisor!\nCheck the power control room?!",
+   "status": "done"
   },
   {
    "id": "R07:23290",
@@ -3344,7 +3437,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "こけにしやがって！\nまったく・・・。\nぶつぶつぶつぶつ・・・。",
-   "en": ""
+   "en": "Making a fool of me!\nHonestly...\nGrumble, grumble...",
+   "status": "done"
   },
   {
    "id": "R07:232D0",
@@ -3352,7 +3446,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・ふう。\n電力制御ルームはと・・・。\nこのあたりだったな・・・。",
-   "en": ""
+   "en": "...Whew.\nNow, the power control room...\nIt was around here...",
+   "status": "done"
   },
   {
    "id": "R07:23318",
@@ -3360,7 +3455,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nコーヒーで、ホッとひといき。\n仕事の合間のささやかな楽しみ。",
-   "en": ""
+   "en": "Man:\nAhh, a relaxing cup of coffee.\nA little joy between jobs.",
+   "status": "done"
   },
   {
    "id": "R07:23362",
@@ -3368,7 +3464,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "えっ？\n外人なのに、コトバが上手だって？",
-   "en": ""
+   "en": "Huh? I speak the language well\nfor a foreigner?",
+   "status": "done"
   },
   {
    "id": "R07:2338C",
@@ -3376,7 +3473,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そりゃ、そうさ。\n天下のデジクロソフト社員\nだからね。",
-   "en": ""
+   "en": "Of course I do!\nI work for the world-famous\nDigicrosoft, after all.",
+   "status": "done"
   },
   {
    "id": "R07:233C4",
@@ -3384,7 +3482,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nおぼっちゃま。",
-   "en": ""
+   "en": "Old Woman:\nYoung master.",
+   "status": "done"
   },
   {
    "id": "R07:233E2",
@@ -3392,7 +3491,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あのカベのスイッチを\nむやみにいじってはなりませんよ。",
-   "en": ""
+   "en": "You mustn't fiddle with\nthat switch on the wall.",
+   "status": "done"
   },
   {
    "id": "R07:2341A",
@@ -3400,7 +3500,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あれは、【ブレーカー】といって、\nこのビルの電気をカンリする\nスイッチなのです。",
-   "en": ""
+   "en": "That's called a breaker.\nIt's the switch that controls\nthis building's electricity.",
+   "status": "done"
   },
   {
    "id": "R07:2346C",
@@ -3408,7 +3509,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "むやみに【ブレーカー】を\n下げたら、「無礼だー！」と\n言われてしまいますからね。",
-   "en": ""
+   "en": "Trip that breaker for no reason,\nand they'll say, \"That's a\nshocking breach of manners!\"",
+   "status": "done"
   },
   {
    "id": "R07:234C0",
@@ -3416,7 +3518,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "部長のムスコ：\nうん、わかったよ。\nおばあちゃん。",
-   "en": ""
+   "en": "Manager's Son:\nOkay, I get it,\nGrandma.",
+   "status": "done"
   },
   {
    "id": "R07:234F4",
@@ -3424,7 +3527,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あのカベから出ている\nスイッチが【ブレーカー】だね。\nいじらないようにするよ！",
-   "en": ""
+   "en": "That switch sticking out of\nthe wall is the breaker, right?\nI won't touch it!",
+   "status": "done"
   },
   {
    "id": "R07:23544",
@@ -3432,7 +3536,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n向かいの部屋は、\nコンピュータールームよ。",
-   "en": ""
+   "en": "Young Woman:\nThe room across the way\nis the computer room.",
+   "status": "done"
   },
   {
    "id": "R07:2357E",
@@ -3440,7 +3545,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そこでＣＤ売り上げなどの集計を\nしているの。",
-   "en": ""
+   "en": "That's where we tally up\nCD sales and things.",
+   "status": "done"
   },
   {
    "id": "R07:235AC",
@@ -3448,7 +3554,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "となりは、電力制御ルームよ。\n【ブレーカー】があるけど、\nむやみに下げないでね。",
-   "en": ""
+   "en": "Next door's the power control\nroom. There's a breaker, but\ndon't flip it for no reason.",
+   "status": "done"
   },
   {
    "id": "R07:23600",
@@ -3456,7 +3563,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nアイテムを\nうまく使いこなしているかい？",
-   "en": ""
+   "en": "Man:\nAre you making good use\nof your items?",
+   "status": "done"
   },
   {
    "id": "R07:23636",
@@ -3464,7 +3572,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "力まかせに攻撃するだけじゃなく、\nアイテムを使って、楽に勝つのも\n一つの手だよ。",
-   "en": ""
+   "en": "Instead of just attacking with\nbrute force, try using items\nto make winning easier.",
+   "status": "done"
   },
   {
    "id": "R07:23688",
@@ -3472,7 +3581,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\nボクらは、みんな【メグ】さまを\n応援しているんだ！",
-   "en": ""
+   "en": "Boy:\nWe're all cheering\nfor Meg-sama!",
+   "status": "done"
   },
   {
    "id": "R07:236CC",
@@ -3480,7 +3590,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nねえ知っている？",
-   "en": ""
+   "en": "Boy:\nHey, did you know?",
+   "status": "done"
   },
   {
    "id": "R07:236EC",
@@ -3488,7 +3599,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【メグ】さまの名前は、\n・・・・・さんから、\nとっているんだよ。",
-   "en": ""
+   "en": "Meg-sama got her name\nfrom... ...-san!",
+   "status": "done"
   },
   {
    "id": "R07:23730",
@@ -3496,7 +3608,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nはぁ～くるしい・・・。",
-   "en": ""
+   "en": "Girl:\nAhh... I can hardly breathe...",
+   "status": "done"
   },
   {
    "id": "R07:23756",
@@ -3504,7 +3617,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "えっ？\nどこか気分が悪いのかって？",
-   "en": ""
+   "en": "Huh?\nAm I feeling sick?",
+   "status": "done"
   },
   {
    "id": "R07:2377A",
@@ -3512,7 +3626,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ううん。\n【メグ】様の美しさに、\nくらくらしてしまっただけ・・・。",
-   "en": ""
+   "en": "No.\nMeg-sama's beauty just\nmade me dizzy...",
+   "status": "done"
   },
   {
    "id": "R07:237C0",
@@ -3520,7 +3635,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\n【メグ】様の美しさはねぇ、",
-   "en": ""
+   "en": "Girl:\nYou see, Meg-sama's beauty...",
+   "status": "done"
   },
   {
    "id": "R07:237EA",
@@ -3528,7 +3644,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "１フレーム１０億ポリゴン表示の\nマシンによって、実現されたのよ！",
-   "en": ""
+   "en": "comes from a machine that draws\na billion polygons per frame!",
+   "status": "done"
   },
   {
    "id": "R07:2382C",
@@ -3536,7 +3653,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "えっ？　よく分からない？\nとにかく、きめがこまかい\nということよ！",
-   "en": ""
+   "en": "Huh? You don't get it?\nIt means she's really detailed!",
+   "status": "done"
   },
   {
    "id": "R07:23870",
@@ -3544,7 +3662,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nゴーゴー、【メグ】、【メグ】、\n【メグ】ゴーゴー！！　ヒュー！",
-   "en": ""
+   "en": "Young Man:\nGo, go, Meg! Meg!\nMeg, go, go!! Whoo!",
+   "status": "done"
   },
   {
    "id": "R07:238C0",
@@ -3552,7 +3671,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nんだぁ？\n【メグ】のことが聞きたいだぁ？",
-   "en": ""
+   "en": "Young Man:\nWhaddya want?\nWanna hear about Meg?",
+   "status": "done"
   },
   {
    "id": "R07:238F8",
@@ -3560,7 +3680,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "しゃーねぇなー。\n【メグ】の住んでいるところは、\nなんと！！　電脳空間だ！！",
-   "en": ""
+   "en": "Oh, all right.\nGuess where Meg lives!\nIn cyberspace!!",
+   "status": "done"
   },
   {
    "id": "R07:23946",
@@ -3568,7 +3689,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あん？\nそんなことは知ってるって？\nあ、そ。",
-   "en": ""
+   "en": "Huh?\nYou already knew that?\nOh. Okay.",
+   "status": "done"
   },
   {
    "id": "R07:23974",
@@ -3576,7 +3698,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nワタシノムラデモ、\n【メグ】ハ、ニンキモノデ～ス。",
-   "en": ""
+   "en": "Man:\nMeg is very popular\nin my village toooo.",
+   "status": "done"
   },
   {
    "id": "R07:239B4",
@@ -3584,7 +3707,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ソレモ、パソコンツウシンノ\nオカゲデスヨ。",
-   "en": ""
+   "en": "All thanks to our\ncomputer network, you seeee.",
+   "status": "done"
   },
   {
    "id": "R07:239E0",
@@ -3592,7 +3716,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nパソコンツウシンデシラベタ、\nトッテオキノジョウホウデ～ス。",
-   "en": ""
+   "en": "Man:\nI found this special news\non the computer network!",
+   "status": "done"
   },
   {
    "id": "R07:23A2A",
@@ -3600,7 +3725,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ナ、ナント！　【メグ】サンノ\nファーストアルバムガ、ハヤクモ、\nハツバイサレルソウデ～ス。",
-   "en": ""
+   "en": "G-guess what! Meg-san's first\nalbum is already going to be\nreleased, so I heeear!",
+   "status": "done"
   },
   {
    "id": "R07:23A88",
@@ -3608,7 +3734,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n電脳空間って知っている？",
-   "en": ""
+   "en": "Young Woman:\nDo you know about cyberspace?",
+   "status": "done"
   },
   {
    "id": "R07:23AB0",
@@ -3616,7 +3743,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【メグ】様のような\nヴァーチャルアイドルは、\n電脳空間の住人なの。",
-   "en": ""
+   "en": "Virtual idols like Meg-sama\nare residents of cyberspace.",
+   "status": "done"
   },
   {
    "id": "R07:23AF4",
@@ -3624,7 +3752,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【メグ】様のデビュー曲って\n知っている？",
-   "en": ""
+   "en": "Young Woman:\nDo you know what Meg-sama's\ndebut song was?",
+   "status": "done"
   },
   {
    "id": "R07:23B2C",
@@ -3632,7 +3761,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ヴァーチャルデート】よ。\nこのぐらいは\n覚えておかなくちゃね。",
-   "en": ""
+   "en": "'Virtual Date', of course.\nYou should at least\nremember that much!",
+   "status": "done"
   },
   {
    "id": "R07:23B70",
@@ -3640,7 +3770,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n【メグ】様ファンクラブ\nナンバー００２。カズミよ！",
-   "en": ""
+   "en": "Young Woman:\nI'm Kazumi, member 002\nof Meg-sama's fan club!",
+   "status": "done"
   },
   {
    "id": "R07:23BB2",
@@ -3648,7 +3779,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "会長の次に、会員になったのよ！\n他の人とはネンキがちがうわ。",
-   "en": ""
+   "en": "I joined right after the\npresident! I've been a member\nlonger than anyone else.",
+   "status": "done"
   },
   {
    "id": "R07:23BF0",
@@ -3656,7 +3788,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そのへんの会員と\nくらべないでちょうだいね！",
-   "en": ""
+   "en": "Don't lump me in with\nthose ordinary members!",
+   "status": "done"
   },
   {
    "id": "R07:23C20",
@@ -3664,7 +3797,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n【メグ】様の情報？\nええ、とっておきのものがあるわ。",
-   "en": ""
+   "en": "Young Woman:\nNews about Meg-sama?\nYes, I've got a real gem!",
+   "status": "done"
   },
   {
    "id": "R07:23C64",
@@ -3672,7 +3806,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【メグ】さまグッズについている\nオウボケンを送ると、１０名に\n【メグポーチ】が当たるのよ。",
-   "en": ""
+   "en": "Send the coupons on Meg-sama\nmerchandise. Ten lucky winners\nwill get a Meg Pouch!",
+   "status": "done"
   },
   {
    "id": "R07:23CC0",
@@ -3680,7 +3815,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ファンなら、ぜったいに\nゲットしておきたいわね。",
-   "en": ""
+   "en": "If you're a fan, you'll\ndefinitely want one!",
+   "status": "done"
   },
   {
    "id": "R07:23CF4",
@@ -3688,7 +3824,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nいつかきっと、【メグ】ちゃんの\nダンナになるんだ！",
-   "en": ""
+   "en": "Boy:\nSomeday, I'm gonna be\nMeg-chan's husband!",
+   "status": "done"
   },
   {
    "id": "R07:23D38",
@@ -3696,7 +3833,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nえっ？　【メグ】ちゃんのこと？\nうんあるよ！　すごいネタ！",
-   "en": ""
+   "en": "Boy:\nHuh? News about Meg-chan?\nYeah! I've got a huge scoop!",
+   "status": "done"
   },
   {
    "id": "R07:23D82",
@@ -3704,7 +3842,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【メグ】ちゃん、ついに\nエイガデビューするんだって！\nすごいよねー。",
-   "en": ""
+   "en": "Meg-chan's finally making her\nmovie debut! Isn't that awesome?",
+   "status": "done"
   },
   {
    "id": "R07:23DC8",
@@ -3712,7 +3851,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "それにね、キョウエンシャは、\nあの【キムタコ】なんだって！",
-   "en": ""
+   "en": "And guess who her co-star is?\nThe one and only Kimutako!",
+   "status": "done"
   },
   {
    "id": "R07:23E04",
@@ -3720,7 +3860,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\nやあ、キミも【メグ】さまの\nファンクラブに入らないかね？",
-   "en": ""
+   "en": "Fan Club President:\nHey, how about joining\nMeg-sama's fan club?",
+   "status": "done"
   },
   {
    "id": "R07:23E54",
@@ -3728,7 +3869,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "入る？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Join?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R07:23E74",
@@ -3736,7 +3878,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\nおお、入るかね。",
-   "en": ""
+   "en": "Fan Club President:\nOh! You'll join?",
+   "status": "done"
   },
   {
    "id": "R07:23E9C",
@@ -3744,7 +3887,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ではキミはこれから、\n会員ナンバー０１９だ。",
-   "en": ""
+   "en": "Then from now on,\nyou're member Number 019.",
+   "status": "done"
   },
   {
    "id": "R07:23ECA",
@@ -3752,7 +3896,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "さっそくシレイを言いわたす。",
-   "en": ""
+   "en": "I have your first assignment!",
+   "status": "done"
   },
   {
    "id": "R07:23EE8",
@@ -3760,7 +3905,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "村人に取材して、\n【メグ】さまの会報を\n作ってくれ。",
-   "en": ""
+   "en": "Interview the villagers and\nput together a fan bulletin\nfor Meg-sama.",
+   "status": "done"
   },
   {
    "id": "R07:23F1E",
@@ -3768,7 +3914,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "会報の出来に応じて、\nごほうびをあげよう。",
-   "en": ""
+   "en": "Your reward will depend on\nhow good your bulletin is.",
+   "status": "done"
   },
   {
    "id": "R07:23F4A",
@@ -3776,7 +3923,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "良い会報を作るには、\nとにかく取材だ。",
-   "en": ""
+   "en": "The key to a good bulletin\nis to do your interviews.",
+   "status": "done"
   },
   {
    "id": "R07:23F72",
@@ -3784,7 +3932,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "できるだけ多くの人に話を聞き、\nスクープをどれだけ\nゲットできるかが勝負だ！",
-   "en": ""
+   "en": "Talk to as many people as you\ncan! It all comes down to how\nmany scoops you can get!",
+   "status": "done"
   },
   {
    "id": "R07:23FC0",
@@ -3792,7 +3941,8 @@
    "kind": "next",
    "end": "C000",
    "jp": "大変だが、がんばってくれたまえ。",
-   "en": ""
+   "en": "It's hard work,\nbut do your best!",
+   "status": "done"
   },
   {
    "id": "R07:23FE8",
@@ -3800,7 +3950,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\nそうかね・・・。",
-   "en": ""
+   "en": "Fan Club President:\nI see...",
+   "status": "done"
   },
   {
    "id": "R07:24010",
@@ -3808,7 +3959,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "気が向いたら、\nまた来てくれたまえ。",
-   "en": ""
+   "en": "Come back if you\nchange your mind.",
+   "status": "done"
   },
   {
    "id": "R07:24038",
@@ -3816,7 +3968,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "ファンクラブの会長：\nおや、キミはナンバー０１９だね？\n取材はおわったかい？",
-   "en": ""
+   "en": "Fan Club President:\nOh, you're Number 019, right?\nFinished your interviews?",
+   "status": "done"
   },
   {
    "id": "R07:24086",
@@ -3824,7 +3977,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "うん、取材はおわったよ。\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Yes, I'm done with interviews.\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R07:240B8",
@@ -3832,7 +3986,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\n何だ？",
-   "en": ""
+   "en": "Fan Club President:\nWhat's this?",
+   "status": "done"
   },
   {
    "id": "R07:240D6",
@@ -3840,7 +3995,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "まだ十分に取材して\nいないじゃないか。",
-   "en": ""
+   "en": "You haven't done nearly\nenough interviews!",
+   "status": "done"
   },
   {
    "id": "R07:240FE",
@@ -3848,7 +4004,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "いいかい、かりにスクープを\nゲットしていたとしても、\n多くの人に取材することが大事だ。",
-   "en": ""
+   "en": "Listen, even if you've\nlanded a scoop, you still need\nto interview lots of people.",
+   "status": "done"
   },
   {
    "id": "R07:24156",
@@ -3856,7 +4013,8 @@
    "kind": "next",
    "end": "C000",
    "jp": "多くの人の話を聞き、\nそのうえでスクープもゲットする。\nこれが取材のコツだよ。",
-   "en": ""
+   "en": "Talk to lots of people, then\nget your scoops, too. That's\nthe trick to reporting!",
+   "status": "done"
   },
   {
    "id": "R07:241AC",
@@ -3864,7 +4022,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\nそうか。",
-   "en": ""
+   "en": "Fan Club President:\nI see.",
+   "status": "done"
   },
   {
    "id": "R07:241CC",
@@ -3872,7 +4031,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "まあ、あせらずに、コツコツと\n取材してくれたまえ。",
-   "en": ""
+   "en": "Well, don't rush. Just keep\nworking on those interviews.",
+   "status": "done"
   },
   {
    "id": "R07:24200",
@@ -3880,7 +4040,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\nおや、キミはナンバー０１９だね？\n取材はおわったかい？",
-   "en": ""
+   "en": "Fan Club President:\nOh, you're Number 019, right?\nFinished your interviews?",
+   "status": "done"
   },
   {
    "id": "R07:2424E",
@@ -3888,7 +4049,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "うん、取材はおわったよ。\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Yes, I'm done with interviews.\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R07:24280",
@@ -3896,7 +4058,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\nおっ！\n会報ができたようだね。",
-   "en": ""
+   "en": "Fan Club President:\nOh!\nYour bulletin looks ready.",
+   "status": "done"
   },
   {
    "id": "R07:242B6",
@@ -3904,7 +4067,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "どれどれ・・・。\n【メグ】ちゃん会報・・・・・。",
-   "en": ""
+   "en": "Let's see...\nThe Meg-chan Bulletin...",
+   "status": "done"
   },
   {
    "id": "R07:242E8",
@@ -3912,7 +4076,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・・・・・・。\nふむ。・・・・・・・・・・・。",
-   "en": ""
+   "en": "...\nHmm...",
+   "status": "done"
   },
   {
    "id": "R07:24328",
@@ -3920,7 +4085,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "むぅ。\nなんだかよくわからん・・・・。\n情報のバランスが悪いな・・・。",
-   "en": ""
+   "en": "Hmm. This is hard to follow...\nThe coverage is unbalanced...",
+   "status": "done"
   },
   {
    "id": "R07:24370",
@@ -3928,7 +4094,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "出来はサイテーの【ウメ】だな。\nまあ、がんばってくれたようだし、\nこれをやろう。受けとれ！",
-   "en": ""
+   "en": "Lowest grade: Plum.\nStill, you put in the work.\nHere's your reward. Take it!",
+   "status": "done"
   },
   {
    "id": "R07:243CC",
@@ -3936,7 +4103,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "３０００ガンボを手に入れた！",
-   "en": ""
+   "en": "Obtained 3,000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "R07:243EA",
@@ -3944,7 +4112,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あと、これもキネンに持ってけ！",
-   "en": ""
+   "en": "And take this as a souvenir!",
+   "status": "done"
   },
   {
    "id": "R07:2440A",
@@ -3952,7 +4121,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【カイホウ　ウメ】を手に入れた！",
-   "en": ""
+   "en": "Obtained Plum Bulletin!",
+   "status": "done"
   },
   {
    "id": "R07:2442C",
@@ -3960,7 +4130,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ごくろうだった。\n【メグ】様の会員として\n十分やってくれたと思う。",
-   "en": ""
+   "en": "Thank you for your hard work.\nYou've done your part as a\nmember of Meg-sama's fan club.",
+   "status": "done"
   },
   {
    "id": "R07:24470",
@@ -3968,7 +4139,8 @@
    "kind": "next",
    "end": "C000",
    "jp": "今後は、じゆうに行動してくれ！",
-   "en": ""
+   "en": "From now on,\nyou're free to do as you like!",
+   "status": "done"
   },
   {
    "id": "R07:2449C",
@@ -3976,7 +4148,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ファンクラブの会長：\nそうか。",
-   "en": ""
+   "en": "Fan Club President:\nI see.",
+   "status": "done"
   },
   {
    "id": "R07:244BC",
@@ -3984,7 +4157,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "まあ、あせらずに、コツコツと\n取材してくれたまえ。",
-   "en": ""
+   "en": "Well, don't rush. Just keep\nworking on those interviews.",
+   "status": "done"
   },
   {
    "id": "R07:244F0",
@@ -3992,7 +4166,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\nおや、キミはナンバー０１９だね？\n取材はおわったかい？",
-   "en": ""
+   "en": "Fan Club President:\nOh, you're Number 019, right?\nFinished your interviews?",
+   "status": "done"
   },
   {
    "id": "R07:2453E",
@@ -4000,7 +4175,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "うん、取材はおわったよ。\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Yes, I'm done with interviews.\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R07:24570",
@@ -4008,7 +4184,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\nおっ！\n会報ができたようだね。",
-   "en": ""
+   "en": "Fan Club President:\nOh!\nYour bulletin looks ready.",
+   "status": "done"
   },
   {
    "id": "R07:245A6",
@@ -4016,7 +4193,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "どれどれ・・・。\n【メグ】ちゃん会報・・・・・・。",
-   "en": ""
+   "en": "Let's see...\nThe Meg-chan Bulletin...",
+   "status": "done"
   },
   {
    "id": "R07:245DA",
@@ -4024,7 +4202,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・・・・・ほう。\nふむふむ・・・・・・・・・・・。\nこれは、なかなかのスクープだな。",
-   "en": ""
+   "en": "...Oh!\nHmm, hmm...\nNow that's quite a scoop.",
+   "status": "done"
   },
   {
    "id": "R07:24640",
@@ -4032,7 +4211,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・・・・・・・。\n・・・・・・・・・・・・・・・。\n・・・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "...\n...\n...",
+   "status": "done"
   },
   {
    "id": "R07:246A6",
@@ -4040,7 +4220,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ふ～む。\nスクープがあるのはいいが・・・。\nまだ、取材がたりないな。",
-   "en": ""
+   "en": "Hmmm.\nA scoop is good, but...\nYou still need more interviews.",
+   "status": "done"
   },
   {
    "id": "R07:246EC",
@@ -4048,7 +4229,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "出来は【タケ】ってところか。\nよし、ごほうびだ。受けとれ！",
-   "en": ""
+   "en": "I'd give this a Bamboo grade.\nRight, here's your reward!\nTake it!",
+   "status": "done"
   },
   {
    "id": "R07:24728",
@@ -4056,7 +4238,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "４０００ガンボを手に入れた！",
-   "en": ""
+   "en": "Obtained 4,000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "R07:24746",
@@ -4064,7 +4247,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あと、これもキネンに持ってけ！",
-   "en": ""
+   "en": "And take this as a souvenir!",
+   "status": "done"
   },
   {
    "id": "R07:24766",
@@ -4072,7 +4256,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【カイホウ　タケ】を手に入れた！",
-   "en": ""
+   "en": "Obtained Bamboo Bulletin!",
+   "status": "done"
   },
   {
    "id": "R07:24788",
@@ -4080,7 +4265,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ごくろうだった。\n【メグ】様の会員として\n十分やってくれたと思う。",
-   "en": ""
+   "en": "Thank you for your hard work.\nYou've done your part as a\nmember of Meg-sama's fan club.",
+   "status": "done"
   },
   {
    "id": "R07:247CC",
@@ -4088,7 +4274,8 @@
    "kind": "next",
    "end": "C000",
    "jp": "今後は、じゆうに行動してくれ！",
-   "en": ""
+   "en": "From now on,\nyou're free to do as you like!",
+   "status": "done"
   },
   {
    "id": "R07:247F8",
@@ -4096,7 +4283,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ファンクラブの会長：\nそうか。",
-   "en": ""
+   "en": "Fan Club President:\nI see.",
+   "status": "done"
   },
   {
    "id": "R07:24818",
@@ -4104,7 +4292,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "まあ、あせらずに、コツコツと\n取材してくれたまえ。",
-   "en": ""
+   "en": "Well, don't rush. Just keep\nworking on those interviews.",
+   "status": "done"
   },
   {
    "id": "R07:2484C",
@@ -4112,7 +4301,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\nおや、キミはナンバー０１９だね？\n取材はおわったかい？",
-   "en": ""
+   "en": "Fan Club President:\nOh, you're Number 019, right?\nFinished your interviews?",
+   "status": "done"
   },
   {
    "id": "R07:2489A",
@@ -4120,7 +4310,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "うん、取材はおわったよ。\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Yes, I'm done with interviews.\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R07:248CC",
@@ -4128,7 +4319,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ファンクラブの会長：\nおっ！\n会報ができたようだね。",
-   "en": ""
+   "en": "Fan Club President:\nOh!\nYour bulletin looks ready.",
+   "status": "done"
   },
   {
    "id": "R07:24902",
@@ -4136,7 +4328,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "どれどれ・・・。\n【メグ】ちゃん会報・・・・・・。",
-   "en": ""
+   "en": "Let's see...\nThe Meg-chan Bulletin...",
+   "status": "done"
   },
   {
    "id": "R07:24936",
@@ -4144,7 +4337,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・・・・・・・。\nほう。いよいよ\nファーストアルバムが出るのか！　",
-   "en": ""
+   "en": "...\nOh! Her first album\nis finally coming out!",
+   "status": "done"
   },
   {
    "id": "R07:2498A",
@@ -4152,7 +4346,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "これは知らなかったぞ！\n後でさっそくヨヤクしよう！\n・・・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "I didn't know that!\nI'll reserve a copy right away!\n...",
+   "status": "done"
   },
   {
    "id": "R07:249E0",
@@ -4160,7 +4355,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "なにぃ！　グッズを買うと、\n【メグポーチ】が当たると！\nさっそくオウボしなければ！！",
-   "en": ""
+   "en": "What?! Buy merchandise and\nyou could win a Meg Pouch?!\nI must enter right away!!",
+   "status": "done"
   },
   {
    "id": "R07:24A36",
@@ -4168,7 +4364,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R07:24A58",
@@ -4176,7 +4373,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "！！　エ、エイガデビューだと！\nま、まいった！\nさすが【メグ】様！！",
-   "en": ""
+   "en": "!! H-her movie debut?!\nI-I'm speechless!\nThat's our Meg-sama!!",
+   "status": "done"
   },
   {
    "id": "R07:24A9E",
@@ -4184,7 +4382,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・・・なにぃ！！\nキョウエンは【キムタコ】？\nかんべんしろよ～。",
-   "en": ""
+   "en": "...WHAT?!!\nHer co-star is Kimutako?\nGive me a break!",
+   "status": "done"
   },
   {
    "id": "R07:24AF0",
@@ -4192,7 +4391,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【メグ】さまのそばに\nあんなちゃらちゃらしたやつを、\n近づけられるか！",
-   "en": ""
+   "en": "How can I let some shallow\npretty boy like that anywhere\nnear Meg-sama?!",
+   "status": "done"
   },
   {
    "id": "R07:24B38",
@@ -4200,7 +4400,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "コウギだ、コウギだ！！\n会員みんなでコウギしてやる！",
-   "en": ""
+   "en": "We must protest! Protest!!\nThe whole fan club will protest!",
+   "status": "done"
   },
   {
    "id": "R07:24B6E",
@@ -4208,7 +4409,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "はぁはぁ。こ、こうふんしすぎた。\nしつれい。・・・・・・・・・・。\n・・・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "Huff, puff. G-got carried away.\nExcuse me...\n...",
+   "status": "done"
   },
   {
    "id": "R07:24BD4",
@@ -4216,7 +4418,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "素晴らしいぃ！\nスクープまんさいで、\n取材も行きとどいている。",
-   "en": ""
+   "en": "Wonderful!\nPacked with scoops, and you've\ninterviewed everyone thoroughly.",
+   "status": "done"
   },
   {
    "id": "R07:24C14",
@@ -4224,7 +4427,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "上出来だ！\n【マツ】にニンテイしよう！\nよし、ごほうびだ。受けとれ！",
-   "en": ""
+   "en": "Excellent work!\nI award this a Pine grade!\nHere's your reward! Take it!",
+   "status": "done"
   },
   {
    "id": "R07:24C5A",
@@ -4232,7 +4436,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "５０００ガンボを手に入れた！",
-   "en": ""
+   "en": "Obtained 5,000 Ganbo!",
+   "status": "done"
   },
   {
    "id": "R07:24C78",
@@ -4240,7 +4445,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あと、これもキネンに持ってけ！",
-   "en": ""
+   "en": "And take this as a souvenir!",
+   "status": "done"
   },
   {
    "id": "R07:24C98",
@@ -4248,7 +4454,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【カイホウ　マツ】を手に入れた！",
-   "en": ""
+   "en": "Obtained Pine Bulletin!",
+   "status": "done"
   },
   {
    "id": "R07:24CBA",
@@ -4256,7 +4463,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ごくろうだった。\n【メグ】様の会員として\n十分やってくれたと思う。",
-   "en": ""
+   "en": "Thank you for your hard work.\nYou've done your part as a\nmember of Meg-sama's fan club.",
+   "status": "done"
   },
   {
    "id": "R07:24CFE",
@@ -4264,7 +4472,8 @@
    "kind": "next",
    "end": "C000",
    "jp": "今後は、じゆうに行動してくれ！",
-   "en": ""
+   "en": "From now on,\nyou're free to do as you like!",
+   "status": "done"
   },
   {
    "id": "R07:24D2C",
@@ -4272,7 +4481,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ファンクラブの会長：\nそうか。",
-   "en": ""
+   "en": "Fan Club President:\nI see.",
+   "status": "done"
   },
   {
    "id": "R07:24D4C",
@@ -4280,7 +4490,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "まあ、あせらずに、コツコツと\n取材してくれたまえ。",
-   "en": ""
+   "en": "Well, don't rush. Just keep\nworking on those interviews.",
+   "status": "done"
   },
   {
    "id": "R07:24D80",
@@ -4288,7 +4499,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ファンクラブの会長：\n今後も【メグ】様の情報集めに\nまいしんするように。",
-   "en": ""
+   "en": "Fan Club President:\nKeep working hard to gather\nnews about Meg-sama.",
+   "status": "done"
   }
  ]
 }

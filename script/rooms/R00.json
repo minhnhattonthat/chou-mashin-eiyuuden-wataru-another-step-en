@@ -755,7 +755,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nうん！　こっちこそよろしくね。\nえーっと、アラゴトのおじさんっ！",
-   "en": "Wataru:\nYeah! Glad to have you along,\num... Uncle Aragoto!",
+   "en": "Wataru:\nYeah! Glad to have you along,\num... Uncle Aragoto-san!",
    "status": "done"
   },
   {
@@ -764,7 +764,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nお、おじ・・・さっ、ん。",
-   "en": "Aragoto:\nU-Un... cle?",
+   "en": "Aragoto:\nU-Uncle-san...?",
    "status": "done"
   },
   {
@@ -1259,7 +1259,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nこっ、子供がこんな所に来たら\nダメだに。",
-   "en": "Man:\nK-kids shouldn't be coming\nto a place like this!",
+   "en": "Man:\nK-kids ain't got any business\nin a place like this!",
    "status": "done"
   },
   {

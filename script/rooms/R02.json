@@ -296,7 +296,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "わたくしは決して、\nお金もちだからと言って、",
-   "en": "My wealth has nothing to do",
+   "en": "I certainly do not associate",
    "status": "done"
   },
   {
@@ -305,7 +305,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "この方達とごいっしょ\nしているわけでは\nございませんのよ。",
-   "en": "with my choosing to associate\nwith these people, you know.",
+   "en": "with these people simply because\nthey happen to be wealthy.",
    "status": "done"
   },
   {
@@ -989,7 +989,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\n子どもは、いろんなことを\n見つけて大人になるんじゃ。",
-   "en": "Old Man:\nChildren grow up by discovering\nall sorts of things.",
+   "en": "Old Man:\nChildren grow up by discovering\nall sorts of things, ye know.",
    "status": "done"
   },
   {
@@ -998,7 +998,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n村の子どもたちが\n{k3B}えたそうじゃな。",
-   "en": "Old Man:\nI hear the village children\nhave disappeared.",
+   "en": "Old Man:\nI hear the village children\nhave gone missing, eh?",
    "status": "done"
   },
   {
@@ -1007,7 +1007,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "きっと、村の南の方にある\n【子どもたちの森】で\nあそんでいるんじゃろう。",
-   "en": "They're surely playing in\nthe Children's Forest,\nsouth of the village.",
+   "en": "I reckon they're playing in\nthe Children's Forest,\nsouth of the village.",
    "status": "done"
   },
   {
@@ -1016,7 +1016,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "あそこには、倉庫もあるし、\n子どもたちにとっては、\nお城みたいなもんじゃて。",
-   "en": "There's a warehouse there, too.\nTo those children, it must\nbe like a castle.",
+   "en": "There's a warehouse there, too.\nWhy, that's as good as a castle\nto the young ones.",
    "status": "done"
   },
   {
@@ -1025,7 +1025,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "お主も、行ってみたらどうじゃ？\n何か見つかるかもしれんぞい。",
-   "en": "Why don't you go have a look?\nYou might find something.",
+   "en": "Why don't ye go take a look?\nYe might find something.",
    "status": "done"
   },
   {
@@ -1043,7 +1043,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワシらの、ワカイころは、\nあせ水流して、一生けんめい\n働いたもんじゃ。",
-   "en": "When we were young,\nwe worked our fingers\nto the bone.",
+   "en": "Back in our younger days,\nwe worked our fingers\nto the bone.",
    "status": "done"
   },
   {
@@ -1052,7 +1052,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\n一体どこから、あんなにお金が\n出ているのか、さっぱりわからん。",
-   "en": "Old Man:\nI've no idea where all that\nmoney is coming from.",
+   "en": "Old Man:\nI've not the faintest idea where\nall that money comes from.",
    "status": "done"
   },
   {
@@ -1628,7 +1628,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだよ！\nボクちょっと言ってくるよ！",
-   "en": "Wataru:\nYeah!\nI'll go give them a piece of me!",
+   "en": "Wataru:\nYeah! I'll go give them\na piece of my mind!",
    "status": "done"
   },
   {
@@ -1898,7 +1898,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "それがあれば\n地下からビルの近くまで行けるよ！",
-   "en": "With that, we can go underground\nand come out near Bill!",
+   "en": "With that, we can go underground\nand get close to the building!",
    "status": "done"
   },
   {

@@ -1043,7 +1043,8 @@
    "kind": "event",
    "end": "4000",
    "jp": "な、何か言わないと・・・\n１．サクヤはいやがってるぞ！\n２．引き出物は食べ物がいいなぁ。",
-   "en": ""
+   "en": "I-I'd better say something...\n1. Sakuya doesn't want this!\n2. I want edible wedding favors.",
+   "status": "done"
   },
   {
    "id": "R11:10256",
@@ -1051,7 +1052,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサクヤはいやがってるじゃないか！",
-   "en": ""
+   "en": "Wataru:\nSakuya doesn't want this!",
+   "status": "done"
   },
   {
    "id": "R11:10290",
@@ -1059,7 +1061,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\nまーたまたぁ。",
-   "en": ""
+   "en": "Yomeiri:\nOh, there you go again!",
+   "status": "done"
   },
   {
    "id": "R11:102BA",
@@ -1067,7 +1070,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ボクが可愛いお嫁さんを\nもらうからって、\nひがまなくてもいいじゃないの。",
-   "en": ""
+   "en": "Just because I'm getting\nan adorable bride-san doesn't\nmean you have to get jealous.",
+   "status": "done"
   },
   {
    "id": "R11:10314",
@@ -1075,7 +1079,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nホントーッに、イヤですのっ！",
-   "en": ""
+   "en": "Sakuya:\nI REALLY do not want this!",
+   "status": "done"
   },
   {
    "id": "R11:1034A",
@@ -1083,7 +1088,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヨメイリ：\nんふぅーん、テレちゃってぇ。",
-   "en": ""
+   "en": "Yomeiri:\nMmm-hmm! Playing shy, are we?",
+   "status": "done"
   },
   {
    "id": "R11:10384",
@@ -1091,7 +1097,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nぼうや、ヤツには\n何を言っても無駄なようだな。",
-   "en": ""
+   "en": "Aragoto:\nBoy, it seems nothing we say\nwill get through to him.",
+   "status": "done"
   },
   {
    "id": "R11:103D0",
@@ -1099,7 +1106,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nうん。",
-   "en": ""
+   "en": "Wataru:\nYeah.",
+   "status": "done"
   },
   {
    "id": "R11:103F2",
@@ -1107,7 +1115,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おい、お前！　ボクと勝負しろ！",
-   "en": ""
+   "en": "Hey, you! I challenge you!",
+   "status": "done"
   },
   {
    "id": "R11:10420",
@@ -1115,7 +1124,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\n勝負？",
-   "en": ""
+   "en": "Yomeiri:\nA challenge?",
+   "status": "done"
   },
   {
    "id": "R11:10442",
@@ -1123,7 +1133,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nボクが勝ったら、\nサクヤを返してもらうぞ！",
-   "en": ""
+   "en": "Wataru:\nIf I win,\nyou're giving Sakuya back!",
+   "status": "done"
   },
   {
    "id": "R11:10486",
@@ -1131,7 +1142,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nうっわぁー。\nワタルくん、かぁっこいいー。",
-   "en": ""
+   "en": "Warurine:\nWoooow!\nWataru-kun, you're so cool!",
+   "status": "done"
   },
   {
    "id": "R11:104D0",
@@ -1139,7 +1151,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nわ、ワタルさまったら・・・。\n恥ずかしいですわ。",
-   "en": ""
+   "en": "Sakuya:\nW-Wataru-sama, really...\nYou are making me blush.",
+   "status": "done"
   },
   {
    "id": "R11:1051A",
@@ -1147,7 +1160,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\nふーむ・・・。",
-   "en": ""
+   "en": "Yomeiri:\nHmm...",
+   "status": "done"
   },
   {
    "id": "R11:10544",
@@ -1155,7 +1169,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "いいでしょう、\n愛には障害が付き物ですからね。",
-   "en": ""
+   "en": "Very well.\nLove always has its obstacles,\nafter all.",
+   "status": "done"
   },
   {
    "id": "R11:1058E",
@@ -1163,7 +1178,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\nあー、はいはい。じゃっ、そーゆー\nコトで、でていってちょうだいな。",
-   "en": ""
+   "en": "Yomeiri:\nYes, yes. Well, that's that.\nNow, out you go, please.",
+   "status": "done"
   },
   {
    "id": "R11:105EC",
@@ -1171,7 +1187,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nおい！　何がそーゆーコトなんだ！\nボクもまぜろっていってるだろ！",
-   "en": ""
+   "en": "Wataru:\nHey! What's with 'that's that'?\nI said I want in, too!",
+   "status": "done"
   },
   {
    "id": "R11:10646",
@@ -1179,7 +1196,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴトとワルリーヌ：\n・・・。",
-   "en": ""
+   "en": "Aragoto & Warurine:\n...",
+   "status": "done"
   },
   {
    "id": "R11:1067C",
@@ -1187,7 +1205,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\nあー、はいはい。じゃっ、そーゆー\nコトで、でていってちょうだいな。",
-   "en": ""
+   "en": "Yomeiri:\nYes, yes. Well, that's that.\nNow, out you go, please.",
+   "status": "done"
   },
   {
    "id": "R11:106DA",
@@ -1195,7 +1214,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nおい！　何がそーゆーコトなんだ！\nハナシはまだおわってないぞ！",
-   "en": ""
+   "en": "Wataru:\nHey! What's with 'that's that'?\nWe're not done talking yet!",
+   "status": "done"
   },
   {
    "id": "R11:10732",
@@ -1203,7 +1223,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴトとワルリーヌ：\n・・・。",
-   "en": ""
+   "en": "Aragoto & Warurine:\n...",
+   "status": "done"
   },
   {
    "id": "R11:10768",
@@ -1211,7 +1232,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\nそりゃあモチロンさ！\nじゃあ、そーゆーコトで。",
-   "en": ""
+   "en": "Yomeiri:\nOf course!\nWell, that's that, then.",
+   "status": "done"
   },
   {
    "id": "R11:107B2",
@@ -1219,7 +1241,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nおい！　何がそーゆーコトなんだ！\nハナシはまだおわってないぞ！",
-   "en": ""
+   "en": "Wataru:\nHey! What's with 'that's that'?\nWe're not done talking yet!",
+   "status": "done"
   },
   {
    "id": "R11:1080A",
@@ -1227,7 +1250,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴトとワルリーヌ：\n・・・いったんひきかえそう。",
-   "en": ""
+   "en": "Aragoto & Warurine:\n...Let's head back for now.",
+   "status": "done"
   },
   {
    "id": "R11:10854",
@@ -1235,7 +1259,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\nはいはい。ちゃんと食べ物にして\nおいてあげますよん。",
-   "en": ""
+   "en": "Yomeiri:\nYes, yes. I'll make sure\nwe give you edible favors.",
+   "status": "done"
   },
   {
    "id": "R11:108A4",
@@ -1243,7 +1268,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "じゃっ、そーゆーことでサッサと\nでていってちょうだいな。",
-   "en": ""
+   "en": "Well, that's that.\nNow hurry along and get out,\nplease.",
+   "status": "done"
   },
   {
    "id": "R11:108EC",
@@ -1251,7 +1277,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nおい！　何がそーゆーコトなんだ！\nハナシはまだおわってないぞ！",
-   "en": ""
+   "en": "Wataru:\nHey! What's with 'that's that'?\nWe're not done talking yet!",
+   "status": "done"
   },
   {
    "id": "R11:10944",
@@ -1259,7 +1286,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\nなぁに？",
-   "en": ""
+   "en": "Yomeiri:\nWhaaat?",
+   "status": "done"
   },
   {
    "id": "R11:10968",
@@ -1267,7 +1295,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n引き出物って、なぁに？",
-   "en": ""
+   "en": "Wataru:\nWhat's a wedding favor?",
+   "status": "done"
   },
   {
    "id": "R11:10998",
@@ -1275,7 +1304,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴトとワルリーヌ：\n・・・。",
-   "en": ""
+   "en": "Aragoto & Warurine:\n...",
+   "status": "done"
   },
   {
    "id": "R11:109CE",
@@ -1283,7 +1313,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\nしょんなぁ・・・。\nボクが負けるなんて・・・。",
-   "en": ""
+   "en": "Yomeiri:\nNo waaay...\nHow could I lose...?",
+   "status": "done"
   },
   {
    "id": "R11:10A18",
@@ -1291,7 +1322,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ぢっくしょーう！\nこうなったら魔神で勝負だーい！",
-   "en": ""
+   "en": "Darn it aaall!\nThen I'll take you on\nwith my mashin!",
+   "status": "done"
   },
   {
    "id": "R11:10A66",
@@ -1299,7 +1331,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nでもさぁ、花嫁さんばっかり\n集めるっていうのもスゴイよねぇ。",
-   "en": ""
+   "en": "Wataru:\nStill, gathering only brides-san\nis pretty amazing, huh?",
+   "status": "done"
   },
   {
    "id": "R11:10ABC",
@@ -1307,7 +1340,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\nはい・・・。",
-   "en": ""
+   "en": "Yomeiri:\nYes...",
+   "status": "done"
   },
   {
    "id": "R11:10AE4",
@@ -1315,7 +1349,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "元々このお城は結婚式場で、\nボクは結婚式の司会なんかを\nしてたんです。",
-   "en": ""
+   "en": "This castle used to be a\nwedding hall. I was the one\nwho hosted the ceremonies.",
+   "status": "done"
   },
   {
    "id": "R11:10B3A",
@@ -1323,7 +1358,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nで、自分も花嫁さんが\n欲しくなった、と？",
-   "en": ""
+   "en": "Aragoto:\nAnd so you came to desire\na bride-san of your own, eh?",
+   "status": "done"
   },
   {
    "id": "R11:10B7E",
@@ -1331,7 +1367,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヨメイリ：\nええ。",
-   "en": ""
+   "en": "Yomeiri:\nYes.",
+   "status": "done"
   },
   {
    "id": "R11:10BA0",
@@ -1339,7 +1376,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "でも、まさか\nこんなとんでもない事に\nなってしまうなんて・・・。",
-   "en": ""
+   "en": "But I never dreamed\nit would turn into\nsuch a terrible mess...",
+   "status": "done"
   },
   {
    "id": "R11:10BF0",
@@ -1347,7 +1385,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれはあなたが悪いのでは\nありませんわ。",
-   "en": ""
+   "en": "Sakuya:\nThat is not your fault.",
+   "status": "done"
   },
   {
    "id": "R11:10C32",
@@ -1355,7 +1394,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "すべては、\nああなるように仕向けた\n【ワルモンダー】のせい。",
-   "en": ""
+   "en": "The blame lies entirely with\nWarumonder, who arranged\nfor all of this to happen.",
+   "status": "done"
   },
   {
    "id": "R11:10C7E",
@@ -1363,7 +1403,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうそう。",
-   "en": ""
+   "en": "Wataru:\nYeah, exactly.",
+   "status": "done"
   },
   {
    "id": "R11:10CA2",
@@ -1371,7 +1412,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "それにメッタに着られない\n花嫁衣装を着ることができて、\n案外みんな感謝してるかもよ？",
-   "en": ""
+   "en": "They got a rare chance to wear\na wedding dress. Maybe they're\nactually grateful, you know?",
+   "status": "done"
   },
   {
    "id": "R11:10D06",
@@ -1379,7 +1421,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "みんな：\nあはははは・・・。",
-   "en": ""
+   "en": "Everyone:\nAhahahaha...",
+   "status": "done"
   },
   {
    "id": "R11:14344",
@@ -1387,7 +1430,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nボク達は、今度、結婚するんだよ。\nままごとの話だけどね。えへへ。",
-   "en": ""
+   "en": "Boy:\nWe're getting married soon!\nJust playing house! Hee hee.",
+   "status": "done"
   },
   {
    "id": "R11:14394",
@@ -1395,7 +1439,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おとこの子：\nここは、【ハナヨメ村】だい！\n第６界層だい！",
-   "en": ""
+   "en": "Boy:\nThis is Bride Village!\nIt's on the Sixth Layer!",
+   "status": "done"
   },
   {
    "id": "R11:143D0",
@@ -1403,7 +1448,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "オレ達、ラブラブだい！\nとっても、しあわせだい！\nところで、キミ達は何だい？",
-   "en": ""
+   "en": "We're in love!\nWe're so happy!\nSo, what are you guys?",
+   "status": "done"
   },
   {
    "id": "R11:14420",
@@ -1411,7 +1457,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\nいつか、ホントに結婚できたら、\nいいな～。",
-   "en": ""
+   "en": "Girl:\nI hope we can get married\nfor real someday.",
+   "status": "done"
   },
   {
    "id": "R11:1445C",
@@ -1419,7 +1466,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nあなた、おかえり～。",
-   "en": ""
+   "en": "Girl:\nWelcome hooome, honey.",
+   "status": "done"
   },
   {
    "id": "R11:14480",
@@ -1427,7 +1475,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ごはんにする～？\nおふろにする～？\nなんちゃって・・・。",
-   "en": ""
+   "en": "Want dinner first?\nOr a baaath?\nJust kidding...",
+   "status": "done"
   },
   {
    "id": "R11:144BC",
@@ -1435,7 +1484,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nこんにちは。",
-   "en": ""
+   "en": "Girl:\nHello.",
+   "status": "done"
   },
   {
    "id": "R11:144D8",
@@ -1443,7 +1493,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "この村のほとんどの人は、\nカップルか結婚をしているの。",
-   "en": ""
+   "en": "Almost everyone in this village\nis dating someone or married.",
+   "status": "done"
   },
   {
    "id": "R11:14510",
@@ -1451,7 +1502,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nたまに、２人の世界に\n入っちゃってて、",
-   "en": ""
+   "en": "Girl:\nSometimes they get lost\nin their own little world,",
+   "status": "done"
   },
   {
    "id": "R11:14546",
@@ -1459,7 +1511,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "こっちに気付いてくれないときが\nあるの。",
-   "en": ""
+   "en": "and don't even notice us.",
+   "status": "done"
   },
   {
    "id": "R11:14570",
@@ -1467,7 +1520,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "だから、そんなときは、\nそっとしておいてあげてね。",
-   "en": ""
+   "en": "So when that happens,\njust leave them be, okay?",
+   "status": "done"
   },
   {
    "id": "R11:145A4",
@@ -1475,7 +1529,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nあははっ。",
-   "en": ""
+   "en": "Young Man:\nAhaha!",
+   "status": "done"
   },
   {
    "id": "R11:145C0",
@@ -1483,7 +1538,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nうおおおおおっ！",
-   "en": ""
+   "en": "Young Man:\nWoooooo!",
+   "status": "done"
   },
   {
    "id": "R11:145E0",
@@ -1491,7 +1547,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "だ・い・す・きだぁっ！！",
-   "en": ""
+   "en": "I! LOVE! YOU!!",
+   "status": "done"
   },
   {
    "id": "R11:145FC",
@@ -1499,7 +1556,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nもう時間はとっくに過ぎてるのに、\nこないなぁ・・・。",
-   "en": ""
+   "en": "Young Man:\nShe's way past the time we set,\nbut she's still not here...",
+   "status": "done"
   },
   {
    "id": "R11:14640",
@@ -1507,7 +1565,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もしかして、オレの顔を\nわすれちゃったんじゃ\nないだろうなぁ・・・。",
-   "en": ""
+   "en": "Don't tell me she's forgotten\nwhat I look like...",
+   "status": "done"
   },
   {
    "id": "R11:14686",
@@ -1515,7 +1574,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "　おにいさん：\n村のおくに、\nきれいなお城があるだろ。",
-   "en": ""
+   "en": "  Young Man:\nSee that pretty castle\nat the back of the village?",
+   "status": "done"
   },
   {
    "id": "R11:146BE",
@@ -1523,7 +1583,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "あそこにいる【ヨメイリ】は、\n自分の嫁にするために\n若い女の子をさらいまくるんだ。",
-   "en": ""
+   "en": "Yomeiri lives there. He keeps\nkidnapping young girls to\nmake them his brides.",
+   "status": "done"
   },
   {
    "id": "R11:14712",
@@ -1531,7 +1592,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おかげで、かのじょを見つける\nのが大変だったよ。",
-   "en": ""
+   "en": "Thanks to him, finding myself\na girlfriend was no easy task.",
+   "status": "done"
   },
   {
    "id": "R11:14744",
@@ -1539,7 +1601,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nでも、そのかいあって、\n結婚したんだ、オレ達。",
-   "en": ""
+   "en": "Young Man:\nBut it was worth it.\nWe got married!",
+   "status": "done"
   },
   {
    "id": "R11:14782",
@@ -1547,7 +1610,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "年下の嫁さんなんだけど、\nいまごろはコンビニで、\nショッピングってとこかな。",
-   "en": ""
+   "en": "My wife-san's younger than me.\nShe's probably out shopping\nat the convenience store now.",
+   "status": "done"
   },
   {
    "id": "R11:147D0",
@@ -1555,7 +1619,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nうふふっ。",
-   "en": ""
+   "en": "Young Woman:\nHee hee!",
+   "status": "done"
   },
   {
    "id": "R11:147EC",
@@ -1563,7 +1628,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nおかしいわね・・・。",
-   "en": ""
+   "en": "Young Woman:\nThat's strange...",
+   "status": "done"
   },
   {
    "id": "R11:14810",
@@ -1571,7 +1637,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "時間までには、\n必ず来る人なのに・・・。\n心配だわ・・・。",
-   "en": ""
+   "en": "He's always here on time...\nI'm worried...",
+   "status": "done"
   },
   {
    "id": "R11:1484C",
@@ -1579,7 +1646,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nサクヤ？\n・・・そういえば、さっき、",
-   "en": ""
+   "en": "Young Woman:\nSakuya?\n...Oh, right! Just a moment ago,",
+   "status": "done"
   },
   {
    "id": "R11:14880",
@@ -1587,7 +1655,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "可愛いおんなの子が、\nオクの部屋につれて行かれたわよ。\nきっとその子じゃないかしら？",
-   "en": ""
+   "en": "A cute girl was taken to a room\nin the back. I'll bet that\nwas her, don't you think?",
+   "status": "done"
   },
   {
    "id": "R11:148D8",
@@ -1595,7 +1664,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nそうそう、その子ずっと、",
-   "en": ""
+   "en": "Young Woman:\nOh, yes! The whole time,\nshe kept...",
+   "status": "done"
   },
   {
    "id": "R11:14900",
@@ -1603,7 +1673,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "「ワタルさま！」って、\nさけんでたわよ。",
-   "en": ""
+   "en": "shouting, \"Wataru-sama!\"",
+   "status": "done"
   },
   {
    "id": "R11:1492C",
@@ -1611,7 +1682,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おねえさん：\nダーリン、すきすきっ！！",
-   "en": ""
+   "en": "Young Woman:\nDarling, I love, love you!!",
+   "status": "done"
   },
   {
    "id": "R11:14954",
@@ -1619,7 +1691,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nせせらぎを聞きながらデート。\nなんだかロマンチック・・・。",
-   "en": ""
+   "en": "Young Woman:\nA date by a babbling brook...\nHow romantic...",
+   "status": "done"
   },
   {
    "id": "R11:149A0",
@@ -1627,7 +1700,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nここだけの話なんだが、\nうわさ話を知ってるかい？",
-   "en": ""
+   "en": "Man:\nJust between us,\nhave you heard the rumor?",
+   "status": "done"
   },
   {
    "id": "R11:149DE",
@@ -1635,7 +1709,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "知っている？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Have you heard it?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R11:14A04",
@@ -1643,7 +1718,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nおっぱり、ホントだったのか！",
-   "en": ""
+   "en": "Man:\nSo it really was true!",
+   "status": "done"
   },
   {
    "id": "R11:14A2E",
@@ -1651,7 +1727,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【ヨメイリ】さまは、\nものすごーく、結婚したくて\nしょうがないそうだ。",
-   "en": ""
+   "en": "They say Yomeiri-sama is\nso desperate to get married,\nhe just can't stand it.",
+   "status": "done"
   },
   {
    "id": "R11:14A76",
@@ -1659,7 +1736,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "だから手あたりしだいに・・・、\nおーこわ！！",
-   "en": ""
+   "en": "So he's grabbing anyone\nhe can... Oh, scary!!",
+   "status": "done"
   },
   {
    "id": "R11:14AA4",
@@ -1667,7 +1745,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nこの前、このあたりで\nとても美しい人を見かけたんだ。",
-   "en": ""
+   "en": "Man:\nI saw a real beauty\naround here the other day.",
+   "status": "done"
   },
   {
    "id": "R11:14AE8",
@@ -1675,7 +1754,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nボクはあなたのような素敵な\n女性を探していたんだ！",
-   "en": ""
+   "en": "Young Man:\nI've been searching for a woman\nas wonderful as you!",
+   "status": "done"
   },
   {
    "id": "R11:14B2A",
@@ -1683,7 +1763,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "結婚してください！！",
-   "en": ""
+   "en": "Please marry me!!",
+   "status": "done"
   },
   {
    "id": "R11:14BF4",
@@ -1691,7 +1772,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\nこの先で、\n結婚式をやるはずだよ。",
-   "en": ""
+   "en": "Young Man:\nThere's supposed to be\na wedding up ahead.",
+   "status": "done"
   },
   {
    "id": "R11:14CD8",
@@ -1699,7 +1781,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\nよっぱらいとへんなカップルが、\n店のボトル、ぜ～んぶあけて、",
-   "en": ""
+   "en": "Woman:\nA drunk and a weird couple\nemptied every bottle in the bar,",
+   "status": "done"
   },
   {
    "id": "R11:14D22",
@@ -1707,7 +1790,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おさけがなくなっちゃったのよ。",
-   "en": ""
+   "en": "and now we're out of booze!",
+   "status": "done"
   },
   {
    "id": "R11:14D42",
@@ -1715,7 +1799,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "　おばさん：\n美しい女性ですって・・・？\nあなたったら！！",
-   "en": ""
+   "en": "  Woman:\nA beautiful woman, you say...?\nOh, you!!",
+   "status": "done"
   },
   {
    "id": "R11:14D7E",
@@ -1723,7 +1808,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "すぐとなりにいるじゃないの。",
-   "en": ""
+   "en": "There's one right beside you!",
+   "status": "done"
   },
   {
    "id": "R11:14D9C",
@@ -1731,7 +1817,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "若おくさん：\n今日のこんだて、\nどうしようかしら？",
-   "en": ""
+   "en": "Young Wife:\nWhat should I make\nfor dinner today?",
+   "status": "done"
   },
   {
    "id": "R11:14DD0",
@@ -1739,7 +1826,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "まよっちゃうな。",
-   "en": ""
+   "en": "I just can't decide.",
+   "status": "done"
   },
   {
    "id": "R11:14DE4",
@@ -1747,7 +1835,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "若おくさん：\nそうそう、お城に住む\n【ヨメイリ・コウゾウ】だけど、",
-   "en": ""
+   "en": "Young Wife:\nOh, yes. About Yomeiri,\nwho lives in the castle...",
+   "status": "done"
   },
   {
    "id": "R11:14E28",
@@ -1755,7 +1844,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "女性だけじゃあきたらず、\nもんペットまで\nさらっているそうよ。",
-   "en": ""
+   "en": "They say women aren't enough\nfor him anymore. He's even\nkidnapping Monpet now.",
+   "status": "done"
   },
   {
    "id": "R11:14E68",
@@ -1763,7 +1853,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そのてん、うちのダンナは\n心配ないわ。",
-   "en": ""
+   "en": "At least I don't have to worry\nabout my husband on that score.",
+   "status": "done"
   },
   {
    "id": "R11:14E90",
@@ -1771,7 +1862,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nまったく・・・。\n幸せなヤツはいいよなー。",
-   "en": ""
+   "en": "Man:\nSheesh...\nMust be nice to be happy.",
+   "status": "done"
   },
   {
    "id": "R11:14EC8",
@@ -1779,7 +1871,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nオレなんか、【ハナヨメ\nキャッスル】作ってたばっかりに、",
-   "en": ""
+   "en": "Man:\nAll that time spent building\nBride Castle...",
+   "status": "done"
   },
   {
    "id": "R11:14F0E",
@@ -1787,7 +1880,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "婚期逃しちゃったよー。",
-   "en": ""
+   "en": "made me miss my chance\nto get married!",
+   "status": "done"
   },
   {
    "id": "R11:14F28",
@@ -1795,7 +1889,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nやってらんねーぜ。\nちくしょーめっ！",
-   "en": ""
+   "en": "Man:\nI can't take this anymore.\nDarn it all!",
+   "status": "done"
   },
   {
    "id": "R11:14F5A",
@@ -1803,7 +1898,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あれ・・・？\nさけがないぞー。\nもしもーし・・・。",
-   "en": ""
+   "en": "Huh...?\nI'm out of booze.\nHellooo...?",
+   "status": "done"
   },
   {
    "id": "R11:14F90",
@@ -1811,7 +1907,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nオレの体を見てくれ！\nムッキムキだろ？",
-   "en": ""
+   "en": "Man:\nCheck out this body!\nPretty ripped, huh?",
+   "status": "done"
   },
   {
    "id": "R11:14FC4",
@@ -1819,7 +1916,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "まぁ、ここまでなるのは\nラクじゃないけどよ、\nこれでも使ってがんばってくれ！",
-   "en": ""
+   "en": "Getting this big isn't easy,\nbut use this and\ngive it your best shot!",
+   "status": "done"
   },
   {
    "id": "R11:15012",
@@ -1827,7 +1925,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "気合い入れてボーリングバトルに\nはげめば、オレみたくなれっぞ！",
-   "en": ""
+   "en": "Put your heart into\nBowling Battle and you can\nlook just like me!",
+   "status": "done"
   },
   {
    "id": "R11:15052",
@@ -1835,7 +1934,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・おっと、嬢ちゃんは、\n今のまんまがいいな♥",
-   "en": ""
+   "en": "...Oh, but little lady-chan,\nyou look fine just as you are!",
+   "status": "done"
   },
   {
    "id": "R11:15084",
@@ -1843,7 +1943,8 @@
    "kind": "next",
    "end": "A000",
    "jp": "あがってマスクを手に入れた！",
-   "en": ""
+   "en": "Got Mask Me Up!",
+   "status": "done"
   },
   {
    "id": "R11:150A8",
@@ -1851,7 +1952,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "おじさん：\nまあ、がんばれよ！",
-   "en": ""
+   "en": "Man:\nWell, give it your best!",
+   "status": "done"
   },
   {
    "id": "R11:150C8",
@@ -1859,7 +1961,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\nばあさん、ここなら誰にも\n気付かれないじゃろう。",
-   "en": ""
+   "en": "Old Man:\nNo one will notice us here,\nmy dear.",
+   "status": "done"
   },
   {
    "id": "R11:15108",
@@ -1867,7 +1970,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\n・・・！？\n何じゃい、お前達！！",
-   "en": ""
+   "en": "Old Man:\n...?!\nWhat do you lot want?!",
+   "status": "done"
   },
   {
    "id": "R11:15138",
@@ -1875,7 +1979,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nここは【ハナヨメキャッスル】。",
-   "en": ""
+   "en": "Old Man:\nThis is Bride Castle.",
+   "status": "done"
   },
   {
    "id": "R11:15166",
@@ -1883,7 +1988,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ヨメイリ・コウゾウ】って\nヤツは、花嫁集めをやっている\nそうじゃぞ。",
-   "en": ""
+   "en": "They say that fellow Yomeiri\nhas taken to collecting brides.",
+   "status": "done"
   },
   {
    "id": "R11:151B0",
@@ -1891,7 +1997,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nイイのぉ、若いモンは。",
-   "en": ""
+   "en": "Old Man:\nAh, to be young again.",
+   "status": "done"
   },
   {
    "id": "R11:151D6",
@@ -1899,7 +2006,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・！\nちょっと待てぇ～い！！\nいくら何でも、若すぎじゃい！",
-   "en": ""
+   "en": "...!\nHold on just a minute!!\nEven so, you're far too young!",
+   "status": "done"
   },
   {
    "id": "R11:15218",
@@ -1907,7 +2015,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\nダメですよ。おじいさん・・・。\n・・・・・・。",
-   "en": ""
+   "en": "Old Woman:\nYou mustn't, dear...\n......",
+   "status": "done"
   },
   {
    "id": "R11:15258",
@@ -1915,7 +2024,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\n・・・！？\n何ですか、あなた達！！",
-   "en": ""
+   "en": "Old Woman:\n...?!\nWhat do you people want?!",
+   "status": "done"
   },
   {
    "id": "R11:1528C",
@@ -1923,7 +2033,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\nやんだ～。ウソだべ～！？",
-   "en": ""
+   "en": "Old Woman:\nAw, nooo! That can't be true?!",
+   "status": "done"
   },
   {
    "id": "R11:152B4",
@@ -1931,7 +2042,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nだけんども、お前さん\nオラのタイプだ～。",
-   "en": ""
+   "en": "Old Woman:\nBut you-san are just my type,\nyou are!",
+   "status": "done"
   },
   {
    "id": "R11:152EC",
@@ -1939,7 +2051,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nオラこんな年になって、\n愛にめざめてしまっただ～。",
-   "en": ""
+   "en": "Old Woman:\nAt my age, love's gone and\nwoken up in my heart!",
+   "status": "done"
   },
   {
    "id": "R11:15330",
@@ -1947,7 +2060,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n・・・。",
-   "en": ""
+   "en": "Old Woman:\n...",
+   "status": "done"
   },
   {
    "id": "R11:15348",
@@ -1955,7 +2069,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R11:15352",
@@ -1963,7 +2078,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・。",
-   "en": ""
+   "en": "...",
+   "status": "done"
   },
   {
    "id": "R11:1535C",
@@ -1971,7 +2087,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・ポッ。",
-   "en": ""
+   "en": "...Blush.",
+   "status": "done"
   },
   {
    "id": "R11:1536C",
@@ -1979,7 +2096,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\nどうだい、川のほとりを\nあるくのも悪くないだろ。",
-   "en": ""
+   "en": "Young Man:\nSee? A walk along the river\nisn't so bad, is it?",
+   "status": "done"
   },
   {
    "id": "R11:153AC",
@@ -1987,7 +2105,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\nキミがいるだけで\nボクは幸せさ。",
-   "en": ""
+   "en": "Boy:\nJust having you here\nmakes me happy.",
+   "status": "done"
   },
   {
    "id": "R11:153DC",
@@ -1995,7 +2114,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nここ【ハナヨメ村】はカップルが\nひしめく、恋愛スポットよ！",
-   "en": ""
+   "en": "Young Woman:\nBride Village is a lovers' spot,\npacked with couples!",
+   "status": "done"
   },
   {
    "id": "R11:15426",
@@ -2003,7 +2123,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "わたしも、となりのかれと、\nモーレツな恋をしているの！！\nとっても素敵な村だわ！！",
-   "en": ""
+   "en": "I'm madly in love with this guy\nright beside me, too!!\nWhat a wonderful village!!",
+   "status": "done"
   },
   {
    "id": "R11:1547A",
@@ -2011,7 +2132,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これも、【ヨメイリ】様の\nおかげよねー。",
-   "en": ""
+   "en": "And it's all thanks to\nYomeiri-sama!",
+   "status": "done"
   },
   {
    "id": "R11:154A4",
@@ -2019,7 +2141,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n結婚式が執り行われるときは、\nお城の鐘が鳴る。",
-   "en": ""
+   "en": "Old Man:\nThe castle bells ring\nwhenever there's a wedding.",
+   "status": "done"
   },
   {
    "id": "R11:154E2",
@@ -2027,7 +2150,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "鐘が鳴るたびに、\n幸せが１つ生まれるのじゃ。\nええのう・・・。",
-   "en": ""
+   "en": "Every time those bells ring,\na new joy is born.\nHow lovely...",
+   "status": "done"
   },
   {
    "id": "R11:15522",
@@ -2035,7 +2159,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "わしらのころには、\n結婚式なんてなかった・・・。",
-   "en": ""
+   "en": "Back in our day,\nthere were no weddings...",
+   "status": "done"
   },
   {
    "id": "R11:15554",
@@ -2043,7 +2168,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "恋人が「ゆびきりげんまん」を\nして、愛を誓い合うのが、\n結婚のしきたりだったのじゃ。",
-   "en": ""
+   "en": "Couples used to pinky-swear\ntheir love for each other.\nThat was how we got married.",
+   "status": "done"
   },
   {
    "id": "R11:155AC",
@@ -2051,7 +2177,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\nこの村のおくにそびゆる、\n【ハナヨメキャッスル】・・・。",
-   "en": ""
+   "en": "Old Woman:\nBride Castle towers over\nthe far end of the village...",
+   "status": "done"
   },
   {
    "id": "R11:155F4",
@@ -2059,7 +2186,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そこの【ヨメイリ・コウゾウ】は、\n若いおなごをさらい、\n自分の花嫁にしているそうじゃ。",
-   "en": ""
+   "en": "They say Yomeiri, who lives\nthere, kidnaps young girls\nand makes them his brides.",
+   "status": "done"
   },
   {
    "id": "R11:1564C",
@@ -2067,7 +2195,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "じゃがのう・・・さらいすぎて、\n若いおなごが少なくなり、最近は、\nおなごなら何でもいいそうじゃ。",
-   "en": ""
+   "en": "But he's taken so many girls,\nfew young ones remain. Now he'll\ntake any woman at all, they say.",
+   "status": "done"
   },
   {
    "id": "R11:156AE",
@@ -2075,7 +2204,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "すると・・・わしもターゲットに\nなるわけじゃな！\nええ世の中になったのう。",
-   "en": ""
+   "en": "Then... that makes me a target,\ntoo! What a wonderful world\nwe live in now!",
+   "status": "done"
   },
   {
    "id": "R11:156FC",
@@ -2083,7 +2213,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nここのやどやにいるおねえちゃん、\n最近、元気がないんだ。",
-   "en": ""
+   "en": "Boy:\nThe girl at the inn here\nhas been down lately.",
+   "status": "done"
   },
   {
    "id": "R11:15744",
@@ -2091,7 +2222,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nうふふふ、やどやのおにいちゃん、\n好きな人がいるのよ。",
-   "en": ""
+   "en": "Girl:\nHee hee! The guy at the inn\nhas someone he's in love with.",
+   "status": "done"
   },
   {
    "id": "R11:1578A",
@@ -2099,7 +2231,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "元気がないのも、\nその人がきっかけらしいわ。\nうふふ、まだまだあおいわね。",
-   "en": ""
+   "en": "That's who got him feeling down,\nor so I hear. Hee hee!\nHe's still so green.",
+   "status": "done"
   },
   {
    "id": "R11:157D8",
@@ -2251,7 +2384,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\n【ハナヨメキャッスル】で、\n結婚式をやってるはずじゃ。",
-   "en": "Old Man:\nThere should be a wedding\nunderway at Bride Castle.",
+   "en": "Old Man:\nA wedding should be underway\nat Bride Castle, aye.",
    "status": "done"
   },
   {
@@ -2260,7 +2393,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "しか～し！　結婚式が終わると、\nみんなタマシイをぬかれたように\nなってしまうんじゃい！",
-   "en": "Buuut! Once the wedding's over,\neveryone ends up looking like\ntheir souls got sucked out!",
+   "en": "Buuut! Once the wedding's over,\nthey all look like their souls\ngot sucked out, I tell ye!",
    "status": "done"
   }
  ]

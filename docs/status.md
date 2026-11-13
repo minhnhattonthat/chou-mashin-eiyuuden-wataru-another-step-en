@@ -2,7 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: first draft of all 42 batches done by codex, review/revise round running.
+- **Phase:** 6. Translate in progress: all 5,820 entries translated, merged and check-clean; review round 1 done
+  for all 42 batches (work/tl/bNNN.pairs.review.md), revise round 1 applied+merged for 24 of them (b001 b002 b003
+  b006 b007 b008 b010 b011 b012 b013 b014 b016 b017 b020 b021 b022 b025 b027 b029 b030 b034 b038 b040 b042).
+  Approved in round 1 (0 Critical/Important): b005 b009 b026 b031 b032 b035 b041; b004 revised. Still to revise
+  from round 1: b015 b018 b019 b023 b024 b028 b033 b036 b037 b039 (reviews in work/tl/bNNN.pairs.review.md; their
+  Minors are already in docs/polish.md, so a rerun of revise appends them twice: dedupe polish.md after). Run
+  revise per batch and merge each batch on its own (one failing batch aborts a combined merge). Then round 2: refresh
+  pairs from script (`python -X utf8 -c "import sys; sys.path.insert(0,'tools'); import tl_codex as t; [t.refresh(b)
+  for b in [...]]"`, `batches.py pairs`), review the revised batches, revise what still has Critical/Important,
+  write work/tl/review_verdicts.tsv. English is withheld from the build (insert.py prints "English withheld, marker
+  build": 780 menu/EXE letter pairs vs 189 free MSG_CG codes; room fonts likely over too): phase 7 font work.
   Last build: build/wataru_en.bin sha1 6bebf36b... (2026-11-14, marker build + header patch), smoke ok.
 - **Done:**
   - Phase 6, session 1 (2026-11-14): glossary rulings D9 (names: Hepburn, English-pun spellings), D10 (register,

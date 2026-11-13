@@ -148,7 +148,9 @@ def refresh(batch):
     """fix mode: .out.tsv from the English merged in script/, so the check runs on what ships."""
     ix = batches.index()
     ids = [r[0] for r in batches.read_tsv(TL / f"{batch}.tsv")]
-    (TL / f"{batch}.out.tsv").write_text("".join(f"{i}\t" + ix[i].get("en", "").replace("\n", "\\n") + "\n"
+    if not all(ix[i].get("en") for i in ids):  # never blank an unmerged batch's .out.tsv (lost 10 batches once)
+        raise RuntimeError(f"{batch} is not fully merged: merge it before fix/revise")
+    (TL / f"{batch}.out.tsv").write_text("".join(f"{i}\t" + ix[i]["en"].replace("\n", "\\n") + "\n"
                                                  for i in ids), encoding="utf-8")
 
 

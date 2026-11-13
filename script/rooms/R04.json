@@ -881,7 +881,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "どっちがいい？",
-   "en": ""
+   "en": "Which would you like?",
+   "status": "done"
   },
   {
    "id": "R04:152B2",
@@ -889,7 +890,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nどちらも遠慮\nいたしますっ！！",
-   "en": ""
+   "en": "Sakuya:\nI must firmly decline\nBOTH!!",
+   "status": "done"
   },
   {
    "id": "R04:152EC",
@@ -897,7 +899,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nぼうやっ、チビっこ！\nお嬢を助けるぞ！",
-   "en": ""
+   "en": "Aragoto:\nBoy! Little one!\nWe must rescue the young lady!",
+   "status": "done"
   },
   {
    "id": "R04:1532E",
@@ -905,7 +908,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルとワルリーヌ：\nうん！",
-   "en": ""
+   "en": "Wataru & Warurine:\nYeah!",
+   "status": "done"
   },
   {
    "id": "R04:1535A",
@@ -913,7 +917,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "オシシ：\nおっと、そうは行くか。",
-   "en": ""
+   "en": "Oshishi:\nWhoa there. Not so fast.",
+   "status": "done"
   },
   {
    "id": "R04:1538C",
@@ -921,7 +926,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "出でよ！\nコミック創界山名物\n【行列の陣】！！",
-   "en": ""
+   "en": "Come forth! Comic Sokaizan's\nfamous formation...\nThe Waiting Line!!",
+   "status": "done"
   },
   {
    "id": "R04:153E4",
@@ -929,7 +935,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オシシ：\nやってきたかい、救世主。",
-   "en": ""
+   "en": "Oshishi:\nSo you've come, Savior.",
+   "status": "done"
   },
   {
    "id": "R04:15416",
@@ -937,7 +944,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサクヤを返せ！",
-   "en": ""
+   "en": "Wataru:\nGive Sakuya back!",
+   "status": "done"
   },
   {
    "id": "R04:1543E",
@@ -945,7 +953,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オシシ：\nはぁー？　サクヤって誰？",
-   "en": ""
+   "en": "Oshishi:\nHuuuh? Who's Sakuya?",
+   "status": "done"
   },
   {
    "id": "R04:15470",
@@ -953,7 +962,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nとぼけないでよ！",
-   "en": ""
+   "en": "Warurine:\nDon't play innocent!",
+   "status": "done"
   },
   {
    "id": "R04:1549E",
@@ -961,7 +971,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n早く、お嬢の居場所を教えろ！",
-   "en": ""
+   "en": "Aragoto:\nTell us where the young lady is!\nAt once!",
+   "status": "done"
   },
   {
    "id": "R04:154D6",
@@ -969,7 +980,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "オシシ：\nうふーん。サクヤちゃんの\n【セル画】ならあるけどねぇ。",
-   "en": ""
+   "en": "Oshishi:\nOoh, I do have an animation cel\nof Sakuya-chan, though.",
+   "status": "done"
   },
   {
    "id": "R04:15528",
@@ -977,7 +989,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nワタルさまぁ。",
-   "en": ""
+   "en": "Sakuya:\nWataru-samaaa!",
+   "status": "done"
   },
   {
    "id": "R04:15550",
@@ -985,7 +998,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサクヤ！",
-   "en": ""
+   "en": "Wataru:\nSakuya!",
+   "status": "done"
   },
   {
    "id": "R04:15572",
@@ -993,7 +1007,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nサクヤちゃん！",
-   "en": ""
+   "en": "Warurine:\nSakuya-chan!",
+   "status": "done"
   },
   {
    "id": "R04:1559E",
@@ -1001,7 +1016,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n遅かったか・・・！",
-   "en": ""
+   "en": "Aragoto:\nAre we too late...?!",
+   "status": "done"
   },
   {
    "id": "R04:155CC",
@@ -1009,7 +1025,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オシシ：\nんふっんふっんふっ、",
-   "en": ""
+   "en": "Oshishi:\nHeh heh heh...",
+   "status": "done"
   },
   {
    "id": "R04:155FA",
@@ -1017,7 +1034,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "セル画の中で\n一生かわいがってあげるよぉ。",
-   "en": ""
+   "en": "I'll keep you in that cel\nand adore you foreverrr.",
+   "status": "done"
   },
   {
    "id": "R04:15634",
@@ -1025,7 +1043,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nふぇーん！！",
-   "en": ""
+   "en": "Sakuya:\nWaaah!!",
+   "status": "done"
   },
   {
    "id": "R04:1565C",
@@ -1033,7 +1052,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n・・・斬る！",
-   "en": ""
+   "en": "Aragoto:\n...I'll cut you down!",
+   "status": "done"
   },
   {
    "id": "R04:15684",
@@ -1041,7 +1061,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オシシ：\nほぇ？",
-   "en": ""
+   "en": "Oshishi:\nHuh?",
+   "status": "done"
   },
   {
    "id": "R04:156A4",
@@ -1049,7 +1070,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n貴様を斬って、お嬢を助け出す！",
-   "en": ""
+   "en": "Aragoto:\nI shall cut you down and\nrescue the young lady!",
+   "status": "done"
   },
   {
    "id": "R04:156DE",
@@ -1057,7 +1079,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オシシ：\nえ？　・・・お、俺を斬ったら、\nサクヤちゃんは一生このままだぞ！",
-   "en": ""
+   "en": "Oshishi:\nHuh? C-cut me, and Sakuya-chan\nstays like that forever!",
+   "status": "done"
   },
   {
    "id": "R04:15738",
@@ -1065,7 +1088,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nお嬢を元に戻す方法は、\n後で探す！　今は貴様を斬る！",
-   "en": ""
+   "en": "Aragoto:\nI'll seek a way to restore her\nlater! Now I shall cut you down!",
+   "status": "done"
   },
   {
    "id": "R04:1578A",
@@ -1073,7 +1097,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあ、アラゴトは本気だ！",
-   "en": ""
+   "en": "Wataru:\nA-Aragoto means it!",
+   "status": "done"
   },
   {
    "id": "R04:157BA",
@@ -1081,7 +1106,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nお、おじさん、こわい。",
-   "en": ""
+   "en": "Warurine:\nM-mister, you're scary.",
+   "status": "done"
   },
   {
    "id": "R04:157F0",
@@ -1089,7 +1115,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オシシ：\nん、んんっ！　じゃあこうしよう。",
-   "en": ""
+   "en": "Oshishi:\nA-ahem! Let's make a deal.",
+   "status": "done"
   },
   {
    "id": "R04:1582A",
@@ -1097,7 +1124,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ゲームで俺に勝ったら、\nサクヤちゃんは返してあげよう。",
-   "en": ""
+   "en": "Beat me at a game,\nand I'll give Sakuya-chan back.",
+   "status": "done"
   },
   {
    "id": "R04:15870",
@@ -1105,7 +1133,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お前らが負けたら、\nあきらめて帰れ！",
-   "en": ""
+   "en": "If you lose,\ngive up and go home!",
+   "status": "done"
   },
   {
    "id": "R04:158A4",
@@ -1113,7 +1142,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\n・・・とか言ってるよ？",
-   "en": ""
+   "en": "Warurine:\n...That's what he says?",
+   "status": "done"
   },
   {
    "id": "R04:158D8",
@@ -1121,7 +1151,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n・・・とか言ってるケド。",
-   "en": ""
+   "en": "Wataru:\n...That's what he says, but...",
+   "status": "done"
   },
   {
    "id": "R04:1590A",
@@ -1129,7 +1160,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n・・・いいだろう。",
-   "en": ""
+   "en": "Aragoto:\n...Very well.",
+   "status": "done"
   },
   {
    "id": "R04:15946",
@@ -1137,7 +1169,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nさぁ、\n約束通りサクヤを返してもらうぞ！",
-   "en": ""
+   "en": "Wataru:\nOkay, give Sakuya back,\njust like you promised!",
+   "status": "done"
   },
   {
    "id": "R04:15988",
@@ -1145,7 +1178,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "オシシ：\nくぁ～っ、約束は約束だ。",
-   "en": ""
+   "en": "Oshishi:\nArrrgh! A promise is a promise.",
+   "status": "done"
   },
   {
    "id": "R04:159BC",
@@ -1153,7 +1187,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nふぅ、ありがとうございました。",
-   "en": ""
+   "en": "Sakuya:\nPhew. Thank you very much.",
+   "status": "done"
   },
   {
    "id": "R04:159F4",
@@ -1161,7 +1196,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nはぁ、よかったでござるよ。",
-   "en": ""
+   "en": "Aragoto:\nAh, what a relief, indeed.",
+   "status": "done"
   },
   {
    "id": "R04:15A2C",
@@ -1169,7 +1205,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nサクヤちゃん、良かったね！",
-   "en": ""
+   "en": "Warurine:\nSakuya-chan, I'm so glad!",
+   "status": "done"
   },
   {
    "id": "R04:15A66",
@@ -1177,7 +1214,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オシシ：\nむぐぐぅーっ、",
-   "en": ""
+   "en": "Oshishi:\nGrrrrr...",
+   "status": "done"
   },
   {
    "id": "R04:15A8E",
@@ -1185,7 +1223,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "目の前にこんな美少女が２人も\nいるのを簡単にあきらめられるか！",
-   "en": ""
+   "en": "Two such pretty girls right\nbefore my eyes! How could I\njust give them up?!",
+   "status": "done"
   },
   {
    "id": "R04:15ADC",
@@ -1193,7 +1232,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "出でよ！\n【ドウガヅクエーン】！！",
-   "en": ""
+   "en": "Come forth!\nAnimadesk!!",
+   "status": "done"
   },
   {
    "id": "R04:15B1A",
@@ -1201,7 +1241,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "オシシ：\n何だか悪い夢を見ていたような\n気がします。すみませんでした。",
-   "en": ""
+   "en": "Oshishi:\nI feel as though I've been\nhaving a bad dream. I'm sorry.",
+   "status": "done"
   },
   {
    "id": "R04:15B70",
@@ -1209,7 +1250,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n悪い夢ですめばいいですわね。",
-   "en": ""
+   "en": "Sakuya:\nA bad dream? If only it were\nthat simple.",
+   "status": "done"
   },
   {
    "id": "R04:15BA6",
@@ -1217,7 +1259,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nまぁまぁ、",
-   "en": ""
+   "en": "Wataru:\nHey, take it easy.",
+   "status": "done"
   },
   {
    "id": "R04:15BCA",
@@ -1225,7 +1268,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "村ももとに戻ったんだし、\nいいじゃないの。",
-   "en": ""
+   "en": "The village is back to normal,\nso can't we let it go?",
+   "status": "done"
   },
   {
    "id": "R04:15C04",
@@ -1233,7 +1277,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n反省しているようだし、\n再びこのようなことを起こさねば",
-   "en": ""
+   "en": "Aragoto:\nHe seems repentant. If he never\ndoes such a thing again,",
+   "status": "done"
   },
   {
    "id": "R04:15C56",
@@ -1241,7 +1286,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "今回のことは不問に\nしてもいいんじゃねぇか？",
-   "en": ""
+   "en": "could we not let him off\nthis once?",
+   "status": "done"
   },
   {
    "id": "R04:15C92",
@@ -1249,7 +1295,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nん、お二人がそうおっしゃるなら、\n別にもういいですわっ。",
-   "en": ""
+   "en": "Sakuya:\nHmph. If you both insist,\nthen I shall let it go!",
+   "status": "done"
   },
   {
    "id": "R04:15CEA",
@@ -1257,7 +1304,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n酷（ひど）い目にあって\nしまいましたわ。",
-   "en": ""
+   "en": "Sakuya:\nWhat a dreadful ordeal\nthat was.",
+   "status": "done"
   },
   {
    "id": "R04:15D2C",
@@ -1265,7 +1313,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アニメセルに閉じこめられる\nなんて。",
-   "en": ""
+   "en": "Being trapped inside\nan animation cel, of all things!",
+   "status": "done"
   },
   {
    "id": "R04:15D60",
@@ -1273,7 +1322,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "しばらくアニメは\nこりごりですわ。",
-   "en": ""
+   "en": "I have had quite enough\nof anime for a while.",
+   "status": "done"
   },
   {
    "id": "R04:15D92",
@@ -1281,7 +1331,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nまぁまぁ、別にアニメが\n悪いわけじゃないんだし・・・。",
-   "en": ""
+   "en": "Wataru:\nHey, come on. It's not like\nit's anime's fault...",
+   "status": "done"
   },
   {
    "id": "R04:15DE2",
@@ -1289,7 +1340,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそうそう、",
-   "en": ""
+   "en": "Aragoto:\nQuite right.",
+   "status": "done"
   },
   {
    "id": "R04:15E08",
@@ -1297,7 +1349,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "問題はそれを悪事に\n利用するヤツがいる\nということなのよ。",
-   "en": ""
+   "en": "The trouble lies with those\nwho use it for their\nwicked deeds.",
+   "status": "done"
   },
   {
    "id": "R04:15E52",
@@ -1305,7 +1358,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n・・・そうですわね。",
-   "en": ""
+   "en": "Sakuya:\n...Yes, you are right.",
+   "status": "done"
   },
   {
    "id": "R04:15E80",
@@ -1313,7 +1367,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "別に\nワタノレやツバラクやヒシコが\n悪いわけではないですものね？",
-   "en": ""
+   "en": "It is hardly the fault of\nVVataru, Tsubaraku or Hishiko,\nafter all, is it?",
+   "status": "done"
   },
   {
    "id": "R04:15ED0",
@@ -1321,7 +1376,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nうん！　って、まぁボクは\nその番組は知らないんだけどねっ。",
-   "en": ""
+   "en": "Wataru:\nYeah! Though, well, I've never\nactually seen that show!",
+   "status": "done"
   },
   {
    "id": "R04:15F2A",
@@ -1329,7 +1385,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おにいさん：\nカタログ持参か、\n女の子といっしょ。",
-   "en": ""
+   "en": "Young Man:\nBring a Catalog,\nor come with a girl.",
+   "status": "done"
   },
   {
    "id": "R04:15F6C",
@@ -1337,7 +1394,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "【コミック創界山】に行くときの\nジョーシキさ！",
-   "en": ""
+   "en": "That's common knowledge if\nyou're going to Comic Sokaizan!",
+   "status": "done"
   },
   {
    "id": "R04:19FC8",
@@ -1345,7 +1403,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nそういえば・・・。",
-   "en": ""
+   "en": "Young Man:\nCome to think of it...",
+   "status": "done"
   },
   {
    "id": "R04:19FEA",
@@ -1353,7 +1412,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "たかいところにある家の女の子が\nワタノレのホンとやらを\nほしがっていたなぁ。",
-   "en": ""
+   "en": "The girl in that house up high\nwanted something called\nthe VVataru Book.",
+   "status": "done"
   },
   {
    "id": "R04:1A038",
@@ -1361,7 +1421,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nキミもあれ？\nコミック創界山？",
-   "en": ""
+   "en": "Young Man:\nYou here for it, too?\nComic Sokaizan?",
+   "status": "done"
   },
   {
    "id": "R04:1A068",
@@ -1369,7 +1430,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\n【オシシマモモ】って知ってる？",
-   "en": ""
+   "en": "Young Man:\nKnow who Oshishi Mamomo is?",
+   "status": "done"
   },
   {
    "id": "R04:1A096",
@@ -1377,7 +1439,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【コミック創界山】の主催者だよ。\n知らないと、モグリと言われるよ。",
-   "en": ""
+   "en": "He organizes Comic Sokaizan.\nIf you don't know him, people\nwill call you a poser.",
+   "status": "done"
   },
   {
    "id": "R04:1A0DC",
@@ -1385,7 +1448,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nさっき、オカッパの女の子が\nブリキントンにつれて行かれたよ。",
-   "en": ""
+   "en": "Young Man:\nA Burikinton took a girl with\na bob haircut away earlier.",
+   "status": "done"
   },
   {
    "id": "R04:1A128",
@@ -1393,7 +1457,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "たしか・・・。\n村のおくの\n家の近くだったな・・・。",
-   "en": ""
+   "en": "Let's see...\nIt was near a house at the\nback of the village...",
+   "status": "done"
   },
   {
    "id": "R04:1A160",
@@ -1401,7 +1466,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nそうそう、そこの家の女の子\nなんだけど・・・。",
-   "en": ""
+   "en": "Young Man:\nOh, right. About the girl\nwho lives in that house...",
+   "status": "done"
   },
   {
    "id": "R04:1A19E",
@@ -1409,7 +1475,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "なんでも、\n【超魔剣栄光伝ワタノレ】が\nモーレツに好きらしいよ。",
-   "en": ""
+   "en": "I hear she's absolutely mad\nabout 'Super Demon Sword\nGlory VVataru.'",
+   "status": "done"
   },
   {
    "id": "R04:1A1E0",
@@ -1417,7 +1484,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nねえ、キミ。\nそれ何かのコスプレかい？",
-   "en": ""
+   "en": "Young Man:\nHey, you.\nIs that cosplay?",
+   "status": "done"
   },
   {
    "id": "R04:1A216",
@@ -1425,7 +1493,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "バッチリ決まってるじゃん。",
-   "en": ""
+   "en": "You've really nailed the look!",
+   "status": "done"
   },
   {
    "id": "R04:1A234",
@@ -1433,7 +1502,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n言っとくけど・・・。",
-   "en": ""
+   "en": "Man:\nJust so you know...",
+   "status": "done"
   },
   {
    "id": "R04:1A256",
@@ -1441,7 +1511,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あたまのちょんまげは、\nトノケロのコスプレじゃないぞ！",
-   "en": ""
+   "en": "This topknot doesn't mean\nI'm cosplaying as Lord Croak!",
+   "status": "done"
   },
   {
    "id": "R04:1A290",
@@ -1449,7 +1520,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nボクはじめてなんですけど・・・。",
-   "en": ""
+   "en": "Young Man:\nThis is my first time here...",
+   "status": "done"
   },
   {
    "id": "R04:1A2C0",
@@ -1457,7 +1529,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【コミック創界山】って\nものすごい人気なんですね。",
-   "en": ""
+   "en": "Comic Sokaizan is\nincredibly popular, isn't it?",
+   "status": "done"
   },
   {
    "id": "R04:1A2F4",
@@ -1465,7 +1538,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ちなみに、聞いた話なんですけど、\n【超魔剣栄光伝ワタノレ】という\nアニメが大人気らしいです。",
-   "en": ""
+   "en": "By the way, I hear the anime\n'Super Demon Sword\nGlory VVataru' is a huge hit.",
+   "status": "done"
   },
   {
    "id": "R04:1A354",
@@ -1473,7 +1547,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\n会場でも、ワタノレのホンが\n売っているらしいですよ。",
-   "en": ""
+   "en": "Young Man:\nI hear they sell the\nVVataru Book at the venue, too.",
+   "status": "done"
   },
   {
    "id": "R04:1A398",
@@ -1481,7 +1556,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\n【コミック創界山】の会場？\n村の美少女像がめじるしだよ！",
-   "en": ""
+   "en": "Young Man:\nThe Comic Sokaizan venue?\nLook for the pretty-girl statue!",
+   "status": "done"
   },
   {
    "id": "R04:1A3E0",
@@ -1489,7 +1565,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n会場に行ってみた？",
-   "en": ""
+   "en": "Young Man:\nHave you been to the venue?",
+   "status": "done"
   },
   {
    "id": "R04:1A402",
@@ -1497,7 +1574,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "入口の美少女像は、\nなかなかゼッケイでしょう？",
-   "en": ""
+   "en": "That pretty-girl statue by\nthe entrance is quite a sight,\nisn't it?",
+   "status": "done"
   },
   {
    "id": "R04:1A434",
@@ -1505,7 +1583,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nカタログは持っているかい？",
-   "en": ""
+   "en": "Young Man:\nDo you have a Catalog?",
+   "status": "done"
   },
   {
    "id": "R04:1A45E",
@@ -1513,7 +1592,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "カタログがないと、\n会場には入れないよ。",
-   "en": ""
+   "en": "You can't enter the venue\nwithout a Catalog.",
+   "status": "done"
   },
   {
    "id": "R04:1A488",
@@ -1521,7 +1601,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nフィギュアを知っているかい？",
-   "en": ""
+   "en": "Young Man:\nDo you know what figurines are?",
+   "status": "done"
   },
   {
    "id": "R04:1A4B4",
@@ -1529,7 +1610,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "人形のようだけど、\nただの人形じゃない。",
-   "en": ""
+   "en": "They look like dolls,\nbut they're more than dolls.",
+   "status": "done"
   },
   {
    "id": "R04:1A4DE",
@@ -1537,7 +1619,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "キャラクターをあいする心が\n創り出す、ゲージュツ作品さ！",
-   "en": ""
+   "en": "They're works of ART, born\nfrom love for a character!",
+   "status": "done"
   },
   {
    "id": "R04:1A518",
@@ -1545,7 +1628,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "同じキャラクターのものでも、\n作り手によって、\nその完成度はまったくちがう！",
-   "en": ""
+   "en": "Even with the same character,\nthe quality can vary wildly\ndepending on who makes it!",
+   "status": "done"
   },
   {
    "id": "R04:1A566",
@@ -1553,7 +1637,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "いやぁ、フィギュアの世界は\nおくがふかい！",
-   "en": ""
+   "en": "Ah, the world of figurines\nhas such depth!",
+   "status": "done"
   },
   {
    "id": "R04:1A594",
@@ -1561,7 +1646,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\n【美少女キャラクター】を\n知っているかい？",
-   "en": ""
+   "en": "Young Man:\nDo you know about\npretty-girl characters?",
+   "status": "done"
   },
   {
    "id": "R04:1A5CE",
@@ -1569,7 +1655,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "一見、かわいいだけに見えるけど、\nただの女の子じゃない。",
-   "en": ""
+   "en": "They may just look cute,\nbut they're no ordinary girls.",
+   "status": "done"
   },
   {
    "id": "R04:1A608",
@@ -1577,7 +1664,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "美少女をあいする心が創り出す、\nサイキョーのそんざいさ！",
-   "en": ""
+   "en": "Born from a love of pretty\ngirls, they're the most\nPOWERFUL beings of all!",
+   "status": "done"
   },
   {
    "id": "R04:1A642",
@@ -1585,7 +1673,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "かよわく見えて、ステッキ一つで\n世界を救ったり、\nいともかんたんに、空を飛ぶんだ！",
-   "en": ""
+   "en": "They look frail, but can save\nthe world with a single wand,\nor fly through the sky easily!",
+   "status": "done"
   },
   {
    "id": "R04:1A696",
@@ -1593,7 +1682,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "美少女へのあいがあるからこそ\n成しえたキャクショクだね！",
-   "en": ""
+   "en": "Only a love of pretty girls\ncould inspire such writing!",
+   "status": "done"
   },
   {
    "id": "R04:1A6D0",
@@ -1601,7 +1691,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "いやぁ、\n【美少女キャラクター】の世界は\nおくがふかい！",
-   "en": ""
+   "en": "Ah, the world of pretty-girl\ncharacters has such depth!",
+   "status": "done"
   },
   {
    "id": "R04:1A70C",
@@ -1609,7 +1700,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nひげじゃだめだ、ひげじゃだめだ、\nひげじゃだめだ、ひげじゃだめだ、",
-   "en": ""
+   "en": "Young Man:\nNo beards! No beards!\nNo beards! No beards!",
+   "status": "done"
   },
   {
    "id": "R04:1A75E",
@@ -1617,7 +1709,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これって、\n誰のセリフだったけ・・・？",
-   "en": ""
+   "en": "Now, whose line\nwas that again...?",
+   "status": "done"
   },
   {
    "id": "R04:1A788",
@@ -1625,7 +1718,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\n説明しよう。",
-   "en": ""
+   "en": "Young Man:\nAllow me to explain.",
+   "status": "done"
   },
   {
    "id": "R04:1A7A4",
@@ -1633,7 +1727,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "魔神バトルでは、\nチャージゲージをもとに\n行動する順番が決められる。",
-   "en": ""
+   "en": "In a Mashin Battle,\nthe charge gauge determines\nthe order of actions.",
+   "status": "done"
   },
   {
    "id": "R04:1A7EA",
@@ -1641,7 +1736,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "チャージゲージのうまるのが\n早ければ、早いほど、\n先に攻撃できるのだ。",
-   "en": ""
+   "en": "The faster your charge gauge\nfills up, the sooner\nyou can attack.",
+   "status": "done"
   },
   {
    "id": "R04:1A832",
@@ -1649,7 +1745,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "チャージゲージを早くうめるには、\n【すばやさ】を上げればよい。",
-   "en": ""
+   "en": "To fill your charge gauge\nfaster, raise your Speed.",
+   "status": "done"
   },
   {
    "id": "R04:1A872",
@@ -1657,7 +1754,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "そのためには、\n【クツ】を装備すると効果的だ！\nわかったかな？　ふふ・・・。",
-   "en": ""
+   "en": "Equipping shoes is an\neffective way to do that!\nUnderstand? Heh heh...",
+   "status": "done"
   },
   {
    "id": "R04:1A8C0",
@@ -1665,7 +1763,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\nどうだい、ボクの家は！！\nかっこいいだろー。",
-   "en": ""
+   "en": "Boy:\nHow do you like my house?!!\nPretty cool, huh?",
+   "status": "done"
   },
   {
    "id": "R04:1A8FC",
@@ -1673,7 +1772,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nちっ・・・ここの店主・・・。",
-   "en": ""
+   "en": "Man:\nTch... That shopkeeper...",
+   "status": "done"
   },
   {
    "id": "R04:1A926",
@@ -1681,7 +1781,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "きゃくそっちのけで\n【コミック創界山】に\nいっちまいやがった・・・。",
-   "en": ""
+   "en": "Went off to Comic Sokaizan\nand left his customers\nhigh and dry...",
+   "status": "done"
   },
   {
    "id": "R04:1A96C",
@@ -1689,7 +1790,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n【コミック創界山】には\n行かないのかって？",
-   "en": ""
+   "en": "Young Man:\nWhy aren't I going\nto Comic Sokaizan, you ask?",
+   "status": "done"
   },
   {
    "id": "R04:1A9A6",
@@ -1697,7 +1799,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちっ、ちっ、ちっ。\nこれから会場に行くようじゃ、\nまだまだだね。",
-   "en": ""
+   "en": "Tsk, tsk, tsk.\nIf you're only heading over now,\nyou've got a lot to learn.",
+   "status": "done"
   },
   {
    "id": "R04:1A9E8",
@@ -1705,7 +1808,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "クロウトは、てつやして、\nひるまでに、\n本を手に入れてしまうものさ。",
-   "en": ""
+   "en": "An expert camps out all night\nand has all their books\nby noon.",
+   "status": "done"
   },
   {
    "id": "R04:1AA30",
@@ -1713,7 +1817,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nふぅぅ～。\nてつやはこたえるねぇ～。",
-   "en": ""
+   "en": "Young Man:\nWhew... Pulling an all-nighter\nreally wears you out.",
+   "status": "done"
   },
   {
    "id": "R04:1AA64",
@@ -1721,7 +1826,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "でも、おかげで目当ての本を\nゲットできたよ。",
-   "en": ""
+   "en": "But thanks to that,\nI got the book I wanted.",
+   "status": "done"
   },
   {
    "id": "R04:1AA94",
@@ -1729,7 +1835,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\n【コミック創界山】って、\nここ数日で何回も行われているよ。",
-   "en": ""
+   "en": "Young Man:\nComic Sokaizan's been held\nmany times in the past few days.",
+   "status": "done"
   },
   {
    "id": "R04:1AADE",
@@ -1737,7 +1844,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これって、すごいことだよねー。",
-   "en": ""
+   "en": "That's pretty amazing, huh?",
+   "status": "done"
   },
   {
    "id": "R04:1AB00",
@@ -1745,7 +1853,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nカタログ持参か、\n女の子といっしょ。",
-   "en": ""
+   "en": "Young Man:\nBring a Catalog,\nor come with a girl.",
+   "status": "done"
   },
   {
    "id": "R04:1AB34",
@@ -1753,7 +1862,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【コミック創界山】に行くときの\nジョーシキさ！",
-   "en": ""
+   "en": "That's common knowledge if\nyou're going to Comic Sokaizan!",
+   "status": "done"
   },
   {
    "id": "R04:1AB68",
@@ -1761,7 +1871,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nオレのあたまのバンダナは、\nかくとうゲームファンのあかし！！",
-   "en": ""
+   "en": "Young Man:\nThis bandana on my head proves\nI'm a fighting game fan!!",
+   "status": "done"
   },
   {
    "id": "R04:1ABB4",
@@ -1769,7 +1880,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "戦いたければ、\nいつでもあいてになるぜ！！",
-   "en": ""
+   "en": "If you want a fight,\nI'll take you on anytime!!",
+   "status": "done"
   },
   {
    "id": "R04:1ABE0",
@@ -1777,7 +1889,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nここの近くに、\nふる本の店があっただろ？",
-   "en": ""
+   "en": "Young Man:\nThere was a used bookstore\nnear here, right?",
+   "status": "done"
   },
   {
    "id": "R04:1AC18",
@@ -1785,7 +1898,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "今は、店を閉めているらしいけど、\nめずらしい本がそろっているんで、\n開店を待ちのぞむ人が多いらしい。",
-   "en": ""
+   "en": "It's shut now, but with so many\nrare books, lots of people can't\nwait for it to reopen.",
+   "status": "done"
   },
   {
    "id": "R04:1AC80",
@@ -1793,7 +1907,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nさっき、超まぶい子を見たぜ。",
-   "en": ""
+   "en": "Young Man:\nI saw a super-cute girl earlier.",
+   "status": "done"
   },
   {
    "id": "R04:1ACAC",
@@ -1801,7 +1916,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ミドリで、くるっとしたかみの\n上品そうな子だったな。\nちぃー。声かけとくんだった。",
-   "en": ""
+   "en": "She had curly green hair and\nlooked so classy. Dang it!\nI should've talked to her.",
+   "status": "done"
   },
   {
    "id": "R04:1AD00",
@@ -1809,7 +1925,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nすぐそこのピンクのおじさん、\nすごいぜぇ！",
-   "en": ""
+   "en": "Young Man:\nThat guy in pink over there\nis amazing!",
+   "status": "done"
   },
   {
    "id": "R04:1AD3A",
@@ -1817,7 +1934,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あの伝説のヒシコのホンを\n持っているんだぜぇ！",
-   "en": ""
+   "en": "He's got the legendary\nHishiko Book!",
+   "status": "done"
   },
   {
    "id": "R04:1AD6C",
@@ -1825,7 +1943,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nふうふう・・・。\nようやく２０さつゲットォ！",
-   "en": ""
+   "en": "Young Man:\nHuff, puff...\nFinally got twenty books!",
+   "status": "done"
   },
   {
    "id": "R04:1ADA8",
@@ -1833,7 +1952,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ようし、次のサークルはと・・・。",
-   "en": ""
+   "en": "All right, which group's\nbooth is next...?",
+   "status": "done"
   },
   {
    "id": "R04:1ADCC",
@@ -1841,7 +1961,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nし、しまった。\nこの本ゲットしていねえじゃん。",
-   "en": ""
+   "en": "Young Man:\nOh, shoot!\nI haven't got this book yet!",
+   "status": "done"
   },
   {
    "id": "R04:1AE0A",
@@ -1849,7 +1970,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "は、早く行かないと売りきれる。",
-   "en": ""
+   "en": "I-I'd better hurry,\nor it'll sell out!",
+   "status": "done"
   },
   {
    "id": "R04:1AE2C",
@@ -1857,7 +1979,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\nまだ１０００ガンボあるな・・・。\nよし、あと１０さつは買うぞ！",
-   "en": ""
+   "en": "Young Man:\nStill got 1,000 Ganbo...\nRight! Ten more books!",
+   "status": "done"
   },
   {
    "id": "R04:1AE7C",
@@ -1865,7 +1988,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n声優の【みやモー】ファンで、\n合い言葉を考えてみたの。",
-   "en": ""
+   "en": "Young Woman:\nI'm a fan of voice actor Miyamo,\nso I came up with a password.",
+   "status": "done"
   },
   {
    "id": "R04:1AEC2",
@@ -1873,7 +1997,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "聞いて聞いて！",
-   "en": ""
+   "en": "Listen, listen!",
+   "status": "done"
   },
   {
    "id": "R04:1AED2",
@@ -1881,7 +2006,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "合い言葉は・・・・・・・。",
-   "en": ""
+   "en": "The chant goes...",
+   "status": "done"
   },
   {
    "id": "R04:1AEEE",
@@ -1889,7 +2015,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "みや・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "Miya.............",
+   "status": "done"
   },
   {
    "id": "R04:1AF10",
@@ -1897,7 +2024,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "...............",
+   "status": "done"
   },
   {
    "id": "R04:1AF32",
@@ -1905,7 +2033,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "モー！　モー！",
-   "en": ""
+   "en": "Mo! Mo!",
+   "status": "done"
   },
   {
    "id": "R04:1AF42",
@@ -1913,7 +2042,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "わかった？\nさあ、ごいっしょに！",
-   "en": ""
+   "en": "Got it?\nNow, all together!",
+   "status": "done"
   },
   {
    "id": "R04:1AF64",
@@ -1921,7 +2051,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "みや・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "Miya.............",
+   "status": "done"
   },
   {
    "id": "R04:1AF86",
@@ -1929,7 +2060,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・・・・・・・・・・・・・。",
-   "en": ""
+   "en": "...............",
+   "status": "done"
   },
   {
    "id": "R04:1AFA8",
@@ -1937,7 +2069,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "モー！　モー！",
-   "en": ""
+   "en": "Mo! Mo!",
+   "status": "done"
   },
   {
    "id": "R04:1AFB8",
@@ -1945,7 +2078,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\n【コミック創界山】って、\nすごいイベントね・・・。",
-   "en": ""
+   "en": "Woman:\nComic Sokaizan is\nquite an event...",
+   "status": "done"
   },
   {
    "id": "R04:1AFF8",
@@ -1953,7 +2087,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "人形やアニメポスターだらけだわ。",
-   "en": ""
+   "en": "Dolls and anime posters\neverywhere!",
+   "status": "done"
   },
   {
    "id": "R04:1B01C",
@@ -1961,7 +2096,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\n同人誌コレクターの間では、\n伝説になっている本がある。",
-   "en": ""
+   "en": "Young Man:\nAmong fan-comic collectors,\none book has become a legend.",
+   "status": "done"
   },
   {
    "id": "R04:1B062",
@@ -1969,7 +2105,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "たしかヒシコのホンと\nいったかな・・・？",
-   "en": ""
+   "en": "The Hishiko Book,\nI think it was called...?",
+   "status": "done"
   },
   {
    "id": "R04:1B08C",
@@ -1977,7 +2114,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "入手はむずかしいけど、\nここにいる人達なら、\n持っているんじゃないかな？",
-   "en": ""
+   "en": "It's hard to get, but\nsomeone here might have\na copy, don't you think?",
+   "status": "done"
   },
   {
    "id": "R04:1B0D8",
@@ -1985,7 +2123,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nねぇ？　ボクってかわいい？",
-   "en": ""
+   "en": "Young Man:\nHey, am I cute?",
+   "status": "done"
   },
   {
    "id": "R04:1B102",
@@ -1993,7 +2132,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "美少女キャラクターの\nコスプレしたら、似合うかな？",
-   "en": ""
+   "en": "Would I look good cosplaying\nas a pretty-girl character?",
+   "status": "done"
   },
   {
    "id": "R04:1B138",
@@ -2001,7 +2141,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nシンカンいかが？\nえっ？　シンカンとは何かって？",
-   "en": ""
+   "en": "Young Woman:\nWant a new release?\nHuh? What's a new release?",
+   "status": "done"
   },
   {
    "id": "R04:1B178",
@@ -2009,7 +2150,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "できたてほかほかの\n同人誌のことよ。",
-   "en": ""
+   "en": "A fan comic,\nhot off the press!",
+   "status": "done"
   },
   {
    "id": "R04:1B1A0",
@@ -2017,7 +2159,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nバンダナつけて、こうささやいた。",
-   "en": ""
+   "en": "Young Man:\nI put on a bandana and\nwhispered...",
+   "status": "done"
   },
   {
    "id": "R04:1B1D0",
@@ -2025,7 +2168,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "「ボクの番だな」・・・。\n・・・・・・・・・・・。\nなーんて！",
-   "en": ""
+   "en": "\"I'm the head of the band.\"\n...........\nJust kidding!",
+   "status": "done"
   },
   {
    "id": "R04:1B210",
@@ -2033,7 +2177,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nバンダナつけて、思わず叫んだ！",
-   "en": ""
+   "en": "Young Man:\nI put on a bandana and\ncouldn't help shouting...",
+   "status": "done"
   },
   {
    "id": "R04:1B23E",
@@ -2041,7 +2186,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "「あ、あれは、パンダだな」。\n・・・・・・・・・・・。\nなーんて！",
-   "en": ""
+   "en": "\"That panda's gone bandanas!\"\n...........\nJust kidding!",
+   "status": "done"
   },
   {
    "id": "R04:1B284",
@@ -2382,7 +2528,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "そうやねん！\n美少年キャラクターに[00DB]けて、\nギャルをきゃーきゃー言わせたろ！",
-   "en": "That's it! I'll dress up as\none of those pretty-boy heroes\nand get all the girls squealing!",
+   "en": "That's it! I'll get dolled up\nas a pretty-boy hero an' have\nthose gals squealin'!",
    "status": "done"
   },
   {
@@ -2391,7 +2537,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "えっ？\nその顔で、やるなって！？\nそげなこと言わんといて・・・。",
-   "en": "Huh? With this face, forget it?!\nAw, don't say that...",
+   "en": "Huh? Not with this mug, ya say?!\nAw, don't go sayin' that...",
    "status": "done"
   },
   {
@@ -3120,7 +3266,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "アラゴト：\nなに、【どかぬならどかせて\nみようホトトギス】・・・。",
-   "en": "Aragoto:\nWhy, if the cuckoo won't budge,\nI'll make it move...",
+   "en": "Aragoto:\nIf at first it will not budge,\ntry, try to move that cuckoo...",
    "status": "done"
   },
   {

@@ -8,7 +8,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nあのおっさんたちは、\n今頃何をしてるんだろうなぁ。",
-   "en": ""
+   "en": "Aragoto:\nI wonder what that old fellow\nand his friends are up to now.",
+   "status": "done"
   },
   {
    "id": "R06:15390",
@@ -16,7 +17,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n知らないよっ、あんなやつら。",
-   "en": ""
+   "en": "Wataru:\nWho cares about those guys?!",
+   "status": "done"
   },
   {
    "id": "R06:153C6",
@@ -24,7 +26,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nまぁ、そんなことを\n言ってはいけませんわ。",
-   "en": ""
+   "en": "Sakuya:\nMy, you must not say\nsuch things.",
+   "status": "done"
   },
   {
    "id": "R06:1540A",
@@ -32,7 +35,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "おたがい、時代はちがっても\n救世主なんですよ。",
-   "en": ""
+   "en": "You are both Saviors,\neven if you come from\ndifferent times.",
+   "status": "done"
   },
   {
    "id": "R06:1544C",
@@ -40,7 +44,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nワタルよ。そんなこと\n言うもんではないでござる。",
-   "en": ""
+   "en": "Shibaraku:\nWataru, you mustn't say\nsuch things.",
+   "status": "done"
   },
   {
    "id": "R06:15498",
@@ -48,7 +53,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "彼はこの世界の救世主で、\nお主は未来の世界の\n救世主なんだから。",
-   "en": ""
+   "en": "He's the Savior of this world,\nand you're the Savior of the\nworld of the future.",
+   "status": "done"
   },
   {
    "id": "R06:15500",
@@ -56,7 +62,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "両ワタル：\nでも、納得いかないよっ！",
-   "en": ""
+   "en": "Both Watarus:\nBut I still don't buy it!",
+   "status": "done"
   },
   {
    "id": "R06:15534",
@@ -64,7 +71,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "両ワタル：\nん！？",
-   "en": ""
+   "en": "Both Watarus:\nHuh?!",
+   "status": "done"
   },
   {
    "id": "R06:15558",
@@ -72,7 +80,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "両ワタル：\nうわぁっ！　また出たっ！",
-   "en": ""
+   "en": "Both Watarus:\nWhoa! You again!",
+   "status": "done"
   },
   {
    "id": "R06:1558C",
@@ -80,7 +89,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nよぅ、おっさんじゃねぇか。",
-   "en": ""
+   "en": "Aragoto:\nWell, if it isn't the old man!",
+   "status": "done"
   },
   {
    "id": "R06:155C2",
@@ -88,7 +98,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nやぁ、これはアラゴト殿に\nサクヤ殿、お元気でしたか。",
-   "en": ""
+   "en": "Shibaraku:\nAh, Aragoto-dono, Sakuya-dono!\nHave you been well?",
+   "status": "done"
   },
   {
    "id": "R06:15612",
@@ -96,7 +107,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヒミコ：\n元気だったかぁ？",
-   "en": ""
+   "en": "Himiko:\nBeen doing gooood?",
+   "status": "done"
   },
   {
    "id": "R06:1563C",
@@ -104,7 +116,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nまぁ、みなさん\nご無事でなによりですわ。",
-   "en": ""
+   "en": "Sakuya:\nMy, I am so glad to see\nyou are all safe.",
+   "status": "done"
   },
   {
    "id": "R06:1567E",
@@ -112,7 +125,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nマネっこしぃは来んなよ！",
-   "en": ""
+   "en": "G-Wataru:\nStay away, copycat!",
+   "status": "done"
   },
   {
    "id": "R06:156B2",
@@ -120,7 +134,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nそれはコッチのセリフだ！",
-   "en": ""
+   "en": "TV Wataru:\nThat's my line!",
+   "status": "done"
   },
   {
    "id": "R06:156E8",
@@ -128,7 +143,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nなにおーっ！",
-   "en": ""
+   "en": "G-Wataru:\nWhat was thaaat?!",
+   "status": "done"
   },
   {
    "id": "R06:15710",
@@ -136,7 +152,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n何だよーっ！",
-   "en": ""
+   "en": "TV Wataru:\nYou heard meee!",
+   "status": "done"
   },
   {
    "id": "R06:1573A",
@@ -144,7 +161,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nそれで、元の世界に戻る方法は\n見つかりましたか？",
-   "en": ""
+   "en": "Sakuya:\nHave you found a way back to\nyour own world, then?",
+   "status": "done"
   },
   {
    "id": "R06:15786",
@@ -152,7 +170,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nいや、\nそれがさっぱりなんでござるよ。",
-   "en": ""
+   "en": "Shibaraku:\nAlas, we're clean out of ideas.",
+   "status": "done"
   },
   {
    "id": "R06:157C8",
@@ -160,7 +179,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヒミコ：\nすっきりさっぱり！\nにゃはははは！",
-   "en": ""
+   "en": "Himiko:\nSqueaky-clean!\nNyahahahaha!",
+   "status": "done"
   },
   {
    "id": "R06:15804",
@@ -168,7 +188,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですの・・・。\nでも気を落とさないでくださいね。",
-   "en": ""
+   "en": "Sakuya:\nI see...\nBut please do not lose heart.",
+   "status": "done"
   },
   {
    "id": "R06:15852",
@@ -176,7 +197,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "きっと何か方法があるはずですわ。",
-   "en": ""
+   "en": "There must surely be a way.",
+   "status": "done"
   },
   {
    "id": "R06:15882",
@@ -184,7 +206,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nお嬢の言うとおり！",
-   "en": ""
+   "en": "Aragoto:\nThe young lady is quite right!",
+   "status": "done"
   },
   {
    "id": "R06:158B0",
@@ -192,7 +215,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "コッチの世界へ来ちまった\nからには、向こうの世界へ\n行く方法もあるってもんだ。",
-   "en": ""
+   "en": "If you found a way to get here,\nthere must be a way to get back\nto your own world!",
+   "status": "done"
   },
   {
    "id": "R06:15910",
@@ -200,7 +224,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nそうですな！　拙者、この街では\n精力的に情報を集めるでござる！",
-   "en": ""
+   "en": "Shibaraku:\nIndeed! I shall scour this town\nfor every scrap of information!",
+   "status": "done"
   },
   {
    "id": "R06:1596A",
@@ -208,7 +233,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nその意気だ！　こうなったら\n拙も手助けつかまつる！",
-   "en": ""
+   "en": "Aragoto:\nThat's the spirit! In that case,\nI shall lend you my aid!",
+   "status": "done"
   },
   {
    "id": "R06:159B8",
@@ -216,7 +242,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nむ、かたじけない。\nそれではお願いするでござる。",
-   "en": ""
+   "en": "Shibaraku:\nAh, you have my thanks.\nI shall count on your help.",
+   "status": "done"
   },
   {
    "id": "R06:15A04",
@@ -224,7 +251,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nじゃあ取りあえず手分けして\n情報を集めましょう。",
-   "en": ""
+   "en": "Sakuya:\nThen let us split up for now\nand gather information.",
+   "status": "done"
   },
   {
    "id": "R06:15A4E",
@@ -232,7 +260,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "さぁさぁ、どちらのワタルさまも、\nいい加減にしてください。",
-   "en": ""
+   "en": "Now, Wataru-sama, both of you,\nthat is quite enough.",
+   "status": "done"
   },
   {
    "id": "R06:15AB0",
@@ -240,7 +269,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nお前がこの街を\nピリピリさせている張本人か！",
-   "en": ""
+   "en": "Wataru:\nSo you're the one who's got\nthis whole town on edge!",
+   "status": "done"
   },
   {
    "id": "R06:15AF8",
@@ -248,7 +278,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サンダール：\nはぁ？　何を言ってるのかぁ～？\nゴシゴシ。",
-   "en": ""
+   "en": "Thundar:\nHuh? What are you on about?\nRub, rub.",
+   "status": "done"
   },
   {
    "id": "R06:15B40",
@@ -256,7 +287,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nその静電気をゴシゴシするのをや\nめろ！　みんな迷惑してるんだぞ！",
-   "en": ""
+   "en": "Wataru:\nQuit rubbing up all that static!\nYou're driving everyone nuts!",
+   "status": "done"
   },
   {
    "id": "R06:15B9C",
@@ -264,7 +296,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サンダール：\nそんなことはぁ、関係ないねぇ～、\nはぁーあゴシゴシ。",
-   "en": ""
+   "en": "Thundar:\nNone of my business, maaaan.\nAhhh... Rub, rub.",
+   "status": "done"
   },
   {
    "id": "R06:15BF0",
@@ -272,7 +305,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nこうなったら、直捨乗り込もう！",
-   "en": ""
+   "en": "Wataru:\nThat's it! Let's go right in!",
+   "status": "done"
   },
   {
    "id": "R06:15C28",
@@ -280,7 +314,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあら、楽天的なワタルさまが、\n珍しいですわね。",
-   "en": ""
+   "en": "Sakuya:\nMy, how unusual for someone\nso carefree, Wataru-sama.",
+   "status": "done"
   },
   {
    "id": "R06:15C70",
@@ -288,7 +323,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nイライラしているに違いないな。\nはっはっは。",
-   "en": ""
+   "en": "Aragoto:\nHe must be feeling on edge!\nHa ha ha!",
+   "status": "done"
   },
   {
    "id": "R06:15CBE",
@@ -296,7 +332,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nおい、あれは何だ？",
-   "en": ""
+   "en": "Aragoto:\nI say, what's that?",
+   "status": "done"
   },
   {
    "id": "R06:15CEE",
@@ -304,7 +341,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nスッゴイ数ですわね・・・。",
-   "en": ""
+   "en": "Sakuya:\nMy, there are so many...",
+   "status": "done"
   },
   {
    "id": "R06:15D22",
@@ -312,7 +350,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nかなりのビーチサンダルマニア\nなんだ、ね・・・って、そうだ！",
-   "en": ""
+   "en": "Wataru:\nHe's a huge flip-flop fan,\nhuh... Hey, that's it!",
+   "status": "done"
   },
   {
    "id": "R06:15D7A",
@@ -320,7 +359,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nん、どうした？",
-   "en": ""
+   "en": "Aragoto:\nHm? What is it?",
+   "status": "done"
   },
   {
    "id": "R06:15DA6",
@@ -328,7 +368,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nビーチサンダルを履けば、\nピリピリ来ないんじゃない？",
-   "en": ""
+   "en": "Wataru:\nIf we wear flip-flops,\nwon't that stop the shocks?",
+   "status": "done"
   },
   {
    "id": "R06:15DF6",
@@ -336,7 +377,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわっ！　名案ですわ。",
-   "en": ""
+   "en": "Sakuya:\nIndeed! What a splendid idea!",
+   "status": "done"
   },
   {
    "id": "R06:15E2C",
@@ -344,7 +386,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nじゃあさっそく取りにゆくか。",
-   "en": ""
+   "en": "Aragoto:\nThen let us fetch them at once.",
+   "status": "done"
   },
   {
    "id": "R06:15E66",
@@ -352,7 +395,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "みんな：\nうわあぁっ！",
-   "en": ""
+   "en": "Everyone:\nWaaaaah!",
+   "status": "done"
   },
   {
    "id": "R06:15E8E",
@@ -360,7 +404,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\nどうしたんだっ一体！",
-   "en": ""
+   "en": "TV Wataru:\nWhat on earth happened?!",
+   "status": "done"
   },
   {
    "id": "R06:15EC2",
@@ -368,7 +413,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nく、来るなぁっ！　ぐ、ぐあぁっ！",
-   "en": ""
+   "en": "G-Wataru:\nS-stay back! G-gaaah!",
+   "status": "done"
   },
   {
    "id": "R06:15EFE",
@@ -376,7 +422,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\n今助けるぞっ！",
-   "en": ""
+   "en": "TV Wataru:\nI'll save you!",
+   "status": "done"
   },
   {
    "id": "R06:15F2C",
@@ -384,7 +431,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n来るなっ！\n僕たちのことはいいっ！",
-   "en": ""
+   "en": "G-Wataru:\nStay back!\nForget about us!",
+   "status": "done"
   },
   {
    "id": "R06:15F6A",
@@ -392,7 +440,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "早くサンダールを何とかするんだ！\nゴム草履（ぞうり）の部屋が\nすぐそこにあるから・・・！",
-   "en": ""
+   "en": "Hurry and do something about\nThundar! There's a room full of\nrubber sandals right there...!",
+   "status": "done"
   },
   {
    "id": "R06:15FD2",
@@ -400,7 +449,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n待ってくれ！\n君たちを助ける方が先だ！",
-   "en": ""
+   "en": "TV Wataru:\nWait!\nI've gotta save you guys first!",
+   "status": "done"
   },
   {
    "id": "R06:16016",
@@ -408,7 +458,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n僕たちはまだ大丈夫だ！\nそれよりも早くサンダールを！！",
-   "en": ""
+   "en": "G-Wataru:\nWe're still holding out!\nJust hurry and stop Thundar!!",
+   "status": "done"
   },
   {
    "id": "R06:16068",
@@ -416,7 +467,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ぐあぁっ。",
-   "en": ""
+   "en": "Gaaah!",
+   "status": "done"
   },
   {
    "id": "R06:16084",
@@ -424,7 +476,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\n・・・わかった、待っててくれ。",
-   "en": ""
+   "en": "TV Wataru:\n...All right. Hang in there.",
+   "status": "done"
   },
   {
    "id": "R06:160C2",
@@ -432,7 +485,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nふぅ・・・。うまくいったのか。",
-   "en": ""
+   "en": "G-Wataru:\nWhew... Did it work?",
+   "status": "done"
   },
   {
    "id": "R06:160FC",
@@ -440,7 +494,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそのようでございますわね。",
-   "en": ""
+   "en": "Sakuya:\nIt would appear so.",
+   "status": "done"
   },
   {
    "id": "R06:16130",
@@ -448,7 +503,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nあいつもなかなかやるな。",
-   "en": ""
+   "en": "Aragoto:\nThat boy is rather capable.",
+   "status": "done"
   },
   {
    "id": "R06:16166",
@@ -456,7 +512,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\nうわぁっ！　な、なんだ！？",
-   "en": ""
+   "en": "G-Wataru:\nWhoa! W-what's happening?!",
+   "status": "done"
   },
   {
    "id": "R06:1619E",
@@ -464,7 +521,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "城の外からきこえるこえ：\nお前たちをビリビリマン様のとこ\nろへやるわけにはいかないのね～。",
-   "en": ""
+   "en": "Voice Outside the Castle:\nCan't let you get through to\nBiribiri Man-sama, nooo way!",
+   "status": "done"
   },
   {
    "id": "R06:16208",
@@ -472,7 +530,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お前らの探す【天の龍馬】は、\nビリビリマン様しか",
-   "en": ""
+   "en": "That Heavenly Dragon Steed\nyou're after? Biribiri Man-sama",
+   "status": "done"
   },
   {
    "id": "R06:16248",
@@ -480,7 +539,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "持ってないからねぇ～、\nはーゴシゴシ。",
-   "en": ""
+   "en": "is the only one who's got it!\nAhhh, rub, rub.",
+   "status": "done"
   },
   {
    "id": "R06:16280",
@@ -488,7 +548,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n何だ？　【天の龍馬】って？",
-   "en": ""
+   "en": "G-Wataru:\nHuh? What's a\nHeavenly Dragon Steed?",
+   "status": "done"
   },
   {
    "id": "R06:162B6",
@@ -496,7 +557,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nさぁ・・・？",
-   "en": ""
+   "en": "Sakuya:\nI have no idea...",
+   "status": "done"
   },
   {
    "id": "R06:162DE",
@@ -504,7 +566,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "城の外からきこえるこえ：\n【天の龍馬】？　何それ？",
-   "en": ""
+   "en": "Voice Outside the Castle:\nHeavenly Dragon Steed?\nWhat's that?",
+   "status": "done"
   },
   {
    "id": "R06:16320",
@@ -512,7 +575,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "城の外からきこえるこえ：\n行きたいところに連れていって\nくれる【天の龍馬】を",
-   "en": ""
+   "en": "Voice Outside the Castle:\nThe Heavenly Dragon Steed\nthat takes you anywhere...",
+   "status": "done"
   },
   {
    "id": "R06:1637C",
@@ -520,7 +584,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "お前らは\n狙ってたんじゃないのね～！？",
-   "en": ""
+   "en": "You mean you weren't\nafter that thing?!",
+   "status": "done"
   },
   {
    "id": "R06:163B4",
@@ -528,7 +593,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n何だって！？",
-   "en": ""
+   "en": "G-Wataru:\nWhat?!",
+   "status": "done"
   },
   {
    "id": "R06:163DC",
@@ -536,7 +602,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれじゃ【ワルモンダー】の所にも\n一気に行くことができるじゃ",
-   "en": ""
+   "en": "Sakuya:\nThen we could even go straight\nto Warumonder,",
+   "status": "done"
   },
   {
    "id": "R06:16432",
@@ -544,7 +611,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ありませんか！？",
-   "en": ""
+   "en": "could we not?!",
+   "status": "done"
   },
   {
    "id": "R06:16454",
@@ -552,7 +620,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "城の外からきこえるこえ：\nヒミツを知ったからには、\n死んでもらうのね～。",
-   "en": ""
+   "en": "Voice Outside the Castle:\nNow that you know my secret,\nyou'll have to diiie.",
+   "status": "done"
   },
   {
    "id": "R06:164AE",
@@ -560,7 +629,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nワタルさま！",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama!",
+   "status": "done"
   },
   {
    "id": "R06:164D6",
@@ -568,7 +638,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\nうん！",
-   "en": ""
+   "en": "G-Wataru:\nYeah!",
+   "status": "done"
   },
   {
    "id": "R06:16506",
@@ -576,7 +647,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サンダール：\nみんながシビれるようなロックン\nロールをお見舞いしようと",
-   "en": ""
+   "en": "Thundar:\nI just wanted to give everyone\nsome electrifying rock 'n' roll,",
+   "status": "done"
   },
   {
    "id": "R06:1655C",
@@ -584,7 +656,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "思ったら、何だかこんなことに\nなってしまって・・・。",
-   "en": ""
+   "en": "but somehow it all ended up\nlike this...",
+   "status": "done"
   },
   {
    "id": "R06:165A0",
@@ -592,7 +665,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nみんなシビれてはいたんだけどね。",
-   "en": ""
+   "en": "Wataru:\nWell, you sure gave everyone\na shock.",
+   "status": "done"
   },
   {
    "id": "R06:165DA",
@@ -600,7 +674,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nホントにシビれさせては\n元も子もないなぁ。",
-   "en": ""
+   "en": "Aragoto:\nGiving them real shocks\nrather defeats the point!",
+   "status": "done"
   },
   {
    "id": "R06:16620",
@@ -608,7 +683,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n今度は本当の音楽で\nしびれさせればよろしいですわ。",
-   "en": ""
+   "en": "Sakuya:\nNext time, electrify everyone\nwith real music.",
+   "status": "done"
   },
   {
    "id": "R06:1666C",
@@ -616,7 +692,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サンダール：\nホント、そうだぁ・・・。\nよぅーっし！",
-   "en": ""
+   "en": "Thundar:\nYou're riiight...\nAll riiight!",
+   "status": "done"
   },
   {
    "id": "R06:166B0",
@@ -624,7 +701,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "今度はエレキギターの腕前で\nみんなをシビれさせるぜぇっ！",
-   "en": ""
+   "en": "I'll electrify them next time\nwith my electric guitar skills!",
+   "status": "done"
   },
   {
    "id": "R06:166F8",
@@ -632,7 +710,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nま、下敷きでシビれるより\n全然いいよね。",
-   "en": ""
+   "en": "Wataru:\nWell, beats getting shocked\nby a plastic writing board.",
+   "status": "done"
   },
   {
    "id": "R06:16754",
@@ -640,7 +719,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nいやぁ、かたじけない。\n助かったでござるよ。",
-   "en": ""
+   "en": "Shibaraku:\nAh, you have my thanks.\nYou saved us.",
+   "status": "done"
   },
   {
    "id": "R06:1679C",
@@ -648,7 +728,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nいや、助けてもらったのは\nこちらも一緒、",
-   "en": ""
+   "en": "Aragoto:\nOh, we owe you just as much\nfor saving us.",
+   "status": "done"
   },
   {
    "id": "R06:167E0",
@@ -656,7 +737,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "持ちつ持たれつだな。",
-   "en": ""
+   "en": "We saved each other's bacon.",
+   "status": "done"
   },
   {
    "id": "R06:16806",
@@ -664,7 +746,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヒミコ：\nもちっもちっ！\nアラゴト、もちうまいか？",
-   "en": ""
+   "en": "Himiko:\nBacon, bacon!\nIs it yummy, Aragoto?",
+   "status": "done"
   },
   {
    "id": "R06:16848",
@@ -672,7 +755,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n・・・。",
-   "en": ""
+   "en": "Aragoto:\n...",
+   "status": "done"
   },
   {
    "id": "R06:1686C",
@@ -680,7 +764,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nと、ともかく、次に目指す\nところは解ったわけですし・・・。",
-   "en": ""
+   "en": "Sakuya:\nA-anyway, now we know\nwhere we must go next...",
+   "status": "done"
   },
   {
    "id": "R06:168C0",
@@ -688,7 +773,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nそうでござるな・・・。\n・・・しかし、その前に。",
-   "en": ""
+   "en": "Shibaraku:\nIndeed...\n...But before that.",
+   "status": "done"
   },
   {
    "id": "R06:1690C",
@@ -696,7 +782,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nあの二人を\n何とかしないとな・・・。",
-   "en": ""
+   "en": "Aragoto:\nWe must do something\nabout those two...",
+   "status": "done"
   },
   {
    "id": "R06:1694E",
@@ -704,7 +791,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n【天の龍馬】は【ワルモンダー】の\n所に行くのに使うんだ！",
-   "en": ""
+   "en": "G-Wataru:\nThe Heavenly Dragon Steed is\nfor getting to Warumonder!",
+   "status": "done"
   },
   {
    "id": "R06:169A2",
@@ -712,7 +800,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nじゃあ僕たちが\n帰れなくってもいいのか！？",
-   "en": ""
+   "en": "TV Wataru:\nSo you don't care if we\ncan't get home?!",
+   "status": "done"
   },
   {
    "id": "R06:169EA",
@@ -720,7 +809,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nそんなの【ワルモンダー】を\n倒した後でもいいじゃないか！",
-   "en": ""
+   "en": "G-Wataru:\nCan't that wait till after\nwe beat Warumonder?!",
+   "status": "done"
   },
   {
    "id": "R06:16A3E",
@@ -728,7 +818,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nでも、ボクがいると、\nキミはマネしんぼ扱いだぜ？",
-   "en": ""
+   "en": "TV Wataru:\nBut with me here, everyone'll\nthink you're a copycat!",
+   "status": "done"
   },
   {
    "id": "R06:16A8C",
@@ -736,7 +827,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nなにおーっ！",
-   "en": ""
+   "en": "G-Wataru:\nWhat was thaaat?!",
+   "status": "done"
   },
   {
    "id": "R06:16AB4",
@@ -744,7 +836,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\nなんだーっ！",
-   "en": ""
+   "en": "TV Wataru:\nYou heard meee!",
+   "status": "done"
   },
   {
    "id": "R06:16AE0",
@@ -752,7 +845,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "サクヤ：\nふーぅ。",
-   "en": ""
+   "en": "Sakuya:\nSigh...",
+   "status": "done"
   },
   {
    "id": "R06:16B04",
@@ -760,7 +854,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nやれやれ。",
-   "en": ""
+   "en": "Aragoto:\nGood grief.",
+   "status": "done"
   },
   {
    "id": "R06:16B2A",
@@ -768,7 +863,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nで、ござるな。",
-   "en": ""
+   "en": "Shibaraku:\nIndeed.",
+   "status": "done"
   },
   {
    "id": "R06:16B54",
@@ -776,7 +872,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nやれーっ、やれーっ、なのだぁっ。",
-   "en": ""
+   "en": "Himiko:\nGet him! Get him! Yeah!",
+   "status": "done"
   },
   {
    "id": "R06:16B90",
@@ -784,7 +881,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nしかし、お主らが過去に来たのも、\n何かワケがあってじゃないのかね？",
-   "en": ""
+   "en": "Aragoto:\nStill, surely you came to the\npast for some reason?",
+   "status": "done"
   },
   {
    "id": "R06:16BEE",
@@ -792,7 +890,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nどういうことでござる？",
-   "en": ""
+   "en": "Shibaraku:\nWhatever do you mean?",
+   "status": "done"
   },
   {
    "id": "R06:16C20",
@@ -800,7 +899,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n過去の世界に吹っ飛ばされて\nきちまったっつっても、",
-   "en": ""
+   "en": "Aragoto:\nYou say you were hurled\nback into the past,",
+   "status": "done"
   },
   {
    "id": "R06:16C6E",
@@ -808,7 +908,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お主らが言う\n【こんなに大昔】まで\n飛ばされなくってもよかろうよ。",
-   "en": ""
+   "en": "but surely you needn't have\nbeen sent what you call\n\"THIS far back\"?",
+   "status": "done"
   },
   {
    "id": "R06:16CC0",
@@ -816,7 +917,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n【袖すり会うも多生の縁】と\nいいますわ。",
-   "en": ""
+   "en": "Sakuya:\nThey say even a chance meeting\nis a bond from a former life.",
+   "status": "done"
   },
   {
    "id": "R06:16D02",
@@ -824,7 +926,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "この時代にワタルさま、\nシバラクさま、ヒミコちゃんが\nやってきたのも、",
-   "en": ""
+   "en": "Wataru-sama, Shibaraku-sama,\nand Himiko-chan, your arrival\nin this era...",
+   "status": "done"
   },
   {
    "id": "R06:16D58",
@@ -832,7 +935,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "何かの縁があるのでは\nないでしょうか？",
-   "en": ""
+   "en": "Could it not be the work\nof some such bond?",
+   "status": "done"
   },
   {
    "id": "R06:16D8E",
@@ -840,7 +944,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "シバラク：\nうーん・・・。あれかなぁ。",
-   "en": ""
+   "en": "Shibaraku:\nHmm... Could it be that?",
+   "status": "done"
   },
   {
    "id": "R06:16DC6",
@@ -848,7 +953,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nあっ、あったあった。",
-   "en": ""
+   "en": "Shibaraku:\nAh! Here it is!",
+   "status": "done"
   },
   {
    "id": "R06:16DF6",
@@ -856,7 +962,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "もし、何かワケがあるとしたら、\nこれでござる。",
-   "en": ""
+   "en": "If there is a reason,\nthis must be it.",
+   "status": "done"
   },
   {
    "id": "R06:16E34",
@@ -864,7 +971,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n何だ？\nそのポッキリ折れちまってる剣は？",
-   "en": ""
+   "en": "Aragoto:\nWhat is that?\nThat sword snapped clean in two?",
+   "status": "done"
   },
   {
    "id": "R06:16E78",
@@ -872,7 +980,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nうむ。【剣王の剣】という、\n由緒ただしーぃ剣でござる。",
-   "en": ""
+   "en": "Shibaraku:\nAye. The Sword King's Sword,\na blade of noble pedigree!",
+   "status": "done"
   },
   {
    "id": "R06:16ECA",
@@ -880,7 +989,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "きっと、何かの縁があるとしたら、\nこれを元通りにする方法をこの世\n界で探せ、ということでござろう。",
-   "en": ""
+   "en": "If fate has a hand in this,\nwe must search this world's\nLayers for a way to mend it.",
+   "status": "done"
   },
   {
    "id": "R06:16F42",
@@ -888,7 +998,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nここが。",
-   "en": ""
+   "en": "TV Wataru:\nSo this is...",
+   "status": "done"
   },
   {
    "id": "R06:16F68",
@@ -896,7 +1007,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\nビリビリマンの城・・・。",
-   "en": ""
+   "en": "G-Wataru:\nBiribiri Man's castle...",
+   "status": "done"
   },
   {
    "id": "R06:16F9E",
@@ -904,7 +1016,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "両ワタル：\nうわわっ！",
-   "en": ""
+   "en": "Both Watarus:\nWhoaaa!",
+   "status": "done"
   },
   {
    "id": "R06:16FC4",
@@ -912,7 +1025,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n何奴！",
-   "en": ""
+   "en": "Aragoto:\nWho goes there?!",
+   "status": "done"
   },
   {
    "id": "R06:16FE8",
@@ -920,7 +1034,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリマン：\nわっはっは！\n罠にはまったな、救世主の諸君。",
-   "en": ""
+   "en": "Biribiri Man:\nWah ha ha!\nYou've sprung my trap, Saviors!",
+   "status": "done"
   },
   {
    "id": "R06:17034",
@@ -928,7 +1043,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nなんだって！？",
-   "en": ""
+   "en": "G-Wataru:\nWhat?!",
+   "status": "done"
   },
   {
    "id": "R06:1705E",
@@ -936,7 +1052,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリマン：\n今やこの城の周りには、\n高圧電流が流れているのだ。",
-   "en": ""
+   "en": "Biribiri Man:\nHigh-voltage current now flows\nall around this castle!",
+   "status": "done"
   },
   {
    "id": "R06:170B0",
@@ -944,7 +1061,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "逃げ出すことはできんぞ。",
-   "en": ""
+   "en": "There is no escape!",
+   "status": "done"
   },
   {
    "id": "R06:170DA",
@@ -952,7 +1070,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリマン：\n・・・そして諸君の前にはこの私、\nビリビリマン様がいるのだ。",
-   "en": ""
+   "en": "Biribiri Man:\n...And before you stands\nBiribiri Man-sama himself!",
+   "status": "done"
   },
   {
    "id": "R06:17136",
@@ -960,7 +1079,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "まさに\n【前門の電気、後門の電気】と\nいうわけだ。",
-   "en": ""
+   "en": "You're caught between a shock\nand a hard zap,\nas they say!",
+   "status": "done"
   },
   {
    "id": "R06:1717A",
@@ -968,7 +1088,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nくっそー・・・。",
-   "en": ""
+   "en": "G-Wataru:\nDarn it...",
+   "status": "done"
   },
   {
    "id": "R06:171A6",
@@ -976,7 +1097,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ビリビリマン：\nさあさあ、おとなしく\n私の電気で身を焦がすのだ。",
-   "en": ""
+   "en": "Biribiri Man:\nCome, come! Hold still and let\nmy electricity roast you!",
+   "status": "done"
   },
   {
    "id": "R06:171F8",
@@ -984,7 +1106,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nボクや先生があいつを\n引きつけている間に、",
-   "en": ""
+   "en": "TV Wataru:\nWhile my teacher and I\nkeep him busy,",
+   "status": "done"
   },
   {
    "id": "R06:17240",
@@ -992,7 +1115,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "キミは城の中に入って\n奴の電撃の元を断ってくれないか？",
-   "en": ""
+   "en": "can you get inside the castle\nand cut off the source\nof his electric attacks?",
+   "status": "done"
   },
   {
    "id": "R06:17288",
@@ -1000,7 +1124,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nえっ！？　そんなことできないよ。",
-   "en": ""
+   "en": "G-Wataru:\nWhat?! I can't do that!",
+   "status": "done"
   },
   {
    "id": "R06:172C4",
@@ -1008,7 +1133,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nあいつが本気で攻撃してきたら、\nみんな黒コゲになっちゃうよ。",
-   "en": ""
+   "en": "TV Wataru:\nIf he really lets us have it,\nwe'll all be burnt to a crisp!",
+   "status": "done"
   },
   {
    "id": "R06:1731E",
@@ -1016,7 +1142,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nそんな！\nじゃあ君たちはどうするのさ？",
-   "en": ""
+   "en": "G-Wataru:\nNo way!\nThen what about you guys?!",
+   "status": "done"
   },
   {
    "id": "R06:17360",
@@ -1024,7 +1151,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nキミが何とかしてくれなきゃ、\n黒こげさ。",
-   "en": ""
+   "en": "TV Wataru:\nWe'll be toast,\nunless you do something.",
+   "status": "done"
   },
   {
    "id": "R06:173A6",
@@ -1032,7 +1160,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nそんなことできないよ！\nおとりならボクがやる。",
-   "en": ""
+   "en": "G-Wataru:\nI can't let you do that!\nI'll be the decoy!",
+   "status": "done"
   },
   {
    "id": "R06:173F0",
@@ -1040,7 +1169,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n危なくなったら城の中へ逃げるさ。",
-   "en": ""
+   "en": "TV Wataru:\nIf it gets bad, we'll run\ninside the castle.",
+   "status": "done"
   },
   {
    "id": "R06:1742E",
@@ -1048,7 +1178,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ふふっ。それにボクだって\n救世主だぜ。そんなに簡単に\n倒れたりするもんか。",
-   "en": ""
+   "en": "Heh. Besides, I'm a Savior too!\nYou think I'd go down\nthat easily?",
+   "status": "done"
   },
   {
    "id": "R06:17488",
@@ -1056,7 +1187,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nでも・・・。",
-   "en": ""
+   "en": "G-Wataru:\nBut...",
+   "status": "done"
   },
   {
    "id": "R06:174B0",
@@ -1064,7 +1196,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nさあ、今の話は大方聞こえたろ？",
-   "en": ""
+   "en": "TV Wataru:\nOkay, you guys heard most\nof that, right?",
+   "status": "done"
   },
   {
    "id": "R06:174EC",
@@ -1072,7 +1205,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "３人は城の中で、奴のエネルギー\n源を壊してくれ。ボクと先生と\nヒミコは、あいつを引きつける。",
-   "en": ""
+   "en": "You three, wreck his energy\nsource in the castle! Himiko, my\nteacher and I'll distract him.",
+   "status": "done"
   },
   {
    "id": "R06:1755A",
@@ -1080,7 +1214,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "全員：\nおう！",
-   "en": ""
+   "en": "All:\nYeah!",
+   "status": "done"
   },
   {
    "id": "R06:1757A",
@@ -1088,7 +1223,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nおじさん、こんな罠仕掛けないと\n子供の救世主に勝てないのかよ、",
-   "en": ""
+   "en": "TV Wataru:\nNeed traps to beat a kid Savior,\nmister?",
+   "status": "done"
   },
   {
    "id": "R06:175D6",
@@ -1096,7 +1232,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "はっきし言って超ダサだね。",
-   "en": ""
+   "en": "Honestly, that's beyond lame.",
+   "status": "done"
   },
   {
    "id": "R06:17602",
@@ -1104,7 +1241,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ビリビリマン：\nなに？",
-   "en": ""
+   "en": "Biribiri Man:\nWhat?",
+   "status": "done"
   },
   {
    "id": "R06:1762A",
@@ -1112,7 +1250,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n変な小細工しないでさ、正面から\nかかってくればいいじゃん・・・。",
-   "en": ""
+   "en": "TV Wataru:\nQuit the cheap tricks and\ncome fight me head-on...",
+   "status": "done"
   },
   {
    "id": "R06:17688",
@@ -1120,7 +1259,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "さあ、来い！",
-   "en": ""
+   "en": "Come on! Bring it!",
+   "status": "done"
   },
   {
    "id": "R06:176A6",
@@ -1128,7 +1268,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリマン：\n望むところだ！",
-   "en": ""
+   "en": "Biribiri Man:\nWith pleasure!",
+   "status": "done"
   },
   {
    "id": "R06:176D4",
@@ -1136,7 +1277,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\nよし！　今だ。",
-   "en": ""
+   "en": "TV Wataru:\nAll right! Now!",
+   "status": "done"
   },
   {
    "id": "R06:1771C",
@@ -1144,7 +1286,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nあれ？　ヒミコちゃん、\nどうしてここにいるの？",
-   "en": ""
+   "en": "Wataru:\nHuh? Himiko-chan,\nwhat are you doing here?",
+   "status": "done"
   },
   {
    "id": "R06:17764",
@@ -1152,7 +1295,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヒミコ：\n【ヘンな龍ウマ】を\n探しに来たのだ！",
-   "en": ""
+   "en": "Himiko:\nI'm hunting the\nHeavily Draggin' Horse!",
+   "status": "done"
   },
   {
    "id": "R06:177A2",
@@ -1160,7 +1304,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・あちしは\nコイツがクサイと思うゾ。",
-   "en": ""
+   "en": "...I think this one's fishy!",
+   "status": "done"
   },
   {
    "id": "R06:177DA",
@@ -1168,7 +1313,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nくんくん・・・\nそう言えばクサイな・・・って",
-   "en": ""
+   "en": "Aragoto:\nSniff, sniff... It does smell\nfishy, now you say it... Wait!",
+   "status": "done"
   },
   {
    "id": "R06:17824",
@@ -1176,7 +1322,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ちっがーうっ！\n【ヘンな龍ウマ】じゃなくって、\n【天の龍馬】！",
-   "en": ""
+   "en": "Nooo!\nNot Heavily Draggin' Horse!\nHeavenly Dragon Horse!",
+   "status": "done"
   },
   {
    "id": "R06:17872",
@@ -1184,7 +1331,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "だいたい、どこをどう見ると、\nそいつが馬に見えるんだ！",
-   "en": ""
+   "en": "And what part of that creature\nlooks like a horse to you?!",
+   "status": "done"
   },
   {
    "id": "R06:178BA",
@@ -1192,7 +1340,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあら、おじさま。",
-   "en": ""
+   "en": "Sakuya:\nOh, dear sir.",
+   "status": "done"
   },
   {
    "id": "R06:178E4",
@@ -1200,7 +1349,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "別に【天の龍馬】が馬だなんて、\nどなたもおっしゃってませんわ。",
-   "en": ""
+   "en": "No one ever said the\nHeavenly Dragon Horse\nwas actually a horse.",
+   "status": "done"
   },
   {
    "id": "R06:17934",
@@ -1208,7 +1358,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nえっ？　でもお嬢。",
-   "en": ""
+   "en": "Aragoto:\nEh? But, my lady...",
+   "status": "done"
   },
   {
    "id": "R06:17962",
@@ -1216,7 +1367,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "名前に【馬】ってなってるん\nだから馬だろうよ。",
-   "en": ""
+   "en": "It has \"Horse\" in its name,\nso surely it must be a horse!",
+   "status": "done"
   },
   {
    "id": "R06:179A0",
@@ -1224,7 +1376,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそーんなことを\nおっしゃいましたら、",
-   "en": ""
+   "en": "Sakuya:\nWell, if that is\nyour reasoning...",
+   "status": "done"
   },
   {
    "id": "R06:179DE",
@@ -1232,7 +1385,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "【龍】だって入ってますわよ・・・",
-   "en": ""
+   "en": "It has \"Dragon\" in it as well...",
+   "status": "done"
   },
   {
    "id": "R06:17A10",
@@ -1240,7 +1394,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "はっ、今はそんなことを\n言っている場合ではありませんわ。",
-   "en": ""
+   "en": "Oh! This is hardly the time\nto be discussing such things.",
+   "status": "done"
   },
   {
    "id": "R06:17A58",
@@ -1248,7 +1403,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "一刻も早く電気のエネルギー源を\n探さなくては！",
-   "en": ""
+   "en": "We must find the source of\nthe electrical power at once!",
+   "status": "done"
   },
   {
    "id": "R06:17A98",
@@ -1256,7 +1412,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそうだねっ！　よしっ、行こう！",
-   "en": ""
+   "en": "Wataru:\nYou're right! Okay, let's go!",
+   "status": "done"
   },
   {
    "id": "R06:17AD0",
@@ -1264,7 +1421,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヒミコ：\nほぇ？　鳥さんいらないのか？",
-   "en": ""
+   "en": "Himiko:\nHuh? Don't you want Birdie-san?",
+   "status": "done"
   },
   {
    "id": "R06:17B06",
@@ -1272,7 +1430,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそんな小汚い鳥は\nほっとけっつーの。",
-   "en": ""
+   "en": "Aragoto:\nLeave that grubby little\nbird alone, I say!",
+   "status": "done"
   },
   {
    "id": "R06:17B46",
@@ -1280,7 +1439,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "きっとシバラクのおっさんだって\nそういうゼ。",
-   "en": ""
+   "en": "I'm sure old Shibaraku\nwould say the very same!",
+   "status": "done"
   },
   {
    "id": "R06:17B82",
@@ -1288,7 +1448,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nそっか。\nじゃあつれてって見るのだ。",
-   "en": ""
+   "en": "Himiko:\nOh, okay!\nThen I'll bring it along!",
+   "status": "done"
   },
   {
    "id": "R06:17BC2",
@@ -1296,7 +1457,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nあーあー、そうしてくれ・・・。",
-   "en": ""
+   "en": "Aragoto:\nYes, yes, do that...",
+   "status": "done"
   },
   {
    "id": "R06:17C14",
@@ -1304,7 +1466,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nよしっ！　これを壊せばいいんだ！",
-   "en": ""
+   "en": "Wataru:\nAll right! We just smash this!",
+   "status": "done"
   },
   {
    "id": "R06:17C50",
@@ -1312,7 +1475,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\n・・・！",
-   "en": ""
+   "en": "G-Wataru:\n...!",
+   "status": "done"
   },
   {
    "id": "R06:17C76",
@@ -1320,7 +1484,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリマン：\nはぁーっはっはっは！\nよくぞここまでたどり着いた。",
-   "en": ""
+   "en": "Biribiri Man:\nHaaah ha ha ha!\nWell done making it this far!",
+   "status": "done"
   },
   {
    "id": "R06:17CC8",
@@ -1328,7 +1493,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "だが諸君の仲間は、\n肝心なところで\n当てにはならないようだな。",
-   "en": ""
+   "en": "But it seems your friends\ncan't be counted on\nwhen it really matters.",
+   "status": "done"
   },
   {
    "id": "R06:17D16",
@@ -1336,7 +1502,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n・・・なんてことを！",
-   "en": ""
+   "en": "G-Wataru:\n...What have you done?!",
+   "status": "done"
   },
   {
    "id": "R06:17D46",
@@ -1344,7 +1511,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリマン：\nまだトドメはさしていない・・・。\n今さすがね。",
-   "en": ""
+   "en": "Biribiri Man:\nI haven't finished them off...\nBut I'm about to.",
+   "status": "done"
   },
   {
    "id": "R06:17D94",
@@ -1352,7 +1520,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\nやめろーっ！",
-   "en": ""
+   "en": "G-Wataru:\nStooop!",
+   "status": "done"
   },
   {
    "id": "R06:17DBE",
@@ -1360,7 +1529,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリマン：\nうははははは！\n麗（うるわ）しい友情だ！",
-   "en": ""
+   "en": "Biribiri Man:\nWah ha ha ha ha!\nWhat beautiful friendship!",
+   "status": "done"
   },
   {
    "id": "R06:17E06",
@@ -1368,7 +1538,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "・・・そういうのを壊すのが、\nまた楽しくてね。",
-   "en": ""
+   "en": "...It makes destroying it\nall the more enjoyable.",
+   "status": "done"
   },
   {
    "id": "R06:17E46",
@@ -1376,7 +1547,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nうわぁーっ！",
-   "en": ""
+   "en": "G-Wataru:\nWaaaah!",
+   "status": "done"
   },
   {
    "id": "R06:17E6E",
@@ -1384,7 +1556,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ぐわぁーっ！",
-   "en": ""
+   "en": "Gwaaah!",
+   "status": "done"
   },
   {
    "id": "R06:17E8A",
@@ -1392,7 +1565,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n手をはなせ！　はなさないと、\nキミまでやられちゃうぞ！",
-   "en": ""
+   "en": "TV Wataru:\nLet go! If you don't,\nhe'll get you too!",
+   "status": "done"
   },
   {
    "id": "R06:17EDE",
@@ -1400,7 +1574,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nいやだ！　絶対はなさない！",
-   "en": ""
+   "en": "G-Wataru:\nNo! I'm never letting go!",
+   "status": "done"
   },
   {
    "id": "R06:17F14",
@@ -1408,7 +1583,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "キミが死んじゃったら、\n未来の創界山は誰が救うんだ！！",
-   "en": ""
+   "en": "If you die, who's gonna save\nSokaizan in the future?!",
+   "status": "done"
   },
   {
    "id": "R06:17F5A",
@@ -1416,7 +1592,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリマン：\n仲間の命を一時だけ助けるために、\n創界山を死に追いやるか。",
-   "en": ""
+   "en": "Biribiri Man:\nYou'd doom Sokaizan just to\nbuy your friend a little time?",
+   "status": "done"
   },
   {
    "id": "R06:17FB4",
@@ -1424,7 +1601,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "とんだ救世主さまだな！\nはははははは！！",
-   "en": ""
+   "en": "Some Savior-sama you are!\nHa ha ha ha ha!!",
+   "status": "done"
   },
   {
    "id": "R06:17FEE",
@@ -1432,7 +1610,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nそれでもボクは、\n目の前で起こっていることを",
-   "en": ""
+   "en": "G-Wataru:\nEven so, with this happening\nright in front of me...",
+   "status": "done"
   },
   {
    "id": "R06:18036",
@@ -1440,7 +1619,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "放っておくことは\nで・き・な・い・！！",
-   "en": ""
+   "en": "I! Just! Can't!\nStand by and do nothing!!",
+   "status": "done"
   },
   {
    "id": "R06:1806C",
@@ -1448,7 +1628,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nワタル、く、ん・・・。",
-   "en": ""
+   "en": "TV Wataru:\nWataru-kun...",
+   "status": "done"
   },
   {
    "id": "R06:180A0",
@@ -1456,7 +1637,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ビリビリマン：\nならば死ねぃっ！　ワタルよ！",
-   "en": ""
+   "en": "Biribiri Man:\nThen die, Wataru!",
+   "status": "done"
   },
   {
    "id": "R06:180DE",
@@ -1464,7 +1646,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ビリビリマン：\nな、何だ？",
-   "en": ""
+   "en": "Biribiri Man:\nW-what?!",
+   "status": "done"
   },
   {
    "id": "R06:1810A",
@@ -1472,7 +1655,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nにゃはははははっ！\n鳥さんの攻撃なのだーっ。",
-   "en": ""
+   "en": "Himiko:\nNya ha ha ha ha!\nIt's Birdie-san's attack!",
+   "status": "done"
   },
   {
    "id": "R06:18152",
@@ -1480,7 +1664,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "ＴＶワタル：\nヒミコ！",
-   "en": ""
+   "en": "TV Wataru:\nHimiko!",
+   "status": "done"
   },
   {
    "id": "R06:1817A",
@@ -1488,7 +1673,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\nヒミコちゃん！",
-   "en": ""
+   "en": "G-Wataru:\nHimiko-chan!",
+   "status": "done"
   },
   {
    "id": "R06:181A6",
@@ -1496,7 +1682,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ビリビリマン：\nよせ！　やめろ！",
-   "en": ""
+   "en": "Biribiri Man:\nStop! Cut it out!",
+   "status": "done"
   },
   {
    "id": "R06:181D8",
@@ -1504,7 +1691,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヒミコ：\nなんだこれ？",
-   "en": ""
+   "en": "Himiko:\nWhat's this thing?",
+   "status": "done"
   },
   {
    "id": "R06:181FE",
@@ -1512,7 +1700,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ビリビリマン：\nやめろ！　それにさわるな！！",
-   "en": ""
+   "en": "Biribiri Man:\nStop! Don't touch that!!",
+   "status": "done"
   },
   {
    "id": "R06:1823C",
@@ -1520,7 +1709,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ビリビリマン：\nうおぉーぅっ！\nち、力が、力が抜けるぅーっ！",
-   "en": ""
+   "en": "Biribiri Man:\nUwaaah!\nM-my power! It's draining away!",
+   "status": "done"
   },
   {
    "id": "R06:1828A",
@@ -1528,7 +1718,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリマン：\nこうなったら、貴様ら全員、\n【エレクトロン】で黒コゲだぁっ！",
-   "en": ""
+   "en": "Biribiri Man:\nThen Electron will burn every\nlast one of you to a crisp!",
+   "status": "done"
   },
   {
    "id": "R06:182E6",
@@ -1536,7 +1727,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n龍神丸だ！",
-   "en": ""
+   "en": "TV Wataru:\nCall Ryujinmaru!",
+   "status": "done"
   },
   {
    "id": "R06:1830E",
@@ -1544,7 +1736,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\nおう！　りゅーじんまるー！",
-   "en": ""
+   "en": "G-Wataru:\nRight! Ryujinmaru!",
+   "status": "done"
   },
   {
    "id": "R06:18346",
@@ -1552,7 +1745,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ビリビリマン：\nはっはっは！",
-   "en": ""
+   "en": "Biribiri Man:\nHa ha ha!",
+   "status": "done"
   },
   {
    "id": "R06:18372",
@@ -1560,7 +1754,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神を呼び出す時は、\nてんで無防備ではないか！",
-   "en": ""
+   "en": "You're utterly defenseless\nwhile summoning your mashin!",
+   "status": "done"
   },
   {
    "id": "R06:183B0",
@@ -1568,7 +1763,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "さぁっ、最後の電撃を喰らって\n昇天せいっ！",
-   "en": ""
+   "en": "Now take this final shock\nand shuffle off to heaven!",
+   "status": "done"
   },
   {
    "id": "R06:183EC",
@@ -1576,7 +1772,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\n危ないっ！",
-   "en": ""
+   "en": "TV Wataru:\nLook out!",
+   "status": "done"
   },
   {
    "id": "R06:18416",
@@ -1584,7 +1781,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\nうわあぁぁっっ！！",
-   "en": ""
+   "en": "TV Wataru:\nWaaaaaah!!",
+   "status": "done"
   },
   {
    "id": "R06:18448",
@@ -1592,7 +1790,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nワタルっ！",
-   "en": ""
+   "en": "G-Wataru:\nWataru!",
+   "status": "done"
   },
   {
    "id": "R06:1846E",
@@ -1600,7 +1799,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nボクのことはいい！\n早く龍神丸を！",
-   "en": ""
+   "en": "TV Wataru:\nDon't worry about me!\nHurry! Call Ryujinmaru!",
+   "status": "done"
   },
   {
    "id": "R06:184AE",
@@ -1608,7 +1808,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\n・・・うん！",
-   "en": ""
+   "en": "G-Wataru:\n...Okay!",
+   "status": "done"
   },
   {
    "id": "R06:184F4",
@@ -1616,7 +1817,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "ビリビリマン：\nうーん・・・。",
-   "en": ""
+   "en": "Biribiri Man:\nHmm...",
+   "status": "done"
   },
   {
    "id": "R06:18524",
@@ -1624,7 +1826,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "みんなに電気のすばらしさを教え\nてあげようと思ったんだが・・・\nこれはやりすぎだったようですな。",
-   "en": ""
+   "en": "I only meant to teach everyone\nhow wonderful electricity is...\nBut it seems I went too far.",
+   "status": "done"
   },
   {
    "id": "R06:18596",
@@ -1632,7 +1835,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n悪に染まった魂を\n正義の刃で浄[00DB]する・・・。",
-   "en": ""
+   "en": "Sakuya:\nTo purify a soul steeped in evil\nwith the blade of justice...",
+   "status": "done"
   },
   {
    "id": "R06:185DC",
@@ -1640,7 +1844,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "これが救世主の力なのですわ、\nワタルさま。",
-   "en": ""
+   "en": "This is the power of the Savior,\nWataru-sama.",
+   "status": "done"
   },
   {
    "id": "R06:18616",
@@ -1648,7 +1853,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n悪に染まった魂を浄[00DB]する・・・。",
-   "en": ""
+   "en": "TV Wataru:\nTo purify a soul\nsteeped in evil...",
+   "status": "done"
   },
   {
    "id": "R06:18654",
@@ -1656,7 +1862,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n目の前で困っている人を\n放っておけない・・・。",
-   "en": ""
+   "en": "Aragoto:\nUnable to pass by someone\nin need of help...",
+   "status": "done"
   },
   {
    "id": "R06:186A0",
@@ -1664,7 +1871,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "この心がけが\n救世主の力のヒミツってとこか？",
-   "en": ""
+   "en": "Could that spirit be the secret\nto the Savior's power?",
+   "status": "done"
   },
   {
    "id": "R06:186DC",
@@ -1672,7 +1880,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ま、もっとも、あのぼうやは\nぜーんぜん気づいてないがな。",
-   "en": ""
+   "en": "Well, of course, the boy himself\nhasn't the faintest idea.",
+   "status": "done"
   },
   {
    "id": "R06:1872A",
@@ -1680,7 +1889,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "シバラク：\nあーあ、結局【天の龍馬】はいな\nかったし、まぁたふりだしかぁ。",
-   "en": ""
+   "en": "Shibaraku:\nNo Heavenly Dragon Horse after\nall. Back to square one again...",
+   "status": "done"
   },
   {
    "id": "R06:18786",
@@ -1688,7 +1898,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nトリさんならいるぞっ。",
-   "en": ""
+   "en": "Himiko:\nWe've got Birdie-san!",
+   "status": "done"
   },
   {
    "id": "R06:187B8",
@@ -1696,7 +1907,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nあー、はいはい、\n解ったわかった。",
-   "en": ""
+   "en": "Shibaraku:\nYes, yes.\nI know, I know.",
+   "status": "done"
   },
   {
    "id": "R06:187F6",
@@ -1704,7 +1916,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヒミコ、そんな小汚い鳥を\nまだ連れていたのか。\nだいたいそれは【鳥】でしょ。",
-   "en": ""
+   "en": "Himiko, you still have\nthat grubby little bird?\nBesides, it's a BIRD.",
+   "status": "done"
   },
   {
    "id": "R06:18852",
@@ -1712,7 +1925,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "【天の龍馬】って言うのは、\nすっごくカッコイイ馬なの！\n・・・たぶん。",
-   "en": ""
+   "en": "The Heavenly Dragon Horse\nis a splendid-looking horse!\n...Probably.",
+   "status": "done"
   },
   {
    "id": "R06:188AA",
@@ -1720,7 +1934,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあら、そうとも限りませんわよ。\nね、ヒミコちゃん？",
-   "en": ""
+   "en": "Sakuya:\nOh, not necessarily.\nWould you agree, Himiko-chan?",
+   "status": "done"
   },
   {
    "id": "R06:188F6",
@@ -1728,7 +1943,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nそだそだっ！\n人は見かけによらないのだっ！",
-   "en": ""
+   "en": "Himiko:\nYeah, yeah!\nYou can't judge folks by looks!",
+   "status": "done"
   },
   {
    "id": "R06:1893C",
@@ -1736,7 +1952,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "お前、【ヘンな龍ウマ】か？",
-   "en": ""
+   "en": "Are you the\nHeavily Draggin' Horse?",
+   "status": "done"
   },
   {
    "id": "R06:18968",
@@ -1744,7 +1961,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nひとじゃあねえだろ。",
-   "en": ""
+   "en": "Aragoto:\nIt's not even a person.",
+   "status": "done"
   },
   {
    "id": "R06:1899A",
@@ -1752,7 +1970,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "シバラク：\nそうそう。サクヤ殿、\n冗談はよしてくだされ・・・って、",
-   "en": ""
+   "en": "Shibaraku:\nQuite. Lady Sakuya,\nplease stop jesting... Wait...",
+   "status": "done"
   },
   {
    "id": "R06:189EE",
@@ -1760,7 +1979,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ええーっ！",
-   "en": ""
+   "en": "Whaaat?!",
+   "status": "done"
   },
   {
    "id": "R06:18A0A",
@@ -1768,7 +1988,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nええー？",
-   "en": ""
+   "en": "Shibaraku:\nWhaaat?",
+   "status": "done"
   },
   {
    "id": "R06:18A2E",
@@ -1776,7 +1997,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nうっそーっん。",
-   "en": ""
+   "en": "Aragoto:\nYou jest!",
+   "status": "done"
   },
   {
    "id": "R06:18A5A",
@@ -1784,7 +2006,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nさあ、この【天の龍馬】に乗って、\n元の世界に戻りなよ。",
-   "en": ""
+   "en": "G-Wataru:\nGo on! Ride the Heavenly Dragon\nHorse back to your own world.",
+   "status": "done"
   },
   {
    "id": "R06:18AAC",
@@ -1792,7 +2015,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nえ・・・？\nでも、それじゃ、君たちは？",
-   "en": ""
+   "en": "TV Wataru:\nHuh...?\nBut then what about you guys?",
+   "status": "done"
   },
   {
    "id": "R06:18AF0",
@@ -1800,7 +2024,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nいいんだ、時間はかかるけど、\n僕たちは自分の足で",
-   "en": ""
+   "en": "G-Wataru:\nIt's okay. It'll take time,\nbut we'll get there on foot.",
+   "status": "done"
   },
   {
    "id": "R06:18B3C",
@@ -1808,7 +2033,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "第七界層を目指すよ。",
-   "en": ""
+   "en": "We're heading for\nthe Seventh Layer!",
+   "status": "done"
   },
   {
    "id": "R06:18B60",
@@ -1816,7 +2042,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\n・・・ありがとう。",
-   "en": ""
+   "en": "TV Wataru:\n...Thanks.",
+   "status": "done"
   },
   {
    "id": "R06:18B96",
@@ -1824,7 +2051,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\nそれじゃ、元気でな。",
-   "en": ""
+   "en": "TV Wataru:\nWell, take care!",
+   "status": "done"
   },
   {
    "id": "R06:18BC8",
@@ -1832,7 +2060,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\nうん。",
-   "en": ""
+   "en": "G-Wataru:\nYeah.",
+   "status": "done"
   },
   {
    "id": "R06:18BEA",
@@ -1840,7 +2069,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ＴＶワタル：\n絶対ワルモンダーを\n倒してくれよな。",
-   "en": ""
+   "en": "TV Wataru:\nMake sure you beat Warumonder,\nokay?",
+   "status": "done"
   },
   {
    "id": "R06:18C2C",
@@ -1848,7 +2078,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "Ｇワタル：\nうん！",
-   "en": ""
+   "en": "G-Wataru:\nYeah!",
+   "status": "done"
   },
   {
    "id": "R06:18C50",
@@ -1856,7 +2087,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n・・・ボクがワルモンダーを倒し\nたら、ボクの使っている登龍剣を",
-   "en": ""
+   "en": "G-Wataru:\n...Once I beat Warumonder,\nI'll leave the Toryuken I use...",
+   "status": "done"
   },
   {
    "id": "R06:18CAA",
@@ -1864,7 +2096,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "第七界層に置いてくるよ。",
-   "en": ""
+   "en": "up in the Seventh Layer.",
+   "status": "done"
   },
   {
    "id": "R06:18CD2",
@@ -1872,7 +2105,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "キミが未来の第七界層に\n行ったとき、\nきっと役に立つはずだ・・・。",
-   "en": ""
+   "en": "When you reach the Seventh Layer\nin the future, I'm sure\nit'll come in handy...",
+   "status": "done"
   },
   {
    "id": "R06:18D24",
@@ -1880,7 +2114,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ＴＶワタル：\nおう！",
-   "en": ""
+   "en": "TV Wataru:\nYeah!",
+   "status": "done"
   },
   {
    "id": "R06:18D4A",
@@ -1888,7 +2123,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "シバラク：\nそれでは、失礼するでござる。",
-   "en": ""
+   "en": "Shibaraku:\nThen we shall take our leave.",
+   "status": "done"
   },
   {
    "id": "R06:18D82",
@@ -1896,7 +2132,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "この剣部シバラク、\nご恩は一生忘れませんぞ。",
-   "en": ""
+   "en": "I, Shibaraku Tsurugibe,\nshall remember your kindness\nfor the rest of my life.",
+   "status": "done"
   },
   {
    "id": "R06:18DBE",
@@ -1904,7 +2141,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n・・・な、なにっ！？\n剣部っ？",
-   "en": ""
+   "en": "Aragoto:\n...W-what?!\nTsurugibe?!",
+   "status": "done"
   },
   {
    "id": "R06:18DF8",
@@ -1912,7 +2150,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nふふっ。",
-   "en": ""
+   "en": "Sakuya:\nHee hee.",
+   "status": "done"
   },
   {
    "id": "R06:18E1A",
@@ -2208,7 +2447,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "静電気なんか、\n気にせんでええきに～！",
-   "en": "Don't get all charged up\nabout a little static!",
+   "en": "Don't go gettin' all charged up\nover a little static, y'hear!",
    "status": "done"
   },
   {
@@ -2280,7 +2519,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\n静電気はすばらしいのぉ。\nこのピリピリするのがたまらん。",
-   "en": "Old Woman:\nStatic electricity is wonderful.\nI can't get enough of that zap!",
+   "en": "Old Woman:\nStatic's a fine thing, eh?\nCan't beat that lovely zap!",
    "status": "done"
   },
   {
@@ -2838,7 +3077,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\n電気はすばらしいのぉ。\n心が明るくなってくるわい。",
-   "en": "Old Woman:\nElectricity is wonderful.\nIt brightens my spirits!",
+   "en": "Old Woman:\nElectricity's grand, eh?\nIt brightens this old heart!",
    "status": "done"
   },
   {
@@ -3054,7 +3293,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n【きおく力ゲーム】では、\nメモを取るとラクチンじゃ。",
-   "en": "Man:\nTaking notes makes the\nMemory Game a breeze.",
+   "en": "Man:\nTake notes for the Memory Game.\n'Tis a breeze that way, lad.",
    "status": "done"
   },
   {
@@ -3072,7 +3311,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n【１５パズル】では、\nかんさつ力を効かせい。",
-   "en": "Man:\nIn the 15 Puzzle,\nkeep your eyes peeled.",
+   "en": "Man:\nIn the 15 Puzzle,\nuse those sharp eyes, lad.",
    "status": "done"
   },
   {
@@ -3081,7 +3320,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n【ヒット・アンド・ブロー】では、\n前の手をよく見て考えい。",
-   "en": "Man:\nIn Hit and Blow, think carefully\nabout your previous moves.",
+   "en": "Man:\nIn Hit and Blow, mind ye\nstudy your past moves well.",
    "status": "done"
   }
  ]

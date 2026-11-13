@@ -1088,7 +1088,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ハナヨメ村でサクヤが捕まり、\nヨメイリ・コウゾウが\nサクヤと結婚しようとしていた。",
-   "en": "In Bride Village, Sakuya was\ncaptured, and Yomeiri\nwas trying to marry her.",
+   "en": "In Bride Village, Sakuya was\ncaptured, and Yomeiri Kozo\nwas trying to marry her.",
    "status": "done"
   },
   {
@@ -2501,7 +2501,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ここは、\n昔付き合ってたことのある\n女の村だ。",
-   "en": ""
+   "en": "This is the village of a woman\nI once courted.",
+   "status": "done"
   },
   {
    "id": "R13:1DCEE",
@@ -2509,7 +2510,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルとサクヤ：\nええっ！？[B000]宝",
-   "en": ""
+   "en": "Wataru & Sakuya:\nWhat?![B000][0191]",
+   "status": "done"
   },
   {
    "id": "R13:1DD1E",
@@ -2517,7 +2519,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "・・・おじさんと付き合う\n女の人がいたんだ・・・！",
-   "en": ""
+   "en": "...There was actually a woman\nwho'd date you, mister...!",
+   "status": "done"
   },
   {
    "id": "R13:1DD60",
@@ -2525,7 +2528,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nなんじゃそりゃ？",
-   "en": ""
+   "en": "Aragoto:\nWhat is that supposed to mean?",
+   "status": "done"
   },
   {
    "id": "R13:1DD8C",
@@ -2533,7 +2537,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "あのなあ、拙はちょっと前までは、\nそりゃーあ、モテモテだったんだ。",
-   "en": ""
+   "en": "I'll have you know, until quite\nrecently, I was exceedingly\npopular with the ladies!",
+   "status": "done"
   },
   {
    "id": "R13:1DDDE",
@@ -2541,7 +2546,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそうですわね・・・。",
-   "en": ""
+   "en": "Sakuya:\nIndeed you were...",
+   "status": "done"
   },
   {
    "id": "R13:1DE0C",
@@ -2549,7 +2555,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "いわゆる【プレイボーイ】\nだったのですわ。",
-   "en": ""
+   "en": "You were what one might call\na playboy.",
+   "status": "done"
   },
   {
    "id": "R13:1DE46",
@@ -2557,7 +2564,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nガクッ。\n・・・お嬢、それはないだろう。",
-   "en": ""
+   "en": "Aragoto:\nThud.\n...My lady, that's uncalled for.",
+   "status": "done"
   },
   {
    "id": "R13:1DE8A",
@@ -2565,7 +2573,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "拙は、今まであった女性には、\nみんな本気で付き合ってたぞ。",
-   "en": ""
+   "en": "I was serious about every woman\nI ever courted, I assure you!",
+   "status": "done"
   },
   {
    "id": "R13:1DED4",
@@ -2573,7 +2582,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nあーら、",
-   "en": ""
+   "en": "Sakuya:\nOh, my.",
+   "status": "done"
   },
   {
    "id": "R13:1DEF6",
@@ -2581,7 +2591,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "そうやって本気で付き合って、\n泣かせた女性が\n何人いらっしゃっ・・・。",
-   "en": ""
+   "en": "And how many ladies did those\nmost earnest affections\nleave in tears...?",
+   "status": "done"
   },
   {
    "id": "R13:1DF4E",
@@ -2589,7 +2600,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nわーっ！　わーっ！",
-   "en": ""
+   "en": "Aragoto:\nWAAAH! WAAAH!",
+   "status": "done"
   },
   {
    "id": "R13:1DF7C",
@@ -2597,7 +2609,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそれに、最後は\n「面倒なことになった」と言って、",
-   "en": ""
+   "en": "Sakuya:\nAnd in the end, you said,\n\"Things have become a nuisance,\"",
+   "status": "done"
   },
   {
    "id": "R13:1DFC6",
@@ -2605,7 +2618,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "【もんじゃ村】まで\n逃げてきたのでは・・・。",
-   "en": ""
+   "en": "and fled all the way to\nMonja Village, did you not...?",
+   "status": "done"
   },
   {
    "id": "R13:1E004",
@@ -2613,7 +2627,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nわぁーっ！",
-   "en": ""
+   "en": "Aragoto:\nWAAAAH!",
+   "status": "done"
   },
   {
    "id": "R13:1E02A",
@@ -2621,7 +2636,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "お、お嬢！\nやめてくれぃっ・・・。\nお願いだから。",
-   "en": ""
+   "en": "M-my lady! Please, stop...!\nI beg of you.",
+   "status": "done"
   },
   {
    "id": "R13:1E06C",
@@ -2629,7 +2645,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nしっかし、",
-   "en": ""
+   "en": "Aragoto:\nStill...",
+   "status": "done"
   },
   {
    "id": "R13:1E092",
@@ -2637,7 +2654,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "昔はこんなさみしい村では\nなかったと思ったが・・・？",
-   "en": ""
+   "en": "I do not recall this village\nbeing quite so desolate\nin the old days...?",
+   "status": "done"
   },
   {
    "id": "R13:1E0EC",
@@ -2645,7 +2663,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nついに来てしまったか・・・。",
-   "en": ""
+   "en": "Aragoto:\nSo, at last we have come...",
+   "status": "done"
   },
   {
    "id": "R13:1E124",
@@ -2653,7 +2672,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nどうしたの、おじさん。",
-   "en": ""
+   "en": "Wataru:\nWhat's wrong, mister?",
+   "status": "done"
   },
   {
    "id": "R13:1E154",
@@ -2661,7 +2681,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nいや、何でもないでござるよ。",
-   "en": ""
+   "en": "Aragoto:\nWhy, nothing at all,\nI assure you.",
+   "status": "done"
   },
   {
    "id": "R13:1E18C",
@@ -2669,7 +2690,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "いっやぁー、空も晴れて\nいい天気だなぁー。",
-   "en": ""
+   "en": "Ahhh, such clear skies!\nWhat glorious weather!",
+   "status": "done"
   },
   {
    "id": "R13:1E1C6",
@@ -2677,7 +2699,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nヘンなおじさん。",
-   "en": ""
+   "en": "Wataru:\nYou're acting weird, mister.",
+   "status": "done"
   },
   {
    "id": "R13:1E1F6",
@@ -2685,7 +2708,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\nうふふっ。\n待っていたわよ、ぼうや。",
-   "en": ""
+   "en": "Warujo:\nHee hee!\nI've been waiting for you, boy.",
+   "status": "done"
   },
   {
    "id": "R13:1E236",
@@ -2693,7 +2717,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nいい加減、創界山の人々を\n苦しめるのはやめたら？",
-   "en": ""
+   "en": "Wataru:\nIsn't it about time you quit\nmaking Sokaizan's people suffer?",
+   "status": "done"
   },
   {
    "id": "R13:1E280",
@@ -2701,7 +2726,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "おばさん。",
-   "en": ""
+   "en": "You old lady.",
+   "status": "done"
   },
   {
    "id": "R13:1E29A",
@@ -2709,7 +2735,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\nお、お、\nおおおおおおおばさん！？",
-   "en": ""
+   "en": "Warujo:\nO-o...\nO-o-o-o-OLD LADY?!",
+   "status": "done"
   },
   {
    "id": "R13:1E2D8",
@@ -2717,7 +2744,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nそう、おばさん。",
-   "en": ""
+   "en": "Wataru:\nYep. Old lady.",
+   "status": "done"
   },
   {
    "id": "R13:1E304",
@@ -2725,7 +2753,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\nキィーッ！　許せないわぁっ！",
-   "en": ""
+   "en": "Warujo:\nEEEEEK! You'll pay for that!",
+   "status": "done"
   },
   {
    "id": "R13:1E33E",
@@ -2733,7 +2762,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nほんっとーに、\n人を怒らせるのが上手ですわぁ。",
-   "en": ""
+   "en": "Sakuya:\nYou really do have a gift\nfor making people furious.",
+   "status": "done"
   },
   {
    "id": "R13:1E386",
@@ -2741,7 +2771,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nそうだなぁー・・・。",
-   "en": ""
+   "en": "Aragoto:\nIndeed he does...",
+   "status": "done"
   },
   {
    "id": "R13:1E3B6",
@@ -2749,7 +2780,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\nくぅーっ！",
-   "en": ""
+   "en": "Warujo:\nGrrrr!",
+   "status": "done"
   },
   {
    "id": "R13:1E3DE",
@@ -2757,7 +2789,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "はっ？\nそこにいるのは、\nアラゴトさまではありませんか？",
-   "en": ""
+   "en": "Huh?\nCould that be Aragoto-sama\nover there?",
+   "status": "done"
   },
   {
    "id": "R13:1E428",
@@ -2765,7 +2798,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nえっ！？",
-   "en": ""
+   "en": "Aragoto:\nEh?!",
+   "status": "done"
   },
   {
    "id": "R13:1E44C",
@@ -2773,7 +2807,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\nあ、\nやっぱりアラゴトさまですわっ。",
-   "en": ""
+   "en": "Warujo:\nAh!\nIt IS Aragoto-sama!",
+   "status": "done"
   },
   {
    "id": "R13:1E48C",
@@ -2781,7 +2816,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nは、はは・・・。",
-   "en": ""
+   "en": "Aragoto:\nH-ha ha...",
+   "status": "done"
   },
   {
    "id": "R13:1E4B8",
@@ -2789,7 +2825,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "やぁやぁ【ワルジョ】ではないか。\nひさしぶりだなぁ。",
-   "en": ""
+   "en": "Well, well! If it isn't Warujo!\nIt has been quite some time.",
+   "status": "done"
   },
   {
    "id": "R13:1E4FC",
@@ -2797,7 +2834,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\nアラゴトさまは、",
-   "en": ""
+   "en": "Warujo:\nAragoto-sama...",
+   "status": "done"
   },
   {
    "id": "R13:1E528",
@@ -2805,7 +2843,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "一体どうしてこのような場所に\nいらっしゃるんですの？",
-   "en": ""
+   "en": "Whatever brings you\nto a place like this?",
+   "status": "done"
   },
   {
    "id": "R13:1E56C",
@@ -2813,7 +2852,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nい、いやぁ、それは・・・。\n成りゆき上の問題というか、",
-   "en": ""
+   "en": "Aragoto:\nW-well, you see...\nOne thing led to another, and...",
+   "status": "done"
   },
   {
    "id": "R13:1E5BE",
@@ -2821,7 +2861,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "・・・いやはや。",
-   "en": ""
+   "en": "...Oh, dear me.",
+   "status": "done"
   },
   {
    "id": "R13:1E5E0",
@@ -2829,7 +2870,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nおじさん、\nこのおばさんと知り合いなの？",
-   "en": ""
+   "en": "Wataru:\nMister, you know this old lady?",
+   "status": "done"
   },
   {
    "id": "R13:1E622",
@@ -2837,7 +2879,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nん、ま、まぁな。",
-   "en": ""
+   "en": "Aragoto:\nHm? W-well, yes.",
+   "status": "done"
   },
   {
    "id": "R13:1E64E",
@@ -2845,7 +2888,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\nアラゴトさまと私は、\n将来を誓い合った仲だったのよ。",
-   "en": ""
+   "en": "Warujo:\nAragoto-sama and I once vowed\nto spend our lives together.",
+   "status": "done"
   },
   {
    "id": "R13:1E6A0",
@@ -2853,7 +2897,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタルたち：\nええーっ！？",
-   "en": ""
+   "en": "Wataru & co.:\nWhaaat?!",
+   "status": "done"
   },
   {
    "id": "R13:1E6CA",
@@ -2861,7 +2906,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\nそれなのにアラゴトさまったら、\n私をすてて、",
-   "en": ""
+   "en": "Warujo:\nAnd yet Aragoto-sama\nabandoned me...",
+   "status": "done"
   },
   {
    "id": "R13:1E712",
@@ -2869,7 +2915,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "どこかへ\n行ってしまわれるんですもの。",
-   "en": ""
+   "en": "and went off to who knows where!",
+   "status": "done"
   },
   {
    "id": "R13:1E74A",
@@ -2877,7 +2924,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nそのさみしさを\nまぎらわせるために、",
-   "en": ""
+   "en": "Sakuya:\nAnd to ease that loneliness...",
+   "status": "done"
   },
   {
    "id": "R13:1E788",
@@ -2885,7 +2933,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "恋とか愛とかを村の人たちに\n強要していたんですの？",
-   "en": ""
+   "en": "you forced love and romance\nupon the villagers?",
+   "status": "done"
   },
   {
    "id": "R13:1E7CC",
@@ -2893,7 +2942,8 @@
    "kind": "event",
    "end": "8000",
    "jp": "ワルジョ：\nそうなのよ・・・、",
-   "en": ""
+   "en": "Warujo:\nThat's right...",
+   "status": "done"
   },
   {
    "id": "R13:1E7FC",
@@ -2901,7 +2951,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "って、アンタ誰？",
-   "en": ""
+   "en": "Wait, who are YOU?",
+   "status": "done"
   },
   {
    "id": "R13:1E81E",
@@ -2909,7 +2960,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\nあっ、あの、彼女は・・・。",
-   "en": ""
+   "en": "Aragoto:\nAh, er, she is...",
+   "status": "done"
   },
   {
    "id": "R13:1E856",
@@ -2917,7 +2969,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\n・・・はっ、もしやアラゴト様の\n新しいガールフレンド？",
-   "en": ""
+   "en": "Warujo:\n...Ah! Are you Aragoto-sama's\nnew girlfriend?!",
+   "status": "done"
   },
   {
    "id": "R13:1E8AA",
@@ -2925,7 +2978,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "キィーッ！\nくやしいわぁっ！",
-   "en": ""
+   "en": "EEEEEK!\nI can't stand it!",
+   "status": "done"
   },
   {
    "id": "R13:1E8D6",
@@ -2933,7 +2987,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n何を誤解なさっておいでですの？\nわたくしとおじさまは・・・。",
-   "en": ""
+   "en": "Sakuya:\nYou quite misunderstand!\nUncle and I are...",
+   "status": "done"
   },
   {
    "id": "R13:1E92C",
@@ -2941,7 +2996,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\n【おじさま】ですって！？",
-   "en": ""
+   "en": "Warujo:\n\"Uncle,\" you say?!",
+   "status": "done"
   },
   {
    "id": "R13:1E960",
@@ -2949,7 +3005,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "キィーッ！\n何かアヤしいわぁっ！",
-   "en": ""
+   "en": "EEEEEK!\nSomething smells fishy!",
+   "status": "done"
   },
   {
    "id": "R13:1E992",
@@ -2957,7 +3014,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nねぇ、\nこのおばさん何とかなんないの？",
-   "en": ""
+   "en": "Wataru:\nHey, can't you do something\nabout this old lady?",
+   "status": "done"
   },
   {
    "id": "R13:1E9D2",
@@ -2965,7 +3023,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nこのいらぬ誤解がこわくて、\n拙は逃げ出したのだ。",
-   "en": ""
+   "en": "Aragoto:\nFear of these absurd suspicions\nis precisely why I fled.",
+   "status": "done"
   },
   {
    "id": "R13:1EA1E",
@@ -2973,7 +3032,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nはやりのストーカーっぽいしね、\n・・・なんか。",
-   "en": ""
+   "en": "Wataru:\nShe's kinda like those stalkers\nyou hear about these days...",
+   "status": "done"
   },
   {
    "id": "R13:1EA68",
@@ -2981,7 +3041,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルジョ：\n私は子供だからって\n容赦（ようしゃ）しないわよ！",
-   "en": ""
+   "en": "Warujo:\nI won't go easy on you\njust because you're a child!",
+   "status": "done"
   },
   {
    "id": "R13:1EAB4",
@@ -2989,7 +3050,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "恋愛に大人も子供も関係ないわ！",
-   "en": ""
+   "en": "In love, it doesn't matter\nwhether you're grown-up\nor a kid!",
+   "status": "done"
   },
   {
    "id": "R13:1EAE2",
@@ -2997,7 +3059,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "出でよ！\n【ＬＬラバーズ】！！",
-   "en": ""
+   "en": "Come forth!\nLL Lovers!!",
+   "status": "done"
   },
   {
    "id": "R13:1EB10",
@@ -3005,7 +3068,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nワタルさまっ。",
-   "en": ""
+   "en": "Sakuya:\nWataru-sama!",
+   "status": "done"
   },
   {
    "id": "R13:1EB38",
@@ -3013,7 +3077,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nおうっ！\nりゅーじんまるーっ！",
-   "en": ""
+   "en": "Wataru:\nRight!\nRyujinmaruuu!",
+   "status": "done"
   },
   {
    "id": "R13:1EB7E",
@@ -3021,7 +3086,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nうわぁーっ！",
-   "en": ""
+   "en": "Wataru:\nWaaaaah!",
+   "status": "done"
   },
   {
    "id": "R13:1EBA6",
@@ -3029,7 +3095,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\n愛の前には、たとえ救世主でも\n無力なのよ。ほーほっほっほ。",
-   "en": ""
+   "en": "Warujo:\nEven the Savior is helpless\nbefore love! Oh ho ho ho!",
+   "status": "done"
   },
   {
    "id": "R13:1EBFE",
@@ -3037,7 +3104,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nくそうっ・・・。",
-   "en": ""
+   "en": "Wataru:\nDarn it...!",
+   "status": "done"
   },
   {
    "id": "R13:1EC28",
@@ -3045,7 +3113,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\nおーほっほっほ・・・。\n死になさいっ！",
-   "en": ""
+   "en": "Warujo:\nOh ho ho ho...\nDie!",
+   "status": "done"
   },
   {
    "id": "R13:1EC6C",
@@ -3053,7 +3122,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nここは拙が何とかする・・・。\n・・・魔神鍛冶（かじ）だ！",
-   "en": ""
+   "en": "Aragoto:\nI shall handle this somehow...\n...The mashin smith!",
+   "status": "done"
   },
   {
    "id": "R13:1ECC0",
@@ -3061,7 +3131,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル！\n魔神湯治場へ行け！\n救世主・炎部ワタルよ！",
-   "en": ""
+   "en": "Wataru! Go to the Mashin Spa!\nSavior Wataru Homurabe!",
+   "status": "done"
   },
   {
    "id": "R13:1ED04",
@@ -3069,7 +3140,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nえ・・・？",
-   "en": ""
+   "en": "Wataru:\nHuh...?",
+   "status": "done"
   },
   {
    "id": "R13:1ED28",
@@ -3077,7 +3149,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "アラゴト：\n早くお嬢を連れて逃げろ！\n忘れるな！　魔神鍛冶だぞ！",
-   "en": ""
+   "en": "Aragoto:\nTake my lady and flee! Quickly!\nRemember! The mashin smith!",
+   "status": "done"
   },
   {
    "id": "R13:1ED7E",
@@ -3085,7 +3158,8 @@
    "kind": "event",
    "end": "2000",
    "jp": "ああ",
-   "en": ""
+   "en": "Ahh",
+   "status": "done"
   },
   {
    "id": "R13:1ED92",
@@ -3093,7 +3167,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "いい",
-   "en": ""
+   "en": "Eee",
+   "status": "done"
   },
   {
    "id": "R13:212D8",
@@ -3101,7 +3176,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\nよく来たね。\nここは、【魔神湯治場】だよ。",
-   "en": ""
+   "en": "Young Man:\nWelcome!\nThis is the Mashin Spa.",
+   "status": "done"
   },
   {
    "id": "R13:21314",
@@ -3109,7 +3185,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おにいさん：\nここが、【魔神鍛冶屋】さ。\n魔神を直したら、１番って感じさ！",
-   "en": ""
+   "en": "Young Man:\nThis is the mashin smithy!\nThe best at fixing mashin!",
+   "status": "done"
   },
   {
    "id": "R13:21360",
@@ -3117,7 +3194,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【ワルモンダー】は、とても賢い\nヤツなの。",
-   "en": ""
+   "en": "Young Woman:\nWarumonder is a very clever\nvillain.",
+   "status": "done"
   },
   {
    "id": "R13:2139A",
@@ -3125,7 +3203,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "村の人にいろいろな価値観を\n植え付けているのよ。\nだから、その村に行ったときに",
-   "en": ""
+   "en": "He plants all sorts of values\nin the villagers' heads.\nSo when you visit a village,",
+   "status": "done"
   },
   {
    "id": "R13:213EA",
@@ -3133,7 +3212,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "「これは違う！」と思っても、\n村の人達にとっては、それが、\n当然のことになっているのよ。",
-   "en": ""
+   "en": "you may think, \"This is wrong!\"\nbut to the villagers, it's just\nthe most natural thing of all.",
+   "status": "done"
   },
   {
    "id": "R13:21444",
@@ -3141,7 +3221,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nやるわね、【ワルモンダー】。",
-   "en": ""
+   "en": "Young Woman:\nClever work, Warumonder.",
+   "status": "done"
   },
   {
    "id": "R13:21470",
@@ -3149,7 +3230,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n【知恵の温泉】では、いろいろな\n質問をされるんですじゃ。",
-   "en": ""
+   "en": "Old Man:\nAt the Wisdom Spring, ye'll be\nasked all manner of questions.",
+   "status": "done"
   },
   {
    "id": "R13:214B8",
@@ -3157,7 +3239,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "きちんと答えないと、\n知恵はつかないですぞ。",
-   "en": ""
+   "en": "Ye won't gain any wisdom\nunless ye answer properly!",
+   "status": "done"
   },
   {
    "id": "R13:214E8",
@@ -3165,7 +3248,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\n【魔神湯治場】といったら、\n【湯治場まんじゅう】じゃ～。",
-   "en": ""
+   "en": "Old Man:\nThe Mashin Spa means one thing:\nSpa Buns!",
+   "status": "done"
   },
   {
    "id": "R13:21530",
@@ -3173,7 +3257,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワシは、つぶあんが好みじゃ～。\nこしあんも良いんじゃがな。",
-   "en": ""
+   "en": "I like my sweet bean paste\nchunky. Though smooth bean paste\nis good, too.",
+   "status": "done"
   },
   {
    "id": "R13:2156C",
@@ -3181,7 +3266,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "アンタらはどっちがええ？\n１．もちろん、つぶあんだね！\n２．こしあん・・・かな？",
-   "en": ""
+   "en": "Which do ye prefer?\n1. Chunky, of course!\n2. Smooth... I guess?",
+   "status": "done"
   },
   {
    "id": "R13:215C0",
@@ -3189,7 +3275,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\nアンタらも、なかなかの通じゃ～。",
-   "en": ""
+   "en": "Old Man:\nYe've got refined tastes, too!",
+   "status": "done"
   },
   {
    "id": "R13:215F0",
@@ -3197,7 +3284,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\nほぉほぉ、こしあんも\nすてがたいのじゃ～。",
-   "en": ""
+   "en": "Old Man:\nHo ho! Smooth bean paste\nis hard to pass up, too!",
+   "status": "done"
   },
   {
    "id": "R13:2162C",
@@ -3205,7 +3293,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばさん：\n【力の温泉】でボーリングバトル\nの成果を試してみるといいわ。",
-   "en": ""
+   "en": "Woman:\nTest your Bowling Battle skills\nat the Strength Spring.",
+   "status": "done"
   },
   {
    "id": "R13:21678",
@@ -3213,7 +3302,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばさん：\nＨＰを回復してから、入った方が\nいいわね。",
-   "en": ""
+   "en": "Woman:\nYou'd better recover your HP\nbefore going in.",
+   "status": "done"
   },
   {
    "id": "R13:216B0",
@@ -3221,7 +3311,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\nいらっしゃい。おやおや・・・、\nこれは、かわいいお客さんだぁ。",
-   "en": ""
+   "en": "Woman:\nWelcome! Well, well...\nWhat cute customers-san!",
+   "status": "done"
   },
   {
    "id": "R13:216FC",
@@ -3229,7 +3320,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【湯治場まんじゅう】は、\n【魔神湯治場】名物だ。ほっぺが\n落ちるほど、おいしいんだぁ。",
-   "en": ""
+   "en": "Spa Buns are a Mashin Spa treat.\nThey're so delicious, they just\nmelt in your mouth!",
+   "status": "done"
   },
   {
    "id": "R13:21754",
@@ -3237,7 +3329,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "まあまあ、だまされたと思って、\nたべてみろ。",
-   "en": ""
+   "en": "Go on, give them a try!\nTake my word for it.",
+   "status": "done"
   },
   {
    "id": "R13:21782",
@@ -3245,7 +3338,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\nありがとう。いっただきまーす！",
-   "en": ""
+   "en": "Wataru:\nThanks! Let's dig iiin!",
+   "status": "done"
   },
   {
    "id": "R13:217AC",
@@ -3253,7 +3347,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nいただきますわ。",
-   "en": ""
+   "en": "Sakuya:\nThank you. I shall try one.",
+   "status": "done"
   },
   {
    "id": "R13:217C8",
@@ -3261,7 +3356,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワルリーヌ：\nいただきま～す！",
-   "en": ""
+   "en": "Warurine:\nTime to dig iiin!",
+   "status": "done"
   },
   {
    "id": "R13:217E8",
@@ -3269,7 +3365,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nどうじゃ？　おいしいじゃろ？",
-   "en": ""
+   "en": "Old Woman:\nWell? Delicious, aren't they?",
+   "status": "done"
   },
   {
    "id": "R13:21814",
@@ -3277,7 +3374,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタル：\nうん！　ホントに、ほっぺたが\n落ちそうだよ。おいしい！",
-   "en": ""
+   "en": "Wataru:\nYeah! They melt in your mouth!\nThey're awesome!",
+   "status": "done"
   },
   {
    "id": "R13:21856",
@@ -3285,7 +3383,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nええ、ふっくらとした口当たりが、\nとてもおいしゅうございますわ。",
-   "en": ""
+   "en": "Sakuya:\nYes, their soft, fluffy texture\nis most delightful.",
+   "status": "done"
   },
   {
    "id": "R13:218A2",
@@ -3293,7 +3392,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワルリーヌ：\nわぁ～、すごくおいしいよ。\nこんど、パパに買ってもらおう。",
-   "en": ""
+   "en": "Warurine:\nOh, they're so delicious!\nI'll ask Papa to buy some later.",
+   "status": "done"
   },
   {
    "id": "R13:218EC",
@@ -3301,7 +3401,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nかわいいお客さん。今回は、\nサービスじゃ。お金はいいからね。",
-   "en": ""
+   "en": "Old Woman:\nFor you cute customers-san,\nthis one's free! No need to pay.",
+   "status": "done"
   },
   {
    "id": "R13:21938",
@@ -3309,7 +3410,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "また、おいで。",
-   "en": ""
+   "en": "Come again!",
+   "status": "done"
   },
   {
    "id": "R13:21948",
@@ -3317,7 +3419,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばさん：\nいらっしゃい。かわいいお客さん。\nゆっくりしておいき。",
-   "en": ""
+   "en": "Woman:\nWelcome, cute customers-san!\nMake yourselves right at home.",
+   "status": "done"
   },
   {
    "id": "R13:2198C",
@@ -3325,7 +3428,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n要チェックじゃーっ！！",
-   "en": ""
+   "en": "Old Man:\nCheck this out!!",
+   "status": "done"
   },
   {
    "id": "R13:219B2",
@@ -3333,7 +3437,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "むちゃくちゃ、なが～いのじゃが\nこれから、ワシのいうことを\nメモって、コピるのじゃーっ！！",
-   "en": ""
+   "en": "It's looong, but write down\nall that I'm about to tell you,\nand make copies of it all!!",
+   "status": "done"
   },
   {
    "id": "R13:21A0E",
@@ -3341,7 +3446,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "さあ、チェックスタートじゃ！！\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Now, let's start checking!!\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R13:21A46",
@@ -3349,7 +3455,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n創界山を救うためにやって来た、\nその名は、救世主【ワタル】！",
-   "en": ""
+   "en": "Old Man:\nHe came here to save Sokaizan!\nHis name? Wataru, the Savior!",
+   "status": "done"
   },
   {
    "id": "R13:21A92",
@@ -3357,7 +3464,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "悪いことして手にした金は、\nすぐ無くなるのじゃ。\nそう、【泡銭（あぶくぜに）】！",
-   "en": ""
+   "en": "Money gained by doing wrong\nvanishes in no time at all.\nYes, it's Easy Money!",
+   "status": "done"
   },
   {
    "id": "R13:21AE4",
@@ -3365,7 +3473,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【超魔剣栄光伝ワタノレ】の\n同人誌。ワタノレ、ヒシコと\n【ツバラク】登場！",
-   "en": ""
+   "en": "Fan comic: 'Super Demon Sword\nGlory VVataru'! With VVataru,\nHishiko and Tsubaraku!",
+   "status": "done"
   },
   {
    "id": "R13:21B30",
@@ -3373,7 +3482,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "とても、めずらしいもんペット。\nトノ、トノ、トノ、トノ・・・、\n【トノケロ】じゃ！",
-   "en": ""
+   "en": "A very rare Monpet indeed!\nLord, Lord, Lord, Lord...\nLord Croak!",
+   "status": "done"
   },
   {
    "id": "R13:21B84",
@@ -3381,7 +3491,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "大好きなコトをするためには、\n【犠牲（ぎせい）】を\nともなうのじゃ！",
-   "en": ""
+   "en": "Doing what ye love\ncomes with Sacrifice!",
+   "status": "done"
   },
   {
    "id": "R13:21BCA",
@@ -3389,7 +3500,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【アスリート村】のヤツらは\nつめたかったのじゃ。なぜ？\n【金メダル】を持ってなかった！",
-   "en": ""
+   "en": "Folk in Athlete Village gave me\nthe cold shoulder. Why?\nI didn't have a Gold Medal!",
+   "status": "done"
   },
   {
    "id": "R13:21C22",
@@ -3397,7 +3509,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【ワルリリス】は、おんなじゃが\n【満（おとこ）】ぽい！",
-   "en": ""
+   "en": "Warulilith's a woman,\nbut she's like a Man!",
+   "status": "done"
   },
   {
    "id": "R13:21C5A",
@@ -3405,7 +3518,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【ハナヨメ村】の鐘が鳴る。\nゴ～ン、ゴ～ン、ゴ～ン、ゴ～ン、\n・・・ズバリ【１０回】！",
-   "en": ""
+   "en": "The Bride Village bell rings.\nGong, gong, gong, gong...\nExactly 10 Times!",
+   "status": "done"
   },
   {
    "id": "R13:21CB2",
@@ -3413,7 +3527,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【ワルジョ】の魔神は\n【ＬＬラバーズ】！",
-   "en": ""
+   "en": "Warujo's mashin is\nLL Lovers!",
+   "status": "done"
   },
   {
    "id": "R13:21CDC",
@@ -3421,7 +3536,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "人々を守るための戦う力と、\n人々を救うための知の力と、\n人々の魂を奮わせる【心の力】！",
-   "en": ""
+   "en": "Might to guard, wisdom to save,\nand the Power of Heart to stir\npeople's souls!",
+   "status": "done"
   },
   {
    "id": "R13:21D34",
@@ -3429,7 +3545,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "とにかく、要チェックじゃ！！\nうおおおおおっ！　チェック！\nチェック！　要チェック！！",
-   "en": ""
+   "en": "Anyway, check it all!!\nRAAAAH! Check! Check!\nCheck it all!!",
+   "status": "done"
   },
   {
    "id": "R13:21D8C",
@@ -3437,7 +3554,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ごほ、ごほっ・・・、げふっ。\nはぁはぁ・・・。年がいも無く、\nハッスルしてしまったわい・・・。",
-   "en": ""
+   "en": "Cough, cough... Hack!\nHuff, puff... Got a bit too\ncarried away for my age...",
+   "status": "done"
   },
   {
    "id": "R13:21DEC",
@@ -3445,7 +3563,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\n何ごとも、チェックが必要じゃ～。",
-   "en": ""
+   "en": "Old Man:\nEverything needs checking!",
+   "status": "done"
   },
   {
    "id": "R13:21E1C",
@@ -3453,7 +3572,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nぼうや、つかれたでしょう。",
-   "en": ""
+   "en": "Old Woman:\nYou must be tired, my boy.",
+   "status": "done"
   },
   {
    "id": "R13:21E46",
@@ -3461,7 +3581,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "だけど、つかれたとか、つらい\nとかって、くじけちゃダメよ。",
-   "en": ""
+   "en": "But you mustn't give up\njust because you're tired\nor things are hard.",
+   "status": "done"
   },
   {
    "id": "R13:21E82",
@@ -3469,7 +3590,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ゆっくり休んで、がんばりなさい。",
-   "en": ""
+   "en": "Have a good rest,\nthen give it your all.",
+   "status": "done"
   },
   {
    "id": "R13:21EA4",
@@ -3477,7 +3599,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nくじけないでね。",
-   "en": ""
+   "en": "Old Woman:\nDon't lose heart.",
+   "status": "done"
   },
   {
    "id": "R13:21EC4",
@@ -3485,7 +3608,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nボーリングバトルで、つらいと\n感じたらレベルがたりないんじゃ。",
-   "en": ""
+   "en": "Old Woman:\nIf Bowling Battle feels hard,\nyour level is too low.",
+   "status": "done"
   },
   {
    "id": "R13:21F12",
@@ -3493,7 +3617,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "これを使うといい。",
-   "en": ""
+   "en": "Here, use this.",
+   "status": "done"
   },
   {
    "id": "R13:21F26",
@@ -3501,7 +3626,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【あがってマスク】を\n手に入れた！",
-   "en": ""
+   "en": "Got Mask Me Up!",
+   "status": "done"
   },
   {
    "id": "R13:21F4A",
@@ -3509,7 +3635,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "　おばあさん：\nレベルはつねに上げておく\nことじゃ。",
-   "en": ""
+   "en": "  Old Woman:\nAlways keep\nyour level up.",
+   "status": "done"
   },
   {
    "id": "R13:21F80",
@@ -3517,7 +3644,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nたまに、【湯治場まんじゅう】の\nにおいにつられて、もんペットが",
-   "en": ""
+   "en": "Old Man:\nSometimes the smell of Spa Buns\nlures a Monpet...",
+   "status": "done"
   },
   {
    "id": "R13:21FCE",
@@ -3525,7 +3653,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "やって来るんじゃよ。",
-   "en": ""
+   "en": "all the way here.",
+   "status": "done"
   },
   {
    "id": "R13:21FE4",
@@ -3533,7 +3662,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nおまえ、もしかして、ワタルだろ？\nそうだ、救世主ワタルだ！！",
-   "en": ""
+   "en": "Old Man:\nCould you be Wataru, lad?\nYes! Wataru, the Savior!!",
+   "status": "done"
   },
   {
    "id": "R13:22030",
@@ -3541,7 +3671,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【魔神鍛冶屋】はすぐそこだ！\nワシらの創界山を守ってくれ！\nおまえになら、できるっ！！",
-   "en": ""
+   "en": "The mashin smithy's right there!\nProtect our Sokaizan!\nI know ye can do it!!",
+   "status": "done"
   },
   {
    "id": "R13:22088",
@@ -3549,7 +3680,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\n【ワルモンダー】を倒してくれ！",
-   "en": ""
+   "en": "Old Man:\nPlease defeat Warumonder!",
+   "status": "done"
   },
   {
    "id": "R13:220B8",
@@ -3557,7 +3689,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\nあら、あなた！　とっても\nやさしいカオをしているわ。",
-   "en": ""
+   "en": "Old Woman:\nOh, my! You have such\na kind face.",
+   "status": "done"
   },
   {
    "id": "R13:220FC",
@@ -3565,7 +3698,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\n誰に対してもやさしくね。",
-   "en": ""
+   "en": "Old Woman:\nBe kind to everyone, dear.",
+   "status": "done"
   },
   {
    "id": "R13:22124",
@@ -3573,7 +3707,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\n【心の温泉】では、あなたに\n質問をなげかけてくるのです。",
-   "en": ""
+   "en": "Old Woman:\nAt the Heart Spring,\nyou'll be asked questions.",
+   "status": "done"
   },
   {
    "id": "R13:2216C",
@@ -3581,7 +3716,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これから、するべきことのために、\n必要な心を癒してくれるのよ。",
-   "en": ""
+   "en": "It will soothe your heart,\ngiving it what it needs for\nwhat you must do from now on.",
+   "status": "done"
   },
   {
    "id": "R13:221AC",
@@ -3589,7 +3725,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nボーリングバトルで、つらいと\n感じたらレベルがたりないんじゃ。",
-   "en": ""
+   "en": "Old Woman:\nIf Bowling Battle feels hard,\nyour level is too low.",
+   "status": "done"
   },
   {
    "id": "R13:221FA",
@@ -3597,7 +3734,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "レベルはつねに上げておく\nことじゃ。",
-   "en": ""
+   "en": "Always keep your level up.",
+   "status": "done"
   },
   {
    "id": "R13:22220",
@@ -3605,7 +3743,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nいま【魔神湯治場】はそうじ中よ。\nまた後で来てね。",
-   "en": ""
+   "en": "Young Woman:\nThe Mashin Spa is being cleaned.\nCome back a little later.",
+   "status": "done"
   },
   {
    "id": "R13:22264",
@@ -3613,7 +3752,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n【魔神湯治場】へ、ようこそ。",
-   "en": ""
+   "en": "Young Woman:\nWelcome to the Mashin Spa.",
+   "status": "done"
   },
   {
    "id": "R13:22290",
@@ -3621,7 +3761,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ここには、【力の温泉】と\n【知恵の温泉】と【心の温泉】が\nあり、それぞれの効能があります。",
-   "en": ""
+   "en": "The Strength, Wisdom and Heart\nHot Springs each have their own\nbenefits.",
+   "status": "done"
   },
   {
    "id": "R13:222EC",
@@ -3629,7 +3770,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\nもう思いっきりこがないから、\nブランコ乗ろうよぉ。",
-   "en": ""
+   "en": "Boy:\nI won't swing so hard anymore!\nCome on, let's ride the swing!",
+   "status": "done"
   },
   {
    "id": "R13:22330",
@@ -3637,7 +3779,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nこの間、【ワルジョ】さんと男の\n人が、お城の中をあるいてたんだ。",
-   "en": ""
+   "en": "Boy:\nThe other day, Warujo-san walked\nwith a man inside the castle.",
+   "status": "done"
   },
   {
    "id": "R13:22380",
@@ -3645,7 +3788,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・ボクねぇ、\nショックだったよ・・・。",
-   "en": ""
+   "en": "You know...\nI was really shocked...",
+   "status": "done"
   },
   {
    "id": "R13:223AC",
@@ -3653,7 +3797,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\nう～ん、ほんとかなぁ？",
-   "en": ""
+   "en": "Girl:\nHmm... Do you really mean it?",
+   "status": "done"
   },
   {
    "id": "R13:223D4",
@@ -3661,7 +3806,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\n私もこんな広いバスルームで、\nゆっくりとつかれを癒したいわ。",
-   "en": ""
+   "en": "Girl:\nI'd love to soak my cares away\nin a bathroom this big, too.",
+   "status": "done"
   },
   {
    "id": "R13:22420",
@@ -3669,7 +3815,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "１日のつかれって、なかなか\n取れないもんなのよ。・・・って、\n私ちょっぴりオヤジくさいかも？",
-   "en": ""
+   "en": "A whole day's fatigue is so hard\nto shake off... Wait, do I sound\na little like an old man?",
+   "status": "done"
   },
   {
    "id": "R13:22480",
@@ -3677,7 +3824,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nあそこのじいさん、ぜんぜん\n動かないんだ・・・。",
-   "en": ""
+   "en": "Young Man:\nThat old guy over there hasn't\nmoved an inch...",
+   "status": "done"
   },
   {
    "id": "R13:224C0",
@@ -3685,7 +3833,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "もしかして、あのじいさんも\nたかいところニガテか？",
-   "en": ""
+   "en": "Maybe he's scared of heights,\ntoo?",
+   "status": "done"
   },
   {
    "id": "R13:224F4",
@@ -3693,7 +3842,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nあなたのもんペットは、きちんと\nそだってる？",
-   "en": ""
+   "en": "Young Woman:\nIs your Monpet growing up\nproperly?",
+   "status": "done"
   },
   {
    "id": "R13:22530",
@@ -3701,7 +3851,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "ボーリングバトルで、よぶと\nガンガンそだつわよ。\nすごく頼りになるんだから。",
-   "en": ""
+   "en": "Call it in a Bowling Battle\nand it'll grow like crazy!\nIt's a huge help, you know.",
+   "status": "done"
   },
   {
    "id": "R13:22580",
@@ -3709,7 +3860,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nこの男の人、最近\n【ワルジョ】さまといるみたい。",
-   "en": ""
+   "en": "Young Woman:\nThis man seems to be spending\ntime with Warujo-sama lately.",
+   "status": "done"
   },
   {
    "id": "R13:225C0",
@@ -3717,7 +3869,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "超カッコイイくて、私のタイプ。\nでも、相手が【ワルジョ】さま\nじゃねぇ・・・。",
-   "en": ""
+   "en": "He's so dreamy! Just my type.\nBut with Warujo-sama as my\ncompetition...",
+   "status": "done"
   },
   {
    "id": "R13:22610",
@@ -3725,7 +3878,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n【ワルジョ】さまは、つねに\n恋愛にうえていたお方だ。",
-   "en": ""
+   "en": "Man:\nWarujo-sama was always\nstarving for romance.",
+   "status": "done"
   },
   {
    "id": "R13:22652",
@@ -3733,7 +3887,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "それも、今では・・・。",
-   "en": ""
+   "en": "But now, even that...",
+   "status": "done"
   },
   {
    "id": "R13:2266C",
@@ -3741,7 +3896,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nああ・・・。\nダメじゃ・・・。",
-   "en": ""
+   "en": "Man:\nAh...\nIt's no use...",
+   "status": "done"
   },
   {
    "id": "R13:22698",
@@ -3749,7 +3905,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "アシがすくんで、動けん・・・。",
-   "en": ""
+   "en": "My legs have frozen up.\nI can't move...",
+   "status": "done"
   },
   {
    "id": "R13:226B8",
@@ -3757,7 +3914,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\n【ワルジョ】さまが、【剣】って\n言葉に反応するナゾが解けたわ！",
-   "en": ""
+   "en": "Woman:\nI've solved why Warujo-sama\nreacts to the word \"sword\"!",
+   "status": "done"
   },
   {
    "id": "R13:22704",
@@ -3765,7 +3923,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "答えは、【ワルジョ】さまの\nお城に行けば解るわ。",
-   "en": ""
+   "en": "Visit Warujo-sama's castle\nand you'll find the answer.",
+   "status": "done"
   },
   {
    "id": "R13:22738",
@@ -3773,7 +3932,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\nこの男の方、アラゴトさんと\nおっしゃるそうよ。",
-   "en": ""
+   "en": "Woman:\nI hear this gentleman's name\nis Aragoto-san.",
+   "status": "done"
   },
   {
    "id": "R13:22774",
@@ -3781,7 +3941,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "とっても、ステキね。",
-   "en": ""
+   "en": "He's simply wonderful.",
+   "status": "done"
   },
   {
    "id": "R13:2278C",
@@ -3789,7 +3950,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nもう愛などいらん！",
-   "en": ""
+   "en": "Man:\nI have no need for love anymore!",
+   "status": "done"
   },
   {
    "id": "R13:227AC",
@@ -3797,7 +3959,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "私には【ワルジョ】さまという、\n女神がいるではないか！",
-   "en": ""
+   "en": "After all, I have my goddess,\nWarujo-sama!",
+   "status": "done"
   },
   {
    "id": "R13:227E4",
@@ -3805,7 +3968,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・と、思いきや、\n【ワルジョ】さまは、すでに\nラブラブ！？　おー、神よ！",
-   "en": ""
+   "en": "...Or so I thought!\nWarujo-sama is already in love?!\nOh, heavens!",
+   "status": "done"
   },
   {
    "id": "R13:22834",
@@ -3813,7 +3977,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじいさん：\n【サビレータウン】に活気が\n戻ってくるのは、いつじゃろう。",
-   "en": ""
+   "en": "Old Man:\nWhen will Sabire Town\nbe lively again, I wonder?",
+   "status": "done"
   },
   {
    "id": "R13:22880",
@@ -3821,7 +3986,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nこの階にはへやが３つ・・・、\n・・・・・・！！",
-   "en": ""
+   "en": "Old Man:\nThree rooms on this floor...\n...!!",
+   "status": "done"
   },
   {
    "id": "R13:228BE",
@@ -3829,7 +3995,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "ぼうや達、前にへやに入って\nいたじゃろ？",
-   "en": ""
+   "en": "You youngsters went into those\nrooms earlier, didn't ye?",
+   "status": "done"
   },
   {
    "id": "R13:228E8",
@@ -3837,7 +4004,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "中の様子を教えてくれんかのぅ？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Can ye tell me what was inside?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R13:22920",
@@ -3845,7 +4013,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\n何？　あぶないヤツが、ウロチョロ\nしていた？　こわいのぉ・・・。",
-   "en": ""
+   "en": "Old Man:\nWhat? Dangerous folk wandering\nabout? How frightening...",
+   "status": "done"
   },
   {
    "id": "R13:22970",
@@ -3853,7 +4022,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\nちぇっ、おじいさんグレちゃうぞ！",
-   "en": ""
+   "en": "Old Man:\nHmph! You'll turn this old man\ninto a delinquent!",
+   "status": "done"
   },
   {
    "id": "R13:229A0",
@@ -3861,7 +4031,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\n今、【ワルジョ】さまは、\n幸せじゃろう。",
-   "en": ""
+   "en": "Old Woman:\nWarujo-sama must be happy\nnow.",
+   "status": "done"
   },
   {
    "id": "R13:229D8",
@@ -3869,7 +4040,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "何でも、あのステキな方が、\n戻ってこられたそうじゃ。",
-   "en": ""
+   "en": "I hear that lovely gentleman\nhas come back to her.",
+   "status": "done"
   },
   {
    "id": "R13:22A10",
@@ -3877,7 +4049,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばあさん：\nこんなに広いバスルームだと、\nそうじするのが大変だよ・・・。",
-   "en": ""
+   "en": "Old Woman:\nA bathroom this big is\nsuch a chore to clean...",
+   "status": "done"
   },
   {
    "id": "R13:22A5C",
@@ -3885,7 +4058,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nあなた達は【ワルジョ】さまに\n負けたのでは？",
-   "en": ""
+   "en": "Young Man:\nDidn't Warujo-sama\ndefeat you?",
+   "status": "done"
   },
   {
    "id": "R13:22A98",
@@ -3893,7 +4067,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルジョ】さまは、\nアラゴトさまとおたわむれ中です。\nお引きとりください。",
-   "en": ""
+   "en": "Warujo-sama is making merry\nwith Aragoto-sama.\nPlease leave.",
+   "status": "done"
   },
   {
    "id": "R13:22AE8",
@@ -3901,7 +4076,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\n【ワルジョ】さまは、とても\nお幸せそうです。",
-   "en": ""
+   "en": "Young Man:\nWarujo-sama looks\nso very happy.",
+   "status": "done"
   },
   {
    "id": "R13:22B24",
@@ -3909,7 +4085,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "あまりジャマをなさらないように。",
-   "en": ""
+   "en": "Please try not to disturb her.",
+   "status": "done"
   },
   {
    "id": "R13:22B48",
@@ -3917,7 +4094,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nおっと！　ここから先は\nぼうや達にはキケンだぜ！！",
-   "en": ""
+   "en": "Man:\nWhoa! It's dangerous for you\nkids up ahead!!",
+   "status": "done"
   },
   {
    "id": "R13:22B88",
@@ -3925,7 +4103,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじさん：\nぼうや達、がんばれよ！！",
-   "en": ""
+   "en": "Man:\nGive it your best, kids!!",
+   "status": "done"
   },
   {
    "id": "R13:22D78",
@@ -3933,7 +4112,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おとこの子：\nねえねえ、ブランコ乗ろうよぉ。",
-   "en": ""
+   "en": "Boy:\nHey, hey! Let's ride the swing!",
+   "status": "done"
   },
   {
    "id": "R13:22DA8",
@@ -3941,7 +4121,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nボクねぇ【ワルジョ】さん大スキ！",
-   "en": ""
+   "en": "Boy:\nI just love Warujo-san!",
+   "status": "done"
   },
   {
    "id": "R13:22DD8",
@@ -3949,7 +4130,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "でも、ボクが大きくなった\nときには・・・、\nどうなっちゃってるんだろう？",
-   "en": ""
+   "en": "But by the time I'm all\ngrown up...\nwhat will she be like?",
+   "status": "done"
   },
   {
    "id": "R13:22E24",
@@ -3957,7 +4139,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\nええー。だって、私が乗ると\n思いっきりこぐんだもん。",
-   "en": ""
+   "en": "Girl:\nNooo! You always swing as hard\nas you can when I get on!",
+   "status": "done"
   },
   {
    "id": "R13:22E68",
@@ -3965,7 +4148,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\nここは、バスルームよ。\nのぞいちゃダメだよ。",
-   "en": ""
+   "en": "Girl:\nThis is the bathroom.\nNo peeking!",
+   "status": "done"
   },
   {
    "id": "R13:22EA4",
@@ -3973,7 +4157,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nここは【ワルジョ】さまの\nお城です。",
-   "en": ""
+   "en": "Young Man:\nThis is Warujo-sama's\ncastle.",
+   "status": "done"
   },
   {
    "id": "R13:22ED8",
@@ -3981,7 +4166,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "【ワルジョ】さまは、\nとてもステキな\nお方ですよ。",
-   "en": ""
+   "en": "Warujo-sama is a truly\nwonderful lady.",
+   "status": "done"
   },
   {
    "id": "R13:22F0C",
@@ -3989,7 +4175,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "アラゴト：\n・・・・・・。",
-   "en": ""
+   "en": "Aragoto:\n......",
+   "status": "done"
   },
   {
    "id": "R13:22F28",
@@ -3997,7 +4184,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nオレたかいとこニガテで・・・。",
-   "en": ""
+   "en": "Young Man:\nI'm scared of heights...",
+   "status": "done"
   },
   {
    "id": "R13:22F56",
@@ -4005,7 +4193,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "下の階がめに入っちゃって\nここから先に行けないんだ。",
-   "en": ""
+   "en": "I can see the floor below,\nso I can't go any farther.",
+   "status": "done"
   },
   {
    "id": "R13:22F8C",
@@ -4013,7 +4202,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nもう、トノケロは\n見つけた？",
-   "en": ""
+   "en": "Young Woman:\nHave you found\nLord Croak yet?",
+   "status": "done"
   },
   {
    "id": "R13:22FB8",
@@ -4021,7 +4211,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "私このあいだ、見つけちゃったの。\nはなみずをたらしてて、\nちょっと、きたないけど・・・。",
-   "en": ""
+   "en": "I found one the other day.\nIts nose was running, which\nwas a little gross...",
+   "status": "done"
   },
   {
    "id": "R13:23012",
@@ -4029,7 +4220,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "でも、それがまた、\nかわいかったりするのよね。",
-   "en": ""
+   "en": "But somehow, that just makes\nit even cuter.",
+   "status": "done"
   },
   {
    "id": "R13:23044",
@@ -4037,7 +4229,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nきゃーっ！！\nこの男の人、誰かしら？",
-   "en": ""
+   "en": "Young Woman:\nEeee!!\nWho is this man?",
+   "status": "done"
   },
   {
    "id": "R13:23078",
@@ -4045,7 +4238,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "超カッコイイ～、私のタイプだわ。",
-   "en": ""
+   "en": "He's sooo dreamy!\nJust my type!",
+   "status": "done"
   },
   {
    "id": "R13:2309C",
@@ -4053,7 +4247,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n【ワルジョ】さまは、つねに\n恋愛にうえているお方だ。",
-   "en": ""
+   "en": "Man:\nWarujo-sama is always\nstarving for romance.",
+   "status": "done"
   },
   {
    "id": "R13:230E0",
@@ -4061,7 +4256,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nああ・・・。",
-   "en": ""
+   "en": "Man:\nAh...",
+   "status": "done"
   },
   {
    "id": "R13:230FA",
@@ -4069,7 +4265,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "向こうにいるにいさんも\nワシと同じで、たかいところが\nダメみたいじゃな・・・。",
-   "en": ""
+   "en": "That young fellow over there\nseems to be scared of heights,\njust like me...",
+   "status": "done"
   },
   {
    "id": "R13:2314C",
@@ -4077,7 +4274,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\n【ワルジョ】さまは、【剣】って\n言葉に、すごく反応するの。",
-   "en": ""
+   "en": "Woman:\nWarujo-sama really reacts\nwhen she hears the word \"sword.\"",
+   "status": "done"
   },
   {
    "id": "R13:23194",
@@ -4085,7 +4283,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "どうしてかしらねぇ？",
-   "en": ""
+   "en": "I wonder why?",
+   "status": "done"
   },
   {
    "id": "R13:231AC",
@@ -4093,7 +4292,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばさん：\n【ワルジョ】さまと、この男の方\nとっても、ステキね。",
-   "en": ""
+   "en": "Woman:\nWarujo-sama and this gentleman\nlook so lovely together.",
+   "status": "done"
   },
   {
    "id": "R13:231F0",
@@ -4101,7 +4301,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n私は【ワルジョ】さまと同じで、\n恋愛にうえている・・・。",
-   "en": ""
+   "en": "Man:\nLike Warujo-sama,\nI'm starving for romance...",
+   "status": "done"
   },
   {
    "id": "R13:23236",
@@ -4109,7 +4310,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おお、神よ！　私に愛をください！",
-   "en": ""
+   "en": "Oh, heavens!\nPlease grant me love!",
+   "status": "done"
   },
   {
    "id": "R13:23258",
@@ -4117,7 +4319,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nおっと！　ここから先は\nぼうや達にはキケンだぜ！！",
-   "en": ""
+   "en": "Man:\nWhoa! It's dangerous for you\nkids up ahead!!",
+   "status": "done"
   },
   {
    "id": "R13:23298",
@@ -4125,7 +4328,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "これでも、もっていきな。",
-   "en": ""
+   "en": "Here, take this with you.",
+   "status": "done"
   },
   {
    "id": "R13:232B2",
@@ -4133,7 +4337,8 @@
    "kind": "next",
    "end": "A000",
    "jp": "あがってマスクを手に入れた！",
-   "en": ""
+   "en": "Got Mask Me Up!",
+   "status": "done"
   },
   {
    "id": "R13:232D4",
@@ -4141,7 +4346,8 @@
    "kind": "event",
    "end": "3000",
    "jp": "おじさん：\nまた、ぼうや達か。\nまだ、ぼうや達にはムリだな。",
-   "en": ""
+   "en": "Man:\nYou kids again?\nYou're still not ready for this.",
+   "status": "done"
   },
   {
    "id": "R13:23312",
@@ -4149,7 +4355,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "　おじさん：\nまた、ぼうや達か。\nまだ、ぼうや達には無　だな。",
-   "en": ""
+   "en": "  Man:\nYou kids again?\nYou're still not ready for this.",
+   "status": "done"
   },
   {
    "id": "R13:23354",
@@ -4157,7 +4364,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\n【サビレータウン】へようこそ。",
-   "en": ""
+   "en": "Old Man:\nWelcome to Sabire Town.",
+   "status": "done"
   },
   {
    "id": "R13:23382",
@@ -4165,7 +4373,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "・・・と、言っても、\n何も無いところじゃがな。\nゆっくりしていきなされ。",
-   "en": ""
+   "en": "...Though there's nothing here\nto speak of.\nDo make yourselves at home.",
+   "status": "done"
   },
   {
    "id": "R13:233CC",
@@ -4173,7 +4382,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nこの階にはへやが３つあるのじゃ。",
-   "en": ""
+   "en": "Old Man:\nThere are three rooms\non this floor.",
+   "status": "done"
   },
   {
    "id": "R13:233FC",
@@ -4181,7 +4391,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "いかにも何かありそうなのじゃが、\nとんでもないことがおきそうで、\n入れないんじゃ・・・。",
-   "en": ""
+   "en": "They seem to hold some secrets,\nbut I'm afraid something awful\nwill happen if I go inside...",
+   "status": "done"
   },
   {
    "id": "R13:23456",
@@ -4189,7 +4400,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "かわりにどう？",
-   "en": ""
+   "en": "Care to go in for me?",
+   "status": "done"
   },
   {
    "id": "R13:23468",
@@ -4197,7 +4409,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n【ワルジョ】さまは昔、男の人に\nすてられたらしいのじゃ。",
-   "en": ""
+   "en": "Old Woman:\nI hear a man left Warujo-sama\nlong ago.",
+   "status": "done"
   },
   {
    "id": "R13:234B0",
@@ -4205,7 +4418,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おかわいそうにのぉ・・・。",
-   "en": ""
+   "en": "Poor dear...",
+   "status": "done"
   },
   {
    "id": "R13:234CC",
@@ -4213,7 +4427,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\n何でも、せのたかいヒョロっとした\nステキな方だったそうじゃ。",
-   "en": ""
+   "en": "Old Woman:\nThey say he was a lovely fellow,\ntall and lanky.",
+   "status": "done"
   },
   {
    "id": "R13:23518",
@@ -4221,7 +4436,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "アラゴト：\n・・・・・・。",
-   "en": ""
+   "en": "Aragoto:\n......",
+   "status": "done"
   },
   {
    "id": "R13:23534",
@@ -4229,7 +4445,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nあら、残念だねぇ。\nちょうど、そうじ中なんだよ。",
-   "en": ""
+   "en": "Old Woman:\nOh, what a shame.\nI'm cleaning right now.",
+   "status": "done"
   }
  ]
 }

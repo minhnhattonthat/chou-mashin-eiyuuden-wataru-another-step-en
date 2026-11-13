@@ -431,7 +431,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "神がみのさばきを手に入れた！",
-   "en": "Got Judgment of the Gods!",
+   "en": "Got Divine Judgment!",
    "status": "done"
   },
   {
@@ -439,7 +439,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "ムジンとうを手に入れた！",
-   "en": "Got a Deserted Islesword!",
+   "en": "Got an Isleblade!",
    "status": "done"
   },
   {
@@ -479,7 +479,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "勇気のあかしを手に入れた！",
-   "en": "Got a Token of Courage!",
+   "en": "Got a Proof of Courage!",
    "status": "done"
   },
   {
@@ -735,7 +735,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "ガッツまようじを手に入れた！",
-   "en": "Got a Gutsy Toothpick!",
+   "en": "Got a Gritpick!",
    "status": "done"
   },
   {
@@ -775,7 +775,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "サクヤしんしょを手に入れた！",
-   "en": "Got Sakuya's Secret Scroll!",
+   "en": "Got Sakuya's Manual!",
    "status": "done"
   },
   {
@@ -1271,7 +1271,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "神がみのさばきを手に入れた！\nだが、もっているのであきらめた。",
-   "en": "Got Judgment of the Gods!\nBut you already have one,\nso you left it.",
+   "en": "Got Divine Judgment!\nBut you already have one,\nso you left it.",
    "status": "done"
   },
   {
@@ -1279,7 +1279,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "ムジンとうを手に入れた！\nだが、もっているのであきらめた。",
-   "en": "Got a Desert-Isle Blade!\nBut you already have one,\nso you left it.",
+   "en": "Got an Isleblade!\nBut you already have one,\nso you left it.",
    "status": "done"
   },
   {
@@ -1319,7 +1319,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "勇気のあかしを手に入れた！\nだが、もっているのであきらめた。",
-   "en": "Got a Courage Emblem!\nBut you already have one,\nso you left it.",
+   "en": "Got a Proof of Courage!\nBut you already have one,\nso you left it.",
    "status": "done"
   },
   {
@@ -1575,7 +1575,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "ガッツまようじを手に入れた！\nだが、もっているのであきらめた。",
-   "en": "Got a Gutspick!\nBut you already have one,\nso you left it.",
+   "en": "Got a Gritpick!\nBut you already have one,\nso you left it.",
    "status": "done"
   },
   {

@@ -349,6 +349,7 @@ def main(argv):
     entries, terms = index(), glossary()
     if cmd == "check" and not names:
         bad = [f"{i}: {p}: {e['en']!r}" for i, e in entries.items() if e.get("en") for p in problems(e, e["en"], terms)]
+        bad += [f"{i}: untranslated" for i, e in entries.items() if needs_english(e)]  # phase 6 done: all text has en
         print(f"{len(entries)} entries, {len(bad)} problems")
         print("\n".join(bad[:200]))
         return 1 if bad else 0

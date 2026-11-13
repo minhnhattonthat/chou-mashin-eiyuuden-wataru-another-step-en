@@ -305,7 +305,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nなぁ、あんた達、\n救世主なんじゃろ？",
-   "en": "Villager:\nSay, you folks are the\nSaviors, aren't you?",
+   "en": "Villager:\nSay, ye're the Saviors,\naren't ye?",
    "status": "done"
   },
   {
@@ -341,7 +341,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nじゃあ、あの【モロ・モロＱ】を\n何とかしてくれんかの。",
-   "en": "Villager:\nThen could you do something\nabout that Moro Moro Q?",
+   "en": "Villager:\nCould ye do something about\nthat Moro Moro Q, then?",
    "status": "done"
   },
   {
@@ -368,7 +368,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nそうなんじゃ、\nワシらもノリは大好きなんじゃが、",
-   "en": "Villager:\nExactly. We love getting\nin on the action, but...",
+   "en": "Villager:\nAye, we do love joining in\nthe fun, but...",
    "status": "done"
   },
   {
@@ -404,7 +404,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ファイトが出ないというか・・・。",
-   "en": "We can't get fired up, you know?",
+   "en": "Can't quite muster the spirit...",
    "status": "done"
   },
   {
@@ -467,7 +467,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nそうじゃそうじゃ！\n【超おもしろカッコいい隊】じゃ！",
-   "en": "Villager:\nYes, yes! That's it!\nThe Super Funny Cool Squad!",
+   "en": "Villager:\nAye, aye! That's it!\nThe Super Funny Cool Squad!",
    "status": "done"
   },
   {
@@ -1151,7 +1151,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばあさん：\nポカポカして、いい天気じゃのう。",
-   "en": "Old Woman:\nSuch lovely, warm weather.",
+   "en": "Old Woman:\nLovely and warm today, eh?",
    "status": "done"
   },
   {
@@ -1187,7 +1187,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "きさくなおとこでのう、\nしごともはやいとヒョウバンじゃ。",
-   "en": "Such a friendly fellow.\nHe's known for his speedy\nwork, too.",
+   "en": "Kisaku: friendly by name,\nfriendly by nature! They say\nhe works fast, too, eh?",
    "status": "done"
   },
   {
@@ -1259,7 +1259,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじいさん：\nこの先はブリキントンだらけじゃ。\n気をつけて行きなされ。",
-   "en": "Old Man:\nIt's crawling with Tinpotons\nup ahead. Watch yourselves.",
+   "en": "Old Man:\nIt's crawling with Tinpotons\nup ahead. Mind how ye go.",
    "status": "done"
   },
   {
@@ -1538,7 +1538,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちょうろう：\nワシもまぜてくれんかのう？",
-   "en": "Elder:\nCould I join you, too?",
+   "en": "Elder:\nCould an old fellow like me\njoin in, too, eh?",
    "status": "done"
   },
   {
@@ -1997,7 +1997,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "でしたら、あっしのアニキに\n言って、どんなキジがいいか\nそうだんしてきてくだせえ。",
-   "en": "Then go have a word with\nmy big brother about what\nsort of fabric you need.",
+   "en": "Then go ask my big brother\nwhat fabric would be best,\nif you'd be so kind.",
    "status": "done"
   },
   {
@@ -2006,7 +2006,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "でないと、あっしの方で\nキジをわたせないんですわ。\nすんませんねぇ。",
-   "en": "Can't give you any fabric\ntill you've done that.\nSorry about that!",
+   "en": "'Fraid I can't hand any over\ntill you've done that.\nBeggin' your pardon!",
    "status": "done"
   },
   {
@@ -2042,7 +2042,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "サクヤ：\nおにいさんとは違って、\nずいぶん、気さくな方ですわね。",
-   "en": "Sakuya:\nUnlike your brother, you are\nquite an amiable gentleman.",
+   "en": "Sakuya:\nKisaku by name, kind by nature!\nQuite unlike your brother.",
    "status": "done"
   },
   {

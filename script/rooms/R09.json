@@ -386,7 +386,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "クスリを買わなきゃ\nお母さんの病気はよくならないし。\nそれで、ボク・・・。",
-   "en": "Mom-san won't get better unless\nI buy her medicine.\nSo I...",
+   "en": "Mom won't get better unless\nI buy her medicine.\nSo I...",
    "status": "done"
   },
   {
@@ -827,7 +827,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "おかげでお母さんの薬が\n買えるようになって、\n具合も良くなってきたんだ。",
-   "en": "Thanks to you, I can buy\nmedicine for Mom-san now.\nShe's starting to get better.",
+   "en": "Thanks to you, I can buy\nmedicine for Mom now.\nShe's starting to get better.",
    "status": "done"
   },
   {
@@ -1106,7 +1106,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "ハヤテインはいいぜ。\nすばやさが、上がるんだぜ。\nうひひひ・・・。",
-   "en": "Swiftamine is great.\nIt boosts your speed.\nHee hee hee...",
+   "en": "Swiftamine's good stuff, man.\nGets you moving faster!\nHee hee hee...",
    "status": "done"
   },
   {
@@ -1376,7 +1376,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "ドーピングミはいいぜ。\nちからが、上がるんだぜ。\nうひひひ・・・。",
-   "en": "Dopingummy is great.\nIt boosts your strength.\nHee hee hee...",
+   "en": "Dopingummy's good stuff, man.\nPumps up your strength!\nHee hee hee...",
    "status": "done"
   },
   {

@@ -512,7 +512,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワット：\nにゃ、にゃにいっ！\n・・・ゆるさないデース！",
-   "en": "Watt:\nW-whaaat?!\n...I will NOT stand for this!",
+   "en": "Watt:\nW-whaaat?!\n...This I cannot permit!",
    "status": "done"
   },
   {
@@ -665,7 +665,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワット：\nよくもコケにしたですねぇ。",
-   "en": "Watt:\nHow dare you make a fool of me!",
+   "en": "Watt:\nSo! You make a fool of me, yes?",
    "status": "done"
   },
   {
@@ -701,7 +701,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワット：\nは？\n私は一体なにをしていたのでスか？",
-   "en": "Watt:\nHuh?\nWhat on earth was I doing?",
+   "en": "Watt:\nHuh?\nWhat was I doing, if you please?",
    "status": "done"
   },
   {
@@ -1007,7 +1007,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\nだったら、あたしの大好きな\n救世主さまを助けてきてよ！",
-   "en": "Girl:\nThen go save the one I love,\nSavior-sama!",
+   "en": "Girl:\nThen go rescue Savior-sama!\nHe's the one I love!",
    "status": "done"
   },
   {
@@ -1097,7 +1097,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "「はい、救世主のどうきゅうせい\n（で）しゅっ！」・・・とでも\n言いたいのか！？",
-   "en": "\"Yesh, I'm the Savior's\nclassmate!\"... Is that what\nyou're trying to say?!",
+   "en": "\"Yesh, the Savior's classmate!\nOn my best shavior!\"... Is that\nwhat you're trying to say?!",
    "status": "done"
   },
   {
@@ -1196,7 +1196,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\n救世主さまの他に、とりまきが\n２人いたな・・・。",
-   "en": ""
+   "en": "Young Man:\nSavior-sama had two followers\ntagging along...",
+   "status": "done"
   },
   {
    "id": "R05:17074",
@@ -1204,7 +1205,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "たしか、女の子のほうが\nナメコみたいな名前で・・・、",
-   "en": ""
+   "en": "The girl had a mushroomy name,\nlike 'Mushiko,' I think...",
+   "status": "done"
   },
   {
    "id": "R05:170AA",
@@ -1212,7 +1214,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "顔のでかいおっさんが、\nモウスコシとか、そんな感じの\n名前だったなぁ・・・。",
-   "en": ""
+   "en": "And that old guy with the huge\nface was called 'Waitabit,'\nor something like that...",
+   "status": "done"
   },
   {
    "id": "R05:170F8",
@@ -1220,7 +1223,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\n「電気は人の心も明るくする」と\nいう言葉もあるが・・・。",
-   "en": ""
+   "en": "Man:\nThey say, \"Electricity can\nbrighten people's hearts\" but...",
+   "status": "done"
   },
   {
    "id": "R05:1713E",
@@ -1228,7 +1232,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "これはいくらなんでも、\nやりすぎじゃい！",
-   "en": ""
+   "en": "This is taking it way too far!",
+   "status": "done"
   },
   {
    "id": "R05:17168",
@@ -1236,7 +1241,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n外は明るくてしかたないのう。\nま、本を読むにはありがたいが。",
-   "en": ""
+   "en": "Old Man:\nIt's terribly bright outside.\nGood for reading, though.",
+   "status": "done"
   },
   {
    "id": "R05:171B4",
@@ -1244,7 +1250,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "わしは、しばらくここで\n目をやすめるとしよう・・・。",
-   "en": ""
+   "en": "I think I'll rest my eyes\nin here for a while...",
+   "status": "done"
   },
   {
    "id": "R05:171EC",
@@ -1252,7 +1259,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\nくすん・・・。\nこの子が、いじめる・・・。",
-   "en": ""
+   "en": "Old Man:\nSniff...\nThis kid's picking on me...",
+   "status": "done"
   },
   {
    "id": "R05:17226",
@@ -1260,7 +1268,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "わし、「ピッカピッカ！」\nじゃないもん！",
-   "en": ""
+   "en": "I'm not \"Mr. Shiny-Head\"!",
+   "status": "done"
   },
   {
    "id": "R05:17250",
@@ -1268,7 +1277,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nこれほど、まぶしい村は\nめずらしいだろう？",
-   "en": ""
+   "en": "Old Man:\nYou don't often see a village\nthis dazzling, do you?",
+   "status": "done"
   },
   {
    "id": "R05:1728A",
@@ -1276,7 +1286,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "だがな、まぶしい女が\nいないのは納得できん！",
-   "en": ""
+   "en": "But not a single dazzling woman?\nI won't stand for it!",
+   "status": "done"
   },
   {
    "id": "R05:172B8",
@@ -1284,7 +1295,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\n【ワット】さまのおかげで、\n村中がわっと明るくなったのう。",
-   "en": ""
+   "en": "Old Woman:\nThanks to Watt-sama, we're all\nlit up! Watt a difference!",
+   "status": "done"
   },
   {
    "id": "R05:17302",
@@ -1292,7 +1304,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "明るいことは、いいことじゃ！\nほっほっほ。",
-   "en": ""
+   "en": "Being bright is a good thing!\nHo ho ho!",
+   "status": "done"
   },
   {
    "id": "R05:17330",
@@ -1300,7 +1313,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n今日、いや～な夢を見たわい。",
-   "en": ""
+   "en": "Old Woman:\nI had a naaaasty dream today.",
+   "status": "done"
   },
   {
    "id": "R05:1735C",
@@ -1308,7 +1322,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "わしの体が、でんきゅうだらけ\nなんじゃ。これじゃ、ふろに\n入れんぞと、マジであせったわい。",
-   "en": ""
+   "en": "I was covered in light bulbs!\nHow could I take a bath?!\nI panicked for real, I tell you!",
+   "status": "done"
   },
   {
    "id": "R05:173B8",
@@ -1316,7 +1331,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nこの間、ここに救世主さまたちが\n泊まっていったのよ！",
-   "en": ""
+   "en": "Young Woman:\nSavior-sama and his friends\nstayed here the other day!",
+   "status": "done"
   },
   {
    "id": "R05:173FC",
@@ -1324,7 +1340,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nあら、あなたたち、\n救世主さまのコスプレしてんの？",
-   "en": ""
+   "en": "Young Woman:\nOh, are you all dressed up\nas Savior-sama and his friends?",
+   "status": "done"
   },
   {
    "id": "R05:1743E",
@@ -1332,7 +1349,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "だっさー！\n救世主にはり合うなら、みかけ\nじゃなく、ハートで勝負なさいよ！",
-   "en": ""
+   "en": "Lame! If you want to rival the\nSavior, compete with heart,\nnot your looks!",
+   "status": "done"
   },
   {
    "id": "R05:1748C",
@@ -1340,7 +1358,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おんなの子：\nねぇねぇー。\nあそんでよー。",
-   "en": ""
+   "en": "Girl:\nHey, heyyy!\nCome play with meee!",
+   "status": "done"
   },
   {
    "id": "R05:174B8",
@@ -1348,7 +1367,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\n上を見ていたら、\n目がチカチカする～。",
-   "en": ""
+   "en": "Girl:\nLooking up makes me see\nspoooots...",
+   "status": "done"
   },
   {
    "id": "R05:174F0",
@@ -1356,7 +1376,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nおにいちゃん、\n救世主の３人組を知ってる？",
-   "en": ""
+   "en": "Girl:\nHey, mister! Do you know\nthe Savior and his two friends?",
+   "status": "done"
   },
   {
    "id": "R05:1752A",
@@ -1364,7 +1385,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "サタル、ミミコ、シバルコとか、\n変な名前の人たちだったよ。",
-   "en": ""
+   "en": "They had funny names, like\nSataru, Mimiko, and Shibaruko.",
+   "status": "done"
   },
   {
    "id": "R05:17568",
@@ -1372,7 +1394,8 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おんなの子：\nあれ、おにいちゃんたちも\n３人組だねー。",
-   "en": ""
+   "en": "Girl:\nOh, there are three of you,\ntoo!",
+   "status": "done"
   },
   {
    "id": "R05:175A0",
@@ -1380,7 +1403,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "前に来た人たちも、\n３人組だったよ。\nでも、いなくなっちゃった。",
-   "en": ""
+   "en": "The people who came before\nwere a group of three, too.\nBut then they went away.",
+   "status": "done"
   },
   {
    "id": "R05:175E4",
@@ -1388,7 +1412,8 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\n【シャンデリア城】の中も、\n明るいものでいっぱいらしいぞ。",
-   "en": ""
+   "en": "Man:\nI hear Chandelier Castle is\nfull of bright things inside.",
+   "status": "done"
   },
   {
    "id": "R05:1762C",
@@ -1396,7 +1421,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\nねー、ごはんまだー。",
-   "en": ""
+   "en": "Boy:\nHeeey, is dinner ready yet?",
+   "status": "done"
   },
   {
    "id": "R05:17650",
@@ -1404,7 +1430,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おばさん：\nあ～この子はうるさいね！\nすぐできるから、お待ち！",
-   "en": ""
+   "en": "Woman:\nOh, you're such a noisy child!\nIt'll be ready soon. Just wait!",
+   "status": "done"
   },
   {
    "id": "R05:17690",
@@ -1412,7 +1439,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nおとうさん、今日も\nまぶしくていらっしゃる。",
-   "en": ""
+   "en": "Young Man:\nFather, you're looking\npositively radiant today.",
+   "status": "done"
   },
   {
    "id": "R05:176CC",
@@ -1420,7 +1448,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おじいさん：\nそういうお前も、\nかつらじゃろうが！",
-   "en": ""
+   "en": "Old Man:\nAnd you're wearing a wig\nyourself, lad!",
+   "status": "done"
   },
   {
    "id": "R05:17700",
@@ -1428,7 +1457,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nブキやボウグはしっかり、\nいいものに買いかえている？",
-   "en": ""
+   "en": "Young Woman:\nAre you keeping your weapons\nand armor up to date?",
+   "status": "done"
   },
   {
    "id": "R05:17744",
@@ -1436,7 +1466,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "上の界層に行くほど、\n敵は強くなるから、\n装備は、たえず最強にしたいわね。",
-   "en": ""
+   "en": "Enemies get tougher with each\nhigher Layer, so you should\nalways wear the best gear.",
+   "status": "done"
   },
   {
    "id": "R05:17790",
@@ -1444,7 +1475,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おとこの子：\nボスの城には、時々、\nいいアイテムがあるんだ。",
-   "en": ""
+   "en": "Boy:\nSometimes there are good items\nin the bosses' castles.",
+   "status": "done"
   },
   {
    "id": "R05:177CE",
@@ -1452,7 +1484,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "先ばかりいそがず、\nいいアイテムを探してみると\nいいかもね！",
-   "en": ""
+   "en": "Don't just rush ahead!\nIt might be worth looking\naround for some good items!",
+   "status": "done"
   },
   {
    "id": "R05:1780C",
@@ -1460,7 +1493,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n【ワット】って知っているか？",
-   "en": ""
+   "en": "Young Man:\nDo you know who Watt is?",
+   "status": "done"
   },
   {
    "id": "R05:17838",
@@ -1468,7 +1502,8 @@
    "kind": "next",
    "end": "4000",
    "jp": "知っている？\n１．はい\n２．いいえ",
-   "en": ""
+   "en": "Do you know him?\n1. Yes\n2. No",
+   "status": "done"
   },
   {
    "id": "R05:1785E",
@@ -1476,7 +1511,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nそうか、ならいいんだ。",
-   "en": ""
+   "en": "Young Man:\nOh, then that's fine.",
+   "status": "done"
   },
   {
    "id": "R05:17884",
@@ -1484,7 +1520,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワット】を知っているなら、\n救世主がやつに捕まっているのも\n知っているよな。",
-   "en": ""
+   "en": "If you know Watt, you must\nknow he's got the Savior\nlocked up, right?",
+   "status": "done"
   },
   {
    "id": "R05:178D4",
@@ -1492,7 +1529,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\n村外れに、シャンデリアの形を\nした城があるんだよ。",
-   "en": ""
+   "en": "Young Man:\nThere's a chandelier-shaped\ncastle on the edge of town.",
+   "status": "done"
   },
   {
    "id": "R05:17916",
@@ -1500,7 +1538,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そこにいるのがピッカリあたまの\n【ワット】さ。",
-   "en": ""
+   "en": "That's where Watt lives,\nthe guy with the shiny head.",
+   "status": "done"
   },
   {
    "id": "R05:17946",
@@ -1508,7 +1547,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "その【ワット】に、救世主が\n捕まっているといううわささ。",
-   "en": ""
+   "en": "Rumor has it that Watt\nhas captured the Savior.",
+   "status": "done"
   },
   {
    "id": "R05:17980",
@@ -1516,7 +1556,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おとこの子：\nこの先のろうやに、救世主たちが\n捕らわれているんだ。",
-   "en": ""
+   "en": "Boy:\nThe Savior and his friends\nare in the jail up ahead.",
+   "status": "done"
   },
   {
    "id": "R05:179C4",
@@ -1524,7 +1565,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nあれ、行き止まりか？",
-   "en": ""
+   "en": "Young Man:\nHuh? A dead end?",
+   "status": "done"
   },
   {
    "id": "R05:179E8",
@@ -1532,7 +1574,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n【ワット】さま、\nどこに行ったのかしら？",
-   "en": ""
+   "en": "Young Woman:\nWhere could Watt-sama\nhave gone?",
+   "status": "done"
   },
   {
    "id": "R05:17A20",
@@ -1540,7 +1583,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "目立つ顔をして\nいらっしゃるのに・・・、\n見当たらないわね。",
-   "en": ""
+   "en": "With such a striking face,\nyou'd think I'd spot him...\nBut he's nowhere to be seen.",
+   "status": "done"
   },
   {
    "id": "R05:17A5E",
@@ -1548,7 +1592,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "　おねえさん：\nここは、第３界層よ。\nがんばってね。",
-   "en": ""
+   "en": "  Young Woman:\nThis is the Third Layer.\nGood luck!",
+   "status": "done"
   },
   {
    "id": "R05:17A94",
@@ -1556,7 +1601,8 @@
    "kind": "next",
    "end": "2000",
    "jp": "そうそう、これをあげるわ。",
-   "en": ""
+   "en": "Oh, yes! Here, take this.",
+   "status": "done"
   },
   {
    "id": "R05:17AB0",
@@ -1564,7 +1610,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "【あがってマスク】を手に入れた！",
-   "en": ""
+   "en": "Got Mask Me Up!",
+   "status": "done"
   },
   {
    "id": "R05:17AD2",
@@ -1572,7 +1619,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "　おねえさん：\nここは、第３界層よ。\nがんばってね。",
-   "en": ""
+   "en": "  Young Woman:\nThis is the Third Layer.\nGood luck!",
+   "status": "done"
   },
   {
    "id": "R05:17B08",
@@ -1580,7 +1628,8 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\n敵から逃げるばかりでなく、\n戦いをいどむことも大事よ。",
-   "en": ""
+   "en": "Young Woman:\nDon't just flee from enemies.\nYou need to face them, too.",
+   "status": "done"
   }
  ]
 }
