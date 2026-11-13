@@ -1,0 +1,30 @@
+{
+ "file": "YM/BR_02/ENE17.BIN",
+ "base": "80104800",
+ "entries": [
+  {
+   "id": "ENE17:02B40",
+   "kind": "ename",
+   "max": 7,
+   "len_at": "02BC0",
+   "jp": "ムキリョクさん",
+   "en": ""
+  },
+  {
+   "id": "ENE17:02B50",
+   "kind": "ename",
+   "max": 7,
+   "len_at": "02BD4",
+   "jp": "ムキリョデンカ",
+   "en": ""
+  },
+  {
+   "id": "ENE17:02B60",
+   "kind": "ename",
+   "max": 7,
+   "len_at": "02BE8",
+   "jp": "ムキリョキング",
+   "en": ""
+  }
+ ]
+}

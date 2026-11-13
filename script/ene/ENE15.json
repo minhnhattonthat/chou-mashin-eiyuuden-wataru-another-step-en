@@ -1,0 +1,30 @@
+{
+ "file": "YM/BR_02/ENE15.BIN",
+ "base": "80104800",
+ "entries": [
+  {
+   "id": "ENE15:02B94",
+   "kind": "ename",
+   "max": 6,
+   "len_at": "02C10",
+   "jp": "バサマッチョ",
+   "en": ""
+  },
+  {
+   "id": "ENE15:02BA0",
+   "kind": "ename",
+   "max": 7,
+   "len_at": "02C24",
+   "jp": "バサマッチャー",
+   "en": ""
+  },
+  {
+   "id": "ENE15:02BB0",
+   "kind": "ename",
+   "max": 8,
+   "len_at": "02C38",
+   "jp": "バサマッチェスト",
+   "en": ""
+  }
+ ]
+}

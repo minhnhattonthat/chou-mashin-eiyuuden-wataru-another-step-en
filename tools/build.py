@@ -76,13 +76,13 @@ def edited_layout(edits):
     return "layout_en.xml"
 
 
-def build(out_dir=ROOT / "build", name="wataru_en", edits=None):
-    """edits: {disc path: new bytes}; None = insert.edits() (the translation), {} = identity build."""
+def build(out_dir=ROOT / "build", name="wataru_en", edits=None, qa=None):
+    """edits: {disc path: new bytes}; None = insert.edits(qa) (the translation), {} = identity build."""
     check_rom.check()
     unpack()
     if edits is None:
         import insert
-        edits = insert.edits()
+        edits = insert.edits(qa)
     out_bin, out_cue = Path(out_dir) / f"{name}.bin", Path(out_dir) / f"{name}.cue"
     repack(out_bin, out_cue, edited_layout(edits) if edits else "layout.xml")
     return out_bin, out_cue
@@ -93,7 +93,10 @@ if __name__ == "__main__":
     ap.add_argument("--out", default=str(ROOT / "build"))
     ap.add_argument("--name", default="wataru_en")
     ap.add_argument("--identity", action="store_true", help="no edits: rebuild the original disc")
+    ap.add_argument("--qa", action="append", default=[], metavar="ID=TEXT",
+                    help="override one entry's text (\\n = newline), e.g. a stress line for the width gate")
     a = ap.parse_args()
-    b, c = build(a.out, a.name, {} if a.identity else None)
+    qa = dict(q.replace("\\n", "\n").split("=", 1) for q in a.qa)
+    b, c = build(a.out, a.name, {} if a.identity else None, qa)
     h = sha1(b)
     print(f"{b} {b.stat().st_size} bytes sha1 {h}" + (" (identical to the original)" if h == rom_sha1() else ""))

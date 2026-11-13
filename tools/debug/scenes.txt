@@ -27,7 +27,8 @@ ep11 ep=11 room=R11 hold=900
 ep12 ep=12 room=R13 hold=900
 ep13 ep=13 room=R13 hold=900
 ep14 ep=14 room=R14 hold=900
-field ep=1 idle=1 atstate=0 hold=120                                         # free walk, コンビニ村
+talk01 ep=1 room=R01 press=900:-,12:circle,150:-,12:circle,150:-,12:circle,150:-,12:circle,150:-,12:circle,150:-,12:circle,150:- hold=150 every=50  # ep01 opening pages R01:0E762.. one by one (tools/stress.py puts the width-gate lines here)
+field ep=1 idle=1 atstate=0 hold=120                                        # free walk, コンビニ村
 menu ep=1 idle=1 press=12:triangle,150:- atstate=9 hold=120                   # field menu + party panel
 menu_item ep=1 idle=1 press=12:triangle,150:-,12:circle,90:- atstate=9 hold=120
 menu_equip ep=1 idle=1 press=12:triangle,150:-,12:down,40:-,12:circle,90:- atstate=9 hold=120

@@ -1,0 +1,38 @@
+{
+ "file": "YM/BR_02/ENE11.BIN",
+ "base": "80104800",
+ "entries": [
+  {
+   "id": "ENE11:02B90",
+   "kind": "ename",
+   "max": 11,
+   "len_at": "02C50",
+   "jp": "かくれんぼうショウグン",
+   "en": ""
+  },
+  {
+   "id": "ENE11:02BA8",
+   "kind": "ename",
+   "max": 11,
+   "len_at": "02C64",
+   "jp": "さびしんぼうショウグン",
+   "en": ""
+  },
+  {
+   "id": "ENE11:02BC0",
+   "kind": "ename",
+   "max": 9,
+   "len_at": "02C78",
+   "jp": "なかおちショウグン",
+   "en": ""
+  },
+  {
+   "id": "ENE11:02BD4",
+   "kind": "ename",
+   "max": 10,
+   "len_at": "02C8C",
+   "jp": "もとくらしショウグン",
+   "en": ""
+  }
+ ]
+}

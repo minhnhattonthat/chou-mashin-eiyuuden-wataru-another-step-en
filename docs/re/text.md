@@ -126,7 +126,19 @@ right after the largest room overlay.
 - Codes >= 0x1A4 in EXE runs come almost only from those noise tables; menu text uses MSG_CG codes (guess: check the
   status screen in phase 2).
 
+### Battle enemy names (found by the phase-5 marker tour, 2026-11-14)
+
+- `YM/BR_02/ENE01-18.BIN`: battle enemy overlays loaded at 0x80104800 (file table). Names (2-4 per file, `ene/ENExx.json`)
+  are reached by records `[u32 cells<<8 | idx, u32 ptr, u32 ptr name, u32, u32 ptr]`: the cell count is explicit and
+  names sit back to back unterminated (ENE13 ラムネコップ|シェイクコップ). `extract.ene_names`. Phase-1 "YM: no text"
+  missed them (short names, preceded by pointer words). A sweep of every other file for 4+ kana runs found only
+  image data and sequential tables.
+- The battle header name box (thin font, top right) stays Japanese with these markered: another source, untraced.
+
 ### Fonts other than MSG_CG / M16
+
+- **The 8x16 battle font is MSG_CG.BIN itself**, bytes 0-0x3B00 (code * 64, 236 cells: digits, kana, A-Z; render with
+  `fontview.py --w 8 --h 16`). insert.py draws Latin over its kana from code 0x0F (BF_FIRST).
 
 - `OUT/CNF_MSG.BIN` (98,688 B = 771 glyphs, 16x16 4bpp, verified by render): config-screen font, kana at the same cells
   as MSG_CG (あ = glyph 0xA6 + 0x01), more kanji after. TTL.BIN (config) strings index it (guess: check in config tour).

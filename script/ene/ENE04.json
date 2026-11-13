@@ -1,0 +1,30 @@
+{
+ "file": "YM/BR_02/ENE04.BIN",
+ "base": "80104800",
+ "entries": [
+  {
+   "id": "ENE04:02C34",
+   "kind": "ename",
+   "max": 5,
+   "len_at": "02CA8",
+   "jp": "ポロロ１３",
+   "en": ""
+  },
+  {
+   "id": "ENE04:02C40",
+   "kind": "ename",
+   "max": 5,
+   "len_at": "02CBC",
+   "jp": "アクロ１３",
+   "en": ""
+  },
+  {
+   "id": "ENE04:02C4C",
+   "kind": "ename",
+   "max": 5,
+   "len_at": "02CD0",
+   "jp": "アスロ１３",
+   "en": ""
+  }
+ ]
+}

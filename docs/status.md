@@ -2,9 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike done (font decided, D8), marker build in progress.
-  Last build: build/wataru_en.bin sha1 089e52b4... (2026-11-14, spike: one ep01 page in English), boots, ep01 warp ok.
+- **Phase:** 5. Marker build boots and tours; width gate partly measured (docs/re/windows.md).
+  Last build: build/wataru_en.bin sha1 d126aaa1... (2026-11-14, marker build: every entry `NNNN` + filler), smoke ok,
+  all 35 warps + talk01 reach (work/qa/p5/marker, summary.tsv). Stress build: `tools/stress.py` (build/stress.bin).
 - **Done:**
+  - Phase 5, session 2 (2026-11-14): `tools/insert.py` = the real insert path from script/: `en` or a marker (number
+    in work/markers.tsv, filler letters tell the column), in place, pair codes per font context (room-only pairs ->
+    that M16 font 0x1A4+, cap 190; the rest -> MSG_CG kanji slots 0xE6-0x1A3 minus ▼, mirrored into CNF_MSG; overflow
+    promotes the most shared pair), bfont names one letter per 8x16 cell (the 8x16 font is MSG_CG 0-0x3B00), ENE
+    names + their cell-count byte. Every write logged; `tests/test_insert.py` runs romdiff on every edited file.
+    `tbl/not_text.txt` (3 ids). `build.py --qa ID=TEXT`. New text source: battle enemy names YM/BR_02/ENE01-18
+    (extract.py `ene/`, text.md). Width gate: dialogue 32 letters x 3 lines, measured; torture line clean.
+    Markers seen in: dialogue, CNF config, field config, shop list, equip/status names, place HUD, battle messages,
+    LVUP, IQ battle. Japanese left in tour shots = known graphics rows (G4, G9, G11, G16, G19/MR_02 STS, G23).
   - Phase 5, session 1 (2026-11-14): glyph path traced (docs/re/font.md): src = 0x80115300 + code*128, one
     LoadImage per 16x16 glyph into a VRAM window buffer, 124 render sites across EXE/ST/BALLBAT/MACHINE/TTL/LVUP/FDS.
     **D8: two letters per 16x16 cell**, pre-rendered (`tools/digraph.py`, Spleen 8x16 in `fonts/`), codes allocated
@@ -45,15 +55,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase-2 RE: SysMode table (0x8009C7FC), episode index 0x8009C90C (0-14; 12 and 13 share R13.BIN; 15 = ending),
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
-- **Next (phase 5: engine spike + marker build, `references/pipeline.md` §Marker, `platform-ps1.md`):**
-  1. Insert path from script/ (replace the spike in `tools/insert.py`): per font context (MSG_CG common; M16 per
-     episode font, R13.BIN split by `rooms.font`) count pairs, put the most shared into MSG_CG codes (keep digits
-     0xB4-0xBD, icons, ▼ 0x181, 0x0000 blank), the rest into the M16 file (rewrite the file; codes 0x1A4+, keep
-     the room font's size cap ~190 / RAM up to 0x80128400), fallback single-letter cells; write log + romdiff.
-     Room pages: grow banks (bank pointers, NPC u32 arrays: text.md) or keep in place where the text fits.
-  2. Marker build: `[id]` + filler per entry at the JP cell count x2 letters, every source; boot, warp tour.
-  3. Other fonts: CNF_MSG (config, TTL), BALLBAT 8x16 battle font (8-px cells already: single letters; find its
-     file), MACHINE glyph lists 0x1761C/0x17630/0x17648, FDS name-entry grid 0x18468. Boot every attempt.
+- **Next (phase 5: finish the width gate, `references/pipeline.md` §Width gate):**
+  1. Measure every "guess" row of docs/re/windows.md with `build.py --qa` / `tools/stress.py` overrides (fill each to
+     its slot, read the last drawn column zoomed): battle messages, config, place HUD, key-item descriptions, ENE
+     names in messages, bfont item names (see them in a battle item menu), EXE system messages (item get).
+  2. Trace the battle header enemy name (thin font, still Japanese in battle_ball): which file/font; add it.
+  3. Not yet in place-only insert: text longer than its JP slot. Phase 7: grow banks (bank pointers, NPC u32
+     arrays: text.md), menu pointers, fixed tables; fallback single-letter cells when a font context overflows.
+  4. MACHINE glyph lists 0x1761C/0x17630/0x17648, FDS name-entry grid 0x18468 (data, not in script/ yet).
+  5. Tour the marker build further: ending/credits sheets, mashin-battle messages, item-get messages; any box
+     showing Japanese that is not a graphics row = an extractor gap (sweep the disc for its form).
   3b. Fixed fields now hold 2 letters per cell (8-cell name = 16 letters): measure, relocate only what still overflows.
   4. Free-RAM: 0x80128800-0x80148000 is free outside battles only (files.md); pick a region that survives battles.
   5. Marker build (`[id]` per entry), tour with the warps, width gate: measure every box variant in-game.

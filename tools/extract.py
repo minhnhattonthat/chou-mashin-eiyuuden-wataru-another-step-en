@@ -70,6 +70,36 @@ FIXED = {
 }
 
 
+# Battle enemy names (found by the phase-5 marker tour): YM/BR_02/ENE01-18.BIN, battle overlays loaded at ENE_BASE.
+# Record [u32 cells<<8 | idx, u32 ptr, u32 ptr name, ..]: the cell count is explicit, names sit back to back
+# unterminated (ENE13 ラムネコップ|シェイクコップ). Written to ene/ENExx.json, `len_at` = the record's offset.
+ENE_BASE = 0x80104800
+ENE = [f"YM/BR_02/ENE{i:02d}.BIN" for i in range(1, 19)]
+
+
+def ene_names(data):
+    """{name offset: (cells, record offset)} of an ENE overlay's enemy names."""
+    out = {}
+    for k in range(0, len(data) - 11, 4):
+        w, a, p = struct.unpack_from("<3I", data, k)
+        n, p = w >> 8, p - ENE_BASE
+        if w >> 16 or not 1 <= n <= 16 or a >> 20 != 0x801 or not 0 <= p <= len(data) - 2 * n or p % 2:
+            continue
+        cells = words(data, p, p + 2 * n)
+        if all(1 <= x < 0x1A4 for x in cells) and sum(1 <= x < 0xAE for x in cells) >= 2:
+            out.setdefault(p, (n, k))
+    return out
+
+
+def ene_doc(path):
+    data = (TREE / path).read_bytes()
+    c = Codec(table())
+    name = path.split("/")[-1][:-4]
+    entries = [{"id": f"{name}:{o:05X}", "kind": "ename", "max": n, "len_at": f"{k:05X}",
+                "jp": c.decode(data[o:o + 2 * n]), "en": ""} for o, (n, k) in sorted(ene_names(data).items())]
+    return {"file": path, "base": "%08X" % ENE_BASE, "entries": entries}
+
+
 def words(data, lo=0, hi=None):
     hi = len(data) & ~1 if hi is None else hi
     return struct.unpack_from("<%dH" % ((hi - lo) // 2), data, lo)
@@ -295,6 +325,8 @@ def all_docs():
         yield f"{name}.json", stream_doc(name)
     for tab in FIXED:
         yield f"{FIXED[tab][0].lower()}_{tab}.json", fixed_doc(tab)
+    for path in ENE:
+        yield f"ene/{path.split('/')[-1][:-4]}.json", ene_doc(path)
 
 
 def main():

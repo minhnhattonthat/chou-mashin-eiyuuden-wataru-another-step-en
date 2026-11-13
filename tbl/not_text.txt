@@ -1,0 +1,4 @@
+# Script entries that are not text: tools/insert.py never writes them. One id + reason per line.
+R01:008F0  # 'レ　' at 0x8F0: overlay code area, an instruction word that reads as kana
+R10:01638  # 'レ　' at 0x1638: overlay code area, same
+EXE:6AC3C  # 'に' + the next page's speaker: the に is the arg word before page EXE:6AC3E (overlaps it)

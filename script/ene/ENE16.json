@@ -1,0 +1,30 @@
+{
+ "file": "YM/BR_02/ENE16.BIN",
+ "base": "80104800",
+ "entries": [
+  {
+   "id": "ENE16:01F0C",
+   "kind": "ename",
+   "max": 10,
+   "len_at": "01F9C",
+   "jp": "ミスター・タラックチ",
+   "en": ""
+  },
+  {
+   "id": "ENE16:01F20",
+   "kind": "ename",
+   "max": 9,
+   "len_at": "01FB0",
+   "jp": "ミスター・タラッコ",
+   "en": ""
+  },
+  {
+   "id": "ENE16:01F34",
+   "kind": "ename",
+   "max": 11,
+   "len_at": "01FC4",
+   "jp": "ミスティー・タラックチ",
+   "en": ""
+  }
+ ]
+}

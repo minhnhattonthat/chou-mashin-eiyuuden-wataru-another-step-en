@@ -1,0 +1,38 @@
+{
+ "file": "YM/BR_02/ENE13.BIN",
+ "base": "80104800",
+ "entries": [
+  {
+   "id": "ENE13:02CF4",
+   "kind": "ename",
+   "max": 7,
+   "len_at": "02D94",
+   "jp": "サイダーコップ",
+   "en": ""
+  },
+  {
+   "id": "ENE13:02D04",
+   "kind": "ename",
+   "max": 5,
+   "len_at": "02DA8",
+   "jp": "コケコップ",
+   "en": ""
+  },
+  {
+   "id": "ENE13:02D10",
+   "kind": "ename",
+   "max": 6,
+   "len_at": "02DBC",
+   "jp": "ラムネコップ",
+   "en": ""
+  },
+  {
+   "id": "ENE13:02D1C",
+   "kind": "ename",
+   "max": 7,
+   "len_at": "02DD0",
+   "jp": "シェイクコップ",
+   "en": ""
+  }
+ ]
+}

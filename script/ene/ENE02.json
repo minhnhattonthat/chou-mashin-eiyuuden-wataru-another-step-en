@@ -1,0 +1,22 @@
+{
+ "file": "YM/BR_02/ENE02.BIN",
+ "base": "80104800",
+ "entries": [
+  {
+   "id": "ENE02:03FAC",
+   "kind": "ename",
+   "max": 8,
+   "len_at": "04004",
+   "jp": "ジャー・サンプン",
+   "en": ""
+  },
+  {
+   "id": "ENE02:03FBC",
+   "kind": "ename",
+   "max": 7,
+   "len_at": "04018",
+   "jp": "モー・イップン",
+   "en": ""
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "file": "YM/BR_02/ENE09.BIN",
+ "base": "80104800",
+ "entries": [
+  {
+   "id": "ENE09:0270C",
+   "kind": "ename",
+   "max": 5,
+   "len_at": "027A8",
+   "jp": "コギャラー",
+   "en": ""
+  },
+  {
+   "id": "ENE09:02718",
+   "kind": "ename",
+   "max": 6,
+   "len_at": "027BC",
+   "jp": "コスプレッコ",
+   "en": ""
+  },
+  {
+   "id": "ENE09:02724",
+   "kind": "ename",
+   "max": 6,
+   "len_at": "027D0",
+   "jp": "ピッチガール",
+   "en": ""
+  },
+  {
+   "id": "ENE09:02730",
+   "kind": "ename",
+   "max": 7,
+   "len_at": "027E4",
+   "jp": "モトヤンちゃん",
+   "en": ""
+  }
+ ]
+}

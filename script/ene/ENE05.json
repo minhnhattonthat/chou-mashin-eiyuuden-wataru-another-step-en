@@ -1,0 +1,38 @@
+{
+ "file": "YM/BR_02/ENE05.BIN",
+ "base": "80104800",
+ "entries": [
+  {
+   "id": "ENE05:01D24",
+   "kind": "ename",
+   "max": 10,
+   "len_at": "01DDC",
+   "jp": "ミスター・ハイキング",
+   "en": ""
+  },
+  {
+   "id": "ENE05:01D38",
+   "kind": "ename",
+   "max": 10,
+   "len_at": "01DF0",
+   "jp": "ミスター・ピクニック",
+   "en": ""
+  },
+  {
+   "id": "ENE05:01D4C",
+   "kind": "ename",
+   "max": 9,
+   "len_at": "01E04",
+   "jp": "ミスター・ハイホー",
+   "en": ""
+  },
+  {
+   "id": "ENE05:01D60",
+   "kind": "ename",
+   "max": 9,
+   "len_at": "01E18",
+   "jp": "ミスター・ブラボー",
+   "en": ""
+  }
+ ]
+}
