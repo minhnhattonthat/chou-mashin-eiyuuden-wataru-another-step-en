@@ -44,6 +44,19 @@ MOVED = []  # ids strpack moved to free space
 # Code patches: (path, offset, original u32, new u32, why). The battle header (BALLBAT 0x800DF310-0x800DF3C8) draws
 # the 8-bit enemy name for the 16-bit name's cell count (0x800F1C00), which in English is half the letters: loop to
 # the NUL instead (lbu v1,0(s1) for both count reads; the slt goes, bnez v1 tests the next byte). docs/re/windows.md.
+# Mashin battle menu strips (docs/re/windows.md): MACHINE 0x800DB41C uploads one glyph per u16 code from three lists
+# into VRAM rows 0x80/0x90/0xB0 (count-limited loops), and sprite records [type, tp, u8 u, u8 v, w, h, x, y] cut each
+# name out of its row. English: the lists re-laid in place over 0x1761C-0x17660 (34 codes, the last was padding),
+# list pointers + loop counts patched, each record's u/w moved. Row: [(name, [(u offset, w offset)])]; a name is
+# a script id (its `en`) or literal English. The short special (登龍剣, stage < 0xE) is the long one's tail.
+STRIP_LIST, STRIP_END = 0x1761C, 0x17660
+STRIP_ROWS = [  # (list addiu, loop slti, names)
+    (0xB454, 0xB498, [("MACHINE:103A0", [(0x16AD0, 0x16AD2)]), ("MACHINE:103AC", [(0x16ADE, 0x16AE0)])]),
+    (0xB4BC, 0xB4E4, [("MACHINE:103B8", [(0x16AEC, 0x16AEE)]), ("Slash", [(0x16AA4, 0x16AA6)]),
+                      ("Stab", [(0x16AB2, 0x16AB4)])]),
+    (0xB508, 0xB530, [("Retry", [(0x16678, 0x1667A)]), ("Quit", [(0x16686, 0x16688)])]),
+]
+STRIP_SHORT = ("MACHINE:10398", 0xB550, 0xB55C)  # addiu v0,zero,u / addiu v0,zero,w for the short name's record
 CODE = [
     ("PRG/BALLBAT.BIN", 0xF340, 0x94631C00, 0x92230000, "header name: lbu v1,0(s1) (was lhu count)"),
     ("PRG/BALLBAT.BIN", 0xF390, 0x94631C00, 0x92230000, "header name: lbu v1,0(s1) (next byte)"),
@@ -198,6 +211,9 @@ def edits(qa=None, english=True):
         rows.append(f"{num}\t{e['id']}\t{e['jp']!r}")
         if ctx != "BF":
             uses.update(c for c in cells(text, nl) if isinstance(c, str))
+    en_of = {e["id"]: t for (e, *_), t in zip(ents, texts)}
+    strip = [[(en_of.get(n, n), recs) for n, recs in names] for *_, names in STRIP_ROWS]
+    uses.update(p.ljust(2) for row in strip for name, _ in row for p in digraph.pairs(name))
     codes = allocate(uses)
     orig, bufs, errors = {}, {}, []
 
@@ -253,6 +269,7 @@ def edits(qa=None, english=True):
             put(bufs, orig, path, off, data, by)
     for path, off, data, by in spills:  # after every in-place write, so the spill wins
         put(bufs, orig, path, off, data, by + " spill")
+    write_strips(bufs, orig, load("PRG/MACHINE.BIN"), strip, codes, en_of)
     for path, off, old, new, why in CODE:
         assert struct.unpack_from("<I", orig[load(path)], off)[0] == old, (path, hex(off))
         put(bufs, orig, path, off, struct.pack("<I", new), "code " + why)
@@ -276,6 +293,35 @@ def edits(qa=None, english=True):
     out.write_text("\n".join(rows) + "\n", encoding="utf-8")
     (out.parent / "overflow.tsv").write_text("".join(i + "\n" for i in OVERFLOW), encoding="utf-8")
     return {p: bytes(b) for p, b in bufs.items()}
+
+
+def write_strips(bufs, orig, m, strip, codes, en_of):
+    """Mashin menu strips (STRIP_ROWS): code lists, list pointers, loop counts, record u/w, short-name rewrite."""
+    def imm(off, v, why):
+        w = struct.unpack_from("<I", orig[m], off)[0]
+        put(bufs, orig, m, off, struct.pack("<I", w & 0xFFFF0000 | v), "code strip " + why)
+
+    words = []
+    for (addiu, slti, _), row in zip(STRIP_ROWS, strip):
+        ram = 0x800D0000 + STRIP_LIST + 2 * len(words)
+        assert ram >> 16 == 0x800E and ram & 0xFFFF < 0x8000, hex(ram)  # the lui 0x800E stays
+        imm(addiu, ram & 0xFFFF, "list")
+        n = 0
+        for name, recs in row:
+            cs = [codes[p.ljust(2)] for p in digraph.pairs(name)]
+            for uo, wo in recs:
+                put(bufs, orig, m, uo, bytes([16 * n]), f"strip u {name}")
+                put(bufs, orig, m, wo, struct.pack("<H", 16 * len(cs)), f"strip w {name}")
+            words += cs
+            n += len(cs)
+        assert n <= 16, row  # one 256-px texture page per row
+        imm(slti, n, "count")
+    assert STRIP_LIST + 2 * len(words) <= STRIP_END, len(words)
+    put(bufs, orig, m, STRIP_LIST, struct.pack("<%dH" % len(words), *words), "strip codes")
+    long, short = (digraph.pairs(en_of[i]) for i in ("MACHINE:103A0", STRIP_SHORT[0]))
+    assert long[len(long) - len(short):] == short, "short special must be the long one's tail, cell-aligned"
+    imm(STRIP_SHORT[1], 16 * (len(long) - len(short)), "short u")
+    imm(STRIP_SHORT[2], 16 * len(short), "short w")
 
 
 def bf_cell(ch):
