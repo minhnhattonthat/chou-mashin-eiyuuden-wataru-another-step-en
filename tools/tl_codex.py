@@ -97,7 +97,12 @@ def translate(batch, tries):
 
 def review(pairs):
     p = Path(pairs)
-    ask = (f"=== docs/reviewer-brief.md ===\n{read('docs/reviewer-brief.md')}\n"
+    # earlier rounds' Critical/Important (archives bNNN.rN.review.md): a fresh "Approved" must not silently drop them
+    old = [m for r in sorted(p.parent.glob(p.name.split(".")[0] + ".r*.review.md"))
+           for m in findings(r.read_text(encoding="utf-8"))[0]]
+    earlier = ("=== Critical/Important from earlier review rounds ===\n" + "\n".join(old) + "\n"
+               "Check each against the current English: re-raise it at its severity unless it is fixed.\n") if old else ""
+    ask = (f"=== docs/reviewer-brief.md ===\n{read('docs/reviewer-brief.md')}\n{earlier}"
            f"=== glossary.md ===\n{read('glossary.md')}\n=== docs/style-reference.md ===\n{read('docs/style-reference.md')}\n"
            f"=== docs/synopsis.md ===\n{read('docs/synopsis.md')}\n=== {p.name} ===\n{p.read_text(encoding='utf-8')}\n"
            "Do not use any tools. Reply with only the report the brief asks for.")

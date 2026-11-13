@@ -492,7 +492,7 @@
    "id": "BALLBAT:21BEC",
    "kind": "menu",
    "jp": "ブリキントン",
-   "en": "Tin Clinton",
+   "en": "Burikinton",
    "end": "009B",
    "len_at": "21C08",
    "status": "done"
@@ -1643,7 +1643,7 @@
    "id": "BALLBAT:228B8",
    "kind": "bfont",
    "jp": "ゆうきのあかし",
-   "en": "Brave Proof",
+   "en": "Valor Token",
    "tail": 1,
    "len_at": "22AFC",
    "status": "done"

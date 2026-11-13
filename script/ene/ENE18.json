@@ -8,7 +8,7 @@
    "max": 10,
    "len_at": "02179",
    "jp": "アーレー・チョッパー",
-   "en": "Arley Chops",
+   "en": "Harley Chop",
    "status": "done"
   },
   {
@@ -17,7 +17,7 @@
    "max": 11,
    "len_at": "0218D",
    "jp": "アーレー・チビットソン",
-   "en": "Arley Mini",
+   "en": "Harley Mini",
    "status": "done"
   },
   {
@@ -34,7 +34,7 @@
    "kind": "bname",
    "max": 11,
    "jp": "アーレー[00EB:・]チョッパー",
-   "en": "Arley Chops",
+   "en": "Harley Chop",
    "status": "done"
   },
   {
@@ -42,7 +42,7 @@
    "kind": "bname",
    "max": 11,
    "jp": "アーレー[00EB:・]チビットソン",
-   "en": "Arley Mini",
+   "en": "Harley Mini",
    "status": "done"
   },
   {

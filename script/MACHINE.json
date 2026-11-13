@@ -198,7 +198,7 @@
    "id": "MACHINE:1034C",
    "kind": "menu",
    "jp": "ワルワルファイヤー",
-   "en": "Wicked Wicked Fire",
+   "en": "Waruwaru Fire",
    "end": "FFFF",
    "status": "done"
   },
@@ -206,7 +206,7 @@
    "id": "MACHINE:10360",
    "kind": "menu",
    "jp": "ワルワルスピリッツ",
-   "en": "Wicked Wicked Spirits",
+   "en": "Waruwaru Spirits",
    "end": "FFFF",
    "status": "done"
   },

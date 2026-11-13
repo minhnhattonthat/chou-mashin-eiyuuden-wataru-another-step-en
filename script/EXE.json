@@ -431,7 +431,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "神がみのさばきを手に入れた！",
-   "en": "Got Divine Judgment!",
+   "en": "Got Gods' Wrath!",
    "status": "done"
   },
   {
@@ -479,7 +479,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "勇気のあかしを手に入れた！",
-   "en": "Got a Proof of Courage!",
+   "en": "Got a Valor Token!",
    "status": "done"
   },
   {
@@ -495,7 +495,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "龍神水を手に入れた！",
-   "en": "Got Dragon God Water!",
+   "en": "Got Dragon Dew!",
    "status": "done"
   },
   {
@@ -1271,7 +1271,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "神がみのさばきを手に入れた！\nだが、もっているのであきらめた。",
-   "en": "Got Divine Judgment!\nBut you already have one,\nso you left it.",
+   "en": "Got Gods' Wrath!\nBut you already have one,\nso you left it.",
    "status": "done"
   },
   {
@@ -1319,7 +1319,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "勇気のあかしを手に入れた！\nだが、もっているのであきらめた。",
-   "en": "Got a Proof of Courage!\nBut you already have one,\nso you left it.",
+   "en": "Got a Valor Token!\nBut you already have one,\nso you left it.",
    "status": "done"
   },
   {
@@ -1335,7 +1335,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "龍神水を手に入れた！\nだが、もっているのであきらめた。",
-   "en": "Got Dragon God Water!\nBut you already have some,\nso you left it.",
+   "en": "Got Dragon Dew!\nBut you already have some,\nso you left it.",
    "status": "done"
   },
   {

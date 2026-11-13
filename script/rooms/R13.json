@@ -3896,7 +3896,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nああ・・・。\nダメじゃ・・・。",
-   "en": "Man:\nAh...\nIt's no use...",
+   "en": "Man:\nAh...\nIt's no use, I tell ye...",
    "status": "done"
   },
   {
@@ -3905,7 +3905,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "アシがすくんで、動けん・・・。",
-   "en": "My legs have frozen up.\nI can't move...",
+   "en": "My legs have frozen up.\nI can't budge...",
    "status": "done"
   },
   {
@@ -4031,7 +4031,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\n今、【ワルジョ】さまは、\n幸せじゃろう。",
-   "en": "Old Woman:\nWarujo-sama must be happy\nnow.",
+   "en": "Old Woman:\nWarujo-sama must be happy\nnow, eh?",
    "status": "done"
   },
   {
@@ -4040,7 +4040,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "何でも、あのステキな方が、\n戻ってこられたそうじゃ。",
-   "en": "I hear that lovely gentleman\nhas come back to her.",
+   "en": "I hear that lovely gentleman\nhas come back to her, aye.",
    "status": "done"
   },
   {
@@ -4409,7 +4409,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n【ワルジョ】さまは昔、男の人に\nすてられたらしいのじゃ。",
-   "en": "Old Woman:\nI hear a man left Warujo-sama\nlong ago.",
+   "en": "Old Woman:\nA man left Warujo-sama long ago,\nor so I hear, dearie.",
    "status": "done"
   },
   {
@@ -4427,7 +4427,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\n何でも、せのたかいヒョロっとした\nステキな方だったそうじゃ。",
-   "en": "Old Woman:\nThey say he was a lovely fellow,\ntall and lanky.",
+   "en": "Old Woman:\nA lovely fellow, so they say,\ntall and lanky he was, dearie.",
    "status": "done"
   },
   {

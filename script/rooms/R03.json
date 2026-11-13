@@ -440,7 +440,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nそこでじゃ、",
-   "en": "Villager:\nSo, here's the thing...",
+   "en": "Villager:\nNow then, here's the thing, eh?",
    "status": "done"
   },
   {
@@ -449,7 +449,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "あんた達に\n【超おもしろカッコいい隊】に\nなって欲しいんじゃ。",
-   "en": "We want you folks to become\nour Super Funny Cool Squad.",
+   "en": "We'd have ye become our\nSuper Funny Cool Squad.",
    "status": "done"
   },
   {
@@ -638,7 +638,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nそうじゃ。",
-   "en": "Villager:\nThat's right.",
+   "en": "Villager:\nAye, that's right.",
    "status": "done"
   },
   {
@@ -665,7 +665,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "村人：\nそうじゃ。",
-   "en": "Villager:\nThat's right.",
+   "en": "Villager:\nAye, that's right.",
    "status": "done"
   },
   {
@@ -674,7 +674,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "じゃっ、がんばってくだされ、\n【超おもしろカッコいい隊】よ！",
-   "en": "Well, best of luck to you,\nSuper Funny Cool Squad!",
+   "en": "Well, best of luck to ye,\nSuper Funny Cool Squad!",
    "status": "done"
   },
   {
@@ -1169,7 +1169,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "ぶっきらぼうなおとこじゃが、\nこれが、いいしごとをするんじゃ。",
-   "en": "He's a gruff fellow,\nbut he does fine work.",
+   "en": "A gruff fellow he is, aye,\nbut he does fine work.",
    "status": "done"
   },
   {
@@ -1259,7 +1259,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじいさん：\nこの先はブリキントンだらけじゃ。\n気をつけて行きなされ。",
-   "en": "Old Man:\nIt's crawling with Tinpotons\nup ahead. Mind how ye go.",
+   "en": "Old Man:\nIt's crawling with Burikintons\nup ahead. Mind how ye go.",
    "status": "done"
   },
   {
@@ -1322,7 +1322,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばあさん：\n戦いにつかれたら、\n体をやすめることが先決じゃ。",
-   "en": "Old Woman:\nIf battle has worn you out,\nresting up must come first.",
+   "en": "Old Woman:\nWorn out from battle, are ye?\nBest rest those bones first.",
    "status": "done"
   },
   {
@@ -1331,7 +1331,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "ムリはいかんぞ。",
-   "en": "Don't push yourself too hard.",
+   "en": "Don't overdo it, mind.",
    "status": "done"
   },
   {

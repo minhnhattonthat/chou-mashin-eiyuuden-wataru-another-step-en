@@ -3,6 +3,17 @@
 Deferred Minors, one per line; `tools/tl_codex.py revise` appends them. The polish pass ticks each `[x]` (fixed, or
 `waived: reason`); the release refuses to run while any line is unticked.
 
+Names cut to fit the tightest field (11-letter battle header / 16-letter banner; D4: engine work first). Phase 7
+relocates those fields, then puts the full name in (`names.py` picks the first form that fits every place):
+- [ ] cut ENE06:025C0/025E8 フルメタルジェーン "Steel Jane" -> "Full Metal Jane" (the "Full Metal" title is the joke)
+- [ ] cut ENE02:03FAC/03FCC ジャー・サンプン "Jar Sanpun" -> "Jar Three-Minute" (three minutes / one more minute joke)
+- [ ] cut ENE02:03FBC/03FD8 モー・イップン "Mo Ippun" -> "One More Minute"
+- [ ] cut ENE07:045B8/045FC ベジタリニャンダフル "Veggiepurr" -> "Veggiepurrfect" (vegetarian + nyan + wonderful)
+- [ ] cut ENE08:01534/01588 マイコ・ジョウダン "Maiko Jodan" -> "Maiko Jordan" (Michael Jordan + 冗談; D9 English spelling)
+- [ ] cut MACHINE:103B8 昇龍烈火爆裂聖剣 "Holy Wyrminferno" -> the full attack name (rising dragon, blazing fire, burst, holy sword), e.g. "Rising Dragon Blaze Burst Holy Sword"
+
+Minors:
+
 - [ ] b001 BALLBAT:22064 - 「敵の動きを止めた！」 means “Stopped the enemy from moving!” “Stopped the enemy's movements!” reads unnaturally in battle feedback. Suggested EN: `Stopped the enemy from moving!`
 - [ ] b001 BALLBAT:22354 - 「作戦コマンドの効果がきれた。」 means the Tactics command's effect has expired. “Tactics command effect wore off” reads awkwardly without an article. Suggested EN: `The Tactics command's effect\nwore off.`
 - [ ] b002 BALLBAT:2266C - 「のクリティカル攻撃！！」 announces a critical attack. - “'s critical attack!!” is understandable, but “critical hit” is more idiomatic English battle terminology. - Suggested EN: `'s critical hit!!`

@@ -213,8 +213,9 @@ def problems(entry, en, terms):
     if re.search(VARIABLE + r"(st|nd|rd|th)\b", en):
         out.append('ordinal suffix after a variable (write "No. [var]")')
     jp_plain = TOKEN.sub("", jp).replace("\n", "")  # a word may wrap mid-word (この世/界): 界 alone isn't a term
+    en_flat = " ".join(en.lower().split())  # an English term may wrap across lines too
     for jps, ens, avoid in terms:
-        if any(has_term(jp_plain, j) for j in jps) and not any(e.lower() in en.lower() for e in ens):
+        if any(has_term(jp_plain, j) for j in jps) and not any(e.lower() in en_flat for e in ens):
             out.append(f"glossary: {jps[0]} -> {ens[0]}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]
     kin = "Father|Mother|Sisters?|Brothers?|Grand(?:mother|father)|Uncle|Aunt|Chief|Birdie|Lady|Bride|God|Granny"

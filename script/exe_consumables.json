@@ -175,7 +175,7 @@
    "slot": 21,
    "max": 8,
    "jp": "神がみのさばき",
-   "en": "Divine Judgment",
+   "en": "Gods' Wrath",
    "status": "done"
   },
   {
@@ -230,7 +230,7 @@
    "slot": 28,
    "max": 8,
    "jp": "勇気のあかし",
-   "en": "Proof of Courage",
+   "en": "Valor Token",
    "status": "done"
   },
   {
@@ -246,7 +246,7 @@
    "slot": 30,
    "max": 8,
    "jp": "龍神水",
-   "en": "Dragon God Water",
+   "en": "Dragon Dew",
    "status": "done"
   },
   {

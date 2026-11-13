@@ -2,8 +2,12 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: not started. Phase 6 done (2026-11-14): 5,820 entries translated, check clean,
-  every batch's latest review has no Critical/Important (work/tl/review_verdicts.tsv, all 42 ok), glossary current.
+- **Phase:** 7. Insert, fit, check: in progress. Phase 6 done (2026-11-14): 5,820 entries translated, check clean,
+  every batch's latest review has no Critical/Important except the cut names deferred to phase 7 (b002 ENE, b007
+  MACHINE:103B8: docs/polish.md "cut" lines; work/tl/review_verdicts.tsv). Phase-6 review (.harness) fixed: translator
+  NEW TERMs in the glossary (+45 rows), drift fixed (hand11-13), kana/kanji item aliases (names.py ALIASES), Harley,
+  Waruwaru Fire, names.py anchors, D12-D16, translator-brief notes + CUT line; tl_codex review now re-feeds earlier
+  rounds' Critical/Important.
   First job: the build still withholds English (insert.py: "792 common pairs, MSG_CG has 189 free codes: English
   withheld, marker build"; room fonts likely over too) -> font/pair-code capacity, then work/overflow.tsv (English
   longer than its JP slot) and the phase-7 items listed under Next. Last build: build/wataru_en.bin sha1 6bebf36b...

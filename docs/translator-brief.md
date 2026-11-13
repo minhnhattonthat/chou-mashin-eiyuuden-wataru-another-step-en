@@ -45,7 +45,14 @@ Write line breaks as the two characters `\n`. Never a real tab inside the Englis
 - Names in Western order; joke names joined with ・ keep their order.
 
 ## Notes from earlier batches
-- (none yet)
+- Honorifics after names and titles only: never "bride-san", "Father-sama", "Dragon God-sama" (D12). 殿 = -dono.
+- Name families keep their glossary root inside compounds: ワルワルファイヤー = Waruwaru Fire (not "Wicked Wicked").
+- One English per item, whatever the spelling: battle kana かみがみのさばき = field kanji 神がみのさばき = Gods' Wrath.
+- Keep the same English for a term across a whole episode (天の龍馬 = Heavenly Dragon Horse every time); check the
+  glossary before coining, and report every coinage as NEW TERM.
+- Puns on English or Western names take the English spelling (Harley, not Arley; D9).
+- Don't cut a name or joke to fit (D4): write it in full and report a CUT line; the fit pass makes room.
 
 ## Report
-Agents with file access reply with: entry count, then `NEW TERM: jp -> en`, `UNSURE: id - note` lines.
+Agents with file access reply with: entry count, then `NEW TERM: jp -> en`, `UNSURE: id - note` lines, and
+`CUT: id - what was dropped` for anything shortened to fit.

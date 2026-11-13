@@ -530,7 +530,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "お前らの探す【天の龍馬】は、\nビリビリマン様しか",
-   "en": "That Heavenly Dragon Steed\nyou're after? Biribiri Man-sama",
+   "en": "That Heavenly Dragon Horse\nyou're after? Biribiri Man-sama",
    "status": "done"
   },
   {
@@ -548,7 +548,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n何だ？　【天の龍馬】って？",
-   "en": "G-Wataru:\nHuh? What's a\nHeavenly Dragon Steed?",
+   "en": "G-Wataru:\nHuh? What's a\nHeavenly Dragon Horse?",
    "status": "done"
   },
   {
@@ -566,7 +566,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "城の外からきこえるこえ：\n【天の龍馬】？　何それ？",
-   "en": "Voice Outside the Castle:\nHeavenly Dragon Steed?\nWhat's that?",
+   "en": "Voice Outside the Castle:\nHeavenly Dragon Horse?\nWhat's that?",
    "status": "done"
   },
   {
@@ -575,7 +575,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "城の外からきこえるこえ：\n行きたいところに連れていって\nくれる【天の龍馬】を",
-   "en": "Voice Outside the Castle:\nThe Heavenly Dragon Steed\nthat takes you anywhere...",
+   "en": "Voice Outside the Castle:\nThe Heavenly Dragon Horse\nthat takes you anywhere...",
    "status": "done"
   },
   {
@@ -791,7 +791,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n【天の龍馬】は【ワルモンダー】の\n所に行くのに使うんだ！",
-   "en": "G-Wataru:\nThe Heavenly Dragon Steed is\nfor getting to Warumonder!",
+   "en": "G-Wataru:\nThe Heavenly Dragon Horse is\nfor getting to Warumonder!",
    "status": "done"
   },
   {
@@ -2582,7 +2582,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\nいや～いいわい、\nこのビリッとくる感じは！",
-   "en": "Old Man:\nAhhh, lovely!\nI love that little jolt!",
+   "en": "Old Man:\nAhhh, a lovely little jolt, eh?\nThat's the stuff!",
    "status": "done"
   },
   {
@@ -2591,7 +2591,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "元気が出てくるわい！",
-   "en": "It perks me right up!",
+   "en": "Puts pep in these old bones!",
    "status": "done"
   },
   {
@@ -2618,7 +2618,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\n【サンダール】には、\n心を入れかえてもらいたいのぉ。",
-   "en": "Old Man:\nI wish Thundar would\nhave a change of heart.",
+   "en": "Old Man:\nI wish Thundar would mend\nhis ways, eh?",
    "status": "done"
   },
   {
@@ -2807,7 +2807,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おねえさん：\nえっ？　【天の龍馬】？\nさあ？　聞いたことがないわね。",
-   "en": "Young Woman:\nHuh? The Celestial Dragon Horse?\nHmm? I've never heard of it.",
+   "en": "Young Woman:\nHuh? The Heavenly Dragon Horse?\nHmm? I've never heard of it.",
    "status": "done"
   },
   {
@@ -3167,7 +3167,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじいさん：\n【ビリビリマン】も、\n正しき心を持っているはずじゃ。",
-   "en": "Old Man:\nBiribiri Man must have\na good heart in him too.",
+   "en": "Old Man:\nBiribiri Man must have a good\nheart in him too, eh?",
    "status": "done"
   },
   {
