@@ -1,0 +1,13 @@
+# Text-like runs in FPRG/Rxx.BIN that are data, not text (checked by eye 2026-11-14: they decode to noise and sit in
+# object/actor tables, followed by coordinate words). tests/test_extract.py waives exactly these from the room coverage
+# check; a run not listed here and not covered by a page fails the test.
+# overlay offsets...
+R00 C2C0
+R01 DA44 DBC4 DD2C
+R02 10852 108DA 109EE 10B58 10D1E
+R05 114F2 114FE 1150A 11516 11522 1152E 1153A 11546 11552 119E0 119EC 119F6 11A02 11A0E 11A1A 11A26 11A32 11A40
+R06 1410A 14280
+R07 152B8 15390 15A44 15B28
+R08 125AC 13D5E
+R09 D08E D33A D4BC
+R10 B3F6 B5C2

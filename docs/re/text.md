@@ -13,7 +13,7 @@ Disc: SLPS-01368 (Banpresto / Aspect, 1998-04-23). EXE `SLPS_013.68`: PS-X EXE, 
     dakuten, 0xAA ？ 0xAB ！ 0xAC ー 0xAD ・, 0xB0-0xB2 水雷火, 0xB4-0xBD ０-９, 0xBE-0xC3 equipment icons, 0xC4-0xCF
     ○×△□／ ＋－×％：, 0xD0 ．, 0xD1-0xE5 Ａ-Ｕ (J/K are kanji cells 毒/化 at 0xDA/0xDB), then ~210 kanji up to 0x1A2.
   - verified kanji: 一 0x10E, 忍 0x176, 部 0x18D (decoded 「忍部一族」 matches screen).
-  - Kanji 0xDA-0x1A2 still need OCR (`tbl/kanji_common.txt`, read by mktbl.py). 0x3B and 0xC9/0xCA unread cells.
+  - Kanji 0xE6-0x1A2 read by eye into `tbl/kanji_rows.txt` (CG lines, read by mktbl.py). 0x3B and 0xC9/0xCA unread cells.
 - **0x01A4+: per-room kanji**, allocated in order of first appearance in that room's script. Glyph = room font file index
   code - 0x1A4. verified: R00 族=0x1C3 = `M16_R00.BIN` glyph 0x1F, 申=0x1C4 = glyph 0x20.
   - Room fonts: `FM16/M16_Rxx.BIN` (xx hex: R0A = room 10, R0E = room 14), same 128-byte glyph format; up to 190 glyphs
@@ -45,6 +45,21 @@ Disc: SLPS-01368 (Banpresto / Aspect, 1998-04-23). EXE `SLPS_013.68`: PS-X EXE, 
   messages relocate by rewriting one u32 each. The 48-entry arrays in the middle of each room are event tables.
   Reader: branch 0x800326DC (guess, not traced).
 - Other branch tables (0x800DED28 etc.) in the switch read data that is text in R00: those cases are for other rooms.
+
+### Page grammar and kanji readings (verified static, 2026-11-14; `tools/rooms.py`, `tests/test_extract.py`)
+
+- `tools/rooms.py` finds 4,601 pages in R00-R14 (docstring has the full grammar): a page = text words (0x0000 = blank
+  cell, 0x1000 newline, inline `B000 n`) ended by 0xN000 (N 2-F, not B; `4000 n`, `8000 n`, `C000 a b`, `F000 n` take
+  args). Headers: `FFFF .. 7FFF`, `7FFF 01xx face voice`, `FFFF 0000 <id>`, `<cmd args> FFFF [0000]`, chained after a
+  page, NPC u32 pointer targets (some aim at the 16 zero bytes before), and blocks the overlay code builds by
+  lui/addiu (R08 0x163C0, R13 0x16780, R14 0x1BCA0). Every page roundtrips and decodes with no code past its font;
+  every msgscan run is covered except 44 data runs in `tbl/room_data.txt` (actor tables, checked by eye).
+- R13.BIN font split (`rooms.font`): M16_R12 for 0x1DAB0-0x212D7 and 0x22D78+, M16_R13 elsewhere.
+- Kanji: all 201 common + 2,295 room glyphs read by eye from zoomed sheets into `tbl/kanji_rows.txt` (template
+  matching against MS Gothic / Yu Gothic got 46% on known kana: useless). 73 readings marked `?`; `python -X utf8
+  tools/jtext.py` lists them, `jtext.py sheet OUT.png R00:1F8 ..` renders any set big. Fonts hold real duplicate
+  glyphs (R02 先 0x1AB/0x242, R07 社, R11 福, R12 行/誰/問); the codec writes the second as `[0242:先]`.
+- 0xE8 in MSG_CG looks like Ｘ; 0x181 is the ▼ prompt glyph.
 
 ## Other text (verified to decode; pointer formats partly mapped)
 
