@@ -57,6 +57,24 @@ def test_card_labels():
             assert not any(u < au + aw and au < u + w and v < av + ah and av < v + h for au, av, aw, ah in areas), hex(o)
 
 
+def test_captions():
+    """G6: 32 lists (16 captions x 2 CLUTs), each JP line gets one English strip, strips don't overlap, and every
+    caption-CLUT record in SBTTL.BIN is inside the lists."""
+    d = gfx.load(gfx.SBT)
+    recs = gfx.cap_recs(d)  # asserts list and line counts
+    assert len({off for _, off, *_ in recs}) == len(recs), "a record patched twice"
+    assert sum(1 for *_, new, _ in recs if new[4]) == 2 * sum(len(en) for _, en in gfx.CAP_EN)
+    strips = sorted(gfx.cap_layout().values())
+    for (tp, u, v, w), (tp2, u2, v2, _) in zip(strips, strips[1:]):
+        assert (tp, v) != (tp2, v2) or u + w <= u2, "strips overlap"
+    assert all(u + w <= 256 and v + gfx.CAP_H <= 256 for _, u, v, w in strips)
+    inside = {off for _, off, *_ in recs}
+    for o in range(0, len(d) - 14, 2):
+        tp, cl = struct.unpack_from("<HH", d, o)
+        if tp in gfx.CAP_BLK and cl in (0x7E80, 0x7E81):
+            assert o in inside, hex(o)
+
+
 def test_recs_original():
     for path, off, fmt, old, new, why in gfx.RECS:
         assert struct.unpack_from(fmt, gfx.load(path), off) == old, why

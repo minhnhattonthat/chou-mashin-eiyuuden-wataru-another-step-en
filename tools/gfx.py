@@ -302,6 +302,99 @@ def sbt_recs(d):
     return out
 
 
+# G6 episode captions (OUT/SUBTTL.CHG: 3 glyph blocks = tpages 0x0C/0x0D/0x1C; CLUT (0,506) palette 0 = the fade-in
+# ramp, 1 = all white): PRG/SBTTL.BIN CAP_LISTS holds 32 sprite lists = 16 captions (episode index 0-15, 15 = the
+# ending) x 2 CLUTs (0x7E80 / 0x7E81), 40-px glyph records + 8x8 furigana, one caption per list, lines 40 px tall.
+# English: one Liberation Sans Bold strip per line (CAP_H tall) packed into the freed blocks; the line's leftmost
+# glyph record cuts it (first line at the JP line's left x, later lines end at the JP line's right x, as staggered as
+# the JP; never past CAP_RIGHT), the other records get w = h = 0.
+CAP_LISTS = (0x5528, 0x7274)
+CAP_BLK = {0x0C: 0x208, 0x0D: 0x8210, 0x1C: 0x10218}  # tpage -> SUBTTL.CHG upload block
+CAP_H, CAP_SIZE, CAP_RIGHT = 26, 24, 180  # strip height, font px, max right x (screen x = list x + ~132)
+CAP_EN = [  # per caption: (JP, English lines); JP lines are the list's own (asserted by count)
+    ("えっ!? / ボクは救世主？", ["Huh?!", "I'm the Savior?"]),
+    ("お弁当に、/ なりたーい", ["I wanna be", "a bento!"]),
+    ("お金があれば、/ しーあわせ♥", ["With money,", "I'm ha~ppy!"]),
+    ("行くぞ! / 超おもしろ / カッコいい隊!", ["Let's go!", "Super Funny", "Cool Squad!"]),
+    ("“コミック創界山” / って、なあに?", ['"Comic Sokaizan"', "...what's that?"]),
+    ("救世主がふたり!?", ["Two Saviors?!"]),
+    ("最強タッグ! / ワタルとワタル!!", ["Ultimate tag team!", "Wataru & Wataru!!"]),
+    ("V.I.に、/ もうメロメロ", ["V.I. has me", "head over heels"]),
+    ("演歌は / 人の心です!", ["Enka is", "the people's heart!"]),
+    ("金メダルって、/ そんなに大事?", ["Is a gold medal", "that big a deal?"]),
+    ("体を鍛えて / 温泉へ!", ["Work out, then", "hit the hot spring!"]),
+    ("花嫁さんは… / サクヤ!?", ["The bride is...", "Sakuya?!"]),
+    ("龍神丸、倒れる!", ["Ryujinmaru falls!"]),
+    ("新生! / 天翔龍神丸!!", ["Reborn!", "Tensho Ryujinmaru!!"]),
+    ("決戦! / ワルモンダー!", ["Showdown!", "Warumonder!"]),
+    ("戦いが終わって、/ そして…", ["The battle's over,", "and then..."]),
+]
+
+
+def cap_lists(d):
+    """[(offset, [(record offset, REC tuple)..])] for the caption lists (after each 0xFFFF: a 10-12 byte gap)."""
+    out, o = [], CAP_LISTS[0]
+    while o < CAP_LISTS[1]:
+        start, cur = o, []
+        while struct.unpack_from("<H", d, o)[0] != 0xFFFF:
+            cur.append((o, struct.unpack_from(REC, d, o)))
+            assert cur[-1][1][0] in CAP_BLK and cur[-1][1][1] in (0x7E80, 0x7E81), hex(o)
+            o += 14
+        out.append((start, cur))
+        o += 2
+        while o < CAP_LISTS[1] and not (struct.unpack_from("<H", d, o)[0] in CAP_BLK and
+                                        struct.unpack_from("<H", d, o + 2)[0] in (0x7E80, 0x7E81)):
+            o += 2
+    return out
+
+
+def cap_lines(recs):
+    """The list's glyph records (h >= 30) grouped into lines by y, top line first."""
+    lines = []
+    for o, r in sorted([t for t in recs if t[1][5] >= 30], key=lambda t: t[1][7]):
+        if lines and r[7] - lines[-1][0][1][7] <= 20:
+            lines[-1].append((o, r))
+        else:
+            lines.append([(o, r)])
+    return lines
+
+
+def cap_layout():
+    """{line text: (tpage, u, v, w)}: first fit, widest first, into CAP_H rows of the three blocks."""
+    import gfx_gen
+    free = [[tp, 0, v, 256] for tp in CAP_BLK for v in range(0, 256 - CAP_H + 1, CAP_H)]
+    out = {}
+    for t in sorted({t for _, en in CAP_EN for t in en}, key=lambda t: (-gfx_gen.line_width(t, CAP_SIZE), t)):
+        w = gfx_gen.line_width(t, CAP_SIZE)
+        f = next(f for f in free if f[3] >= w)  # StopIteration = atlas full
+        out[t] = (f[0], f[1], f[2], w)
+        f[1] += w
+        f[3] -= w
+    return out
+
+
+def cap_recs(d):
+    """gfx.RECS-style entries for the G6 captions, checked against the original SBTTL.BIN bytes `d`."""
+    lay = cap_layout()
+    lists = cap_lists(d)
+    assert len(lists) == 2 * len(CAP_EN), len(lists)
+    out = []
+    for k, (start, recs) in enumerate(lists):
+        jp, en = CAP_EN[k // 2]
+        lines = cap_lines(recs)
+        assert len(lines) == len(en), (jp, len(lines))
+        lead = {}
+        for i, (line, t) in enumerate(zip(lines, en)):
+            o, r = min(line, key=lambda q: q[1][6])
+            tp, u, v, w = lay[t]
+            right = max(q[1][6] + q[1][4] for q in line)
+            x = min(r[6], CAP_RIGHT - w) if i == 0 else min(right, CAP_RIGHT) - w  # later lines: JP right edge
+            lead[o] = (tp, r[1], u, v, w, CAP_H, x, min(q[1][7] for q in line) + (40 - CAP_H) // 2)
+        for o, r in recs:
+            out.append((SBT, o, REC, r, lead.get(o, r[:4] + (0, 0) + r[6:]), "caption " + en[0]))
+    return out
+
+
 def rows():
     out = []
     for line in (GFX / "gfx.tsv").read_text(encoding="utf-8").splitlines():
@@ -424,7 +517,8 @@ def apply(put, bufs, orig, load_path):
                 e += 1
             put(bufs, orig, p, k, bytes(buf[k:e]), "gfx " + r["png"])
             k = e
-    for path, off, fmt, old, new, why in RECS + fm_recs(orig[load_path(FDS)]) + sbt_recs(orig[load_path(SBT)]):
+    sb = orig[load_path(SBT)]
+    for path, off, fmt, old, new, why in RECS + fm_recs(orig[load_path(FDS)]) + sbt_recs(sb) + cap_recs(sb):
         p = load_path(path)
         assert struct.unpack_from(fmt, orig[p], off) == old, (path, hex(off), why)
         put(bufs, orig, p, off, struct.pack(fmt, *new), "gfx rec " + why)
@@ -444,7 +538,7 @@ def spans(path):
             a = r["off"] + 8 + y * bpr + (x0 if r["bpp"] == 8 else x0 // 2)
             out.append((a, a + (w if r["bpp"] == 8 else (w + 2) // 2)))
     out += [(off, off + struct.calcsize(fmt)) for p, off, fmt, *_ in RECS + fm_recs(load(FDS)) + sbt_recs(load(SBT))
-            if p == path]
+            + cap_recs(load(SBT)) if p == path]
     return out
 
 

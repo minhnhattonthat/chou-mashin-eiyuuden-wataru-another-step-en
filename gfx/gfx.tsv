@@ -84,3 +84,8 @@ YM/STS_18_names.png	YM/MR_02/STS_18.CHG	400	4	YM/MR_02/STS_18.CHG	r0	6	0,128,248
 # G5 area cards: SBTCHAR.CHG (768,0) 4bpp glyph sheet, CLUT (0,503) at 0; palette 4 = text (bar records use 5: same
 # indices, the import is by index); labels re-cut by gfx.sbt_recs (PRG/SBTTL.BIN lists), strips by gfx.sbt_layout
 OUT/SBT_atlas.png	OUT/SBTCHAR.CHG	208	4	OUT/SBTCHAR.CHG	0	4	0,0,256,256
+# G6 episode captions: SUBTTL.CHG 3 blocks (tpages 0x0C/0x0D/0x1C), CLUT (0,506) raw at 8 (the 16x16 CLUT block wraps
+# past row 511), palette 0; lists re-cut by gfx.cap_recs (PRG/SBTTL.BIN), strips by gfx.cap_layout
+OUT/SUB_0C.png	OUT/SUBTTL.CHG	208	4	OUT/SUBTTL.CHG	r8	0	0,0,256,256
+OUT/SUB_0D.png	OUT/SUBTTL.CHG	8210	4	OUT/SUBTTL.CHG	r8	0	0,0,256,256
+OUT/SUB_1C.png	OUT/SUBTTL.CHG	10218	4	OUT/SUBTTL.CHG	r8	0	0,0,256,256

@@ -362,8 +362,42 @@ def cards():
     img.save(gfx.GFX / "en" / png)
 
 
+def line_width(text, size, font=SANS_B):
+    return int(ImageFont.truetype(str(font), size).getlength(text)) + 4
+
+
+def put_line(img, lut, u, v, h, text, size, ramp, font=SANS_B, cut=40):
+    """TrueType text at (u, v) on one baseline for every line (top of 'H' 2 px below v), coverage -> ramp."""
+    f = ImageFont.truetype(str(font), size)
+    w = line_width(text, size, font)
+    m = Image.new("L", (w, h))
+    ImageDraw.Draw(m).text((2, 2 - f.getbbox("H")[1]), text, font=f, fill=255)
+    assert m.crop((0, h - 1, w, h)).getbbox() is None and m.crop((w - 1, 0, w, h)).getbbox() is None, text
+    px, mp = img.load(), m.load()
+    for j in range(h):
+        for i in range(w):
+            c = mp[i, j]
+            if c > cut:
+                px[u + i, v + j] = lut[ramp[min(len(ramp) - 1, (255 - c) * len(ramp) // (256 - cut))]]
+
+
+def captions():
+    """G6 episode captions: the three SUBTTL blocks cleared, one strip per English line (gfx.cap_layout), white
+    core (15) easing to the dark brown edge (1) of palette 0, like the JP glyphs."""
+    lay = gfx.cap_layout()
+    for tp in gfx.CAP_BLK:
+        png = f"OUT/SUB_{tp:02X}.png"
+        img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+        lut = lut_of(png)
+        clear(img, (0, 0) + img.size)
+        for t, (tp2, u, v, w) in lay.items():
+            if tp2 == tp:
+                put_line(img, lut, u, v, gfx.CAP_H, t, gfx.CAP_SIZE, [15, 15, 14, 13, 12, 10, 8, 5, 3, 1])
+        img.save(gfx.GFX / "en" / png)
+
+
 GROUPS = {"title": title, "battle": battle, "shop": shop, "iq": iq, "bubbles": bubbles, "mashin": mashin,
-          "fmenu": fmenu, "cards": cards}
+          "fmenu": fmenu, "cards": cards, "captions": captions}
 
 if __name__ == "__main__":
     for g in sys.argv[1:] or GROUPS:
