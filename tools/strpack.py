@@ -25,10 +25,11 @@ _spec.loader.exec_module(_mipsre)
 BASE = {"SLPS_013.68": 0x80017800, "PRG/ST.BIN": 0x800D0000, "PRG/BALLBAT.BIN": 0x800D0000,
         "PRG/MACHINE.BIN": 0x800D0000, "PRG/TTL.BIN": 0x800D0000}
 # RAM end of the space past each overlay (first address the overlay's code builds past its end; ST: the font).
-# Not TTL: strings past its end froze the title on the logo (BSS expected zero, 2026-11-14), so it uses holes only.
+# Not TTL: uses its own pool only (POOL).
 TAIL_END = {"PRG/ST.BIN": 0x80110000, "PRG/BALLBAT.BIN": 0x80109800, "PRG/MACHINE.BIN": 0x800F206C}
 POOL = {"PRG/TTL.BIN"}  # one run of u32-table strings: re-laid back to back
-EXE_FREE = (compose.HOOK + 4 * len(compose.hook_words()), 0x80098C40)  # rest of the EXE zero run
+# rest of the EXE zero run; 0x80098C2C-0x80098C40 is live (written at the title; strings there froze it, trap-tested)
+EXE_FREE = (compose.HOOK + 4 * len(compose.hook_words()), 0x80098C2C)
 PAGE_TERMS = {0x2000, 0x3000, 0x4000, 0x5000, 0x6000, 0x7000, 0x8000, 0xA000, 0xC000, 0xD000, 0xE000, 0xF000}
 
 
