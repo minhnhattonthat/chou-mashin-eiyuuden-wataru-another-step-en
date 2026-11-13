@@ -3,6 +3,9 @@
 - Unpack: `tools/mkpsxiso/mkpsxiso-2.30-win64/dumpsxiso.exe -x tree -s layout.xml <cue>` (run in `work/disc/`); 1,013
   files, plain ISO9660 + XA STR. **verified:** `mkpsxiso -y -o ident.bin layout.xml` gives SHA-1
   c2c044d17f5235ff8a419d554b2dd3ab82db2161, identical to the original (2026-11-09). No disc-level compression.
+  `tools/build.py` does both (unpack once, stamped by `work/disc/unpacked.sha1`; repack ~2 s);
+  `tests/test_identity.py` asserts the no-edit build is byte-identical. LBAs in the EXE file table are filled at boot
+  (CdSearchFile-style), so files can move; the table's size word still needs checking before a file grows.
 - Directories: `PRG/` (title, battle, menus, FMV WATA01-04.STR), `FPRG/` room overlays R00-R14 + FDS.BIN, `FM16/` fonts
   (MSG_CG common, M16_Rxx per room, FD_STS, R15_MES), `FP00/FP01/FR00-FR03/FK00-FK05` map data per room, `IQ/` IQ-battle
   minigame graphics, `OUT/` title/catch graphics (CHG) + STR, `YM/` battle graphics, `VC00-02` voice STR, `FSEQ/FVBB/FVHH`
