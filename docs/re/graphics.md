@@ -32,16 +32,16 @@
 | G8 | Dialogue box | window frame, page arrow (no text) | - | none |
 | G9 | Memory card screen | all save/load messages (セーブ中です, メモリーカードを..., ファイル1-4, はい/いいえ, NODATA, 第 話 最終 プロローグ), save-slot place names (もんじゃ村, コンビニ村, カンボづくし村, ...), party names (炎部ワタル, 剣部アラゴト, 忍部サクヤ, ...), 0-9 digits | PRG/MEM_01.CHG (640,0) 320x256, 4bpp | redraw (largest group) |
 | G10 | Prologue scroll | story intro text 「…ワルモンダーの操る魔神の『ワルワル・キュウキョーン』に、…」 as 3 images | FM16/R15_MES.BIN (one upload, 4bpp) | redraw as English paragraphs |
-| G11 | Shop | 個 合計 (count / total) | FM16/FD_SHP.PX (768,0) 64x256 | redraw |
-| G12 | IQ battle (hit & blow) | あたり / おしい / あと 回, まけ! / かちっ! | IQ/HIT_MAIN.CHG blk 5, IQ/KIO_MAIN.CHG (まけ/かち) | redraw |
+| G11 | Shop | ｶﾞﾝﾎﾞ (currency) 個 合計 (count / total) | FM16/FD_SHP.PX (768,0) 64x256, CLUT (208,481) from the field code | **done** (p8, verified in scene shop): Ganbo / pcs / Total; FDS.BIN records 0x171C6 / 0x171D4 re-cut |
+| G12 | IQ battle (hit & blow) | あたり / おしい / あと 回, まけ! / かちっ! | IQ/HIT_MAIN.CHG blk 5, IQ/KIO_MAIN.CHG (まけ/かち) | **drawn** (p8, not yet seen in game): Hit / Blow / Tries [digit], LOSE! / WIN + ! (ST.BIN records 0x3B3FC, 0x3ACAC-0x3ACD8 unchanged) |
 | G13 | IQ battle cards | BATTLE (English) | IQ/BUR_MAIN.CHG | none |
 | G14 | Eyecatch | logo on CATCH05 | OUT/CATCH05.CHG | keep (logo) |
 | G15 | Puzzle images | logo on PUZ_PG05 | IQ/PUZ_PG05.CHG | keep (logo) |
 | G16 | Battle command menu | たたかう / 必殺技 / アイテム / にげる / さくせん + party names (ワタル, アラゴト, サクヤ?, ...) | YM/BR_17/OTHER01-06.CHG (6 copies) | **done** (p8): Fight / Special / Item / Run / Tactics, Wataru / Aragoto / Sakuya / Warurine (Spleen 6x12 + outline; CLUT (208,497) = file header 0x9A0; BALLBAT records 0x23EE4, 0x23F00.., 0x250FC.. widened to 48) |
-| G17 | Battle speech bubbles | ゴメンネ, バ〜ン | YM/BR_17/OTHER11.CHG | redraw |
-| G18 | Enemy sprite bubble | 圏外 (with furigana) | YM/BR_01/ENE09.CHG | redraw |
+| G17 | Battle speech bubbles | ゴメンネ, バ〜ン | YM/BR_17/OTHER11.CHG | **drawn** (p8, not yet seen in game): Sorry♥ / Bam! |
+| G18 | Enemy sprite bubble | 圏外 (with furigana) | YM/BR_01/ENE09.CHG | **drawn** (p8, not yet seen in game): No / Signal |
 | G19 | Mashin battle status | mashin names per matchup (龍神丸 / 天翔龍神丸 vs レンジ・チ・チン, いらっしゃい魔神, SFXザウルス, ドウガツクエーン, ライトサーチ, ラクライガー, エレクトロン, イリュージョン, アムラーX・55, ゴールドメダラー, シェイプU2, ジューンブライガー, LLラバーズ, QTコアラッコ, 聖ラブリーフォー, ワルワル・キョジョーン...), labels 攻撃 / 回復 / 気合い / 必殺技 | YM/MR_02/STS_01-18.CHG | redraw 18 files |
-| G20 | Mashin attack-name banners | 登龍剣, 幻影招, 天翔, 龍破, 昇龍烈, 火爆裂, 聖剣 | YM/MR_05/MBEXT_08.CHG | redraw |
+| G20 | Mashin attack-name banners | 登龍剣, 幻影招, 天翔, 龍破, 昇龍烈, 火爆裂, 聖剣 | YM/MR_05/MBEXT_08.CHG | redraw. Every kanji is its own 40x40 cell, CLUT (112,510); MACHINE.BIN 0x10D38-0x10F14 = one record per kanji (single-glyph frames), 0x10F30.. = 幻影招龍破 in a row (x -98..61, 40-px pitch), 0x10F84.. = 昇龍烈火爆裂聖剣 in two columns of 4 (y -100..20). Look at the animation in game before choosing per-cell syllables (TO/RYU/KEN, SKY/SOAR) vs a re-cut strip |
 | G22 | Town / room scenery | shop signs in the 3D room atlases: 酒 bottle/lantern label + a dark diagonal kanji sign repeated in most rooms (R00-R14 M0), katakana sign …コロン (R02M1), large stylised shop logos (R08M0), plaques and tokens (R08M1), kanji shop signs (R09M0, R10M0/M1, R13M4); ~40 more "maybe" boards/posters/labels | FR0x/RxxMy.BIN (8bpp, CLUT elsewhere) | decide per sign after a coloured look in the field tour: legible ones redraw, illegible few-pixel signs may stay (log each as a waiver). Full list: `gfx-review-fr.md` |
 | G23 | Field menu / status screen | 炎部ワタル 剣部アラゴト 忍部サクヤ, ワルリーダ, 回復 攻撃 補助 経験値 他, アイテム そうび もんペット ステータス コンフィグ, 気合 装備 属性 超必殺技 こうか, 第 話 最終, small kana/kanji row set, ランク/レベル, Lv Hp Mp Ep (Latin) | FM16/FD_STS.BIN blk 0 (768,0) 64x256 4bpp + CLUT (0,498) (verified by render, 2026-11-13). The file's last 88,840 B are no upload chain and no 16x16 glyphs: compressed or another format (check the status screen's VRAM in the phase-2 tour) | redraw |
 | G24 | Config screen text | config messages drawn with their own font OUT/CNF_MSG.BIN (771 16x16 glyphs, kana at MSG_CG cells) | font, not images: text.md "Fonts other than MSG_CG" | replace font with the main English font |

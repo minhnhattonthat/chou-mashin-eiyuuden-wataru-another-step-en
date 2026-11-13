@@ -22,4 +22,6 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 Recon helpers in `tools/`: `sjisscan.py`, `msgscan.py`, `peek.py`, `fontview.py`, `mktbl.py`, `re.py` (lui/addiu constants, string refs), `lua/ptrlog.lua`, `lua/trapwatch.lua` (free-space trap), `filetab.py` (EXE file table), `loadcalls.py` (load-by-index calls),
 `lua/ramlog.lua` (value changes), `lua/poke.lua` (RAM writes), `lua/fileload.lua` (file loads, `--debugger`),
 `lua/readpcs.lua` (who reads/writes a RAM range), `lua/callers.lua` (callers of an address), `lua/stackwalk.lua`,
-`lua/vdump.lua` + `vram.py` (VRAM/RAM dump at a frame, render 4bpp or 15-bit), `digraph.py` (English cells).
+`lua/vdump.lua` + `vram.py` (VRAM/RAM dump at a frame, render 4bpp or 15-bit), `digraph.py` (English cells),
+`clutfind.py` (which VRAM CLUT draws an atlas rect the way a screenshot shows it; then grep the disc for its 32 bytes
+to get a `rHEX` source for gfx.tsv).

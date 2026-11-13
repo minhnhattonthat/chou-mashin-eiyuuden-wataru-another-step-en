@@ -2,9 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics pipeline + pilot groups done: G3, G4, G16). Phase 7 done
-  (2026-11-14): full English build, overflow empty, all 46 warp scenes reach on the English build.
+- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G11, G16; drawn, not yet seen in game:
+  G12, G17, G18). Phase 7 done (2026-11-14): full English build, overflow empty, all 46 warp scenes reach.
 - **Done:**
+  - Phase 8, session 2 (2026-11-14): G11 shop (FD_SHP.PX: ｶﾞﾝﾎﾞ/個/合計 -> Ganbo / pcs / Total, FDS.BIN records
+    0x171C6/0x171D4 re-cut; verified in scene shop), G12 IQ (HIT_MAIN labels Hit / Blow / Tries [digit]; HIT + KIO
+    LOSE! / WIN + !, `put_stone`), G17 OTHER11 bubbles Sorry♥ / Bam!, G18 ENE09 No / Signal (`recolor` wipes the
+    text indices, keeps the bubble). gfx_gen: put_bdf `edge=None`, `trim=False` (one baseline), `shadow`, `bold`.
+    New `tools/clutfind.py`: CLUT finder from a VRAM dump + screenshot (shop CLUT (208,481) set by code; its 16
+    colours are raw in FP00/P00M0.BIN 0x1BE20 -> gfx.tsv `r1BE20`). Sprite records: the struct starts 4 bytes
+    before u,v (`[tpage, clut, u, v, w, h, x, y]`). Build sha1 d46c4330..., smoke ok, warps shop/battle_ball/
+    battle_iq/iq_page2/battle_win reach, 105 tests.
   - Phase 8, session 1 (2026-11-14): graphics pipeline. `tools/gfx.py` (rows in `gfx/gfx.tsv`: png, target file,
     upload-block offset, bpp, CLUT file + offset (`rHEX` = raw colours in a file header), palette, rect; `export`
     writes gfx/orig/ + gfx/en/ seeds; the build imports gfx/en/ by palette index through insert.put(), unknown
@@ -139,12 +147,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
-     can't run Python, Orca refuses nested workers): G23 field menu/status (FD_STS; its tail is not an upload
-     chain: VRAM-dump the menu scene), G9 memory card (MEM_01, largest), G5 area/chapter cards (SBTCHAR, 8bpp,
-     scenes ep00-ep14), G6 episode title captions (SUBTTL glyph atlas + SBTTL.BIN sprite lists: re-cut per caption),
-     G10 prologue scroll (R15_MES), G11 shop 個/合計, G12 IQ あたり/おしい/まけ/かち, G17/G18 bubbles, G19 mashin status
-     (18 STS files), G20 mashin banners (MBEXT_08), G22 room signs (decide per sign, waive illegible), credits
-     (STAFF.BIN, D3), FMV + FK stills check. Battle names col B (u 160) is drawn somewhere not yet seen: check it.
+     can't run Python, Orca refuses nested workers): G19 mashin status (18 STS files, (896,0) 4bpp 512 px wide =
+     tpages 0x0E/0x0F, palettes raw in the 0x400 header; command labels 攻撃/回復/気合い/必殺技 drawn in the mashin
+     menu (scene mashin_attack), MACHINE.BIN tpage-0x0F records 0x1671C-0x1679A clut (208,496) look like them
+     (攻撃 u24 v128 32x16, 回復 u24 v144, 気合い+必殺技 u24 v160 48x32): confirm with a VRAM dump, check the 18 copies
+     are identical, find free atlas space for wider English; mashin names per file), G20 banners (notes in
+     graphics.md: look at the special-move animation first), G23 field menu/status (FD_STS; its tail is not an
+     upload chain: VRAM-dump the menu scene), G9 memory card (MEM_01, largest), G5 area/chapter cards (SBTCHAR,
+     8bpp, scenes ep00-ep14), G6 episode title captions (SUBTTL glyph atlas + SBTTL.BIN sprite lists: re-cut per
+     caption), G10 prologue scroll (R15_MES), G22 room signs (decide per sign, waive illegible), credits (STAFF.BIN,
+     D3), FMV + FK stills check. Battle names col B (u 160) is drawn somewhere not yet seen: check it. See G12 (IQ
+     win/lose cards, hit-and-blow labels: the ep1 IQ battle is the KIO memory game), G17, G18 in game (add scenes or
+     `late=` pokes to reach them).
      Screenshots are 320x240 even where the game runs wider: zoom (`sheet.py --crop --zoom 3`) before judging.
      Then routes + contact sheets with visual-QA verdicts (`qa_gate.py check`), `inkbox.py`, `textcover.py`.
   2. Carried from phase 7 (QA must confirm or fix): FDS monpet name-entry grid 0x18468 is still kana (no scene
