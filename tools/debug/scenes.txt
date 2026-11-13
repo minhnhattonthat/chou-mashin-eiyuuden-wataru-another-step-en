@@ -33,7 +33,9 @@ field ep=1 idle=1 atstate=0 hold=120                                        # fr
 menu ep=1 idle=1 press=12:triangle,150:- atstate=9 hold=120                   # field menu + party panel
 menu_item ep=1 idle=1 press=12:triangle,150:-,12:circle,90:- atstate=9 hold=120
 menu_key ep=1 idle=1 poke=800A91F8:4030201:4 press=12:triangle,150:-,12:circle,90:-,12:right,40:-,12:right,40:-,12:circle,90:- atstate=9 hold=120  # key items 1-4 poked into the list at 0x800A91F8 (FDS.BIN 0x800FC79C), イベント tab: name + 2-line description
+menu_use ep=1 idle=1 press=12:triangle,150:-,12:circle,90:-,12:circle,90:- atstate=9 hold=120  # つかう: item tabs + list heading (G23)
 menu_equip ep=1 idle=1 press=12:triangle,150:-,12:down,40:-,12:circle,90:- atstate=9 hold=120
+menu_status2 ep=1 idle=1 press=12:triangle,150:-,12:down,40:-,12:down,40:-,12:down,40:-,12:circle,90:-,12:right,90:- atstate=9 hold=120  # status page 2 (G23 必殺技 / 超必殺技?)
 menu_monpet ep=1 idle=1 press=12:triangle,150:-,12:down,40:-,12:down,40:-,12:circle,90:- atstate=9 hold=120
 monpet_detail ep=1 idle=1 poke=800A8D60:1:2 press=12:triangle,150:-,12:down,40:-,12:down,40:-,12:circle,200:-,12:circle,200:-,12:circle,200:- atstate=9 hold=120  # monpet roster u16 0x800A8D60 (8 x 34 bytes) = 1 owned: もんペット -> ステータス -> slot 1 detail (必殺技 = exe_mashin_attacks name)
 menu_status ep=1 idle=1 press=12:triangle,150:-,12:down,40:-,12:down,40:-,12:down,40:-,12:circle,90:- atstate=9 hold=120

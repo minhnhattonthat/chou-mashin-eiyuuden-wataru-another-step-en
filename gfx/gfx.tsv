@@ -21,6 +21,9 @@ YM/BR17_names.png	YM/BR_17/OTHER06.CHG	C00	4	YM/BR_17/OTHER06.CHG	r9A0	0	112,144
 # G11 shop labels: FD_SHP.PX (768,0) 4bpp, CLUT (208,481) set by the field code (same 16 colours raw in FP00/P00M0.BIN 0x1BE20);
 # records FPRG/FDS.BIN 0x171C6 (合計) / 0x171D4 (個) / ｶﾞﾝﾎﾞ u96 w32 (many, unchanged)
 FM16/SHP_labels.png	FM16/FD_SHP.PX	0	4	FP00/P00M0.BIN	r1BE20	0	96,0,80,16
+# G23 field menu / status glyph sheet: FD_STS.BIN (768,0) 4bpp, same CLUT; whole sheet (png = sheet coords),
+# labels re-cut by gfx.fm_recs (FDS.BIN records), strips laid out by gfx.fm_layout
+FM16/STS_atlas.png	FM16/FD_STS.BIN	0	4	FP00/P00M0.BIN	r1BE20	0	0,0,256,256
 # G12 IQ battle: HIT_MAIN.CHG / KIO_MAIN.CHG blk (896,0) 8bpp, CLUT (0,504) at 0x1A730 (differs per file, same pixels);
 # ST.BIN records 0x3B3FC (labels 64x48: あたり / おしい / あと 回, digit sprite between), 0x3ACAC っ!, 0x3ACBA かち,
 # 0x3ACD8 まけ! (and copies 0x3AE50..)

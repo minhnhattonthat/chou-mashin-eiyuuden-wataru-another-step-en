@@ -26,6 +26,19 @@ def test_set_px_roundtrip():
     assert [gfx.get_px(buf, 0, 4, x, y) for x, y in [(0, 0), (1, 0), (7, 1), (6, 1)]] == [3, 4, 5, 6]
 
 
+def test_fmenu_labels():
+    """G23: every label's records spell its JP, the strips fit the freed rows without overlap, and no other
+    FD_STS record cuts a freed row."""
+    d = gfx.load(gfx.FDS)
+    recs = gfx.fm_recs(d)  # asserts the JP spelling
+    assert len({off for _, off, *_ in recs}) == len(recs), "a record patched twice"
+    lay = sorted(gfx.fm_layout().values(), key=lambda s: (s[1], s[0]))
+    for (u, v, w), (u2, v2, _) in zip(lay, lay[1:]):
+        assert v != v2 or u + w <= u2, "strips overlap"
+    assert all(any(fv == v and fu <= u and u + w <= fu + fw for fu, fv, fw in gfx.FM_FREE) for u, v, w in lay)
+    assert gfx.fm_check(d) == []
+
+
 def test_recs_original():
     for path, off, fmt, old, new, why in gfx.RECS:
         assert struct.unpack_from(fmt, gfx.load(path), off) == old, why

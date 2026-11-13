@@ -62,6 +62,16 @@ def put_text(img, lut, rect, text, font, size, ramp, align="center", spacing=0, 
     return m.size
 
 
+def bdf_width(text, font="spleen-6x12.bdf"):
+    """Width put_bdf draws `text` at with a 1-px outline."""
+    cols = [c for ch in text for c in zip(*bdf(font)[ch])]
+    while cols and not any(cols[-1]):
+        cols.pop()
+    while cols and not any(cols[0]):
+        cols.pop(0)
+    return len(cols) + 2
+
+
 def bdf(name, cache={}):
     """{char: list of rows (lists of 0/1)}, every glyph in the font's full cell (FONTBOUNDINGBOX)."""
     if name in cache:
@@ -307,7 +317,21 @@ def mashin():
         img.save(gfx.GFX / "en" / png)
 
 
-GROUPS = {"title": title, "battle": battle, "shop": shop, "iq": iq, "bubbles": bubbles, "mashin": mashin}
+def fmenu():
+    """G23 field menu / status: every freed glyph row cleared, one English strip per label (gfx.fm_layout), white
+    (index 1) with the dark outline (15) like the JP glyphs; ｹﾞﾝﾎﾞ redrawn in place as Ganbo."""
+    png = "FM16/STS_atlas.png"
+    img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+    lut = lut_of(png)
+    clear(img, *[(u, v, w, 16) for u, v, w in gfx.FM_FREE], gfx.FM_GANBO[:2] + (gfx.FM_GANBO[2], 16))
+    for en, (u, v, w) in gfx.fm_layout().items():
+        assert put_bdf(img, lut, (u, v, w, 16), en, "spleen-6x12.bdf", 1, 15, trim=False)[0] == w, en
+    put_bdf(img, lut, gfx.FM_GANBO[:2] + (gfx.FM_GANBO[2], 16), "Ganbo", "spleen-6x12.bdf", 1, 15, trim=False)
+    img.save(gfx.GFX / "en" / png)
+
+
+GROUPS = {"title": title, "battle": battle, "shop": shop, "iq": iq, "bubbles": bubbles, "mashin": mashin,
+          "fmenu": fmenu}
 
 if __name__ == "__main__":
     for g in sys.argv[1:] or GROUPS:

@@ -2,10 +2,14 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G11, G16, G19; drawn, not yet seen in
-  game: G12, G17, G18; G23 RE done, redraw next). Phase 7 done (2026-11-14): full English build, overflow empty, all
-  46 warp scenes reach.
+- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G11, G16, G19, G23; drawn, not yet seen
+  in game: G12, G17, G18). Phase 7 done (2026-11-14): full English build, overflow empty, all 48 warp scenes reach.
 - **Done:**
+  - Phase 8, session 4 (2026-11-14): **G23** field menu / status / equip / item / monpet-detail labels in English
+    (graphics.md G23, D20: Sp. Attack / Sp. Defense / Ep. are the only short forms). `gfx.FM_LABELS` + `fm_layout`
+    + `fm_recs` + `fm_check`, `gfx_gen.py fmenu`, gfx.tsv row FM16/STS_atlas.png, tests/test_gfx.py
+    test_fmenu_labels. New scenes menu_use (item list + tab heading), menu_status2 (right = next character, not a
+    second page). Build sha1 10dcf222..., 106 tests.
   - Phase 8, session 3 (2026-11-14): **G19** done, verified in scene mashin_attack (VS card + menu): labels Fight /
     Heal / Spirit / Special (one png in all 18 STS files: 攻撃/回復 cells stay 32 px, u56+ is the gauge-pip strip
     MACHINE 0x173E2 and MP, so "Attack" can't fit; Fight matches the ball-battle command), VS-card names per file
@@ -156,13 +160,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
-     can't run Python, Orca refuses nested workers): **G23 field menu/status first** (plan in graphics.md G23: map
-     FDS.BIN 0x12530.. records to words per screen with scenes menu, menu_status, menu_equip, menu_monpet,
-     menu_item; party names from the glossary; also 第01話 chapter label, ｹﾞﾝﾎﾞ money unit, window titles),
+     can't run Python, Orca refuses nested workers): G23 leftovers (monpet element 水/雷/火 = MSG_CG 0xB0-0xB2
+     drawn as one 16x16 cell by FDS code: find the draw site, draw a word or redraw the glyphs as element icons;
+     see the drawn-not-seen G23 labels in graphics.md, e.g. a scene in ep 15 for 最終話, Warurine in the party),
      G19 leftovers: VS cards of episodes 2-14 assumed to use the ep1 record layout (spot-check one later matchup with
      a poke of the battle id if one is found), G20 banners (notes in
-     graphics.md: look at the special-move animation first), G23 field menu/status (FD_STS; its tail is not an
-     upload chain: VRAM-dump the menu scene), G9 memory card (MEM_01, largest), G5 area/chapter cards (SBTCHAR,
+     graphics.md: look at the special-move animation first), G9 memory card (MEM_01, largest), G5 area/chapter cards (SBTCHAR,
      8bpp, scenes ep00-ep14), G6 episode title captions (SUBTTL glyph atlas + SBTTL.BIN sprite lists: re-cut per
      caption), G10 prologue scroll (R15_MES), G22 room signs (decide per sign, waive illegible), credits (STAFF.BIN,
      D3), FMV + FK stills check. Battle names col B (u 160) is drawn somewhere not yet seen: check it. See G12 (IQ
