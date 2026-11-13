@@ -2,10 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Width gate nearly measured (docs/re/windows.md): 3 rows still open (battle item list, mashin attacks).
-  Last build: build/wataru_en.bin sha1 6bebf36b... (2026-11-14, marker build + header patch), smoke ok, battle_ball
-  warp shows the header marker (work/qa/p5/marker2). Stress builds: `tools/stress.py` (dialogue), `--ui` (menus/battle).
+- **Phase:** 5. Width gate nearly measured (docs/re/windows.md): open = もんペット attack names (exe_mashin_attacks),
+  mashin retry-menu shot, mashin win message. Last build: build/wataru_en.bin sha1 6bebf36b... (2026-11-14, marker
+  build + header patch), smoke ok. Stress builds: `tools/stress.py` (dialogue), `--ui` (menus/battle).
 - **Done:**
+  - Phase 5, session 4 (2026-11-14): battle アイテム list measured (11 letters; inventory RAM + builder found, scene
+    battle_item pokes it). Mashin battle: the 斬る/突く, 必殺技 and retry menus are texture strips cut from the MACHINE
+    glyph lists by sprite records (box 8 cells = 16 letters; widening = phase-7 engine item, all addresses in
+    windows.md). Attack-name banner (MACHINE.json names) measured 13 cells = 26 letters via `tools/lua/mbanner.lua`
+    (forces banner actor 0x800BDEE8). exe_mashin_attacks are もんペット moves (read by FDS only), not mashin. New
+    probes: `tools/lua/acts.lua` (log actor-action handlers of EXE table 0x8006E840 with the actor), `mbanner.lua`.
+    New scenes battle_item, mashin_hit. Mashin MP: party 0x800A8D3C is copied; the battle copy is among
+    0x800BE7A6 / 0x800BEBEC / 0x800E0574 (MP 98 shows, yet 登龍剣 (cost 20) still won't fire in ep1: probably not
+    learned). Mashin HP not found (0x800BDA86 / 0x800BEF1A candidates poked to 1: no loss).
   - Phase 5, session 3 (2026-11-14): width gate for menus and battle (windows.md, every row now has a shot path):
     battle message box 16 cells (record-sized, centred), IQ box 16 cells x 3 lines, config labels 6 / values 13
     cells, field config rows 7, place box 10, key-item description 2x16, ENE names in messages = slot, header 11
@@ -65,12 +74,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 5: finish the width gate, `references/pipeline.md` §Width gate):**
-  1. Open windows.md rows: (a) battle-font item names in the battle アイテム list: find the battle item inventory
-     (not 0x800A91F8 = key items; nothing in 0x800A8E00-0x800AA000 is read when アイテム is chosen; try a RAM diff
-     after buying in the shop, or the BALLBAT code that fills the list before 0x800E1C30), poke items, add a scene,
-     then `stress.py --ui` with the bfont names filled. (b) mashin battle: attack names / messages (MACHINE.json,
-     exe_mashin_attacks): press on from scene mashin_attack (斬る -> attack) and fill them. (c) the 斬る/突く list is
-     MACHINE glyph-list data (item 4). Then phase 5 is done.
+  1. Open windows.md rows: (a) もんペット attack names: find the monpet roster RAM (FDS code near 0x80104448 /
+     0x8010469C reads the names; the もんペット screen is empty with none owned), poke one, add a scene, fill
+     exe_mashin_attacks in `stress.py --ui` (already filled) and measure. (b) mashin retry menu (リトライ /
+     ゲームをやめる): find mashin HP (RAM diff across an enemy hit with tighter filters, or the bar-draw code), add a
+     mashin_lose scene, shot the menu box. (c) mashin win message (経験値 .. を手に入れた！): look in a mashin
+     battle_win run. Then phase 5 is done. Phase-7 engine items from this session: mashin strip relayout (windows.md).
   3. Not yet in place-only insert: text longer than its JP slot. Phase 7: grow banks (bank pointers, NPC u32
      arrays: text.md), menu pointers, fixed tables; fallback single-letter cells when a font context overflows.
   4. MACHINE glyph lists 0x1761C/0x17630/0x17648, FDS name-entry grid 0x18468 (data, not in script/ yet).

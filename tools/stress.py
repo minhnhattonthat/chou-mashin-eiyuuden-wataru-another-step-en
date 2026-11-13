@@ -43,6 +43,11 @@ def ui():
         # 19 cells + 2 short lines. Never spill ST:00140: a jump table follows at 0x150 (the game hung)
         "ST:00174": RULER[:38] + "\nL2\nL3",
         "ST:001A8": RULER[:38] + "\nL2\nL3",
+        # battle アイテム list (battle_item, 4th row): bfont = one letter per 8x16 cell; where does the x01 count sit?
+        "+BALLBAT:229C8": RULER[:16],
+        # mashin enemy attack banner (tools/lua/mbanner.lua IDX=0 ACT=5 from the mashin_attack state): 15 cells, the
+        # upload loop stops at 13
+        "+MACHINE:10194": RULER[:30],
     }
     for name in ["fds_places", "exe_key_item_desc", "exe_mashin_attacks"] + ["ene/" + p.stem for p in sorted((ROOT / "script/ene").glob("*.json"))]:
         for e in json.loads((ROOT / "script" / (name + ".json")).read_text(encoding="utf-8"))["entries"]:
@@ -54,7 +59,7 @@ def ui():
 
 if __name__ == "__main__":
     if "--ui" in sys.argv:
-        qa, name, out, only = ui(), "stress_ui", "stress_ui", "battle_ball,title_config,menu_config,menu,menu_key,iq_page2,mashin_attack"
+        qa, name, out, only = ui(), "stress_ui", "stress_ui", "battle_item,battle_ball,title_config,menu_config,menu,menu_key,iq_page2,mashin_attack"
     else:
         qa, name, out, only = STRESS, "stress", "stress", "talk01"
     b, cue = build.build(name=name, qa=qa)
