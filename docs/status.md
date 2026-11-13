@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 1. Research and recon in progress (graphics static sweep done for OUT/PRG/IQ/FM16; YM + room atlases reviewed by codex; text pointer formats mapped for TTL/MACHINE/BALLBAT/FDS; ST/LVUP/EXE pointers, room fonts and free-space trap test left). Last build: none.
+- **Phase:** 1. Research and recon in progress (graphics static sweep done, rows G1-G22; text pointer formats mapped for TTL/MACHINE/BALLBAT/FDS; ST/LVUP/EXE pointers, room fonts and free-space trap test left). Last build: none.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 + mkpsxiso in tools/, smoke boots the original, input + Lua verified, pre-commit gates on tools/check.py, guard hook active, rom.sha1 pinned.
   - Disc unpack/rebuild with mkpsxiso is byte-identical (work/disc/, not yet a test: phase 3).
@@ -11,7 +11,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Overlay bases: PRG overlays 0x800D0000, FDS 0x800F7000 (tools/findbase.py). u32 string tables found for TTL, MACHINE, BALLBAT, FDS.
   - Graphics: CHG = chain of uncompressed VRAM uploads (tools/chg.py, tests/test_chg.py); sweep renders in work/gfx/sweep/ (regenerate: see graphics.md). Rows G1-G15 in docs/re/graphics.md: big ones are MEM_01 (memory-card screen), SUBTTL (episode-title glyph atlas), SBTCHAR (area cards), R15_MES (prologue scroll), TTL menu, IQ win/lose.
 - **Next (phase 1 remainder):**
-  1. Merge codex reviews `work/gfx/sweep/ym_review.md` (YM battle graphics) and `fr_review.md` (room atlases) into graphics.md rows (if missing, rerun: commands in git log of this commit / graphics.md "Pending").
+  1. (done: codex reviews merged as G16-G22.) Static sweep complete except FK* stills (compressed, check in tours).
   2. Pointers for ST.BIN, LVUP.BIN, EXE strings: no u32 pointer hits; log reads with tools/lua/ptrlog.lua on the battle menu / level-up (or disassemble lui/addiu refs). Second text area per room (R00 0x10D28+, branch 0x800326DC).
   3. Which room font is resident for rooms 01/03/05/11/13 (no M16 file by that name): RAM probe on the font buffer.
   4. Free space: trap-fill 0x80128072-0x80148000 and tour (files.md).

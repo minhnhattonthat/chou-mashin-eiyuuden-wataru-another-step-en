@@ -37,12 +37,23 @@
 | G13 | IQ battle cards | BATTLE (English) | IQ/BUR_MAIN.CHG | none |
 | G14 | Eyecatch | logo on CATCH05 | OUT/CATCH05.CHG | keep (logo) |
 | G15 | Puzzle images | logo on PUZ_PG05 | IQ/PUZ_PG05.CHG | keep (logo) |
+| G16 | Battle command menu | たたかう / 必殺技 / アイテム / にげる / さくせん + party names (ワタル, アラゴト, サクヤ?, ...) | YM/BR_17/OTHER01-06.CHG (6 copies) | redraw all copies |
+| G17 | Battle speech bubbles | ゴメンネ, バ〜ン | YM/BR_17/OTHER11.CHG | redraw |
+| G18 | Enemy sprite bubble | 圏外 (with furigana) | YM/BR_01/ENE09.CHG | redraw |
+| G19 | Mashin battle status | mashin names per matchup (龍神丸 / 天翔龍神丸 vs レンジ・チ・チン, いらっしゃい魔神, SFXザウルス, ドウガツクエーン, ライトサーチ, ラクライガー, エレクトロン, イリュージョン, アムラーX・55, ゴールドメダラー, シェイプU2, ジューンブライガー, LLラバーズ, QTコアラッコ, 聖ラブリーフォー, ワルワル・キョジョーン...), labels 攻撃 / 回復 / 気合い / 必殺技 | YM/MR_02/STS_01-18.CHG | redraw 18 files |
+| G20 | Mashin attack-name banners | 登龍剣, 幻影招, 天翔, 龍破, 昇龍烈, 火爆裂, 聖剣 | YM/MR_05/MBEXT_08.CHG | redraw |
+| G22 | Town / room scenery | shop signs in the 3D room atlases: 酒 bottle/lantern label + a dark diagonal kanji sign repeated in most rooms (R00-R14 M0), katakana sign …コロン (R02M1), large stylised shop logos (R08M0), plaques and tokens (R08M1), kanji shop signs (R09M0, R10M0/M1, R13M4); ~40 more "maybe" boards/posters/labels | FR0x/RxxMy.BIN (8bpp, CLUT elsewhere) | decide per sign after a coloured look in the field tour: legible ones redraw, illegible few-pixel signs may stay (log each as a waiver). Full list: `gfx-review-fr.md` |
+| G21 | (maybe) battle backgrounds | possible sign lettering: BR_07/BM_17_0-2, MR_05/MBBG_09, MBBG_12 (unreadable in grey) | YM | check in battle tour |
+
+Not displayed (guess, confirm in battle tour): katakana dev labels beside enemy frames in YM/BR_01/ENE03/04/06/09/10/12
+(タイキ, ヤラレ, ハイボク, キンキョリ, ...). Latin only: ENE01 OUCH!, BM_24 banners, STS MP/VS/BATTLESTAR.
 
 No Japanese in: CATCH01-08 (except logo), CNF.CHG backgrounds, LVUP.CHG portraits, MARUPXL (round area maps,
 rendered as wrong-depth 4bpp; recheck colour in tour), NIJI, SBTTLBG, IQ enemy sprites, FP HUD.
 
-Pending (codex review in progress, merge here): YM/ battle graphics (971 blocks, `work/gfx/sweep/ym_review.md`),
-FR room atlases (94 blocks, `work/gfx/sweep/fr_review.md`; atlases show Latin signs SHOP, 24, NO SOY? already).
+YM/ battle graphics (971 blocks, 23 packed pages) and FR room atlases (94 blocks, 8 pages) reviewed by `codex exec`
+read-only: G16-G22; full tables `gfx-review-ym.md` / `gfx-review-fr.md` with the page maps `gfx-review-*.tsv`
+(page, x, y, w, h, file). Regenerate pages: `chg.py --render` (FR with `--grey8`) then `pack.py`.
 
 Still to do in tours (phase 2/8): menus, status, battle (normal / mashin / IQ), game over, ending, credits (STAFF.BIN is
 not 16-bit text: credits are probably graphics or a format still unknown), every FK still, every FMV.
