@@ -2,11 +2,20 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: not started. Phase 7 done (2026-11-14): full English build, work/overflow.tsv
-  empty, check clean (97 tests: batch lint incl. control codes + ST slot length, romdiff of every write), all 46 warp
-  scenes reach on the English build. Phase-7 re-review of the refitted ST batches (codex): no Critical, Important
-  fixed or waived (work/tl/review_verdicts.tsv).
+- **Phase:** 8. QA in the emulator: in progress (graphics pipeline + pilot groups done: G3, G4, G16). Phase 7 done
+  (2026-11-14): full English build, overflow empty, all 46 warp scenes reach on the English build.
 - **Done:**
+  - Phase 8, session 1 (2026-11-14): graphics pipeline. `tools/gfx.py` (rows in `gfx/gfx.tsv`: png, target file,
+    upload-block offset, bpp, CLUT file + offset (`rHEX` = raw colours in a file header), palette, rect; `export`
+    writes gfx/orig/ + gfx/en/ seeds; the build imports gfx/en/ by palette index through insert.put(), unknown
+    colours fail; `gfx.RECS` = sprite-record patches (fmt, original asserted, new)). `tools/gfx_gen.py GROUP` draws
+    gfx/en/ from gfx/orig/ (label classes: `put_text` TrueType coverage -> palette ramp, `put_bdf` pixel font +
+    1-px outline). Fonts: Liberation Sans 2.1.5 (OFL), Spleen 6x12 (docs/fonts.md). tests/test_gfx.py; romdiff spans
+    and test_reloc know gfx writes. Done, verified zoomed in a cold-boot warp: **G4** title menu (TTL.BIN records
+    0x4FA2/0x4FB0 re-cut: the kana shared ニュー), **G3** copyright line 1, **G16** battle commands + party names in
+    all six YM/BR_17/OTHER0n.CHG (CLUT found by VRAM dump: `--script tools/lua/vdump.lua --var FR=<frame before the
+    warp's DONE>`; BALLBAT name records widened to 48). Sprite records here: `[u16 tpage, u16 clut, u8 u, u8 v,
+    u16 w, u16 h, s16 x, s16 y]`; find them by scanning the overlay for the atlas u/v/w/h (TTL.BIN, BALLBAT).
   - Phase-7 review fixes (2026-11-14, H:\translation\.harness\reviews\...-phase7.md): insert fails the build on any
     fixed-slot overflow (qa builds excepted) and `batches.py` lints every fixed slot (was ST only); romdiff writes
     must sit in allowed spans built from the script layout + named sites (test_insert `allowed_spans`); new
@@ -129,10 +138,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  1. Graphics rows G1-G24 (docs/re/graphics.md; title menu G4, memory card G9, battle commands G16, mashin status
-     G19, field menu/status G23, chapter cards G5/G6, STAFF.BIN credits, FMV check): one pilot group, then parallel
-     graphics agents. Then routes + contact sheets with visual-QA verdicts (`qa_gate.py check`), `inkbox.py`,
-     `textcover.py`.
+  1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
+     can't run Python, Orca refuses nested workers): G23 field menu/status (FD_STS; its tail is not an upload
+     chain: VRAM-dump the menu scene), G9 memory card (MEM_01, largest), G5 area/chapter cards (SBTCHAR, 8bpp,
+     scenes ep00-ep14), G6 episode title captions (SUBTTL glyph atlas + SBTTL.BIN sprite lists: re-cut per caption),
+     G10 prologue scroll (R15_MES), G11 shop 個/合計, G12 IQ あたり/おしい/まけ/かち, G17/G18 bubbles, G19 mashin status
+     (18 STS files), G20 mashin banners (MBEXT_08), G22 room signs (decide per sign, waive illegible), credits
+     (STAFF.BIN, D3), FMV + FK stills check. Battle names col B (u 160) is drawn somewhere not yet seen: check it.
+     Screenshots are 320x240 even where the game runs wider: zoom (`sheet.py --crop --zoom 3`) before judging.
+     Then routes + contact sheets with visual-QA verdicts (`qa_gate.py check`), `inkbox.py`, `textcover.py`.
   2. Carried from phase 7 (QA must confirm or fix): FDS monpet name-entry grid 0x18468 is still kana (no scene
      reaches it yet; find how 0x77C78 なまえを入れてください is reached, then put Latin letters in the grid as
      single-letter pair codes, and check where entered names are drawn: 16x16 font = pair codes, 8x16 = code+14);
