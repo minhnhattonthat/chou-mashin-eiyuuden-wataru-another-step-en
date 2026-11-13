@@ -14,7 +14,6 @@ pytestmark = pytest.mark.skipif(not build.CUE.exists() or not (build.MKPSX / "mk
 
 
 def test_unpacked_repack_is_identical(tmp_path):
-    # shortcut: compares the no-edit build; once phase 5 adds edits, give build() a no-edits switch and keep this.
-    b, c = build.build(tmp_path, "ident")
+    b, c = build.build(tmp_path, "ident", edits={})
     assert build.sha1(b) == build.rom_sha1()
     assert c.read_text().startswith('FILE "ident.bin" BINARY')

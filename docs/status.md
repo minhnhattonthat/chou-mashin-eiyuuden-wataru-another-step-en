@@ -2,9 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build next (phase 4 done 2026-11-14: roundtrip + coverage tests green).
-  Last build: build/wataru_en.bin, sha1 c2c044d1... (= original, no edits), smoke ok 2026-11-13.
+- **Phase:** 5. Engine spike done (font decided, D8), marker build in progress.
+  Last build: build/wataru_en.bin sha1 089e52b4... (2026-11-14, spike: one ep01 page in English), boots, ep01 warp ok.
 - **Done:**
+  - Phase 5, session 1 (2026-11-14): glyph path traced (docs/re/font.md): src = 0x80115300 + code*128, one
+    LoadImage per 16x16 glyph into a VRAM window buffer, 124 render sites across EXE/ST/BALLBAT/MACHINE/TTL/LVUP/FDS.
+    **D8: two letters per 16x16 cell**, pre-rendered (`tools/digraph.py`, Spleen 8x16 in `fonts/`), codes allocated
+    per font context like kanji; no renderer patch. Spike (`tools/insert.py`): R01:0E7CA in English, legible in game
+    (work/qa/p5/spike3). `build.build(edits=...)`: `{}` = identity (test_identity), default = `insert.edits()`;
+    edited files go to work/disc/en/ via layout_en.xml. Probes: `lua/readpcs.lua`, `callers.lua`, `stackwalk.lua`,
+    `vdump.lua` + `tools/vram.py`.
   - Phase 4 done (session 3, 2026-11-14): menu sources structured (docs/re/text.md "Menu-source structure"). A string
     starts at every pointer target (blank cells after one are kept: cursor indents); `[u32 id, u32 ptr]` records
     dropped; BALLBAT battle-font item names (`kind: bfont`, `jtext.battle_table`, 8x16 font at RAM 0x80110000);
@@ -39,14 +46,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 5: engine spike + marker build, `references/pipeline.md` §Marker, `platform-ps1.md`):**
-  1. Give `build.build()` a no-edits switch first so test_identity stays green, then an insert path from script/.
-  2. Engine spike: font decision for the 16x16 MSG_CG/M16 text (half-width / VWF / 2-letters-per-cell) and the other
-     fonts: CNF_MSG (TTL config), BALLBAT 8x16 item font at RAM 0x80110000 (find its file), MACHINE glyph lists
-     0x1761C/0x17630/0x17648 (tbl/menu_data.txt: find how the mashin battle draws them), the FDS name-entry grid
-     0x18468 (Latin letters). Boot every attempt.
-  3. Fixed fields (EXE names 8-10 cells, 16-cell lines, FDS places 10, voices 7, BALLBAT 8-16): English won't fit
-     at full-width cells; relocate (pointer arrays mean free lengths, fixed tables need their base refs rewritten:
-     text.md "EXE text") or shrink the glyphs.
+  1. Insert path from script/ (replace the spike in `tools/insert.py`): per font context (MSG_CG common; M16 per
+     episode font, R13.BIN split by `rooms.font`) count pairs, put the most shared into MSG_CG codes (keep digits
+     0xB4-0xBD, icons, ▼ 0x181, 0x0000 blank), the rest into the M16 file (rewrite the file; codes 0x1A4+, keep
+     the room font's size cap ~190 / RAM up to 0x80128400), fallback single-letter cells; write log + romdiff.
+     Room pages: grow banks (bank pointers, NPC u32 arrays: text.md) or keep in place where the text fits.
+  2. Marker build: `[id]` + filler per entry at the JP cell count x2 letters, every source; boot, warp tour.
+  3. Other fonts: CNF_MSG (config, TTL), BALLBAT 8x16 battle font (8-px cells already: single letters; find its
+     file), MACHINE glyph lists 0x1761C/0x17630/0x17648, FDS name-entry grid 0x18468. Boot every attempt.
+  3b. Fixed fields now hold 2 letters per cell (8-cell name = 16 letters): measure, relocate only what still overflows.
   4. Free-RAM: 0x80128800-0x80148000 is free outside battles only (files.md); pick a region that survives battles.
   5. Marker build (`[id]` per entry), tour with the warps, width gate: measure every box variant in-game.
   6. Phase 6 prep (translator batches): speakers are the first line (`ワタル：`); pages end 2000 (next page) /

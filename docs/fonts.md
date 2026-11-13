@@ -5,5 +5,4 @@ per file; a font with no known licence doesn't go into a release.
 
 | File | Source (URL, version) | Licence | Redistributable in a patch | Used for | Changes made |
 |---|---|---|---|---|---|
-| <fonts/vwf_8px.png> | <drawn for this project> | <MIT, same as repo> | yes | <dialogue VWF> | <-> |
-| <fonts/Title.ttf> | <url, v1.2> | <OFL 1.1> | <yes, as rendered glyphs> | <typeset.py title cards> | <-> |
+| fonts/spleen-8x16.bdf | github.com/fcambus/spleen, tag 2.1.0 (fonts/LICENSE-spleen.txt) | BSD-2-Clause | yes, with the licence text in the release README | two-letter cells of the 16x16 text fonts (tools/digraph.py) | 8th column cleared (T, *); shadow added at render |
