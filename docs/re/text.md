@@ -17,8 +17,7 @@ Disc: SLPS-01368 (Banpresto / Aspect, 1998-04-23). EXE `SLPS_013.68`: PS-X EXE, 
 - **0x01A4+: per-room kanji**, allocated in order of first appearance in that room's script. Glyph = room font file index
   code - 0x1A4. verified: R00 族=0x1C3 = `M16_R00.BIN` glyph 0x1F, 申=0x1C4 = glyph 0x20.
   - Room fonts: `FM16/M16_Rxx.BIN` (xx hex: R0A = room 10, R0E = room 14), same 128-byte glyph format; up to 190 glyphs
-    (max code 0x261). Rooms 01, 03, 05, 11, 13 have no M16 file by that name (fonts elsewhere; M16_R11-R14 may be rooms
-    17-20 or those). **guess**, verify which font is resident per room with a RAM probe in phase 2/4.
+    (max code 0x261). Room-to-font map by glyph count: "Fonts other than MSG_CG / M16" below (R01/R03/R05 open).
   - The same code means different kanji in different rooms: the table is per room (common + room).
 - Text controls inside a message: 0x1000 newline, 0x2000 end of page/message. Menus and tables end strings with 0xFFFF
   or 0x9999 (ST.BIN choice lists: `[9999][0000][0000][0000]はい`).
@@ -38,8 +37,13 @@ Disc: SLPS-01368 (Banpresto / Aspect, 1998-04-23). EXE `SLPS_013.68`: PS-X EXE, 
   and no 32-bit pointer word lies inside a bank (scan of R00). So banks can be relocated by rewriting only the bank
   pointer words, and English may change lengths freely inside a bank.
 - Text ranges (`tools/msgscan.py`, message-like runs): R00 0xCCF4-0x12328 ... R14 0x1BCA0-0x285C6; ~9,600 runs total.
-  The upper ends include a second text area per room (e.g. R00 0x10D28+) not covered by the 3 banks: find its reader
-  (other branch at 0x800326DC uses tables at 0x800ECD9C/0x800ECDB0).
+- **Second text area = NPC talk, per-message u32 pointers** (verified static, R00): after the event data, records of
+  8 zero halfwords then `speaker：/text`, pages end 0x2000, a message ends **0x3000**. Reached through u32 pointer
+  arrays at the overlay's tail: R00 0x1233C (16 ptrs -> 0x116AC-0x122C0) and 0x1237C (21 ptrs -> 0x109EC-0x1162C),
+  then 0x123D0+ pointers to those pointer slots. Every room has the same layout: its last pointer array points into
+  the end of its text range (R10 0x119EC[50], R14 0x25320[65]...; `re.py`-style u32 scan, 2026-11-13). So these
+  messages relocate by rewriting one u32 each. The 48-entry arrays in the middle of each room are event tables.
+  Reader: branch 0x800326DC (guess, not traced).
 - Other branch tables (0x800DED28 etc.) in the switch read data that is text in R00: those cases are for other rooms.
 
 ## Other text (verified to decode; pointer formats partly mapped)
@@ -50,13 +54,41 @@ right after the largest room overlay.
 
 | File | What | Base | Pointers |
 |---|---|---|---|
-| `SLPS_013.68` 0x6AA10-0x7CA9A | save-lady tutorial, system messages, menus | EXE 0x80018000 (file+0x7F800) | 32-bit tables nearby (0x8008xxxx); map in phase 4 |
-| `PRG/ST.BIN` (252 KB) | battle menu: バトルをつづける/リトライ/ギブアップ, はい/いいえ, battle messages | 0x800D0000 (guess: jal range; header table at 0x10 holds code pointers 0x800D40DC...) | **no u32 pointer lands on a string start at any base**: strings reached by lui/addiu or record walk. Log reads with `tools/lua/ptrlog.lua` in phase 4 |
+| `SLPS_013.68` 0x6AA10-0x7CA9A | save-lady tutorial, system messages, menus | EXE 0x80018000 (file+0x7F800) | see "EXE text" below |
+| `PRG/ST.BIN` (252 KB) | battle menu: バトルをつづける/リトライ/ギブアップ, はい/いいえ, IQ-battle and battle dialogue (0x106-0x3D26) | 0x800D0000 (verified: lui/addiu pairs land exactly on block starts) | **lui/addiu pairs** (`tools/re.py strrefs`: 195 of 385 runs hit directly; all 385 sit in a block whose start or member is referenced). Blocks end 0xFFFF; 0x9999 = newline inside a line and also separates choice items (`[9999][0000]リトライ`); 0x0000 pads. Gendered/variant pairs sit back to back (…てるんだ！ / …てるの！) |
 | `PRG/BALLBAT.BIN` | party names, battle text | 0x800D0000 (98 string pointers) | u32 tables at file 0x2E8-0x7B4 (276 ptrs incl. near-dupes) |
 | `PRG/MACHINE.BIN` | mashin attack names (マイクロ・ウェーブ, ...) | 0x800D0000 (53) | u32 table 0x103E4-0x10450 (26) + singles |
 | `PRG/TTL.BIN` | config/title menu: ボイス, Ｒ１ボタン, ＩＱバトル | 0x800D0000 (34) | one u32 table 0x5744-0x57D4 (34 = every string) |
-| `PRG/LVUP.BIN` | level up: ワタルはレベル … になった！ | 0x800D0000 (jal) | no u32 hits: lui/addiu (guess) |
+| `PRG/LVUP.BIN` | level up: ワタルはレベル … になった！ (0x1B68-0x1C88) | 0x800D0000 (jal) | 3 blocks (one per hero), each start built by lui/addiu (verified static: 0x1B68, 0x1BCC, 0x1C28). Inside: 0x9999 newline, `[0000][0000]` = where the level number goes, 0xFFFF end |
 | `FPRG/FDS.BIN` | shop / place names: コンビニ, ガンボづくし | 0x800F7000 (jal + 17) | u32 table 0x124B4-0x124E8 (13) + singles |
+
+### EXE text (static, 2026-11-13; offsets are file offsets, RAM = file + 0x80017800)
+
+- Messages: lui/addiu pairs reach 196 of 668 runs; 410 sit in a referenced block. u32 pointer arrays (all verified as
+  arrays of string starts by listing): 0x6A4D8 (59), 0x70B6C (224), 0x76884 (109), 0x76B38 (97), 0x76DBC (38),
+  0x7808C (16), 0x78AD8 (16), 0x7CAB8 (210 -> 0x7A554+, the big system-message table), 0x7CF28 (19 key-item names),
+  0x7D3B4 (19 key-item descriptions, 0x40 each), 0x7D7B0 (4 -> consumable-name sub-tables), 0x7DC5C (4 -> item-effect
+  text sub-tables), plus small ones (0x77B8C, 0x79BF0, 0x79E44, 0x7A3F8, 0x7A548). Pointer arrays mean free lengths.
+- **Fixed-width name fields** (no per-string pointer; code indexes base + i*stride; guess until a read is logged):
+  key items 0x7CE18+ 0x10 (8 codes), consumables 0x7D400+ 0x10, item effects 0x7D7C0+ 0x14, **equipment
+  0x7DC7C-0x7E1BC 0x10**, abilities 0x7F858-0x7F9A8 0x0E (7 codes), **mashin attacks 0x80094-0x801AC 0x14**,
+  **enemy names 0x80300-0x80544 0x14** (lui/addiu builds 0x802EC = base - 0x14: 1-based index). A full 8-code name
+  has no terminator (プロテクトバンド fills 16 bytes). English must fit these widths, or the tables move and the base
+  references (lui/addiu, maybe also `$gp` = 0x8009C618) get rewritten: an engine decision for phase 5.
+- Noise, not text: 0x67D94-0x69DD8 and 0x6A7B8-0x6A938 (0x80-stride numeric tables), 0x7F048-0x7F408 (0x40 records).
+- Codes >= 0x1A4 in EXE runs come almost only from those noise tables; menu text uses MSG_CG codes (guess: check the
+  status screen in phase 2).
+
+### Fonts other than MSG_CG / M16
+
+- `OUT/CNF_MSG.BIN` (98,688 B = 771 glyphs, 16x16 4bpp, verified by render): config-screen font, kana at the same cells
+  as MSG_CG (あ = glyph 0xA6 + 0x01), more kanji after. TTL.BIN (config) strings index it (guess: check in config tour).
+- Room fonts by glyph count (room's highest code - 0x1A3 = font glyph count, guess): R00 = M16_R00 (183), R06 = M16_R06
+  (188), R07 = M16_R07 (187), R09 = M16_R09 (190), R10 = M16_R0A (134), **R11 = M16_R11 (175)**, **R13 = M16_R13
+  (190)**, **R14 = M16_R0E (189)**; R02 167 <= M16_R02 169; R04 176 <= M16_R04 178. Open: R01 (178), R03 (169), R05
+  (178), R08 (198 > every font: noise in the scan) and who uses M16_R12 (97) / M16_R14 (225). The EXE names every font
+  file at 0x8001CB14-0x8001CC04 (one string each, no u32 pointers: probably resolved once into an LBA table). Settle
+  with a RAM read of the loaded font per room once the debug tool warps there (phase 2).
 
 Not 16-bit text (all runs decode to noise, `msgscan.py --menu` + decode, 2026-11-13): MOVIE, SBTTL, MEMORY, FD_STS,
 FVHH/STAFF.BIN (credits: graphics or another format), FP*, FR*, FK*, IQ/*.CHG, YM/* (incl. MR_09/MBPRG code overlays),

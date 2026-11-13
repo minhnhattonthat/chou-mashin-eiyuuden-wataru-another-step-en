@@ -20,7 +20,11 @@
   room (0x800F6B3C-0x800F7000, 1.2 KB) is all there is between rooms and FDS. So R00's zero run 0x800F1A00-0x800F7000
   is room space for bigger rooms, not free. PRG overlays (ST, BALLBAT, MACHINE, TTL, LVUP, SBTTL, MEMORY) load at
   0x800D0000, i.e. over the room overlay area: different game modes swap them.
-- Best free-RAM candidate: 0x80128072-0x80148000 (128 KB, zero during R00 dialogue). Not yet trap-filled: fill with a
-  trap pattern from a Lua hook and tour field, shop, battle, IQ battle, save before relying on it (phase 5).
+- Best free-RAM candidate: **0x80128800-0x80148000** (126 KB). Trap test `tools/lua/trapwatch.lua` (fill 0xA5, log
+  dirty sub-ranges every 600 frames), 2026-11-13: cold boot + intro FMV + title (work/qa/trap0) dirtied only
+  0x80128072-0x80128800; R00 field, dialogue, walking out into the village, 36,000 frames from r3/s009000
+  (work/qa/trap1) dirtied nothing, and the game ran on with the trap bytes in place. Still untoured: menus, shop,
+  battle (normal / mashin / IQ), save screen, FMV mid-game: re-run the probe over the phase-2 warp list before phase 5
+  puts anything there.
 - Free space inside each overlay: the old bank area once banks move; plan in phase 3/5 (append banks past the overlay end
   if the RAM after the largest room is free, else reuse the old area plus a second region).

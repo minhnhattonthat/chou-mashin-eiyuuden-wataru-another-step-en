@@ -12,8 +12,8 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| text.md | 16-bit encoding, fonts, room message banks + bank pointer tables, other text files | encoding + R00 banks verified; other pointer formats open |
-| files.md | disc layout, identity rebuild, formats, RAM map / free-space candidates | identity verified; free space guessed |
-| graphics.md | graphics-text survey | partial (tour to first dialogue; static CHG sweep to do) |
+| text.md | 16-bit encoding, fonts, room banks + NPC-talk pointer arrays, PRG/FDS/EXE pointer formats, fixed-width EXE name tables | encoding, banks, ST/LVUP/EXE refs verified static; room fonts for R01/R03/R05 and fixed-table readers guessed |
+| files.md | disc layout, identity rebuild, formats, RAM map / free space | identity verified; free space trap-tested in title + R00 field only |
+| graphics.md | graphics-text survey G1-G24 | static sweep done; tours still owe FK stills, FMV, credits, battle/menu checks |
 
-Recon helpers in `tools/`: `sjisscan.py`, `msgscan.py`, `peek.py`, `fontview.py`, `mktbl.py`, `lua/ptrlog.lua`.
+Recon helpers in `tools/`: `sjisscan.py`, `msgscan.py`, `peek.py`, `fontview.py`, `mktbl.py`, `re.py` (lui/addiu constants, string refs), `lua/ptrlog.lua`, `lua/trapwatch.lua` (free-space trap).
