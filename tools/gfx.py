@@ -35,6 +35,13 @@ RECS = [
 # BALLBAT party-panel names (col u=112, rows v 144-192): w 32/40 -> 48, left edge kept (HP digits sit far right)
 RECS += [("PRG/BALLBAT.BIN", off + 6, "<H", (w,), (48,), "battle name w") for off, w in
          ((0x250FC, 32), (0x2510A, 40), (0x25118, 32), (0x25144, 32), (0x25160, 32), (0x2518C, 32), (0x2519A, 40))]
+# FDS shop total line (FD_SHP.PX, G11): 個 -> "pcs" 18 px, 合計 -> "Total" moved 2 px right in the atlas
+RECS += [
+    ("FPRG/FDS.BIN", 0x171C6, REC, (0x0C, 0x784D, 144, 0, 32, 16, -32, 8), (0x0C, 0x784D, 146, 0, 30, 16, -32, 8),
+     "shop Total"),
+    ("FPRG/FDS.BIN", 0x171D4, REC, (0x0C, 0x784D, 128, 0, 16, 16, -56, 8), (0x0C, 0x784D, 128, 0, 18, 16, -56, 8),
+     "shop pcs"),
+]
 
 
 def rows():

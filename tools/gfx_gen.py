@@ -93,22 +93,32 @@ def bdf(name, cache={}):
     return out
 
 
-def put_bdf(img, lut, rect, text, font, ink, edge, align="center"):
-    """Pixel-font text with a 1-px outline (8-neighbour) in rect; trims the font cell's empty rows/columns."""
+def _embolden(cols):
+    out = [tuple(a | b for a, b in zip(c, p)) for c, p in zip(cols + [(0,) * len(cols[0])], [(0,) * len(cols[0])] + cols)]
+    return out
+
+
+def put_bdf(img, lut, rect, text, font, ink, edge, align="center", trim=True, shadow=None, bold=False):
+    """Pixel-font text with a 1-px outline (8-neighbour; none when edge is None) in rect; trims the font cell's
+    empty rows/columns."""
     g = bdf(font)
     cols = [c for ch in text for c in zip(*g[ch])]  # columns left to right
+    if bold:  # faux bold: each glyph ORed with itself 1 px right (one extra column per glyph)
+        cols = [c for ch in text for c in _embolden(list(zip(*g[ch])))]
     while cols and not any(cols[-1]):
         cols.pop()
     while cols and not any(cols[0]):
         cols.pop(0)
     rows_used = [j for j in range(len(cols[0])) if any(c[j] for c in cols)]
-    j0, j1 = rows_used[0], rows_used[-1]
-    w, h = len(cols) + 2, j1 - j0 + 3
+    j0, j1 = (rows_used[0], rows_used[-1]) if trim else (0, len(cols[0]) - 1)  # trim=False: one baseline
+    e = edge is not None
+    s = shadow is not None  # 1-px drop shadow down-right
+    w, h = len(cols) + 2 * e + s, j1 - j0 + 1 + 2 * e + s
     x, y, rw, rh = rect
-    assert w <= rw + 2 and h <= rh, (text, (w, h), rect)  # up to 2 px over: the outline's end columns are cut
+    assert w <= rw + 2 * e and h <= rh, (text, (w, h), rect)  # up to 2 px over: the outline's end columns are cut
     ox = x + ((rw - w) // 2 if align == "center" else 0)
     oy = y + (rh - h + 1) // 2
-    on = {(i + 1, j - j0 + 1) for i, c in enumerate(cols) for j in range(j0, j1 + 1) if c[j]}
+    on = {(i + e, j - j0 + e) for i, c in enumerate(cols) for j in range(j0, j1 + 1) if c[j]}
     px = img.load()
     for i in range(w):
         if not x <= ox + i < x + rw:
@@ -116,8 +126,10 @@ def put_bdf(img, lut, rect, text, font, ink, edge, align="center"):
         for j in range(h):
             if (i, j) in on:
                 px[ox + i, oy + j] = lut[ink]
-            elif any((i + a, j + b) in on for a in (-1, 0, 1) for b in (-1, 0, 1)):
+            elif e and any((i + a, j + b) in on for a in (-1, 0, 1) for b in (-1, 0, 1)):
                 px[ox + i, oy + j] = lut[edge]
+            elif s and (i - 1, j - 1) in on:
+                px[ox + i, oy + j] = lut[shadow]
     return w, h
 
 
@@ -169,7 +181,92 @@ def battle():
     img.save(gfx.GFX / "en" / png)
 
 
-GROUPS = {"title": title, "battle": battle}
+def shop():
+    """G11 shop labels (FD_SHP.PX row v 0-15): ｶﾞﾝﾎﾞ u96 w32, 個 u128 -> 18 px, 合計 u144 -> u146 w30 (gfx.RECS)."""
+    png = "FM16/SHP_labels.png"
+    img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+    lut = lut_of(png)
+    clear(img, (0, 0) + img.size)
+    for rect, t in (((2, 0, 30, 16), "Ganbo"), ((32, 0, 18, 16), "pcs"), ((50, 0, 30, 16), "Total")):
+        put_bdf(img, lut, rect, t, "spleen-6x12.bdf", 1, None, trim=False, shadow=13)
+    img.save(gfx.GFX / "en" / png)
+
+
+def _grow(on, r):
+    return {(i + a, j + b) for i, j in on for a in range(-r, r + 1) for b in range(-r, r + 1)}
+
+
+def put_stone(img, lut, rect, text, size, face, edge, shade, font=SANS_B, xs=1.0):
+    """Big carved letters: face ramp face[0] (top) .. face[-1] (bottom), 2-px outline `edge`, 3-px drop shadow
+    `shade`, centred in rect (IQ まけ!/かちっ! style). xs < 1 condenses the letters to the tall JP proportions."""
+    m = mask(text, font, size)
+    m = m.resize((max(1, round(m.size[0] * xs)), m.size[1]), Image.LANCZOS)
+    on = {(i, j) for j in range(m.size[1]) for i in range(m.size[0]) if m.getpixel((i, j)) > 110}
+    ring = _grow(on, 2)
+    drop = {(i + 3, j + 3) for i, j in ring}
+    w, h = m.size[0] + 7, m.size[1] + 7
+    x, y, rw, rh = rect
+    assert w <= rw and h <= rh, (text, (w, h), rect)
+    ox, oy = x + (rw - w) // 2 + 2, y + (rh - h) // 2 + 2
+    px = img.load()
+    for i, j in drop - ring:
+        px[ox + i, oy + j] = lut[shade]
+    for i, j in ring - on:
+        px[ox + i, oy + j] = lut[edge]
+    for i, j in on:
+        px[ox + i, oy + j] = lut[face[j * len(face) // m.size[1]]]
+
+
+def iq():
+    """G12 IQ battle: hit-and-blow labels (HIT only) and the LOSE! / WIN! cards (HIT + KIO, own CLUTs)."""
+    png = "IQ/HIT_labels.png"
+    img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+    lut = lut_of(png)
+    clear(img, (0, 0) + img.size)
+    # row 3 = "Tries [digit]": the digit sprite sits at x 32-47, where あと/回 left a gap
+    for rect, t in (((0, 0, 64, 16), "Hit"), ((0, 16, 64, 16), "Blow"), ((0, 32, 32, 16), "Tries")):
+        put_bdf(img, lut, rect, t, "spleen-6x12.bdf", 1, 14, align="left")
+    img.save(gfx.GFX / "en" / png)
+    face = [16, 16, 17, 17, 18, 18, 19, 19, 21]
+    for game in ("HIT", "KIO"):
+        for name, t, xs in (("lose", "LOSE!", .58), ("win1", "WIN", .52), ("win2", "!", 1)):
+            png = f"IQ/{game}_{name}.png"
+            img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+            clear(img, (0, 0) + img.size)
+            put_stone(img, lut_of(png), (0, 0) + img.size, t, 80, face, 26, 23, xs=xs)
+            img.save(gfx.GFX / "en" / png)
+
+
+def recolor(img, lut, rect, frm, to):
+    """Inside rect, pixels of palette indices `frm` become index `to` (wipe text off a bubble, keep its fill)."""
+    px = img.load()
+    x, y, w, h = rect
+    for j in range(y, y + h):
+        for i in range(x, x + w):
+            if px[i, j] in [lut[k] for k in frm]:
+                px[i, j] = lut[to]
+
+
+def bubbles():
+    """G17 OTHER11 speech bubbles: ゴメンネ♥ -> Sorry♥ (the heart stays), バ〜ン -> Bam!"""
+    for png, wipe, rect, t in (("YM/O11_sorry.png", (4, 1, 44, 25), (5, 4, 40, 18), "Sorry"),
+                               ("YM/O11_bam.png", (2, 2, 34, 28), (3, 6, 30, 18), "Bam!")):
+        img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+        lut = lut_of(png)
+        recolor(img, lut, wipe, (6, 7), 5)
+        put_bdf(img, lut, rect, t, "spleen-6x12.bdf", 7, None, shadow=6)
+        img.save(gfx.GFX / "en" / png)
+    # G18 ENE09 圏外 (phone "out of range") with furigana -> "No / Signal" on the grey fill (index 13)
+    png = "YM/E09_signal.png"
+    img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
+    lut = lut_of(png)
+    recolor(img, lut, (6, 4, 46, 36), (1, 2, 3, 4, 5), 13)
+    put_bdf(img, lut, (7, 8, 44, 13), "No", "spleen-6x12.bdf", 3, None, shadow=1, bold=True)
+    put_bdf(img, lut, (7, 21, 44, 13), "Signal", "spleen-6x12.bdf", 3, None, shadow=1, bold=True)
+    img.save(gfx.GFX / "en" / png)
+
+
+GROUPS = {"title": title, "battle": battle, "shop": shop, "iq": iq, "bubbles": bubbles}
 
 if __name__ == "__main__":
     for g in sys.argv[1:] or GROUPS:
