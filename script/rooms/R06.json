@@ -989,7 +989,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "きっと、何かの縁があるとしたら、\nこれを元通りにする方法をこの世\n界で探せ、ということでござろう。",
-   "en": "If fate is at work, surely we\nmust find how to restore it in\nthis world, here on this Layer.",
+   "en": "If fate is at work, surely we\nmust find a way to restore this\nsword here in this world.",
    "status": "done"
   },
   {
@@ -1421,7 +1421,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ヒミコ：\nほぇ？　鳥さんいらないのか？",
-   "en": "Himiko:\nHuh? Don't you want Birdie-san?",
+   "en": "Himiko:\nHuh? Don't you want the birdie?",
    "status": "done"
   },
   {
@@ -1655,7 +1655,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nにゃはははははっ！\n鳥さんの攻撃なのだーっ。",
-   "en": "Himiko:\nNya ha ha ha ha!\nIt's Birdie-san's attack!",
+   "en": "Himiko:\nNya ha ha ha ha!\nThe birdie's attacking!",
    "status": "done"
   },
   {
@@ -1898,7 +1898,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nトリさんならいるぞっ。",
-   "en": "Himiko:\nWe've got Birdie-san!",
+   "en": "Himiko:\nWe've got the birdie!",
    "status": "done"
   },
   {

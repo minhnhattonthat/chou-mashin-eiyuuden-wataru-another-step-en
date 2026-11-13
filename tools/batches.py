@@ -30,7 +30,7 @@ FREE = set()
 VARIABLE = r"\[var[^\]]*\]"  # no drawn-number placeholders in this game's script
 HONORIFICS = {"くん": "-kun", "さん": "-san", "さま": "-sama", "様": "-sama", "ちゃん": "-chan"}  # D1, after a name
 NAME_CH = "ァ-ヶーＡ-Ｚ"  # a honorific counts only right after a katakana name (not おじさん, 貴様, 皆さん, 母さん)
-NOT_NAMES = r"(ゴクロー|ゴクロウ|オツカレ|ジイ|バア|コンビニ)(さん|さま|様)"  # set phrases / kin words, not a name
+NOT_NAMES = r"(ゴクロー|ゴクロウ|オツカレ|ジイ|バア|バー|コンビニ|オニ|トリ)(さん|さま|様|ちゃん)"  # set phrases, not names
 LIMITS = "docs/re/windows.md"  # letters per line (two per 16x16 cell, D8) and lines per box
 
 
@@ -212,12 +212,13 @@ def problems(entry, en, terms):
         out.append(f"control codes differ: JP {dict(want)} EN {dict(have)}")
     if re.search(VARIABLE + r"(st|nd|rd|th)\b", en):
         out.append('ordinal suffix after a variable (write "No. [var]")')
-    jp_plain = TOKEN.sub("", jp)
+    jp_plain = TOKEN.sub("", jp).replace("\n", "")  # a word may wrap mid-word (この世/界): 界 alone isn't a term
     for jps, ens, avoid in terms:
         if any(has_term(jp_plain, j) for j in jps) and not any(e.lower() in en.lower() for e in ens):
             out.append(f"glossary: {jps[0]} -> {ens[0]}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]
-    for m in re.finditer(r"\b([a-z][a-z']{2,})-(san|sama|chan|kun)\b", en):  # "bride-san", "sisters-chan"
+    kin = "Father|Mother|Sisters?|Brothers?|Grand(?:mother|father)|Uncle|Aunt|Chief|Birdie|Lady|Bride|God|Granny"
+    for m in re.finditer(rf"\b([a-z][a-z']{{2,}}|{kin})-(san|sama|chan|kun)\b", en):  # "bride-san", "Father-sama"
         if m[1] != "chan":  # cha-cha chan-chan (music)
             out.append(f"honorific on a common noun: {m[0]} (names only)")
     jp_names = re.sub(NOT_NAMES, "", jp_plain)

@@ -3716,7 +3716,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "何分、おじは歌が下手で・・・。",
-   "en": "You see, my uncle is\nsuch a dreadful singer...",
+   "en": "You see, this gentleman is\nsuch a dreadful singer...",
    "status": "done"
   },
   {
@@ -4391,7 +4391,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじいさん：\n前に一度、【ワルトリン】さまの\n部屋に行ったことがあるのじゃ。",
-   "en": "Old Man:\nI've been to Warutorin-sama's\nroom once before.",
+   "en": "Old Man:\nI've been to Warutorin-sama's\nroom once before, ye know.",
    "status": "done"
   },
   {
@@ -4400,7 +4400,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "そのとき、たしか、Ａ１・Ａ２・\nＡ３・Ｂ１・Ｂ３の順に進んだら、\n他とならびの違う通路に出たぞい。",
-   "en": "A1, A2, A3, B1, B3, I think.\nThat route led me to a hall\nlaid out unlike all the others.",
+   "en": "A1, A2, A3, B1, B3, I reckon.\nThat led me to a hall laid out\nunlike the rest, ye see.",
    "status": "done"
   },
   {

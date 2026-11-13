@@ -1430,7 +1430,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "ちょうろう：\n何か困ったことがあったら、\nワシに、こえをかけてくだされ。",
-   "en": "Elder:\nIf anything troubles you,\njust come and speak to me.",
+   "en": "Elder:\nIf anything troubles ye,\ncome and have a word with me.",
    "status": "done"
   },
   {
@@ -1520,7 +1520,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "それはワクワクするのう。",
-   "en": "That does sound exciting.",
+   "en": "That sounds exciting, eh?",
    "status": "done"
   },
   {
@@ -1574,7 +1574,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "ちょうろう：\nそうかのう・・・。\nざんねんじゃ・・・。",
-   "en": "Elder:\nYou think so...?\nWhat a pity...",
+   "en": "Elder:\nIs that so, eh...?\nAh, what a pity...",
    "status": "done"
   },
   {
@@ -1601,7 +1601,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ちょうろう：\nツウコウテガタは、\nやくに立ったかのう？",
-   "en": "Elder:\nDid the Travel Pass\ncome in handy?",
+   "en": "Elder:\nDid the Travel Pass\ncome in handy, eh?",
    "status": "done"
   },
   {

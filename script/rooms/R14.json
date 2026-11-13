@@ -1214,7 +1214,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nそうよ・・・、創界山の\n救世主だっていってた・・・。",
-   "en": "Warurine:\nYes... He said he was\nthe Savior of Sokaizan...",
+   "en": "Warurine:\nYes... I was told he's\nthe Savior of Sokaizan...",
    "status": "done"
   },
   {
@@ -3608,7 +3608,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おんなの子：\n村長さん！　村長さん！\n【ワルモンダー】は村長さん！",
-   "en": "Girl:\nChief-san! Chief-san!\nWarumonder's our Chief-san!",
+   "en": "Girl:\nChief! Chief!\nWarumonder's our chief!",
    "status": "done"
   },
   {

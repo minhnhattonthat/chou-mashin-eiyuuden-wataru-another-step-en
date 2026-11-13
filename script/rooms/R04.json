@@ -215,7 +215,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n何か耳慣れないキャラで耳口王樹\nとかスズナとか",
-   "en": "Aragoto:\nThen there are unfamiliar ones,\nlike Mimikuchi Oju and Suzuna...",
+   "en": "Aragoto:\nOdd names, too: Suzuna and\nEar-Mouth-King Tree...",
    "status": "done"
   },
   {
@@ -2447,7 +2447,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おじさん：\nう～ん・・・・・。\nわしは場ちがいかのう・・・・・。",
-   "en": "Man:\nHmm...\nAm I out of place here...?",
+   "en": "Man:\nHmm... This old codger feels\nout of place here...",
    "status": "done"
   },
   {
@@ -2456,7 +2456,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "ヤング向けの本ばかりで、\nついてゆけんわい。",
-   "en": "All these books for youngsters!\nI just can't keep up.",
+   "en": "All books for youngsters!\nI can't keep up, I tell ye.",
    "status": "done"
   },
   {
@@ -3095,7 +3095,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "えっ？　ワタノレの同人誌？\nごめんなさいね。私達は、\n【耳口王樹】様のファンなの。",
-   "en": "VVataru fan comics? Sorry!\nWe're fans of Sei Ju-sama.",
+   "en": "VVataru fan comics? Sorry!\nWe're fans of\nEar-Mouth-King Tree-sama.",
    "status": "done"
   },
   {

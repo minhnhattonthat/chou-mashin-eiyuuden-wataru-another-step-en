@@ -476,6 +476,7 @@ and Avoid spellings fail. The `## Names from the game tables
 | ＩＱバトル | IQ Battle | | | |
 | 魔神バトル | Mashin Battle | | | |
 | ワルワル | Waruwaru | | | |
+| 耳口王樹 | Ear-Mouth-King Tree | | parody idol: 聖樹 split into its parts (耳 口 王), like ワタノレ = VVataru | |
 | 超おもしろカッコいい隊 | Super Funny Cool Squad | | ep 3 hero squad (Extra Town); full name even when JP shortens it | Super Fun Cool |
 
 ## Speakers

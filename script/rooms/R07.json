@@ -782,7 +782,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nさいわい、下水道の臨し部屋に、\n電脳空間に入り込むことの出来る",
-   "en": "Takuro:\nLuckily, a hidden Sewers room\nhas a PC to access Cyberspace.",
+   "en": "Takuro:\nLuckily, a hidden Sewers room\nhas a way into Cyberspace:",
    "status": "done"
   },
   {
@@ -791,7 +791,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "コンピューターがあるんで、\nそこから【メグ】ちゃんの\nところへ行ってもらいたいんだ。",
-   "en": "I'd like you to use it\nto go see Meg-chan.",
+   "en": "a computer. I'd like you\nto use it to reach Meg-chan.",
    "status": "done"
   },
   {
@@ -3158,7 +3158,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "【バーちゃんアイドル】だから、\n願もふけないし、\nＴＶをつければいつでも会える。",
-   "en": "She's a 'Granny-chan idol'! Her\nface never ages, and I can see\nher whenever I turn on the TV.",
+   "en": "She's a 'virtual oldie'! Her\nface never ages, and I can see\nher whenever I turn on the TV.",
    "status": "done"
   },
   {

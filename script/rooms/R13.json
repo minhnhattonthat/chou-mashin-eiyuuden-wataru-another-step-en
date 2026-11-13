@@ -80,7 +80,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "このパネルをめくると、\n私達４人とお父さまの給が\nあらわれるわ。",
-   "en": "Flip them over to see pictures\nof the four of us\nand Father-sama.",
+   "en": "Flip them over to see pictures\nof the four of us\nand Father.",
    "status": "done"
   },
   {
@@ -305,7 +305,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "おっきいお姉ちゃんのところに\n来たら、お姉ちゃん\nデートだって言うし・・・。",
-   "en": "I came to see my eldest\nSister-chan, but she said\nshe had a date...",
+   "en": "I came to see my eldest\nsister, but she said\nshe had a date...",
    "status": "done"
   },
   {
@@ -953,7 +953,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "自分の好きなモノを「好きなだけ」\nと表現することは良くない\nと言っている。",
-   "en": "liking something doesn't mean\nyou should indulge in it\n\"as much as you like\".",
+   "en": "saying \"I just like it\" about\nsomething you love is wrong.",
    "status": "done"
   },
   {
@@ -962,7 +962,7 @@
    "kind": "event",
    "end": "4000",
    "jp": "そのとき、人は何をともなうのか？\n　幸せ\n　犠牲（ぎせい）",
-   "en": "What does doing so entail?\n  Happiness\n  Sacrifice",
+   "en": "Then what comes with love?\n  Happiness\n  Sacrifice",
    "status": "done"
   },
   {
