@@ -11,7 +11,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     ! now meet at the record seam, `put_stone ha=`). G17/G18: battle id = u8 **0x8009C856** (formation, EXE
     0x80033DEC; per-episode random tables at 0x80081D88), id 0x1C = Pitch Girl troop (ENE09) -> new scene
     **pitch_battle**; neither bubble drawn in 15000 mashed frames; offline check clean (work/qa/g18/bub.png).
-    docs/visual-qa-brief.md copied for the tour. Build sha1 25e4d369..., 110 tests, smoke ok. warp_all not rerun
+    docs/visual-qa-brief.md copied for the tour. G20: Phantom Wyrmwave banner cells seen in new scene
+    **mashin_fire2** (second special). Build sha1 25e4d369..., 110 tests, smoke ok. warp_all not rerun
     (only IQ pixels changed; hitblow / iq_win states made).
   - Phase 8, session 8 (2026-11-14): **G10 waived**: R15_MES narration is never drawn (the real ending path, traced
     from ep 14 with new scene **endreal** = 0x8009C7B0 0xFFFF + mode D: 0x800580B0 sets ep 15 + loads R15, the next
@@ -203,14 +204,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
      list that cuts each bubble rect and the action that plays it; or waive with the offline check),
      G23 leftovers (the drawn-not-seen G23 labels in graphics.md, e.g. 最終話, Warurine in the party),
      G19 leftovers: VS cards of episodes 2-14 assumed to use the ep1 record layout (spot-check one later matchup with
-     a poke of the battle id if one is found), G20 other moves (Skysoar / Phantom Wyrmwave / RISE..SWORD chant: fire
-     them in mashin_fire with the cursor moved down, ep 14 for Tensho),
+     a poke of the battle id if one is found), G20 other moves (Skysoar / RISE..SWORD chant: ep 14 for Tensho; the
+     third+ list entries),
      G22 room signs (decide per sign, waive illegible), FMV + FK stills
      check (ep00 opening FMV: no burnt-in text seen). Battle names col B (u 160) is drawn somewhere not yet seen: check it. See G12 (IQ
      win/lose cards, hit-and-blow labels: the ep1 IQ battle is the KIO memory game), G17, G18 in game (add scenes or
      `late=` pokes to reach them).
      Screenshots are 320x240 even where the game runs wider: zoom (`sheet.py --crop --zoom 3`) before judging.
      Then routes + contact sheets with visual-QA verdicts (`qa_gate.py check`), `inkbox.py`, `textcover.py`.
+     Tour plan: rebuild, `warp_all.py` (all scenes; sheets land in work/qa/warp/<scene>/sheet*.png), the same on the
+     original cue into work/qa/tour_jp, `qa_gate.py init work/qa/manifest.tsv work/qa/warp --build build/wataru_en.bin`,
+     `todo --size 30 --out-dir work/qa/chunks`, then a fresh read-only pass per chunk (codex exec or own) per
+     docs/visual-qa-brief.md writing work/qa/verdicts/<chunk>.tsv. textcover has no infra yet: needs build/strings.tsv
+     (string id -> RAM address it is read from; room text shares overlay RAM per room, so log room + address) and a
+     `TEXT <addr>` log from a text hook (the 16x16 glyph path in docs/re/font.md). Note: sheet.py doesn't create the
+     --out directory.
   2. Carried from phase 7 (QA must confirm or fix): FDS monpet name-entry grid 0x18468 is still kana (no scene
      reaches it yet; find how 0x77C78 なまえを入れてください is reached, then put Latin letters in the grid as
      single-letter pair codes, and check where entered names are drawn: 16x16 font = pair codes, 8x16 = code+14);
