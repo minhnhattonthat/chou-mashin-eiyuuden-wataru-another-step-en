@@ -206,9 +206,9 @@ def _grow(on, r):
     return {(i + a, j + b) for i, j in on for a in range(-r, r + 1) for b in range(-r, r + 1)}
 
 
-def put_stone(img, lut, rect, text, size, face, edge, shade, font=SANS_B, xs=1.0):
+def put_stone(img, lut, rect, text, size, face, edge, shade, font=SANS_B, xs=1.0, ha="c"):
     """Big carved letters: face ramp face[0] (top) .. face[-1] (bottom), 2-px outline `edge`, 3-px drop shadow
-    `shade`, centred in rect (IQ まけ!/かちっ! style). xs < 1 condenses the letters to the tall JP proportions."""
+    `shade`, in rect (IQ まけ!/かちっ! style), centred or `ha` "l"/"r". xs < 1 condenses to the tall JP proportions."""
     m = mask(text, font, size)
     m = m.resize((max(1, round(m.size[0] * xs)), m.size[1]), Image.LANCZOS)
     on = {(i, j) for j in range(m.size[1]) for i in range(m.size[0]) if m.getpixel((i, j)) > 110}
@@ -217,7 +217,7 @@ def put_stone(img, lut, rect, text, size, face, edge, shade, font=SANS_B, xs=1.0
     w, h = m.size[0] + 7, m.size[1] + 7
     x, y, rw, rh = rect
     assert w <= rw and h <= rh, (text, (w, h), rect)
-    ox, oy = x + (rw - w) // 2 + 2, y + (rh - h) // 2 + 2
+    ox, oy = x + {"c": (rw - w) // 2, "l": 0, "r": rw - w}[ha] + 2, y + (rh - h) // 2 + 2
     px = img.load()
     for i, j in drop - ring:
         px[ox + i, oy + j] = lut[shade]
@@ -239,11 +239,12 @@ def iq():
     img.save(gfx.GFX / "en" / png)
     face = [16, 16, 17, 17, 18, 18, 19, 19, 21]
     for game in ("HIT", "KIO"):
-        for name, t, xs in (("lose", "LOSE!", .58), ("win1", "WIN", .52), ("win2", "!", 1)):
+        # WIN and ! are two records that meet at x 16 (かち | っ!): push both to that seam (WIN! seen with a gap)
+        for name, t, xs, ha in (("lose", "LOSE!", .58, "c"), ("win1", "WIN", .52, "r"), ("win2", "!", 1, "l")):
             png = f"IQ/{game}_{name}.png"
             img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
             clear(img, (0, 0) + img.size)
-            put_stone(img, lut_of(png), (0, 0) + img.size, t, 80, face, 26, 23, xs=xs)
+            put_stone(img, lut_of(png), (0, 0) + img.size, t, 80, face, 26, 23, xs=xs, ha=ha)
             img.save(gfx.GFX / "en" / png)
 
 

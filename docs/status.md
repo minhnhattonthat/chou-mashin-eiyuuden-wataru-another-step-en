@@ -2,10 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G16, G19, G20, G23, G25
-  credits; G10 waived (never drawn); G12 LOSE! seen, Hit/Blow/WIN not yet; drawn, not yet seen in game: G17, G18).
+- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G12, G16, G19, G20,
+  G23, G25 credits; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18).
   Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 9 (2026-11-14): **G12 done**: Hit / Blow / Tries seen in new scene **hitblow** (ep 7 IQ = card
+    hit & blow), WIN! in new scene **iq_win** (KIO lose-card table pointer 0x8010AE9C poked to the win list; WIN /
+    ! now meet at the record seam, `put_stone ha=`). G17/G18: battle id = u8 **0x8009C856** (formation, EXE
+    0x80033DEC; per-episode random tables at 0x80081D88), id 0x1C = Pitch Girl troop (ENE09) -> new scene
+    **pitch_battle**; neither bubble drawn in 15000 mashed frames; offline check clean (work/qa/g18/bub.png).
+    docs/visual-qa-brief.md copied for the tour. Build sha1 25e4d369..., 110 tests, smoke ok. warp_all not rerun
+    (only IQ pixels changed; hitblow / iq_win states made).
   - Phase 8, session 8 (2026-11-14): **G10 waived**: R15_MES narration is never drawn (the real ending path, traced
     from ep 14 with new scene **endreal** = 0x8009C7B0 0xFFFF + mode D: 0x800580B0 sets ep 15 + loads R15, the next
     C/D loop pass plays movie 3 then the staff roll; the R15 overlay entry never runs; graphics.md G10). **G23 monpet
@@ -192,8 +199,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
-     can't run Python, Orca refuses nested workers): **G12 hit & blow first** (try the green/brown boards: ep 7/10/8/14
-     with `mode=8` + mash, graphics.md G12; add a scene for Hit/Blow/Tries and one for WIN!), then G17/G18 in game,
+     can't run Python, Orca refuses nested workers): G17/G18 in game (graphics.md rows: find the BALLBAT sprite
+     list that cuts each bubble rect and the action that plays it; or waive with the offline check),
      G23 leftovers (the drawn-not-seen G23 labels in graphics.md, e.g. 最終話, Warurine in the party),
      G19 leftovers: VS cards of episodes 2-14 assumed to use the ep1 record layout (spot-check one later matchup with
      a poke of the battle id if one is found), G20 other moves (Skysoar / Phantom Wyrmwave / RISE..SWORD chant: fire
