@@ -4,9 +4,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G12, G16, G19, G20,
   G23, G25 credits, G22 INN board; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18,
-  G22 SAKE lantern). Visual-QA gate passes on build 90f876dc. Text coverage 4,512/5,805.
+  G22 SAKE lantern). Visual-QA gate passes on build 90f876dc. Text coverage 5,039/5,805 + 326 waived (440 left).
   Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 15 (2026-11-14): **room coverage** rounds 6-7 (`textcover_run.py --base work/qa/cover_e210
+    --jobs 5 --chunk 5`, then `--chunk 2 --timeout 75`): rooms 458 -> 29 left. **Menu viewers** (readlog.lua,
+    --debugger, logs in work/qa/ncover/): new scenes items_all + items_b (every consumable in Use tabs 1-3 + effect
+    lines; inventories 0x800A3510 x16 = ids 1-16, 3530 x8 = 18-25, 3548 x16 = 27-42), keys_all (key items 1-16 +
+    descriptions), mcover02-14 (each episode's mashin battle, no banner logged yet). warp.lua: press step
+    `FRAMES:BTN/GAPxN` repeats; GOD pins mashin HP in mode 7. New tools/cover_ids.py. **BALLBAT/ENE waived as
+    unloggable** (326, docs/text_unshown.tsv: debugger freezes ball battles even from a mid-battle state; no
+    pollable pointer/buffer). Coverage 4,512 -> 5,039 shown + 326 waived. Build unchanged (90f876dc), 111 tests.
   - Phase 8, session 14 (2026-11-14): **room coverage** run4 killed (hung chunks idle to the 900 s timeout: the emulator
     freezes after ~30 s of real work), run5 (`--jobs 6 --timeout 90`) took rooms 3,507 -> 4,141/4,599 before Claude
     Code reaped it for low system memory (other repos' Mesen); not restarted this session per that notice.
@@ -274,28 +282,34 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  0. Text coverage (current: 4,512/5,805 on build 90f876dc, work/qa/cover_now_report.txt).
-     a. Rooms (458 left, mostly 'next' pages lost after a chunk hung): resume on the frozen e210 copy, repeat until the
-        count stops rising: `python -X utf8 tools/textcover_run.py --base work/qa/cover_e210 --jobs 4 --chunk 10`
-        (out work/qa/cover; check free RAM first: other repos' emulators share the machine and Claude Code reaps
-        background shells under memory pressure; foreground runs under `timeout 560` per call are safe). Then
-        re-merge: cover_remap (as in session 14) + copy work/qa/cover_exe TEXT lines into work/qa/cover_now/exe/log.txt,
-        textcover.py. Pages never reached after that: look at the words before them (dead pages, choice branches)
-        and waive with reasons in docs/text_unshown.tsv, or start them with another HOST.
-     b. EXE 307 left = the name/menu tables (exe_* item/equipment/enemy/ability names, key-item descs, shop/monpet
-        lines) and EXE menu strings: viewer scenes (poke inventories with every id and open the list; readlog.lua
-        works in field/menu scenes) or waivers with the tour sheets as evidence.
-     Menu/battle sources: field/menu scenes work with readlog.lua; battles need another way: a non-debugger
-     probe (on_frame: decode the battle list buffers / header name RAM back to ids), exec hooks once the battle has
-     loaded (state after setup + debugger works, it just reads nothing then), or waive BALLBAT/ENE/LVUP by source
-     with the battle tour sheets as evidence. Name tables (exe_consumables/equipment/enemies/abilities/
-     item_effects, fds_places): need viewer scenes (poke inventories with every id, open the list) or waivers. Pages still missing: look at their header kind / the
-     words before them (dump the EN overlay work/disc/en/FPRG/Rnn.BIN); start them by pass 2 with another HOST, or
-     waive with a reason in docs/text_unshown.tsv (e.g. dead pages no event reaches). ep00 (FMV/opening) and the
-     R13 ep12/13 split need checking that their epNN.sstate reaches free walk. Then menu/battle sources (EXE, ST,
-     BALLBAT, MACHINE, TTL, LVUP, FDS, exe_* tables, ~1,100 entries, ids in insert.WRITES like `EXE:7F84A`):
-     add them to strings.tsv with their EN RAM address and log reads with an `L.on_read` probe (needs emu.py
-     --debugger) over warp_all scenes, or waive by source with reasons. Visual-QA gate: passes on 90f876dc; any
+  0. Text coverage (current: **5,039/5,805 shown + 326 waived, 440 failing** on build 90f876dc,
+     work/qa/cover_now_report.txt; failing: EXE 209, ST 90, FDS 50, MACHINE 32, TTL 30, rooms 29).
+     **Merge recipe** (after any new run): `tools/cover_remap.py work/qa/cover/strings_e210.tsv work/qa/cover
+     work/qa/rcover --out work/qa/cover_now`; `cp work/qa/exe_log_keep.txt work/qa/cover_now/exe/log.txt` (EXE
+     dialogue pages); copy each `work/qa/ncover/<run>/log.txt` (current-build keys, not remapped) to
+     `work/qa/cover_now/ncover/<run>/`; then `textcover.py work/qa/cover_now build/wataru_en.strings.tsv --waive
+     docs/text_unshown.tsv`. `tools/cover_ids.py DIR` lists the ids a log dir shows.
+     a. Rooms (29 left, listed in the report): these hang their chunk every round (rounds 6-7, chunks of 2): look at
+        the words before each (dump work/qa/cover_e210/work/disc/en/FPRG/Rnn.BIN), start them with another HOST
+        (pass 2) or waive with the reason (dead page / choice branch).
+     b. EXE 209: item category 4 (inventory 0x800A3568 is NOT a Use tab: consumables 44-58 Mask Me Up..Magicapple and
+        effects 43-58 never showed; find where those items list: maybe そうび or another menu), equipment 88 (equipment
+        inventory RAM unknown; menu_equip), abilities 25, enemies (monpet names) 30, monpet moves 14, key-item descs
+        left, shop/monpet lines. Scenes items_all / items_b / keys_all are the pattern (poke + `12:down/60x17`
+        then up: the cursor's description is only read when the cursor lands on a row).
+     c. FDS places 48: the field-menu place box shows the episode's place from the pointer table FDS 0x124AC (17
+        entries, one per episode); other places come from elsewhere (room entry popup?): find the place-id RAM, then
+        a scene that pokes it and reopens the menu.
+     d. MACHINE 32 = enemy mashin attack banners (+ 'obtained!', 'Experience Points', Skysoar names): scenes
+        mcover02-14 (GOD now pins mashin HP in mode 7) reach every episode's mashin battle but 15000 frames of
+        Slash logged no banner (enemy specials are rare; once seen in ep 2 at hold 6000: Micro Wave). Find the enemy
+        AI's special choice (RAM) and force it with a pokeloop, or record the banner actor like mbanner.lua.
+     e. ST 90 = IQ-battle lines of the other games (15 puzzle, Burikinton, card games: rules branches, win/lose):
+        IQ battles work under --debugger: scenes per episode IQ type (graphics.md G12 lists them) with readlog.
+     f. TTL 30 = the title extra page (IQ Battle / Mashin Battle practice, mashin list): find its unlock flag in TTL.
+     BALLBAT/ENE (326) are **waived as unloggable** (docs/text_unshown.tsv, reason in each line; gotcha in
+     docs/skill-gotchas.md): --debugger freezes ball battles even from a dynarec mid-battle state, and RAM dumps
+     through battle_win found no pointer slot or message buffer to poll. Visual-QA gate: passes on 90f876dc; any
      rebuild needs a re-tour (pixel-only changes: rerun just the scenes that show them, as the shop in session 14) (`warp_all.py`, `tour_sheets.py`, `qa_gate.py init/todo`, `vqa_codex.py`).
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
      can't run Python, Orca refuses nested workers): G17/G18 in game (graphics.md rows: find the BALLBAT sprite
@@ -329,4 +343,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
      ST lines can't grow past their JP word count; polish.md minors on ST must keep that limit.
   4. docs/polish.md: done (session 12).
 - **Open bugs:** none.
-- **Waiting on the user:** nothing.
+- **Waiting on the user:** (non-blocking) 326 ball-battle strings (BALLBAT, ENE) are waived in docs/text_unshown.tsv
+  as *unloggable*, not unreachable: the read probe can't run in ball battles (emulator debugger freezes them). The
+  skill's gate wants waivers only for unreachable text; the alternative is a QA-only logger patched into the
+  BALLBAT renderer. Default: keep the waiver, battle text judged on the tour sheets.

@@ -39,9 +39,15 @@ local S = assert(scenes[SCENE or ""], "unknown SCENE '" .. tostring(SCENE) .. "'
 local ep = S.ep or 1
 L.log("WARP " .. S.name)
 
--- press=FRAMES:BUTTONS,... (route steps, e.g. 12:triangle,40:-,12:down)
+-- press=FRAMES:BUTTONS,... (route steps, e.g. 12:triangle,40:-,12:down); FRAMES:BUTTONS/GAPxN = that press then GAP
+-- idle frames, N times (12:down/60x17)
 local function queue_press(spec)
-  for n, b in tostring(spec):gmatch("(%d+):([%w+%-]+)") do L.press(b, tonumber(n)) end
+  for n, b, gap, rep in tostring(spec):gmatch("(%d+):([%w+%-]+)/?(%d*)x?(%d*)") do
+    for _ = 1, tonumber(rep) or 1 do
+      L.press(b, tonumber(n))
+      if gap ~= "" then L.press("-", tonumber(gap)) end
+    end
+  end
 end
 -- poke=ADDR:VALUE:SIZE,... (hex), applied once when the scene's start point is reached
 local function apply_pokes()
@@ -76,6 +82,11 @@ L.on_frame(function(f)
       local hm, mm = r16(a + 2), r16(a + 6)
       if hm > 0 and hm < 10000 then wr(a, hm, 2) end
       if mm < 10000 then wr(a + 4, mm, 2) end
+    end
+    if mode == 7 then -- mashin HP u16 0x800BE31E + copy 0x800BEBA4: pinned to the highest value seen this battle
+      local h = r16(0x800BE31E)
+      if h < 10000 and h > (MHP or 0) then MHP = h end
+      if MHP and h > 0 and h < MHP then wr(0x800BE31E, MHP, 2); wr(0x800BEBA4, MHP, 2) end
     end
     if mode == 6 then -- the battle keeps its own copy: units at BUNIT, 0x6C each, hp then hp max (u16)
       for i = 0, 2 do
