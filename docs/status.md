@@ -3,9 +3,16 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G12, G16, G19, G20,
-  G23, G25 credits; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18).
+  G23, G25 credits; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18, G22 signs).
   Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 13 (2026-11-14): **G22 room signs** (D24): FR room atlases are 4bpp (the sweep misread them as
+    8bpp); 酒 lantern -> SAKE (15 rooms), 一宿一飯 board -> INN (18 copies, 9 pngs; R07M0/R10M0 boards cut in two
+    pieces) via gfx.tsv rows with CLUT "-" (`gfx.GREY` index palette, `gfx.row_lut`) and `gfx_gen.signs`; offline
+    sheets work/g22/cmp4.png. Not in a build yet (coverage run reads build/). Rest of G22 left as illegible set dressing.
+    **Room coverage run3 added nothing** (machine shared with other repos' emulators: ~13 fps, chunks timed out at
+    150 s, some died with no output); **run4** = `textcover_run.py --jobs 3 --chunk 10 --timeout 900` (log
+    work/qa/cover/run4.log, buffered) was running at hand-off: 3,492/4,599 after its first chunks.
   - Phase 8, session 12 (2026-11-14): **polish pass done** (docs/polish.md 0 unticked): work/tl/hand20 (96 entries,
     merged; ST/10-cell-field lines that can't fit waived with reasons; G25 readings waived per D21). Script changed,
     **build NOT rebuilt** (still e210ee37: coverage runs were using it); 111 tests pass on the new script.
@@ -249,11 +256,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  0. Text coverage. If this repo's textcover_run.py / pcsx-redux processes still run (run3), wait: **don't rebuild
-     while they run** (they read build/). Then rerun `python -X utf8 tools/textcover_run.py --jobs 4` until the
-     count stops rising (it resumes; a hung chunk = NPC text walked into an `A000` item command, costs one chunk;
-     try `--chunk 10` for the last ones), report: `textcover.py work/qa/cover work/qa/strings_rooms.tsv` (rooms of
-     strings_e210). Then rebuild (polish edits), smoke, warp_all, re-tour (`tour_sheets.py`, `qa_gate.py init/todo`,
+  0. Text coverage. If this repo's textcover_run.py / pcsx-redux processes still run (run4: check command lines for
+     this repo's path, other repos run their own pcsx-redux here), wait: **don't rebuild while they run** (they read
+     build/). Coverage on the OLD build e210 first: rerun `python -X utf8 tools/textcover_run.py --jobs 3 --chunk 10
+     --timeout 900` until the count stops rising (it resumes; a hung chunk = NPC text walked into an `A000` item
+     command, costs one chunk), report: `textcover.py work/qa/cover work/qa/strings_rooms.tsv` (rooms of
+     strings_e210). Then rebuild (polish edits + G22 signs), check the signs zoomed in scenes field (R01: the INN
+     board's right end on the roof at the left edge) and ep00 (R00 lantern / board), smoke, warp_all, re-tour (`tour_sheets.py`, `qa_gate.py init/todo`,
      `vqa_codex.py` on changed sheets), and remap coverage with cover_remap.py (above).
      Menu/battle sources: field/menu scenes work with readlog.lua; battles need another way: a non-debugger
      probe (on_frame: decode the battle list buffers / header name RAM back to ids), exec hooks once the battle has

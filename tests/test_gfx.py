@@ -12,7 +12,7 @@ import gfx  # noqa: E402
 def test_rows_import():
     for r in gfx.rows():
         d = gfx.load(r["path"])
-        lut = gfx.palette(gfx.load(r["cpath"]), r["coff"], r["pal"], r["bpp"])
+        lut = gfx.row_lut(r)
         assert gfx.image(d, r["off"], r["bpp"], lut, r["rect"]).tobytes() == \
             gfx.Image.open(gfx.GFX / "orig" / r["png"]).convert("RGB").tobytes(), r["png"] + ": orig stale"
         gfx.indices(r, d, lut)  # raises on a colour outside the palette

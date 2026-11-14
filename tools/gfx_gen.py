@@ -20,8 +20,7 @@ SANS = FONTS / "liberation" / "LiberationSans-Regular.ttf"
 
 
 def lut_of(png):
-    r = next(r for r in gfx.rows() if r["png"] == png)
-    return gfx.palette(gfx.load(r["cpath"]), r["coff"], r["pal"], r["bpp"])
+    return gfx.row_lut(next(r for r in gfx.rows() if r["png"] == png))
 
 
 def mask(text, font, size, spacing=0):
@@ -438,9 +437,72 @@ def banners():
     img.save(gfx.GFX / "en" / png)
 
 
+TINY = {"S": ["111", "100", "111", "001", "111"], "A": ["010", "101", "111", "101", "101"],
+        "K": ["101", "110", "100", "110", "101"], "E": ["111", "100", "110", "100", "111"]}  # 3x5 (sake lantern)
+SIGN_INN = "INN"  # 一宿一飯 boards (one night's lodging, one meal)
+
+
+def _bitmap(text, font):
+    """0/1 rows of `text`: TINY (1-px gap) or a bdf font (ink rows only)."""
+    if font == "tiny":
+        return [list(map(int, "0".join(TINY[c][j] for c in text))) for j in range(5)]
+    g = bdf(font)
+    rows = [sum((g[c][j] for c in text), []) for j in range(len(g[text[0]]))]
+    ink = [j for j, r in enumerate(rows) if any(r)]
+    return rows[ink[0]:ink[-1] + 1]
+
+
+def signs():
+    """G22 room scenery signs (FR room textures, 4bpp, CLUT per polygon: rows use the GREY index palette, so a
+    pixel's grey level is its index * 17). 一宿一飯 boards -> INN: the board face is the 4-connected run of indices
+    1/2, the kanji (3/4/5) are its holes and go to 1; text in ink 5, each column centred on that column's face
+    (the board's shear follows). 酒 lantern -> SAKE: the kanji (F/7) cleared to the lantern's 4, 3x5 letters in F."""
+    import numpy as np
+    from scipy import ndimage
+    for png in sorted({r["png"] for r in gfx.rows() if r["png"].startswith("FR/sign_")}):
+        a = np.array(Image.open(gfx.GFX / "orig" / png).convert("RGB"))
+        idx = np.where((a == gfx.MAGENTA).all(2), 0, a[:, :, 0] // 17).astype(np.uint8)
+        if "sake" in png:
+            box = idx[19:32, 8:19]  # the kanji's columns: the 7s left of it are the lantern's shading
+            box[(box == 15) | (box == 7)] = 4
+            bm = _bitmap("SAKE", "tiny")
+            for j, row in enumerate(bm):
+                for i, on in enumerate(row):
+                    if on:
+                        idx[23 + j, 5 + i] = 15
+        else:
+            # R07M0 / R10M0 cut the board into two texture pieces (left 一宿, right 一飯), side by side in x: the
+            # board is every face piece of 100+ px, its columns in x order, the text centred over them by count
+            lab, n = ndimage.label((idx == 1) | (idx == 2))
+            size = np.bincount(lab.ravel())
+            face = np.isin(lab, [k for k in range(1, n + 1) if size[k] >= 100])
+            filled = np.zeros_like(face)
+            for k in range(1, n + 1):
+                if size[k] >= 100:
+                    filled |= ndimage.binary_fill_holes(lab == k)
+            near = ndimage.binary_dilation(face, iterations=2)
+            kanji = (filled & ~face & (idx >= 3) & (idx <= 5)) | (near & ((idx == 4) | (idx == 5)))
+            edge = ndimage.binary_dilation(idx == 0)
+            for _ in range(2):  # dim 3s of a kanji cut by the piece edge: next to a cleared pixel, not the rim
+                kanji |= (idx == 3) & ~edge & near & ndimage.binary_dilation(kanji)
+            idx[kanji] = 1
+            cols = [x for x in range(idx.shape[1]) if filled[:, x].sum() >= 12]
+            bm = _bitmap(SIGN_INN, "spleen-8x16.bdf")
+            h, w = len(bm), len(bm[0])
+            s = (len(cols) - w) // 2
+            for i in range(w):
+                ys = np.nonzero(filled[:, cols[s + i]])[0]
+                top = int(round((ys.min() + ys.max() + 1 - h) / 2))
+                for j in range(h):
+                    if bm[j][i]:
+                        idx[top + j, cols[s + i]] = 5
+        out = np.array([gfx.GREY[v] for v in idx.ravel()], np.uint8).reshape(a.shape)
+        Image.fromarray(out).save(gfx.GFX / "en" / png)
+
+
 GROUPS = {"title": title, "battle": battle, "shop": shop, "iq": iq, "bubbles": bubbles, "mashin": mashin,
           "fmenu": fmenu, "cards": cards, "captions": captions, "memcard": memcard,
-          "banners": banners}
+          "banners": banners, "signs": signs}
 
 if __name__ == "__main__":
     for g in sys.argv[1:] or GROUPS:

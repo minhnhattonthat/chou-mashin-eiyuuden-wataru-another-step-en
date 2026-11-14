@@ -577,7 +577,7 @@ def rows():
         if not line.strip() or line.startswith("#"):
             continue
         png, path, off, bpp, cpath, coff, pal, rect = line.split("\t")[:8]
-        coff = -int(coff[1:], 16) - 1 if coff.startswith("r") else int(coff, 16)  # rHEX: raw colours
+        coff = -int(coff[1:], 16) - 1 if coff.startswith("r") else int(coff, 16)  # rHEX: raw colours, "-": GREY
         out.append(dict(png=png, path=path, off=int(off, 16), bpp=int(bpp), cpath=cpath, coff=coff,
                         pal=int(pal), rect=tuple(int(v) for v in rect.split(","))))
     return out
@@ -593,6 +593,16 @@ def palette(d, coff, pal, bpp):
     cols = struct.unpack_from(f"<{n}H", d, coff + 8 + pal * 32 * (bpp == 4))
     assert pal * n + n <= w or bpp == 8, "palette past the CLUT row"
     return _cols(cols)
+
+
+GREY = [MAGENTA] + [(i * 17,) * 3 for i in range(1, 16)]  # clut file "-": room textures (G22), CLUT set per poly
+
+
+def row_lut(r, data_of=None):
+    """Row r's palette; data_of(path) -> file bytes (default: the extracted original)."""
+    if r["cpath"] == "-":
+        return GREY
+    return palette((data_of or load)(r["cpath"]), r["coff"], r["pal"], r["bpp"])
 
 
 def _cols(cols):
@@ -641,7 +651,7 @@ def export(only=()):
         if only and r["png"] not in only:
             continue
         d = load(r["path"])
-        im = image(d, r["off"], r["bpp"], palette(load(r["cpath"]), r["coff"], r["pal"], r["bpp"]), r["rect"])
+        im = image(d, r["off"], r["bpp"], row_lut(r), r["rect"])
         for sub in ("orig", "en"):
             p = GFX / sub / r["png"]
             if sub == "orig" or not p.exists():
@@ -679,7 +689,7 @@ def apply(put, bufs, orig, load_path):
         p = load_path(r["path"])
         d = orig[p]
         buf = bytearray(bufs.get(p, d))
-        lut = palette(orig[load_path(r["cpath"])], r["coff"], r["pal"], r["bpp"])
+        lut = row_lut(r, lambda c: orig[load_path(c)])
         for (x, y), v in indices(r, d, lut).items():
             set_px(buf, r["off"], r["bpp"], x, y, v)
         cur = bufs.get(p, d)
