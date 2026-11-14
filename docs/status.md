@@ -3,9 +3,16 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G16, G19, G20, G23, G25
-  credits; drawn, not yet seen in game: G12, G17, G18). Phase 7 done (2026-11-14): full English build, overflow empty,
-  all warp scenes reach.
+  credits; G10 waived (never drawn); G12 LOSE! seen, Hit/Blow/WIN not yet; drawn, not yet seen in game: G17, G18).
+  Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 8 (2026-11-14): **G10 waived**: R15_MES narration is never drawn (the real ending path, traced
+    from ep 14 with new scene **endreal** = 0x8009C7B0 0xFFFF + mode D: 0x800580B0 sets ep 15 + loads R15, the next
+    C/D loop pass plays movie 3 then the staff roll; the R15 overlay entry never runs; graphics.md G10). **G23 monpet
+    element** 水/雷/火 (MSG_CG 0xB0-0xB2, one 16x16 cell drawn by FDS code) -> icons drop / bolt / flame
+    (`digraph.ICONS`, insert writes them, D23; drop verified in monpet_detail, roster +0 is not the element so bolt/
+    flame only offline). **G12**: LOSE! card seen clean in the ep-2 KIO game; IQ game type per episode listed in
+    graphics.md G12. Build sha1 311cab54..., 110 tests. warp_all not rerun (MSG_CG glyphs in place, no LBA shift).
   - Phase 8, session 7 (2026-11-14): **G9 memory card** in English (`gfx.MEM_EN` per MEMORY.BIN sprite list, strips
     via `mem_layout`/`mem_recs`/`mem_check`, はい/いいえ/第 話 -> Yes/No/Ep. in place; `gfx_gen memcard`; test_memcard;
     `tools/memview.py` composes every message offline -> work/g9/preview.png). Verified in new scene **save_slot**
@@ -185,16 +192,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
-     can't run Python, Orca refuses nested workers): **G10 first** (graphics.md G10 RE: find how R15's scroll starts,
-     then read the R15_MES image (8 x 224 px pages, header 0xC0000322 sprite list) and redraw it as English pages),
-     G23 leftovers (monpet element 水/雷/火 = MSG_CG 0xB0-0xB2
-     drawn as one 16x16 cell by FDS code: find the draw site, draw a word or redraw the glyphs as element icons;
-     see the drawn-not-seen G23 labels in graphics.md, e.g. a scene in ep 15 for 最終話, Warurine in the party),
+     can't run Python, Orca refuses nested workers): **G12 hit & blow first** (try the green/brown boards: ep 7/10/8/14
+     with `mode=8` + mash, graphics.md G12; add a scene for Hit/Blow/Tries and one for WIN!), then G17/G18 in game,
+     G23 leftovers (the drawn-not-seen G23 labels in graphics.md, e.g. 最終話, Warurine in the party),
      G19 leftovers: VS cards of episodes 2-14 assumed to use the ep1 record layout (spot-check one later matchup with
      a poke of the battle id if one is found), G20 other moves (Skysoar / Phantom Wyrmwave / RISE..SWORD chant: fire
-     them in mashin_fire with the cursor moved down, ep 14 for Tensho), G10 R15_MES = the post-final-battle narration
-     (…ワルモンダーの操る魔神の『ワルワル・キュウキョーン』に、天翔龍神丸の最強の一撃…), header 0xC0000322 sprite list
-     (count 0x320, then 8-byte entries u,v / CLUT 0x79C0 / tpage) + 4bpp text image,
+     them in mashin_fire with the cursor moved down, ep 14 for Tensho),
      G22 room signs (decide per sign, waive illegible), FMV + FK stills
      check (ep00 opening FMV: no burnt-in text seen). Battle names col B (u 160) is drawn somewhere not yet seen: check it. See G12 (IQ
      win/lose cards, hit-and-blow labels: the ep1 IQ battle is the KIO memory game), G17, G18 in game (add scenes or
