@@ -1,4 +1,5 @@
 """Insert path: every write logged and clean under romdiff, markers keep the JP layout, pairs allocated in budget."""
+import json
 import struct
 import sys
 from pathlib import Path
@@ -62,10 +63,11 @@ def allowed_spans(path, orig):
     if path == "FM16/MSG_CG.BIN":
         s.append((insert.BF_FIRST * 64, (insert.BF_FIRST + 0x5F) * 64))
         s += [(0x5300 + k * 128, 0x5300 + k * 128 + 128) for k in insert.digraph.ICONS]  # element icons
-        s += [(0x5300 + k * 128, 0x5300 + k * 128 + 128) for k in insert.NAME_LABEL]  # name-entry case key
+        s.append((0x5300 + 128, 0x5300 + 0x60 * 128))  # 16x16 monpet-name letters (name_cell)
     if path == "FPRG/FDS.BIN":
         s.append((insert.NAME_GRID, insert.NAME_GRID + 180))
         s += [(off, off + 4) for off, *_ in insert.NAME_CODE]
+        s += [(off, off + 4 * len(new)) for off, _, new, _ in insert.NAME_DRAW]
     if path == "PRG/MACHINE.BIN":
         s.append((insert.STRIP_LIST, insert.STRIP_END))
         for addiu, slti, names in insert.STRIP_ROWS:
@@ -134,14 +136,28 @@ def test_allocate_one_code_per_pair():
         insert.allocate(Counter({chr(33 + i // 90) + chr(33 + i % 90): 1 for i in range(insert.compose.TABLE_MAX + 1)}))
 
 
-def test_name_grid_case_offset():
-    """Name entry: each shown key's lower-case code = upper + case offset; cell 80 blank, case key / Exit kept."""
+def test_name_grid_letter_codes():
+    """Name entry: keys are letter codes (ASCII - 0x20, 8x16 glyph = code + 14 = bf_code); cell 80 and the case key
+    blank, Exit kept; species names use the same codes."""
     orig = list(range(1, 91))
-    grid, pairs, n = insert.name_grid(orig, 0x1000)
-    assert grid[0] != grid[1] and pairs[grid[0]] == "A " and pairs[grid[0] + n] == "a "
-    assert pairs[grid[45]] == "F " and pairs[grid[45] + n] == "f " and pairs[grid[2 * 5]] == "U "
-    assert pairs[grid[3 * 5]] == "0 " == pairs[grid[3 * 5] + n]
-    assert grid[80] == 0 and grid[85:] == orig[85:] and max(pairs) == 0x1000 - 1
+    grid = insert.name_grid(orig)
+    letter = {c: chr(c + 0x20) for c in grid if c}
+    assert letter[grid[0]] == "A" and letter[grid[45]] == "F" and letter[grid[2 * 5]] == "U"
+    assert letter[grid[3 * 5]] == "a" and letter[grid[6 * 5]] == "0" and letter[grid[45 + 6 * 5]] == "5"
+    assert grid[80] == grid[85] == grid[86] == 0 and grid[88:] == orig[88:]
+    assert all(0 < insert.name_code(ch) < 0x60 for ch in "".join(insert.NAME_ROWS) + " ")
+    assert insert.name_code("A") + 14 == insert.bf_code("A") and insert.name_code(" ") == 0x5F
+    assert insert.name_cell(0x5F) == bytes(128) and insert.name_cell(insert.name_code("A")) != bytes(128)
+
+
+def test_species_names_letter_codes(built):
+    """exe_enemies (10-cell slots) is written in letter codes, padded with 0."""
+    doc = json.loads((insert.SCRIPT / "exe_enemies.json").read_text(encoding="utf-8"))
+    exe = built[insert.EXE]
+    for e in doc["entries"]:
+        off = int(e["id"].split(":")[1], 16)
+        want = [insert.name_code(ch) for ch in e["en"]]
+        assert list(struct.unpack_from("<10H", exe, off)) == want + [0] * (10 - len(want)), e["id"]
 
 
 def test_compose_tables_written(built):

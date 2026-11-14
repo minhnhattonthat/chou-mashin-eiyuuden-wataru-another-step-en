@@ -75,7 +75,8 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
   Cold boot: the command menu drops presses until ~2,100 frames into mode 7; then circles 90 frames apart register.
 - Monpet roster: 8 x 34 bytes at **0x800A8D60** (u16 +0 nonzero = owned; 1 = a 水 rank-A one), swap list 8 x 6 at
   0x800A9148. Per-episode monpet table u32 0x8008F88C[ep] (6-byte entries: attack-name index into the 10-cell table
-  0x80097AEC = exe_mashin_attacks). Scene monpet_detail.
+  0x80097AEC = exe_mashin_attacks). Scene monpet_detail. (p8 s23: the FDS shop list 0x801043F4 and cart list
+  0x801052F0 index 0x80097AEC + 20 * species = exe_enemies, 1-based; cart rows at 0x800A9148, cart list not reached: cart pokes in a poked monpet shop draw nothing, JP too.)
 - Clear flag u8 **0x8009C681** (p8 s16): nonzero unlocks the title Config rows IQ Battle / Mashin Battle (TTL
   0x800D0BE8 skips rows 3-4 while 0). Config: circle = edit a row, up/down = value, circle on IQ Battle starts that
   IQ game as practice (scenes title_extra, title_values, iqp0-3 / iqn0-3). Value column x = actor +0x28 set by
@@ -107,7 +108,9 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
   FDS task **0x250** (0x80107184, states table 0x8010F44C): 0-1 open, 2 "Please choose a Monpet" (roster; Circle on
   an owned slot whose +4 is 0 -> state 4; in field state 0xF the same pick releases the monpet, state 8), 4-5 slide,
   6 the grid (0x80107788: cursor col u16 0x800C0EE4 0-9, row 0x800C0EE6 0-8; name u16[10] at 0x800B3670, length
-  task +0x56, case flag +0x54), 7 "Is this name OK?". Grid draw 0x80107D5C. Scenes name_entry / name_saved (poke
+  task +0x56, case flag +0x54), 7 "Is this name OK?". Grid draw 0x80107D5C. The task is at 0x800C0E28 (length
+  0x800C0E7E); the name box 0x80107C5C draws 10 cells; its green next-letter frame is the actor at 0x800C0F04, x set
+  at 0x80108AB0 (16 + length * 16). English names are letter codes: insert.NAME_GRID / NAME_DRAW. Scenes name_entry / name_saved (poke
   slot 1 species, state 0xB, Circle). English grid: insert.NAME_GRID. Under field state 0xB the D-pad also walks
   Wataru with no collision, so ~8 Downs walk him off the map: map-exit check EXE 0x800434E8 (y u16 0x8009C892 >=
   0x700, no exit) shows EXE 77808 "No going back!" (scene no_way_back; a field page, missed by extract until s22).

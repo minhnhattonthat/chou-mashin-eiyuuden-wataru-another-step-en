@@ -240,7 +240,7 @@ and Avoid spellings fail. The `## Speakers` table is matched exactly, on the spe
 | キカンデスタイ | Immuni-Tie | 11 | BALLBAT,exe_consumables | |
 | キメル | Chimer | 20 | exe_enemies | |
 | キララ | Sparkle | 20 | exe_enemies | |
-| キングトノプ | King Croakpuff | 20 | exe_enemies | |
+| キングトノプ | King Croak | 20 | exe_enemies | cut under D19: roster card holds 10 letters |
 | キンケロ | Gold Croak | 20 | exe_enemies | |
 | ギルバック | Gillback | 20 | exe_enemies | |
 | クライマックツ | Climaxoles | 16 | BALLBAT,exe_equipment | |
@@ -417,7 +417,7 @@ and Avoid spellings fail. The `## Speakers` table is matched exactly, on the spe
 | ムキリョクさん | Lackada-san | 11 | ENE17 | |
 | ムキリョデンカ | Prince Idle | 11 | ENE17 | |
 | ムジンとう | Isleblade | 11 | BALLBAT,exe_consumables | |
-| メゴトンボ | Megadragonfly | 20 | exe_enemies | |
+| メゴトンボ | Megafly | 20 | exe_enemies | cut under D19: roster card holds 10 letters |
 | モットモ・ジョウダン | Most Jodan | 11 | ENE08 | |
 | モトヤンちゃん | ExPunk-chan | 11 | ENE09 | |
 | モラン | Molan | 20 | exe_enemies | |

@@ -2,11 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: one item left (Next 0: monpet names on the roster card). Build **03e57e55**:
-  smoke ok, 113 tests, `textcover.py` **exit 0** (5,478/5,807 shown + 329 waived), visual-QA gate 1066/1067 (the
-  one issue is Next 0), inkbox ok. Graphics rows all English (G17/G18 bubbles and G22 SAKE lantern verified in game
-  VRAM, their on-screen draw not reached; G10 waived). Phase 7 done (2026-11-14).
+- **Phase:** 9. Release: not started. Phase 8 done (2026-11-15) on build **a0774c53**: smoke ok, 114 tests,
+  `textcover.py` **exit 0** (5,478/5,807 shown + 329 waived), visual-QA gate **1071/1071**, inkbox ok. Graphics rows
+  all English (G17/G18 bubbles and G22 SAKE lantern verified in game VRAM, their on-screen draw not reached; G10
+  waived).
 - **Done:**
+  - Phase 8, session 23 (2026-11-15): **monpet names in letter codes** (D25): c = ASCII - 0x20, one letter per cell,
+    in exe_enemies (insert.py `enemies` table -> FDS_BF path), the name grid (both cases on one page, rows A-Z
+    .-!?, a-z, 0-9; case key cells 85-86 = 0, labels code 0) and so in every roster name; the roster card draws them
+    unchanged (8x16, glyph c + 14). 16x16 draws patched to 8x16 (insert.NAME_DRAW): shop list 0x801043F4, cart list
+    0x801052F0 (not reached in a scene: static check only), name box 0x80107C5C, and the box's green next-letter
+    frame (0x80108AB0, x = 16 + len * 8). A wrapper in the dead case-offset block 0x801078B8 also uploads a blank
+    cell 80 px right of each glyph (8x16 cells left the strip's right half stale: old dialogue showed in the shop
+    list). Grid cells use MSG_CG 16x16 slots 1-0x5F (letter centred, `insert.name_cell`). Names cut to 10 letters
+    under D19: Megadragonfly -> **Megafly**, King Croakpuff -> **King Croak** (hand25, glossary). Scenes re-warped
+    and re-judged (codex, chunks23: 6 ok); roster_name now pokes "Ab z". EXE 7B050 "Got 1500 Ganbo!" moved with the
+    shorter line: re-logged (exe_log_keep.txt). debug.md: name task 0x800C0E28, length 0x800C0E7E.
   - Phase 8, session 22 (2026-11-15): **monpet name entry reached and English**: field state 0xB + 0x8009C85A 0
     starts FDS task 0x250 (debug.md "Monpet name entry"); scenes name_entry / name_saved. Grid (FDS 0x18470) now A-Z,
     digits, `.-!?` and a working case key "A/a" (insert.NAME_GRID: single-letter pair codes at fixed codes at the end
@@ -355,51 +366,37 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase-2 RE: SysMode table (0x8009C7FC), episode index 0x8009C90C (0-14; 12 and 13 share R13.BIN; 15 = ending),
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
-- **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  00. Visual-QA gate: passes on cda1c147 (1055 sheets). After any rebuild: rerun the scenes that show the change
+- **Next (phase 9: Release, `references/pipeline.md` §Release, `references/translation.md` §Review):**
+  P1. Story pass: one story-reviewer verdict per chapter (docs/story-reviewer-brief.md; Orca refuses nested workers:
+     own fresh read-only pass or `codex exec`), `qa_gate.py check work/qa/story/manifest.tsv ...` exit 0.
+  P2. docs/polish.md: no unticked line (done s12; recheck).
+  P3. `jp_left.py` on the release build: no unintended Japanese (known: G10 R15_MES narration, never drawn; the
+     MSG_CG/CNF_MSG kana slots).
+  P4. Debug tool off in the release build (warp.lua / pokes are emulator-side only: confirm nothing debug is patched
+     into the disc), `tools/release.py`: xdelta vs the .bin, re-apply + verify, runs `qa_gate.py check` on every
+     manifest and `textcover.py` (both exit 0 now on a0774c53).
+  P5. README: no template placeholders, base ROM hashes (rom.sha1) in it and in the zip README; zip = patch + README.
+     Never `gh release create`; never change repo visibility. The run ends at a built and verified release zip.
+  Any rebuild re-opens the gates: re-tour the scenes that show the change (recipe below), re-log moved strings
+  (textcover_run.py `--exe --only 38 --out <absolute dir>` for EXE pages; refresh work/states/ep01.sstate first).
+- **Phase-8 reference (QA recipes; gates pass on a0774c53):**
+  00. Visual-QA gate: passes on a0774c53 (1071 sheets). After any rebuild: rerun the scenes that show the change
      (warp_all --only, EN), `sheet.py work/qa/warp/<s> --div 1 --max 8 --cols 4 --out work/qa/tour/<s>/sheet.png`
      (or tour_sheets.py for all, ~15 min), `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build
      build/wataru_en.bin`, `todo --out-dir`, `vqa_codex.py <chunks> --jp work/qa/tour_jp_full`. A new scene also
      needs its JP warp (`--rom <orig cue> --out work/qa/tour_jp --states work/qa/tour_jp_states`) + JP sheet.
-  0. **Last phase-8 item: monpet names on the roster card** (Field menu -> Monpet: each card's top-left name, 8x16
-     font, FDS 0x80102A64 loop: `lhu a0,0xE(roster slot)`, src = 0x80110380 + code << 6, w 8, x += 2, 10 cells).
-     Roster name = u16[10] at slot + 0x0E, filled from exe_enemies (EXE copy loops 0x80042564 shop, 0x80056FB8
-     chest) or the name grid (state 7 copies 0x800B3670). JP kana codes work in both fonts (16x16 code, 8x16 code +
-     14); EN pair codes only in 16x16. Plan (mirror the JP): names in **letter codes c = ASCII - 0x20** (= 8x16
-     battle-font code bf_code(ch) - 14, Latin already there; space 0x5F; the FDS_BF scheme): (a) exe_enemies
-     encoded that way (one letter per cell, 10 max: cut Megadragonfly / King Croakpuff under D19 everywhere, e.g.
-     Megadarner / King Puff, incl. EXE.json "Got King Croakpuff!" lines and glossary); (b) MSG_CG 16x16 slots 1-0x5F
-     <- `digraph.cell(chr(c + 0x20) + " ")` so 16x16 draws of name codes (naming top box 0x80107C5C, grid
-     0x80107D5C) show the letter (spaced); no EN text uses those slots, but grep code-literal glyph uploads first;
-     (c) grid = letter codes, both cases on one page (case offset 0x20 would turn digits into letters): set the 3
-     `addiu 0x55` to 0, labels + the ヴ upload to code 0, drop NAME_LABEL / the compose-table block; (d) exe_enemies'
-     3 FDS readers 0x801044B4 / 0x801053E0 / 0x8010564C (monpet shop list, scene shop_monpet) draw 16x16: patch them
-     to the 8x16 path like the card (base 0x80110380, sll 6, w 8, x step 2) or they show spaced letters; (e) check
-     scenes roster_name (pokes JP あい = codes 1,2), name_saved, shop_monpet, chest_mon1-4, monpet_detail; re-tour,
-     gate, then set Phase 9. Battle draw of monpet names not checked (ball battles unloggable). Left (s19): EXE exe_monpet_lines 4
-     (FDS naming screen 0x80107AEC, callers in session 19 Done; it also shows the kana name-entry grid, item 2),
-     shop lines 3 (no money / carry limit / already have it: Circle doesn't buy in a poked shop; open a shop through
-     its event (0x80031364 path) or find what the poked shop lacks), EXE 2 (1. Go back / 2. Leave), ST 36
-     (IQ win/lose/retry/"Got all that? No" branches: poke a win, Start menu Retry / Give Up in a battle that allows
-     it, per-game opponent pairs), FDS 1 (item-order "Confirm"), rooms 29. MACHINE, TTL, monpet moves done.
+  0. Text coverage: exit 0 on a0774c53. Battle draw of monpet names not checked (ball battles unloggable; a 16x16
+     draw of a name would show centred letters from MSG_CG slots 1-0x5F).
      **Merge recipe** (after any new run): `tools/cover_remap.py work/qa/cover/strings_e210.tsv work/qa/cover
      work/qa/rcover --out work/qa/cover_now`; `cp work/qa/exe_log_keep.txt work/qa/cover_now/exe/log.txt` (EXE
      dialogue pages); copy each `work/qa/ncover/<run>/log.txt` (current-build keys, not remapped) to
      `work/qa/cover_now/ncover/<run>/`; then `textcover.py work/qa/cover_now build/wataru_en.strings.tsv --waive
      docs/text_unshown.tsv`. `tools/cover_ids.py DIR` lists the ids a log dir shows.
-     a. Rooms (29 left, listed in the report): these hang their chunk every round (rounds 6-7, chunks of 2): look at
-        the words before each (dump work/qa/cover_e210/work/disc/en/FPRG/Rnn.BIN), start them with another HOST
-        (pass 2) or waive with the reason (dead page / choice branch).
-     b. EXE: monpet names 30, shop/monpet lines, EXE 3 (1. Go back / 2. Leave choice, "Opened the treasure chest!").
-        Consumables, effects, key descs, abilities done (s18). Scenes items_all / items_c / keys_b / abil_all / gear_all
-        are the pattern (poke + `12:down/60x17` then up: the cursor's description is only read when the cursor lands
-        on a row).
-     e. ST 36: IQ practice (iqp/iqn scenes) covers the rules; left are win/lose/Retry/Give Up branches and the
-        "Got all that? No" path, for each game's opponent pair.
      BALLBAT/ENE (326) are **waived as unloggable** (docs/text_unshown.tsv, reason in each line; gotcha in
      docs/skill-gotchas.md): --debugger freezes ball battles even from a dynarec mid-battle state, and RAM dumps
      through battle_win found no pointer slot or message buffer to poll. Visual-QA gate: passes on 90f876dc; any
      rebuild needs a re-tour (pixel-only changes: rerun just the scenes that show them, as the shop in session 14) (`warp_all.py`, `tour_sheets.py`, `qa_gate.py init/todo`, `vqa_codex.py`).
+  Older phase-8 notes (non-gating, kept for reference):
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
      can't run Python, Orca refuses nested workers): G17/G18 in game (graphics.md rows: find the BALLBAT sprite
      list that cuts each bubble rect and the action that plays it; or waive with the offline check),
@@ -420,15 +417,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
      (string id -> RAM address it is read from; room text shares overlay RAM per room, so log room + address) and a
      `TEXT <addr>` log from a text hook (the 16x16 glyph path in docs/re/font.md). Note: sheet.py doesn't create the
      --out directory.
-  2. Carried from phase 7 (QA must confirm or fix): FDS monpet name-entry grid 0x18468 is still kana (no scene
-     reaches it yet; find how 0x77C78 なまえを入れてください is reached, then put Latin letters in the grid as
-     single-letter pair codes, and check where entered names are drawn: 16x16 font = pair codes, 8x16 = code+14);
-     BALLBAT 21F04 "Immune to [blank cells] !" (what the game draws in cells 5-6); Aragoto's LVUP digit cells;
+  2. Carried from phase 7 (name-entry grid done s22-23, letter codes): BALLBAT 21F04 "Immune to [blank cells] !" (what the game draws in cells 5-6); Aragoto's LVUP digit cells;
      TTL label "Mashin Battle" (13 letters) against the value column (extra config page, not in a scene yet);
      the English save title (script/MEMORY.json) in a saved card (`tools/debug/blank.mcd` after scene save: header
      title at block offset 0x04) and wherever the game lists saves; a battle that uses もんペット (BALLBAT table
      bases 0x800F1C1C / 0x800F52E8 waived in test_reloc: watch them there too).
-  3. Text edits: always through a batch (`batches.py merge NAME --overwrite`, handN for hand fixes; next: hand25).
+  3. Text edits: always through a batch (`batches.py merge NAME --overwrite`, handN for hand fixes; next: hand26).
      ST lines can't grow past their JP word count; polish.md minors on ST must keep that limit.
   4. docs/polish.md: done (session 12).
 - **Open bugs:** none.

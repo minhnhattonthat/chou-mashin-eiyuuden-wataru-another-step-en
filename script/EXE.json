@@ -959,7 +959,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "キングトノプを手に入れた！",
-   "en": "Got King Croakpuff!",
+   "en": "Got King Croak!",
    "status": "done"
   },
   {
@@ -1799,7 +1799,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "キングトノプを手に入れた！\nだが、もちきれなかった。",
-   "en": "Got King Croakpuff!\nBut you couldn't carry it.",
+   "en": "Got King Croak!\nBut you couldn't carry it.",
    "status": "done"
   },
   {

@@ -43,7 +43,7 @@ RAW = re.compile(r"\[([0-9A-F]{4})\]")
 WRITES = {}  # disc path -> [(offset, orig bytes, new bytes, writer)]
 OVERFLOW = []  # ids whose `en` is longer than the JP slot and can't move (marker shown instead)
 MOVED = []  # ids strpack moved to free space
-FDS_BF = set()  # ids FDS draws from the 8x16 font at code + 14 (もんペット moves)
+FDS_BF = set()  # ids FDS draws from the 8x16 font at code + 14 (もんペット moves, species names)
 # Code patches: (path, offset, original u32, new u32, why). The battle header (BALLBAT 0x800DF310-0x800DF3C8) draws
 # the 8-bit enemy name for the 16-bit name's cell count (0x800F1C00), which in English is half the letters: loop to
 # the NUL instead (lbu v1,0(s1) for both count reads; the slt goes, bnez v1 tests the next byte). docs/re/windows.md.
@@ -75,21 +75,56 @@ CODE = [
     # Title Config value column x 115 -> 123: "Mashin Battle" (7 cells from x 9) touched its value at 115.
     ("PRG/TTL.BIN", 0x360C, 0x3C030073, 0x3C03007B, "config values: lui v1,0x7B (actor x)"),
 ]
-# Monpet name entry (FDS task 0x250 from field state 0xB, docs/re/debug.md): 90 u16 codes at FDS 0x18470 drawn as
-# 9 rows of two 5-wide panels (index row * 5 + col, right panel 45+). The かな/カナ key adds 0x55 to each code
-# (input 0x801078EC, draw 0x80107DFC / 0x80107EAC; input skips 0 and 0xAA-0xAC). English: single-letter cells at
-# fixed codes at the end of the compose table (stable across builds, so names in saves survive a patch update),
-# lower case = upper + len(keys): the key switches case. Its label (glyphs uploaded by code: カナ 0x5B 0x6A / かな
-# 6 0x15) -> "A/a" in blank MSG_CG slots NAME_LABEL. In the second mode the right panel's row 7 isn't redrawn and
-# its first cell gets glyph 0x8D (ヴ): that cell is 0 (blank) and the upload code 0; its other cells are one symbol
-# in both cases. Cells 85-89 (case key, blank, Exit) stay.
+# Monpet names (species table exe_enemies, roster u16[10] at slot + 0x0E, name entry FDS task 0x250 from field state
+# 0xB, docs/re/debug.md) are in **letter codes** c = ASCII - 0x20 (space 0x5F), one letter per cell: the roster card
+# (FDS 0x80102A64) draws them from the 8x16 font at glyph c + 14 = bf_code, as the JP kana codes. The shop list
+# (0x801044B4, 0x801053E0) and the entry screen's name box (0x80107C5C) drew 16x16 glyphs: patched to the card's
+# 8x16 path (NAME_DRAW), with the box's green next-letter frame (actor x set at 0x80108AB0 from length 0x800C0E7E). The grid (0x80107D5C) still draws 16x16: MSG_CG slots 1-0x5F get the letter centred.
+# Grid: 90 u16 codes at FDS 0x18470, 9 rows of two 5-wide panels (index row * 5 + col, right panel 45+). Both cases on
+# one page, so the かな/カナ key's +0x55 (input 0x801078EC: skipped, draw 0x80107DFC / 0x80107EAC) becomes +0, the key cells
+# 85-86 (0x100) blank and its label uploads (glyphs by code: カナ 0x5B 0x6A / かな 6 0x15) code 0. Cell 80 stays
+# blank with its ヴ upload at code 0 (the second mode didn't redraw it). Exit (88-89) stays.
 NAME_GRID = 0x18470
-NAME_ROWS = ["ABCDEFGHIJ", "KLMNOPQRST", "UVWXYZ.-!?", "0123456789"]  # shown rows, upper case; the rest blank
-NAME_LABEL = {0x55: "A/", 0x8E: "a "}
-NAME_CODE = [(0x108EC, 0x24840055, None), (0x10DFC, 0x24420055, None), (0x10EAC, 0x24420055, None),  # case offset
-             (0x10F14, 0x26842D80, 0x26842A80), (0x10F3C, 0x26843500, 0x26844700),  # label: addiu a0,s4,code*128
-             (0x10F64, 0x26840300, 0x26842A80), (0x10F88, 0x26840A80, 0x26844700),
+NAME_ROWS = ["ABCDEFGHIJ", "KLMNOPQRST", "UVWXYZ.-!?", "abcdefghij", "klmnopqrst", "uvwxyz", "0123456789"]
+NAME_CODE = [(0x10DFC, 0x24420055, 0x24420000), (0x10EAC, 0x24420055, 0x24420000),  # draw case offset -> 0
+             # (input's +0x55 block 0x801078B0 is skipped and holds NAME_WRAP)
+             (0x10F14, 0x26842D80, 0x26840000), (0x10F3C, 0x26843500, 0x26840000),  # label: addiu a0,s4,code*128
+             (0x10F64, 0x26840300, 0x26840000), (0x10F88, 0x26840A80, 0x26840000),
              (0x10F40, 0x26844680, 0x26840000)]  # ヴ over the blank cell 80 -> code 0
+# 16x16 -> 8x16 name draws (FDS offset, original words, new words, why); 8x16 base 0x80110380 (glyph c + 14), x step
+# 2 halfwords, width 8. The shop's second reader keeps s7 (its blank-cell upload uses it): code - 0x13E rebases it.
+NAME_DRAW = [
+    (0xD408, [0x36F75300], [0x36F70380], "shop list 1: ori s7,0x380 (8x16 base)"),
+    (0xD4A0, [0x26730004], [0x26730002], "shop list 1: x += 2"),
+    (0xD4B4, [0x3C088009, 0x25087AEC, 0x00481021, 0x32B0FFFF, 0x94440000, 0x24020010, 0xAFB00010, 0xAFA20014,
+              0xAFA20018, 0x000421C0],
+     [0x3C088009, 0x00481021, 0x32B0FFFF, 0x94447AEC, 0x24020008, 0xAFA20014, 0xAFB00010, 0x24020010, 0xAFA20018,
+      0x00042180], "shop list 1: lhu a0,0x7AEC(v0), w 8, sll 6"),
+    (0xE3B4, [0x26310004, 0x3204FFFF, 0x3C01800B, 0x00340821, 0x94239148, 0x26100001, 0x00031080, 0x00431021,
+              0x00021040, 0x00441021, 0x00021040, 0x3C018009, 0x00220821, 0x94247AEC, 0x32D2FFFF, 0xAFB20010,
+              0xAFB30014, 0xAFB30018, 0x000421C0],
+     [0x26310002, 0x3C01800B, 0x00340821, 0x94239148, 0x32D2FFFF, 0x00031080, 0x00431021, 0x00021040, 0x00501021,
+      0x00021040, 0x3C018009, 0x00220821, 0x94247AEC, 0x26100001, 0x2484FEC2, 0xAFB20010, 0xAFBE0014, 0xAFB30018,
+      0x00042180], "shop list 2: x += 2, code - 0x13E, w fp (8), sll 6"),
+    (0x10C78, [0x36735300], [0x36730380], "name box: ori s3,0x380 (8x16 base)"),
+    (0x10CE0, [0x08041F3F, 0x000221C0], [0x08041F3E, 0x24080008], "name box: j 0x80107CF8, t0 = 8"),
+    (0x10CF4, [0x00000000, 0x000221C0], [0x24080008, 0x00022180], "name box: t0 = 8, sll 6"),
+    (0x10D10, [0xAFB20014], [0xAFA80014], "name box: w t0"),
+    (0x10D2C, [0x26310004], [0x26310002], "name box: x += 2"),
+    (0x11AB0, [0x00021500], [0x000214C0], "name box green next-letter frame: x = 16 + len * 8 (sll 19)"),
+    # The three loops drew 10 x 16 px; 8x16 cells fill only the left 80 px of the VRAM row and the rest kept stale
+    # text (shop list showed old dialogue). Wrapper 0x801078B8, in the input's case-offset block (dead: no grid cell
+    # is the case key any more, so the flag +0x54 stays 0): upload the glyph, then blank glyph 14 at x + 20 (80 px).
+    # It keeps ra / x in the caller's home slots 0x0 / 0x4 (0x800704B8 reads only its stack args 0x10-0x18).
+    (0x108B0, [0x3C02800A, 0x8C42C7AC, 0x00000000, 0x84420054, 0x00000000, 0x1040000A, 0x00000000, 0x10600008,
+               0x2482FF56, 0x3042FFFF, 0x2C420002, 0x14400004, 0x240200AC, 0x10620002, 0x00000000, 0x24840055],
+     [0x08041E3C, 0x00000000, 0xAFBF0000, 0x0C01C12E, 0xAFA70004, 0x8FA70004, 0x3C048011, 0x34840380, 0x24050000,
+      0x24060000, 0x0C01C12E, 0x24E70014, 0x8FBF0000, 0x00000000, 0x03E00008, 0x00000000],
+     "name wrapper: j 0x801078F0 (no case offset); glyph + blank at x + 20"),
+    (0xD4DC, [0x0C01C12E], [0x0C041E2E], "shop list 1: jal name wrapper"),
+    (0xE400, [0x0C01C12E], [0x0C041E2E], "shop list 2: jal name wrapper"),
+    (0x10D14, [0x0C01C12E], [0x0C041E2E], "name box: jal name wrapper"),
+]
 
 
 def not_text():
@@ -113,9 +148,10 @@ def entries():
             kind = e.get("kind")
             if "font" in e:
                 ctx, tab, nl = "M16_" + e["font"], "M16_" + e["font"], 0x1000
-            elif kind in ("bfont", "bname") or doc.get("table") == "mashin_attacks":
-                # mashin_attacks = もんペット moves: FDS draws them with the 8x16 font, 8 px per cell, glyph = code + 14
-                if doc.get("table") == "mashin_attacks":
+            elif kind in ("bfont", "bname") or doc.get("table") in ("mashin_attacks", "enemies"):
+                # もんペット moves and species names (letter codes, NAME_GRID): FDS draws them with the 8x16 font,
+                # 8 px per cell, glyph = code + 14
+                if doc.get("table") in ("mashin_attacks", "enemies"):
                     FDS_BF.add(e["id"])
                 ctx, tab, nl = "BF", "BF", None
             elif "table" in doc or kind == "menu":
@@ -210,19 +246,29 @@ def allocate(uses):
     return {"  ": 0, **{p: compose.PAIR_FIRST + i for i, p in enumerate(order)}}
 
 
-def name_grid(orig, end):
-    """Original 90 grid codes, end of the pair codes -> (new grid, {code: pair}, case offset) (see NAME_GRID)."""
-    keys = sorted(set("".join(NAME_ROWS)) | {" "})
-    n, base = len(keys), end - 2 * len(keys)
+def name_code(ch):
+    """Letter code of a monpet-name character (see NAME_GRID): the 8x16 glyph is code + 14."""
+    return bf_code(ch) - 14
+
+
+def name_grid(orig):
+    """Original 90 grid codes -> new grid (see NAME_GRID): letter codes, blank cells 0, case key blank, Exit kept."""
     grid = list(orig)
     for r in range(9):
         for c in range(10):
             i = r * 5 + c if c < 5 else 45 + r * 5 + c - 5
             ch = NAME_ROWS[r][c] if r < len(NAME_ROWS) and c < len(NAME_ROWS[r]) else " "
-            grid[i] = 0 if i == 80 else base + keys.index(ch) if i < 85 else orig[i]
-    pairs = {base + k: ch + " " for k, ch in enumerate(keys)}
-    pairs.update({base + n + k: ch.lower() + " " for k, ch in enumerate(keys)})
-    return grid, pairs, n
+            grid[i] = orig[i] if i >= 85 else 0 if ch == " " or i == 80 else name_code(ch)
+    grid[85] = grid[86] = 0
+    return grid
+
+
+def name_cell(c):
+    """16x16 cell (128 bytes) for letter code c: the letter centred, blank for the space code."""
+    ch = chr(c + 0x20)
+    px = digraph.pixels(ch if ch in digraph.letters() else " ")
+    px = [[0] * 4 + row[:12] for row in px]
+    return bytes(px[y][x] | px[y][x + 1] << 4 for y in range(16) for x in range(0, 16, 2))
 
 
 def put(bufs, orig, path, off, data, by):
@@ -347,18 +393,17 @@ def edits(qa=None, english=True):
         put(bufs, orig, path, off, struct.pack("<I", new), "code " + why)
     cg, cnf, exe, fds = load("FM16/MSG_CG.BIN"), load("OUT/CNF_MSG.BIN"), load(EXE), load("FPRG/FDS.BIN")
     pairs = [p for p, c in sorted(codes.items(), key=lambda pc: pc[1]) if c]
-    end = compose.PAIR_FIRST + (len(orig[cg]) - (compose.TABLE - compose.FONT_RAM)) // 2  # MSG_CG's last byte
-    grid, grid_pairs, case = name_grid(struct.unpack_from("<90H", orig[fds], NAME_GRID), end)
-    assert compose.PAIR_FIRST + len(pairs) <= min(grid_pairs), "name grid codes overlap the text's pairs"
-    pairs += ["  "] * (min(grid_pairs) - compose.PAIR_FIRST - len(pairs)) + [grid_pairs[c] for c in sorted(grid_pairs)]
     if english:
+        grid = name_grid(struct.unpack_from("<90H", orig[fds], NAME_GRID))
         put(bufs, orig, fds, NAME_GRID, struct.pack("<90H", *grid), "name grid")
         for off, old, new in NAME_CODE:
             assert struct.unpack_from("<I", orig[fds], off)[0] == old, hex(off)
-            put(bufs, orig, fds, off, struct.pack("<I", new if new is not None else old & 0xFFFF0000 | case),
-                "code name grid")
-        for k, pair in NAME_LABEL.items():
-            put(bufs, orig, cg, 0x5300 + k * 128, digraph.cell(pair), f"name key label {k:X}")
+            put(bufs, orig, fds, off, struct.pack("<I", new), "code name grid")
+        for off, old, new, why in NAME_DRAW:
+            assert list(struct.unpack_from("<%dI" % len(old), orig[fds], off)) == old, hex(off)
+            put(bufs, orig, fds, off, struct.pack("<%dI" % len(new), *new), "code " + why)
+        for c in range(1, 0x60):  # 16x16 draws of letter codes (the grid)
+            put(bufs, orig, cg, 0x5300 + c * 128, name_cell(c), f"name letter {c:X}")
     table = compose.table_bytes(pairs)
     for f in (cg, cnf):
         put(bufs, orig, f, compose.FONT - compose.FONT_RAM, compose.font_bytes(), "compose font")
