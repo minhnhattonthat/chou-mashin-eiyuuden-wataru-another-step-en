@@ -4,10 +4,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G12, G16, G19, G20,
   G23, G25 credits, G22 INN board; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18,
-  G22 SAKE lantern). Build **d7ca3b3b** (chest lines padded, shop Yes/No spacing): visual-QA gate passed on
-  48f7e75a (902/902) and **needs the re-tour of Next 00** for d7ca3b3b. Text coverage 5,403/5,805 + 327 waived
-  (75 left, see Next 0). Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
+  G22 SAKE lantern). Build **d7ca3b3b**: visual-QA gate **passes 1041/1041**. Text coverage 5,472/5,805 + 327
+  waived (**6 left**, see Next 0). Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 20 (2026-11-14): **re-tour on d7ca3b3b**: EN + JP warps of shop, shop_confirm/monpet, chest_*,
+    items_c/d, keys_b, abil_all/b -> 139 new sheets judged by codex (chunks20), 15 issues all false positives,
+    overridden in zz_controller.tsv (chest_mon* empty second box = the original's own, work/qa/p8x/chestB.png;
+    "..." drift; Ep.01 box cosmetic) -> `qa_gate.py check` 1041/1041. **Coverage 75 -> 6 left**: all 36 ST IQ
+    branch lines via new `tools/lua/iqstep.lua` (jumps an IQ game actor's step/sub-step: debug.md "IQ battle
+    steps"; runs work/qa/iqs/<run>, logs merged as cover_now/ncover/iqs_*), 4 monpet naming lines via new scene
+    **act250** (shop/naming actor action 0x250 spawned in slot 12, iqstep `OBJ=0x800BDC60 SETTOP=4|6`), rooms 29
+    via textcover_run `--chunk 1 --timeout 150` (run8, then cover_remap). EXE 0x800315CC starts action 0x250 at
+    0x800C0E28 when u16 0x8009C85A == 0; FDS actions 0x22A-0x22C (scenes act22a-c) read nothing. Build unchanged.
   - Phase 8, session 19 (2026-11-14): coverage 107 -> 75 left, 2 real bugs fixed, build d7ca3b3b (smoke ok, 111
     tests). **Bug: junk glyphs after "Opened the treasure chest!"**: EXE 0x80055EE0 uploads exactly 16 glyph words
     of the chest lines (7A4DC empty / 7A500 opened / 7A524 bottle) with no end check; the JP fills them with blank
@@ -333,8 +341,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
      (or tour_sheets.py for all, ~15 min), `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build
      build/wataru_en.bin`, `todo --out-dir`, `vqa_codex.py <chunks> --jp work/qa/tour_jp_full`. A new scene also
      needs its JP warp (`--rom <orig cue> --out work/qa/tour_jp --states work/qa/tour_jp_states`) + JP sheet.
-  0. Text coverage (current: **5,403/5,805 shown + 327 waived, 75 failing**, work/qa/cover_now_report.txt;
-     `tools/cover_missing.py work/qa/cover_now_report.txt` lists them with English). Left: EXE exe_monpet_lines 4
+  0. Text coverage (current: **5,472/5,805 shown + 327 waived, 6 failing**, work/qa/cover_now_report.txt):
+     shop lines EXE 77BC0/77BE0/77C00 (no money / carry limit / already have it), EXE 77C3A/77C46 "1. Go back /
+     2. Leave", FDS 12510 item-order "Confirm". Try iqstep jumps on the shop actor (action 0x250 or the shop's own;
+     find where 0x8008F3C0 + n*0x20 is computed) or waive with reason. Monpet name-entry grid (item 2) not seen:
+     the slot-12 spawn freezes after step 5. Older notes below are history. Left (s19): EXE exe_monpet_lines 4
      (FDS naming screen 0x80107AEC, callers in session 19 Done; it also shows the kana name-entry grid, item 2),
      shop lines 3 (no money / carry limit / already have it: Circle doesn't buy in a poked shop; open a shop through
      its event (0x80031364 path) or find what the poked shop lacks), EXE 2 (1. Go back / 2. Leave), ST 36

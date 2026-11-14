@@ -103,6 +103,16 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
   0x80056080 gives the item by kind (+0x5C, jump table 0x8001E2F8, 0-6); kind 5 = monpet: species +0x5E goes into the
   first free roster slot with its name copied (0x80056FB8). Scenes chest_open/empty/bottle/monpet, chest_mon1-4
   (warp.lua `chest=A-B`: every species name read).
+- **IQ battle steps** (p8 s20): each IQ game is a field actor (0x800BD750 + 0x6C * n; practice 15-puzzle at n 16,
+  0x800BDE10) whose action u16 +0 picks an ST handler from EXE table 0x8006E840: 0x103 = KIO / 15-puzzle (ST
+  0x800EEE84), 0x112 = hit & blow (0x800FA2D4), 0x120 = 0x800FF958 game. Top state u16 +2 indexes the game's step
+  table (0x103: 0x8010AEB8; 0x112: 0x8010B884; 0x120: 0x8010C954); some top states run a sub-step at another field
+  through their own table (0x103 top 3 -> +0x56 table 0x8010AF34: host talk, 4/6/8 opponent taunts, 16/18/20 lose
+  lines, 27 "Start all over again?", 29 "any time!", 47 "weren't listening?!"; top 19 -> +0x5A table 0x8010B180:
+  2/4/6 win lines; 0x112 top 5 -> +0x56 0x8010B910, top 6 -> 0x8010B940; 0x120 top 5 -> +0x68 0x8010CA90). The ST
+  message functions copy their JP-sized string to the stack, so readlog sees them even when the box isn't drawn.
+  `tools/lua/iqstep.lua` logs the steps and jumps one (`TOP`/`ATF`, `SETTOP`, `FIELD`, `TO`); runs in work/qa/iqs/.
+  The ep-2 story KIO game doesn't run as one of these actors (only 0x11E/0x11F appear, at its card).
 - Abilities (p8 s18): FDS 0x80101740(char) uploads the glyphs of u16[10] at **0x800A96D0 + 20 * char** (ability ids,
   name = 0x8009703C + 14 * id, exe_abilities) when Status opens a page; scene abil_all pokes ids 1-26.
 - Use menu tabs (p8 s18): 4 tabs Heal / Attack / Support / Other = inventories 0x800A3510 / 3530 / 3548 / 3568; the
