@@ -242,7 +242,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\nだから、ファンの方々には、\nそんなこと関係ないんですわ！",
-   "en": "Sakuya:\nAs I said, that does not\nmatter to her fans!",
+   "en": "Sakuya:\nBut that does not matter\nto her fans!",
    "status": "done"
   },
   {
@@ -782,7 +782,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "たくろー：\nさいわい、下水道の臨し部屋に、\n電脳空間に入り込むことの出来る",
-   "en": "Takuro:\nLuckily, a hidden Sewers room\nhas a way into Cyberspace:",
+   "en": "Takuro:\nA hidden room in the Sewers\nhas a way into Cyberspace:",
    "status": "done"
   },
   {
@@ -1187,7 +1187,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "それがうまくいくまで待ってくれ。",
-   "en": "Wait until it works.",
+   "en": "Hang tight until it's done.",
    "status": "done"
   },
   {
@@ -1430,7 +1430,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサクヤぁ。\nあの、何とかプログラムってなに？",
-   "en": "Wataru:\nSakuyaaa!\nWhat's that whatever program?",
+   "en": "Wataru:\nSakuyaaa!\nWhat's that whatsit program?",
    "status": "done"
   },
   {
@@ -2366,7 +2366,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "メグ：\n私のために、\n何だか申し訳ありません。",
-   "en": "Meg:\nI feel rather guilty,\nwith all this being for me.",
+   "en": "Meg:\nI am sorry you are going to\nall this trouble for my sake.",
    "status": "done"
   },
   {
@@ -2456,7 +2456,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n今の、いいんだって、は、お主の\n手がらだからいいのかぁ・・・？",
-   "en": "Aragoto:\nIs that \"Don't worry\" all right\nbecause the credit is yours...?",
+   "en": "Aragoto:\nSo NOW you can say 'Don't worry'\nsince you earned the thanks...?",
    "status": "done"
   },
   {
@@ -3428,7 +3428,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\n部長め！　主任のワシに、\n電力制御ルームを見てこいだとぉ！",
-   "en": "Man:\nThat manager! I'm a supervisor!\nCheck the power control room?!",
+   "en": "Man:\nThe boss sends ME, a supervisor,\nto check the power control room!",
    "status": "done"
   },
   {
@@ -3455,7 +3455,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おじさん：\nコーヒーで、ホッとひといき。\n仕事の合間のささやかな楽しみ。",
-   "en": "Man:\nAhh, a relaxing cup of coffee.\nA little joy between jobs.",
+   "en": "Man:\nAhh, a relaxing cup of coffee.\nA small treat on my work break.",
    "status": "done"
   },
   {
@@ -3599,7 +3599,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "【メグ】さまの名前は、\n・・・・・さんから、\nとっているんだよ。",
-   "en": "Meg-sama got her name\nfrom... ...-san!",
+   "en": "Meg-sama was named after\n...-san!",
    "status": "done"
   },
   {
@@ -3725,7 +3725,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "ナ、ナント！　【メグ】サンノ\nファーストアルバムガ、ハヤクモ、\nハツバイサレルソウデ～ス。",
-   "en": "G-guess what! Meg-san's first\nalbum is already going to be\nreleased, so I heeear!",
+   "en": "G-guess what! Meg-san's first\nalbum is coming out so soon!\nThat's what I heeear!",
    "status": "done"
   },
   {
@@ -3806,7 +3806,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "【メグ】さまグッズについている\nオウボケンを送ると、１０名に\n【メグポーチ】が当たるのよ。",
-   "en": "Send the coupons on Meg-sama\nmerchandise. Ten lucky winners\nwill get a Meg Pouch!",
+   "en": "Send in the entry coupons from\nMeg-sama merchandise. Ten lucky\nwinners will get a Meg Pouch!",
    "status": "done"
   },
   {
@@ -4418,7 +4418,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "素晴らしいぃ！\nスクープまんさいで、\n取材も行きとどいている。",
-   "en": "Wonderful!\nPacked with scoops, and you've\ninterviewed everyone thoroughly.",
+   "en": "Wonderful!\nPacked with scoops, and your\nreporting is thorough, too!",
    "status": "done"
   },
   {

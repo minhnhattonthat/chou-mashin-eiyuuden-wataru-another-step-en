@@ -332,7 +332,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "５時間は帰ってこないな。",
-   "en": "she won't return for five hours.",
+   "en": "she'll be gone for at least\nfive hours.",
    "status": "done"
   },
   {
@@ -548,7 +548,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルリーヌ：\nガーンッ！！",
-   "en": "Warurine:\nGAAAH!!",
+   "en": "Warurine:\nDun-dun-DUN!!",
    "status": "done"
   },
   {
@@ -1988,7 +1988,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\n声優の【みやモー】ファンで、\n合い言葉を考えてみたの。",
-   "en": "Young Woman:\nI'm a fan of voice actor Miyamo,\nso I came up with a password.",
+   "en": "Young Woman:\nI'm a fan of voice actor Miyamo,\nso I came up with a chant.",
    "status": "done"
   },
   {
@@ -2618,7 +2618,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "警備員：\n・・・。\nこれは前回のカタログですね。",
-   "en": "Guard:\n...\nThis is last event's Catalog.",
+   "en": "Guard:\n...\nThis is the previous Catalog.",
    "status": "done"
   },
   {
@@ -3014,7 +3014,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "ワタノレ様の\nド・ウ・ジ・ン・シ～！！",
-   "en": "VVataru-sama's very own\nF-A-N C-O-M-I-C!!",
+   "en": "A F-A-N C-O-M-I-C\nabout VVataru-sama!!",
    "status": "done"
   },
   {

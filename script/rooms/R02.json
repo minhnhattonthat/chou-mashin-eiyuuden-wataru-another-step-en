@@ -116,7 +116,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おとこの子：\nボクの大好きなプロタンが、\n【キャッシュバック】でもらった",
-   "en": "Boy:\nMy favorite Protan! With the\ncashback money,",
+   "en": "Boy:\nI bought my favorite Protan\nwith the cashback money!",
    "status": "done"
   },
   {
@@ -125,7 +125,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "お金で、買えたんだ。\nいいでしょう。",
-   "en": "I could afford to buy it.\nPretty neat, huh?",
+   "en": "Pretty neat, huh?",
    "status": "done"
   },
   {
@@ -332,7 +332,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おーっほっほっ！！\nそんなこと\nあるわけありませんわ。",
-   "en": "Oh ho ho ho!!\nOf course I could never\ndo such a thing.",
+   "en": "Oh ho ho ho!!\nOf course I could never\nsay anything peculiar.",
    "status": "done"
   },
   {
@@ -746,7 +746,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おねえさん：\nかーっ！　サケ好きの私には、\nありがたい話さ～。",
-   "en": "Young Woman:\nAhh! For a drink lover like me,\nthis is a blessing!",
+   "en": "Young Woman:\nAhh! This is a godsend\nfor a booze lover like me!",
    "status": "done"
   },
   {
@@ -1223,7 +1223,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nそんな都合のいいハナシが\nあるワケないじゃん。",
-   "en": "Wataru:\nNo way! Nothing could\nbe that convenient.",
+   "en": "Wataru:\nNo way! That sounds way\ntoo good to be true.",
    "status": "done"
   },
   {
@@ -2105,7 +2105,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "カネワ：\nいやいやいや・・・。\nさすが救世主さま。",
-   "en": "Kanewa:\nNo, no, no...\nAs expected of the Savior-sama.",
+   "en": "Kanewa:\nNo, no, no... Just as I'd\nexpect of you, Savior-sama.",
    "status": "done"
   },
   {

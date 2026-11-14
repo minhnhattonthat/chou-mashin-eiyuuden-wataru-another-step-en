@@ -655,7 +655,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "おさまっちまった。\nこれぞ「油断大敵あめアラレ」\nってヤツだな、わっはっは！",
-   "en": "...here! \"Never let your guard\ndown... or your gumdrops!\"\nWah ha ha!",
+   "en": "As they say, \"Never let your\nguard down... or your gumdrops!\"\nWah ha ha!",
    "status": "done"
   },
   {
@@ -1591,7 +1591,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おじさん：\nコンビニにお弁当売ってないから、\nクサを食べたら・・・ゲリぴー。",
-   "en": "Man:\nThe store had no lunches, so I\nate grass... Now I've got runs.",
+   "en": "Man:\nThe store had no lunch, so I ate\ngrass... now I've got the runs.",
    "status": "done"
   },
   {

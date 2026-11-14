@@ -67,6 +67,8 @@ def main():
     for ln in (ROOT / "build" / "wataru_en.strings.tsv").read_text(encoding="utf-8").splitlines():
         pid, key, kind = ln.split("\t")[:3]
         key = int(key, 16)
+        if kind == "menu":  # menu/battle sources: tools/lua/readlog.lua over the warp scenes
+            continue
         eps.setdefault(key >> 24, []).append((pid[:3], key & 0xFFFFFF, kind, key in seen))
     only = {int(x) for x in a.only.split(",") if x}
     jobs = []

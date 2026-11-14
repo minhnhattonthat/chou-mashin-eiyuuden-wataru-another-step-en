@@ -143,7 +143,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\n遊ばない？\nって言われても・・・。",
-   "en": "Wataru:\nCome play?\nWell, even if you ask...",
+   "en": "Wataru:\nCome play?\nWell, uh...",
    "status": "done"
   },
   {
@@ -377,7 +377,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "胸に手を置いて、\n良く考えることですわ！",
-   "en": "Put your hand over your heart\nand think very carefully!",
+   "en": "Search your heart\nand think very carefully!",
    "status": "done"
   },
   {
@@ -1160,7 +1160,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nごまかさないで！",
-   "en": "Warurine:\nDon't dodge the issue!",
+   "en": "Warurine:\nDon't try to fool me!",
    "status": "done"
   },
   {
@@ -1268,7 +1268,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワルリーヌ：\nパパを・・・、",
-   "en": "Warurine:\nPapa... He said...",
+   "en": "Warurine:\nPapa...",
    "status": "done"
   },
   {
@@ -1961,7 +1961,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "か弱き自分の娘に力を\n貧してやるのは、父親として\n当然のつとめだろう？",
-   "en": "Isn't lending my feeble daughter\nmy strength only natural\nfor a father?",
+   "en": "Isn't it a father's duty to lend\nhis strength to his own\nfrail daughter?",
    "status": "done"
   },
   {
@@ -2357,7 +2357,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばあさん：\nこのご時世に、コンビニも\nものずきじゃのう・・・。",
-   "en": "Old Woman:\nA convenience store these days?\nAn odd fancy, eh...",
+   "en": "Old Woman:\nRunning a convenience store now?\nAn odd lot, those owners, eh...",
    "status": "done"
   },
   {
@@ -2717,7 +2717,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "・・・！！\nう、うわぁぁぁぁ！！\nヒトが、ヒトがせまってくるぅ！！",
-   "en": "...!!\nU-uaaaah!!\nPeople! People are closing in!!",
+   "en": "...!!\nW-waaaah!!\nPeople! People are closing in!!",
    "status": "done"
   },
   {
@@ -3005,7 +3005,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "ワルリーヌ嬢ちゃまの\nおともだち？　嬢ちゃまなら、\nご主人さまのいる間に行ったわよ。",
-   "en": "Are you Miss Warurine's friends?\nShe's gone to the room where\nthe master is.",
+   "en": "Are you Miss Warurine's friends?\nShe's gone to the chamber\nwhere Master-sama is.",
    "status": "done"
   },
   {

@@ -710,7 +710,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nほっ、取りあえずは\n何とかなったみたいだな。",
-   "en": "Wataru:\nWhew! Looks like we managed\nsomehow, at least.",
+   "en": "Wataru:\nWhew! Looks like we pulled\nthrough for now!",
    "status": "done"
   },
   {
@@ -773,7 +773,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "どちらもちゃんとした救世主さま\nだったわけですし・・・。",
-   "en": "Both boys truly were\nSavior-sama, after all...",
+   "en": "Both truly deserve to be called\nSavior-sama, after all...",
    "status": "done"
   },
   {
@@ -1151,7 +1151,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワット】のシュミで\n村中、でんきゅうだらけよ！\n目がチカチカしてしょうがないわ。",
-   "en": "Watt's taste has filled the\nvillage with light bulbs!\nMy poor eyes keep seeing spots!",
+   "en": "Thanks to Watt's taste, we've\ngot light bulbs everywhere!\nMy poor eyes keep seeing spots!",
    "status": "done"
   },
   {
@@ -1349,7 +1349,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "だっさー！\n救世主にはり合うなら、みかけ\nじゃなく、ハートで勝負なさいよ！",
-   "en": "Lame! If you want to rival the\nSavior, compete with heart,\nnot your looks!",
+   "en": "Lame! Want to rival the Savior?\nShow some heart instead of\njust dressing like him!",
    "status": "done"
   },
   {

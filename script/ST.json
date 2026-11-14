@@ -46,7 +46,7 @@
    "id": "ST:00204",
    "kind": "menu",
    "jp": "なに！？　説明を聞かないのか？",
-   "en": "What?! Won't hear the rules?",
+   "en": "What?! You won't listen?",
    "end": "FFFF",
    "status": "done"
   },
@@ -158,7 +158,7 @@
    "id": "ST:0050C",
    "kind": "menu",
    "jp": "お前のその勇気で、\n立ち向かってくれ！",
-   "en": "Face them with your courage!",
+   "en": "Be brave and take them on!",
    "end": "FFFF",
    "status": "done"
   },
@@ -166,7 +166,7 @@
    "id": "ST:00534",
    "kind": "menu",
    "jp": "あなたのその勇気で、\n立ち向かうことね！",
-   "en": "Face them with your courage!",
+   "en": "You'd best face them bravely!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1030,7 +1030,7 @@
    "id": "ST:021B4",
    "kind": "menu",
    "jp": "む！　はっ！　はっ！　はっ！　\nあまいぞ！　ワタル！",
-   "en": "Mwa ha ha ha!\nToo naive, Wataru!",
+   "en": "Mwa ha ha ha!\nNot good enough, Wataru!",
    "end": "FFFF",
    "status": "done"
   },
@@ -1310,7 +1310,7 @@
    "id": "ST:02B6C",
    "kind": "menu",
    "jp": "光った数字の順番を、\nみごと当てるとクリアだ！",
-   "en": "Match the numbers' flash order\nto win!",
+   "en": "Repeat the numbers' flash\norder to win!",
    "end": "FFFF",
    "status": "done"
   },

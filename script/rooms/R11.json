@@ -566,7 +566,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "キミがボクの城の前をいかにも\n「あなたのお嫁さんにして」って\n感じでウロついてたんじゃないの。",
-   "en": "You loitered by my castle,\nlooking for all the world like\n\"Please make me your bride!\"",
+   "en": "You were pacing by my castle,\nas if to say, \"Please make me\nyour bride!\"",
    "status": "done"
   },
   {
@@ -899,7 +899,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nサクヤは大事な仲間だ！",
-   "en": "Wataru:\nSakuya's our dear friend!",
+   "en": "Wataru:\nSakuya's our friend!\nShe means a lot to us!",
    "status": "done"
   },
   {
@@ -1556,7 +1556,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おにいさん：\nもう時間はとっくに過ぎてるのに、\nこないなぁ・・・。",
-   "en": "Young Man:\nShe's way past the time we set,\nbut she's still not here...",
+   "en": "Young Man:\nIt's way past our meeting time,\nbut she's still not here...",
    "status": "done"
   },
   {

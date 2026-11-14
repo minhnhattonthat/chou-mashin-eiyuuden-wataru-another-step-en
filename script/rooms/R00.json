@@ -413,7 +413,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "わたくし、忍部一族のひとり、\n忍部サクヤと申します。\n以後お見知り置きを。",
-   "en": "I am Sakuya Shinobibe, of the\nShinobibe clan. I look forward\nto making your acquaintance.",
+   "en": "I am Sakuya Shinobibe, of the\nShinobibe clan. I am pleased\nto make your acquaintance.",
    "status": "done"
   },
   {
@@ -458,7 +458,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "妖怪のような風貌（ふうぼう）を\nなさっていらっしゃるからでは\nございませんか？",
-   "en": "Grandmother, happen to bear\nsuch a striking resemblance\nto a monster?",
+   "en": "happen to bear such a striking\nresemblance to a monster?",
    "status": "done"
   },
   {
@@ -692,7 +692,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\nフッ、旅は道づれ世は情け、\n思い立ったが吉日よ。",
-   "en": "Aragoto:\nTravel needs friends, life love!\nHmph! No time like the present!",
+   "en": "Aragoto:\nHmph! Company on the road,\nkindness in life! Why wait?",
    "status": "done"
   },
   {
@@ -1214,7 +1214,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "でも、誰もいないか。",
-   "en": "But there's nobody there, is it?",
+   "en": "But there's nobody there,\nis there?",
    "status": "done"
   },
   {
@@ -1322,7 +1322,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "家はいったい、\nドコじゃったかいなぁ。\nふぅ・・・。",
-   "en": "Where in the world\nwas my house again?\nPhew...",
+   "en": "Where in the world\nwas my house again?\nSigh...",
    "status": "done"
   },
   {

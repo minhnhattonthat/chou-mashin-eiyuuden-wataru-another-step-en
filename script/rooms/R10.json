@@ -511,7 +511,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "「喉元過ぎれば熱さ忘れる」\nと言うではないか。",
-   "en": "As they say, \"Once it's down\nthe throat, the heat is\nsoon forgotten.\"",
+   "en": "As they say, \"Danger past,\nGod forgotten.\"",
    "status": "done"
   },
   {
@@ -1258,7 +1258,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "おにいさん：\nワタシ、トオイクニデ\nボディビルダー、ヤッテマ～ス。",
-   "en": "Young Man:\nI am a bodybuilder\nfrom a faaaway country!",
+   "en": "Young Man:\nI am a bodybuilder\nfrom a faraway country, yes!",
    "status": "done"
   },
   {
@@ -1555,7 +1555,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\n私も、そんなステキな\nおとこの方に",
-   "en": "Young Woman:\nI'd love to meet\nsuch a wonderful man...",
+   "en": "Young Woman:\nI, too, would love to meet...",
    "status": "done"
   },
   {
@@ -1564,7 +1564,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "お会いしたいですわ。",
-   "en": "Myself.",
+   "en": "...such a wonderful gentleman.",
    "status": "done"
   },
   {

@@ -971,7 +971,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n何だ？\nそのポッキリ折れちまってる剣は？",
-   "en": "Aragoto:\nWhat is that?\nThat sword snapped clean in two?",
+   "en": "Aragoto:\nWhat is that sword you've got,\nsnapped clean in two?",
    "status": "done"
   },
   {
@@ -1205,7 +1205,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "３人は城の中で、奴のエネルギー\n源を壊してくれ。ボクと先生と\nヒミコは、あいつを引きつける。",
-   "en": "You three, wreck his energy\nsource in the castle! Himiko, my\nteacher and I'll distract him.",
+   "en": "You three, wreck his energy\nsource in there! My teacher,\nHimiko and I will distract him.",
    "status": "done"
   },
   {
@@ -1448,7 +1448,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ヒミコ：\nそっか。\nじゃあつれてって見るのだ。",
-   "en": "Himiko:\nOh, okay!\nThen I'll bring it along!",
+   "en": "Himiko:\nOh, okay!\nThen I'll take it to him!",
    "status": "done"
   },
   {
@@ -2087,7 +2087,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "Ｇワタル：\n・・・ボクがワルモンダーを倒し\nたら、ボクの使っている登龍剣を",
-   "en": "G-Wataru:\n...Once I beat Warumonder,\nI'll leave the Toryuken I use...",
+   "en": "G-Wataru:\n...Once I beat Warumonder,\nI'll leave my Toryuken...",
    "status": "done"
   },
   {
@@ -2852,7 +2852,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おんなの子：\n魔神バトルでダメージを\n受けたときは、回復して。",
-   "en": "Girl:\nIf hurt in a Mashin Battle,\nuse recovery!",
+   "en": "Girl:\nWhen you get hurt in a\nMashin Battle, use recovery!",
    "status": "done"
   },
   {
@@ -3068,7 +3068,7 @@
    "kind": "ptr",
    "end": "3000",
    "jp": "おばさん：\n救世主さまが、がんばってくれた\nから、気持ちよく水がのめるよ。",
-   "en": "Woman:\nYour hard work, Savior-sama,\nlets me enjoy drinking water.",
+   "en": "Woman:\nThanks to you, Savior-sama,\nI can enjoy my water again!",
    "status": "done"
   },
   {

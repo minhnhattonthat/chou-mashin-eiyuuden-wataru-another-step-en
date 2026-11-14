@@ -8,7 +8,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "アラゴト：\n景気のいい村のようだな。",
-   "en": "Aragoto:\nA prosperous village, it seems.",
+   "en": "Aragoto:\nA lively village, I daresay.",
    "status": "done"
   },
   {
@@ -809,7 +809,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "一つの方向から\n見ちゃいけないんだよねっ。",
-   "en": "You can't just look at people\nfrom one side!",
+   "en": "You can't judge people by\njust one thing!",
    "status": "done"
   },
   {
@@ -1565,7 +1565,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "イヌのまねっっ！\nこの間のスポーツ選手の\nコキュウ法を見て思いついたんだ。",
-   "en": "I'm doing a dog impression!\nAn athlete's breathing technique\nI saw the other day inspired me.",
+   "en": "I'm imitating a dog! I got the\nidea watching an athlete breathe\nthe other day.",
    "status": "done"
   },
   {

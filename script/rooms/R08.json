@@ -1673,7 +1673,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "おいで！　【アムラーＸ５５】！",
-   "en": "Come forth, Amuler X55!",
+   "en": "Come on out, Amuler X55!",
    "status": "done"
   },
   {
@@ -1682,7 +1682,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルトリン：\nキィーッ！　覚えてろよっ！",
-   "en": "Warutorin:\nEeeek! You'll pay for this!",
+   "en": "Warutorin:\nGrrr! You'll pay for this!",
    "status": "done"
   },
   {
@@ -2897,7 +2897,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "プロになるのがユメなの。",
-   "en": "My dream is to become\na professional singer.",
+   "en": "and become\na professional singer.",
    "status": "done"
   },
   {
@@ -3608,7 +3608,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "マスターすれば、\nみんなしたをまくわよ！",
-   "en": "Master it, and you'll have\neveryone tongue-tied!",
+   "en": "Master it, and you'll wow\neveryone!",
    "status": "done"
   },
   {
@@ -4184,7 +4184,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おねえさん：\nボーリングバトルでは\nこまかいアクションにも",
-   "en": "Young Woman:\nIn Bowling Battle, even\nthe tiniest movements...",
+   "en": "Young Woman:\nIn Bowling Battle, even the\nsmallest moves get special care.",
    "status": "done"
   },
   {
@@ -4193,7 +4193,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "気を配っているので、\n見てやってくださいね。",
-   "en": "get lots of care, so be sure\nto watch them closely.",
+   "en": "Be sure to watch them closely.",
    "status": "done"
   },
   {
@@ -4220,7 +4220,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "おねえさん：\nボーリングバトルでは\nこまかいアクションにも",
-   "en": "Young Woman:\nIn Bowling Battle, even\nthe tiniest movements...",
+   "en": "Young Woman:\nIn Bowling Battle, even the\nsmallest moves get special care.",
    "status": "done"
   },
   {
@@ -4229,7 +4229,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "気を配っているので、\n見てやってくださいね。",
-   "en": "get lots of care, so be sure\nto watch them closely.",
+   "en": "Be sure to watch them closely.",
    "status": "done"
   },
   {
@@ -4445,7 +4445,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "そこで、たまに通りかかる\n店の人に、気付いてもらおうと\nこぶしをふって歌っているのじゃ。",
-   "en": "So I sing with flourishes...\nOf my fists! Hoping shop staff\npassing now and then notice me.",
+   "en": "I sing with flourishes...of my\nfists! Perhaps a passing clerk\nwill notice an old fellow, eh?",
    "status": "done"
   },
   {
@@ -4526,7 +4526,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "無人部屋のディスプレイを\nしらべて、音当てクイズが\n始まったと思ったら・・・。",
-   "en": "He checked the display in\nan empty room, and just as the\nnote quiz started...",
+   "en": "He checked the display in\nan empty room, and just as the\nguess-the-note quiz started...",
    "status": "done"
   },
   {
@@ -5381,7 +5381,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "だからこそ、これだけの\nビルを作れるのじゃな。",
-   "en": "So that's how she could build\nsuch a huge building, eh?",
+   "en": "That love of karaoke explains\nthis grand building, eh?",
    "status": "done"
   },
   {

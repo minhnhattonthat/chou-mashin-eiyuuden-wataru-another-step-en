@@ -222,7 +222,7 @@
    "slot": 27,
    "max": 10,
    "jp": "単体特殊攻撃を防ぐ",
-   "en": "One: no special hits",
+   "en": "One: block specials",
    "status": "done"
   },
   {
@@ -397,7 +397,7 @@
    "slot": 49,
    "max": 10,
    "jp": "宝箱開けてないとなる",
-   "en": "Rings: unopened loot",
+   "en": "Chimes: chests left",
    "status": "done"
   },
   {

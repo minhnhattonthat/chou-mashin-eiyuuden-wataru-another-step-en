@@ -150,14 +150,14 @@
    "kind": "next",
    "end": "3000",
    "jp": "いらっしゃーい・・・。\n買えるものがあるなら、買って\nいっておくれ。",
-   "en": "Well, hello there...\nIf there's anything you can\nbuy, do buy it, won't you?",
+   "en": "Well, hello there...\nIf you can afford something,\ndo buy it, won't you?",
    "status": "done"
   },
   {
    "id": "EXE:77C20",
    "kind": "menu",
    "jp": "おきゃくさん、ちょっと。",
-   "en": "A moment, please, customer.",
+   "en": "Excuse me! A moment, please.",
    "end": "1000",
    "status": "done"
   },

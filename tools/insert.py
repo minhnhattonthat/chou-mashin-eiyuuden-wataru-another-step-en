@@ -33,6 +33,7 @@ TREE = ROOT / "work" / "disc" / "tree"
 SCRIPT = ROOT / "script"
 EXE = "SLPS_013.68"
 ENE_BASE = 0x80104800  # YM/BR_02/ENExx.BIN load address (extract.ENE_BASE)
+MENU_TAG = 0x20  # strings(): menu/battle keys start here (room keys use the episode, 0-15)
 BF_FIRST = 0x0F  # battle font: '!' .. '~' -> 0x0F.. (over its kana; digits 1-10 stay), space = 0x6D (blank)
 INLINE = {0xB000: 1}
 GLYPH_MAX = 0x262
@@ -373,11 +374,24 @@ def strings():
     """build/strings.tsv for textcover.py, from the last edits() run: room page id -> hex (episode << 24 | RAM address
     of its first text word in the English overlay), the form tools/lua/textlog.lua logs the event pointer in.
     Third column: the page's header kind from rooms.pages() (event / next / ptr / code: textview.lua starts 'event'
-    pages at their 7-word header). Menu/battle sources are not listed yet."""
+    pages at their 7-word header). Menu/battle sources (EXE, overlays, ENE) follow: key = MENU_TAG + source index
+    << 24 | RAM address, kind 'menu', 4th column = the first 4 bytes written there (tools/lua/readlog.lua checks
+    them on a read, since ST/BALLBAT/MACHINE/TTL/LVUP share 0x800D0000)."""
     rooms = roompack.rooms
     out = []
+    bases = {}
+    for p in sorted(SCRIPT.glob("*.json")) + sorted(SCRIPT.glob("ene/*.json")):
+        doc = json.loads(p.read_text(encoding="utf-8"))
+        if "base" in doc:
+            bases.setdefault(doc["file"], int(doc["base"], 16))
+    tags = {f: MENU_TAG + i for i, f in enumerate(sorted(bases))}
     for path, ws in WRITES.items():
         name = Path(path).stem
+        if path in bases:
+            for off, _, new, by in ws:
+                if re.fullmatch(r"(EXE|ST|BALLBAT|MACHINE|TTL|LVUP|FDS|ENE\d\d):[0-9A-F]+", by):
+                    out.append(f"{by}\t{tags[path] << 24 | (bases[path] + off) & 0xFFFFFF:X}\tmenu\t{new[:4].hex()}\n")
+            continue
         if name not in rooms.OVERLAYS:
             continue
         kind = {o: h for o, _, _, h in rooms.pages((rooms.FPRG / f"{name}.BIN").read_bytes())}

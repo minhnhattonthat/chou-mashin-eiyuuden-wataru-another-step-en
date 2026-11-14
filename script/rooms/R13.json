@@ -278,7 +278,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "パパの本棚から\nコッソリ借りて来ちゃったの。",
-   "en": "I sneaked it off Papa's\nbookshelf to borrow it.",
+   "en": "I borrowed it from Papa's\nbookshelf without telling him.",
    "status": "done"
   },
   {
@@ -305,7 +305,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "おっきいお姉ちゃんのところに\n来たら、お姉ちゃん\nデートだって言うし・・・。",
-   "en": "I came to see my eldest\nsister, but she said\nshe had a date...",
+   "en": "I came to see my eldest sister,\nbut Big Sis said she had\na date...",
    "status": "done"
   },
   {
@@ -413,7 +413,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "龍神丸の力がなければ、\nアラゴトおじさんや、創界山の\nみんなを救うことができないよ！",
-   "en": "Without Ryujinmaru's power,\nI can't save Aragoto or everyone\nin Sokaizan!",
+   "en": "Without Ryujinmaru's power,\nI can't save Old Man Aragoto\nor everyone in Sokaizan!",
    "status": "done"
   },
   {
@@ -1529,7 +1529,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "あきらめない強さと、\nみんなを想う心を持っていれば、\n乗り越えられるはずだ。",
-   "en": "With the strength to persevere\nand a heart that cares for all,\nyou should be able to overcome.",
+   "en": "With the strength to persevere\nand a heart that cares for all,\nyou can get through this.",
    "status": "done"
   },
   {
@@ -2168,7 +2168,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワルジョ：\nキィーッ！\n覚えてなさいよっ！",
-   "en": "Warujo:\nEeeek!\nYou'll pay for this!",
+   "en": "Warujo:\nAaargh!\nYou'll pay for this!",
    "status": "done"
   },
   {
@@ -2726,7 +2726,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "おばさん。",
-   "en": "You old lady.",
+   "en": "Old lady.",
    "status": "done"
   },
   {
@@ -3536,7 +3536,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "人々を守るための戦う力と、\n人々を救うための知の力と、\n人々の魂を奮わせる【心の力】！",
-   "en": "Might to guard, wisdom to save,\nand the Power of Heart to stir\npeople's souls!",
+   "en": "Might to guard, wisdom to save,\nand the Power of the Heart\nto stir people's souls!",
    "status": "done"
   },
   {
@@ -3716,7 +3716,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "これから、するべきことのために、\n必要な心を癒してくれるのよ。",
-   "en": "It will soothe your heart,\ngiving it what it needs for\nwhat you must do from now on.",
+   "en": "It will soothe your heart\nand prepare you for\nwhat lies ahead.",
    "status": "done"
   },
   {
@@ -3887,7 +3887,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "それも、今では・・・。",
-   "en": "But now, even that...",
+   "en": "Though these days...",
    "status": "done"
   },
   {
@@ -3914,7 +3914,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\n【ワルジョ】さまが、【剣】って\n言葉に反応するナゾが解けたわ！",
-   "en": "Woman:\nI've solved why Warujo-sama\nreacts to the word \"sword\"!",
+   "en": "Woman:\nI've solved the mystery of why\n\"sword\" sets Warujo-sama off!",
    "status": "done"
   },
   {
@@ -4067,7 +4067,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "【ワルジョ】さまは、\nアラゴトさまとおたわむれ中です。\nお引きとりください。",
-   "en": "Warujo-sama is making merry\nwith Aragoto-sama.\nPlease leave.",
+   "en": "Warujo-sama is flirting\nwith Aragoto-sama.\nPlease leave.",
    "status": "done"
   },
   {

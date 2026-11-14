@@ -6,6 +6,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
   G23, G25 credits; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18).
   Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 12 (2026-11-14): **polish pass done** (docs/polish.md 0 unticked): work/tl/hand20 (96 entries,
+    merged; ST/10-cell-field lines that can't fit waived with reasons; G25 readings waived per D21). Script changed,
+    **build NOT rebuilt** (still e210ee37: coverage runs were using it); 111 tests pass on the new script.
+    **Room coverage**: run2 = 3,407/4,599 pages (work/qa/cover/report.txt; ep01 234/234; 64 chunks timed out);
+    run3 (`textcover_run.py --jobs 4`, resumes) was started detached at hand-off -> work/qa/cover/run3.log.
+    The old build's strings.tsv (rooms + menu lines) is saved as work/qa/cover/strings_e210.tsv: after a rebuild,
+    `tools/cover_remap.py work/qa/cover/strings_e210.tsv work/qa/cover work/qa/rcover --out work/qa/cover_now`
+    carries every shown id to its new key (page ids survive text edits; tests/test_cover_remap.py).
+    **Menu/battle coverage**: `insert.strings()` now also lists every EXE/overlay/ENE string (kind `menu`, key =
+    (0x20 + source index) << 24 | RAM address, col 4 = first 4 bytes); new `tools/lua/readlog.lua` (read
+    breakpoints over spans of string first words, bytes checked since ST/BALLBAT/MACHINE/TTL/LVUP share 0x800D0000;
+    needs --debugger; DEBUG/DLO/DHI vars). warp_all over all scenes with it (work/qa/rcover, report
+    work/qa/rcover_report.txt): **140/1,206 shown** (field menus, shop, title, ST, MACHINE, FDS). **Battles hang
+    under --debugger** (the interpreter: battle bg loads, UI never appears, cold boot or from the stalled state;
+    levelup/battle_win warp timeouts), and from a dynarec battle state nothing is read (BALLBAT builds its lists/
+    names once at setup, e.g. item list buffer 0x80101478). G22 note: a legible 飯 sign shows on a field building
+    (scene field) -> room-sign redraws are real work.
   - Phase 8, session 11 (2026-11-14): **visual-QA gate passes** on build e210ee37 (`qa_gate.py check` 717/717:
     re-tour 58/59 scenes (endreal: known FMV stall), 43 changed sheets re-judged by codex, all ok incl. hitblow card
     backs, staff-roll page bottoms, Config heading; false positives overridden with reasons in
@@ -232,10 +249,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  0. Text coverage. If this repo's textcover_run.py / pcsx-redux processes still run, wait (report lands in
-     work/qa/cover/report.txt). Else rerun `python -X utf8 tools/textcover_run.py --jobs 3` until the count stops
-     rising (it resumes; a hung chunk = NPC text walked into an `A000` item command, costs one chunk), then
-     `textcover.py work/qa/cover build/wataru_en.strings.tsv`. Pages still missing: look at their header kind / the
+  0. Text coverage. If this repo's textcover_run.py / pcsx-redux processes still run (run3), wait: **don't rebuild
+     while they run** (they read build/). Then rerun `python -X utf8 tools/textcover_run.py --jobs 4` until the
+     count stops rising (it resumes; a hung chunk = NPC text walked into an `A000` item command, costs one chunk;
+     try `--chunk 10` for the last ones), report: `textcover.py work/qa/cover work/qa/strings_rooms.tsv` (rooms of
+     strings_e210). Then rebuild (polish edits), smoke, warp_all, re-tour (`tour_sheets.py`, `qa_gate.py init/todo`,
+     `vqa_codex.py` on changed sheets), and remap coverage with cover_remap.py (above).
+     Menu/battle sources: field/menu scenes work with readlog.lua; battles need another way: a non-debugger
+     probe (on_frame: decode the battle list buffers / header name RAM back to ids), exec hooks once the battle has
+     loaded (state after setup + debugger works, it just reads nothing then), or waive BALLBAT/ENE/LVUP by source
+     with the battle tour sheets as evidence. Name tables (exe_consumables/equipment/enemies/abilities/
+     item_effects, fds_places): need viewer scenes (poke inventories with every id, open the list) or waivers. Pages still missing: look at their header kind / the
      words before them (dump the EN overlay work/disc/en/FPRG/Rnn.BIN); start them by pass 2 with another HOST, or
      waive with a reason in docs/text_unshown.tsv (e.g. dead pages no event reaches). ep00 (FMV/opening) and the
      R13 ep12/13 split need checking that their epNN.sstate reaches free walk. Then menu/battle sources (EXE, ST,
@@ -271,9 +295,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
      the English save title (script/MEMORY.json) in a saved card (`tools/debug/blank.mcd` after scene save: header
      title at block offset 0x04) and wherever the game lists saves; a battle that uses もんペット (BALLBAT table
      bases 0x800F1C1C / 0x800F52E8 waived in test_reloc: watch them there too).
-  3. Text edits: always through a batch (`batches.py merge NAME --overwrite`, handN for hand fixes; next: hand20).
+  3. Text edits: always through a batch (`batches.py merge NAME --overwrite`, handN for hand fixes; next: hand21).
      ST lines can't grow past their JP word count; polish.md minors on ST must keep that limit.
-  4. docs/polish.md: 6 "cut" name lines (header 11 letters / strip 16 are display limits: put the full name where
-     the field allows it or waive) + the minors, before phase 9.
+  4. docs/polish.md: done (session 12).
 - **Open bugs:** none.
 - **Waiting on the user:** nothing.
