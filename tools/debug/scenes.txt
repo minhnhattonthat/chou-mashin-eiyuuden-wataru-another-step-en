@@ -72,6 +72,8 @@ monpets2 ep=1 idle=1 poke=800A8D60:2:2,800A8D82:4:2,800A8DA4:6:2,800A8DC6:8:2,80
 menu_status ep=1 idle=1 press=12:triangle,150:-,12:down,40:-,12:down,40:-,12:down,40:-,12:circle,90:- atstate=9 hold=120
 menu_config ep=1 idle=1 press=12:triangle,150:-,12:down,40:-,12:down,40:-,12:down,40:-,12:down,40:-,12:circle,90:- atstate=9 hold=120
 shop ep=1 idle=1 poke=8009C788:A:2,8009C85A:0:2 atstate=0xA hold=300      # field state 0xA: shop (FD_SHP font)
+shop_confirm ep=1 idle=1 poke=8009C788:A:2,8009C85A:0:2,8009C7E6:1:2,8009C914:1:2,8009C900:1:2 atstate=0xA hold=300  # shop kind u16 0x8009C914 = 1 (event 0x80031364: from 0x8009C900/0x8009C90A): "Is this OK? Yes No" box (exe_shop_lines 77BA0)
+shop_monpet ep=1 idle=1 poke=8009C788:A:2,8009C85A:0:2,8009C7E6:2:2,8009C914:2:2,8009C90A:1:2 atstate=0xA hold=300  # shop kind 2 = monpet shop (list of species, prices); Circle doesn't buy from a poked shop
 save ep=1 idle=1 mode=0x10 atmode=0x10 hold=900                             # memory card save screen (MEMORY.BIN)
 save_slot ep=1 idle=1 mode=0x10 atmode=0x10 press=300:-,12:circle,240:-,12:circle,600:-,12:circle,300:- hold=900 every=30  # save into file 1 of the blank card: confirm, saving, done, then the filled slot (G9)
 save_ep3 ep=3 idle=1 mode=0x10 atmode=0x10 press=300:-,12:circle,240:-,12:circle,600:-,12:circle,300:- hold=300  # as save_slot in episode 3: slot shows the Ep. NN frame (G9)

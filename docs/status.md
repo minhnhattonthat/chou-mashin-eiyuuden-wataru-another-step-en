@@ -4,11 +4,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G12, G16, G19, G20,
   G23, G25 credits, G22 INN board; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18,
-  G22 SAKE lantern). Build **48f7e75a** (IQ LOSE!/WIN! cards in BUR/PUZ): **visual-QA gate passes**
-  (`qa_gate.py check` 902/902, tour now 96 scenes). Text coverage 5,371/5,805 + 327 waived (107 left, see Next 0).
-  Phase 7 done (2026-11-14): full English build, overflow empty,
-  all warp scenes reach.
+  G22 SAKE lantern). Build **d7ca3b3b** (chest lines padded, shop Yes/No spacing): visual-QA gate passed on
+  48f7e75a (902/902) and **needs the re-tour of Next 00** for d7ca3b3b. Text coverage 5,403/5,805 + 327 waived
+  (75 left, see Next 0). Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 19 (2026-11-14): coverage 107 -> 75 left, 2 real bugs fixed, build d7ca3b3b (smoke ok, 111
+    tests). **Bug: junk glyphs after "Opened the treasure chest!"**: EXE 0x80055EE0 uploads exactly 16 glyph words
+    of the chest lines (7A4DC empty / 7A500 opened / 7A524 bottle) with no end check; the JP fills them with blank
+    cells, the moved EN didn't -> insert.py pads moved EXE strings whose JP ends in blank cells to the JP length
+    (strings.tsv unchanged, so coverage logs stay valid). **Bug: shop "Is this OK? Yes No"** cursor covered "Yes"
+    (Yes at cell 8, JP はい at cell 10): hand21 respaces to cells 10 / 13 (matches JP, work/qa/warp/shop_confirm).
+    s18's "monpet naming flow" was the **treasure chest** (debug.md "Treasure chest", corrected): scenes
+    chest_open/empty/bottle/monpet + chest_mon1-4 (warp.lua `chest=A-B`, kind 5 = monpet) -> all 30 species names
+    read. Shop kinds (u16 0x8009C914 0-3): scenes shop_confirm (kind 1: Yes/No box) and shop_monpet (kind 2). The
+    exe_monpet_lines (77C58..77CB8) are drawn by FDS 0x80107AEC (16 glyphs, line = arg; callers 0x801072F4,
+    0x80107694, 0x801078A0, 0x8010794C, 0x801079F8): the naming screen is FDS code, not yet reached; monpet buy via
+    0x80042228 (needs money u32 0x8009C8B4 + an Other-tab item 4 bottle), but Circle in a poked shop never buys.
+    New scenes not toured yet (EN warp exists in work/qa/warp, JP only for chest_monpet/shop_confirm): chest_*,
+    shop_confirm, shop_monpet + the 5 from s18.
   - Phase 8, session 18 (2026-11-14): coverage 177 -> 107 left (no rebuild, build 48f7e75a). New scenes (logs in
     work/qa/ncover/<scene>, merged into work/qa/cover_now/ncover/): **items_c / items_d** (4th Use tab "Other" =
     inventory 0x800A3568: items_b never switched to it; the list reads only 8 rows: consumables 44-58 + effects
@@ -320,11 +333,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
      (or tour_sheets.py for all, ~15 min), `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build
      build/wataru_en.bin`, `todo --out-dir`, `vqa_codex.py <chunks> --jp work/qa/tour_jp_full`. A new scene also
      needs its JP warp (`--rom <orig cue> --out work/qa/tour_jp --states work/qa/tour_jp_states`) + JP sheet.
-  0. Text coverage (current: **5,371/5,805 shown + 327 waived, 107 failing**, work/qa/cover_now_report.txt;
-     `tools/cover_missing.py work/qa/cover_now_report.txt` lists them with English). Left: EXE (monpet species names 30 (copied into the roster at acquisition only: find who calls EXE 0x8004EC74, see
-     debug.md "Monpet naming flow"; that flow also shows exe_monpet_lines 4 and the kana name-entry grid, item 2),
-     shop lines 4 (confirm / no money / carry limit / already
-     have it: a buy route through the shop scene didn't reach them; look at the shop state machine), EXE 3), ST 36
+  0. Text coverage (current: **5,403/5,805 shown + 327 waived, 75 failing**, work/qa/cover_now_report.txt;
+     `tools/cover_missing.py work/qa/cover_now_report.txt` lists them with English). Left: EXE exe_monpet_lines 4
+     (FDS naming screen 0x80107AEC, callers in session 19 Done; it also shows the kana name-entry grid, item 2),
+     shop lines 3 (no money / carry limit / already have it: Circle doesn't buy in a poked shop; open a shop through
+     its event (0x80031364 path) or find what the poked shop lacks), EXE 2 (1. Go back / 2. Leave), ST 36
      (IQ win/lose/retry/"Got all that? No" branches: poke a win, Start menu Retry / Give Up in a battle that allows
      it, per-game opponent pairs), FDS 1 (item-order "Confirm"), rooms 29. MACHINE, TTL, monpet moves done.
      **Merge recipe** (after any new run): `tools/cover_remap.py work/qa/cover/strings_e210.tsv work/qa/cover
