@@ -14,7 +14,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
     sheet per id, writes work/qa/verdicts/<chunk>.tsv). docs/visual-qa-brief.md got the game's standing non-bugs.
     Round 1 on build 25e4d369: 702 ok, 15 issue; real ones fixed: **ST blank-cell padding** drew past the IQ box's
     16-cell VRAM buffer (704,0) and wiped the hit-and-blow card backs at (768,0) (insert: ST strings now end with
-    their terminator after the text; found with new `tools/lua/loadimg.lua`); **staff roll**: the next page's first
+    their terminator after the text; found with new `tools/lua/loadwin.lua`); **staff roll**: the next page's first
     row showed under each 224-px page (staff.py keeps row 0 blank); **Config heading** centred (hand19: "  Config").
     False positives (check after the re-tour, write `ok` overrides in work/qa/verdicts/zz_controller.tsv if the
     sheet is unchanged): credits/sheet_3-6 (forced mode 0x16 shows the map off-grid, not the real roll),
