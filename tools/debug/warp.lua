@@ -128,7 +128,12 @@ L.on_frame(function(f)
   elseif step == "act" then
     local d = f - t
     -- mash=N: Circle (12 frames; 6-frame presses are dropped in battle and at the title) every N frames
-    if S.mash and L.route_done() and d % S.mash == 0 then L.press("circle", 12) end
+    -- mashkey=down/circle: the keys pressed in turn instead (a Yes/No choice then takes No)
+    if S.mash and L.route_done() and d % S.mash == 0 then
+      local keys = {}
+      for k in tostring(S.mashkey or "circle"):gmatch("[^/]+") do keys[#keys + 1] = k end
+      L.press(keys[math.floor(d / S.mash) % #keys + 1], 12)
+    end
     -- pokeloop=A:V:N,...: written every frame until arrival (flags the game would clear)
     if S.pokeloop and not arrived then
       for a, v, n in tostring(S.pokeloop):gmatch("(%x+):(%x+):(%d)") do wr(tonumber(a, 16), tonumber(v, 16), tonumber(n)) end

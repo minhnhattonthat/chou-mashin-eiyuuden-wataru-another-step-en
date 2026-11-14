@@ -72,6 +72,8 @@ CODE = [
     (EXE, 0x4B7C8, 0x2631FC00, 0x2631FFC0, "spu clear: size -= 0x40"),
     (EXE, 0x4B7D0, 0x26520400, 0x26520040, "spu clear: spu addr += 0x40"),
     (EXE, 0x4B7D8, 0x2E220401, 0x2E220041, "spu clear: sltiu v0,s1,0x41 (loop)"),
+    # Title Config value column x 115 -> 123: "Mashin Battle" (7 cells from x 9) touched its value at 115.
+    ("PRG/TTL.BIN", 0x360C, 0x3C030073, 0x3C03007B, "config values: lui v1,0x7B (actor x)"),
 ]
 
 

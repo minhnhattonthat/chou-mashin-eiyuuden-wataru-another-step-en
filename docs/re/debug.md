@@ -76,6 +76,17 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
 - Monpet roster: 8 x 34 bytes at **0x800A8D60** (u16 +0 nonzero = owned; 1 = a 水 rank-A one), swap list 8 x 6 at
   0x800A9148. Per-episode monpet table u32 0x8008F88C[ep] (6-byte entries: attack-name index into the 10-cell table
   0x80097AEC = exe_mashin_attacks). Scene monpet_detail.
+- Clear flag u8 **0x8009C681** (p8 s16): nonzero unlocks the title Config rows IQ Battle / Mashin Battle (TTL
+  0x800D0BE8 skips rows 3-4 while 0). Config: circle = edit a row, up/down = value, circle on IQ Battle starts that
+  IQ game as practice (scenes title_extra, title_values, iqp0-3 / iqn0-3). Value column x = actor +0x28 set by
+  `lui v1,0x73` at TTL 0x800D360C (patched to 0x7B in insert.CODE: "Mashin Battle" touched its value).
+- Field-menu place box: FDS 0x800F9468 draws `u32 table 0x801094AC[ep u16 0x8009C90C] + 20 * place u16 0x8009C902`
+  (scenes places0-5 poke both, open the menu, restore ep 1).
+- Gear inventory: u16 list **0x800A9758** (100 slots, `icon << 8 | id`, id 1-88 = exe_equipment, name table
+  0x8009546C + 16 * id); equipped gear per character u16 pair at 0x800A9110 + 4 * (u16 0x8009C750[char]); list cursor
+  u16 0x800C1680. Scene gear_all. Mashin banner names: `tools/lua/mbanall.lua` forces all 34 from a mashin state.
+- Monpet shop table u32 0x8008F88C[ep] = 6-byte entries [u16 species 1-15, u16 price, u16 rank]; the 30 names in
+  exe_enemies are 15 species x 2 (growth?) - not yet mapped to roster fields.
 - File table 0x80077240: 1,037 records of 0x20 bytes {name ptr, load address, LBA (filled at boot), size, ...};
   loader 0x8002505C(index). `tools/filetab.py` lists it.
 

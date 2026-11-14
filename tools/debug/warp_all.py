@@ -45,7 +45,7 @@ def run(name, opts, a):
     cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts" / "emu.py"), str(a.rom), "--out", str(out),
            "--sav", str(ROOT / "tools" / "debug" / "blank.mcd"), "--script", str(ROOT / "tools" / "debug" / "warp.lua"),
            "--var", "SCENE='%s'" % name, "--frames", str(frames), "--shot-every", opts.get("every", "300"),
-           "--state-out", str(states / (name + ".sstate")), "--timeout", str(max(300, frames // 20))]
+           "--state-out", str(states / (name + ".sstate")), "--timeout", str(max(300, frames // (8 if a.debugger else 20)))]  # the debugger runs ~15 fps
     if not a.no_sheet:
         cmd.append("--sheet")
     for s in a.script:

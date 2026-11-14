@@ -4,9 +4,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G12, G16, G19, G20,
   G23, G25 credits, G22 INN board; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18,
-  G22 SAKE lantern). Visual-QA gate passes on build 90f876dc. Text coverage 5,039/5,805 + 326 waived (440 left).
+  G22 SAKE lantern). Build **0051ad42** (TTL Config value column +8 px): visual-QA gate needs title_config /
+  title_extra re-judged (was 717/717 on 90f876dc). Text coverage 5,286/5,805 + 327 waived (192 left, see Next 0).
   Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 16 (2026-11-14): coverage 440 -> 192 left. **Clear flag u8 0x8009C681** unlocks title Config
+    rows IQ Battle / Mashin Battle (debug.md); scenes title_extra, title_values (every Config value: TTL all but
+    056DC, waived: no pointer), iqp0-3 / iqn0-3 (IQ practice of each game, mash Circle / `mashkey=down/circle` =
+    take No at choices; warp.lua `mashkey`). **Bug fixed**: "Mashin Battle" touched its value ("Choose an enemy
+    mashin") -> value column x 115 -> 123 (insert.CODE TTL 0x360C `lui v1,0x7B`; verified work/qa/p8x/tv_zoom.png).
+    MACHINE 34/34 via `tools/lua/mbanall.lua` (forces each banner name from work/states/mashin_attack.sstate; reads
+    = glyph uploads, banner not drawn in the menu state). Gear: list 0x800A9758 poked ids 1-88, scene gear_all (all
+    88 names). Places: scenes places0-5 poke ep + place index and open the menu (all 48; 9 per scene: debugger runs stall
+    ~f9600). New tools/cover_missing.py
+    (report -> id, script file, English), tools/lua/sprx.lua (who sets a sprite's x). warp_all: debugger wall
+    timeout frames/8. Build 0051ad42: smoke ok, 111 tests.
   - Phase 8, session 15 (2026-11-14): **room coverage** rounds 6-7 (`textcover_run.py --base work/qa/cover_e210
     --jobs 5 --chunk 5`, then `--chunk 2 --timeout 75`): rooms 458 -> 29 left. **Menu viewers** (readlog.lua,
     --debugger, logs in work/qa/ncover/): new scenes items_all + items_b (every consumable in Use tabs 1-3 + effect
@@ -282,8 +294,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  0. Text coverage (current: **5,039/5,805 shown + 326 waived, 440 failing** on build 90f876dc,
-     work/qa/cover_now_report.txt; failing: EXE 209, ST 90, FDS 50, MACHINE 32, TTL 30, rooms 29).
+  00. Visual-QA gate on build 0051ad42: rerun title_config + title_extra + title_values (warp_all), tour_sheets,
+     `qa_gate.py init/todo`, vqa_codex on the changed sheets (only the Config value column moved).
+  0. Text coverage (current: **5,286/5,805 shown + 327 waived, 192 failing**, work/qa/cover_now_report.txt;
+     `tools/cover_missing.py work/qa/cover_now_report.txt` lists them with English). Left: EXE 125 (abilities 25,
+     monpet names 30 + moves 14: species 1-15 x 2 forms, map roster fields; consumables 44-58 + effects; key-item
+     descs 16; shop 4 / monpet 4 lines; EXE 3), ST 36 (IQ win/lose/retry/"Got all that? No" branches: poke a win,
+     Start menu Retry / Give Up, per-game opponent pairs), FDS 2 item-order
+     lines, rooms 29. MACHINE and TTL done.
      **Merge recipe** (after any new run): `tools/cover_remap.py work/qa/cover/strings_e210.tsv work/qa/cover
      work/qa/rcover --out work/qa/cover_now`; `cp work/qa/exe_log_keep.txt work/qa/cover_now/exe/log.txt` (EXE
      dialogue pages); copy each `work/qa/ncover/<run>/log.txt` (current-build keys, not remapped) to
@@ -292,21 +310,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
      a. Rooms (29 left, listed in the report): these hang their chunk every round (rounds 6-7, chunks of 2): look at
         the words before each (dump work/qa/cover_e210/work/disc/en/FPRG/Rnn.BIN), start them with another HOST
         (pass 2) or waive with the reason (dead page / choice branch).
-     b. EXE 209: item category 4 (inventory 0x800A3568 is NOT a Use tab: consumables 44-58 Mask Me Up..Magicapple and
-        effects 43-58 never showed; find where those items list: maybe そうび or another menu), equipment 88 (equipment
-        inventory RAM unknown; menu_equip), abilities 25, enemies (monpet names) 30, monpet moves 14, key-item descs
-        left, shop/monpet lines. Scenes items_all / items_b / keys_all are the pattern (poke + `12:down/60x17`
-        then up: the cursor's description is only read when the cursor lands on a row).
-     c. FDS places 48: the field-menu place box shows the episode's place from the pointer table FDS 0x124AC (17
-        entries, one per episode); other places come from elsewhere (room entry popup?): find the place-id RAM, then
-        a scene that pokes it and reopens the menu.
-     d. MACHINE 32 = enemy mashin attack banners (+ 'obtained!', 'Experience Points', Skysoar names): scenes
-        mcover02-14 (GOD now pins mashin HP in mode 7) reach every episode's mashin battle but 15000 frames of
-        Slash logged no banner (enemy specials are rare; once seen in ep 2 at hold 6000: Micro Wave). Find the enemy
-        AI's special choice (RAM) and force it with a pokeloop, or record the banner actor like mbanner.lua.
-     e. ST 90 = IQ-battle lines of the other games (15 puzzle, Burikinton, card games: rules branches, win/lose):
-        IQ battles work under --debugger: scenes per episode IQ type (graphics.md G12 lists them) with readlog.
-     f. TTL 30 = the title extra page (IQ Battle / Mashin Battle practice, mashin list): find its unlock flag in TTL.
+     b. EXE: item category 4 (inventory 0x800A3568 is NOT a Use tab: consumables 44-58 Mask Me Up..Magicapple and
+        effects 43-58 never showed; find where those items list: maybe そうび or another menu), abilities 25, monpet
+        names 30 + moves 14, key-item descs left, shop/monpet lines. Scenes items_all / items_b / keys_all / gear_all
+        are the pattern (poke + `12:down/60x17` then up: the cursor's description is only read when the cursor lands
+        on a row).
+     e. ST 36: IQ practice (iqp/iqn scenes) covers the rules; left are win/lose/Retry/Give Up branches and the
+        "Got all that? No" path, for each game's opponent pair.
      BALLBAT/ENE (326) are **waived as unloggable** (docs/text_unshown.tsv, reason in each line; gotcha in
      docs/skill-gotchas.md): --debugger freezes ball battles even from a dynarec mid-battle state, and RAM dumps
      through battle_win found no pointer slot or message buffer to poll. Visual-QA gate: passes on 90f876dc; any
