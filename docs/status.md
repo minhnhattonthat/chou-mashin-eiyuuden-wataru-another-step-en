@@ -6,6 +6,28 @@ Updated at the end of every session. Keep it to what the next session needs; his
   G23, G25 credits; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18).
   Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 10 (2026-11-14): **visual-QA tour started**. warp_all on EN + original (work/qa/tour_jp, states
+    work/qa/tour_jp_states; 70/71 reach, `endreal` times out on both after its AT at f8301: the emulator stalls in
+    the ending FMV, harmless, the roll is covered by staff_roll). New `tools/tour_sheets.py` (full-scale sheets,
+    8 frames a page: emu.py's half-scale sheets made codex flag every pixel-font label as garbled, 60 false issues)
+    -> work/qa/tour (717 sheets) + work/qa/tour_jp_full; new `tools/vqa_codex.py` (codex exec read-only, EN + JP
+    sheet per id, writes work/qa/verdicts/<chunk>.tsv). docs/visual-qa-brief.md got the game's standing non-bugs.
+    Round 1 on build 25e4d369: 702 ok, 15 issue; real ones fixed: **ST blank-cell padding** drew past the IQ box's
+    16-cell VRAM buffer (704,0) and wiped the hit-and-blow card backs at (768,0) (insert: ST strings now end with
+    their terminator after the text; found with new `tools/lua/loadimg.lua`); **staff roll**: the next page's first
+    row showed under each 224-px page (staff.py keeps row 0 blank); **Config heading** centred (hand19: "  Config").
+    False positives (check after the re-tour, write `ok` overrides in work/qa/verdicts/zz_controller.tsv if the
+    sheet is unchanged): credits/sheet_3-6 (forced mode 0x16 shows the map off-grid, not the real roll),
+    mashin_fire/sheet_140 + mashin_fire2/sheet_141 (same grid in the JP), mashin_hit/sheet_16 (box mid-fade),
+    menu/menu_config/menu_use/monpet_detail sheet_3 "..." page (EN types faster: timing drift). inkbox: save-file
+    box File 1-4 centred (26/27 px; JP 5/13); the other menus are left-aligned lists like the JP; title menu has no
+    box. **Text coverage started**: `insert.strings()` -> build/wataru_en.strings.tsv (4,599 room pages, key =
+    episode << 24 | EN RAM address of the page's first word), `tools/lua/textlog.lua` (logs the event pointer in
+    that form), `tools/lua/textview.lua` (dialogue viewer: plays a page list as events; debug.md "Dialogue
+    viewer"). First run (ep 1, 234 pages): 67 shown, 66 STUCK (the event never returns to state 0 within 3000
+    frames; probably a choice, a scene change or a missing end): not yet usable. Build sha1 e210ee37..., 110 tests,
+    smoke ok. A full re-tour on this build was running at hand-off (work/qa/retour.log: warp_all -> tour_sheets ->
+    qa_gate init).
   - Phase 8, session 9 (2026-11-14): **G12 done**: Hit / Blow / Tries seen in new scene **hitblow** (ep 7 IQ = card
     hit & blow), WIN! in new scene **iq_win** (KIO lose-card table pointer 0x8010AE9C poked to the win list; WIN /
     ! now meet at the record seam, `put_stone ha=`). G17/G18: battle id = u8 **0x8009C856** (formation, EXE
@@ -199,6 +221,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
+  0. Finish the visual-QA gate on build e210ee37: if work/qa/retour.log lacks "in manifest", rerun `warp_all.py
+     --jobs 4`, `tools/tour_sheets.py`, `qa_gate.py init work/qa/manifest.tsv work/qa/tour --glob "*sheet*.png"
+     --build build/wataru_en.bin`; then `qa_gate.py todo work/qa/manifest.tsv work/qa/verdicts --size 4 --out-dir
+     work/qa/chunks` (clear old chunk files first) and `tools/vqa_codex.py <chunks> --jobs 5` (~1 min a chunk,
+     background). Verify each issue on full-res frames (`sheet.py f.png --compare jp.png --div 1`) before fixing;
+     write overrides with the reason. Check the hitblow card backs are blue circles again and the staff roll page
+     bottoms are clean. `qa_gate.py check` must exit 0. Text coverage: make textview.lua's STUCK events end (look at
+     state/mode when stuck: choices need a Cross/Down press, scene changes need the room reloaded), run per episode
+     from work/states/epNN.sstate, then add the menu/battle sources to strings.tsv (their RAM read address) or waive
+     them by source with reasons in docs/text_unshown.tsv.
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
      can't run Python, Orca refuses nested workers): G17/G18 in game (graphics.md rows: find the BALLBAT sprite
      list that cuts each bubble rect and the action that plays it; or waive with the offline check),
@@ -227,7 +259,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
      the English save title (script/MEMORY.json) in a saved card (`tools/debug/blank.mcd` after scene save: header
      title at block offset 0x04) and wherever the game lists saves; a battle that uses もんペット (BALLBAT table
      bases 0x800F1C1C / 0x800F52E8 waived in test_reloc: watch them there too).
-  3. Text edits: always through a batch (`batches.py merge NAME --overwrite`, handN for hand fixes; next: hand18).
+  3. Text edits: always through a batch (`batches.py merge NAME --overwrite`, handN for hand fixes; next: hand20).
      ST lines can't grow past their JP word count; polish.md minors on ST must keep that limit.
   4. docs/polish.md: 6 "cut" name lines (header 11 letters / strip 16 are display limits: put the full name where
      the field allows it or waive) + the minors, before phase 9.

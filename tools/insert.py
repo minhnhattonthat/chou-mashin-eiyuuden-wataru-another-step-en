@@ -278,6 +278,10 @@ def edits(qa=None, english=True):
                 for k in refs:
                     put(bufs, orig, path, k, struct.pack("<I", ENE_BASE + at), f"ptr {k:X} -> {e['id']}")
             continue
+        if path == "PRG/ST.BIN" and len(new) < avail and e.get("end", "EOF") != "EOF":
+            # end the string after its text: blank-cell padding drew past the IQ box's 16-cell VRAM buffer
+            # (704,0) and wiped the hit-and-blow card backs at (768,0); the copy still takes the whole slot
+            new.append(int(e["end"], 16))
         new += [0] * (avail - len(new))
         put(bufs, orig, load(path), off, struct.pack("<%dH" % avail, *new)[:2 * avail - back.get(e["id"], 0)], e["id"])
     for e, path, off in sjis_entries() if english else []:
@@ -363,6 +367,26 @@ def bf_cell(ch):
     """8x16 cell (64 bytes, 4 bytes per row) for the battle font: the left half of the 16x16 digraph cell."""
     px = digraph.pixels(ch)
     return bytes(px[y][x] | px[y][x + 1] << 4 for y in range(16) for x in range(0, 8, 2))
+
+
+def strings():
+    """build/strings.tsv for textcover.py, from the last edits() run: room page id -> hex (episode << 24 | RAM address
+    of its first text word in the English overlay), the form tools/lua/textlog.lua logs the event pointer in.
+    Menu/battle sources are not listed yet."""
+    rooms = roompack.rooms
+    out = []
+    for path, ws in WRITES.items():
+        name = Path(path).stem
+        if name not in rooms.OVERLAYS:
+            continue
+        for off, _, _, by in ws:
+            if re.fullmatch(r"R\d\d:[0-9A-F]+", by):
+                if name == "R13":
+                    ep = 12 if rooms.font(name, int(by[4:], 16)) == "M16_R12" else 13
+                else:
+                    ep = [c[0] for c in rooms.CASES].index(name)
+                out.append(f"{by}\t{ep << 24 | (rooms.BASE + off) & 0xFFFFFF:X}\n")
+    return "".join(out)
 
 
 def log_lines(path):

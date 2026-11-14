@@ -79,6 +79,16 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
 - File table 0x80077240: 1,037 records of 0x20 bytes {name ptr, load address, LBA (filled at boot), size, ...};
   loader 0x8002505C(index). `tools/filetab.py` lists it.
 
+## Dialogue viewer (p8 s10, for text coverage)
+
+- From free walk (work/states/field.sstate, ep 1), writing u32 0x8009C998 = a message record's start and field
+  state u16 0x8009C788 = 3 plays that message as an event: state goes 4 (window), the pointer walks the text a word
+  per frame, Circle pages on, and the event ends at the record's end (`tools/lua/textview.lua`, PTR defaults to the
+  bank start u32 0x8009C9A4: R01 bank 0x800DC96A played Wataru's "A village!" then "So..." and ended at f329).
+  So every bank message can be shown by pointing at its record; NPC (0x3000-ended, u32-pointer) messages untested.
+  Plan for textcover: build/strings.tsv = page -> EN RAM address of a word the pointer must pass (from roompack's
+  writes), hook = log every 0x8009C998 value with the episode, one viewer scene per room stepping through records.
+
 ## Scene list (tools/debug/scenes.txt) and its proof
 
 Title (menu, Continue -> card screen, Config), ep00-ep14 (area map + title card + opening dialogue of every

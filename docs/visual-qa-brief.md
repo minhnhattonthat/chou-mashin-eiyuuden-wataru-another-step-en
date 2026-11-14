@@ -30,7 +30,20 @@ Standing non-bugs, `ok` (the controller adds the game's own below):
 - text still typing out, a box mid-fade or mid-scroll, a cursor caught mid-blink;
 - a map or scene still loading after a warp;
 - anything identical in the original's sheet.
-- <game-specific: e.g. "the double cursor in the shop is the original's">
+- English is drawn two letters per 16x16 cell (D8/D18): letters sit in fixed cell pairs, so a half-cell gap
+  between words or before a number is by design, as are numbers drawn one digit per 16-px cell.
+- Kept Japanese/stylised art by ruling: the title logo 超魔神英雄伝ワタル ANOTHER STEP, logos in eyecatch and
+  puzzle images, signs and lettering in 3D room scenery and battle backgrounds (G21/G22: not yet ruled, flag only
+  if a large, legible sign).
+- Dialogue types out a letter pair at a time: a box that is empty, holds only a speaker name, or ends mid-word is
+  still typing. Judge line breaks and one-word last lines only on a page that is complete (the ▼ page arrow at the
+  box's bottom right is shown).
+- Monpet element shows a drop / bolt / flame icon instead of 水/雷/火 (D23).
+- Short forms by ruling: "Sp. Attack", "Sp. Defense", "Ep." (D20), and the cut names in D19 (Steel Jane, Jar
+  Sanpun, Mo Ippun, Veggiepurr, Maiko Jodan, Holy Wyrminferno).
+- Mashin special-move banners flash one English word per kanji cell (TO / RYU / KEN, PHAN / TOM / WYRM / WAVE): D22.
+- A black or fading frame at a warp's start, an FMV frame, a loading screen, the BANPRESTO / SUNRISE company
+  logos and "PUSH START" are not text issues.
 
 ## Verdicts
 Write your verdict file once you have read every sheet, one line per id in the chunk:

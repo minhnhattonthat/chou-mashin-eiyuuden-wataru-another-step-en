@@ -61,8 +61,9 @@ def pages(text=None):
                     row[x + i] = (ch, PAL[col])
         cur.append(row)
     for k, rows in out.items():
-        assert len(rows) <= PAGE_H, (k, len(rows))
-        top = (PAGE_H - len(rows)) // 2
+        # row 0 stays blank: the 240-line screen shows the next page's first 16-px row under the 224-px page
+        assert len(rows) <= PAGE_H - 1, (k, len(rows))
+        top = 1 + (PAGE_H - 1 - len(rows)) // 2
         out[k] = [[(" ", 0)] * 40] * top + rows + [[(" ", 0)] * 40] * (PAGE_H - top - len(rows))
     return out
 
