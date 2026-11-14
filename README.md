@@ -1,7 +1,7 @@
-# <Game title> English translation
+# Chou Mashin Eiyuuden Wataru: Another Step English translation
 
-Unofficial English fan translation of **<Game title>** (<platform>, <publisher>, <year>): the source text and tools
-that build the patch.
+Unofficial English fan translation of **Chou Mashin Eiyuuden Wataru: Another Step** (超魔神英雄伝ワタル Another Step;
+PlayStation, Banpresto / Aspect, 1998, SLPS-01368): the source text and tools that build the patch.
 
 **Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
 no game data you can play; you need your own dump of the Japanese game.
@@ -13,13 +13,19 @@ helps most.
 
 | Part | Status |
 |---|---|
-| <Dialogue / story> | <Translated> |
-| <Menus, items, skills, system messages> | <Translated> |
-| <Title screen, logos, graphics with text> | <Translated / Left in Japanese> |
-| <Name entry> | <Translated / Japanese kana only> |
-| <Songs, voiced lines, credits roll> | <Left in Japanese> |
+| Dialogue and narration: prologue and all 14 episodes | Translated |
+| Menus, items, abilities, monpets, shops, IQ-battle rules, battle text | Translated |
+| Title and config screens, episode cards, signs and battle labels drawn as graphics | Translated |
+| Monpet name entry | Translated (Latin letters, both cases, digits) |
+| Staff roll | Translated (re-laid as Western credits) |
+| Voices and songs (audio) | Left in Japanese |
 
-Known issues: <none known / see [Issues](../../issues)>.
+Known issues: none known; see [Issues](../../issues). Every scene was reached with a debug warp and checked on
+screenshots, but no one has played it start to end yet. Ball-battle text was checked on screenshots only.
+
+Base disc (Redump, SLPS-01368): `Chou Mashin Eiyuuden Wataru - Another Step (Japan).bin`, 486,099,600 bytes,
+CRC32 `B1BFDF2B`, MD5 `74eab1dba095ccfdb3943b2539ca8456`, SHA-1 `c2c044d17f5235ff8a419d554b2dd3ab82db2161`.
+Tested in PCSX-Redux (SCPH-5500 BIOS); start from a cold boot, not a savestate made on the Japanese game.
 
 ## What's here
 
@@ -40,11 +46,12 @@ Known issues: <none known / see [Issues](../../issues)>.
 Needs Python 3.12+ and your own dump of the Japanese game.
 
 ```sh
-git clone https://github.com/minhnhattonthat/<repo>
-cd <repo>
-# copy your dump to: rom/<file>
-#   (<size> bytes, SHA-1 <sha1>; the build refuses any other dump, see rom.sha1)
-python -X utf8 tools/build.py                          # -> build/<game>_en.<ext>
+git clone https://github.com/minhnhattonthat/chou-mashin-eiyuuden-wataru-another-step-en
+cd chou-mashin-eiyuuden-wataru-another-step-en
+# copy your dump (.bin + .cue) to: rom/Chou Mashin Eiyuuden Wataru - Another Step (Japan).bin
+#   (486099600 bytes, SHA-1 c2c044d17f5235ff8a419d554b2dd3ab82db2161; the build refuses any other dump, see rom.sha1)
+# tools: mkpsxiso 2.30 in tools/mkpsxiso/ (see AGENTS.md)
+python -X utf8 tools/build.py                          # -> build/wataru_en.bin + .cue
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 
@@ -56,8 +63,9 @@ If you enjoy this translation, you can support my work on Ko-fi:
 
 ## Licence
 
-Tools and English translation: MIT. The original Japanese text in `script/` is <publisher>'s and is included only so
-the translation can be checked against it. <Game title> is (c) <publisher>; this project is not affiliated with them.
+Tools and English translation: MIT. The original Japanese text in `script/` is Banpresto's and is included only so
+the translation can be checked against it. Chou Mashin Eiyuuden Wataru: Another Step is (c) 1998 Banpresto / Aspect,
+Mashin Eiyuuden Wataru (c) Sunrise; this project is not affiliated with them. Fonts: see `docs/fonts.md`.
 Do not share patched ROMs.
 
 The translation was made with extensive AI assistance (Claude by Anthropic). Corrections are very welcome.

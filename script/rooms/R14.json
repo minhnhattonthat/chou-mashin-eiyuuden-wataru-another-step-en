@@ -17,7 +17,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "前にもやったから、\n説明はなしよ。",
-   "en": "Did this before,\nso no rules now.",
+   "en": "Same as before:\nno explanation.",
    "status": "done"
   },
   {
@@ -656,7 +656,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "どうしてそれが信じられないの！？\nどうして悪い人の子供だからって、",
-   "en": "Why can't you believe that?!\nWhy, just because her dad's\na bad guy,",
+   "en": "Why can't you believe that?!\nJust because her dad's bad,",
    "status": "done"
   },
   {
@@ -1646,7 +1646,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "ワタル：\nやったか？",
-   "en": "Wataru:\nDid we get her?",
+   "en": "Wataru:\nDid that do it?",
    "status": "done"
   },
   {

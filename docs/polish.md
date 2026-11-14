@@ -138,3 +138,27 @@ Minors:
 - [x] b041 ST:01C9C - 「と、ヒントをあげるわ！」 likewise introduces an example hint. - Same awkward “I'll hint” construction. - Suggested EN: `I'll give you a hint like this:\n"My! One card's right!"` (waived: ST slot = its JP word count (D17), current line is the longest that fits)
 - [x] b041 ST:02B6C, ST:02B9C - 「光った数字の順番を、みごと当てるとクリア」 means “correctly reproduce the order in which the numbers flashed to win.” - “The numbers' flash order” is stiff and less immediately understandable. - Suggested EN: `Repeat the order in which\nthe numbers flash to win!` (fixed: hand20)
 - [x] G25 gfx/staff_en.txt - staff-name readings are best-guess Hepburn (D21): check the uncertain ones against any official/anime-database romanization before release (牧嶋美晶 Yoshiaki Makishima, 角田真一 Kakuta, 有元佐康 Sukeyasu, 寿知 Hisatomo, 誉寿治 Yosuji Kudo, 谷藤 Tanifuji, 新嶋山美子 Yoshiko Niijimayama, 部谷訓子 Heya, 福田嗣 Tsukasa, 仲嶋栄人 Hideto, 酒井遣太 Kenta, クルーズ Cruise, エムアイ MI, 美峰 Bihou, リスワーク Lith Work). (waived: no official romanization at hand; best-guess Hepburn per D21)
+
+## Story pass (phase 9, codex story reviewer, work/qa/story/reports; fixed in hand26)
+- [x] story R00:10C60/10C94 - convenience-store bliss split awkwardly across pages - fixed: one sentence.
+- [x] story R04:15248 - Oshishi's question restarted at 15294 - fixed: "becoming an animation cel, or a figure..."
+- [x] story R05:170AA - モウスコシ (mangled Shibaraku) as 'Waitabit' lost the name link - fixed: 'Shiba-later'.
+- [x] story R06:2032C/20FD6 - villagers quote Thundar's refrain unlike his own "Ahhh... Rub, rub." - fixed.
+- [x] story R07:18D58/18DA0 - "Exclusion" explanation finished before the page break - fixed: "Exclusion"... / It means... removal...
+- [x] story R08:2395E - song title 'With Just One Heart' vs 'With One Heart' (16F76) - fixed.
+- [x] story R08:21C30 - ハウス read as a venue "the House" - fixed: house music karaoke place.
+- [x] story R10:0CE02 - Sakuya's stammer dropped - fixed: "A-a little girl's figure..."
+- [x] story R11:101EC - "edible wedding favors" too adult for Wataru - fixed: "I hope the favors are food!"
+- [x] story R13:1679E, R14:1BCBE - "so no rules now" misreads 説明はなし - fixed: "Same as before:\nno explanation." (17-cell slot)
+- [x] story R13:18FB6 - "were needed" tense - fixed.
+- [x] story R13:1A3A4 - おばさん jab softened to "lady" - fixed: "Hey, old lady!" (matches 1E280-1E992).
+- [x] story R14:1D574 - "Why, just because..." then "how can you" - fixed: "Just because her dad's bad,".
+- [x] story ST:024FC - awkward "From Burikinton Machines swarming to the cake..." - fixed.
+- [x] story r2 R13:2314C/226B8 (Important) - 剣 clue (Aragoto Tsurugibe) lost as "sword" - fixed hand27: "swordsman".
+- [x] story r2 R06:18A2E, R06:1806C, R14:1F012 - "No waaay!", "W-Wataru-kun...", "Did that do it?" - fixed hand27.
+- [x] story r2 R13:1A5F4 - おじさん as "Mister" - waived: Wataru's おじさん for Aragoto is "Mister" all game (R13:1E5E0).
+- [x] story r2 R07:18F48 - "destruction program" - waived: literal 破壊プログラム, the scene context names its target.
+- [x] story r2 R10:0D19A - proverb "Danger past, God forgotten" - waived: a real English proverb with the same meaning.
+- [x] story r2 ST:012DC/01328, ST:02B6C/02B9C - phrasing - waived: ST lines can't grow past their JP word count; b041 already reworded 02B6C.
+- [x] story r3 R13:18CF6/21C22 (Important) - quiz 漢 vs 男 (the R13 room-font OCR reads 漢 as 満) lost the R10:0CE6E callback ("Man with a capital M") - fixed hand28: "Capital-M Man" / "Man", hint "a capital-M Man!". The script's JP shows 満 (kanji OCR slip, display only).
+- [x] story r4 R13:1A8D0 - "for someone doing that" sarcasm slightly weaker - waived: meaning and callback kept; a change re-opens the chapter review.

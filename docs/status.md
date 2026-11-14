@@ -2,11 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: not started. Phase 8 done (2026-11-15) on build **a0774c53**: smoke ok, 114 tests,
-  `textcover.py` **exit 0** (5,478/5,807 shown + 329 waived), visual-QA gate **1071/1071**, inkbox ok. Graphics rows
-  all English (G17/G18 bubbles and G22 SAKE lantern verified in game VRAM, their on-screen draw not reached; G10
-  waived).
+- **Phase:** 9. Release: done (2026-11-15). `tools/release.py` passed every gate on build **02e1b54d** and wrote
+  `release/Wataru-Another-Step_EN_v1.0.zip` (xdelta + README.txt; zip sha1 d38ab729..., patched CRC32 064D3105,
+  re-applied identical). Publishing (tag, `gh release create`) is the owner's call: not done.
 - **Done:**
+  - Phase 9, session 24 (2026-11-15): **story pass** (new `tools/story.py`: chapters R00-R14 + ST from script/,
+    `codex exec` per chapter with docs/story-reviewer-brief.md; reports work/qa/story/reports, earlier rounds in
+    reports/r1, r2): 15/15 ok after 3 rounds. Fixed hand26-28: R06 Himiko's やれ echo ("give it a rest" / "Give it to
+    him!"), R13 剣 clue -> "swordsman", R13 quiz 漢 vs 男 -> "Capital-M Man" / "Man" (R13 kanji OCR shows 漢 as 満 in
+    script/, display only) + 14 Minors; all in docs/polish.md (ticked). Rebuild -> re-warped 17 scenes, 4 changed
+    sheets judged ok (codex), gate 1071/1071 on 02e1b54d; coverage logs remapped (old build's strings.tsv rebuilt in
+    work/old_build -> work/qa/cover/strings_a0774c53.tsv; old merge kept as work/qa/cover_now_a0774c53),
+    textcover exit 0. **jp_left**: every disc file scanned (rewritten files vs original, min 4; untouched min 6):
+    149 runs, all data noise (map/graphics/audio/STR/tables), listed in docs/jp_known.tsv; release.py fails on any
+    new run. New `tools/release.py` (build, tests, smoke, jp_left, qa_gate on every work/qa/**/manifest.tsv,
+    textcover, polish, README placeholders, xdelta -B 1 GiB, re-apply compare, zip), `docs/release-readme.txt`,
+    README filled (status table, base hashes). Superseded manifest work/qa/old moved to work/qa_old_manifest.
   - Phase 8, session 23 (2026-11-15): **monpet names in letter codes** (D25): c = ASCII - 0x20, one letter per cell,
     in exe_enemies (insert.py `enemies` table -> FDS_BF path), the name grid (both cases on one page, rows A-Z
     .-!?, a-z, 0-9; case key cells 85-86 = 0, labels code 0) and so in every roster name; the roster card draws them
@@ -366,26 +377,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase-2 RE: SysMode table (0x8009C7FC), episode index 0x8009C90C (0-14; 12 and 13 share R13.BIN; 15 = ending),
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
-- **Next (phase 9: Release, `references/pipeline.md` §Release, `references/translation.md` §Review):**
-  P1. Story pass: one story-reviewer verdict per chapter (docs/story-reviewer-brief.md; Orca refuses nested workers:
-     own fresh read-only pass or `codex exec`), `qa_gate.py check work/qa/story/manifest.tsv ...` exit 0.
-  P2. docs/polish.md: no unticked line (done s12; recheck).
-  P3. `jp_left.py` on the release build: no unintended Japanese (known: G10 R15_MES narration, never drawn; the
-     MSG_CG/CNF_MSG kana slots).
-  P4. Debug tool off in the release build (warp.lua / pokes are emulator-side only: confirm nothing debug is patched
-     into the disc), `tools/release.py`: xdelta vs the .bin, re-apply + verify, runs `qa_gate.py check` on every
-     manifest and `textcover.py` (both exit 0 now on a0774c53).
-  P5. README: no template placeholders, base ROM hashes (rom.sha1) in it and in the zip README; zip = patch + README.
-     Never `gh release create`; never change repo visibility. The run ends at a built and verified release zip.
-  Any rebuild re-opens the gates: re-tour the scenes that show the change (recipe below), re-log moved strings
-  (textcover_run.py `--exe --only 38 --out <absolute dir>` for EXE pages; refresh work/states/ep01.sstate first).
+- **Next:** release v1.0 is built and verified; publishing waits on the owner (never `gh release create` or a
+  visibility change without them). Player bug reports -> GitHub issues (AGENTS.md). For any later fix: edit through a
+  batch (next: hand29), rebuild, re-warp the scenes that show it + sheets + `qa_gate init/todo` + `vqa_codex.py`,
+  remap coverage (save the old build's strings.tsv first: `build.py --out` on the old script), changed chapters
+  through `story.py chapters` + qa_gate init + `story.py review CH`, then `release.py --version 1.x`.
 - **Phase-8 reference (QA recipes; gates pass on a0774c53):**
   00. Visual-QA gate: passes on a0774c53 (1071 sheets). After any rebuild: rerun the scenes that show the change
      (warp_all --only, EN), `sheet.py work/qa/warp/<s> --div 1 --max 8 --cols 4 --out work/qa/tour/<s>/sheet.png`
      (or tour_sheets.py for all, ~15 min), `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build
      build/wataru_en.bin`, `todo --out-dir`, `vqa_codex.py <chunks> --jp work/qa/tour_jp_full`. A new scene also
      needs its JP warp (`--rom <orig cue> --out work/qa/tour_jp --states work/qa/tour_jp_states`) + JP sheet.
-  0. Text coverage: exit 0 on a0774c53. Battle draw of monpet names not checked (ball battles unloggable; a 16x16
+  0. Text coverage: exit 0 on 02e1b54d (s24: the per-scene ncover logs are a0774c53 keys, kept in
+     work/qa/cover_now_a0774c53/ncover and remapped into cover_now/ncover_a0774c53 with strings_a0774c53.tsv; the
+     recipe below now remaps them too). Battle draw of monpet names not checked (ball battles unloggable; a 16x16
      draw of a name would show centred letters from MSG_CG slots 1-0x5F).
      **Merge recipe** (after any new run): `tools/cover_remap.py work/qa/cover/strings_e210.tsv work/qa/cover
      work/qa/rcover --out work/qa/cover_now`; `cp work/qa/exe_log_keep.txt work/qa/cover_now/exe/log.txt` (EXE

@@ -1097,7 +1097,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おにいさん：\nコンビニで、\nすきなものをすきなだけ",
-   "en": "Young Man:\nAt the convenience store,\nanything you want, all you want!",
+   "en": "Young Man:\nAt the convenience store, you\ncan buy anything you want...",
    "status": "done"
   },
   {
@@ -1106,7 +1106,7 @@
    "kind": "next",
    "end": "3000",
    "jp": "買えるのって、しあわせだよなぁ。",
-   "en": "Being able to buy it is bliss!",
+   "en": "as much as you want! Bliss!",
    "status": "done"
   },
   {

@@ -1439,7 +1439,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "サクヤ：\n【エクスクルージョン＝\n排除（はいじょ）する】",
-   "en": "Sakuya:\nExclusion means...\nremoval.",
+   "en": "Sakuya:\n\"Exclusion\"...",
    "status": "done"
   },
   {
@@ -1448,7 +1448,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "という意味ですわ・・・。",
-   "en": "That is its meaning...",
+   "en": "It means... removal...",
    "status": "done"
   },
   {

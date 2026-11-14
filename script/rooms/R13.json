@@ -17,7 +17,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "前にもやったから、\n説明はなしよ。",
-   "en": "Did this before,\nso no rules now.",
+   "en": "Same as before:\nno explanation.",
    "status": "done"
   },
   {
@@ -1061,7 +1061,7 @@
    "kind": "event",
    "end": "4000",
    "jp": "その誉め言葉とは？\n　満\n　男",
-   "en": "What was that compliment?\n  Full\n  Man",
+   "en": "What was that compliment?\n  Capital-M Man\n  Man",
    "status": "done"
   },
   {
@@ -1178,7 +1178,7 @@
    "kind": "event",
    "end": "2000",
    "jp": "魔神湯治場で、私を復活させる\nために必要な３つの力がある。",
-   "en": "Three powers were needed to\nrevive me at the Mashin Spa.",
+   "en": "At the Mashin Spa, three powers\nare needed to revive me.",
    "status": "done"
   },
   {
@@ -1844,7 +1844,7 @@
    "kind": "event",
    "end": "3000",
    "jp": "ワタル：\nおばさん！\nおじさんを返してよ！",
-   "en": "Wataru:\nHey, lady!\nGive him back!",
+   "en": "Wataru:\nHey, old lady!\nGive him back!",
    "status": "done"
   },
   {
@@ -3509,7 +3509,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "【ワルリリス】は、おんなじゃが\n【満（おとこ）】ぽい！",
-   "en": "Warulilith's a woman,\nbut she's like a Man!",
+   "en": "Warulilith's a woman,\nbut she's a capital-M Man!",
    "status": "done"
   },
   {
@@ -3914,7 +3914,7 @@
    "kind": "next",
    "end": "2000",
    "jp": "おばさん：\n【ワルジョ】さまが、【剣】って\n言葉に反応するナゾが解けたわ！",
-   "en": "Woman:\nI've solved the mystery of why\n\"sword\" sets Warujo-sama off!",
+   "en": "Woman:\nI know why \"swordsman\" sets\nWarujo-sama off now!",
    "status": "done"
   },
   {
@@ -4274,7 +4274,7 @@
    "kind": "ptr",
    "end": "2000",
    "jp": "おばさん：\n【ワルジョ】さまは、【剣】って\n言葉に、すごく反応するの。",
-   "en": "Woman:\nWarujo-sama really reacts\nwhen she hears the word \"sword.\"",
+   "en": "Woman:\nWarujo-sama gets all worked up\nat the word \"swordsman.\"",
    "status": "done"
   },
   {
