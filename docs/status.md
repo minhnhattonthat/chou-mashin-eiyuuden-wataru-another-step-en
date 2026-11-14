@@ -5,17 +5,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 9. Release: done (2026-11-15). `tools/release.py` passed every gate on build **02e1b54d** and wrote
   `release/Wataru-Another-Step_EN_v1.0.zip` (xdelta + README.txt; zip sha1 d38ab729..., patched CRC32 064D3105,
   re-applied identical). Publishing (tag, `gh release create`) is the owner's call: not done.
-  **That zip is now stale**: FMV subtitles (below) changed the disc; build **ec9c993e** needs the release gate rerun
+  **That zip is now stale**: FMV subtitles (below) changed the disc; build **c5b3aa44** needs the release gate rerun
   (qa_gate will say STALE: re-tour or waive the scenes, then `tools/release.py`).
 - **Done:**
   - Session 25 (2026-11-15): **FMV subtitles** (D26), all 4 movies PRG/WATA01-04 (OUT/*.STR are audio only).
     Lines in `script/fmv.tsv` (faster-whisper large-v3 transcripts in work/fmv/*.asr.tsv, checked by ear-free
     context: WATA01 opening song "STEP" lyrics, 02 prologue, 03 summon shouts, 04 ending dialogue; the lyric lines
     and the WATA03 shouts いっくぞー/登龍剣 are best-guess hearings, a native listen is in docs/polish.md).
-    `tools/fmv.py` (build.py calls it, cached by hash): jPSXdec partial-replace on a black box snapped to the
-    macroblock grid, measures every frame against jPSXdec's decode and re-encodes starved ones whole; worst error
-    11.3 (limit 12). Scenes movie0-3 (movie index 0x8009C978 = WATA01-04) show every movie's lines in game
-    (work/qa/warp/movie*/subs). Check 115 passed, smoke ok on ec9c993e.
+    `tools/fmv.py` (build.py calls it, cached by hash): libass in the black-matrix-00 style (user: same style, no
+    background), jPSXdec partial-replace on the text rect, measures every frame against jPSXdec's decode and
+    re-encodes starved ones whole; worst error 7.4 (limit 12). Scenes movie0-3 (movie index 0x8009C978 = WATA01-04) show every movie's lines in game
+    (work/qa/warp/movie*/subs). Check 115 passed, smoke ok on c5b3aa44.
   - Phase 9, session 24 (2026-11-15): **story pass** (new `tools/story.py`: chapters R00-R14 + ST from script/,
     `codex exec` per chapter with docs/story-reviewer-brief.md; reports work/qa/story/reports, earlier rounds in
     reports/r1, r2): 15/15 ok after 3 rounds. Fixed hand26-28: R06 Himiko's やれ echo ("give it a rest" / "Give it to

@@ -1,10 +1,11 @@
 """fmv.py: burn English subtitles (script/fmv.tsv) into the STR movies PRG/WATA01-04.
 
 usage: python -X utf8 tools/fmv.py [--force] [MOVIE ...]     (insert.edits() calls edits())
-script/fmv.tsv: movie, start s, end s, Japanese, English (\\n = line break; wrapped to the frame otherwise).
+script/fmv.tsv: movie, start s, end s, Japanese, English (\\n = line break; no automatic wrap).
 Per movie: copy the dumped STR to work/fmv/en/, index it and export every frame with jPSXdec (tools/jpsxdec/,
-github.com/m35/jpsxdec v2.0), draw the lines on the frames they span, then jPSXdec -replaceframes with
-<partial-replace> on the text rect only, so the rest of each frame keeps its original bitstream.
+github.com/m35/jpsxdec v2.0), burn the lines with ffmpeg/libass in the black-matrix-00 style (ass()), then
+jPSXdec -replaceframes with <partial-replace> on the text rect only, so the rest of each frame keeps its original
+bitstream; frames whose text comes out starved are re-encoded whole (error()).
 Cached: work/fmv/en/<movie>.stamp holds a hash of the movie's lines and this file; same hash = no re-encode.
 """
 import hashlib
@@ -17,9 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 JAR = ROOT / "tools/jpsxdec/jpsxdec_v2.0/jpsxdec.jar"
 TSV = ROOT / "script/fmv.tsv"
-FONT = ROOT / "fonts/liberation/LiberationSans-Bold.ttf"
 WORK = ROOT / "work/fmv"
-SIZE, BOTTOM, MAXW = 14, 6, 300  # px: font, gap under the last line, wrap width
 
 
 def lines():
@@ -39,43 +38,29 @@ def jpsx(*args):
     return r.stdout
 
 
-def wrap(draw, font, text):
-    out = []
-    for para in text.split("\n"):
-        cur = ""
-        for w in para.split():
-            if cur and draw.textlength(cur + " " + w, font=font) > MAXW:
-                out.append(cur)
-                cur = w
-            else:
-                cur = (cur + " " + w).strip()
-        out.append(cur)
-    return out
+def stamp_time(t):
+    cs = round(t * 100)
+    return f"{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}"
 
 
-def draw(img, text):
-    """Centred lines at the bottom of the frame on a black box snapped to the 16x16 macroblock grid; returns the
-    box (l, t, r, b). The flat box costs fewer bits than the picture it covers: outlined text straight on busy
-    frames overran their sector budget and jPSXdec starved those blocks into a smear (tools/fmv_err.py)."""
-    from PIL import ImageDraw, ImageFont
-    font = ImageFont.truetype(str(FONT), SIZE)
-    d = ImageDraw.Draw(img)
-    rows = wrap(d, font, text)
-    step = SIZE + 2
-    y = img.height - BOTTOM - step * len(rows)
-    ink = []
-    for i, row in enumerate(rows):
-        x = (img.width - round(d.textlength(row, font=font))) // 2
-        ink.append(((x, y + i * step), row, d.textbbox((x, y + i * step), row, font=font)))
-    l = min(b[0] for *_, b in ink) - 4
-    r = max(b[2] for *_, b in ink) + 4
-    t = min(b[1] for *_, b in ink) - 3
-    box = (l // 16 * 16, t // 16 * 16, min(img.width, -(-r // 16) * 16), img.height)
-    assert box[0] >= 0 and r <= img.width, f"subtitle too wide: {text!r}"
-    d.rectangle((box[0], box[1], box[2] - 1, box[3] - 1), fill=(0, 0, 0))
-    for at, row, _ in ink:
-        d.text(at, row, font=font, fill=(255, 255, 255))
-    return box
+def ass(subs, height):
+    """The black-matrix-00 subtitle style (its movie.py): Arial 13 bold, white, 1.5 px black outline, no shadow, no
+    box, bottom centre, margins 8/8/10; PlayRes = the frame so sizes are frame pixels. WrapStyle 2: \\n only."""
+    head = f"""[Script Info]
+ScriptType: v4.00+
+PlayResX: 320
+PlayResY: {height}
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,13,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,8,8,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+"""
+    return head + "".join(f"Dialogue: 0,{stamp_time(a)},{stamp_time(b)},Default,,0,0,0,,{t.replace(chr(10), '\\N')}\n"
+                          for a, b, t in subs)
 
 
 def burn(movie, subs, force=False):
@@ -98,12 +83,24 @@ def burn(movie, subs, force=False):
     done.mkdir()
     jpsx("-x", idx, "-i", 0, "-vf", "png", "-quality", "psx", "-dir", frames)
     pngs = sorted(frames.glob("*.png"))
+    for k, p in enumerate(pngs):
+        p.rename(frames / f"{k:04d}.png")  # image2 pattern input; jPSXdec names carry [] brackets
+    height = Image.open(frames / "0000.png").height
+    (WORK / f"{movie}.ass").write_text(ass(subs, height), encoding="utf-8")
+    # libass renders the style (cwd = WORK: the subtitles filter needs no drive-letter escaping); rgb24 throughout
+    # keeps every pixel off the text identical, so the diff box below is the text alone
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-framerate", f"{fps:.6f}", "-start_number", "0", "-i",
+                    f"{frames.name}/%04d.png", "-vf", f"format=rgb24,subtitles={movie}.ass", "-pix_fmt", "rgb24",
+                    "-start_number", "0", f"{done.name}/%04d.png"], cwd=WORK, check=True)
+    import numpy as np
     rects = {}
-    for a, b, text in subs:
+    for a, b, _ in subs:
         for k in range(round(a * fps), min(round(b * fps), len(pngs))):
-            img = Image.open(pngs[k]).convert("RGB")
-            rects[k] = draw(img, text)
-            img.save(done / f"{k:04d}.png")
+            diff = np.argwhere((np.asarray(Image.open(frames / f"{k:04d}.png").convert("RGB"), int) !=
+                                np.asarray(Image.open(done / f"{k:04d}.png").convert("RGB"), int)).any(2))
+            if len(diff):
+                (t, l), (bt, r) = diff.min(0), diff.max(0) + 1
+                rects[k] = (max(0, l - 2), max(0, t - 2), min(320, r + 2), min(height, bt + 2))
     full, errs = set(), {}
     for _ in range(2):  # pass 2: frames whose subtitle came out starved get a full-frame re-encode instead
         if _:
