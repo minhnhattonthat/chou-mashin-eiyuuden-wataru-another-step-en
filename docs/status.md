@@ -3,9 +3,27 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G12, G16, G19, G20,
-  G23, G25 credits; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18, G22 signs).
+  G23, G25 credits, G22 INN board; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18,
+  G22 SAKE lantern). Visual-QA gate passes on build 90f876dc. Text coverage 4,512/5,805.
   Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 14 (2026-11-14): **room coverage** run4 killed (hung chunks idle to the 900 s timeout: the emulator
+    freezes after ~30 s of real work), run5 (`--jobs 6 --timeout 90`) took rooms 3,507 -> 4,141/4,599 before Claude
+    Code reaped it for low system memory (other repos' Mesen); not restarted this session per that notice.
+    `textcover_run.py --base DIR` runs on a frozen copy (**work/qa/cover_e210** = build e210ee37 + its ep states +
+    FPRG, same subpaths) so the repo can rebuild meanwhile; default timeout 90. **EXE dialogue pages** (item get, shop,
+    save lady, inn: 230 EXE.json entries of kind next/ptr/code) all shown: `textcover_run.py --exe --only 38 --out
+    <ABSOLUTE dir>` (pass-2 hijack of ep01's host event; textlog.lua `EXETAG` logs EXE-range pointers as menu keys
+    0x26xxxxxx) -> work/qa/cover_exe. **Rebuilt** (polish hand20 + G22 signs): smoke ok, 111 tests, warp_all 58/59
+    (endreal = known FMV stall). **G22 INN** board legible in game (work/qa/g22/inn_zoom.png, field state walked
+    left+up); the 飯 column stays blank (INN = 3 of the 4 board columns). SAKE lantern not on that route. Re-tour:
+    81 changed sheets judged by codex, 1 issue: shop "Ganbo" last o under the window border -> label drawn 1 px left
+    (gfx_gen.shop; 5 Spleen letters need 29 of the 30 visible px, so G now sits tight to the digits). **Build
+    90f876dc**: smoke ok, 111 tests, `qa_gate.py check` 717/717 (shop/sheet_3 "..." drift override in zz_controller).
+    Coverage merged for this build: `cover_remap.py work/qa/cover/strings_e210.tsv work/qa/cover work/qa/rcover --out
+    work/qa/cover_now` + work/qa/cover_now/exe/log.txt (cover_exe TEXT lines) -> report work/qa/cover_now_report.txt:
+    **4,512/5,805**; missing: rooms 458 (361 next, 67 ptr, 30 event), EXE 307 (name/menu tables), BALLBAT 206, ENE 120,
+    ST 90, FDS 50, MACHINE 32, TTL 30.
   - Phase 8, session 13 (2026-11-14): **G22 room signs** (D24): FR room atlases are 4bpp (the sweep misread them as
     8bpp); 酒 lantern -> SAKE (15 rooms), 一宿一飯 board -> INN (18 copies, 9 pngs; R07M0/R10M0 boards cut in two
     pieces) via gfx.tsv rows with CLUT "-" (`gfx.GREY` index palette, `gfx.row_lut`) and `gfx_gen.signs`; offline
@@ -256,14 +274,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  0. Text coverage. If this repo's textcover_run.py / pcsx-redux processes still run (run4: check command lines for
-     this repo's path, other repos run their own pcsx-redux here), wait: **don't rebuild while they run** (they read
-     build/). Coverage on the OLD build e210 first: rerun `python -X utf8 tools/textcover_run.py --jobs 3 --chunk 10
-     --timeout 900` until the count stops rising (it resumes; a hung chunk = NPC text walked into an `A000` item
-     command, costs one chunk), report: `textcover.py work/qa/cover work/qa/strings_rooms.tsv` (rooms of
-     strings_e210). Then rebuild (polish edits + G22 signs), check the signs zoomed in scenes field (R01: the INN
-     board's right end on the roof at the left edge) and ep00 (R00 lantern / board), smoke, warp_all, re-tour (`tour_sheets.py`, `qa_gate.py init/todo`,
-     `vqa_codex.py` on changed sheets), and remap coverage with cover_remap.py (above).
+  0. Text coverage (current: 4,512/5,805 on build 90f876dc, work/qa/cover_now_report.txt).
+     a. Rooms (458 left, mostly 'next' pages lost after a chunk hung): resume on the frozen e210 copy, repeat until the
+        count stops rising: `python -X utf8 tools/textcover_run.py --base work/qa/cover_e210 --jobs 4 --chunk 10`
+        (out work/qa/cover; check free RAM first: other repos' emulators share the machine and Claude Code reaps
+        background shells under memory pressure; foreground runs under `timeout 560` per call are safe). Then
+        re-merge: cover_remap (as in session 14) + copy work/qa/cover_exe TEXT lines into work/qa/cover_now/exe/log.txt,
+        textcover.py. Pages never reached after that: look at the words before them (dead pages, choice branches)
+        and waive with reasons in docs/text_unshown.tsv, or start them with another HOST.
+     b. EXE 307 left = the name/menu tables (exe_* item/equipment/enemy/ability names, key-item descs, shop/monpet
+        lines) and EXE menu strings: viewer scenes (poke inventories with every id and open the list; readlog.lua
+        works in field/menu scenes) or waivers with the tour sheets as evidence.
      Menu/battle sources: field/menu scenes work with readlog.lua; battles need another way: a non-debugger
      probe (on_frame: decode the battle list buffers / header name RAM back to ids), exec hooks once the battle has
      loaded (state after setup + debugger works, it just reads nothing then), or waive BALLBAT/ENE/LVUP by source
@@ -274,8 +295,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
      R13 ep12/13 split need checking that their epNN.sstate reaches free walk. Then menu/battle sources (EXE, ST,
      BALLBAT, MACHINE, TTL, LVUP, FDS, exe_* tables, ~1,100 entries, ids in insert.WRITES like `EXE:7F84A`):
      add them to strings.tsv with their EN RAM address and log reads with an `L.on_read` probe (needs emu.py
-     --debugger) over warp_all scenes, or waive by source with reasons. Visual-QA gate: passes on e210ee37; any
-     rebuild needs a re-tour (`warp_all.py`, `tour_sheets.py`, `qa_gate.py init/todo`, `vqa_codex.py`).
+     --debugger) over warp_all scenes, or waive by source with reasons. Visual-QA gate: passes on 90f876dc; any
+     rebuild needs a re-tour (pixel-only changes: rerun just the scenes that show them, as the shop in session 14) (`warp_all.py`, `tour_sheets.py`, `qa_gate.py init/todo`, `vqa_codex.py`).
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
      can't run Python, Orca refuses nested workers): G17/G18 in game (graphics.md rows: find the BALLBAT sprite
      list that cuts each bubble rect and the action that plays it; or waive with the offline check),
@@ -283,7 +304,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
      G19 leftovers: VS cards of episodes 2-14 assumed to use the ep1 record layout (spot-check one later matchup with
      a poke of the battle id if one is found), G20 other moves (Skysoar / RISE..SWORD chant: ep 14 for Tensho; the
      third+ list entries),
-     G22 room signs (decide per sign, waive illegible), FMV + FK stills
+     G22 SAKE lantern in game (find a room that shows it: gfx.tsv sign rows list the 15 FR files), FMV + FK stills
      check (ep00 opening FMV: no burnt-in text seen). Battle names col B (u 160) is drawn somewhere not yet seen: check it. See G12 (IQ
      win/lose cards, hit-and-blow labels: the ep1 IQ battle is the KIO memory game), G17, G18 in game (add scenes or
      `late=` pokes to reach them).

@@ -196,7 +196,8 @@ def shop():
     img = Image.open(gfx.GFX / "orig" / png).convert("RGB")
     lut = lut_of(png)
     clear(img, (0, 0) + img.size)
-    for rect, t in (((2, 0, 30, 16), "Ganbo"), ((32, 0, 18, 16), "pcs"), ((50, 0, 30, 16), "Total")):
+    # Ganbo x 1: at 2 the window's right border hid the last column of the o
+    for rect, t in (((1, 0, 30, 16), "Ganbo"), ((32, 0, 18, 16), "pcs"), ((50, 0, 30, 16), "Total")):
         put_bdf(img, lut, rect, t, "spleen-6x12.bdf", 1, None, trim=False, shadow=13)
     img.save(gfx.GFX / "en" / png)
 

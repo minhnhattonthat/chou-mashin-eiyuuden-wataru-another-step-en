@@ -7,8 +7,11 @@ L.on_frame(function(n)
   local m = PCSX.getMemPtr()
   local a = 0x9C998
   local p = m[a] + m[a + 1] * 256 + m[a + 2] * 65536 + m[a + 3] * 16777216
-  if p < 0x800CE000 or p >= 0x800F7000 then return end
-  local key = ((m[0x9C90C] + m[0x9C90D] * 256) << 24) | (p & 0xFFFFFF)
+  local key
+  if EXETAG and p >= 0x80017800 and p < 0x800CE000 then  -- --var EXETAG=0x26: EXE dialogue pages, keyed like menu strings
+    key = (EXETAG << 24) | (p & 0xFFFFFF)
+  elseif p < 0x800CE000 or p >= 0x800F7000 then return
+  else key = ((m[0x9C90C] + m[0x9C90D] * 256) << 24) | (p & 0xFFFFFF) end
   if not seen[key] then
     seen[key] = true
     L.log(string.format("TEXT %X f%d", key, n))
