@@ -12,7 +12,7 @@ Skill: translate-retro-game; `python tools/skill.py` prints its folder. Read its
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 
 ## Paths
-- Original disc: `rom/Chou Mashin Eiyuuden Wataru - Another Step (Japan).bin/.cue` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: `tools/pcsx/` (PCSX-Redux nightly-30651.20261109.3, `fetch_emu.py pcsx`; gitignored), BIOS `tools/bios/scph5500.bin` (`fetch_emu.py psx-bios`). Disc tools: `tools/mkpsxiso/mkpsxiso-2.30-win64/` (mkpsxiso/dumpsxiso v2.30, github.com/Lameguy64/mkpsxiso). Savestates: `work/states/`.
+- Original disc: `rom/Chou Mashin Eiyuuden Wataru - Another Step (Japan).bin/.cue` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: `tools/pcsx/` (PCSX-Redux nightly-30651.20261109.3, `fetch_emu.py pcsx`; gitignored), BIOS `tools/bios/scph5500.bin` (`fetch_emu.py psx-bios`). Disc tools: `tools/mkpsxiso/mkpsxiso-2.30-win64/` (mkpsxiso/dumpsxiso v2.30, github.com/Lameguy64/mkpsxiso). FMV subs: `tools/jpsxdec/jpsxdec_v2.0/` (jPSXdec v2.0 release zip, github.com/m35/jpsxdec; needs Java), lines in `script/fmv.tsv`, burnt by `tools/fmv.py` (build calls it, cached). Savestates: `work/states/`.
 - Text: `script/` (JSON). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings

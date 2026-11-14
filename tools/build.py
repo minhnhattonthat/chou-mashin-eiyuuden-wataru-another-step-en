@@ -85,6 +85,8 @@ def build(out_dir=ROOT / "build", name="wataru_en", edits=None, qa=None):
         edits = insert.edits(qa)
         Path(out_dir).mkdir(parents=True, exist_ok=True)
         (Path(out_dir) / f"{name}.strings.tsv").write_text(insert.strings(), encoding="utf-8")  # textcover.py
+        import fmv
+        edits.update(fmv.edits())  # subtitled movies (script/fmv.tsv); cached in work/fmv/en
     out_bin, out_cue = Path(out_dir) / f"{name}.bin", Path(out_dir) / f"{name}.cue"
     repack(out_bin, out_cue, edited_layout(edits) if edits else "layout.xml")
     return out_bin, out_cue

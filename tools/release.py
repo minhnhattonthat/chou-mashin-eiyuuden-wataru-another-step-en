@@ -59,7 +59,8 @@ def jp_runs():
     for f in sorted(p for p in tree.rglob("*") if p.is_file()):
         rel = f.relative_to(tree).as_posix()
         new = en / rel
-        args = [new, "--orig", f, "--min", "4"] if new.exists() else [f, "--min", "6"]
+        # subtitled movies (tools/fmv.py) hold no script text: scanned as untouched, else video noise reads as text
+        args = [new, "--orig", f, "--min", "4"] if new.exists() and f.suffix != ".STR" else [f, "--min", "6"]
         r = subprocess.run([*PY, TOOLS / "jp_left.py", *args, "--tbl", ROOT / "tbl/jp_common.tbl", "--le16",
                             "--limit", "100000"], capture_output=True, text=True, encoding="utf-8", cwd=ROOT)
         found |= {(rel, int(m.group(1), 16)) for m in re.finditer(r"^0x([0-9A-F]+)\s", r.stdout, re.M)}
