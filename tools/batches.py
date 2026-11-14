@@ -114,6 +114,9 @@ def speakers():
     return out
 
 
+CENTRED = {"FDS:12510"}  # item-order title box "Done": JP blanks centre 決定, not cursor cells
+
+
 def width_problems(entry, en):
     w, n, _ = box(entry)
     jp_lines = re.sub(r"\[B000\].", "", entry["jp"]).split("\n")
@@ -122,7 +125,8 @@ def width_problems(entry, en):
     if len(lines) > n:
         out.append(f"{len(lines)} lines, the box has {n}")
     out += [f"line {k + 1} is {len(s)} letters, limit {w}" for k, s in enumerate(lines) if len(s) > w]
-    if any(s.startswith("　") for s in jp_lines):  # cursor indents (choices): same lines, 2 spaces per blank cell
+    # cursor indents (choices): same lines, 2 spaces per blank cell; CENTRED ids pad to centre a title (inkbox.py)
+    if any(s.startswith("　") for s in jp_lines) and entry["id"] not in CENTRED:
         if len(lines) != len(jp_lines):
             out.append(f"choice layout: JP has {len(jp_lines)} lines, keep them")
         else:

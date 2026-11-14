@@ -2,11 +2,20 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G12, G16, G19, G20,
-  G23, G25 credits, G22 INN board; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18,
-  G22 SAKE lantern). Build **d7ca3b3b**: visual-QA gate **passes 1041/1041**. Text coverage 5,472/5,805 + 327
-  waived (**6 left**, see Next 0). Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
+- **Phase:** 8. QA in the emulator: gates pass, one carried item left (Next 0: monpet name-entry grid). Build
+  **cda1c147**: smoke ok, 111 tests, visual-QA gate **1055/1055**, `textcover.py` **exit 0** (5,477/5,805 shown + 328
+  waived), inkbox ok. Graphics rows all English (G17/G18 bubbles and G22 SAKE lantern verified in game VRAM, their
+  on-screen draw not reached; G10 waived). Phase 7 done (2026-11-14).
 - **Done:**
+  - Phase 8, session 21 (2026-11-15): **coverage 6 -> 0**: shop builders traced (debug.md "Shop messages"): new
+    scenes shop_nomoney / shop_carry (cart + money pokes, actor 0x800C0DBC step 0), shop_leave (EXE 0x8004A844's
+    writes), item_order2 (3 picks -> title box). 77C00 "You already have it." waived (dead branch). **Bug: "Customer!
+    Just a moment." showed Japanese** in the real flow: the EN line outgrew its 26-byte slot and was moved, but the
+    code (`lui/addiu` 0x8004A8D4) still started the old JP copy; coverage hadn't caught it (hijack used the EN address)
+    -> hand22 shortens it to fit in place; sweep of every moved string found no other unreferenced move. **Item-order
+    title "Confirm" off-centre 9 px** (8-px letters can't centre 7) -> hand23 "Done" (inkbox 116/117; batches.py
+    CENTRED exempts it from the cursor-indent rule). G17/G18/G22 SAKE: English art found in game VRAM dumps
+    (work/qa/g18v/bubbles_vram.png, work/qa/g22s/sake_vram.png). Re-tour of the 4 new scenes (EN + JP) judged ok.
   - Phase 8, session 20 (2026-11-14): **re-tour on d7ca3b3b**: EN + JP warps of shop, shop_confirm/monpet, chest_*,
     items_c/d, keys_b, abil_all/b -> 139 new sheets judged by codex (chunks20), 15 issues all false positives,
     overridden in zz_controller.tsv (chest_mon* empty second box = the original's own, work/qa/p8x/chestB.png;
@@ -336,16 +345,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  00. Visual-QA gate: passes on 48f7e75a (902 sheets). After any rebuild: rerun the scenes that show the change
+  00. Visual-QA gate: passes on cda1c147 (1055 sheets). After any rebuild: rerun the scenes that show the change
      (warp_all --only, EN), `sheet.py work/qa/warp/<s> --div 1 --max 8 --cols 4 --out work/qa/tour/<s>/sheet.png`
      (or tour_sheets.py for all, ~15 min), `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build
      build/wataru_en.bin`, `todo --out-dir`, `vqa_codex.py <chunks> --jp work/qa/tour_jp_full`. A new scene also
      needs its JP warp (`--rom <orig cue> --out work/qa/tour_jp --states work/qa/tour_jp_states`) + JP sheet.
-  0. Text coverage (current: **5,472/5,805 shown + 327 waived, 6 failing**, work/qa/cover_now_report.txt):
-     shop lines EXE 77BC0/77BE0/77C00 (no money / carry limit / already have it), EXE 77C3A/77C46 "1. Go back /
-     2. Leave", FDS 12510 item-order "Confirm". Try iqstep jumps on the shop actor (action 0x250 or the shop's own;
-     find where 0x8008F3C0 + n*0x20 is computed) or waive with reason. Monpet name-entry grid (item 2) not seen:
-     the slot-12 spawn freezes after step 5. Older notes below are history. Left (s19): EXE exe_monpet_lines 4
+  0. **Last phase-8 item: monpet name-entry grid** (FDS 0x18468, still kana; item 2 below). Reachable in normal play
+     ("Change your Monpet's name? 1. Yes", EXE 77AD2, monpet shop / chest). Find the entry path (FDS 0x80107AEC
+     naming screen; the act250 slot-12 spawn freezes after step 5; try the 77AD2 page's Yes branch or the monpet-shop
+     buy path 0x80042228 with money + bottle poked), put Latin letters in the grid, check entered names draw, add a
+     scene, tour it. Then set Phase 9. Text coverage is done (exit 0); keep the merge recipe below for re-runs.
+     Older notes below are history. Left (s19): EXE exe_monpet_lines 4
      (FDS naming screen 0x80107AEC, callers in session 19 Done; it also shows the kana name-entry grid, item 2),
      shop lines 3 (no money / carry limit / already have it: Circle doesn't buy in a poked shop; open a shop through
      its event (0x80031364 path) or find what the poked shop lacks), EXE 2 (1. Go back / 2. Leave), ST 36
@@ -401,7 +411,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
      ST lines can't grow past their JP word count; polish.md minors on ST must keep that limit.
   4. docs/polish.md: done (session 12).
 - **Open bugs:** none.
-- **Waiting on the user:** (non-blocking) 326 ball-battle strings (BALLBAT, ENE) are waived in docs/text_unshown.tsv
+- **Waiting on the user:** (non-blocking) G17/G18 ball-battle bubbles and the G22 SAKE lantern are checked as English
+  art loaded in game VRAM, not on screen (the enemy actions / camera spot were never reached); default: accept.
+  (non-blocking) 326 ball-battle strings (BALLBAT, ENE) are waived in docs/text_unshown.tsv
   as *unloggable*, not unreachable: the read probe can't run in ball battles (emulator debugger freezes them). The
   skill's gate wants waivers only for unreachable text; the alternative is a QA-only logger patched into the
   BALLBAT renderer. Default: keep the waiver, battle text judged on the tour sheets.

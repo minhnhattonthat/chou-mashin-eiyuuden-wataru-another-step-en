@@ -152,3 +152,18 @@ attack/hit/lose/win, iq_page2, menu_key, monpet_detail. `warp_all.py` writes `wo
 - Mid-episode scenes (events by id: 0x80032144(id) / 0x8009C7B0), other shops (shop id 0x8009C900 / 0x8009C90A
   read by the shop setup; guess), battle enemy and IQ-puzzle selection, mashin battles per stage (0x8009C618),
   and modes 12/13/15.
+
+## Shop messages (p8 s21)
+
+- Item-shop actor 0x800C0DBC (action 0x228, +2 = 5 item shop; other values = monpet shop), step u16 +0x54 (handler
+  FDS 0x80104028: step 0 runs the confirm builder once, nonzero result -> step 1, else 2). Builders: item shop FDS
+  0x80106ABC, monpet shop 0x80107004. Message index: 1 when the cart total (sum of u32 0x800B3828[8]) > money u32
+  0x8009C8B4 -> EXE 77BC0 "Not enough money!!"; 2 (item shop only) when a cart row (6 bytes at 0x800A9148: qty, type
+  0-5, id) plus the held count (inventories 0x800A3510/3530/3548.., u16 id << 8 | count) reaches 100 -> 77BE0 carry
+  limit; 0 -> 77BA0 "Is this OK?". The monpet builder never sets 2, so 77C00 "You already have it." is dead (waived).
+  Scenes shop_nomoney / shop_carry poke the cart and money, then step 0.
+- Leaving with an unpaid cart: EXE 0x8004A060 (talk/exit check) loops the 8 cart rows and calls 0x8004A844, which
+  starts the 77C20 page (u32 0x8009C998 = 0x8008F420, actor 15 +2 = 0xD, actor 11 action 0x20C): "Customer! Just a
+  moment." + choice "1. Go back / 2. Leave". Scene shop_leave replays those writes from free walk.
+- Item order: FDS 0x800FBF58(a0) draws the title box, a0 = 0 "Please choose the item order." (124F0), 1 "Confirm"
+  (12510) after the third pick (the fourth fills itself). Scene item_order2.
