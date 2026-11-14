@@ -5,9 +5,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G12, G16, G19, G20,
   G23, G25 credits, G22 INN board; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18,
   G22 SAKE lantern). Build **48f7e75a** (IQ LOSE!/WIN! cards in BUR/PUZ): **visual-QA gate passes**
-  (`qa_gate.py check` 902/902, tour now 96 scenes). Text coverage 5,301/5,805 + 327 waived (177 left, see Next 0).
-  Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
+  (`qa_gate.py check` 902/902, tour now 96 scenes). Text coverage 5,371/5,805 + 327 waived (107 left, see Next 0).
+  Phase 7 done (2026-11-14): full English build, overflow empty,
+  all warp scenes reach.
 - **Done:**
+  - Phase 8, session 18 (2026-11-14): coverage 177 -> 107 left (no rebuild, build 48f7e75a). New scenes (logs in
+    work/qa/ncover/<scene>, merged into work/qa/cover_now/ncover/): **items_c / items_d** (4th Use tab "Other" =
+    inventory 0x800A3568: items_b never switched to it; the list reads only 8 rows: consumables 44-58 + effects
+    all shown), **keys_b** (key-item list is 2 columns: right column = even items, all 16 descs shown),
+    **abil_all / abil_b** (abilities: FDS 0x80101740 per character u16[10] at 0x800A96D0; only slots 1-7 read).
+    Tried, nothing new (scenes removed): practice IQ games held 30k frames (iql0-3), story IQ ep 4/8/10 mashed 30k
+    frames, ep 10 refusing the rules (No): none reached the ST win/lose/retry lines. Monpet naming flow traced
+    statically to task type 0x210/0x211 started by EXE 0x8004EC74 (debug.md "Monpet naming flow"); caller unknown.
+    Not toured yet: the 5 new scenes (EN + JP warp, sheets, qa_gate init/todo, vqa_codex) - menus only, no build change.
   - Phase 8, session 17 (2026-11-14): **tour extended** to the coverage scenes (title_extra/values, iqp/iqn 0-3,
     items_all/b, keys_all, gear_all, places0-5, mcover02-14, monpets1-2, item_order; EN in work/qa/warp, JP in
     work/qa/tour_jp, sheets work/qa/tour + tour_jp_full): 188 new/changed sheets judged by codex (vqa_codex.py),
@@ -310,11 +320,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
      (or tour_sheets.py for all, ~15 min), `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build
      build/wataru_en.bin`, `todo --out-dir`, `vqa_codex.py <chunks> --jp work/qa/tour_jp_full`. A new scene also
      needs its JP warp (`--rom <orig cue> --out work/qa/tour_jp --states work/qa/tour_jp_states`) + JP sheet.
-  0. Text coverage (current: **5,301/5,805 shown + 327 waived, 177 failing**, work/qa/cover_now_report.txt;
-     `tools/cover_missing.py work/qa/cover_now_report.txt` lists them with English). Left: EXE 111 (abilities 25,
-     monpet species names 30 (copied into the roster at acquisition only: find the monpet shop / naming flow, see
-     debug.md "Monpet roster"; that flow also shows exe_monpet_lines 4 and the kana name-entry grid, item 2),
-     consumables 44-58 + effects 29, key-item descs 16, shop lines 4 (confirm / no money / carry limit / already
+  0. Text coverage (current: **5,371/5,805 shown + 327 waived, 107 failing**, work/qa/cover_now_report.txt;
+     `tools/cover_missing.py work/qa/cover_now_report.txt` lists them with English). Left: EXE (monpet species names 30 (copied into the roster at acquisition only: find who calls EXE 0x8004EC74, see
+     debug.md "Monpet naming flow"; that flow also shows exe_monpet_lines 4 and the kana name-entry grid, item 2),
+     shop lines 4 (confirm / no money / carry limit / already
      have it: a buy route through the shop scene didn't reach them; look at the shop state machine), EXE 3), ST 36
      (IQ win/lose/retry/"Got all that? No" branches: poke a win, Start menu Retry / Give Up in a battle that allows
      it, per-game opponent pairs), FDS 1 (item-order "Confirm"), rooms 29. MACHINE, TTL, monpet moves done.
@@ -326,9 +335,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
      a. Rooms (29 left, listed in the report): these hang their chunk every round (rounds 6-7, chunks of 2): look at
         the words before each (dump work/qa/cover_e210/work/disc/en/FPRG/Rnn.BIN), start them with another HOST
         (pass 2) or waive with the reason (dead page / choice branch).
-     b. EXE: item category 4 (inventory 0x800A3568 is NOT a Use tab: consumables 44-58 Mask Me Up..Magicapple and
-        effects 43-58 never showed; find where those items list: maybe そうび or another menu), abilities 25, monpet
-        names 30 + moves 14, key-item descs left, shop/monpet lines. Scenes items_all / items_b / keys_all / gear_all
+     b. EXE: monpet names 30, shop/monpet lines, EXE 3 (1. Go back / 2. Leave choice, "Opened the treasure chest!").
+        Consumables, effects, key descs, abilities done (s18). Scenes items_all / items_c / keys_b / abil_all / gear_all
         are the pattern (poke + `12:down/60x17` then up: the cursor's description is only read when the cursor lands
         on a row).
      e. ST 36: IQ practice (iqp/iqn scenes) covers the rules; left are win/lose/Retry/Give Up branches and the

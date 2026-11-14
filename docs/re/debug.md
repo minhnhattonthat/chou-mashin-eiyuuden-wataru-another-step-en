@@ -93,6 +93,16 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
   (exe_enemies, table 0x80097AEC + 20 * id) are only read by two EXE copy loops, 0x80042564 (in 0x80042228, called
   from 0x80041FBC/0x80042134) and 0x80056FB8 (in 0x80056080, called from 0x80055D60): they copy the name into the
   roster at acquisition (shop / naming screen, exe_monpet_lines), never run in the monpet menus (hits.lua).
+- Monpet naming flow (p8 s18, static only): tasks dispatch through u32 table **0x80076840**[u16 task +0] (current
+  task ptr u32 0x8009C7AC; caller 0x800228A0); entries 0x210/0x211 = 0x80055AB0, a 6-state machine (u16 task +2 ->
+  table 0x80094600: 0x80055B18, 55C74, 55CD8 (calls the name copy 0x80056080), 55E34, 55E64, 55E94). EXE 0x8004EC74
+  starts it: writes 0x210 to u16 0x800BDCCC and 0x211 to 0x800BDC60 (fixed task slots), copies task +0x52/+0x54.
+  Next: find who calls 0x8004EC74 (probably an event opcode handler; no direct jal/ptr found yet), then a warp scene.
+- Abilities (p8 s18): FDS 0x80101740(char) uploads the glyphs of u16[10] at **0x800A96D0 + 20 * char** (ability ids,
+  name = 0x8009703C + 14 * id, exe_abilities) when Status opens a page; scene abil_all pokes ids 1-26.
+- Use menu tabs (p8 s18): 4 tabs Heal / Attack / Support / Other = inventories 0x800A3510 / 3530 / 3548 / 3568; the
+  list reads only its first 8 rows under --debugger (items_c + items_d cover Other ids 1-8 / 9-15).
+- Key items list is 2 columns: even items are in the right column (scene keys_b presses right first).
 - File table 0x80077240: 1,037 records of 0x20 bytes {name ptr, load address, LBA (filled at boot), size, ...};
   loader 0x8002505C(index). `tools/filetab.py` lists it.
 
