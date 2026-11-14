@@ -61,6 +61,7 @@ def allowed_spans(path, orig):
         s.append((compose.TABLE - compose.FONT_RAM, compose.TABLE - compose.FONT_RAM + 2 * compose.TABLE_MAX))
     if path == "FM16/MSG_CG.BIN":
         s.append((insert.BF_FIRST * 64, (insert.BF_FIRST + 0x5F) * 64))
+        s += [(0x5300 + k * 128, 0x5300 + k * 128 + 128) for k in insert.digraph.ICONS]  # element icons
     if path == "PRG/MACHINE.BIN":
         s.append((insert.STRIP_LIST, insert.STRIP_END))
         for addiu, slti, names in insert.STRIP_ROWS:

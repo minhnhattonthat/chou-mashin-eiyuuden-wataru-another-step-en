@@ -320,6 +320,8 @@ def edits(qa=None, english=True):
         for k in range(0x20, 0x7F):
             put(bufs, orig, cg, bf_code(chr(k)) * 64, bf_cell(chr(k)), f"bf {chr(k)!r}")
     if english:
+        for k in digraph.ICONS:  # monpet element 水/雷/火 -> icons (G23)
+            put(bufs, orig, cg, 0x5300 + k * 128, digraph.icon(k), f"icon {k:X}")
         gfx.apply(put, bufs, orig, load)  # graphics text (gfx/gfx.tsv, tools/gfx.py)
     out = ROOT / "work" / "markers.tsv"
     out.parent.mkdir(exist_ok=True)

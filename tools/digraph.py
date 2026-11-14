@@ -45,6 +45,34 @@ def pixels(pair):
             for x in range(8):
                 if rows[y] >> (7 - x) & 1:
                     px[y][half * 8 + x] = BODY
+    return shadowed(px)
+
+
+# Monpet element glyphs MSG_CG 0xB0-0xB2 水/雷/火: one 16x16 cell drawn by FDS code (0x801029A4 list, 0x80102C44
+# detail), no room for a word there, so they become element icons (water drop, lightning bolt, flame).
+ICONS = {
+    0xB0: ["       ##       ", "       ##       ", "      ####      ", "      ####      ", "     ######     ",
+           "    ########    ", "    ########    ", "   ##########   ", "   ##########   ", "  ############  ",
+           "  ### #######   ", "  ### ######    ", "   ### ####     ", "    #######     ", "     #####      ",
+           "                "],
+    0xB1: ["        #####   ", "       #####    ", "      #####     ", "     #####      ", "    #####       ",
+           "   ##########   ", "  ##########    ", "       #####    ", "      #####     ", "     #####      ",
+           "    ####        ", "   ###          ", "  ##            ", " #              ", "                ",
+           "                "],
+    0xB2: ["       #        ", "       ##       ", "      ###   #   ", "      ####  ##  ", "  #  #####  ##  ",
+           "  ## ###### ##  ", "  ############# ", " ############## ", " #####  ####### ", " ####    ###### ",
+           " ####     ##### ", " ####  #  ##### ", "  ### ###  ###  ", "   ##########   ", "     ######     ",
+           "                "],
+}
+
+
+def icon(code):
+    """128 bytes (cell format) for an ICONS entry, shadowed like the letters."""
+    px = shadowed([[BODY if c == "#" else 0 for c in row] for row in ICONS[code]])
+    return bytes(px[y][x] | px[y][x + 1] << 4 for y in range(16) for x in range(0, 16, 2))
+
+
+def shadowed(px):
     for y in range(15, -1, -1):  # shadow where the body pixel up-left of it is set
         for x in range(15, -1, -1):
             if not px[y][x] and y and x and px[y - 1][x - 1] == BODY:
