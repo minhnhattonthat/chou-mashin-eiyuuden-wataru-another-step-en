@@ -372,20 +372,22 @@ def bf_cell(ch):
 def strings():
     """build/strings.tsv for textcover.py, from the last edits() run: room page id -> hex (episode << 24 | RAM address
     of its first text word in the English overlay), the form tools/lua/textlog.lua logs the event pointer in.
-    Menu/battle sources are not listed yet."""
+    Third column: the page's header kind from rooms.pages() (event / next / ptr / code: textview.lua starts 'event'
+    pages at their 7-word header). Menu/battle sources are not listed yet."""
     rooms = roompack.rooms
     out = []
     for path, ws in WRITES.items():
         name = Path(path).stem
         if name not in rooms.OVERLAYS:
             continue
+        kind = {o: h for o, _, _, h in rooms.pages((rooms.FPRG / f"{name}.BIN").read_bytes())}
         for off, _, _, by in ws:
             if re.fullmatch(r"R\d\d:[0-9A-F]+", by):
                 if name == "R13":
                     ep = 12 if rooms.font(name, int(by[4:], 16)) == "M16_R12" else 13
                 else:
                     ep = [c[0] for c in rooms.CASES].index(name)
-                out.append(f"{by}\t{ep << 24 | (rooms.BASE + off) & 0xFFFFFF:X}\n")
+                out.append(f"{by}\t{ep << 24 | (rooms.BASE + off) & 0xFFFFFF:X}\t{kind.get(int(by[4:], 16), '?')}\n")
     return "".join(out)
 
 

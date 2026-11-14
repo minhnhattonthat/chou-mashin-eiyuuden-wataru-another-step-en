@@ -6,12 +6,13 @@ Feed it full-scale sheets (tools/tour_sheets.py): at emu.py's half scale codex f
 
 Each chunk file (qa_gate.py todo --out-dir) lists "id<TAB>path" lines. Every sheet goes to codex as an image, with the
 original's sheet of the same scene (same path under --jp) and docs/visual-qa-brief.md; codex returns
-"id<TAB>ok|issue<TAB>note" lines, written to work/qa/verdicts/<chunk>.tsv. A chunk whose answer lacks an id fails and writes nothing.
+"id<TAB>ok|issue<TAB>note" lines, written to work/qa/verdicts/<chunk>_<time>.tsv. A chunk whose answer lacks an id fails and writes nothing.
 """
 import argparse
 import shutil
 import subprocess
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -53,7 +54,8 @@ def run(chunk, a):
     miss = [i for i in ids if i not in got]
     if miss:
         return chunk, "missing ids: " + ", ".join(miss)
-    (Path(a.verdicts) / (Path(chunk).stem + ".tsv")).write_text(
+    # qa_gate todo reuses chunk_NNN names each round: a dated name keeps the earlier rounds' verdicts
+    (Path(a.verdicts) / (Path(chunk).stem + time.strftime("_%Y%m%d%H%M%S") + ".tsv")).write_text(
         "".join(f"{i}\t{got[i][0]}\tcodex: {got[i][1]}\n" for i in ids), encoding="utf-8")
     return chunk, "%d ok, %d issue" % (sum(v[0] == "ok" for v in got.values()), sum(v[0] == "issue" for v in got.values()))
 

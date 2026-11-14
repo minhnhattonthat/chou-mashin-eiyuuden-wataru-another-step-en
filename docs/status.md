@@ -6,6 +6,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
   G23, G25 credits; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18).
   Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 11 (2026-11-14): **visual-QA gate passes** on build e210ee37 (`qa_gate.py check` 717/717:
+    re-tour 58/59 scenes (endreal: known FMV stall), 43 changed sheets re-judged by codex, all ok incl. hitblow card
+    backs, staff-roll page bottoms, Config heading; false positives overridden with reasons in
+    work/qa/verdicts/zz_controller.tsv). vqa_codex.py verdict files are now dated (qa_gate's chunk_NNN names
+    overwrote 44 round-1 verdicts; re-judged). **Text coverage works for room text**: the s10 viewer only ever
+    replayed the bank start (state 3 reads the event start u32 0x8009C9A4, not 0x8009C998; 7-word header; debug.md
+    "Dialogue viewer" correction). New textview.lua: pass 1 starts each 'event' page at its header, pass 2 redirects
+    a HOST event's pointer to every page still unseen (NPC talk), free-walk snapshot reloaded per event.
+    strings.tsv col 3 = page header kind (insert.strings()). New `tools/textcover_run.py` (per episode, chunks of 30
+    pages, resumable). ep01: 230/234. A full run (twice, all episodes) was started at hand-off: logs
+    work/qa/cover/run1.log, run2.log, report in work/qa/cover/report.txt. Build unchanged (e210ee37), 110 tests.
   - Phase 8, session 10 (2026-11-14): **visual-QA tour started**. warp_all on EN + original (work/qa/tour_jp, states
     work/qa/tour_jp_states; 70/71 reach, `endreal` times out on both after its AT at f8301: the emulator stalls in
     the ending FMV, harmless, the roll is covered by staff_roll). New `tools/tour_sheets.py` (full-scale sheets,
@@ -221,18 +232,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  0. Finish the visual-QA gate on build e210ee37. The re-tour started in session 10 (detached: warp_all ->
-     tour_sheets -> qa_gate init, ~40 min) may still be running: while this repo's pcsx-redux / warp_all.py
-     processes exist, wait; when work/qa/retour.log ends with "in manifest" it is done. If it died, rerun `warp_all.py
-     --jobs 4`, `tools/tour_sheets.py`, `qa_gate.py init work/qa/manifest.tsv work/qa/tour --glob "*sheet*.png"
-     --build build/wataru_en.bin`; then `qa_gate.py todo work/qa/manifest.tsv work/qa/verdicts --size 4 --out-dir
-     work/qa/chunks` (clear old chunk files first) and `tools/vqa_codex.py <chunks> --jobs 5` (~1 min a chunk,
-     background). Verify each issue on full-res frames (`sheet.py f.png --compare jp.png --div 1`) before fixing;
-     write overrides with the reason. Check the hitblow card backs are blue circles again and the staff roll page
-     bottoms are clean. `qa_gate.py check` must exit 0. Text coverage: make textview.lua's STUCK events end (look at
-     state/mode when stuck: choices need a Cross/Down press, scene changes need the room reloaded), run per episode
-     from work/states/epNN.sstate, then add the menu/battle sources to strings.tsv (their RAM read address) or waive
-     them by source with reasons in docs/text_unshown.tsv.
+  0. Text coverage. If this repo's textcover_run.py / pcsx-redux processes still run, wait (report lands in
+     work/qa/cover/report.txt). Else rerun `python -X utf8 tools/textcover_run.py --jobs 3` until the count stops
+     rising (it resumes; a hung chunk = NPC text walked into an `A000` item command, costs one chunk), then
+     `textcover.py work/qa/cover build/wataru_en.strings.tsv`. Pages still missing: look at their header kind / the
+     words before them (dump the EN overlay work/disc/en/FPRG/Rnn.BIN); start them by pass 2 with another HOST, or
+     waive with a reason in docs/text_unshown.tsv (e.g. dead pages no event reaches). ep00 (FMV/opening) and the
+     R13 ep12/13 split need checking that their epNN.sstate reaches free walk. Then menu/battle sources (EXE, ST,
+     BALLBAT, MACHINE, TTL, LVUP, FDS, exe_* tables, ~1,100 entries, ids in insert.WRITES like `EXE:7F84A`):
+     add them to strings.tsv with their EN RAM address and log reads with an `L.on_read` probe (needs emu.py
+     --debugger) over warp_all scenes, or waive by source with reasons. Visual-QA gate: passes on e210ee37; any
+     rebuild needs a re-tour (`warp_all.py`, `tour_sheets.py`, `qa_gate.py init/todo`, `vqa_codex.py`).
   1. Remaining graphics rows (docs/re/graphics.md), with the gfx.py pipeline, in the main thread (codex's sandbox
      can't run Python, Orca refuses nested workers): G17/G18 in game (graphics.md rows: find the BALLBAT sprite
      list that cuts each bubble rect and the action that plays it; or waive with the offline check),

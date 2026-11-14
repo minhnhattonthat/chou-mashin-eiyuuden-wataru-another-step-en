@@ -85,9 +85,17 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
   state u16 0x8009C788 = 3 plays that message as an event: state goes 4 (window), the pointer walks the text a word
   per frame, Circle pages on, and the event ends at the record's end (`tools/lua/textview.lua`, PTR defaults to the
   bank start u32 0x8009C9A4: R01 bank 0x800DC96A played Wataru's "A village!" then "So..." and ended at f329).
-  So every bank message can be shown by pointing at its record; NPC (0x3000-ended, u32-pointer) messages untested.
-  Plan for textcover: build/strings.tsv = page -> EN RAM address of a word the pointer must pass (from roompack's
-  writes), hook = log every 0x8009C998 value with the episode, one viewer scene per room stepping through records.
+  **Correction (p8 s11):** state 3 ignores 0x8009C998: EXE 0x8003275C copies the event start u32 0x8009C9A4 into
+  it, then 0x80032810 parses a **7-word header** (w1 music/sound id or FFFF -> 0x800282F0, w2/w3 actor + arg bytes,
+  w4 face (0x7FFF none; high nibble << 6 = portrait), w5-w7 portrait cmd 0x0100 + args, or 0x7FFF) and walks the
+  text. So the viewer writes both pointers = page - 14. The s10 "plays its record" result only ever replayed the bank
+  start. An event started on the frame its predecessor ended returns at once: wait ~40 frames of state 0. State 5 =
+  a post-text command (actor walk) running; an event can sit in it 240+ frames, or forever with absent actors.
+  `A000 n FFFF` <text> pages have text before them, not a header: starting there passed a text code as music id and
+  hung the emulator (textview header() check). NPC talk / pages after a stall: start any good event (HOST) and, once
+  it is in state 4 inside its text, point 0x8009C998 at the page: the walker draws it to its 0x3000.
+  `tools/textcover_run.py` runs this per episode in chunks of 30 pages (one hang costs a chunk), resumable; log =
+  textlog.lua's TEXT lines, key = episode << 24 | EN address (build/wataru_en.strings.tsv col 2; col 3 = header kind).
 
 ## Scene list (tools/debug/scenes.txt) and its proof
 
