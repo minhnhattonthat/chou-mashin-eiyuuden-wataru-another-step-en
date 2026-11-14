@@ -87,6 +87,12 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
   u16 0x800C1680. Scene gear_all. Mashin banner names: `tools/lua/mbanall.lua` forces all 34 from a mashin state.
 - Monpet shop table u32 0x8008F88C[ep] = 6-byte entries [u16 species 1-15, u16 price, u16 rank]; the 30 names in
   exe_enemies are 15 species x 2 (growth?) - not yet mapped to roster fields.
+- Monpet roster (p8 s17): u16 species at 0x800A8D60 + 0x22 * slot (8 slots, 2x4 grid: Monpet -> Status; Circle =
+  detail, Cross = back). Valid species 1-15; detail "Special" = exe_mashin_attacks[species - 1] (0x80094 +
+  0x14 * k; scenes monpet_detail + monpets1-2 show all 15). The detail page has no name. Species names
+  (exe_enemies, table 0x80097AEC + 20 * id) are only read by two EXE copy loops, 0x80042564 (in 0x80042228, called
+  from 0x80041FBC/0x80042134) and 0x80056FB8 (in 0x80056080, called from 0x80055D60): they copy the name into the
+  roster at acquisition (shop / naming screen, exe_monpet_lines), never run in the monpet menus (hits.lua).
 - File table 0x80077240: 1,037 records of 0x20 bytes {name ptr, load address, LBA (filled at boot), size, ...};
   loader 0x8002505C(index). `tools/filetab.py` lists it.
 

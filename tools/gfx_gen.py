@@ -238,7 +238,7 @@ def iq():
         put_bdf(img, lut, rect, t, "spleen-6x12.bdf", 1, 14, align="left")
     img.save(gfx.GFX / "en" / png)
     face = [16, 16, 17, 17, 18, 18, 19, 19, 21]
-    for game in ("HIT", "KIO"):
+    for game in ("HIT", "KIO", "BUR", "PUZ"):
         # WIN and ! are two records that meet at x 16 (かち | っ!): push both to that seam (WIN! seen with a gap)
         for name, t, xs, ha in (("lose", "LOSE!", .58, "c"), ("win1", "WIN", .52, "r"), ("win2", "!", 1, "l")):
             png = f"IQ/{game}_{name}.png"

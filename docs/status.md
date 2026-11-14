@@ -4,10 +4,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (graphics rows done: G3, G4, G5, G6, G9, G11, G12, G16, G19, G20,
   G23, G25 credits, G22 INN board; G10 waived (never drawn); drawn, checked offline, not yet seen in game: G17, G18,
-  G22 SAKE lantern). Build **0051ad42** (TTL Config value column +8 px): visual-QA gate needs title_config /
-  title_extra re-judged (was 717/717 on 90f876dc). Text coverage 5,286/5,805 + 327 waived (192 left, see Next 0).
+  G22 SAKE lantern). Build **48f7e75a** (IQ LOSE!/WIN! cards in BUR/PUZ): **visual-QA gate passes**
+  (`qa_gate.py check` 902/902, tour now 96 scenes). Text coverage 5,301/5,805 + 327 waived (177 left, see Next 0).
   Phase 7 done (2026-11-14): full English build, overflow empty, all warp scenes reach.
 - **Done:**
+  - Phase 8, session 17 (2026-11-14): **tour extended** to the coverage scenes (title_extra/values, iqp/iqn 0-3,
+    items_all/b, keys_all, gear_all, places0-5, mcover02-14, monpets1-2, item_order; EN in work/qa/warp, JP in
+    work/qa/tour_jp, sheets work/qa/tour + tour_jp_full): 188 new/changed sheets judged by codex (vqa_codex.py),
+    1 real issue: **cake-game まけ! stone card still Japanese** (IQ/BUR_MAIN.CHG; PUZ_MAIN.CHG has the same cards):
+    gfx.tsv BUR_/PUZ_ rows + gfx_gen.iq -> LOSE! verified in iqp2 (f6600). Gate 902/902 on 48f7e75a (items_all /
+    items_b report "False" in warp_all but reach the menu, exit 0, final yes; same on the JP). **Coverage**: monpet
+    special moves all shown (scenes monpets1-2: roster species poke, debug.md "Monpet roster"), item-order line
+    (scene item_order). Probes that found nothing (removed): shop buy route (no confirm/money line read), shop id
+    0x8009C85A 1-8 (no reads at all), IQ Start -> Retry / Give Up from practice (game index differs) and ep1 story
+    (that battle forbids giving up). Species names (exe_enemies) are copied only at monpet acquisition (debug.md).
+    Build 48f7e75a: smoke ok, 111 tests.
   - Phase 8, session 16 (2026-11-14): coverage 440 -> 192 left. **Clear flag u8 0x8009C681** unlocks title Config
     rows IQ Battle / Mashin Battle (debug.md); scenes title_extra, title_values (every Config value: TTL all but
     056DC, waived: no pointer), iqp0-3 / iqn0-3 (IQ practice of each game, mash Circle / `mashkey=down/circle` =
@@ -294,14 +305,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  00. Visual-QA gate on build 0051ad42: rerun title_config + title_extra + title_values (warp_all), tour_sheets,
-     `qa_gate.py init/todo`, vqa_codex on the changed sheets (only the Config value column moved).
-  0. Text coverage (current: **5,286/5,805 shown + 327 waived, 192 failing**, work/qa/cover_now_report.txt;
-     `tools/cover_missing.py work/qa/cover_now_report.txt` lists them with English). Left: EXE 125 (abilities 25,
-     monpet names 30 + moves 14: species 1-15 x 2 forms, map roster fields; consumables 44-58 + effects; key-item
-     descs 16; shop 4 / monpet 4 lines; EXE 3), ST 36 (IQ win/lose/retry/"Got all that? No" branches: poke a win,
-     Start menu Retry / Give Up, per-game opponent pairs), FDS 2 item-order
-     lines, rooms 29. MACHINE and TTL done.
+  00. Visual-QA gate: passes on 48f7e75a (902 sheets). After any rebuild: rerun the scenes that show the change
+     (warp_all --only, EN), `sheet.py work/qa/warp/<s> --div 1 --max 8 --cols 4 --out work/qa/tour/<s>/sheet.png`
+     (or tour_sheets.py for all, ~15 min), `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build
+     build/wataru_en.bin`, `todo --out-dir`, `vqa_codex.py <chunks> --jp work/qa/tour_jp_full`. A new scene also
+     needs its JP warp (`--rom <orig cue> --out work/qa/tour_jp --states work/qa/tour_jp_states`) + JP sheet.
+  0. Text coverage (current: **5,301/5,805 shown + 327 waived, 177 failing**, work/qa/cover_now_report.txt;
+     `tools/cover_missing.py work/qa/cover_now_report.txt` lists them with English). Left: EXE 111 (abilities 25,
+     monpet species names 30 (copied into the roster at acquisition only: find the monpet shop / naming flow, see
+     debug.md "Monpet roster"; that flow also shows exe_monpet_lines 4 and the kana name-entry grid, item 2),
+     consumables 44-58 + effects 29, key-item descs 16, shop lines 4 (confirm / no money / carry limit / already
+     have it: a buy route through the shop scene didn't reach them; look at the shop state machine), EXE 3), ST 36
+     (IQ win/lose/retry/"Got all that? No" branches: poke a win, Start menu Retry / Give Up in a battle that allows
+     it, per-game opponent pairs), FDS 1 (item-order "Confirm"), rooms 29. MACHINE, TTL, monpet moves done.
      **Merge recipe** (after any new run): `tools/cover_remap.py work/qa/cover/strings_e210.tsv work/qa/cover
      work/qa/rcover --out work/qa/cover_now`; `cp work/qa/exe_log_keep.txt work/qa/cover_now/exe/log.txt` (EXE
      dialogue pages); copy each `work/qa/ncover/<run>/log.txt` (current-build keys, not remapped) to

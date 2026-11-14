@@ -34,6 +34,13 @@ IQ/HIT_win2.png	IQ/HIT_MAIN.CHG	1A938	8	IQ/HIT_MAIN.CHG	1A730	0	144,176,56,72
 IQ/KIO_lose.png	IQ/KIO_MAIN.CHG	1A938	8	IQ/KIO_MAIN.CHG	1A730	0	0,112,144,80
 IQ/KIO_win1.png	IQ/KIO_MAIN.CHG	1A938	8	IQ/KIO_MAIN.CHG	1A730	0	144,96,88,80
 IQ/KIO_win2.png	IQ/KIO_MAIN.CHG	1A938	8	IQ/KIO_MAIN.CHG	1A730	0	144,176,56,72
+# the same cards in the Burikinton (cake) and 15-puzzle games (p8 s17: まけ! seen in scene iqp2), own block + CLUT
+IQ/BUR_lose.png	IQ/BUR_MAIN.CHG	10420	8	IQ/BUR_MAIN.CHG	10218	0	0,112,144,80
+IQ/BUR_win1.png	IQ/BUR_MAIN.CHG	10420	8	IQ/BUR_MAIN.CHG	10218	0	144,96,88,80
+IQ/BUR_win2.png	IQ/BUR_MAIN.CHG	10420	8	IQ/BUR_MAIN.CHG	10218	0	144,176,56,72
+IQ/PUZ_lose.png	IQ/PUZ_MAIN.CHG	208	8	IQ/PUZ_MAIN.CHG	0	0	0,112,144,80
+IQ/PUZ_win1.png	IQ/PUZ_MAIN.CHG	208	8	IQ/PUZ_MAIN.CHG	0	0	144,96,88,80
+IQ/PUZ_win2.png	IQ/PUZ_MAIN.CHG	208	8	IQ/PUZ_MAIN.CHG	0	0	144,176,56,72
 # G17 battle bubbles: OTHER11.CHG (704,0) 4bpp, 16 palettes raw in the 0x200 header (palette 8: all text colours
 # distinct; the import is by index, so the in-game palette doesn't matter). Text index 6/7 on fill 5.
 YM/O11_sorry.png	YM/BR_17/OTHER11.CHG	200	4	YM/BR_17/OTHER11.CHG	r0	8	0,170,64,27
