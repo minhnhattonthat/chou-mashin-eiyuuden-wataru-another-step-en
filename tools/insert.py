@@ -254,6 +254,10 @@ def edits(qa=None, english=True):
             new = [bf_code(ch) - (14 if e["id"] in FDS_BF else 0) for ch in text]
         else:
             new = [c if isinstance(c, int) else codes[c] for c in cells(text, nl)]
+        if path == EXE and movable(e, path) and (e.get("tail") or words[-1] == 0):
+            # the JP fills its box with blank cells: EXE 0x80055EE0 uploads 16 glyphs of the chest / bottle line
+            # (7A4DC, 7A500, 7A524) with no end check, so a moved shorter line drew its terminator as junk
+            new += [0] * (avail - len(new))
         if relocatable(path, off) and "+" + e["id"] not in qa:  # room text: laid out per unit (roompack)
             room_items.setdefault(load(path), {})[off] = (avail, new, e["id"])
             continue

@@ -93,11 +93,16 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
   (exe_enemies, table 0x80097AEC + 20 * id) are only read by two EXE copy loops, 0x80042564 (in 0x80042228, called
   from 0x80041FBC/0x80042134) and 0x80056FB8 (in 0x80056080, called from 0x80055D60): they copy the name into the
   roster at acquisition (shop / naming screen, exe_monpet_lines), never run in the monpet menus (hits.lua).
-- Monpet naming flow (p8 s18, static only): tasks dispatch through u32 table **0x80076840**[u16 task +0] (current
-  task ptr u32 0x8009C7AC; caller 0x800228A0); entries 0x210/0x211 = 0x80055AB0, a 6-state machine (u16 task +2 ->
-  table 0x80094600: 0x80055B18, 55C74, 55CD8 (calls the name copy 0x80056080), 55E34, 55E64, 55E94). EXE 0x8004EC74
-  starts it: writes 0x210 to u16 0x800BDCCC and 0x211 to 0x800BDC60 (fixed task slots), copies task +0x52/+0x54.
-  Next: find who calls 0x8004EC74 (probably an event opcode handler; no direct jal/ptr found yet), then a warp scene.
+- **Treasure chest** (p8 s19; s18 took it for monpet naming): tasks dispatch through u32 table **0x80076840**[u16
+  task +0] (current task ptr u32 0x8009C7AC); field actors live at 0x800BD750 + 0x6C * n. Chest actor = type 0x21D
+  (0x8004EA60, states table 0x80091654); talking to it (0x800416B0, actor index u16 0x8009C84A) sets its state 1 -> 2
+  = 0x8004EC74, which (if chest flag 0x800B2E38[+0x50] & 0x7F is clear) starts slots 12/13 (0x800BDC60 = 0x211,
+  0x800BDCCC = 0x210, handler 0x80055AB0, states table 0x80094600) and copies +0x52/+0x54/+0x56 to slot 12 +0x58/
+  +0x5C/+0x5E (item id / kind / species). Slot 12 +0x5A picks the line (0x80091D48: 0 empty, 1 opened, 2 monpet
+  bottle); **0x80055EE0 uploads exactly 16 glyph words of it** (no end check: EN pads them with blank cells, insert.py).
+  0x80056080 gives the item by kind (+0x5C, jump table 0x8001E2F8, 0-6); kind 5 = monpet: species +0x5E goes into the
+  first free roster slot with its name copied (0x80056FB8). Scenes chest_open/empty/bottle/monpet, chest_mon1-4
+  (warp.lua `chest=A-B`: every species name read).
 - Abilities (p8 s18): FDS 0x80101740(char) uploads the glyphs of u16[10] at **0x800A96D0 + 20 * char** (ability ids,
   name = 0x8009703C + 14 * id, exe_abilities) when Status opens a page; scene abil_all pokes ids 1-26.
 - Use menu tabs (p8 s18): 4 tabs Heal / Attack / Support / Other = inventories 0x800A3510 / 3530 / 3548 / 3568; the

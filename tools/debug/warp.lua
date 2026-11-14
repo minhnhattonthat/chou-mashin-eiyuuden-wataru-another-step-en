@@ -144,6 +144,17 @@ L.on_frame(function(f)
         if d == tonumber(f0) then wr(tonumber(a, 16), tonumber(v, 16), tonumber(n)) end
       end
     end
+    -- chest=A-B: a monpet treasure chest per species A..B (hex), one every 450 frames from d=100 (task slots 12/13 =
+    -- 0x211/0x210 as EXE 0x8004EC74 sets them; slot 12 +0x5C item kind 5, +0x5E species; roster slot 0 freed each time)
+    if S.chest then
+      local a, b = tostring(S.chest):match("(%x+)-(%x+)")
+      local k = (d - 100) / 450
+      local sp = tonumber(a, 16) + k
+      if d >= 100 and k == math.floor(k) and sp <= tonumber(b, 16) then
+        wr(0x800A8D60, 0, 2); wr(0x800BDCBE, sp, 2); wr(0x800BDCBC, 5, 2); wr(0x800BDCBA, 1, 2); wr(0x800BDCB8, 0, 2)
+        wr(0x800BDC62, 0, 2); wr(0x800BDCCE, 0, 2); wr(0x800BDCCC, 0x210, 2); wr(0x800BDC60, 0x211, 2)
+      end
+    end
     if (L.route_done() or S.mash) and d >= (S.wait or 30) and (S.atmode or S.atstate or mode == 0xC or mode == 0xD or mode == 5
         or S.stop == "title") and arrived_ok(mode) and not arrived then
       arrived = f
