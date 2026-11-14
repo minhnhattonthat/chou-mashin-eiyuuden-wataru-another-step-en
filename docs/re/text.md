@@ -123,8 +123,10 @@ right after the largest room overlay.
   common code + 0x0E for kana, 1-10 digits (`jtext.battle_table`, read from a battle RAM dump). Copies of the EXE item
   names: keep them in step. The font's file is not traced yet (phase 5, to add Latin glyphs).
 - FDS: place names 0x120D8-0x124AC are 10-cell fields (`fds_places.json`; u32 table 0x124AC = first slot per
-  episode), voice names 0x18550 7-cell fields (`fds_voices.json`, also in TTL), monpet name-entry kana grid 0x18468
-  (data: phase 5 swaps in Latin letters).
+  episode), voice names 0x18550 7-cell fields (`fds_voices.json`, also in TTL), monpet name-entry kana grid 0x18470
+  (90 u16 codes; English since p8 s22: single-letter cells at fixed pair codes, case key, `insert.NAME_GRID`).
+- EXE 0x77808 / 0x77818 もどれませぬぞ / もどれないよ: field pages ending 0x3000 between event data, missed by the page
+  scan (the words before them read as text); `exe_no_way_back.json` (fixed 8-word slots, en ends `[3000]`).
 - MACHINE 0x1761C/0x17630/0x17648 (`天翔登龍剣幻影招龍破`, `昇龍烈火爆裂聖剣斬る突く`, `リトライゲームをやめる`): no
   terminators, one code ref each: probably glyph sets the mashin battle uploads; waived as data until phase 5 finds how
   they are drawn.

@@ -120,7 +120,8 @@ CENTRED = {"FDS:12510"}  # item-order title box "Done": JP blanks centre 決定,
 def width_problems(entry, en):
     w, n, _ = box(entry)
     jp_lines = re.sub(r"\[B000\].", "", entry["jp"]).split("\n")
-    lines = re.sub(r"\[B000\](\[[0-9A-F]{4}\])?", "", en).split("\n")
+    lines = re.sub(r"\[B000\](\[[0-9A-F]{4}\])?", "", en)
+    lines = re.sub(r"\[[0-9A-F]{4}\]", "  ", lines).split("\n")  # any other raw word takes one cell (a terminator)
     out = []
     if len(lines) > n:
         out.append(f"{len(lines)} lines, the box has {n}")

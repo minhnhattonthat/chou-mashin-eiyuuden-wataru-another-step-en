@@ -1,0 +1,24 @@
+{
+ "file": "SLPS_013.68",
+ "base": "80017800",
+ "table": "no_way_back",
+ "stride": 16,
+ "entries": [
+  {
+   "id": "EXE:77808",
+   "slot": 0,
+   "max": 8,
+   "jp": "もどれませぬぞ[3000]",
+   "en": "No going back![3000]",
+   "status": "done"
+  },
+  {
+   "id": "EXE:77818",
+   "slot": 1,
+   "max": 8,
+   "jp": "もどれないよ[3000]",
+   "en": "Can't go back![3000]",
+   "status": "done"
+  }
+ ]
+}

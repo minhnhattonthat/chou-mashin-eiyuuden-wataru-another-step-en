@@ -2,11 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: gates pass, one carried item left (Next 0: monpet name-entry grid). Build
-  **cda1c147**: smoke ok, 111 tests, visual-QA gate **1055/1055**, `textcover.py` **exit 0** (5,477/5,805 shown + 328
-  waived), inkbox ok. Graphics rows all English (G17/G18 bubbles and G22 SAKE lantern verified in game VRAM, their
-  on-screen draw not reached; G10 waived). Phase 7 done (2026-11-14).
+- **Phase:** 8. QA in the emulator: one item left (Next 0: monpet names on the roster card). Build **03e57e55**:
+  smoke ok, 113 tests, `textcover.py` **exit 0** (5,478/5,807 shown + 329 waived), visual-QA gate 1066/1067 (the
+  one issue is Next 0), inkbox ok. Graphics rows all English (G17/G18 bubbles and G22 SAKE lantern verified in game
+  VRAM, their on-screen draw not reached; G10 waived). Phase 7 done (2026-11-14).
 - **Done:**
+  - Phase 8, session 22 (2026-11-15): **monpet name entry reached and English**: field state 0xB + 0x8009C85A 0
+    starts FDS task 0x250 (debug.md "Monpet name entry"); scenes name_entry / name_saved. Grid (FDS 0x18470) now A-Z,
+    digits, `.-!?` and a working case key "A/a" (insert.NAME_GRID: single-letter pair codes at fixed codes at the end
+    of the compose table, lower = upper + offset patched over the 0x55 at 3 sites, label in blank MSG_CG slots
+    0x55/0x8E). Verified typing "ABfz", Exit, Yes. **Bug found: the roster card draws names with the 8x16 font**
+    (FDS 0x80102A64: src 0x80110380 + code * 64 = glyph code + 14, 10 cells) -> EN species names (pair codes, from
+    the chest/shop copy) and entered names draw nothing there; JP shows the name (codex verdict, name_saved/sheet_4,
+    work/qa/tour_jp/name_saved/final.png). Not fixed: Next 0. **Missed string**: EXE 0x77808 もどれませぬぞ (map
+    edge, EXE 0x800434E8) showed Japanese: new FIXED table `exe_no_way_back` ("No going back!", hand24; 0x77818 has
+    no reference: waived); sweep of every stream for uncovered runs ending in a page terminator found no other.
+    batches.py counts a raw `[XXXX]` word as one cell. Scene no_way_back.
   - Phase 8, session 21 (2026-11-15): **coverage 6 -> 0**: shop builders traced (debug.md "Shop messages"): new
     scenes shop_nomoney / shop_carry (cart + money pokes, actor 0x800C0DBC step 0), shop_leave (EXE 0x8004A844's
     writes), item_order2 (3 picks -> title box). 77C00 "You already have it." waived (dead branch). **Bug: "Customer!
@@ -350,12 +361,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
      (or tour_sheets.py for all, ~15 min), `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build
      build/wataru_en.bin`, `todo --out-dir`, `vqa_codex.py <chunks> --jp work/qa/tour_jp_full`. A new scene also
      needs its JP warp (`--rom <orig cue> --out work/qa/tour_jp --states work/qa/tour_jp_states`) + JP sheet.
-  0. **Last phase-8 item: monpet name-entry grid** (FDS 0x18468, still kana; item 2 below). Reachable in normal play
-     ("Change your Monpet's name? 1. Yes", EXE 77AD2, monpet shop / chest). Find the entry path (FDS 0x80107AEC
-     naming screen; the act250 slot-12 spawn freezes after step 5; try the 77AD2 page's Yes branch or the monpet-shop
-     buy path 0x80042228 with money + bottle poked), put Latin letters in the grid, check entered names draw, add a
-     scene, tour it. Then set Phase 9. Text coverage is done (exit 0); keep the merge recipe below for re-runs.
-     Older notes below are history. Left (s19): EXE exe_monpet_lines 4
+  0. **Last phase-8 item: monpet names on the roster card** (Field menu -> Monpet: each card's top-left name, 8x16
+     font, FDS 0x80102A64 loop: `lhu a0,0xE(roster slot)`, src = 0x80110380 + code << 6, w 8, x += 2, 10 cells).
+     Roster name = u16[10] at slot + 0x0E, filled from exe_enemies (EXE copy loops 0x80042564 shop, 0x80056FB8
+     chest) or the name grid (state 7 copies 0x800B3670). JP kana codes work in both fonts (16x16 code, 8x16 code +
+     14); EN pair codes only in 16x16. Plan (mirror the JP): names in **letter codes c = ASCII - 0x20** (= 8x16
+     battle-font code bf_code(ch) - 14, Latin already there; space 0x5F; the FDS_BF scheme): (a) exe_enemies
+     encoded that way (one letter per cell, 10 max: cut Megadragonfly / King Croakpuff under D19 everywhere, e.g.
+     Megadarner / King Puff, incl. EXE.json "Got King Croakpuff!" lines and glossary); (b) MSG_CG 16x16 slots 1-0x5F
+     <- `digraph.cell(chr(c + 0x20) + " ")` so 16x16 draws of name codes (naming top box 0x80107C5C, grid
+     0x80107D5C) show the letter (spaced); no EN text uses those slots, but grep code-literal glyph uploads first;
+     (c) grid = letter codes, both cases on one page (case offset 0x20 would turn digits into letters): set the 3
+     `addiu 0x55` to 0, labels + the ヴ upload to code 0, drop NAME_LABEL / the compose-table block; (d) exe_enemies'
+     3 FDS readers 0x801044B4 / 0x801053E0 / 0x8010564C (monpet shop list, scene shop_monpet) draw 16x16: patch them
+     to the 8x16 path like the card (base 0x80110380, sll 6, w 8, x step 2) or they show spaced letters; (e) check
+     scenes roster_name (pokes JP あい = codes 1,2), name_saved, shop_monpet, chest_mon1-4, monpet_detail; re-tour,
+     gate, then set Phase 9. Battle draw of monpet names not checked (ball battles unloggable). Left (s19): EXE exe_monpet_lines 4
      (FDS naming screen 0x80107AEC, callers in session 19 Done; it also shows the kana name-entry grid, item 2),
      shop lines 3 (no money / carry limit / already have it: Circle doesn't buy in a poked shop; open a shop through
      its event (0x80031364 path) or find what the poked shop lacks), EXE 2 (1. Go back / 2. Leave), ST 36
@@ -407,7 +428,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
      the English save title (script/MEMORY.json) in a saved card (`tools/debug/blank.mcd` after scene save: header
      title at block offset 0x04) and wherever the game lists saves; a battle that uses もんペット (BALLBAT table
      bases 0x800F1C1C / 0x800F52E8 waived in test_reloc: watch them there too).
-  3. Text edits: always through a batch (`batches.py merge NAME --overwrite`, handN for hand fixes; next: hand21).
+  3. Text edits: always through a batch (`batches.py merge NAME --overwrite`, handN for hand fixes; next: hand25).
      ST lines can't grow past their JP word count; polish.md minors on ST must keep that limit.
   4. docs/polish.md: done (session 12).
 - **Open bugs:** none.

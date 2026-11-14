@@ -103,6 +103,14 @@ Static helpers: `tools/filetab.py` (file table), `tools/loadcalls.py` (load-by-i
   0x80056080 gives the item by kind (+0x5C, jump table 0x8001E2F8, 0-6); kind 5 = monpet: species +0x5E goes into the
   first free roster slot with its name copied (0x80056FB8). Scenes chest_open/empty/bottle/monpet, chest_mon1-4
   (warp.lua `chest=A-B`: every species name read).
+- **Monpet name entry** (p8 s22): field sub-state **0xB** with u16 0x8009C85A = 0 makes handler 0x80031578 start
+  FDS task **0x250** (0x80107184, states table 0x8010F44C): 0-1 open, 2 "Please choose a Monpet" (roster; Circle on
+  an owned slot whose +4 is 0 -> state 4; in field state 0xF the same pick releases the monpet, state 8), 4-5 slide,
+  6 the grid (0x80107788: cursor col u16 0x800C0EE4 0-9, row 0x800C0EE6 0-8; name u16[10] at 0x800B3670, length
+  task +0x56, case flag +0x54), 7 "Is this name OK?". Grid draw 0x80107D5C. Scenes name_entry / name_saved (poke
+  slot 1 species, state 0xB, Circle). English grid: insert.NAME_GRID. Under field state 0xB the D-pad also walks
+  Wataru with no collision, so ~8 Downs walk him off the map: map-exit check EXE 0x800434E8 (y u16 0x8009C892 >=
+  0x700, no exit) shows EXE 77808 "No going back!" (scene no_way_back; a field page, missed by extract until s22).
 - **IQ battle steps** (p8 s20): each IQ game is a field actor (0x800BD750 + 0x6C * n; practice 15-puzzle at n 16,
   0x800BDE10) whose action u16 +0 picks an ST handler from EXE table 0x8006E840: 0x103 = KIO / 15-puzzle (ST
   0x800EEE84), 0x112 = hit & blow (0x800FA2D4), 0x120 = 0x800FF958 game. Top state u16 +2 indexes the game's step

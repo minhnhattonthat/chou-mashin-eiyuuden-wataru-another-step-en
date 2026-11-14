@@ -69,6 +69,8 @@ FIXED = {
     "enemies": ("EXE", 0x80300, 0x80558, 0x14),
     "shop_lines": ("EXE", 0x77BA0, 0x77C20, 0x20),  # 16-cell lines: confirm (10 + はい　いいえ), no money, ...
     "monpet_lines": ("EXE", 0x77C58, 0x77CC8, 0x20),  # monpet naming prompts; 0x77CC8+ is a number table
+    # field pages ending 0x3000 after event data (not found as pages): 0x80043B88 shows the first at a map edge
+    "no_way_back": ("EXE", 0x77808, 0x77828, 0x10),
     "places": ("FDS", 0x120D8, 0x124AC, 0x14),  # 10-cell place names; u32 table 0x124AC = first slot per episode
     "voices": ("FDS", 0x18550, 0x18596, 0x0E),  # 7-cell voice names (なんでやねん ..; TTL.json has its own copy)
 }

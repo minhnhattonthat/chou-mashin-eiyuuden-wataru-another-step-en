@@ -75,6 +75,21 @@ CODE = [
     # Title Config value column x 115 -> 123: "Mashin Battle" (7 cells from x 9) touched its value at 115.
     ("PRG/TTL.BIN", 0x360C, 0x3C030073, 0x3C03007B, "config values: lui v1,0x7B (actor x)"),
 ]
+# Monpet name entry (FDS task 0x250 from field state 0xB, docs/re/debug.md): 90 u16 codes at FDS 0x18470 drawn as
+# 9 rows of two 5-wide panels (index row * 5 + col, right panel 45+). The かな/カナ key adds 0x55 to each code
+# (input 0x801078EC, draw 0x80107DFC / 0x80107EAC; input skips 0 and 0xAA-0xAC). English: single-letter cells at
+# fixed codes at the end of the compose table (stable across builds, so names in saves survive a patch update),
+# lower case = upper + len(keys): the key switches case. Its label (glyphs uploaded by code: カナ 0x5B 0x6A / かな
+# 6 0x15) -> "A/a" in blank MSG_CG slots NAME_LABEL. In the second mode the right panel's row 7 isn't redrawn and
+# its first cell gets glyph 0x8D (ヴ): that cell is 0 (blank) and the upload code 0; its other cells are one symbol
+# in both cases. Cells 85-89 (case key, blank, Exit) stay.
+NAME_GRID = 0x18470
+NAME_ROWS = ["ABCDEFGHIJ", "KLMNOPQRST", "UVWXYZ.-!?", "0123456789"]  # shown rows, upper case; the rest blank
+NAME_LABEL = {0x55: "A/", 0x8E: "a "}
+NAME_CODE = [(0x108EC, 0x24840055, None), (0x10DFC, 0x24420055, None), (0x10EAC, 0x24420055, None),  # case offset
+             (0x10F14, 0x26842D80, 0x26842A80), (0x10F3C, 0x26843500, 0x26844700),  # label: addiu a0,s4,code*128
+             (0x10F64, 0x26840300, 0x26842A80), (0x10F88, 0x26840A80, 0x26844700),
+             (0x10F40, 0x26844680, 0x26840000)]  # ヴ over the blank cell 80 -> code 0
 
 
 def not_text():
@@ -193,6 +208,21 @@ def allocate(uses):
     if len(order) > compose.TABLE_MAX:
         raise SystemExit(f"insert: {len(order)} letter pairs, the compose table holds {compose.TABLE_MAX}")
     return {"  ": 0, **{p: compose.PAIR_FIRST + i for i, p in enumerate(order)}}
+
+
+def name_grid(orig, end):
+    """Original 90 grid codes, end of the pair codes -> (new grid, {code: pair}, case offset) (see NAME_GRID)."""
+    keys = sorted(set("".join(NAME_ROWS)) | {" "})
+    n, base = len(keys), end - 2 * len(keys)
+    grid = list(orig)
+    for r in range(9):
+        for c in range(10):
+            i = r * 5 + c if c < 5 else 45 + r * 5 + c - 5
+            ch = NAME_ROWS[r][c] if r < len(NAME_ROWS) and c < len(NAME_ROWS[r]) else " "
+            grid[i] = 0 if i == 80 else base + keys.index(ch) if i < 85 else orig[i]
+    pairs = {base + k: ch + " " for k, ch in enumerate(keys)}
+    pairs.update({base + n + k: ch.lower() + " " for k, ch in enumerate(keys)})
+    return grid, pairs, n
 
 
 def put(bufs, orig, path, off, data, by):
@@ -315,8 +345,21 @@ def edits(qa=None, english=True):
     for path, off, old, new, why in CODE:
         assert struct.unpack_from("<I", orig[load(path)], off)[0] == old, (path, hex(off))
         put(bufs, orig, path, off, struct.pack("<I", new), "code " + why)
-    cg, cnf, exe = load("FM16/MSG_CG.BIN"), load("OUT/CNF_MSG.BIN"), load(EXE)
-    table = compose.table_bytes([p for p, c in sorted(codes.items(), key=lambda pc: pc[1]) if c])
+    cg, cnf, exe, fds = load("FM16/MSG_CG.BIN"), load("OUT/CNF_MSG.BIN"), load(EXE), load("FPRG/FDS.BIN")
+    pairs = [p for p, c in sorted(codes.items(), key=lambda pc: pc[1]) if c]
+    end = compose.PAIR_FIRST + (len(orig[cg]) - (compose.TABLE - compose.FONT_RAM)) // 2  # MSG_CG's last byte
+    grid, grid_pairs, case = name_grid(struct.unpack_from("<90H", orig[fds], NAME_GRID), end)
+    assert compose.PAIR_FIRST + len(pairs) <= min(grid_pairs), "name grid codes overlap the text's pairs"
+    pairs += ["  "] * (min(grid_pairs) - compose.PAIR_FIRST - len(pairs)) + [grid_pairs[c] for c in sorted(grid_pairs)]
+    if english:
+        put(bufs, orig, fds, NAME_GRID, struct.pack("<90H", *grid), "name grid")
+        for off, old, new in NAME_CODE:
+            assert struct.unpack_from("<I", orig[fds], off)[0] == old, hex(off)
+            put(bufs, orig, fds, off, struct.pack("<I", new if new is not None else old & 0xFFFF0000 | case),
+                "code name grid")
+        for k, pair in NAME_LABEL.items():
+            put(bufs, orig, cg, 0x5300 + k * 128, digraph.cell(pair), f"name key label {k:X}")
+    table = compose.table_bytes(pairs)
     for f in (cg, cnf):
         put(bufs, orig, f, compose.FONT - compose.FONT_RAM, compose.font_bytes(), "compose font")
         put(bufs, orig, f, compose.TABLE - compose.FONT_RAM, table, "compose table")

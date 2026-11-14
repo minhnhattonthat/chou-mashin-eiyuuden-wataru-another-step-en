@@ -72,7 +72,7 @@ def test_references_follow_entries(built):
         starts = sorted(new)
         aimed = {o + i for o, _, d, by in insert.WRITES.get(path, [])
                  if " ptr " in f" {by}" or by.endswith(" cells") or by.startswith("code strip") or
-                 by.startswith("strip ") or by.startswith("gfx rec ") for i in range(len(d))}
+                 by.startswith("strip ") or by.startswith("gfx rec ") or by == "name grid" for i in range(len(d))}
         patched = {o for o, _, _, by in insert.WRITES.get(path, []) if by.startswith("code ")}
         slots = [s for s in moved]
         slots += [(o, o + 2 * av) for e, p, o, w, av, *_ in insert.entries() if p == path and (o, o + 2 * av) not in moved]

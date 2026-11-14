@@ -62,6 +62,10 @@ def allowed_spans(path, orig):
     if path == "FM16/MSG_CG.BIN":
         s.append((insert.BF_FIRST * 64, (insert.BF_FIRST + 0x5F) * 64))
         s += [(0x5300 + k * 128, 0x5300 + k * 128 + 128) for k in insert.digraph.ICONS]  # element icons
+        s += [(0x5300 + k * 128, 0x5300 + k * 128 + 128) for k in insert.NAME_LABEL]  # name-entry case key
+    if path == "FPRG/FDS.BIN":
+        s.append((insert.NAME_GRID, insert.NAME_GRID + 180))
+        s += [(off, off + 4) for off, *_ in insert.NAME_CODE]
     if path == "PRG/MACHINE.BIN":
         s.append((insert.STRIP_LIST, insert.STRIP_END))
         for addiu, slti, names in insert.STRIP_ROWS:
@@ -128,6 +132,16 @@ def test_allocate_one_code_per_pair():
     assert m == {"  ": 0, "xy": insert.compose.PAIR_FIRST, "ab": insert.compose.PAIR_FIRST + 1}
     with pytest.raises(SystemExit):
         insert.allocate(Counter({chr(33 + i // 90) + chr(33 + i % 90): 1 for i in range(insert.compose.TABLE_MAX + 1)}))
+
+
+def test_name_grid_case_offset():
+    """Name entry: each shown key's lower-case code = upper + case offset; cell 80 blank, case key / Exit kept."""
+    orig = list(range(1, 91))
+    grid, pairs, n = insert.name_grid(orig, 0x1000)
+    assert grid[0] != grid[1] and pairs[grid[0]] == "A " and pairs[grid[0] + n] == "a "
+    assert pairs[grid[45]] == "F " and pairs[grid[45] + n] == "f " and pairs[grid[2 * 5]] == "U "
+    assert pairs[grid[3 * 5]] == "0 " == pairs[grid[3 * 5] + n]
+    assert grid[80] == 0 and grid[85:] == orig[85:] and max(pairs) == 0x1000 - 1
 
 
 def test_compose_tables_written(built):
