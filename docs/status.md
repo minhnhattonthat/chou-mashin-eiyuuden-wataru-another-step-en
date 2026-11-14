@@ -221,7 +221,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     room font per episode index verified (text.md: the kanji table is per episode index, R13.BIN needs two),
     field sub-state 0x8009C788, party stats, file table 0x80077240 (`tools/filetab.py`).
 - **Next (phase 8: QA in the emulator, `references/emulator-qa.md`, `references/graphics.md`):**
-  0. Finish the visual-QA gate on build e210ee37: if work/qa/retour.log lacks "in manifest", rerun `warp_all.py
+  0. Finish the visual-QA gate on build e210ee37. The re-tour started in session 10 (detached: warp_all ->
+     tour_sheets -> qa_gate init, ~40 min) may still be running: while this repo's pcsx-redux / warp_all.py
+     processes exist, wait; when work/qa/retour.log ends with "in manifest" it is done. If it died, rerun `warp_all.py
      --jobs 4`, `tools/tour_sheets.py`, `qa_gate.py init work/qa/manifest.tsv work/qa/tour --glob "*sheet*.png"
      --build build/wataru_en.bin`; then `qa_gate.py todo work/qa/manifest.tsv work/qa/verdicts --size 4 --out-dir
      work/qa/chunks` (clear old chunk files first) and `tools/vqa_codex.py <chunks> --jobs 5` (~1 min a chunk,
