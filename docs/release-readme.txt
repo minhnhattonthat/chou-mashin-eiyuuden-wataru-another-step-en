@@ -28,7 +28,8 @@ WHAT IS TRANSLATED
   All dialogue and narration in every episode, menus, items, abilities, monpets, shops, IQ-battle rules and hosts,
   ball-battle and mashin-battle text, episode cards, title and config screens, graphics with text (signs, cards,
   battle labels), the monpet name entry (Latin letters, both cases, digits), the memory-card save title, and the
-  staff roll (re-laid as Western credits).
+  staff roll (re-laid as Western credits). The four movies (opening song, prologue, summon, ending) have English
+  subtitles.
   Left in Japanese: spoken voices and songs (audio).
 
 KNOWN LIMITS

@@ -2,11 +2,11 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: done (2026-11-15). `tools/release.py` passed every gate on build **02e1b54d** and wrote
-  `release/Wataru-Another-Step_EN_v1.0.zip` (xdelta + README.txt; zip sha1 d38ab729..., patched CRC32 064D3105,
-  re-applied identical). Publishing (tag, `gh release create`) is the owner's call: not done.
-  **That zip is now stale**: FMV subtitles (below) changed the disc; build **c5b3aa44** needs the release gate rerun
-  (qa_gate will say STALE: re-tour or waive the scenes, then `tools/release.py`).
+- **Phase:** 9. **v1.0 published** (2026-11-15, owner's request): repo public, GitHub release v1.0 with
+  `release/Wataru-Another-Step_EN_v1.0.zip` (zip sha1 25a9abbf..., xdelta sha1 c541336c..., patched build
+  **c5b3aa44** CRC32 DD5B4CE2, re-applied identical). Gate: every check passed; qa_gate waived as hotfix (only the 4
+  STRs changed since the 02e1b54d tour), the FMV listen item in polish.md waived (best-guess hearings).
+  Next: player bug reports (`gh issue list --label bug`).
 - **Done:**
   - Session 25 (2026-11-15): **FMV subtitles** (D26), all 4 movies PRG/WATA01-04 (OUT/*.STR are audio only).
     Lines in `script/fmv.tsv` (faster-whisper large-v3 transcripts in work/fmv/*.asr.tsv, checked by ear-free

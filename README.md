@@ -18,7 +18,8 @@ helps most.
 | Title and config screens, episode cards, signs and battle labels drawn as graphics | Translated |
 | Monpet name entry | Translated (Latin letters, both cases, digits) |
 | Staff roll | Translated (re-laid as Western credits) |
-| Voices and songs (audio) | Left in Japanese |
+| Movies (opening with its song, prologue, summon, ending) | English subtitles; voices left in Japanese |
+| In-game voices and songs (audio) | Left in Japanese |
 
 Known issues: none known; see [Issues](../../issues). Every scene was reached with a debug warp and checked on
 screenshots, but no one has played it start to end yet. Ball-battle text was checked on screenshots only.
@@ -50,7 +51,7 @@ git clone https://github.com/minhnhattonthat/chou-mashin-eiyuuden-wataru-another
 cd chou-mashin-eiyuuden-wataru-another-step-en
 # copy your dump (.bin + .cue) to: rom/Chou Mashin Eiyuuden Wataru - Another Step (Japan).bin
 #   (486099600 bytes, SHA-1 c2c044d17f5235ff8a419d554b2dd3ab82db2161; the build refuses any other dump, see rom.sha1)
-# tools: mkpsxiso 2.30 in tools/mkpsxiso/ (see AGENTS.md)
+# tools: mkpsxiso 2.30 in tools/mkpsxiso/, jPSXdec 2.0 in tools/jpsxdec/ (needs Java), ffmpeg on PATH (see AGENTS.md)
 python -X utf8 tools/build.py                          # -> build/wataru_en.bin + .cue
 python -X utf8 tools/check.py                          # tests + text lint
 ```
