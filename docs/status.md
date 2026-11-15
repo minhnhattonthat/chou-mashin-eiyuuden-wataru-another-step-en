@@ -7,6 +7,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   **c5b3aa44** CRC32 DD5B4CE2, re-applied identical). Gate: every check passed; qa_gate waived as hotfix (only the 4
   STRs changed since the 02e1b54d tour), the FMV listen item in polish.md waived (best-guess hearings).
   Next: player bug reports (`gh issue list --label bug`).
+  **Fixed in v1.1 (2026-11-16, user report, no issue):** v1.0 hangs in the prologue village-exit cutscene after "Wataru:
+  Okay, we're off!" (empty box, script ptr 0x800E0874 = the moved bank's 3000). Cause: roompack units ended a room's
+  last bank at its final page; the event tail before the bank pointer array (R00 `0016 FFFB FFFF`) stayed behind
+  when the bank moved to the overlay end. Fixed in tools/roompack.py `units()` (13 rooms' last banks), selftest
+  assert, check 116 ok. Verified by the user in DuckStation (their state 1 with the fixed R00 swapped into RAM);
+  headless repro not possible (cutscene on its own map; an NPC group blocks the road, unlocking flag unknown).
 - **Done:**
   - Session 25 (2026-11-15): **FMV subtitles** (D26), all 4 movies PRG/WATA01-04 (OUT/*.STR are audio only).
     Lines in `script/fmv.tsv` (faster-whisper large-v3 transcripts in work/fmv/*.asr.tsv, checked by ear-free

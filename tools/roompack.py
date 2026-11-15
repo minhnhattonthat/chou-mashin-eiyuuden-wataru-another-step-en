@@ -62,9 +62,17 @@ def units(name):
             out.append(cur)
         cur["pages"].append((off, n))
         cur["end"] = end
-    for a, b in zip(out, out[1:]):  # bytecode / padding up to the next unit (FBFF FFFF.., FEFF n..) travels along
-        if a["kind"] in ("bank", "ptr") and b["kind"] in ("bank", "ptr") and 0 < b["start"] - a["end"] <= 64:
+    tables = [arr - rooms.BASE for n, _, arr in rooms.CASES if n == name]  # bank pointer arrays: EXE-addressed, stay
+    for a, b in zip(out, out[1:] + [None]):  # bytecode / padding up to the next unit (FBFF FFFF.., FEFF n..) travels along
+        if a["kind"] not in ("bank", "ptr"):
+            continue
+        if b and b["kind"] in ("bank", "ptr") and 0 < b["start"] - a["end"] <= 64 and \
+                not any(a["end"] <= t < b["start"] for t in tables):
             a["end"] = b["start"]
+        elif any(0 < t - a["end"] <= 64 for t in tables):
+            # a room's last bank ends `3000 0016 FFFB FFFF` before its pointer array: left behind when the bank moved,
+            # the event ran into the next unit's text and hung (R00 village exit, after "Okay, we're off!")
+            a["end"] = min(t for t in tables if 0 < t - a["end"] <= 64)
     return out
 
 
@@ -181,6 +189,10 @@ def selftest():
         assert all(b["start"] in ptr for b in us if b["kind"] in ("bank", "ptr")), name
         inside = lambda x: any(u["start"] <= x < u["end"] for u in us)  # noqa: E731
         assert not any(inside(k) and inside(t) for t, ks in ptr.items() for k in ks), name  # no text pointer moves
+        for _, _, arr in (c for c in rooms.CASES if c[0] == name):  # a bank's tail bytecode moves with it
+            last = max((u["end"] for u in us if u["end"] <= arr - rooms.BASE), default=0)
+            assert arr - rooms.BASE - last > 64 or not any(data[last:arr - rooms.BASE]), name
+    assert unit_of("R00", 0xE5D2)["end"] == 0xE5D8  # village exit: `0016 FFFB FFFF` after "Okay, we're off!"
 
 
 if __name__ == "__main__":
