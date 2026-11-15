@@ -6,6 +6,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `release/Wataru-Another-Step_EN_v1.0.zip` (zip sha1 25a9abbf..., xdelta sha1 c541336c..., patched build
   **c5b3aa44** CRC32 DD5B4CE2, re-applied identical). Gate: every check passed; qa_gate waived as hotfix (only the 4
   STRs changed since the 02e1b54d tour), the FMV listen item in polish.md waived (best-guess hearings).
+  **v1.1 published** (2026-11-16): hotfix below; zip sha1 570921b7..., xdelta sha1 584e1dfd..., patched build
+  **146e7872** CRC32 1FAB3DA3. Gate: qa_gate tour waived by the owner (hotfix, no text/gfx change); coverage logs
+  remapped to the new keys (old keys rebuilt from the v1.0 overlays; v1.0 logs kept in work/qa/cover_v10).
   Next: player bug reports (`gh issue list --label bug`).
   **Fixed in v1.1 (2026-11-16, user report, no issue):** v1.0 hangs in the prologue village-exit cutscene after "Wataru:
   Okay, we're off!" (empty box, script ptr 0x800E0874 = the moved bank's 3000). Cause: roompack units ended a room's
